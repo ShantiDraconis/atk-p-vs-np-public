@@ -7,6 +7,22 @@ Legenda: **ABERTO** = alvo exato enunciável, nenhuma declaração desse tipo no
 **CONDICIONAL** = existe resultado que fecharia o alvo *se* uma hipótese explícita for
 demonstrada · **NÃO_ENUNCIÁVEL** = o alvo exato não existe na Mathlib v4.34.1.
 
+## 0. Ponte no formato NS — certificada no kernel
+
+Mesmo formato do Navier–Stokes (`clayC_of_fc : FCBreakdownR3 → ClayC`), agora **sem modelo
+interno nem seleção existencial de modelo** (resolve P3):
+
+| Peça | Declaração (`audit/lean/ATK/PNPBridge.lean`) |
+|---|---|
+| Alvo exato | `ATK.Exact.P_ne_NP` (máquinas `TM2` da Mathlib, tempo polinomial) |
+| Linguagem | `SAT` — CNF codificada por pares de bits; sanidade: `nil_mem_SAT`, `emptyClause_unsat`, `single_not_mem_SAT` |
+| Hipótese H | `H_PNP := SATInNP ∧ G21Pointwise SAT` — as duas lacunas do programa (P01, G2.1) no modelo da Mathlib |
+| Ponte | `pne_np_of_H : H_PNP → ATK.Exact.P_ne_NP` |
+| Peça-chave | `g21_iff_not_inP`: a forma pontual G2.1 ("todo candidato polinomial erra em alguma entrada") é exatamente `¬ InP` |
+| Força de H | P01: teorema clássico, máquina `TM2` ainda não construída; G2.1(SAT) ⇔ `SAT ∉ P` — com Cook–Levin, o próprio P ≠ NP |
+| Falsificador | `H_refuted_by_decider`: um decisor polinomial `TM2` para SAT |
+| Kernel | **7/7 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1 (workflow `audit-kernel`) |
+
 ## 1. Alvo exato
 
 A Mathlib não define as classes P e NP, mas define máquinas de Turing e tempo polinomial
@@ -14,7 +30,7 @@ A Mathlib não define as classes P e NP, mas define máquinas de Turing e tempo 
 `InP`, `InNP`, `P_eq_NP`, `P_ne_NP` (com `P_ne_NP ↔ ¬ P_eq_NP` provado). No portão ATK só contam
 declarações de tipo exatamente `ATK.Exact.P_ne_NP` ou `ATK.Exact.P_eq_NP`.
 
-**Estado no portão: ABERTO.**
+**Estado no portão: CONDICIONAL** — ponte certificada; P01 por formalizar, G2.1 em aberto.
 
 ## 2. Varredura do conteúdo
 
@@ -43,13 +59,13 @@ fixado em P3) refuta `G21Pointwise`.
 
 ## 5. Condição para mudar o estado
 
-ABERTO → FECHADO somente com uma declaração de tipo `ATK.Exact.P_ne_NP` (ou `P_eq_NP`) aceita
+CONDICIONAL → FECHADO somente com uma declaração de tipo `ATK.Exact.P_ne_NP` (ou `P_eq_NP`) aceita
 pelo portão, sem `sorry`, só com os axiomas padrão e sem a conclusão (ou um equivalente, como
 `G21Pointwise`) entre as hipóteses.
 
 ---
 
-**English summary.** Status CONDITIONAL / gate OPEN. The imported final theorem is an implication
+**English summary.** Status CONDITIONAL: kernel-checked bridge `SAT ∈ NP ∧ G2.1(SAT) → P_ne_NP` on Mathlib's TM2 machines, with `G2.1 ↔ ¬InP` certified (7/7). The imported final theorem is an implication
 from `P01ConstructionGap ∧ G21Pointwise`. P01 (SAT ∈ NP in the internal NTM model) is true but
 not yet constructed; `G21Pointwise` is provably equivalent to SAT ∉ P, i.e. it *is* the open
 problem. The existential "official model selection" must be replaced by a proven equivalence

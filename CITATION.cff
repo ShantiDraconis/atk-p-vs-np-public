@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+message: "Please cite this repository when using its original results."
+authors:
+  - family-names: Fagliari
+    given-names: Tiago Paschoalatto
+    orcid: https://orcid.org/0009-0006-6874-3910
+repository-code: https://github.com/ShantiDraconis/atk-p-vs-np-public

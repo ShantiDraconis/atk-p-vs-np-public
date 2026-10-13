@@ -5,3 +5,8 @@ ATK.PNPBridge.g21_iff_not_inP
 ATK.PNPBridge.pne_np_of_H
 ATK.PNPBridge.H_iff
 ATK.PNPBridge.H_refuted_by_decider
+ATK.PNPExplosion.lowerBound_iff_no_collapse
+ATK.PNPExplosion.explosion_dichotomy
+ATK.PNPExplosion.collapse_refutes_H
+ATK.PNPExplosion.lowerBound_closes
+ATK.PNPExplosion.target_iff_no_total_collapse

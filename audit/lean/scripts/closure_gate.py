@@ -143,6 +143,12 @@ def main():
             row.update(accepted=r["accepted"], reason=r["reason"], axioms=r["axioms"])
         cert_rows.append(row)
 
+    # ---------- regime suave: sub-alvos (versões relaxadas que já são teoremas) ----------
+    sub_rows = []
+    for i, st in enumerate(reg.get("subtargets", [])):
+        r = run(f"sub_{i}", st["type"], st.get("term") or f"@{st['decl']}")
+        sub_rows.append({**st, "accepted": r["accepted"], "reason": r["reason"], "axioms": r["axioms"]})
+
     # ---------- bandeiras por alegação ----------
     claims = {}
     for claim in targets:
@@ -162,7 +168,8 @@ def main():
     closed_any = [c for c, v in claims.items() if v["CLOSED_MATH"]]
     out = {"problem": problem, "gate_valid": valid, "claims": claims,
            "CLOSED_MATH": {c: v["CLOSED_MATH"] for c, v in claims.items()},
-           "controls": rows, "routes": route_rows, "closures": cert_rows}
+           "controls": rows, "routes": route_rows, "closures": cert_rows,
+           "CLOSED_MATH_SUB": {st["name"]: st["accepted"] for st in sub_rows}, "subtargets": sub_rows}
     json.dump(out, open(os.path.join(rep, "closure_line.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=2)
 
@@ -173,6 +180,12 @@ def main():
     for c, v in claims.items():
         L.append(f"| {c} | `{targets[c]}` | **{'true' if v['CLOSED_MATH'] else 'false'}** | "
                  f"{', '.join('`'+d+'`' for d in v['by']) or '—'} | {'<br>'.join(v['routes']) or '—'} |")
+    if sub_rows:
+        L += ["", "### Regime suave — sub-alvos (versões relaxadas; NÃO são o alvo oficial)", "",
+              "| Sub-alvo | CLOSED_MATH_SUB | Declaração | Relação com o alvo |", "|---|---|---|---|"]
+        for st in sub_rows:
+            L.append(f"| {st['name']} | **{'true' if st['accepted'] else 'false'}** | "
+                     f"`{st.get('term') or st['decl']}` | {st.get('relation', '')} |")
     L += ["", "### Controles", "", "| Controle | Esperado | Obtido | OK |", "|---|---|---|---|"]
     for r in rows:
         L.append(f"| {r['label']} | {'aceitar' if r['expected'] else 'recusar'} | "
@@ -188,12 +201,16 @@ def main():
         flags = " · ".join(f"{c}={'true' if v['CLOSED_MATH'] else 'false'}" for c, v in claims.items())
         print(f"::notice title=CLOSED_MATH[{problem}] {flags} · portão {'VÁLIDO' if valid else 'INVÁLIDO'}::"
               + esc("\n".join(f"{c}: " + (", ".join(v['by']) or "sem certificado") for c, v in claims.items())))
+        if sub_rows:
+            print(f"::notice title=Regime suave {problem}: {sum(st['accepted'] for st in sub_rows)}/{len(sub_rows)} sub-alvos fechados::" + esc("\n".join(
+                f"{'true' if st['accepted'] else 'false'} | {st['name']} | {st['reason']}" for st in sub_rows)))
         print("::notice title=Rotas registradas::" + esc("\n".join(
             f"{r['kind']} {r['decl']} — {'certificada' if r['accepted'] else 'RECUSADA'} ({r['reason']})"
             for r in route_rows) or "nenhuma"))
         print("::notice title=Controles do portão::" + esc("\n".join(
             f"{'OK' if r['ok'] else 'FALHOU'} | {r['label']} | {'aceito' if r['accepted'] else 'recusado'} | {r['reason']}"
             for r in rows)))
+    valid = valid and all(st['accepted'] for st in sub_rows)
     return 0 if valid else 1
 
 

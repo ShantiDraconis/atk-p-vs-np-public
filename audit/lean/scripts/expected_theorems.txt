@@ -1,0 +1,7 @@
+ATK.PNPBridge.nil_mem_SAT
+ATK.PNPBridge.emptyClause_unsat
+ATK.PNPBridge.single_not_mem_SAT
+ATK.PNPBridge.g21_iff_not_inP
+ATK.PNPBridge.pne_np_of_H
+ATK.PNPBridge.H_iff
+ATK.PNPBridge.H_refuted_by_decider

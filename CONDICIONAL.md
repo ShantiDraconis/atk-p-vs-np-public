@@ -23,6 +23,17 @@ interno nem seleção existencial de modelo** (resolve P3):
 | Falsificador | `H_refuted_by_decider`: um decisor polinomial `TM2` para SAT |
 | Kernel | **7/7 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1 (workflow `audit-kernel`) |
 
+## 0b. Linha de explosão — certificada no kernel
+
+| Peça | Declaração (`audit/lean/ATK/PNPExplosion.lean`) |
+|---|---|
+| Explosão de cota inferior | `LowerBoundExplosion := G21Pointwise SAT` — todo candidato polinomial erra |
+| Explosão de colapso | `CollapseWitness := InP SAT` — decisor `TM2` polinomial para SAT |
+| Dicotomia | `explosion_dichotomy`: exatamente uma das duas acontece |
+| Fechamentos | `lowerBound_closes : SATInNP → LowerBoundExplosion → P_ne_NP`; `collapse_refutes_H` |
+| Alvo | `target_iff_no_total_collapse : P_ne_NP ↔ ¬ P_eq_NP` |
+| Estado | **nenhuma das duas conhecida** |
+
 ## 1. Alvo exato
 
 A Mathlib não define as classes P e NP, mas define máquinas de Turing e tempo polinomial

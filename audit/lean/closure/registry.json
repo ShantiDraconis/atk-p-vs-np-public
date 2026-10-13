@@ -1,0 +1,32 @@
+{
+  "_doc": "Linha de fechamento: CLOSED_MATH é calculado por scripts/closure_gate.py a partir destas entradas. Um certificado é uma declaração SEM hipóteses de tipo exatamente um dos alvos. Pontes e explosões são rotas.",
+  "problem": "P vs NP",
+  "imports": [
+    "ATK"
+  ],
+  "main_claim": "P≠NP",
+  "targets": {
+    "P≠NP": "ATK.Exact.P_ne_NP",
+    "P=NP": "ATK.Exact.P_eq_NP"
+  },
+  "negations": {
+    "P≠NP": "P=NP"
+  },
+  "closures": [],
+  "bridges": [
+    {
+      "claim": "P≠NP",
+      "decl": "ATK.PNPBridge.pne_np_of_H",
+      "hypothesis": "ATK.PNPBridge.H_PNP",
+      "status": "P01 clássico não formalizado; G2.1 aberta"
+    }
+  ],
+  "explosions": [
+    {
+      "claim": "P≠NP",
+      "decl": "ATK.PNPExplosion.lowerBound_closes",
+      "hypothesis": "ATK.PNPBridge.SATInNP → ATK.PNPExplosion.LowerBoundExplosion",
+      "status": "explosão de cota inferior: não conhecida"
+    }
+  ]
+}

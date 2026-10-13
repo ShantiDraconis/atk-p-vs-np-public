@@ -56,6 +56,9 @@ jobs:
           code=$?
           cat reports/report.md >> "$GITHUB_STEP_SUMMARY"
           exit $code
+      - name: Linha de fechamento — CLOSED_MATH calculado pelo kernel
+        shell: bash
+        run: python3 scripts/closure_gate.py --root . --registry closure/registry.json
       - uses: actions/upload-artifact@v4
         if: always()
         with:

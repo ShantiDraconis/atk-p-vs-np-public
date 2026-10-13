@@ -1,0 +1,20 @@
+name: Lean verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inventory imported files
+        run: |
+          find imports -type f | sort
+          echo "Imported files are research sources; this job is not a Lean proof certificate."
+      - name: Detect unverified proof placeholders
+        run: |
+          if grep -R -n -E '\\b(sorry|admit)\\b' --include='*.lean' imports; then
+            echo 'Review proof placeholders before any certification.'
+            exit 1
+          fi

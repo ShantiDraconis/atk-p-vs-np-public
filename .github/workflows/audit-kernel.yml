@@ -1,0 +1,66 @@
+name: Ponte condicional — kernel ATK
+
+on:
+  push:
+    paths:
+      - 'audit/lean/**'
+      - '.github/workflows/audit-kernel.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  kernel:
+    name: Lean 4.34.1 + Mathlib — compilação e auditoria de axiomas
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    defaults:
+      run:
+        working-directory: audit/lean
+    steps:
+      - uses: actions/checkout@v4
+      - name: Instalar elan
+        shell: bash
+        run: |
+          curl -sSfL https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh -o elan-init.sh
+          bash elan-init.sh -y --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Mathlib (cache oficial)
+        shell: bash
+        run: |
+          mkdir -p reports
+          lean --version | tee reports/toolchain.txt
+          lake exe cache get || (lake update && lake exe cache get)
+      - name: lake build
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          lake build 2>&1 | tee reports/build.log
+      - name: Kernel + #print axioms por arquivo
+        shell: bash
+        run: |
+          : > reports/file_status.txt
+          for f in ATK/*.lean; do
+            m=$(basename "$f" .lean)
+            if lake env lean "$f" > "reports/audit_${m}.log" 2>&1; then echo "$f OK" >> reports/file_status.txt; else echo "$f FAIL" >> reports/file_status.txt; fi
+          done
+          cat reports/file_status.txt
+          cp lake-manifest.json reports/ || true
+      - name: Relatório
+        shell: bash
+        run: |
+          set +e
+          python3 scripts/check_axioms.py
+          code=$?
+          cat reports/report.md >> "$GITHUB_STEP_SUMMARY"
+          exit $code
+      - name: Linha de fechamento — CLOSED_MATH calculado pelo kernel
+        shell: bash
+        run: python3 scripts/closure_gate.py --root . --registry closure/registry.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-kernel-report
+          path: audit/lean/reports/

@@ -23,6 +23,17 @@ interno nem seleção existencial de modelo** (resolve P3):
 | Falsificador | `H_refuted_by_decider`: um decisor polinomial `TM2` para SAT |
 | Kernel | **7/7 CERTIFIED** — Lean 4.34.1 + Mathlib v4.34.1 (workflow `audit-kernel`) |
 
+## 0a. P01 no modelo do programa — FECHADO
+
+No modelo endurecido do próprio programa (`m-core-p-vs-np`, máquinas NTM de alfabeto
+`Option Bool` e controle finito), o P01 está **fechado**:
+`P01RawTotalizationProducer.p01ConstructionGap_closed : P01ConstructionGap` — uma máquina concreta
+que decide `SATBits circuitBitEncoding` em tempo polinomial (auditoria fail-closed, runs
+37913791428 de 09/10 e 38420031935 de 13/10, axiomas padrão). Recomposição certificada
+(`PNPAfterP01`): `sat_in_np` incondicional e `pneqnp_of_universal_failure` — **no modelo do programa,
+P ≠ NP depende só de G2.1**. A ponte desta página usa o modelo `TM2` da Mathlib, onde o P01 ainda
+precisa ser refeito; a G2.1 é a mesma pergunta nos dois modelos.
+
 ## 0b. Linha de explosão — certificada no kernel
 
 | Peça | Declaração (`audit/lean/ATK/PNPExplosion.lean`) |

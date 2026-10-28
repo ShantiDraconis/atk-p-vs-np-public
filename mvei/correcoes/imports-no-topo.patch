@@ -1,0 +1,702 @@
+--- a/audit/ATK_EXACT_OPEN_PROOF_FRONTIER_20261009.lean
++++ b/audit/ATK_EXACT_OPEN_PROOF_FRONTIER_20261009.lean
+@@ -1,9 +1,18 @@
++import MCore.Real.P01FullVerifierPhysicalShuttles
++import MCore.Real.MachineRunLemmas
++import MCore.Real.P01FinalCertificate
++import MCore.Real.P02G21G22Attack
++import MCore.Real.CookNormalizedG3Contract
++import MCore.Real.FinalExternalCertificate
++import MCore.Real.P02TerminalFrontier
++import MCore.Real.CanonicalSATBoundary
++import MCore.Real.CanonicalCircuitBits
++import MCore.Real.G3ModelMatch
++
+ /-! ATK OPEN MATERIAL FRONTIER — sourced exact Lean bodies; not a kernel-certified final proof. -/
+ 
+ 
+ /- BEGIN lean/MCore/Real/P01FullVerifierSourceRewind.lean SHA 30d21ee3d2ba4e65f8a388c2b92635fc179b908f -/
+-import MCore.Real.P01FullVerifierPhysicalShuttles
+-import MCore.Real.MachineRunLemmas
+ 
+ namespace MCore
+ namespace Real
+@@ -190,10 +199,6 @@
+ /- END lean/MCore/Real/P01FullVerifierSourceRewind.lean -/
+ 
+ /- BEGIN imports/pnp/b406b806/lean/MCore/Real/FinalExternalTwoGap.lean SHA e69542b077ccd7b375c47fbc14a72fd03e9bf2ac -/
+-import MCore.Real.P01FinalCertificate
+-import MCore.Real.P02G21G22Attack
+-import MCore.Real.CookNormalizedG3Contract
+-import MCore.Real.FinalExternalCertificate
+ 
+ namespace MCore
+ namespace Real
+@@ -253,7 +258,6 @@
+ /- END imports/pnp/b406b806/lean/MCore/Real/FinalExternalTwoGap.lean -/
+ 
+ /- BEGIN imports/pnp/c102d9d4/lean/MCore/Real/P02G21G22Attack.lean SHA ffd00b23cbbf4cb09f1f8c2ded111c32dbf62571 -/
+-import MCore.Real.P02TerminalFrontier
+ 
+ namespace MCore
+ namespace Real
+@@ -346,9 +350,6 @@
+ /- END imports/pnp/c102d9d4/lean/MCore/Real/P02G21G22Attack.lean -/
+ 
+ /- BEGIN imports/pnp/c102d9d4/lean/MCore/Real/FinalExternalCertificate.lean SHA 12c9dbd5fd2fca8e2c1634d6cc5cec87fdefe1a3 -/
+-import MCore.Real.CanonicalSATBoundary
+-import MCore.Real.CanonicalCircuitBits
+-import MCore.Real.G3ModelMatch
+ 
+ namespace MCore
+ namespace Real
+--- a/audit/ATK_UNIFIED_SOURCE_BATCH01_20261009.lean
++++ b/audit/ATK_UNIFIED_SOURCE_BATCH01_20261009.lean
+@@ -1,9 +1,27 @@
++import MCore.Core
++import Mathlib
++import MCore.FinalFail.ExactGapLedger
++import MCore.FinalFail.RecoveryFirewall
++import MCore.FinalFail.DeltaIsolation
++import MCore.FinalFail.ArtifactAttachment
++import MCore.FinalFail.TriadicObstructionCalculus
++import MCore.FinalFail.ClosedCenterHard
++import MCore.FinalFail.FundamentalIndeterminacy
++import MCore.FinalFail.RelationalHardAtom
++import MCore.FinalFail.Attack.Beal
++import MCore.FinalFail.Attack.NavierStokes
++import MCore.FinalFail.UniversalTerminalClosure
++import MCore.FinalFail.RPAConfirmation
++import MCore.FinalFail.RPALattice
++import MCore.FinalFail.RPALatticeCube3
++import MCore.FinalProofRegistry
++import MCore.FinalFail.BoundaryAtoms
++import MCore.FinalFail.SevenLocalNuclei
++
+ /- ATK source archive: partial batch; not a terminal certificate; individual Lean modules may conflict when concatenated. -/
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/MCore/A3Zero.lean | blob b654a179a0de5031325fcc5bc62e8714d498e61d -/
+-import MCore.Core
+-import Mathlib
+ 
+ namespace MCore
+ 
+@@ -33,8 +51,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/MCore/A1Amplitude.lean | blob 261996779e5270ba15c8614b3f8e7de413de68ab -/
+-import MCore.Core
+-import Mathlib
+ 
+ namespace MCore
+ 
+@@ -73,16 +89,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Master.lean | blob 42e8e6593133c9bd60df2394b63c4889816c2257 -/
+-import MCore.FinalFail.ExactGapLedger
+-import MCore.FinalFail.RecoveryFirewall
+-import MCore.FinalFail.DeltaIsolation
+-import MCore.FinalFail.ArtifactAttachment
+-import MCore.FinalFail.TriadicObstructionCalculus
+-import MCore.FinalFail.ClosedCenterHard
+-import MCore.FinalFail.FundamentalIndeterminacy
+-import MCore.FinalFail.RelationalHardAtom
+-import MCore.FinalFail.Attack.Beal
+-import MCore.FinalFail.Attack.NavierStokes
+ 
+ namespace MCore.FinalFail
+ 
+@@ -98,10 +104,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalProofRegistry.lean | blob da146e9aff03211b4a0eba3257bc8ca162773133 -/
+-import MCore.FinalFail.UniversalTerminalClosure
+-import MCore.FinalFail.RPAConfirmation
+-import MCore.FinalFail.RPALattice
+-import MCore.FinalFail.RPALatticeCube3
+ 
+ namespace MCore.FinalProof
+ 
+@@ -185,7 +187,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalProofFirewall.lean | blob 98921e6eaaa33b1ecb8ac09a3ad50d3ac1ccd9ae -/
+-import MCore.FinalProofRegistry
+ 
+ namespace MCore.FinalProof
+ 
+@@ -218,7 +219,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/ATK/StructuralDefect.lean | blob b2f8e24382fb4284e9a83116afb38926d7d8bafb -/
+-import Mathlib
+ 
+ namespace MCore.ATK.StructuralDefect
+ 
+@@ -342,7 +342,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/RPALattice.lean | blob 3f4d08972a7b8b1caf2780d97fdc2bae85551ab2 -/
+-import MCore.FinalFail.RPAConfirmation
+ 
+ namespace MCore.FinalFail.RPA
+ 
+@@ -446,7 +445,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Attack/Beal.lean | blob 4cffa2699e58327707686e969da9ab7822b5cc3a -/
+-import MCore.FinalFail.ArtifactAttachment
+ 
+ namespace MCore.FinalFail.Attack.Beal
+ 
+@@ -479,7 +477,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Semantic/BSD.lean | blob 9dd77c44d14f3e458adf269efaaed9d56c8f1f08 -/
+-import MCore.FinalFail.BoundaryAtoms
+ 
+ namespace MCore.FinalFail.Semantic
+ 
+@@ -521,7 +518,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Semantic/Beal.lean | blob 2180a91f98ff3ff56081e23d5aacf0ab47108cad -/
+-import MCore.FinalFail.BoundaryAtoms
+ 
+ namespace MCore.FinalFail.Semantic
+ 
+@@ -558,7 +554,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/BoundaryAtoms.lean | blob 53f0aadced7c97ee75d80dcb71ad96504de0e60a -/
+-import MCore.FinalFail.SevenLocalNuclei
+ 
+ namespace MCore.FinalFail
+ 
+@@ -659,7 +654,6 @@
+ 
+ 
+ /- SOURCE https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Semantic/PvsNP.lean | blob 196c1891220f2082bc213e0aaf2aebcb9927d82e -/
+-import MCore.FinalFail.BoundaryAtoms
+ 
+ namespace MCore.FinalFail.Semantic
+ 
+--- a/audit/ATK_UNIFIED_SOURCE_BATCH02_20261009.lean
++++ b/audit/ATK_UNIFIED_SOURCE_BATCH02_20261009.lean
+@@ -1,8 +1,29 @@
++import MCore.Core
++import Mathlib
++import MCore.A1Amplitude
++import MCore.A2SelfRef
++import MCore.A3Zero
++import MCore.A4Scale
++import MCore.FinalFail.ExactGapLedger
++import MCore.FinalFail.RecoveryFirewall
++import MCore.FinalFail.DeltaIsolation
++import MCore.FinalFail.ArtifactAttachment
++import MCore.FinalFail.TriadicObstructionCalculus
++import MCore.FinalFail.ClosedCenterHard
++import MCore.FinalFail.FundamentalIndeterminacy
++import MCore.FinalFail.RelationalHardAtom
++import MCore.FinalFail.Attack.Beal
++import MCore.FinalFail.Attack.NavierStokes
++import MCore.FinalFail.UniversalTerminalClosure
++import MCore.FinalFail.RPAConfirmation
++import MCore.FinalFail.RPALattice
++import MCore.FinalFail.RPALatticeCube3
++import MCore.FinalProofRegistry
++import MCore.FinalFail.SevenLocalNuclei
++
+ /- ATK BATCH02 — full source archive, not compiled; unique blobs in this batch. -/
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/MCore/A4Scale.lean blob ca603ba7a9530fcec798322f140b5203326a56a7 -/
+-import MCore.Core
+-import Mathlib
+ 
+ namespace MCore
+ 
+@@ -31,8 +52,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/MCore/A2SelfRef.lean blob 6f6c6050664b759d30427ef696f13d42917723dc -/
+-import MCore.Core
+-import Mathlib
+ 
+ namespace MCore
+ 
+@@ -64,7 +83,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/ATK/StructuralDefect.lean blob b2f8e24382fb4284e9a83116afb38926d7d8bafb -/
+-import Mathlib
+ 
+ namespace MCore.ATK.StructuralDefect
+ 
+@@ -188,10 +206,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/MCore/Admissible.lean blob 42c138699f8bb10d047d6f9405e36ac6b9e8fbc5 -/
+-import MCore.A1Amplitude
+-import MCore.A2SelfRef
+-import MCore.A3Zero
+-import MCore.A4Scale
+ 
+ namespace MCore
+ 
+@@ -219,8 +233,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/MCore/A1Amplitude.lean blob 261996779e5270ba15c8614b3f8e7de413de68ab -/
+-import MCore.Core
+-import Mathlib
+ 
+ namespace MCore
+ 
+@@ -259,16 +271,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Master.lean blob 42e8e6593133c9bd60df2394b63c4889816c2257 -/
+-import MCore.FinalFail.ExactGapLedger
+-import MCore.FinalFail.RecoveryFirewall
+-import MCore.FinalFail.DeltaIsolation
+-import MCore.FinalFail.ArtifactAttachment
+-import MCore.FinalFail.TriadicObstructionCalculus
+-import MCore.FinalFail.ClosedCenterHard
+-import MCore.FinalFail.FundamentalIndeterminacy
+-import MCore.FinalFail.RelationalHardAtom
+-import MCore.FinalFail.Attack.Beal
+-import MCore.FinalFail.Attack.NavierStokes
+ 
+ namespace MCore.FinalFail
+ 
+@@ -284,10 +286,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalProofRegistry.lean blob da146e9aff03211b4a0eba3257bc8ca162773133 -/
+-import MCore.FinalFail.UniversalTerminalClosure
+-import MCore.FinalFail.RPAConfirmation
+-import MCore.FinalFail.RPALattice
+-import MCore.FinalFail.RPALatticeCube3
+ 
+ namespace MCore.FinalProof
+ 
+@@ -371,7 +369,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalProofFirewall.lean blob 98921e6eaaa33b1ecb8ac09a3ad50d3ac1ccd9ae -/
+-import MCore.FinalProofRegistry
+ 
+ namespace MCore.FinalProof
+ 
+@@ -404,7 +401,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/RPALattice.lean blob 3f4d08972a7b8b1caf2780d97fdc2bae85551ab2 -/
+-import MCore.FinalFail.RPAConfirmation
+ 
+ namespace MCore.FinalFail.RPA
+ 
+@@ -508,7 +504,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/Attack/Beal.lean blob 4cffa2699e58327707686e969da9ab7822b5cc3a -/
+-import MCore.FinalFail.ArtifactAttachment
+ 
+ namespace MCore.FinalFail.Attack.Beal
+ 
+@@ -541,7 +536,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/BoundaryAtoms.lean blob 53f0aadced7c97ee75d80dcb71ad96504de0e60a -/
+-import MCore.FinalFail.SevenLocalNuclei
+ 
+ namespace MCore.FinalFail
+ 
+@@ -642,7 +636,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/DeltaIsolation.lean blob 8dab4ed10a59305ffc76aa8e249ebcc66d0c41be -/
+-import MCore.FinalFail.ExactGapLedger
+ 
+ namespace MCore.FinalFail
+ 
+@@ -672,7 +665,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/ExactGapLedger.lean blob b1e8bf78f8c38cb682fff19d092bcdc6b908c802 -/
+-import MCore.FinalFail.SevenLocalNuclei
+ 
+ namespace MCore.FinalFail
+ 
+@@ -714,7 +706,6 @@
+ 
+ 
+ /- https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/RPALatticeCube3.lean blob 6ca8f3c1eeb556611224c8e3d3ab4472e24bbef5 -/
+-import MCore.FinalFail.RPALattice
+ 
+ namespace MCore.FinalFail.RPA
+ 
+--- a/audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean
++++ b/audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean
+@@ -1,7 +1,23 @@
++import MCore.C12.Families
++import MCore.Real.CanonicalSATBoundary
++import MCore.K9
++import MCore.Real.CanonicalPSubsetNP
++import MCore.Real.FailProofAllGaps
++import MCore.Real.Model
++import MCore.Real.CanonicalFinalProof
++import MCore.Real.CNFStructure
++import MCore.Real.Semantics
++import MCore.Real.SATMachine
++import MCore.Real.CanonicalSATNatParserAttack
++import MCore.Real.CanonicalSATFrameAttack
++import MCore.Real.CanonicalSATVerifier
++import MCore.Real.CanonicalSATParserAttack
++import MCore.Real.CanonicalSATNTMAttack
++import MCore.Real.CanonicalSATWitness
++
+ /- ATK BATCH03: complete sourced modules, archival concatenation, not a Lean compilation certificate. -/
+ 
+ /- SOURCE lean/MCore/Real/CNFStructure.lean BLOB 83bfd6b26efc506c97f9f2328e0f7996fb44e434 -/
+-import MCore.C12.Families
+ 
+ namespace MCore
+ namespace Real
+@@ -675,7 +691,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalCircuitBits.lean BLOB 95db8597b479638fc0c035e951054d3043782272 -/
+-import MCore.Real.CanonicalSATBoundary
+ 
+ namespace MCore
+ namespace Real
+@@ -865,9 +880,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalComplexityBridge.lean BLOB 0b44ea4c066781a6537a5a600e31e2384a47f8a4 -/
+-import MCore.K9
+-import MCore.Real.CanonicalPSubsetNP
+-import MCore.Real.FailProofAllGaps
+ 
+ namespace MCore
+ namespace Real
+@@ -917,7 +929,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalFinalProof.lean BLOB 247f0e5cef8314c3a3cf3fd6bab87f48eb867c43 -/
+-import MCore.Real.Model
+ 
+ namespace MCore
+ namespace Real
+@@ -1087,7 +1098,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalPSubsetNP.lean BLOB 5ba695ae41be2b0848a518732bcadbc7649f6cd2 -/
+-import MCore.Real.CanonicalFinalProof
+ 
+ namespace MCore
+ namespace Real
+@@ -1361,10 +1371,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATBoundary.lean BLOB 10df41e32aaa8b08f650b8d76b8a85db0ef7afc4 -/
+-import MCore.Real.CNFStructure
+-import MCore.Real.Semantics
+-import MCore.Real.SATMachine
+-import MCore.Real.FailProofAllGaps
+ 
+ namespace MCore
+ namespace Real
+@@ -1449,7 +1455,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATFrameAttack.lean BLOB ec413cf6554179a25eb3b3d5d4d99b1c4fd13842 -/
+-import MCore.Real.CanonicalSATNatParserAttack
+ 
+ namespace MCore
+ namespace Real
+@@ -1783,7 +1788,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATFrameMachineV2.lean BLOB 829e02aef78a7f49b7b09c4a66c95b513bd60c06 -/
+-import MCore.Real.CanonicalSATFrameAttack
+ 
+ namespace MCore
+ namespace Real
+@@ -1963,7 +1967,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATNTMAttack.lean BLOB aafdb20728f951879a4b8286b7e2557264bd8575 -/
+-import MCore.Real.CanonicalSATVerifier
+ 
+ namespace MCore
+ namespace Real
+@@ -2109,7 +2112,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATNatParserAttack.lean BLOB 04bd08e97f24e76cab6403b7bc8753c7f751f5d1 -/
+-import MCore.Real.CanonicalSATParserAttack
+ 
+ namespace MCore
+ namespace Real
+@@ -2247,7 +2249,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATParserAttack.lean BLOB 1b631109f1a2e5f217320fc38dd70cdce6f37c0a -/
+-import MCore.Real.CanonicalSATNTMAttack
+ 
+ namespace MCore
+ namespace Real
+@@ -2613,7 +2614,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATVerifier.lean BLOB 286211091577d66ca401c618fcac6ee91c02f9d0 -/
+-import MCore.Real.CanonicalSATWitness
+ 
+ namespace MCore
+ namespace Real
+--- a/audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean
++++ b/audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean
+@@ -1,7 +1,18 @@
++import MCore.Real.CanonicalCircuitBits
++import MCore.Real.CanonicalFinalProof
++import MCore.Real.FailProofAllGaps
++import MCore.Real.SATMachine
++import MCore.Real.FinalProof
++import MCore.Real.Model
++import MCore.K5
++import MCore.Real.CanonicalSATWitness
++import MCore.Real.Semantics
++import MCore.Real.P01EncodedStackEvaluator
++import MCore.Real.P01EncodedEvaluator
++
+ /- ATK BATCH04: full source snapshot. Concatenation archival only, not kernel-certified. -/
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATWitness.lean BLOB 0585a266c7722e98b06296fadec948dfbed2763e -/
+-import MCore.Real.CanonicalCircuitBits
+ 
+ namespace MCore
+ namespace Real
+@@ -149,7 +160,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean BLOB 48ab49c6059d87231347e3335f5d9dbd87d013cf -/
+-import MCore.Real.CanonicalFinalProof
+ 
+ namespace MCore
+ namespace Real
+@@ -260,7 +270,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/FailProofAllGaps.lean BLOB e2c29e2b8311b64b34b4531ee3c425d9c1f0d091 -/
+-import MCore.Real.CanonicalFinalProof
+ 
+ namespace MCore
+ namespace Real
+@@ -374,7 +383,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/FailProofFiniteAttack.lean BLOB 6875f6fefccc4d203734adfeba4932ee48a524f9 -/
+-import MCore.Real.FailProofAllGaps
+ 
+ namespace MCore
+ namespace Real
+@@ -460,7 +468,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/FinalProof.lean BLOB 2413c8e879fde352ffd186f24a35db2d32f289e9 -/
+-import MCore.Real.SATMachine
+ 
+ namespace MCore
+ namespace Real
+@@ -658,7 +665,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/FinalProofAttack.lean BLOB ad3e12dd8a22a56ed638a264bd8cfa11d700c2a4 -/
+-import MCore.Real.FinalProof
+ 
+ namespace MCore
+ namespace Real
+@@ -776,7 +782,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/MachineRunLemmas.lean BLOB b6caca8af8fbe7962c38c8bf64d4871d69d9cca7 -/
+-import MCore.Real.Model
+ 
+ namespace MCore
+ namespace Real
+@@ -864,7 +869,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/Model.lean BLOB 75dc88485cb60edab758528d9c573b906bcd3c65 -/
+-import MCore.K5
+ 
+ namespace MCore.Real
+ 
+@@ -1000,7 +1004,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01DeterministicNTMEmbedding.lean BLOB de177f5cdceab7676746dfe19278a47a12bb887e -/
+-import MCore.Real.Model
+ 
+ namespace MCore
+ namespace Real
+@@ -1122,9 +1125,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EncodedEvaluator.lean BLOB 381f07e7b70003d8163d54edc5c5d1caaba7020e -/
+-import MCore.Real.CanonicalCircuitBits
+-import MCore.Real.CanonicalSATWitness
+-import MCore.Real.Semantics
+ 
+ namespace MCore
+ namespace Real
+@@ -1270,7 +1270,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EncodedFrameTape.lean BLOB 6119e11fd5589699e63ab15a872a761734e2c0aa -/
+-import MCore.Real.P01EncodedStackEvaluator
+ 
+ namespace MCore
+ namespace Real
+@@ -1404,7 +1403,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EncodedStackEvaluator.lean BLOB 7bf30bbe3489cf801d314635ab10072721f63691 -/
+-import MCore.Real.P01EncodedEvaluator
+ 
+ namespace MCore
+ namespace Real
+--- a/audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean
++++ b/audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean
+@@ -1,8 +1,23 @@
++import MCore.Real.P01EvalCursorRoundTrip
++import MCore.Real.P01EvalCursorFramePush
++import MCore.Real.P01EvalCursorMachine
++import MCore.Real.P01EvalFramePushMachine
++import MCore.Real.P01EncodedFrameTape
++import MCore.Real.P01FullVerifierPhysicalStackV2
++import MCore.Real.MachineRunLemmas
++import MCore.Real.P01EvalFramePopMachine
++import MCore.Real.P01EvalCursorConsume
++import MCore.Real.P01EncodedStackEvaluator
++import MCore.Real.CanonicalSATNTMAttack
++import MCore.Real.P01FullVerifierPhysical
++import MCore.Real.P01FullVerifierStackSemantics
++import MCore.Real.P01VerifierGateMachine
++import MCore.Real.P01FullVerifierPhysicalMoves
++import MCore.Real.P01FullVerifierPhysicalShuttles
++
+ /- ATK BATCH05: full source snapshot. Archival only; no kernel certification implied. -/
+ 
+ /- SOURCE lean/MCore/Real/P01EvalCursorConsume.lean BLOB 730b493a49e2729a2130311ba4f889c2fa4a5b75 -/
+-import MCore.Real.P01EvalCursorRoundTrip
+-import MCore.Real.P01EvalCursorFramePush
+ 
+ namespace MCore
+ namespace Real
+@@ -114,8 +129,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalCursorFramePush.lean BLOB 368d7bfc1ced85f4dd17cb7db7cbf03efab6b8a7 -/
+-import MCore.Real.P01EvalCursorMachine
+-import MCore.Real.P01EvalFramePushMachine
+ 
+ namespace MCore
+ namespace Real
+@@ -207,9 +220,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalCursorMachine.lean BLOB ad4c242831748514b78cddd6ba5c3e5d066cebb0 -/
+-import MCore.Real.P01EncodedFrameTape
+-import MCore.Real.P01FullVerifierPhysicalStackV2
+-import MCore.Real.MachineRunLemmas
+ 
+ namespace MCore
+ namespace Real
+@@ -576,8 +586,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalCursorRoundTrip.lean BLOB 46b6d78f3d1d4772ade8a66249b8ff1c5d953def -/
+-import MCore.Real.P01EvalCursorMachine
+-import MCore.Real.MachineRunLemmas
+ 
+ namespace MCore
+ namespace Real
+@@ -848,8 +856,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalFramePopMachine.lean BLOB 80ac03328cf7387951d7d44d4d9da2614c671075 -/
+-import MCore.Real.P01EncodedFrameTape
+-import MCore.Real.P01FullVerifierPhysicalStackV2
+ 
+ namespace MCore
+ namespace Real
+@@ -1018,7 +1024,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalFramePopMachineV2.lean BLOB 4cde6cb928a3541960d74c272880653fceeffa2c -/
+-import MCore.Real.P01EvalFramePushMachine
+ 
+ namespace MCore
+ namespace Real
+@@ -1267,9 +1272,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalFramePushMachine.lean BLOB 63bba08487b03636194b45fffea80a6fd863233e -/
+-import MCore.Real.P01EncodedFrameTape
+-import MCore.Real.P01FullVerifierPhysicalStackV2
+-import MCore.Real.MachineRunLemmas
+ 
+ namespace MCore
+ namespace Real
+@@ -1450,8 +1452,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalStepFrameRefinement.lean BLOB 0559152d52b8373539df9ba77325c59568359658 -/
+-import MCore.Real.P01EvalFramePushMachine
+-import MCore.Real.P01EvalFramePopMachine
+ 
+ namespace MCore
+ namespace Real
+@@ -1779,9 +1779,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01EvalTagPhysicalRefinement.lean BLOB 140f16c6b576417e68f53759e48bc31e91b032f1 -/
+-import MCore.Real.P01EvalCursorConsume
+-import MCore.Real.P01EvalCursorFramePush
+-import MCore.Real.P01EncodedStackEvaluator
+ 
+ namespace MCore
+ namespace Real
+@@ -1973,7 +1970,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01FinalCertificate.lean BLOB 79e04a486769b1f129c90b0eecb91c2a0828b50b -/
+-import MCore.Real.CanonicalSATNTMAttack
+ 
+ namespace MCore
+ namespace Real
+@@ -2046,9 +2042,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01FullVerifierEvalLocal.lean BLOB f57ddf300dfff95dac2aeee069a2dae18805a7ac -/
+-import MCore.Real.P01FullVerifierPhysical
+-import MCore.Real.P01FullVerifierStackSemantics
+-import MCore.Real.P01VerifierGateMachine
+ 
+ namespace MCore
+ namespace Real
+@@ -2095,9 +2088,6 @@
+ 
+ 
+ /- SOURCE lean/MCore/Real/P01FullVerifierInputShuttleV2.lean BLOB a2d1aad399907e802230c27e1b8e930b7ad3d737 -/
+-import MCore.Real.P01FullVerifierPhysicalStackV2
+-import MCore.Real.P01FullVerifierPhysicalMoves
+-import MCore.Real.P01FullVerifierPhysicalShuttles
+ 
+ namespace MCore
+ namespace Real

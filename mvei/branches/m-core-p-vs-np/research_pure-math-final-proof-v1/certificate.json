@@ -1,0 +1,405 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "research/pure-math-final-proof-v1",
+ "branch_state": "parada",
+ "head_commit": "235a8c1b04a9301f0bb85a85645344b5bcee985f",
+ "head_commit_date": "2026-09-20T09:04:03+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "235a8c1b04a9301f0bb85a85645344b5bcee985f",
+   "date": "2026-09-20T09:04:03+01:00",
+   "subject": "audit: preserve stabilization-kernel exact-crossing line"
+  },
+  {
+   "commit": "d26cbed0d129ee6b969f6d2dd8e98dd9373a42f1",
+   "date": "2026-09-20T08:41:50+01:00",
+   "subject": "audit: record observed state-2 behavioral signature"
+  },
+  {
+   "commit": "17ee36d930ed15819f19c756f169ac1f8d61b48f",
+   "date": "2026-09-20T08:38:35+01:00",
+   "subject": "audit: install behavioral signature calculator protocol"
+  },
+  {
+   "commit": "99d6b9ba0a114a87cf4d10f20a600402541d2f2c",
+   "date": "2026-09-20T04:06:05+01:00",
+   "subject": "audit: install behavioral signature calculator contract"
+  },
+  {
+   "commit": "3b2d32e427028951723ad1bda4189e73f57580fb",
+   "date": "2026-09-20T03:04:15+01:00",
+   "subject": "strengthen decimal roundtrip induction with accumulator invariant"
+  },
+  {
+   "commit": "2acfaa00bb35dc961fa7b205588515e0300f9ab0",
+   "date": "2026-09-20T02:58:16+01:00",
+   "subject": "attack unfolded toDigitsCore directly in decimal roundtrip"
+  },
+  {
+   "commit": "443fdab870383572cf13a4d360dfb4a2e5982fa6",
+   "date": "2026-09-20T02:56:31+01:00",
+   "subject": "fix strongRecOn constructor pattern in decimal roundtrip"
+  },
+  {
+   "commit": "465226f8a32b35a4af9725e34debf053a0409db5",
+   "date": "2026-09-20T02:54:44+01:00",
+   "subject": "use Lean 4.19 strong recursion eliminator for decimal roundtrip"
+  },
+  {
+   "commit": "171fcadb74dac2d6e9cce41a3d5a63994640607c",
+   "date": "2026-09-20T02:53:07+01:00",
+   "subject": "attack actual Nat.toDigits fold roundtrip theorem"
+  },
+  {
+   "commit": "04400f8fe106547b28551f5bbc60bbc290147f26",
+   "date": "2026-09-20T02:50:09+01:00",
+   "subject": "isolate toDigits decimal fold roundtrip frontier"
+  },
+  {
+   "commit": "e9c2ca013708a91fa405937e32a1e4ad288b3419",
+   "date": "2026-09-20T02:49:02+01:00",
+   "subject": "cert: freeze general decimal parser invariant GREEN"
+  },
+  {
+   "commit": "aa2c6d8412485f40495e45f088f638e3723a2db9",
+   "date": "2026-09-20T02:44:42+01:00",
+   "subject": "attack general decimal parser invariant"
+  },
+  {
+   "commit": "cbba1a8e7230eb08b40d6fbfc3ef07c640b5c506",
+   "date": "2026-09-20T02:43:44+01:00",
+   "subject": "cert: freeze compositional parser invariant GREEN"
+  },
+  {
+   "commit": "45e78b23c792f344faeacc3c9f1efcb4757d183f",
+   "date": "2026-09-20T02:42:43+01:00",
+   "subject": "expose compositional parser invariant for decimal induction"
+  },
+  {
+   "commit": "bad92f2d36ea869c5a4300030b9983a86721e343",
+   "date": "2026-09-20T02:38:58+01:00",
+   "subject": "cert: freeze parser accumulator invariant GREEN"
+  },
+  {
+   "commit": "df879d37bdedb095dbae2c9341427acc054e127f",
+   "date": "2026-09-20T02:38:02+01:00",
+   "subject": "add parser accumulator invariant for decimal induction"
+  },
+  {
+   "commit": "a6898535d496fbe82deec80a81a3bd844c9340b7",
+   "date": "2026-09-20T02:28:46+01:00",
+   "subject": "cert: freeze decimal digit invariant GREEN"
+  },
+  {
+   "commit": "da1ba315cd91f570174def9b7bcae23f9e52cb66",
+   "date": "2026-09-20T02:27:31+01:00",
+   "subject": "add decimal recursive digit invariant"
+  },
+  {
+   "commit": "3c22503ee4ebfc02c64d51c8b846b44ac358c84e",
+   "date": "2026-09-20T02:27:23+01:00",
+   "subject": "cert: freeze packaged decimal recursion GREEN"
+  },
+  {
+   "commit": "19ed3122672dcf7193a59a8a22fa201807c93148",
+   "date": "2026-09-20T02:25:49+01:00",
+   "subject": "package decimal recursion step with induction decrease"
+  },
+  {
+   "commit": "0fafde8acd466ed192e3bf7b5b24fffd0ba2c587",
+   "date": "2026-09-20T01:52:49+01:00",
+   "subject": "cert: freeze decimal recursion decrease GREEN"
+  },
+  {
+   "commit": "96789894a30c6b61b9262ce3c8074d4164d14601",
+   "date": "2026-09-20T01:51:11+01:00",
+   "subject": "attack decimal recursion induction measure"
+  },
+  {
+   "commit": "32804643975a419b951e417789dca3df0e76afa7",
+   "date": "2026-09-20T01:35:39+01:00",
+   "subject": "cert: freeze decimal toDigitsCore recursive GREEN"
+  },
+  {
+   "commit": "f6cbef962cb6d0e42e48c0ebe0eef4ce46a8831f",
+   "date": "2026-09-20T01:32:12+01:00",
+   "subject": "expose recursive decimal toDigitsCore step"
+  },
+  {
+   "commit": "97a8792c6cd8a0e4e36bb06228d82f59ee6459bb",
+   "date": "2026-09-20T01:30:19+01:00",
+   "subject": "fix terminal toDigitsCore modulo reduction"
+  },
+  {
+   "commit": "fe5f78b06ea0cf6d66e8e55f2b724f5ab86c0b74",
+   "date": "2026-09-20T01:29:02+01:00",
+   "subject": "attack terminal toDigitsCore parser invariant"
+  },
+  {
+   "commit": "2f66fe3f1b814dbe4efc745918498f01b78496d8",
+   "date": "2026-09-20T01:27:48+01:00",
+   "subject": "generalize decimal digit step over parser state"
+  },
+  {
+   "commit": "2d8cb5dfdacda975af2e85dd56b815de6ddb0689",
+   "date": "2026-09-20T01:26:38+01:00",
+   "subject": "advance decimal parser with accumulator digit step"
+  },
+  {
+   "commit": "d5bdee200f28943be9a7536a9d56130123df316a",
+   "date": "2026-09-20T01:19:45+01:00",
+   "subject": "advance certified decimal parser to single-digit roundtrip"
+  },
+  {
+   "commit": "70aac7815e8d2b0789bf449cc722a11befbe153b",
+   "date": "2026-09-20T01:18:11+01:00",
+   "subject": "prove decimal digit decoder with core order lemmas"
+  },
+  {
+   "commit": "4788fa8cad3065737a2fd218fe3995463d6e0be0",
+   "date": "2026-09-20T01:17:19+01:00",
+   "subject": "make decimal digit probe explicit"
+  },
+  {
+   "commit": "402543fb015652ebcc9e6082d6c8234a5b9eec7a",
+   "date": "2026-09-20T01:15:06+01:00",
+   "subject": "probe Lean 4.19 decimal representation primitives"
+  },
+  {
+   "commit": "ba4bfd3dbff1f98093ee2cbb36334dab19979154",
+   "date": "2026-09-20T01:12:38+01:00",
+   "subject": "revert unavailable decimal theorem experiment"
+  },
+  {
+   "commit": "9cda7fcbb4bd0540c9ee0ed4104cc337e8d301b7",
+   "date": "2026-09-20T01:11:46+01:00",
+   "subject": "import decimal lemmas and repair parser continuation"
+  },
+  {
+   "commit": "d93db28123f6bdb6e9d1c658fef2d575a9ac8b28",
+   "date": "2026-09-20T01:10:31+01:00",
+   "subject": "fix decimal continuation induction"
+  },
+  {
+   "commit": "ecfbcad48f9f35a33edf455ff0ad9c059f1a5d72",
+   "date": "2026-09-20T01:09:01+01:00",
+   "subject": "fix decimal roundtrip proof mechanics"
+  },
+  {
+   "commit": "d59a0f1d366ec5aba2c2b51b8b8548a5dbaba2c4",
+   "date": "2026-09-20T01:04:49+01:00",
+   "subject": "prove canonical decimal parser roundtrip"
+  },
+  {
+   "commit": "f752493e86c783fd17f5971d849a375a37269c1b",
+   "date": "2026-09-20T00:54:45+01:00",
+   "subject": "ci: certify parser residual in targeted build"
+  },
+  {
+   "commit": "f708bcfa591d92468682561a87617d89da4c5894",
+   "date": "2026-09-20T00:54:43+01:00",
+   "subject": "fix: make parser residual dependency explicit"
+  },
+  {
+   "commit": "6a7e6e608fe09d47c6455528428d7f9324fe1002",
+   "date": "2026-09-20T00:53:43+01:00",
+   "subject": "research: isolate first executable parser residual"
+  },
+  {
+   "commit": "262b2775ca459262aa32cebe0f147f51a3792f00",
+   "date": "2026-09-20T00:52:07+01:00",
+   "subject": "ci: compile parallel closure wiring with PNP target"
+  },
+  {
+   "commit": "f560eba3631fa3db1d2dcc8623cf4aa445de616a",
+   "date": "2026-09-20T00:50:53+01:00",
+   "subject": "research: add Lean parallel residual return interface"
+  },
+  {
+   "commit": "2e4b0900e2e060cb54fcc2a9fd729ea2f98e2dde",
+   "date": "2026-09-20T00:48:45+01:00",
+   "subject": "research: wire parallel closure chain to exact frontier"
+  },
+  {
+   "commit": "cb8a06554756b413276a1a4c37699dffb3f786fc",
+   "date": "2026-09-20T00:31:39+01:00",
+   "subject": "research: map pure-math path to exact final frontier"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.charToDigit_digitChar_decimal",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 476,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∀ d : Nat, d < 10 → charToDigit? (Nat.digitChar d) = some d)"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_append_digit",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 577,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{d acc : Nat} (hd : d < 10) : parseNatChars [Nat.digitChar d] acc true = some (10 * acc + d, [])"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_cons_digit",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 516,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{d acc : Nat} {tail : List Char} (hd : d < 10) : parseNatChars (Nat.digitChar d :: tail) acc false = parseNatChars tail (10 * acc + d) true"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_cons_digit_seen",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 522,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{d acc : Nat} {tail : List Char} {seen : Bool} (hd : d < 10) : parseNatChars (Nat.digitChar d :: tail) acc seen = parseNatChars tail (10 * acc + d) true"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_digit_list",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 594,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(ds : List Nat) (acc : Nat) (seen : Bool) (hds : ∀ d ∈ ds, d < 10) : parseNatChars (ds.map Nat.digitChar) acc seen = if ds = [] then (if seen then some (acc, []) else none) else some (ds.foldl (fun a d => 10 * a + d) acc, [])"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_digit_tail",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 585,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{d acc : Nat} {tail : List Char} {seen : Bool} (hd : d < 10) : parseNatChars (Nat.digitChar d :: tail) acc seen = parseNatChars tail (10 * acc + d) true"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_single_digit",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 511,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{d : Nat} (hd : d < 10) : parseNatChars [Nat.digitChar d] 0 false = some (d, [])"
+  },
+  {
+   "name": "MCore.Real.parseNatChars_toDigitsCore_terminal",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 529,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n fuel acc : Nat} (hn : n < 10) (hf : fuel > 0) : parseNatChars (Nat.toDigitsCore 10 fuel n []) acc false = some (10 * acc + n, [])"
+  },
+  {
+   "name": "MCore.Real.toDigitsCore_decimal_decreases",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 553,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (hn : 10 ≤ n) : n / 10 < n"
+  },
+  {
+   "name": "MCore.Real.toDigitsCore_decimal_mod_lt",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 570,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} : n % 10 < 10"
+  },
+  {
+   "name": "MCore.Real.toDigitsCore_decimal_step",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 542,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n fuel : Nat} (hf : fuel > 0) (hn : 10 ≤ n) : Nat.toDigitsCore 10 fuel n [] = Nat.toDigitsCore 10 (fuel - 1) (n / 10) [Nat.digitChar (n % 10)]"
+  },
+  {
+   "name": "MCore.Real.toDigitsCore_decimal_step_decreases",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 560,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{n fuel : Nat} (hf : fuel > 0) (hn : 10 ≤ n) : Nat.toDigitsCore 10 fuel n [] = Nat.toDigitsCore 10 (fuel - 1) (n / 10) [Nat.digitChar (n % 10)] ∧ n / 10 < n"
+  },
+  {
+   "name": "MCore.Real.toDigitsFoldRoundtrip_target",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 635,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": ToDigitsFoldRoundtrip"
+  },
+  {
+   "name": "MCore.Real.toDigits_unfold",
+   "file": "lean/MCore/Real/CNFStructure.lean",
+   "line": 472,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : Nat.toDigits 10 n = Nat.toDigitsCore 10 (n + 1) n []"
+  },
+  {
+   "name": "MCore.Research.return_to_primary",
+   "file": "lean/MCore/Research/ParallelClosure.lean",
+   "line": 12,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
+  }
+ ],
+ "closed": 13,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "51f036265643546c6e6d8ebc42dffebff179d5045febfacf3773c5d908b19b98",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:20Z",
+ "certificate_sha256": "29d9c49907fbb055b10b442563b8f3e2d069848e5e752714bb9896af2e1fe3ca"
+}

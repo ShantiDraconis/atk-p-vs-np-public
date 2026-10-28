@@ -1,0 +1,125 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/shared-multistate-signature-20260926",
+ "branch_state": "parada",
+ "head_commit": "b9cb9d78e7ed2e4d4b4dc296aa588231b1a9a66f",
+ "head_commit_date": "2026-09-27T00:09:04+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "b9cb9d78e7ed2e4d4b4dc296aa588231b1a9a66f",
+   "date": "2026-09-27T00:09:04+01:00",
+   "subject": "ci(shared): build multistate module before cross-evidence audit"
+  },
+  {
+   "commit": "80d357e8db2e7f8d3a9effab936fad6827e7dd8a",
+   "date": "2026-09-27T00:06:33+01:00",
+   "subject": "ci(shared): verify cross-problem structural evidence"
+  },
+  {
+   "commit": "528f83e1fc15a16b4d56ca3f4f0d5148ac36651e",
+   "date": "2026-09-27T00:06:27+01:00",
+   "subject": "atk(shared): formalize seven-problem structural evidence matrix"
+  },
+  {
+   "commit": "52c696edc8444175878d9d2b814f62b510f4e4bc",
+   "date": "2026-09-26T23:58:06+01:00",
+   "subject": "atk(shared): unify shape manifestations evidence and endpoint adapters"
+  },
+  {
+   "commit": "72deceda55a664760f44bf0bcf738088c6008c3b",
+   "date": "2026-09-26T23:49:14+01:00",
+   "subject": "atk(shared): enable common shape with problem-specific manifestations"
+  },
+  {
+   "commit": "298d520bd22ae55f0b297411b0e78d81e184eb0d",
+   "date": "2026-09-26T23:46:46+01:00",
+   "subject": "ci(shared): verify multistate signature theorem"
+  },
+  {
+   "commit": "0137c98c75e8babb1b4f09f65cca73d067c4298e",
+   "date": "2026-09-26T23:46:29+01:00",
+   "subject": "atk(shared): formalize universal multistate numerical signature"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.SharedSignature.CrossProblemEvidence20260926.all_problem_descriptors_have_shared_three_phase_shape",
+   "file": "audit/CrossProblemStructuralEvidence20260926.lean",
+   "line": 67,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ p : ProblemKind, (descriptor p).problem = p ∧ (descriptor p).signatureObject.length > 0 ∧ (descriptor p).bridgeObject.length > 0 ∧ (descriptor p).endpointObject.length > 0"
+  },
+  {
+   "name": "MCore.SharedSignature.CrossProblemEvidence20260926.every_problem_realizes_all_structural_phases",
+   "file": "audit/CrossProblemStructuralEvidence20260926.lean",
+   "line": 91,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ p : ProblemKind, ∀ ph : StructuralPhase, (phaseLabel p ph).length > 0"
+  },
+  {
+   "name": "MCore.SharedSignature.CrossProblemEvidence20260926.shared_shape_does_not_identify_problem_objects",
+   "file": "audit/CrossProblemStructuralEvidence20260926.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (descriptor .pnp).signatureObject ≠ (descriptor .riemann).signatureObject ∧ (descriptor .riemann).signatureObject ≠ (descriptor .yangMills).signatureObject ∧ (descriptor .yangMills).signatureObject ≠ (descriptor .navierStokes).signatureObject"
+  },
+  {
+   "name": "MCore.SharedSignature.shared_shape_problem_specific_manifestations",
+   "file": "lean/MCore/MultiStateSignature.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Problem : Type} (S : SharedMultiStateSignature Problem) : ∃ shape : MultiStateSignatureShape, ∀ p : Problem, Nonempty (ProblemManifestation Problem shape p)"
+  },
+  {
+   "name": "MCore.SharedSignature.unified_signature_closes_all_endpoints",
+   "file": "lean/MCore/MultiStateSignature.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Problem : Type} (U : UnifiedStructuralSignature Problem) (Endpoint : Problem → Prop) (A : EndpointAdapter U Endpoint) : ∀ p : Problem, Endpoint p"
+  },
+  {
+   "name": "MCore.SharedSignature.unified_theorem_producer_closes",
+   "file": "lean/MCore/MultiStateSignature.lean",
+   "line": 125,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Problem : Type} {Endpoint : Problem → Prop} (h : UnifiedTheoremProducer Problem Endpoint) : ∀ p : Problem, Endpoint p"
+  },
+  {
+   "name": "MCore.SharedSignature.universal_shared_signature_iff",
+   "file": "lean/MCore/MultiStateSignature.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{Problem : Type} : UniversalSharedMultiStateSignature Problem ↔ ∃ shape : MultiStateSignatureShape, ∀ p : Problem, Nonempty (ProblemManifestation Problem shape p)"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/MultiStateSignature.lean": "85cf843042f3053916d8f333f34916850be60fb03886d642dcaf7f09c0010291",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:20Z",
+ "certificate_sha256": "0487b2f93e8df1d937e635020526c93aa34c02a53473a02a176c18dfbcbb8b1e"
+}

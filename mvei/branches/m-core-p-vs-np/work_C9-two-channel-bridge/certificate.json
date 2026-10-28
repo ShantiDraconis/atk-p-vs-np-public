@@ -1,0 +1,351 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "work/C9-two-channel-bridge",
+ "branch_state": "parada",
+ "head_commit": "5f1a10fa4f12d49835c1da5c22ade02dd687d9c9",
+ "head_commit_date": "2026-09-18T02:32:00+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "5f1a10fa4f12d49835c1da5c22ade02dd687d9c9",
+   "date": "2026-09-18T02:32:00+02:00",
+   "subject": "C9: fix axiom-audit heredoc line encoding"
+  },
+  {
+   "commit": "80a3899ea017d81b10d4ddbc8c93919e6dd4fa2b",
+   "date": "2026-09-18T02:09:43+02:00",
+   "subject": "C9: extend CI through mass and final bridge certificate"
+  },
+  {
+   "commit": "3cdf8014fbbb09836b610988b2ae167280663a11",
+   "date": "2026-09-18T02:09:34+02:00",
+   "subject": "C9: formalize finite restriction mass and bridge certificate"
+  },
+  {
+   "commit": "3ddf502cfce29261776daff32a7cbf0f7385969d",
+   "date": "2026-09-18T02:09:32+02:00",
+   "subject": "C9: formalize finite restriction mass and bridge certificate"
+  },
+  {
+   "commit": "ef2e39e85f009c076a89e233c2bd347160003bf4",
+   "date": "2026-09-18T01:08:12+02:00",
+   "subject": "C9: add fail-closed two-channel bridge CI"
+  },
+  {
+   "commit": "1586d51c87eda5e2cfae3044f80bd5d40b3e28a5",
+   "date": "2026-09-18T00:22:08+02:00",
+   "subject": "C9: formalize free-variable and Good0 two-channel descent"
+  },
+  {
+   "commit": "27eeb746dfd1335f393ece2a79dfa01912208180",
+   "date": "2026-09-18T00:22:04+02:00",
+   "subject": "C9: formalize free-variable and Good0 two-channel descent"
+  },
+  {
+   "commit": "dae59c4b47518320bdf65c692ec0249f507bba77",
+   "date": "2026-09-18T00:22:02+02:00",
+   "subject": "C9: formalize free-variable and Good0 two-channel descent"
+  },
+  {
+   "commit": "3ad411867e8871ed5ccbe93d91b0069cfbe41d6b",
+   "date": "2026-09-17T22:26:22+02:00",
+   "subject": "infra(c9): add dedicated C9 certificate workflow for frozen source d32844e6"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.C9.C9_TWO_CHANNEL_BRIDGE",
+   "file": "lean/MCore/C9/TwoChannelCertificate.lean",
+   "line": 5,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : CircuitK1.Restriction} (h : Good0 t ρ) : 0 < deltaN ρ t ∨ 0 < delta ρ t"
+  },
+  {
+   "name": "MCore.C9.GOOD0_STRICT_VAR_DESCENT",
+   "file": "lean/MCore/C9/TwoChannelCertificate.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : CircuitK1.Restriction} (h : Good0 t ρ) : vars (D ρ t) < vars t"
+  },
+  {
+   "name": "MCore.C9.REFUTED_SINGLE_CHANNEL",
+   "file": "lean/MCore/C9/TwoChannelCertificate.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Good0 (.input 0) fixesZeroFalse ∧ delta fixesZeroFalse (.input 0) = 0 ∧ deltaN fixesZeroFalse (.input 0) = 1"
+  },
+  {
+   "name": "MCore.C9.allNone_not_good",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : ¬ FiniteGood (allNone n)"
+  },
+  {
+   "name": "MCore.C9.c9_endpoint_not_promoted",
+   "file": "lean/MCore/C9/TwoChannelCertificate.lean",
+   "line": 20,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (ProofCertificate k10_obligation_node)"
+  },
+  {
+   "name": "MCore.C9.finiteGood_card",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (goodFinset n).card = 3 ^ n - 1"
+  },
+  {
+   "name": "MCore.C9.finiteRestriction_card",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : Fintype.card (FiniteRestriction n) = 3 ^ n"
+  },
+  {
+   "name": "MCore.C9.fixed_not_mem_D",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 88,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(ρ : Restriction) (t : FormulaTree) (v : Nat) (b : Bool) (hfix : ρ v = some b) : v ∉ freeVarList (D ρ t)"
+  },
+  {
+   "name": "MCore.C9.fixed_not_mem_restrict",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 35,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(ρ : Restriction) (t : FormulaTree) (v : Nat) (b : Bool) (hfix : ρ v = some b) : v ∉ freeVarList (restrict ρ t)"
+  },
+  {
+   "name": "MCore.C9.freeVarSet_D_subset",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 95,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(ρ : Restriction) (t : FormulaTree) : freeVarSet (D ρ t) ⊆ freeVarSet t"
+  },
+  {
+   "name": "MCore.C9.good0_deltaN_pos",
+   "file": "lean/MCore/C9/Progress.lean",
+   "line": 21,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : Restriction} (h : Good0 t ρ) : 0 < deltaN ρ t"
+  },
+  {
+   "name": "MCore.C9.good0_iff_touches",
+   "file": "lean/MCore/C9/Good0.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : Restriction} : Good0 t ρ ↔ TouchesVars t ρ"
+  },
+  {
+   "name": "MCore.C9.good0_two_channel_progress",
+   "file": "lean/MCore/C9/Progress.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : Restriction} (h : Good0 t ρ) : 0 < deltaN ρ t ∨ 0 < delta ρ t"
+  },
+  {
+   "name": "MCore.C9.good0_vars_strict",
+   "file": "lean/MCore/C9/Progress.lean",
+   "line": 10,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : Restriction} (h : Good0 t ρ) : vars (D ρ t) < vars t"
+  },
+  {
+   "name": "MCore.C9.goodFinset_compl_eq_singleton",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : (goodFinset n)ᶜ = {allNone n}"
+  },
+  {
+   "name": "MCore.C9.goodMass_four",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 67,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": goodMass 4 = 80 / 81"
+  },
+  {
+   "name": "MCore.C9.goodMass_one",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 64,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": goodMass 1 = 2 / 3"
+  },
+  {
+   "name": "MCore.C9.goodMass_three",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": goodMass 3 = 26 / 27"
+  },
+  {
+   "name": "MCore.C9.goodMass_two",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 65,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": goodMass 2 = 8 / 9"
+  },
+  {
+   "name": "MCore.C9.goodMass_zero",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 62,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": goodMass 0 = 0"
+  },
+  {
+   "name": "MCore.C9.mem_freeVarList_D",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 83,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(ρ : Restriction) (t : FormulaTree) (v : Nat) (h : v ∈ freeVarList (D ρ t)) : v ∈ freeVarList t"
+  },
+  {
+   "name": "MCore.C9.mem_freeVarList_restrict",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(ρ : Restriction) (t : FormulaTree) (v : Nat) (h : v ∈ freeVarList (restrict ρ t)) : v ∈ freeVarList t"
+  },
+  {
+   "name": "MCore.C9.mem_freeVarList_simplify",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 54,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(t : FormulaTree) (v : Nat) (h : v ∈ freeVarList (simplify t)) : v ∈ freeVarList t"
+  },
+  {
+   "name": "MCore.C9.mem_freeVarSet",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 10,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{t : FormulaTree} {v : Nat} : v ∈ freeVarSet t ↔ v ∈ freeVarList t"
+  },
+  {
+   "name": "MCore.C9.not_finiteGood_iff",
+   "file": "lean/MCore/C9/RestrictionMass.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (ρ : FiniteRestriction n) : ¬ FiniteGood ρ ↔ ρ = allNone n"
+  },
+  {
+   "name": "MCore.C9.single_channel_counterexample",
+   "file": "lean/MCore/C9/Progress.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Good0 (.input 0) fixesZeroFalse ∧ delta fixesZeroFalse (.input 0) = 0 ∧ deltaN fixesZeroFalse (.input 0) = 1"
+  },
+  {
+   "name": "MCore.C9.touchesVars_not_const",
+   "file": "lean/MCore/C9/Good0.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{t : FormulaTree} {ρ : Restriction} (h : TouchesVars t ρ) : ¬ IsConst t"
+  },
+  {
+   "name": "MCore.C9.vars_D_le",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 100,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(ρ : Restriction) (t : FormulaTree) : vars (D ρ t) ≤ vars t"
+  },
+  {
+   "name": "MCore.C9.vars_eq_card",
+   "file": "lean/MCore/C9/FreeVars.lean",
+   "line": 14,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(t : FormulaTree) : vars t = (freeVarSet t).card"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "7af4b7d96983d7f4a2601c99456d5a1c803770942f8a5532cc6130ff01fdd29d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C9/FreeVars.lean": "9d26703b559f83ee8f37b81dc0680b41ffe10ce4e1283767cc374c52871b17c9",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Vars.lean": "58aa9b161a3ea09ba1b452e9207fa651ace08ba55eb5cf3aa197b352b43e7320",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:19Z",
+ "certificate_sha256": "fd824a632b45393814a7d9d16bf940b1afb173d15b747fb70b8cd0f1f4d10323"
+}

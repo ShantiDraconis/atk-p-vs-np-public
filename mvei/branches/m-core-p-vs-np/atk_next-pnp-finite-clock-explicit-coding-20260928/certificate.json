@@ -1,0 +1,1937 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/next-pnp-finite-clock-explicit-coding-20260928",
+ "branch_state": "parada",
+ "head_commit": "f6fcff38d32a6ac49cf9eb1d61640418fa84d8a8",
+ "head_commit_date": "2026-09-28T22:24:07+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "f6fcff38d32a6ac49cf9eb1d61640418fa84d8a8",
+   "date": "2026-09-28T22:24:07+01:00",
+   "subject": "ATK PNP: import finite-domain countability instances"
+  },
+  {
+   "commit": "d086e0a873b375b09fc1d31776fdef34a0e5316b",
+   "date": "2026-09-28T22:17:06+01:00",
+   "subject": "ci(pnp): test finite-clock countability frontier"
+  },
+  {
+   "commit": "9b1e0b6b86a7ef392d7a1dd463d16ad0843d078f",
+   "date": "2026-09-28T22:16:50+01:00",
+   "subject": "ATK PNP: prove corrected finite-clock candidate space countable"
+  },
+  {
+   "commit": "903751bc98f90848923ee2c4605703a93b9973ae",
+   "date": "2026-09-28T22:06:57+01:00",
+   "subject": "ATK PNP: reuse proved canonical P-subset-NP kernel"
+  },
+  {
+   "commit": "b0cf1cfcf4bff0b44ed1c342fe26401d607fb5fb",
+   "date": "2026-09-28T22:01:11+01:00",
+   "subject": "ATK PNP: bind legacy interface directly to Cook-normalized model"
+  },
+  {
+   "commit": "7a2d32c70f21d2b8c3650b919e5d349cc6dbeb50",
+   "date": "2026-09-28T22:01:02+01:00",
+   "subject": "ATK PNP: reduce candidate equality to explicit clock values"
+  },
+  {
+   "commit": "79237972d9eabd8d304e442306474b5ffcfadb04",
+   "date": "2026-09-28T21:59:38+01:00",
+   "subject": "ATK PNP: normalize candidate clock projection in coding firewall"
+  },
+  {
+   "commit": "0b5df5d127551409e611d18e55d295ffd2813ae4",
+   "date": "2026-09-28T21:56:19+01:00",
+   "subject": "ci(pnp): gate official-model binding with finite-clock frontier"
+  },
+  {
+   "commit": "23eee97e8819b7cd2b0a21beb771449ad60c5091",
+   "date": "2026-09-28T21:56:05+01:00",
+   "subject": "ATK PNP: bind canonical interface to Cook-normalized official model"
+  },
+  {
+   "commit": "1d0267d45cf92644d817e3501af9f886307c3bbb",
+   "date": "2026-09-28T21:52:54+01:00",
+   "subject": "ATK PNP: close cardinality firewall boolean mismatch cases"
+  },
+  {
+   "commit": "14de9b2e4246eeb6a40576e81c75d8d16e1067ec",
+   "date": "2026-09-28T21:50:39+01:00",
+   "subject": "ATK PNP: close contradictory Bool branches in coding firewall"
+  },
+  {
+   "commit": "ca7c9ef999c3d691d1fdb2e47875af76307d8f24",
+   "date": "2026-09-28T21:46:22+01:00",
+   "subject": "ATK PNP: close candidate-cardinality firewall by explicit diagonalization"
+  },
+  {
+   "commit": "ebea80574c8340b3e332fba48bf9ec6e002930b8",
+   "date": "2026-09-28T19:12:45+01:00",
+   "subject": "ci(pnp): run finite-clock candidate reduction kernel"
+  },
+  {
+   "commit": "8f9fca364e5f08267e999660531d1154be732186",
+   "date": "2026-09-28T19:11:44+01:00",
+   "subject": "ATK PNP: reduce universal failure to finite-clock candidates"
+  },
+  {
+   "commit": "cf5d6c0e40c7308f1cece91d850b4f853a1c6cf9",
+   "date": "2026-09-28T18:05:17+01:00",
+   "subject": "ATK PNP: test candidate coding cardinality firewall"
+  },
+  {
+   "commit": "6836ccf81257f48e7c9f6ff45dbf0149cc59d40f",
+   "date": "2026-09-28T16:15:58+01:00",
+   "subject": "ci(pnp): activate concrete SAT compiler kernel"
+  },
+  {
+   "commit": "1327fcdd2ad079bb986b13d51b7fd37757e29c08",
+   "date": "2026-09-28T16:01:00+01:00",
+   "subject": "ATK PNP: stabilize midpoint Lipschitz proof"
+  },
+  {
+   "commit": "8bd75a2d70924bdb82d20bb821923af368af183b",
+   "date": "2026-09-28T15:58:13+01:00",
+   "subject": "ATK PNP: normalize Lipschitz denominator exactly"
+  },
+  {
+   "commit": "a9028ec8170a5e1fe1549db9118f08cc4b6183be",
+   "date": "2026-09-28T15:53:42+01:00",
+   "subject": "ATK PNP: close midpoint and terminal-law proof obligations"
+  },
+  {
+   "commit": "1170df3b0fa1c5efa7c00c591de5ebb671ac230b",
+   "date": "2026-09-28T15:49:57+01:00",
+   "subject": "ATK PNP: firewall universal law as T5F-equivalent"
+  },
+  {
+   "commit": "50a85d293fe16cb7b962c674704b362821e1776a",
+   "date": "2026-09-28T15:46:46+01:00",
+   "subject": "ATK PNP: close universal separation law kernel algebra"
+  },
+  {
+   "commit": "eec11f836623830ba4cb9f5f7e4e7ca96ffadba2",
+   "date": "2026-09-28T15:45:20+01:00",
+   "subject": "ATK PNP: open MeasureTheory for interval-integrability kernel"
+  },
+  {
+   "commit": "08c47a509db1f1ffb08841afbc499d8a13ea395d",
+   "date": "2026-09-28T15:17:13+01:00",
+   "subject": "ATK PNP: open MeasureTheory for interval-integrability kernel"
+  },
+  {
+   "commit": "380eb22d23092e41dda5a98852fb6812bb402ada",
+   "date": "2026-09-28T15:11:52+01:00",
+   "subject": "ATK PNP: pin constant interval-integrability type"
+  },
+  {
+   "commit": "0dd9114a27b56500f83d54fc196cf481ad5c8c0b",
+   "date": "2026-09-28T15:03:19+01:00",
+   "subject": "ATK PNP: qualify Lebesgue volume in calculus kernel"
+  },
+  {
+   "commit": "0e1cb417f3f90de739bb1e9cc1c8aed68caf73af",
+   "date": "2026-09-28T14:26:05+01:00",
+   "subject": "ATK PNP: repair calculus kernel computability and interval integrability"
+  },
+  {
+   "commit": "f36b10b43ee5312c9eb53d7dc506fb634cf87618",
+   "date": "2026-09-28T14:13:49+01:00",
+   "subject": "ATK PNP: fix BitString namespace in open-math algebra kernel"
+  },
+  {
+   "commit": "3b7a5ff182d544e7ff6046c436b27c22686a6413",
+   "date": "2026-09-28T14:05:35+01:00",
+   "subject": "ci(pnp): activate SAT compiler and semantic self-quotation frontier"
+  },
+  {
+   "commit": "08bcfd5b73756c75c71dc99ce8273822fb1b4ee4",
+   "date": "2026-09-28T13:11:03+01:00",
+   "subject": "ci(pnp): run exact producer kernel frontier"
+  },
+  {
+   "commit": "4bdfcea94c5dde8eb12fa9c6800c082c4f31596d",
+   "date": "2026-09-28T12:12:27+01:00",
+   "subject": "ci(pnp): restore pinned mathlib cache for clean reproduction"
+  },
+  {
+   "commit": "e758683b8a4b3bf653395e07e2df798f09f0ab6a",
+   "date": "2026-09-28T10:59:40+01:00",
+   "subject": "ci(pnp): extend clean umbrella reproduction budget"
+  },
+  {
+   "commit": "2a3cc5db7d638164d534843b81dda2a69946018e",
+   "date": "2026-09-28T08:23:47+01:00",
+   "subject": "ci(pnp): allow clean deterministic reproduction to complete"
+  },
+  {
+   "commit": "982cd48c06f697374eab247cbdef23e72e9dd79b",
+   "date": "2026-09-28T00:02:47+01:00",
+   "subject": "fix(pnp): qualify Kleene same-input endpoint symbols"
+  },
+  {
+   "commit": "bbcf7f56b7b24716c8b1659f59c9cc084ed4d5b7",
+   "date": "2026-09-28T00:02:45+01:00",
+   "subject": "fix(pnp): qualify same-input encoding and semantic mismatch"
+  },
+  {
+   "commit": "9c993480c01346b38a7ac8e837ab8b071bc67466",
+   "date": "2026-09-27T23:02:00+01:00",
+   "subject": "ATK PNP: import canonical SAT validity frontier"
+  },
+  {
+   "commit": "b2228a1c36ab9f779b01f961664b761009af06d7",
+   "date": "2026-09-27T21:28:20+01:00",
+   "subject": "ATK PNP: verify Kleene extensional producer in umbrella build"
+  },
+  {
+   "commit": "689da122bbee6cf4442911df7591ec72769d28a5",
+   "date": "2026-09-27T21:27:35+01:00",
+   "subject": "ATK PNP: add forward Kleene extensional producer for SameInputClosure"
+  },
+  {
+   "commit": "2f91cd23c78c58640eaf66eb7b4aae8ba70e5091",
+   "date": "2026-09-23T00:57:54+01:00",
+   "subject": "ci(t5-f): compile semantic self-quotation terminal law"
+  },
+  {
+   "commit": "b5266796917ab6c028eb97235a3c7233b6d6333a",
+   "date": "2026-09-23T00:57:44+01:00",
+   "subject": "formal(t5-f): consolidate semantic self-quotation terminal law"
+  },
+  {
+   "commit": "29d6089e3f990456bbb942779df7fe292ffbe66a",
+   "date": "2026-09-23T00:55:34+01:00",
+   "subject": "ci(t5-f): validate terminal same-input architecture"
+  },
+  {
+   "commit": "2232770fa3c421df5010222560a98ac7a67f516d",
+   "date": "2026-09-23T00:55:25+01:00",
+   "subject": "formal(t5-f): add TerminalArchitecture terminal layer"
+  },
+  {
+   "commit": "f0ba899aa62316e604f9bcab61b8c3c0215d78bc",
+   "date": "2026-09-23T00:55:23+01:00",
+   "subject": "formal(t5-f): add SameInputClosure terminal layer"
+  },
+  {
+   "commit": "6dbfabe91f8f43020bbb9a8a5fadcad32d011a05",
+   "date": "2026-09-23T00:55:20+01:00",
+   "subject": "formal(t5-f): add SATCircuitCompiler terminal layer"
+  },
+  {
+   "commit": "e24e1ba1727fbc0fd58c0f317fdc95340bcdb3aa",
+   "date": "2026-09-23T00:55:18+01:00",
+   "subject": "formal(t5-f): add BoundedUniversalSimulation terminal layer"
+  },
+  {
+   "commit": "863579153d44b400885a001feba384207d8ddf3b",
+   "date": "2026-09-23T00:55:15+01:00",
+   "subject": "formal(t5-f): add SelfQuotation terminal layer"
+  },
+  {
+   "commit": "889dfd7cc577f2443da9b32d9c321928ce97c27c",
+   "date": "2026-09-23T00:48:53+01:00",
+   "subject": "fix(t5-f): normalize nat addition in bit-weight induction"
+  },
+  {
+   "commit": "da1c747c3d58b2539ba324b9ce682f68d0eda9c7",
+   "date": "2026-09-23T00:43:14+01:00",
+   "subject": "fix(t5-f): align bit-weight induction with list length"
+  },
+  {
+   "commit": "434a7e053e2893a3f167d233f40582766876ac7d",
+   "date": "2026-09-23T00:38:44+01:00",
+   "subject": "fix(t5-f): close bit-weight cons bound with explicit inequalities"
+  },
+  {
+   "commit": "fcd84ef3c39ef75b04972ae9cba55f5bc18751ce",
+   "date": "2026-09-23T00:36:02+01:00",
+   "subject": "fix(t5-f): make arithmetic mass proofs structural"
+  },
+  {
+   "commit": "b86aac489f4f69b6835750d49bdd7e495e426abb",
+   "date": "2026-09-23T00:33:10+01:00",
+   "subject": "ci(t5-f): repair terminal workflow yaml"
+  },
+  {
+   "commit": "37d76da8d5b9f710d88ddc8126a19f8f2582dddc",
+   "date": "2026-09-23T00:33:08+01:00",
+   "subject": "ci(t5-f): repair open-math workflow yaml"
+  },
+  {
+   "commit": "05308e56220951a656b172af4b08f2f132df29f2",
+   "date": "2026-09-23T00:32:39+01:00",
+   "subject": "ci(t5-f): resolve pinned dependencies before terminal build"
+  },
+  {
+   "commit": "4dc806ddafe94ca86cb16f6939d0cf8bcc2393dc",
+   "date": "2026-09-23T00:32:36+01:00",
+   "subject": "ci(t5-f): resolve pinned dependencies before open-math build"
+  },
+  {
+   "commit": "44175e5bbd3c78a50811572b851798d811fa8c9b",
+   "date": "2026-09-23T00:32:13+01:00",
+   "subject": "ci(t5-f): resolve dependencies before certificate build"
+  },
+  {
+   "commit": "0622be9429638f1103dcf584542f0b22d426c043",
+   "date": "2026-09-23T00:31:21+01:00",
+   "subject": "ci(t5-f): compile universal separation law"
+  },
+  {
+   "commit": "439569e7df9cac5e71d84643e73d80bc7a92d66b",
+   "date": "2026-09-23T00:31:12+01:00",
+   "subject": "fix(t5-f): make universal-law witness selection fail closed"
+  },
+  {
+   "commit": "ad81049eb02bb47fd98c0e05890c43b461d5dfc3",
+   "date": "2026-09-23T00:30:58+01:00",
+   "subject": "formal(t5-f): add universal separation law with fail-closed terminal field"
+  },
+  {
+   "commit": "47ae2d96978b3222ac99f3d17489fcc1d9aeb1cb",
+   "date": "2026-09-23T00:25:38+01:00",
+   "subject": "ci(t5-f): validate expanded open-math architecture"
+  },
+  {
+   "commit": "b75d2457a1f7845364cf73c2fbf2df8b3792aa1d",
+   "date": "2026-09-23T00:25:29+01:00",
+   "subject": "formal(t5-f): add Stability layer"
+  },
+  {
+   "commit": "3c4b374f98f9fc8a53a0c0e0bf39c8aeb0f2f6ac",
+   "date": "2026-09-23T00:25:27+01:00",
+   "subject": "formal(t5-f): add Functoriality layer"
+  },
+  {
+   "commit": "ab31825a9da23d8fba9743078984e854a934f7ee",
+   "date": "2026-09-23T00:25:25+01:00",
+   "subject": "formal(t5-f): add Asymptotic layer"
+  },
+  {
+   "commit": "3713bf1ef7a828b18abb7acbe34fad30b283d314",
+   "date": "2026-09-23T00:25:23+01:00",
+   "subject": "formal(t5-f): add Invariants layer"
+  },
+  {
+   "commit": "7995d9250fc8c86378ef83fdd7672f0fc3aec85a",
+   "date": "2026-09-23T00:25:21+01:00",
+   "subject": "formal(t5-f): add ReductionBarrier layer"
+  },
+  {
+   "commit": "f5a0d366ee5720958eba16e43102c03c713a6486",
+   "date": "2026-09-23T00:25:19+01:00",
+   "subject": "formal(t5-f): add Semantics layer"
+  },
+  {
+   "commit": "e193c835f65c003e28d271bae3a9f5cc3fe79baf",
+   "date": "2026-09-23T00:25:17+01:00",
+   "subject": "formal(t5-f): add Foundation layer"
+  },
+  {
+   "commit": "1ce7e8cc8677f22e682df5fa72d3bf401893a837",
+   "date": "2026-09-23T00:24:40+01:00",
+   "subject": "integrate(t5-f): reuse certified Kleene hardness audit"
+  },
+  {
+   "commit": "b75f38b2372fceff709b2b393be65fdd504d8195",
+   "date": "2026-09-23T00:24:38+01:00",
+   "subject": "integrate(t5-f): reuse certified polynomial budget algebra"
+  },
+  {
+   "commit": "c7eed4bc276e0880ece2afb49eb500e63925faf8",
+   "date": "2026-09-23T00:24:36+01:00",
+   "subject": "integrate(t5-f): reuse certified local verifier semantics"
+  },
+  {
+   "commit": "bb5e7b600e48bc9273eb5fb2441f1ca48020f094",
+   "date": "2026-09-23T00:22:05+01:00",
+   "subject": "build(t5-f): add pinned mathlib dependency for open-math core"
+  },
+  {
+   "commit": "13acc42c869bbc2c0b9cba603f3d1a4e764c9d18",
+   "date": "2026-09-23T00:15:55+01:00",
+   "subject": "ci(t5-f): compile full open-math core"
+  },
+  {
+   "commit": "021a0dc73a9de5e19117b66dba29ec8a0b2e1bbb",
+   "date": "2026-09-23T00:15:48+01:00",
+   "subject": "formal(t5-f): add T5FBridge open-math layer"
+  },
+  {
+   "commit": "5ecb2e89a43782d6f77c602e681b26472beaf221",
+   "date": "2026-09-23T00:15:46+01:00",
+   "subject": "formal(t5-f): add Behavior open-math layer"
+  },
+  {
+   "commit": "b799e7eaf5ab19666f45dd9425ac79d82b9461ca",
+   "date": "2026-09-23T00:15:44+01:00",
+   "subject": "formal(t5-f): add Calculus open-math layer"
+  },
+  {
+   "commit": "9b5593dd687a0f41e7bd8147052574983d253ad8",
+   "date": "2026-09-23T00:15:36+01:00",
+   "subject": "formal(t5-f): add Topology open-math layer"
+  },
+  {
+   "commit": "7b8a0233115b6816e728e7543a386d07f2e83f4e",
+   "date": "2026-09-23T00:15:35+01:00",
+   "subject": "formal(t5-f): add NumericClasses open-math layer"
+  },
+  {
+   "commit": "0b362fa8bdc03003145535e48024e6364265221d",
+   "date": "2026-09-23T00:15:33+01:00",
+   "subject": "formal(t5-f): add Algebra open-math layer"
+  },
+  {
+   "commit": "b57acd24ac32af3c94099e443976652251cf6f6f",
+   "date": "2026-09-23T00:15:31+01:00",
+   "subject": "formal(t5-f): add Arithmetic open-math layer"
+  },
+  {
+   "commit": "727237bfaa8feaf679170855cb51bedbcce04c91",
+   "date": "2026-09-23T00:10:31+01:00",
+   "subject": "ci(t5-f): gate terminal semantic frontier"
+  },
+  {
+   "commit": "0261d50de401a3fc8296c6e116952bdbade27e83",
+   "date": "2026-09-23T00:10:17+01:00",
+   "subject": "atk(t5-f): import certified diagonal compiler frontier"
+  },
+  {
+   "commit": "030f1b5a3ea22f2bb7f87b8924a86bd087ffdc91",
+   "date": "2026-09-23T00:10:14+01:00",
+   "subject": "atk(t5-f): import certified candidate coding frontier"
+  },
+  {
+   "commit": "0c755ac3c701b6db0c27d8971a2eca90a91118f7",
+   "date": "2026-09-22T22:15:17+01:00",
+   "subject": "fix(t5-a2): replace unavailable tactics with explicit logic"
+  },
+  {
+   "commit": "b1fe9d62ef8340c92302d8892c2c1796bc0b8ec1",
+   "date": "2026-09-22T22:07:25+01:00",
+   "subject": "ci(t5-a2): gate normalized universal failure algebra"
+  },
+  {
+   "commit": "03d89c20b5062a7165f92eec6cb164c3654c8cf6",
+   "date": "2026-09-22T22:07:03+01:00",
+   "subject": "proof(t5-a2): normalize universal failure into clock-or-semantic cases"
+  },
+  {
+   "commit": "40ce45156359134243e02d51823443687f1a9416",
+   "date": "2026-09-22T19:46:48+01:00",
+   "subject": "ci(t5-a2): revalidate live semantic boundary"
+  },
+  {
+   "commit": "aa932a4b483d4126f84521c34eca033750ac5230",
+   "date": "2026-09-22T16:51:01+01:00",
+   "subject": "ci(t5-a2): test universal-existence branch"
+  },
+  {
+   "commit": "c6a1530a931759a99fb9ef8b1d5c0c6d168daf54",
+   "date": "2026-09-22T16:50:51+01:00",
+   "subject": "proof(t5-a2): reduce universal embedder to pointwise witnesses"
+  },
+  {
+   "commit": "e912126ce5f2bcf13e1bba448e31e900d5d1ec57",
+   "date": "2026-09-22T16:45:02+01:00",
+   "subject": "proof(t5-a2): exclude universal literal fixed-point route"
+  },
+  {
+   "commit": "7dbdf29ac8ca5619e9e0a8cbe78f5b269e30e041",
+   "date": "2026-09-22T16:42:27+01:00",
+   "subject": "proof(t5-a2): pin self-embedding terminal strength"
+  },
+  {
+   "commit": "d698d95246de20ffbfc034be0814f5f554fb5830",
+   "date": "2026-09-22T16:39:45+01:00",
+   "subject": "fix(t5-a2): use explicit diagonal-family conversion"
+  },
+  {
+   "commit": "39581dd85c036921ee2cc4e4afe42194f28c72a9",
+   "date": "2026-09-22T16:33:18+01:00",
+   "subject": "fix(t5-a2): open canonical SAT boundary"
+  },
+  {
+   "commit": "ca802792888bca9fde119eed2321a4d22964d0a7",
+   "date": "2026-09-22T16:32:27+01:00",
+   "subject": "ci(t5-a2): audit semantic self-embedding boundary"
+  },
+  {
+   "commit": "9c8a4b5449cddff3d05a2d22d7f98a561c9737fa",
+   "date": "2026-09-22T16:32:22+01:00",
+   "subject": "formal(t5-a2): isolate semantic self-embedding gap"
+  },
+  {
+   "commit": "336f84953560d63e924546fe597ab7aa7aa5631e",
+   "date": "2026-09-22T15:52:09+01:00",
+   "subject": "fix(t5): close tape length normalization and radius namespace"
+  },
+  {
+   "commit": "ce6b7ac860bc1b5982c1a70a4983b684aa98835e",
+   "date": "2026-09-22T15:51:06+01:00",
+   "subject": "fix(t5): match initial CNF append association"
+  },
+  {
+   "commit": "685991141171bf79cf33c6c8cd93f76f51643a6b",
+   "date": "2026-09-22T15:50:04+01:00",
+   "subject": "ci(t5): audit tape move and radius lemmas"
+  },
+  {
+   "commit": "20ec46aa1d6715b6fbece10c6934306aaeca9fdc",
+   "date": "2026-09-22T15:49:54+01:00",
+   "subject": "proof(t5): add tape move and radius bounds"
+  },
+  {
+   "commit": "c8b8962e351ebc09a3bdd1e020c16fa2bef8359b",
+   "date": "2026-09-22T15:48:17+01:00",
+   "subject": "fix(t5): close initial buffer membership goals explicitly"
+  },
+  {
+   "commit": "4add51e486e93d9c5c1e99f63ab8102693ca4cfa",
+   "date": "2026-09-22T15:47:08+01:00",
+   "subject": "ci(t5): audit initial tableau soundness"
+  },
+  {
+   "commit": "e1463f5e16e9a7c9cd2f9c2f67c5483bef6e2c97",
+   "date": "2026-09-22T15:46:59+01:00",
+   "subject": "proof(t5): prove initial tableau snapshot soundness"
+  },
+  {
+   "commit": "bd0d2392ae874962639af34fc19298e2a2391dfb",
+   "date": "2026-09-22T15:46:40+01:00",
+   "subject": "proof(t5): add CNF subset truth transport"
+  },
+  {
+   "commit": "3773619065290df6a461d07ab4f03018d8866dfd",
+   "date": "2026-09-22T15:44:59+01:00",
+   "subject": "fix(t5): bind forcing logic to canonical candidate model"
+  },
+  {
+   "commit": "2e85d4a01de3f5a9752b415486ba76afae22df30",
+   "date": "2026-09-22T15:43:56+01:00",
+   "subject": "ci(t5): audit tableau forcing logic"
+  },
+  {
+   "commit": "eed22fcb902b5e0047868b349a69830dd4b17c0f",
+   "date": "2026-09-22T15:43:46+01:00",
+   "subject": "proof(t5): add tableau forcing logic"
+  },
+  {
+   "commit": "55195572d183093a9dec640b702abe4204835d1c",
+   "date": "2026-09-22T15:39:14+01:00",
+   "subject": "harden(t5): remove diagonal-frontier dependency from A1 builder"
+  },
+  {
+   "commit": "dedc48358c5c1071d2795f593acbedcd1e7c7091",
+   "date": "2026-09-22T15:38:33+01:00",
+   "subject": "fix(t5): close symbol-code injectivity by cases"
+  },
+  {
+   "commit": "8c92cf0831b9f705fbd845de6f918a64ec4d9fae",
+   "date": "2026-09-22T15:37:17+01:00",
+   "subject": "fix(t5): state symbol-code injectivity without Function namespace"
+  },
+  {
+   "commit": "df36ee128214841518885d81dce47d8417fa8248",
+   "date": "2026-09-22T15:34:24+01:00",
+   "subject": "fix(t5): normalize proposition syntax"
+  },
+  {
+   "commit": "b36dd5ed6a76e294537573b6adce98119438a8c9",
+   "date": "2026-09-22T15:32:40+01:00",
+   "subject": "formal(t5): add bounded computation tableau source"
+  },
+  {
+   "commit": "9d987dc8161bfc7bcb371d4624532356fe32a89f",
+   "date": "2026-09-22T13:46:06+01:00",
+   "subject": "ci(p01): certify clean binary-head parser delta"
+  },
+  {
+   "commit": "8dc7e7b810df15d439dba4be0cc01e40da9b37ea",
+   "date": "2026-09-22T13:45:53+01:00",
+   "subject": "reuse(p01): promote clean CanonicalSATParserBinaryHeadProof.lean"
+  },
+  {
+   "commit": "614f88fe020fd05b9b251a6a2283301acf7ff733",
+   "date": "2026-09-22T12:48:57+01:00",
+   "subject": "fix(p01): apply composed phase fuel as run argument"
+  },
+  {
+   "commit": "e3139ac81e2bcdc178d9c1fa4a45e08ab762b3ad",
+   "date": "2026-09-22T12:48:50+01:00",
+   "subject": "p01: compose complete binary-head parser macros"
+  },
+  {
+   "commit": "8c8bd6c85aa34fd680ec05130ef5fd7141cefea1",
+   "date": "2026-09-22T12:47:44+01:00",
+   "subject": "ci(p01): deduplicate terminal branch audit"
+  },
+  {
+   "commit": "93ce76a23cfb9ecfa9ac01c7231ac6f96ad63ce7",
+   "date": "2026-09-22T12:47:37+01:00",
+   "subject": "cleanup(p01): remove duplicate terminal-cases proof"
+  },
+  {
+   "commit": "a25a9b09fce0d94680e1db6c6883dcc3c2128d59",
+   "date": "2026-09-22T12:47:24+01:00",
+   "subject": "fix(p01): remove solved-goal tails in global parser spec"
+  },
+  {
+   "commit": "11c331ae94508b26c17fbcfba81023ddfbbed9a7",
+   "date": "2026-09-22T12:47:16+01:00",
+   "subject": "fix(p01): normalize phase-macro composite fuel"
+  },
+  {
+   "commit": "b46ad87868394b1e1a3c2b4476750f3a353341d3",
+   "date": "2026-09-22T12:47:14+01:00",
+   "subject": "fix(p01): reuse certified terminal parser branches"
+  },
+  {
+   "commit": "11bc0e83b7c8e909ba496715db8b8f6f0d9626ad",
+   "date": "2026-09-22T12:47:08+01:00",
+   "subject": "fix(p01): reuse certified terminal-branch proofs"
+  },
+  {
+   "commit": "06a94785247ac5760325cae7e28514eae11e3878",
+   "date": "2026-09-22T12:45:55+01:00",
+   "subject": "fix(p01): close slot-log push recurrence without redundant tactic"
+  },
+  {
+   "commit": "ea3ecd4f4147ee9f5ea4ba4760f9ebc529168fe9",
+   "date": "2026-09-22T12:45:04+01:00",
+   "subject": "ci(p01): audit global parser terminal cases"
+  },
+  {
+   "commit": "3911e78e1c673ce62bb5ea47e3e2676899687e8c",
+   "date": "2026-09-22T12:44:55+01:00",
+   "subject": "p01: close leaf and binary malformed terminal cases"
+  },
+  {
+   "commit": "3c3c0a3482d49680455048968b43fe8b973b7ab9",
+   "date": "2026-09-22T12:44:25+01:00",
+   "subject": "fix(p01): parenthesize composed phase runtimes"
+  },
+  {
+   "commit": "67456aa2261bae24bcfc097d0c9f7f1d0e84a93f",
+   "date": "2026-09-22T12:43:43+01:00",
+   "subject": "ci(p01): build global slot-log specification"
+  },
+  {
+   "commit": "69e68374e498c41b505284ff9e784546701c5a7a",
+   "date": "2026-09-22T12:43:32+01:00",
+   "subject": "p01: identify physical slot-log recurrence with canonical parser"
+  },
+  {
+   "commit": "cbba9a358a97b177ee9f46cbd622c7fb7f86a861",
+   "date": "2026-09-22T12:43:23+01:00",
+   "subject": "ci(p01): audit composed phase macros"
+  },
+  {
+   "commit": "6465c05d0d9d071cd2279e749f4c255174da5993",
+   "date": "2026-09-22T12:43:14+01:00",
+   "subject": "atk(p01): compose head decoding with certified phase macros"
+  },
+  {
+   "commit": "f9add60881d709ce8320cb54a4d52f26d829b8f5",
+   "date": "2026-09-22T12:41:18+01:00",
+   "subject": "ci(p01): audit terminal source-exhaustion branches"
+  },
+  {
+   "commit": "18c12c40545b41e63b75b1c8e99e27c6ff527335",
+   "date": "2026-09-22T12:41:08+01:00",
+   "subject": "atk(p01): close residual-source and exhausted-binary terminal branches"
+  },
+  {
+   "commit": "b406b806da58ebe6bc1f85863ee44054ad42edb2",
+   "date": "2026-09-22T12:40:14+01:00",
+   "subject": "fix(ci): audit proposition-only two-gap closure"
+  },
+  {
+   "commit": "9aef04e9f4c48ab01a0fa60fd50e776bb04198ba",
+   "date": "2026-09-22T12:40:07+01:00",
+   "subject": "fix(final): keep two-gap promotion in Prop"
+  },
+  {
+   "commit": "357e1e33c8ec158b6754420190daef92407c7ffa",
+   "date": "2026-09-22T12:38:57+01:00",
+   "subject": "ci(final): audit two-gap FINAL_EXTERNAL compression"
+  },
+  {
+   "commit": "3c0fe953d9076d9020f7a3e72bc6d58c17cac826",
+   "date": "2026-09-22T12:38:47+01:00",
+   "subject": "atk(final): compress FINAL_EXTERNAL to two terminal producers"
+  },
+  {
+   "commit": "2221f4318dbc73d0900b623e324127d19482758c",
+   "date": "2026-09-22T12:37:27+01:00",
+   "subject": "ci(p01): audit certified leaf source return integration"
+  },
+  {
+   "commit": "3690ab0593358d065930b36ec1e7a67852a88fa0",
+   "date": "2026-09-22T12:36:50+01:00",
+   "subject": "ci(p01): audit integrated certified leaf-source chain"
+  },
+  {
+   "commit": "38db71b416906e5b7138774842e91d3e367aad09",
+   "date": "2026-09-22T12:35:19+01:00",
+   "subject": "reuse(p01): integrate certified leaf-source proof into terminal attack"
+  },
+  {
+   "commit": "c102d9d482d708a7a865803e94f294c6da82ed9a",
+   "date": "2026-09-22T12:35:00+01:00",
+   "subject": "ci(p02): validate incorporated G2.1-G2.2 terminal wiring"
+  },
+  {
+   "commit": "66f51104ba60bbbcc6a6a96fcf387b3c8e479037",
+   "date": "2026-09-22T12:34:57+01:00",
+   "subject": "ci(g3): validate incorporated normalized external contract"
+  },
+  {
+   "commit": "84b307436e13e1810ac0a0e1730c6436b9f73570",
+   "date": "2026-09-22T12:34:33+01:00",
+   "subject": "atk(g3): incorporate certified normalized external contract"
+  },
+  {
+   "commit": "93c823bc8c240ec150ebc0e0864b0bea8c32b049",
+   "date": "2026-09-22T12:34:30+01:00",
+   "subject": "atk(p02): incorporate certified G2.1-G2.2 terminal wiring"
+  },
+  {
+   "commit": "cebe0ecd7d6178a584b6e1fc01ff82dad5988e8b",
+   "date": "2026-09-22T12:33:23+01:00",
+   "subject": "audit(atk): freeze only verified green subgates"
+  },
+  {
+   "commit": "9d6dd9575a61782c70137abff348356f805bc654",
+   "date": "2026-09-22T12:24:02+01:00",
+   "subject": "fix(p02): make constant-pair halting checks concrete"
+  },
+  {
+   "commit": "17c04b62d03946aab4573894833f087ade25bc33",
+   "date": "2026-09-22T12:23:15+01:00",
+   "subject": "fix(p02): close literal fixed-point countermodel elaboration"
+  },
+  {
+   "commit": "eb49284311029102ae1e47d80091c0d15aed7352",
+   "date": "2026-09-22T12:10:49+01:00",
+   "subject": "fix(p01): make leaf-pop audit marker non-doc comment"
+  },
+  {
+   "commit": "cd8b7cf4350432c8e548956c8f0b2dd8a6deab7c",
+   "date": "2026-09-22T12:09:13+01:00",
+   "subject": "audit(p01): refresh leaf-pop kernel checkpoint"
+  },
+  {
+   "commit": "216f97157c0634eaae56f26697b2d10d49c1f6e2",
+   "date": "2026-09-22T12:08:22+01:00",
+   "subject": "ci(p01): expose leaf-pop audit on PR"
+  },
+  {
+   "commit": "bb65456b7198d71c127d07e47de288a902654033",
+   "date": "2026-09-22T11:21:35+01:00",
+   "subject": "ci(p02): audit universal literal fixed-point countermodel"
+  },
+  {
+   "commit": "29c70bb1de8b64b3ef3df44b4fa6a79cb1e0d739",
+   "date": "2026-09-22T11:21:23+01:00",
+   "subject": "atk(p02): add countermodel to universal literal fixed-point route"
+  },
+  {
+   "commit": "3f04da0076dc9cf7e244a62fa729d98f0a21e612",
+   "date": "2026-09-22T11:19:56+01:00",
+   "subject": "fix(g3): remove solved identity-cost tail"
+  },
+  {
+   "commit": "f9e7ed4eb5037d67376191ad2f0381795078be51",
+   "date": "2026-09-22T11:18:31+01:00",
+   "subject": "ci(g3): audit assembled normalized four-way bridge"
+  },
+  {
+   "commit": "e5f68f93dae3e454ded57e22c4f0285740f4b57b",
+   "date": "2026-09-22T11:18:06+01:00",
+   "subject": "atk(g3): assemble normalized four-way model bridge"
+  },
+  {
+   "commit": "7707051580cd4e4685e30c8206cfdc060ae1b1ab",
+   "date": "2026-09-22T11:16:15+01:00",
+   "subject": "fix(g3): rewrite NTM successor functions before recursive simulation"
+  },
+  {
+   "commit": "170a6350c4e0e1099dbb75393d0f36a841dff58a",
+   "date": "2026-09-22T11:12:09+01:00",
+   "subject": "fix(g3): simplify NTM successor and runBranches simulations"
+  },
+  {
+   "commit": "72aa7be339ddcde8ffd83527a3bf0b932879cd45",
+   "date": "2026-09-22T11:09:57+01:00",
+   "subject": "ci(p01): audit leaf state14/15 return scan"
+  },
+  {
+   "commit": "a2c42957f7553b8269f403eb374ec43692dd8215",
+   "date": "2026-09-22T11:09:37+01:00",
+   "subject": "p01: prove leaf post-pop state14/15 return scan"
+  },
+  {
+   "commit": "8d55490c0b2d0759bbc6e0de81d0a209f2c08e73",
+   "date": "2026-09-22T11:09:20+01:00",
+   "subject": "ci(g3): audit nondeterministic normalized model bridge"
+  },
+  {
+   "commit": "1784a3bd040b5cef544d9025047a49705b4b18b3",
+   "date": "2026-09-22T11:09:05+01:00",
+   "subject": "atk(g3): prove nondeterministic two-way normalized model bridge"
+  },
+  {
+   "commit": "26e721ab25425d62312945200baa9c127910d320",
+   "date": "2026-09-22T11:04:40+01:00",
+   "subject": "fix(p01): close leaf-pop recursion without redundant terminal tactic"
+  },
+  {
+   "commit": "836f9f9ebf0eb15c128accadb9d99554a91cacf3",
+   "date": "2026-09-22T11:04:05+01:00",
+   "subject": "fix(g3): fold bridge machines before step rewrites"
+  },
+  {
+   "commit": "53080436534e79cc1715a3a233c75e8f77500a97",
+   "date": "2026-09-22T11:02:36+01:00",
+   "subject": "fix(g3): rewrite deterministic run and CorrectAt bridges explicitly"
+  },
+  {
+   "commit": "86cbf139561efaa245efa2e6243e26d0a5a661c9",
+   "date": "2026-09-22T11:02:17+01:00",
+   "subject": "fix(p01): isolate replicate rotation and reverse-map lemma"
+  },
+  {
+   "commit": "569f865bf08790d8cc7745c4f7170f2bb9cdc1a6",
+   "date": "2026-09-22T11:01:02+01:00",
+   "subject": "fix(p01): normalize leaf pop fuel and reverse tape shape"
+  },
+  {
+   "commit": "6b8996394279d401a21243ff1a4e9f0551c05141",
+   "date": "2026-09-22T11:00:32+01:00",
+   "subject": "ci(p01): include macro return and leaf-pop in fail-closed clean gate"
+  },
+  {
+   "commit": "e3e5b2754a5c957d6fecbb8da846eacc983a7d95",
+   "date": "2026-09-22T10:59:47+01:00",
+   "subject": "ci(g3): audit deterministic normalized model bridge"
+  },
+  {
+   "commit": "b7a59a1ae3db87805f6aad745adb5f359a5409bb",
+   "date": "2026-09-22T10:59:32+01:00",
+   "subject": "atk(g3): prove deterministic two-way normalized model bridge"
+  },
+  {
+   "commit": "ae35d4b8d28b91559eed25509fb7cfd60ee8fcc5",
+   "date": "2026-09-22T10:57:53+01:00",
+   "subject": "fix(p01): repair nonempty leaf pop scan invariant"
+  },
+  {
+   "commit": "7af08879f51b36ab4ea42ae62f65fc582fba4328",
+   "date": "2026-09-22T10:57:36+01:00",
+   "subject": "ci(p01): validate existing leaf pop proof"
+  },
+  {
+   "commit": "1dc29e96f873901694e1496e2f422bf282dd9538",
+   "date": "2026-09-22T10:55:47+01:00",
+   "subject": "ci(g3): audit normalized external machine model"
+  },
+  {
+   "commit": "a3208fc23d84d7d29a1fa0cd37f9781a34a13d65",
+   "date": "2026-09-22T10:55:31+01:00",
+   "subject": "atk(g3): add independent normalized external machine model"
+  },
+  {
+   "commit": "9b9af2688e9ec0df62c509bf33fb3de1ea32a937",
+   "date": "2026-09-22T10:54:24+01:00",
+   "subject": "ci(p01): audit leaf rightmost-active pop macro"
+  },
+  {
+   "commit": "bcde38c2efaa282ddb758c7803f140b6798c9dd5",
+   "date": "2026-09-22T10:54:12+01:00",
+   "subject": "atk(p01): prove rightmost active-slot leaf pop macro"
+  },
+  {
+   "commit": "26271624dfc81cf930a8191811268984aa45ec71",
+   "date": "2026-09-22T10:51:51+01:00",
+   "subject": "fix(p02): remove solved true-constant witness tail"
+  },
+  {
+   "commit": "3c9947c7daa08c1880361fdbe04d9d12ffcbfac4",
+   "date": "2026-09-22T10:51:01+01:00",
+   "subject": "ci(p02): audit literal fixed-point firewall"
+  },
+  {
+   "commit": "e7322cf043463257206f12ba21f5cf548794ece8",
+   "date": "2026-09-22T10:50:47+01:00",
+   "subject": "atk(p02): prove literal fixed-point route firewall"
+  },
+  {
+   "commit": "b28242f8fad46466654850244b9caef252334745",
+   "date": "2026-09-22T10:46:33+01:00",
+   "subject": "audit(atk): document frozen, superseded and open chain checkpoints"
+  },
+  {
+   "commit": "f29f5984a92d7681887801e50ec2b6143d9f7ee4",
+   "date": "2026-09-22T10:31:52+01:00",
+   "subject": "fix(p01): close zero-fuel binary rewind tail"
+  },
+  {
+   "commit": "e6447622016cf9e22a3a71807504d1f6294501f6",
+   "date": "2026-09-22T10:30:57+01:00",
+   "subject": "fix(p01): parenthesize binary source-left invariant"
+  },
+  {
+   "commit": "5f0c4b7337d65de1f3713b15b5b72750702ca60d",
+   "date": "2026-09-22T10:29:34+01:00",
+   "subject": "fix(p01): make binary delimiter and rewind steps explicit"
+  },
+  {
+   "commit": "2f3b246030641993e755e3976afcd4d9a4c9ac05",
+   "date": "2026-09-22T10:27:09+01:00",
+   "subject": "atk(p01): close binary post-head return and rewind macro"
+  },
+  {
+   "commit": "dd0411e0eca5e4f40494e5f2ed413847272ebecf",
+   "date": "2026-09-22T10:25:11+01:00",
+   "subject": "fix(p02): align semantic diagonal encoding and fixed-point rewrite"
+  },
+  {
+   "commit": "e7d699d6532940eaed9b1c933de49264e3a61de6",
+   "date": "2026-09-22T10:24:02+01:00",
+   "subject": "ci(p02): audit semantic diagonal transformer"
+  },
+  {
+   "commit": "9a0c899004c74749bbeff4b8fb7ccd411fe4339f",
+   "date": "2026-09-22T10:23:48+01:00",
+   "subject": "atk(p02): prove semantic diagonal transformer validity size and flip"
+  },
+  {
+   "commit": "ac5f76f3e83319fe4e3d189c8863cf1854824c84",
+   "date": "2026-09-22T10:21:48+01:00",
+   "subject": "fix(p01): close binary return reverse-log shape"
+  },
+  {
+   "commit": "f1a4f9d4dfb558a7f6f7efe2090794bcd8aeddba",
+   "date": "2026-09-22T10:20:57+01:00",
+   "subject": "ci(g3): validate external source provenance"
+  },
+  {
+   "commit": "067ed9f14eca60499b67130512efa1b0391247df",
+   "date": "2026-09-22T10:20:44+01:00",
+   "subject": "atk(g3): pin Cook CMI source provenance"
+  },
+  {
+   "commit": "d860ead4ae57f7032c9479242c3914eec4ca2bea",
+   "date": "2026-09-22T10:19:55+01:00",
+   "subject": "ci(p01): extend parser macro audit through binary return"
+  },
+  {
+   "commit": "7cd8ecc8f413e5c112a2146044faa182488ef4bc",
+   "date": "2026-09-22T10:19:12+01:00",
+   "subject": "atk(p01): prove binary work-log return to delimiter"
+  },
+  {
+   "commit": "db716cec19ddbba552f5b91f865089abd4eea9e5",
+   "date": "2026-09-22T10:15:13+01:00",
+   "subject": "ci(p01): validate parser macro composition"
+  },
+  {
+   "commit": "ab80d7c6c367beee1e9eb2b3bf8dd46a99c69f93",
+   "date": "2026-09-22T10:14:49+01:00",
+   "subject": "atk(p01): compose parser seek and work-log macro phases"
+  },
+  {
+   "commit": "97a95327360c3d4fc29dae1453330974e5f30519",
+   "date": "2026-09-22T09:54:26+01:00",
+   "subject": "atk(external): require sourced G3 contract for final promotion"
+  },
+  {
+   "commit": "121cb7bb75443ca9664dd5860cdbc743e393fe75",
+   "date": "2026-09-22T09:54:24+01:00",
+   "subject": "atk(g3): bind model bridge to explicit source contract"
+  },
+  {
+   "commit": "1091d8632d6a3186bd724f63980ed7cf45f522cc",
+   "date": "2026-09-22T09:54:17+01:00",
+   "subject": "atk(g3): require explicit external model provenance"
+  },
+  {
+   "commit": "77ed82750762fa3057c96f340254f522681ccdee",
+   "date": "2026-09-22T09:17:54+01:00",
+   "subject": "fix(p02): close canonical clock reflexive bound"
+  },
+  {
+   "commit": "8347c6f153872b0ae13ea17e7d1d4be41bfa2118",
+   "date": "2026-09-22T09:12:15+01:00",
+   "subject": "ci(p02): validate normalization and diagonal frontier"
+  },
+  {
+   "commit": "b87a8c5bf9e614920eba85bf691a35b320093ce8",
+   "date": "2026-09-22T09:11:59+01:00",
+   "subject": "atk(p02): add P02DiagonalFrontier fail-closed gate"
+  },
+  {
+   "commit": "5628012bc74456c60ba7e84398131fefbf557466",
+   "date": "2026-09-22T09:11:57+01:00",
+   "subject": "atk(p02): add P02CanonicalNormalization fail-closed gate"
+  },
+  {
+   "commit": "58d84bc8c2e1a45583afc7dfe31c7d5f34768385",
+   "date": "2026-09-22T08:50:56+01:00",
+   "subject": "atk(g3): require polynomial overhead in all four model simulations"
+  },
+  {
+   "commit": "06e13540dd7096c25274ae8e604d7c05e3753bfa",
+   "date": "2026-09-22T08:42:15+01:00",
+   "subject": "ci(external): validate G3 and final external scaffold"
+  },
+  {
+   "commit": "20f4cf30ce0687012f8d568795e3d21a7b8d8f67",
+   "date": "2026-09-22T08:42:01+01:00",
+   "subject": "atk(external): add FinalExternalCertificate fail-closed scaffold"
+  },
+  {
+   "commit": "6a8a9a44976ea07f726744fe43dbfb34d81d3cf5",
+   "date": "2026-09-22T08:41:59+01:00",
+   "subject": "atk(external): add G3ModelMatch fail-closed scaffold"
+  },
+  {
+   "commit": "3beec2f1f235f35cb24aba8f2820efcc984d3450",
+   "date": "2026-09-22T08:41:56+01:00",
+   "subject": "atk(external): add EncodingNormalization fail-closed scaffold"
+  },
+  {
+   "commit": "0ee39ab9a1d25e785868c635ea73c21d5a0f855f",
+   "date": "2026-09-22T08:41:53+01:00",
+   "subject": "atk(external): add OfficialModel fail-closed scaffold"
+  },
+  {
+   "commit": "ada18eeddb72490e44a9c6033d63690a416a7f0b",
+   "date": "2026-09-22T08:29:32+01:00",
+   "subject": "fix(p01): rewrite singleton transition before applying step proof"
+  },
+  {
+   "commit": "fa3507d7d5ff44a2750992ae399da7f0446ceaed",
+   "date": "2026-09-22T08:28:30+01:00",
+   "subject": "fix(p01): reuse proven step equality in singleton successor proof"
+  },
+  {
+   "commit": "a433f0a3c3c4e1a6340f4f6a29c8359197328627",
+   "date": "2026-09-22T08:27:33+01:00",
+   "subject": "fix(p01): close singleton successor map by transition decomposition"
+  },
+  {
+   "commit": "ce09ca1fff0cba86d7d1f4adc6db532fe233a14b",
+   "date": "2026-09-22T08:26:35+01:00",
+   "subject": "refactor(p01): prove TM-to-NTM step simulation generically"
+  },
+  {
+   "commit": "9009e73fb1f0b20df374d52259aab8732ccffe30",
+   "date": "2026-09-22T08:25:24+01:00",
+   "subject": "fix(p01): normalize concrete parser in TM-to-NTM step proof"
+  },
+  {
+   "commit": "a86480d642225c1341c38fddd12e150f861e7a60",
+   "date": "2026-09-22T08:24:15+01:00",
+   "subject": "fix(p01): close parser NTM blank equality explicitly"
+  },
+  {
+   "commit": "6d08384faf8f0910145bd76482cdf3ff5fe5fcf6",
+   "date": "2026-09-22T08:23:13+01:00",
+   "subject": "fix(p01): type parser step simulation configuration explicitly"
+  },
+  {
+   "commit": "57df264b9570c2d88c55477da25476e9500ea90a",
+   "date": "2026-09-22T08:22:23+01:00",
+   "subject": "fix(p01): make parser step simulation configuration-explicit"
+  },
+  {
+   "commit": "c3a9dd42b12c29c51acef4b7016d3977be4693c6",
+   "date": "2026-09-22T08:20:56+01:00",
+   "subject": "ci(p01): audit finite witness guess phase"
+  },
+  {
+   "commit": "6f45b564b7434ad279a155c538ed85615906fdb3",
+   "date": "2026-09-22T08:20:34+01:00",
+   "subject": "atk(p01): add finite-control nondeterministic witness guesser"
+  },
+  {
+   "commit": "0efb40b323b550b0405f4393821b9f0abc69a8e7",
+   "date": "2026-09-22T08:19:34+01:00",
+   "subject": "fix(p01): normalize parser transition in step simulation"
+  },
+  {
+   "commit": "003deaa12be81698601edaeb4beb767ea1b8dc8f",
+   "date": "2026-09-22T08:18:02+01:00",
+   "subject": "fix(p01): reuse parser blank for definitional NTM simulation"
+  },
+  {
+   "commit": "fe416c015ef67a5e6d3bea1485a49425ac8ad8e3",
+   "date": "2026-09-22T08:16:43+01:00",
+   "subject": "fix(p01): destruct parser transition in NTM step simulation"
+  },
+  {
+   "commit": "61086467e7c42499405fa557f6e71efa9e8d414b",
+   "date": "2026-09-22T08:15:39+01:00",
+   "subject": "fix(p01): close parser NTM definitional and terminal equalities"
+  },
+  {
+   "commit": "f8fdda726ae04323061a2aae994734f885cf60f3",
+   "date": "2026-09-22T08:14:16+01:00",
+   "subject": "fix(p01): prove parser singleton-branch NTM equivalence"
+  },
+  {
+   "commit": "3210d8880dfe140a6e8218a9f975a9534be2f3a8",
+   "date": "2026-09-22T08:11:41+01:00",
+   "subject": "ci(p01): audit parser-to-NTM integration phase"
+  },
+  {
+   "commit": "d5698e0abbfb415788bd7301327f6e1568ff2c8d",
+   "date": "2026-09-22T08:11:19+01:00",
+   "subject": "atk(p01): embed Fin25 parser as canonical singleton-branch NTM"
+  },
+  {
+   "commit": "b072ee3d33f6d5a0f818b0c045402480dedd0a8f",
+   "date": "2026-09-22T08:05:18+01:00",
+   "subject": "fix(p01): keep scaffold firewall comment-neutral"
+  },
+  {
+   "commit": "d5c3af688a124fe57f0c732d7c6a45692f9eba17",
+   "date": "2026-09-22T08:04:25+01:00",
+   "subject": "ci(p01): validate hard-final scaffold fail-closed"
+  },
+  {
+   "commit": "9cfb1e43213f65a5cde108653a455ff55f84f221",
+   "date": "2026-09-22T08:04:07+01:00",
+   "subject": "atk(p01): add exact hard-final certificate scaffold"
+  },
+  {
+   "commit": "f4e2215b65aab2bef2f16b131e3dad7105994aee",
+   "date": "2026-09-22T00:45:28+01:00",
+   "subject": "fix(p01): align rewind invariant with physical tape orientation"
+  },
+  {
+   "commit": "d77d1814c78cb60bf52b4182ca0d05d7f38ef36e",
+   "date": "2026-09-22T00:43:34+01:00",
+   "subject": "fix(p01): preserve work-scan step lemmas in recursive runs"
+  },
+  {
+   "commit": "c2d04bece081a8bcc71cd9792f1f4400d78893c1",
+   "date": "2026-09-22T00:41:44+01:00",
+   "subject": "fix(p01): repair work-scan binder syntax"
+  },
+  {
+   "commit": "0cb40594ecec1eb61d4d9c7f16d536384e53aaaf",
+   "date": "2026-09-22T00:40:28+01:00",
+   "subject": "fix(p01): keep transition hypothesis opaque in step lemma"
+  },
+  {
+   "commit": "8532cad90a2000667c11eef32e2a05e5af650482",
+   "date": "2026-09-22T00:38:54+01:00",
+   "subject": "fix(p01): close recursive payload and input-head composition"
+  },
+  {
+   "commit": "d98340f78c0c10986a81e8f4608c3108b42762f9",
+   "date": "2026-09-22T00:37:17+01:00",
+   "subject": "fix(p01): normalize parser head machine proofs"
+  },
+  {
+   "commit": "ca6c07d3721f0a84f723657531a9897ee607af31",
+   "date": "2026-09-22T00:33:42+01:00",
+   "subject": "fix(p01): repair parser head proof normal forms"
+  },
+  {
+   "commit": "a4a9e1865e4c0df915ecfb4c50f1faead1804e16",
+   "date": "2026-09-22T00:32:29+01:00",
+   "subject": "fix(p01): close unary payload run and halting proofs"
+  },
+  {
+   "commit": "26f3a947888dbf8c6c70d28eb0f5f16c39c82b9a",
+   "date": "2026-09-22T00:21:14+01:00",
+   "subject": "p01: rewrite whole scan-end configuration in initialization proof"
+  },
+  {
+   "commit": "22da59b5d32cc1ba61e2349d9e5cced18edc9f73",
+   "date": "2026-09-22T00:19:53+01:00",
+   "subject": "p01: remove redundant reverse rewrites in init proof"
+  },
+  {
+   "commit": "45b16e1c1485be5f3443106714c5125380457bb9",
+   "date": "2026-09-22T00:18:40+01:00",
+   "subject": "p01: normalize map/reverse explicitly in init proof"
+  },
+  {
+   "commit": "03ed62e006b72fdc8ed5ae1c7b14b445cc6b9660",
+   "date": "2026-09-22T00:17:12+01:00",
+   "subject": "p01: rewrite initialization proof without reverseRecOn"
+  },
+  {
+   "commit": "e94118f5d69f08430429ce29b22b184a69509289",
+   "date": "2026-09-22T00:15:36+01:00",
+   "subject": "p01: fix parser polynomial-bound reflexivity proof"
+  },
+  {
+   "commit": "7137b6d8550b6b19f29004e27556d36b7f97296f",
+   "date": "2026-09-22T00:15:34+01:00",
+   "subject": "p01: close halted branch of TM run-add"
+  },
+  {
+   "commit": "a8f9992484fdac856de178b1c7484123f373e4d7",
+   "date": "2026-09-22T00:14:09+01:00",
+   "subject": "p01: repair slot-log pop decomposition parser syntax"
+  },
+  {
+   "commit": "f1b7e1faf4b8f32fd7ddc7ff5f2cb0c5012f9e03",
+   "date": "2026-09-22T00:14:05+01:00",
+   "subject": "p01: fix TM run composition without sorryAx"
+  },
+  {
+   "commit": "8b2ac359281016ef73f4086ab2aa2db1d004a314",
+   "date": "2026-09-22T00:12:40+01:00",
+   "subject": "ci: cover current work-scan and rewind frontier"
+  },
+  {
+   "commit": "2842fcba86f2a2e9f488b586a45b8b9a2aaa5e4c",
+   "date": "2026-09-22T00:12:37+01:00",
+   "subject": "p01: include work-scan and rewind proofs in umbrella build"
+  },
+  {
+   "commit": "2f7b88b2f93801e331dfdfa811833bbdd57a810d",
+   "date": "2026-09-22T00:10:35+01:00",
+   "subject": "p01: prove Fin25 unread-source rewind phase"
+  },
+  {
+   "commit": "8a35f84c6757894f8c14dfa8572407ce1be0cbf0",
+   "date": "2026-09-22T00:08:34+01:00",
+   "subject": "p01: prove source-to-work and work-end scans for Fin25 parser"
+  },
+  {
+   "commit": "8734c5708d34d1aeaa1f57ce9d172b11038c87fc",
+   "date": "2026-09-22T00:07:20+01:00",
+   "subject": "p01: decompose rightmost active-slot pop"
+  },
+  {
+   "commit": "baaa57e737c332e5c54524e9bbd05261faa153a4",
+   "date": "2026-09-22T00:06:46+01:00",
+   "subject": "p01: normalize head proof to Fin25 continuations"
+  },
+  {
+   "commit": "1d59d524449c100042ba56bacb280cf6f3e25196",
+   "date": "2026-09-22T00:06:43+01:00",
+   "subject": "p01: normalize init proof to Fin25"
+  },
+  {
+   "commit": "d2636eafd0a5f61cea2dfb514172cbf0da7efc0c",
+   "date": "2026-09-22T00:05:56+01:00",
+   "subject": "ci: remove stale Fin31 parser artifacts"
+  },
+  {
+   "commit": "5737ee6afaa8e0708b3a5a1d91257bfd5c293788",
+   "date": "2026-09-22T00:05:47+01:00",
+   "subject": "ci: validate only canonical Fin25 parser chain"
+  },
+  {
+   "commit": "71ebc5485dc8f26b640d7ceecd84075db39be5a1",
+   "date": "2026-09-22T00:05:44+01:00",
+   "subject": "p01: keep Fin25 parser as sole canonical operational chain"
+  },
+  {
+   "commit": "635f09d52793ab00b4aca7bcfa7876c670430b87",
+   "date": "2026-09-22T00:05:40+01:00",
+   "subject": "atk: drop stale Fin31 parser proof imports"
+  },
+  {
+   "commit": "d98a98bcaf28859acf74731e2bb848cc809acd64",
+   "date": "2026-09-22T00:05:37+01:00",
+   "subject": "atk: remove stale Fin31 CanonicalSATRecursiveParserPaths.lean"
+  },
+  {
+   "commit": "4495abf5fc589ace5c5fadafb4c8b63d18947054",
+   "date": "2026-09-22T00:05:34+01:00",
+   "subject": "atk: remove stale Fin31 CanonicalSATParserLogBoundary.lean"
+  },
+  {
+   "commit": "1e6eab79b7c13b0de7674054dad231519f35018f",
+   "date": "2026-09-22T00:05:08+01:00",
+   "subject": "ci: build and audit Fin31 parser init/head proofs"
+  },
+  {
+   "commit": "d79e5d8032043666addff200380501f3399fda34",
+   "date": "2026-09-22T00:04:52+01:00",
+   "subject": "p01: activate Fin31 init and head proofs"
+  },
+  {
+   "commit": "b984b4a1c7a4b12b21c509e10fae3ca31bd4a58d",
+   "date": "2026-09-22T00:04:50+01:00",
+   "subject": "p01: port exact head-consumption proof to Fin31"
+  },
+  {
+   "commit": "f4e549b452f220263fbeb99347a2bcb88fd89d36",
+   "date": "2026-09-22T00:04:46+01:00",
+   "subject": "p01: port exact parser initialization proof to Fin31"
+  },
+  {
+   "commit": "fcf73683781b0bb794dfd8ff20de2067bcc28c2d",
+   "date": "2026-09-22T00:04:24+01:00",
+   "subject": "fix: prove physical slot-log push run explicitly"
+  },
+  {
+   "commit": "dde502585d5aec5bcd1353c32c84b8c8f21db7ad",
+   "date": "2026-09-22T00:04:08+01:00",
+   "subject": "p01: fix Fin25 head continuation states"
+  },
+  {
+   "commit": "f6b33a5cce772b85c2d8558aaefd0d7307d5ae8c",
+   "date": "2026-09-22T00:03:39+01:00",
+   "subject": "p01: repoint CanonicalSATRecursiveParserSimulation.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "bf1410ccad763da32d97bc40a75731111ad121be",
+   "date": "2026-09-22T00:03:37+01:00",
+   "subject": "p01: repoint CanonicalSATParserHeadProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "d76fecc98143c1469a026d6ac3cb277eb9542ef1",
+   "date": "2026-09-22T00:03:31+01:00",
+   "subject": "ci: consolidate P01 parser audit on Fin31 simulation"
+  },
+  {
+   "commit": "389c06c3743f2efa23dc3193e4e7fe6880a44624",
+   "date": "2026-09-22T00:03:28+01:00",
+   "subject": "p01: stabilize parser boundary on canonical Fin31 machine"
+  },
+  {
+   "commit": "55ec0c88380e92ec7293764102b6e9111cdcadda",
+   "date": "2026-09-22T00:03:25+01:00",
+   "subject": "fix: stabilize slot-log push proof on current head"
+  },
+  {
+   "commit": "611618c3d7a5c220925b93ee1a8e398568a7d55f",
+   "date": "2026-09-22T00:03:25+01:00",
+   "subject": "p01: repoint CanonicalSATParserInitProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "39ff9aa581d6e4df6d5c7de7ffdd6d1cfaf6f385",
+   "date": "2026-09-22T00:03:15+01:00",
+   "subject": "p01: simplify canonical parser to Fin25 net-slot machine"
+  },
+  {
+   "commit": "8be8208d576e174b9d5bf4320ec5b7f29898bd56",
+   "date": "2026-09-22T00:02:45+01:00",
+   "subject": "p01: port parser path proofs to canonical Fin31 machine"
+  },
+  {
+   "commit": "fad135440c0848d39fc1da8cc4b83e231ed43a2f",
+   "date": "2026-09-22T00:02:42+01:00",
+   "subject": "p01: port parser boundary initialization to canonical Fin31 machine"
+  },
+  {
+   "commit": "a87e1fe37e03c493d35c6428f4d1773ad0c55760",
+   "date": "2026-09-22T00:02:38+01:00",
+   "subject": "fix: prove slot-log push run by explicit finite-control induction"
+  },
+  {
+   "commit": "495d1eb6d385d7cd1034be62ec739311d2920ee7",
+   "date": "2026-09-22T00:01:50+01:00",
+   "subject": "p01: specialize parser initialization proof to canonical bit tapes"
+  },
+  {
+   "commit": "d40fe197b23104ceead5ca3ce1ff5025b0c072f2",
+   "date": "2026-09-22T00:00:44+01:00",
+   "subject": "p01: prove exact Fin31 constructor-head consumption"
+  },
+  {
+   "commit": "4f530eaa855ed3b7fd2e1810b76820bfdd922776",
+   "date": "2026-09-22T00:00:30+01:00",
+   "subject": "fix: close parser polynomial bound with reflexive order proof"
+  },
+  {
+   "commit": "ad45a34431fabe8d93d5383ac12ce76bb87375ff",
+   "date": "2026-09-22T00:00:27+01:00",
+   "subject": "fix: avoid reserved prefix identifier in slot-log machines"
+  },
+  {
+   "commit": "f395591f8ba795c7368cbde95c29bcbd8df35bac",
+   "date": "2026-09-22T00:00:04+01:00",
+   "subject": "p01: reuse shared TM run lemmas in initialization proof"
+  },
+  {
+   "commit": "4bf81ac6bed696be5e3d59cabb389066974dde96",
+   "date": "2026-09-21T23:59:56+01:00",
+   "subject": "p01: add generic TM run composition and halt monotonicity lemmas"
+  },
+  {
+   "commit": "2fe79a0f6513ccce7cf1081ebdcb367e6ba84f80",
+   "date": "2026-09-21T23:59:33+01:00",
+   "subject": "fix: close empty slot-log append case"
+  },
+  {
+   "commit": "b949a4086700c509d0056bc025d8d25027b94606",
+   "date": "2026-09-21T23:59:19+01:00",
+   "subject": "p01: internalize TM run-add lemma for initialization proof"
+  },
+  {
+   "commit": "157b96644061c91a219d353065179fc0068c9d43",
+   "date": "2026-09-21T23:59:07+01:00",
+   "subject": "ci: build parser initialization simulation"
+  },
+  {
+   "commit": "5701bbb8f4be5b10c1d7409bf417f1e8717a5961",
+   "date": "2026-09-21T23:59:04+01:00",
+   "subject": "p01: activate parser initialization simulation"
+  },
+  {
+   "commit": "33f4a6e0fd0873f717ec04ff070f3977ac41708e",
+   "date": "2026-09-21T23:59:01+01:00",
+   "subject": "fix: close empty slot-log append base case"
+  },
+  {
+   "commit": "3ae98dd1ed39b8fbc2ba21d33f8e99829f2aad2d",
+   "date": "2026-09-21T23:58:59+01:00",
+   "subject": "p01: prove Fin31 parser scan and rewind initialization"
+  },
+  {
+   "commit": "cc5f1bf062373628522e788e5d907f26eb9477d6",
+   "date": "2026-09-21T23:58:53+01:00",
+   "subject": "p01: prove canonical parser initialization to one-slot boundary"
+  },
+  {
+   "commit": "aad9ea8b888554181f78040399e9294b269a8900",
+   "date": "2026-09-21T23:58:01+01:00",
+   "subject": "ci: build and audit recursive parser path proofs"
+  },
+  {
+   "commit": "486e928c13bdfae026ee110e581daff6717b3b5c",
+   "date": "2026-09-21T23:57:58+01:00",
+   "subject": "p01: activate recursive parser path proofs"
+  },
+  {
+   "commit": "7feb8df44db1f4bbfa2de8da8efa33f83285a87c",
+   "date": "2026-09-21T23:57:47+01:00",
+   "subject": "ci: repair recursive parser axiom audit"
+  },
+  {
+   "commit": "8d845f7181a81548644211a09e7b3b4e192fcc19",
+   "date": "2026-09-21T23:57:10+01:00",
+   "subject": "fix: prove slot-log append and push counts structurally"
+  },
+  {
+   "commit": "bc54ca2c9ccc3d71ffc1e063b1c98fec633d95f4",
+   "date": "2026-09-21T23:57:00+01:00",
+   "subject": "fix: close canonical slot-accept proof by exact simulation lemma"
+  },
+  {
+   "commit": "3c89e8adb1cc5c9dd4638034b172da0a850c8ea3",
+   "date": "2026-09-21T23:56:52+01:00",
+   "subject": "ci: canonicalize parser/P02 audit targets"
+  },
+  {
+   "commit": "818fb717e25613948aed4c150a119da78a7f4471",
+   "date": "2026-09-21T23:56:50+01:00",
+   "subject": "atk: canonicalize Fin31 parser and P02 terminal imports"
+  },
+  {
+   "commit": "c837263570e99e69ef0bf80418e64ff4f5697fa7",
+   "date": "2026-09-21T23:56:35+01:00",
+   "subject": "atk: remove superseded P02ExactFrontier.lean"
+  },
+  {
+   "commit": "3a710c04696a8bb006645587cbe1ee2923e63b64",
+   "date": "2026-09-21T23:56:32+01:00",
+   "subject": "atk: remove superseded CanonicalSATRecursiveParserMachine.lean"
+  },
+  {
+   "commit": "91bb007814d2557ea48c6d798aacdaca8418042a",
+   "date": "2026-09-21T23:56:29+01:00",
+   "subject": "p01: repoint simulation frontier to canonical Fin31 parser"
+  },
+  {
+   "commit": "b36f91a1cd9232bb89f27dc020a62f324640b11d",
+   "date": "2026-09-21T23:56:17+01:00",
+   "subject": "p01: prove finite-control parser tag and unary payload paths"
+  },
+  {
+   "commit": "4ae22a59ac168af0d26843d7858807c009e9faf5",
+   "date": "2026-09-21T23:55:14+01:00",
+   "subject": "fix: prove parser boundary padding and delimiter read structurally"
+  },
+  {
+   "commit": "151b584f8b3e0e92c17c532d35e2c2799cecd6ff",
+   "date": "2026-09-21T23:55:11+01:00",
+   "subject": "fix: make slot parser canonical proofs structural"
+  },
+  {
+   "commit": "75d2c6376dde3854ae553b0ec9ac1c9488c11943",
+   "date": "2026-09-21T23:54:23+01:00",
+   "subject": "ci: include parser simulation frontier"
+  },
+  {
+   "commit": "fae869328e488208f7c3de1b021b933fd505c93a",
+   "date": "2026-09-21T23:54:19+01:00",
+   "subject": "p01: activate exact parser simulation frontier"
+  },
+  {
+   "commit": "5b760875f178b752bc9eef49e70f596dc5d4dff0",
+   "date": "2026-09-21T23:54:10+01:00",
+   "subject": "p01: reduce parser closure to exact slot-machine simulation"
+  },
+  {
+   "commit": "c808914816eccd388094cfedd5c3cb3bd0ed73c7",
+   "date": "2026-09-21T23:52:50+01:00",
+   "subject": "ci: build parser machine source and exact P02 frontier"
+  },
+  {
+   "commit": "56e38b6fa70cc4dcef2aa20e09e2733a69211986",
+   "date": "2026-09-21T23:52:35+01:00",
+   "subject": "ci: build and audit exact P02 terminal frontier"
+  },
+  {
+   "commit": "afea5cbd80f2b20476832a1cfeaadf7496a7fda6",
+   "date": "2026-09-21T23:52:34+01:00",
+   "subject": "atk: activate complete parser machine source and exact P02 frontier"
+  },
+  {
+   "commit": "118e5405c39787364502c2dcfca68c3e2e5dcdc7",
+   "date": "2026-09-21T23:52:32+01:00",
+   "subject": "p02: activate exact terminal lower-bound frontier"
+  },
+  {
+   "commit": "18c9353bf5d191b4548b8e9e0688832c47caf152",
+   "date": "2026-09-21T23:52:25+01:00",
+   "subject": "ci: expose targeted P01 gate on pull requests"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.CookNormalizedOfficialBinding.canonical_inNP_iff_cook_normalized_NP",
+   "file": "lean/MCore/Real/CookNormalizedOfficialBinding.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : BitLanguage) : canonicalInterface.inNP L ↔ cookNormalizedSelection.model.NP L"
+  },
+  {
+   "name": "MCore.Real.CookNormalizedOfficialBinding.canonical_inP_iff_cook_normalized_P",
+   "file": "lean/MCore/Real/CookNormalizedOfficialBinding.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : BitLanguage) : canonicalInterface.inP L ↔ cookNormalizedSelection.model.P L"
+  },
+  {
+   "name": "MCore.Real.CookNormalizedOfficialBinding.canonical_interface_bound_to_cook_normalized",
+   "file": "lean/MCore/Real/CookNormalizedOfficialBinding.lean",
+   "line": 40,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∀ L : BitLanguage, canonicalInterface.inP L ↔ cookNormalizedSelection.model.P L) ∧ (∀ L : BitLanguage, canonicalInterface.inNP L ↔ cookNormalizedSelection.model.NP L)"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.addPotential_apply",
+   "file": "lean/MCore/Real/OpenMathCore/Algebra.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(A B : RealPotential) (x : BitString) : (addPotential A B).value x = A.value x + B.value x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.addPotential_assoc",
+   "file": "lean/MCore/Real/OpenMathCore/Algebra.lean",
+   "line": 29,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(A B C : RealPotential) : ∀ x, (addPotential (addPotential A B) C).value x = (addPotential A (addPotential B C)).value x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.arithmeticMass_append",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x y : BitString) : arithmeticMass (x ++ y) = arithmeticMass x + arithmeticMass y"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitLength_append",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x y : BitString) : bitLength (x ++ y) = bitLength x + bitLength y"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitLength_nil",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": bitLength ([] : BitString) = 0"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitNat_le_one",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) : bitNat b ≤ 1"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitWeight_append",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 25,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x y : BitString) : bitWeight (x ++ y) = bitWeight x + bitWeight y"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitWeight_cons",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) (xs : BitString) : bitWeight (b :: xs) = bitNat b + bitWeight xs"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitWeight_le_length",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : BitString) : bitWeight x ≤ bitLength x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.bitWeight_nil",
+   "file": "lean/MCore/Real/OpenMathCore/Arithmetic.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": bitWeight ([] : BitString) = 0"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.candidate_encode_injective",
+   "file": "lean/MCore/Real/OpenMathCore/ReductionBarrier.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : ReductionInfrastructure) : Function.Injective R.coding.encode"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.canonical_encode_injective",
+   "file": "lean/MCore/Real/OpenMathCore/Foundation.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Function.Injective canonicalEncodingFoundation.circuitEncode"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.codec_encode_injective",
+   "file": "lean/MCore/Real/OpenMathCore/Functoriality.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (C : PartialCodec α) : Function.Injective C.encode"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.extensional_fixed_point",
+   "file": "lean/MCore/Real/OpenMathCore/KleeneExtensionalProducer.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate} (E : MCore.Real.OpenMathCore.ExtensionalSameInputCompiler M),   ∃ c, c.eval = (E.compile c).eval"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.kleene_shortcut_is_not_stronger",
+   "file": "lean/MCore/Real/OpenMathCore/ReductionBarrier.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": KleeneShortcut ↔ DiagonalTerminal"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.mismatch_exact",
+   "file": "lean/MCore/Real/OpenMathCore/Semantics.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (x : BitString) : CandidateMismatch M x ↔ (CandidateAccepts M x ∧ ¬ SATBits circuitBitEncoding x) ∨ (¬ CandidateAccepts M x ∧ SATBits circuitBitEncoding x)"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.mismatch_iff_not_declared_match",
+   "file": "lean/MCore/Real/OpenMathCore/Semantics.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (x : BitString) : CandidateMismatch M x ↔ ¬ DeclaredSATMatch M x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.observableNorm_nonneg",
+   "file": "lean/MCore/Real/OpenMathCore/NumericClasses.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} [NumericObservable α] (a : α) : 0 ≤ observableNorm a"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.resourceLaw_space_poly",
+   "file": "lean/MCore/Real/OpenMathCore/Asymptotic.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : PolynomialResourceLaw) : PolynomialTimeBound R.space"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.resourceLaw_time_poly",
+   "file": "lean/MCore/Real/OpenMathCore/Asymptotic.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : PolynomialResourceLaw) : PolynomialTimeBound R.time"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.scalePotential_apply",
+   "file": "lean/MCore/Real/OpenMathCore/Algebra.lean",
+   "line": 26,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(c : ℝ) (A : RealPotential) (x : BitString) : (scalePotential c A).value x = c * A.value x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.scale_addPotential",
+   "file": "lean/MCore/Real/OpenMathCore/Algebra.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(c : ℝ) (A B : RealPotential) : ∀ x, (scalePotential c (addPotential A B)).value x = (addPotential (scalePotential c A) (scalePotential c B)).value x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.scanner_transition_preserves_phase_set",
+   "file": "lean/MCore/Real/OpenMathCore/Invariants.lean",
+   "line": 18,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(q : VerifierState) (s : Option Bool) (h : scannerStateInvariant q s) : scannerStateInvariant (physicalControlMachine.transition q s).1 (physicalControlMachine.transition q s).2"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.separation_stable_under_auxiliary_change",
+   "file": "lean/MCore/Real/OpenMathCore/Stability.lean",
+   "line": 16,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : TotalCandidateSeparationLaw) (_A _B : OpenMathAuxiliaryBundle) : T5FCore"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.terminal_independent_of_auxiliary_bundle",
+   "file": "lean/MCore/Real/OpenMathCore/Stability.lean",
+   "line": 24,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : OpenMathTerminalGap) (_A : OpenMathAuxiliaryBundle) : T5FCore"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.totalCandidateSeparationLaw_closes_core",
+   "file": "lean/MCore/Real/OpenMathCore/Behavior.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : TotalCandidateSeparationLaw) : ∀ M : PolyDTMCandidate, DeclaredClockTotal M → ∃ x : BitString, SemanticMismatch M x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.totalSemanticSeparation_iff_core",
+   "file": "lean/MCore/Real/OpenMathCore/Semantics.lean",
+   "line": 36,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": TotalSemanticSeparation ↔ ∀ M : PolyDTMCandidate, DeclaredClockTotal M → ∃ x : BitString, SemanticMismatch M x"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.uniform_extensional_compiler_gives_mismatch",
+   "file": "lean/MCore/Real/OpenMathCore/KleeneExtensionalProducer.lean",
+   "line": 83,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (U : MCore.Real.OpenMathCore.UniformExtensionalSameInputCompiler)   (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   MCore.Real.P02UniversalFailureAlgebra.SemanticMismatch M (U.toSameInputClosure.witness M)"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.witnessOfExtensionalCompiler_flip",
+   "file": "lean/MCore/Real/OpenMathCore/KleeneExtensionalProducer.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (E : MCore.Real.OpenMathCore.ExtensionalSameInputCompiler M),   MCore.Real.CanonicalSATBoundary.SATBits MCore.Real.CanonicalCircuitBits.circuitBitEncoding       (MCore.Real.OpenMathCore.witnessOfExtensionalCompiler M E) ↔     ¬MCore.Real.P02DiagonalFrontier.AcceptsAtDeclaredBound M (MCore.Real.OpenMathCore.witnessOfExtensionalCompiler M E)"
+  },
+  {
+   "name": "MCore.Real.OpenMathCore.witnessOfExtensionalCompiler_valid",
+   "file": "lean/MCore/Real/OpenMathCore/KleeneExtensionalProducer.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (E : MCore.Real.OpenMathCore.ExtensionalSameInputCompiler M),   MCore.Real.P02DiagonalFrontier.CanonicalSATValid (MCore.Real.OpenMathCore.witnessOfExtensionalCompiler M E)"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.universalLaw_iff_t5F",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 188,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty UniversalSeparationLaw ↔ T5FCore"
+  },
+  {
+   "name": "MCore.Real.P02CandidateCodingFrontier.candidateCodingInterface_impossible",
+   "file": "lean/MCore/Real/P02CandidateCodingCardinalityFirewall.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty CandidateCodingInterface"
+  },
+  {
+   "name": "MCore.Real.P02CandidateCodingFrontier.codingFirewallCandidate_injective",
+   "file": "lean/MCore/Real/P02CandidateCodingCardinalityFirewall.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Function.Injective codingFirewallCandidate"
+  },
+  {
+   "name": "MCore.Real.P02CandidateCodingFrontier.codingFirewallTimeBound_poly",
+   "file": "lean/MCore/Real/P02CandidateCodingCardinalityFirewall.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Nat → Bool) : PolynomialTimeBound (codingFirewallTimeBound b)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteClockCandidateModel.finiteClockUniversalFailure_implies_UniversalFailure",
+   "file": "lean/MCore/Real/P02FiniteClockCandidateModel.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{L : BitLanguage} (h : FiniteClockUniversalFailure L) : UniversalFailure L"
+  },
+  {
+   "name": "MCore.Real.P02FiniteClockCandidateModel.finiteClockUniversalFailure_implies_not_in_p",
+   "file": "lean/MCore/Real/P02FiniteClockCandidateModel.lean",
+   "line": 62,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{L : BitLanguage} (h : FiniteClockUniversalFailure L) : ¬ InP L"
+  },
+  {
+   "name": "MCore.Real.P02FiniteClockCandidateModel.ofCandidateClock_toPoly",
+   "file": "lean/MCore/Real/P02FiniteClockCandidateModel.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (coefficient exponent : Nat) : (ofCandidateClock M coefficient exponent).toPoly = normalizedCandidate M coefficient exponent"
+  },
+  {
+   "name": "MCore.Real.P02FiniteClockCountability.describe_injective",
+   "file": "lean/MCore/Real/P02FiniteClockCountability.lean",
+   "line": 71,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Function.Injective describe"
+  },
+  {
+   "name": "MCore.Real.P02FiniteClockCountability.finite_clock_candidate_countable",
+   "file": "lean/MCore/Real/P02FiniteClockCountability.lean",
+   "line": 83,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Countable FiniteClockDTMCandidate"
+  },
+  {
+   "name": "MCore.Real.P02FiniteClockCountability.realize_describe",
+   "file": "lean/MCore/Real/P02FiniteClockCountability.lean",
+   "line": 62,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(C : FiniteClockDTMCandidate) : realize (describe C) = C"
+  }
+ ],
+ "closed": 20,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "765f201a933bde696f15d2d66611a258702a777b4496379ce0f604e208f15b99",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalCircuitBitsInverse.lean": "8d3cee0161c1da3c7021748fad676ebaa2c8827de6291d5f22283cb99ada3f64",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/OpenMathCore/Arithmetic.lean": "2044df71b38478a7983b362925128c26395db0f6660517de5fa6f3a65b5b541f",
+  "lean/MCore/Real/OpenMathCore/BoundedUniversalSimulation.lean": "260efc218bf9629e22d16bbe533ed7fd6eb2d7583e654298fa0d419f4d0a0eb3",
+  "lean/MCore/Real/OpenMathCore/Foundation.lean": "4e01ea04fd7ff07884f0a2efd36530b937f03e885756c124dd03833baaf74d24",
+  "lean/MCore/Real/OpenMathCore/Functoriality.lean": "4bd7e45bea61f4b4c4b1ced298d4b2b09fe6b7065f770a3e3544886d9be263db",
+  "lean/MCore/Real/OpenMathCore/KleeneExtensionalProducer.lean": "2d9cd488f09470d08dbe2fb7d22306905f34077317aaf0706b687dc63891360a",
+  "lean/MCore/Real/OpenMathCore/SATCircuitCompiler.lean": "d295ce25be578b24c10787b41fb4c720b7a277fd6899805d5fd6be9a6dc19cb5",
+  "lean/MCore/Real/OpenMathCore/SameInputClosure.lean": "4cf568970c5fcbc7603a0894d3cd97dea417435821088c299ecfa3f939db251f",
+  "lean/MCore/Real/OpenMathCore/SelfQuotation.lean": "699ef0779ac5f7b20c3bcdeb923db9e7124b51d4e045292c1649fe8751f18d41",
+  "lean/MCore/Real/P02CandidateCodingCardinalityFirewall.lean": "caa92bb59bbeb3e07aa19ef309be84b1fc02c20e2778fa8aa02fd3303a55d30d",
+  "lean/MCore/Real/P02CandidateCodingFrontier.lean": "a27b11f770d48bd128efd9af81de113ed5f2f3096c9e9afffb53f93466e25d88",
+  "lean/MCore/Real/P02CanonicalNormalization.lean": "b8d4e79963dab8320c6ffb268e56903fc48fe0bea357a0705c1c0d43b81fe265",
+  "lean/MCore/Real/P02ClockedDiagonalCompiler.lean": "232a6f479d932397d08c92f92d7708a8947c27fcd6070d0a7fc1e05df18b8721",
+  "lean/MCore/Real/P02DiagonalCompilerFrontierV2.lean": "4d460ff7c75ece58ec3929d62e4fa4375587ecd9ec12ec924335e95b3ea263f7",
+  "lean/MCore/Real/P02DiagonalFrontier.lean": "c24b0b629057d3fda224f8d89ca0800778e60225be7d388e53f776de0042e04c",
+  "lean/MCore/Real/P02FiniteClockCandidateModel.lean": "37bb62b49e5efcf417215d5c8cf72f2cc80dbe111ccdb2ffeccc8b0e56a14b35",
+  "lean/MCore/Real/P02G21G22Attack.lean": "64a90f8b42e2d9679c5f721c7b6d472bd89456f84a4b0c219457ef109d7767a7",
+  "lean/MCore/Real/P02LiteralFixedPointCountermodel.lean": "ffb1406b2ce350e3d79245ef80777ba2d401cdd44cfdc0d182c8abaaa9450779",
+  "lean/MCore/Real/P02LiteralFixedPointFirewall.lean": "821fa6474cf6652f0876a12788b1ee78bb9bea9cde364c703e85a294e08fd727",
+  "lean/MCore/Real/P02SemanticSelfEmbedding.lean": "db5f205d387640b6e5f59c9fe0ae6635b729f0c3a7eff95b4462630fb530bfdd",
+  "lean/MCore/Real/P02TerminalFrontier.lean": "0378ba007d2f7651fbcce19cef127353cb623bae737b843e0c5fea4b350a9c8f",
+  "lean/MCore/Real/P02UniversalFailureAlgebra.lean": "7919a2efeb6b377b006423189b1b1fe061dbbf0b5069fc41b90fcabac8265283",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:19Z",
+ "certificate_sha256": "32c77b1eb0ef732c63c8acfb6488894701d911441b9035319a24f05adc1e61d2"
+}

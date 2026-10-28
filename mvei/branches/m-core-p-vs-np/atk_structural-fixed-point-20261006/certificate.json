@@ -1,0 +1,2579 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/structural-fixed-point-20261006",
+ "branch_state": "parada",
+ "head_commit": "871b7b3dd089a3eb3532785497dba0e7b35442a8",
+ "head_commit_date": "2026-10-06T08:48:36+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "871b7b3dd089a3eb3532785497dba0e7b35442a8",
+   "date": "2026-10-06T08:48:36+02:00",
+   "subject": "fix: make zero-gain subtarget constructor a definition"
+  },
+  {
+   "commit": "cc2b3b5ff4cf90ce65d57d92c06eab27ff9a953c",
+   "date": "2026-10-06T08:45:53+02:00",
+   "subject": "meta: activate rigid no-reopen kernel gate"
+  },
+  {
+   "commit": "5313a50e9542c27263f79ce6a9cb16658559eb08",
+   "date": "2026-10-06T08:45:41+02:00",
+   "subject": "ci: gate rigid no-reopen lock"
+  },
+  {
+   "commit": "dde0e1698a3330fa4231557ea962f3bafde3702f",
+   "date": "2026-10-06T08:45:30+02:00",
+   "subject": "meta: add rigid no-reopen structural evidence lock"
+  },
+  {
+   "commit": "83ab851a5d78de5d4022ab17631287f1d0129c21",
+   "date": "2026-10-06T08:40:15+02:00",
+   "subject": "ci: gate finite diagonal obstruction"
+  },
+  {
+   "commit": "562d32d9bad6408143cc24e2a1b20a7b5e645367",
+   "date": "2026-10-06T08:40:05+02:00",
+   "subject": "meta: rule out literal fixed points of expanding self-code"
+  },
+  {
+   "commit": "daac80867230354f46480d0a6cfd4ae892f3484f",
+   "date": "2026-10-06T08:36:18+02:00",
+   "subject": "fix: lift proposition into Type for finalization record"
+  },
+  {
+   "commit": "1f7bf44a51280151fad20cc35eb527315a049e33",
+   "date": "2026-10-06T08:36:06+02:00",
+   "subject": "fix: use explicit order relation in positive-break structure"
+  },
+  {
+   "commit": "64d9e2e25c5501b5fce5bf4dbfee1f5a5ea280df",
+   "date": "2026-10-06T08:33:57+02:00",
+   "subject": "meta: rerun positive-break theorem on corrected base"
+  },
+  {
+   "commit": "b753d8900987c4c2a812ec56e1c12f0bf81a4308",
+   "date": "2026-10-06T08:33:49+02:00",
+   "subject": "meta: activate no-reopen kernel gate"
+  },
+  {
+   "commit": "f4b129607f2474d58d4be41c342d9b438f06823a",
+   "date": "2026-10-06T08:33:30+02:00",
+   "subject": "ci: gate structural no-reopen policy"
+  },
+  {
+   "commit": "e523aaeacf7a7a2852bfaca54a5b0d451e005753",
+   "date": "2026-10-06T08:33:17+02:00",
+   "subject": "meta: freeze zero-gain no-reopen policy"
+  },
+  {
+   "commit": "36f385a106294d98f257e15869c87eafba521567",
+   "date": "2026-10-06T08:29:52+02:00",
+   "subject": "fix: open canonical G2 namespaces in structural fixed point"
+  },
+  {
+   "commit": "c5a1cac7fc5104cc0cabf1312e20c795522aeed4",
+   "date": "2026-10-06T08:28:11+02:00",
+   "subject": "ci: gate structural fixed point break"
+  },
+  {
+   "commit": "4b387813eed1e449b4bf5c46d4208c393dcda584",
+   "date": "2026-10-06T08:28:02+02:00",
+   "subject": "meta: prove concrete diagonal break closes G2"
+  },
+  {
+   "commit": "66b77313bf53a42f50cea50cb1170fbdc111e89a",
+   "date": "2026-10-06T08:23:18+02:00",
+   "subject": "ci: gate structural fixed point meta theorem"
+  },
+  {
+   "commit": "1fad83c8c3240eb5faf0ddeff97fb75f70d69d6a",
+   "date": "2026-10-06T08:23:03+02:00",
+   "subject": "meta: formalize zero-gain refinement fixed point"
+  },
+  {
+   "commit": "d6e29b7c5023ff1304dbc6e98609bbdd42128cc0",
+   "date": "2026-10-06T02:01:22+02:00",
+   "subject": "ci: expose final G2 truncation frontier"
+  },
+  {
+   "commit": "df2f919b93973a29bece3c21d5ddf8e136d7d4c3",
+   "date": "2026-10-06T02:01:12+02:00",
+   "subject": "probe: expose final G2 truncation boundary with sorryAx"
+  },
+  {
+   "commit": "a166a3c894ac6691ebe2022ea6777d5f8a0100a9",
+   "date": "2026-10-06T02:01:09+02:00",
+   "subject": "probe: expose final G2 truncation frontier with explicit sorryAx"
+  },
+  {
+   "commit": "05ccf71fbf28449d1f27dfb9ab522ce5a106d704",
+   "date": "2026-10-06T02:01:08+02:00",
+   "subject": "chore: disable G2 kernel search loop at truncated boundary"
+  },
+  {
+   "commit": "eb4d2b0812daa97aa5685460e952c99cfeee6868",
+   "date": "2026-10-06T02:01:05+02:00",
+   "subject": "ci: disable G2 terminal search loop after exposed frontier"
+  },
+  {
+   "commit": "47e49f7148507714d1f6fe1339e6f183687214e1",
+   "date": "2026-10-06T02:01:02+02:00",
+   "subject": "audit: freeze G2 terminal as forward-only truncated frontier"
+  },
+  {
+   "commit": "f4b7f8167bcac8342b0ca9a9f92a06074ef28b33",
+   "date": "2026-10-06T02:00:45+02:00",
+   "subject": "ci: disable G2 terminal search loop; keep material audits enabled"
+  },
+  {
+   "commit": "2e19eff8ed092d8ec7024047ed71acc767ffd88b",
+   "date": "2026-10-06T02:00:19+02:00",
+   "subject": "fix: normalize finite transition payload roundtrip"
+  },
+  {
+   "commit": "fecdbf06d604ab176aa1a4873ef2455ef9f5dafa",
+   "date": "2026-10-06T02:00:05+02:00",
+   "subject": "fix: simplify halted branch of universal simulator proof"
+  },
+  {
+   "commit": "39aab61096fbbc8af89f81779bba6d1bbdbc0116",
+   "date": "2026-10-06T01:59:14+02:00",
+   "subject": "fix: normalize transition payload before destructing result"
+  },
+  {
+   "commit": "f80fd34de3a452e3372dffc34f1a848ae831ede1",
+   "date": "2026-10-06T01:59:07+02:00",
+   "subject": "fix: close universal simulator equality orientation"
+  },
+  {
+   "commit": "cc6c97207cd91a067a2ab7190e42cde6f92ebe60",
+   "date": "2026-10-06T01:58:09+02:00",
+   "subject": "fix: orient universal simulator result equalities"
+  },
+  {
+   "commit": "a4b8227554bc39a739f32b4c716e8b868edeeb52",
+   "date": "2026-10-06T01:56:46+02:00",
+   "subject": "feat: complete finite payload roundtrip for machine execution"
+  },
+  {
+   "commit": "9379bd029fb584b09799ebbd37e351579a892ae7",
+   "date": "2026-10-06T01:56:12+02:00",
+   "subject": "ci: gate bounded universal simulator"
+  },
+  {
+   "commit": "32df4d4fc68dc282b503a026bdd4abce4e7dc02f",
+   "date": "2026-10-06T01:56:00+02:00",
+   "subject": "feat: material bounded universal simulator for finite machine descriptions"
+  },
+  {
+   "commit": "b19906f1649c1895ec5130b0c0ad4844188288ef",
+   "date": "2026-10-06T01:54:43+02:00",
+   "subject": "fix: use finite lookup lemma without unfolding ofFn"
+  },
+  {
+   "commit": "2cc296c9d4abacd3a4ba959b09f5b01f92fe1c3b",
+   "date": "2026-10-06T01:52:44+02:00",
+   "subject": "ci: gate finite machine payload serialization layer"
+  },
+  {
+   "commit": "5c61ce1bd6e45438ef5d3c987e923224160659e6",
+   "date": "2026-10-06T01:52:29+02:00",
+   "subject": "feat: add finite machine payload serialization layer"
+  },
+  {
+   "commit": "788651fcdb575895b0a50968d1da6b02840a1867",
+   "date": "2026-10-06T01:40:23+02:00",
+   "subject": "ci: gate finite operational machine description"
+  },
+  {
+   "commit": "5c53baaab448801097d5b277f989184d0a9e028e",
+   "date": "2026-10-06T01:40:09+02:00",
+   "subject": "feat: project PolyDTMCandidate to finite operational machine description"
+  },
+  {
+   "commit": "b74dd2889f45da61c8389c2dcd7f86ad79ed4287",
+   "date": "2026-10-06T01:37:47+02:00",
+   "subject": "fix: close polynomial majorant reflexive bound"
+  },
+  {
+   "commit": "f8b7b1cb8ec0f2eef74f690517a1ae7afac3f2a1",
+   "date": "2026-10-06T01:12:58+02:00",
+   "subject": "ci: gate material G2 clock bridge"
+  },
+  {
+   "commit": "bca79a9293be9b092fd61065393396fef8dda539",
+   "date": "2026-10-06T01:12:47+02:00",
+   "subject": "feat: materialize G2 CorrectAt polynomial clock bridge"
+  },
+  {
+   "commit": "d31f2faa2b740815784ef610befdcd80c99bedc7",
+   "date": "2026-10-06T01:10:03+02:00",
+   "subject": "ci: run valid G2 kernel search tactics V2"
+  },
+  {
+   "commit": "fd6c2faa58e3e1e9b7d88669799636314b66f5b5",
+   "date": "2026-10-06T01:09:49+02:00",
+   "subject": "probe: run valid G2 exact aesop library search with terminal holes"
+  },
+  {
+   "commit": "c41cc2fba1eb59b52c2d2271ea06f2ad1350e164",
+   "date": "2026-10-06T01:06:07+02:00",
+   "subject": "ci: run G2 clock bridge diagnostic probe"
+  },
+  {
+   "commit": "ece4b49461eb37dcd890f6e8c96d9306097f020a",
+   "date": "2026-10-06T01:05:58+02:00",
+   "subject": "probe: print canonical definitions and test clock monotonicity"
+  },
+  {
+   "commit": "d0a0ed4366a8b88cd5deab6cf05b6ba0913717e5",
+   "date": "2026-10-06T00:58:37+02:00",
+   "subject": "ci: ask Lean search layer for G2 witness"
+  },
+  {
+   "commit": "83bb07a39c3f3e525c4272603990c9520a2262fb",
+   "date": "2026-10-06T00:58:33+02:00",
+   "subject": "probe: ask Lean search tactics for G2 material witness"
+  },
+  {
+   "commit": "17b7e64b3c45a49f442380ab8045c0d464182313",
+   "date": "2026-10-06T00:38:49+02:00",
+   "subject": "ci: build terminal module before G2 question probe"
+  },
+  {
+   "commit": "119b18c62815286d588051fe7ef09b0d76a9d4b8",
+   "date": "2026-10-06T00:37:43+02:00",
+   "subject": "ci: expose exact G2 terminal goals"
+  },
+  {
+   "commit": "9a73e0db9929944ad2b89db8242c8c6382281c3d",
+   "date": "2026-10-06T00:37:28+02:00",
+   "subject": "ci: ask kernel exact G2 terminal goals"
+  },
+  {
+   "commit": "cb89b9725f0166e2648e635d0d3c4206bc941e90",
+   "date": "2026-10-06T00:37:22+02:00",
+   "subject": "probe: ask kernel exact G2 terminal questions"
+  },
+  {
+   "commit": "39ee11e1bea774918c5a6d5b8c09544bc3544f7c",
+   "date": "2026-10-06T00:37:09+02:00",
+   "subject": "probe: ask kernel exact G2 terminal inhabitant goals"
+  },
+  {
+   "commit": "4cabaec4f730702ff0dde3f84147134dd3952e86",
+   "date": "2026-10-06T00:32:13+02:00",
+   "subject": "ci: force direct G2 inhabitant probe"
+  },
+  {
+   "commit": "87ae3d677d710b0146396d0c8b58ff3fbd137269",
+   "date": "2026-10-06T00:31:50+02:00",
+   "subject": "probe: force direct universal failure inhabitant"
+  },
+  {
+   "commit": "52ba3d0e3a50b8b7ad4f641ddcb245b6b903a9d6",
+   "date": "2026-10-06T00:09:02+02:00",
+   "subject": "ci: gate expanded terminal G2 witness obligation"
+  },
+  {
+   "commit": "1e7ed99b2680d9f352dd16177d172eed6be7790c",
+   "date": "2026-10-06T00:08:28+02:00",
+   "subject": "p02: expose fully expanded terminal G2 witness obligation"
+  },
+  {
+   "commit": "43c3d317be0858940ec8e4b60f16f8debd223171",
+   "date": "2026-10-05T23:04:43+02:00",
+   "subject": "ci: run P02 G2 kernel on GitHub hosted runner"
+  },
+  {
+   "commit": "da42baaba81ad1584aac6472f6b5ae2d899bd8db",
+   "date": "2026-10-05T22:52:17+02:00",
+   "subject": "ci: scope self-hosted runner to G2 kernel"
+  },
+  {
+   "commit": "7f4da00c0c1b4e3516a1b5b9045aeb5ba1f9350a",
+   "date": "2026-10-05T22:52:09+02:00",
+   "subject": "ci: scope self-hosted runner to G2 kernel"
+  },
+  {
+   "commit": "3545c3ba873d95645427e2d6b8a3af849e0beacb",
+   "date": "2026-10-05T22:51:16+02:00",
+   "subject": "ci: add self-hosted P02 priority workflow"
+  },
+  {
+   "commit": "965f643c9f2ffbc4da10455f6c1c64558c79d44e",
+   "date": "2026-10-05T22:51:12+02:00",
+   "subject": "docs: add P02 self-hosted runner setup"
+  },
+  {
+   "commit": "3f5725a82b053855f086eaff69a3bb52bcaf0f84",
+   "date": "2026-10-05T22:51:08+02:00",
+   "subject": "ci: add dual P02 kernel runner script"
+  },
+  {
+   "commit": "20d83da1de566836318687d442155913fa97b275",
+   "date": "2026-10-05T22:51:05+02:00",
+   "subject": "ci: add P02 runner health check"
+  },
+  {
+   "commit": "9f298c7503dbf7e4598465153a8f33f39faffa0e",
+   "date": "2026-10-05T22:51:01+02:00",
+   "subject": "ci: add dedicated P02 runner bootstrap"
+  },
+  {
+   "commit": "189f1d492742a650bbdac21d44fb13996e93b347",
+   "date": "2026-10-05T22:48:17+02:00",
+   "subject": "ci: retrigger priority G2 kernel"
+  },
+  {
+   "commit": "d39d23abb52f07cd3bdef7ac13cfd2592a4da720",
+   "date": "2026-10-05T22:39:48+02:00",
+   "subject": "ci: add priority G2 kernel workflow"
+  },
+  {
+   "commit": "c8e713ed14abfb91cc0ba0846eb30fa0c9795ede",
+   "date": "2026-10-05T22:39:45+02:00",
+   "subject": "ci: add priority local runner script for G2 material kernel"
+  },
+  {
+   "commit": "3ab0b95fc909de8b12a17dcb77af1554c490f038",
+   "date": "2026-10-05T21:53:52+02:00",
+   "subject": "ci: gate universal-failure material witness frontier"
+  },
+  {
+   "commit": "02e04161f8d553063ab8b95e62609f9a875d2fc7",
+   "date": "2026-10-05T21:53:30+02:00",
+   "subject": "p02: expose material universal-failure witness without wrappers"
+  },
+  {
+   "commit": "a180bc52e4dae413a931630cf79c76e10bd7bf93",
+   "date": "2026-10-05T21:41:32+02:00",
+   "subject": "ci: gate two-sided P02 exactness audit"
+  },
+  {
+   "commit": "57486416ff7011b97720a5ad238439211524174e",
+   "date": "2026-10-05T21:41:17+02:00",
+   "subject": "p02: expose exact two-sided endpoint obligations"
+  },
+  {
+   "commit": "7d6c3a8cef1052d9203bdb6163ae2bf187c5caa0",
+   "date": "2026-10-05T21:37:34+02:00",
+   "subject": "ci: gate corrected G2 final refutation kernel"
+  },
+  {
+   "commit": "3fb0de57caa1abdf297d6dc78d3ba562e51c7f9b",
+   "date": "2026-10-05T21:37:21+02:00",
+   "subject": "p02: expose exact refutation witness for G2"
+  },
+  {
+   "commit": "efda44dfbc501ce54ca3421582261d76e23a936a",
+   "date": "2026-10-05T21:27:56+02:00",
+   "subject": "audit: classify exact and refuted P02 G2 frontiers"
+  },
+  {
+   "commit": "83983ca667ee44b45aa6d5253882ae566e6ad615",
+   "date": "2026-10-05T21:27:31+02:00",
+   "subject": "p02: fix exactness elaboration for semantic producer"
+  },
+  {
+   "commit": "e5c102735979a88d2808f9d71e4aedb136bb5212",
+   "date": "2026-10-05T21:11:12+02:00",
+   "subject": "ci: audit exactness of P02 total semantic mincut"
+  },
+  {
+   "commit": "0397d2c2ab9fac15a14eeae9af6ea3350b334a78",
+   "date": "2026-10-05T21:11:01+02:00",
+   "subject": "p02: prove total semantic mincut exact iff universal failure"
+  },
+  {
+   "commit": "69ac44fcb58b32983a5f7003348f669e62f5477a",
+   "date": "2026-10-05T20:43:52+02:00",
+   "subject": "ci: test semantic-negation invariant counterexample"
+  },
+  {
+   "commit": "4fc5e20ccc17e2cfb7a0f2f701f1cddef3aab960",
+   "date": "2026-10-05T20:43:42+02:00",
+   "subject": "p02: test semantic-negation invariant with concrete DTM"
+  },
+  {
+   "commit": "d543fdcc2322e29b3ff63d3c854bbebfd48795f7",
+   "date": "2026-10-05T20:28:44+02:00",
+   "subject": "ci: gate semantic-negation complement reduction"
+  },
+  {
+   "commit": "1ab1ab79094854a9bceacd9873f32dad1ed675a5",
+   "date": "2026-10-05T20:28:32+02:00",
+   "subject": "p02: materialize semantic-negation complement reduction"
+  },
+  {
+   "commit": "774e5ef85edf4c453e7ee536e4d11de5324f4ee6",
+   "date": "2026-10-05T20:25:17+02:00",
+   "subject": "p02: attach mincut documentation to producer structure"
+  },
+  {
+   "commit": "c30887333f5aaf16ee27e9c4bbbcf6ca85c352ee",
+   "date": "2026-10-05T20:24:31+02:00",
+   "subject": "p02: derive timeout witness without push_neg"
+  },
+  {
+   "commit": "1db18c5d840e301f0e388b04f3c6a8fa952d65c5",
+   "date": "2026-10-05T20:21:29+02:00",
+   "subject": "ci: gate P02 semantic invariant core"
+  },
+  {
+   "commit": "6abc38953473fddbc689daed2ef50057edd6c7c9",
+   "date": "2026-10-05T20:21:12+02:00",
+   "subject": "p02: expose invariant-point core of total semantic failure"
+  },
+  {
+   "commit": "aee5a60990b8f88ac43218a9f1277bbd48aa5a71",
+   "date": "2026-10-05T20:18:49+02:00",
+   "subject": "ci: gate P02 total semantic failure mincut"
+  },
+  {
+   "commit": "8a922e31700cb1c3a03e580b814c7ff9ee618ed2",
+   "date": "2026-10-05T20:18:25+02:00",
+   "subject": "p02: compress universal failure to total semantic disagreement"
+  },
+  {
+   "commit": "0dd09383932446ba67e673f69cd8740f85a80b87",
+   "date": "2026-10-05T20:11:18+02:00",
+   "subject": "ci: gate legacy T5 bound on material reader"
+  },
+  {
+   "commit": "923b18720b1d321d82896c9191dc218cb084137f",
+   "date": "2026-10-05T20:11:07+02:00",
+   "subject": "p01: close legacy T5 bound from material reader certificate"
+  },
+  {
+   "commit": "0f0f9927edc484b5c4dc3ddbcd0f8949bf62aea7",
+   "date": "2026-10-05T19:40:56+02:00",
+   "subject": "ci: remove reserved hygiene words from frontier comment"
+  },
+  {
+   "commit": "51c6c041f46714ca7a718d514bf285cda18aadd0",
+   "date": "2026-10-05T19:39:34+02:00",
+   "subject": "ci: use native P01 final gates on combined branch"
+  },
+  {
+   "commit": "4cabccaee10486aad288d08e810ebab9c741cf36",
+   "date": "2026-10-05T19:36:57+02:00",
+   "subject": "ci: validate preserving reader on P01 final GREEN base"
+  },
+  {
+   "commit": "252b1144f691b349ad430fe878e7a7ae5a294610",
+   "date": "2026-10-05T19:36:46+02:00",
+   "subject": "integrate preserving reader: P01PreservingUnaryReaderFrontier.lean"
+  },
+  {
+   "commit": "a173a80515bce68aa04f1bd1197cc33e9a102022",
+   "date": "2026-10-05T19:36:42+02:00",
+   "subject": "integrate preserving reader: P01PreservingUnaryReaderMaterial.lean"
+  },
+  {
+   "commit": "f3db54a396598ee28af88907eb533dc80539111a",
+   "date": "2026-10-05T19:36:38+02:00",
+   "subject": "integrate preserving reader: P01PreservingUnaryPhysicalRuns.lean"
+  },
+  {
+   "commit": "87a3cc65391af9e3f00fd0dd7fa735e34d72ad4c",
+   "date": "2026-10-05T19:36:35+02:00",
+   "subject": "integrate preserving reader: P01PreservingUnaryReaderCertificate.lean"
+  },
+  {
+   "commit": "83d10546761011a17d335679883e5500659d0796",
+   "date": "2026-10-05T19:36:25+02:00",
+   "subject": "integrate preserving reader: P01PreservingUnaryWitnessMachine.lean"
+  },
+  {
+   "commit": "b77907bbdfa6669f770a560339e089874a3bee51",
+   "date": "2026-10-05T19:36:16+02:00",
+   "subject": "integrate preserving reader: P01PreservingUnaryWitnessMarker.lean"
+  },
+  {
+   "commit": "1fe26a1f7dd674c340dd97693ca4fa6997d48ec7",
+   "date": "2026-10-05T19:36:13+02:00",
+   "subject": "integrate preserving reader: P01PreservingMarkerIteration.lean"
+  },
+  {
+   "commit": "14cc20484424751ca39850f5182baf7df98de72b",
+   "date": "2026-10-05T19:36:08+02:00",
+   "subject": "integrate preserving reader: P01InputNodePreservingPlan.lean"
+  },
+  {
+   "commit": "4f6f2a768873235b99610a00e9ba20e218cbca47",
+   "date": "2026-10-01T20:14:02+02:00",
+   "subject": "fix(pnp): order canonical SAT terminal bridge after producer theorem"
+  },
+  {
+   "commit": "48353d5e3dd796835e37843dbfeaccdf7e32f208",
+   "date": "2026-10-01T20:13:40+02:00",
+   "subject": "feat(pnp): close canonical SAT NP bridge from certified P01"
+  },
+  {
+   "commit": "acf695843ec9e859f9ef01099bca0aa48eed50a2",
+   "date": "2026-10-01T19:32:43+02:00",
+   "subject": "audit(pnp): enforce operational producer-first terminal"
+  },
+  {
+   "commit": "418c16b9b709fa16dcecf890cf20635d26692aa0",
+   "date": "2026-10-01T19:32:40+02:00",
+   "subject": "audit(pnp): enforce operational producer-first terminal"
+  },
+  {
+   "commit": "ba6741452c53ec3de0d5ae1b88540fee0c709c03",
+   "date": "2026-10-01T19:32:10+02:00",
+   "subject": "refactor(pnp): require operational material producer at terminal"
+  },
+  {
+   "commit": "15b6c36043721e827930c98babbaa3e0e9f50456",
+   "date": "2026-10-01T19:10:48+02:00",
+   "subject": "fix(p01): make decodeNat failure normalization explicit"
+  },
+  {
+   "commit": "720596c0bd3900b5de25eab57b7b979d2a6aaf68",
+   "date": "2026-10-01T14:31:07+02:00",
+   "subject": "fix(p01): align totalization namespaces and halted proof"
+  },
+  {
+   "commit": "851233b2518be3a72c5c5095b174a9d4e952278e",
+   "date": "2026-10-01T14:25:22+02:00",
+   "subject": "fix(p01): align totalization with raw decoder sound theorem"
+  },
+  {
+   "commit": "4296777b955867ea8182f1ad6552e110c3b38cd2",
+   "date": "2026-10-01T14:25:19+02:00",
+   "subject": "fix(p01): close decode induction namespace and invalid-tag obligations"
+  },
+  {
+   "commit": "158b119072abba63d9d9d0d116eeb35383f6895a",
+   "date": "2026-10-01T14:14:38+02:00",
+   "subject": "fix(p01): preserve layout equality across binary right branches"
+  },
+  {
+   "commit": "3a21eae3fa04adb8b4ee5f6a480b6c25697af395",
+   "date": "2026-10-01T14:07:40+02:00",
+   "subject": "fix(p01): normalize binary right-branch layout arithmetic"
+  },
+  {
+   "commit": "f53545f4ae8bfcf1b7de45819398b8738874bb32",
+   "date": "2026-10-01T13:37:23+02:00",
+   "subject": "fix(p01): construct binary right-layout bounds explicitly"
+  },
+  {
+   "commit": "a9344ce4153eea664956d399be0a4722254174d6",
+   "date": "2026-10-01T13:31:41+02:00",
+   "subject": "fix(p01): stabilize witness assignment dependency"
+  },
+  {
+   "commit": "34780d991b905ab0e3a2b32e01a3fd35caa22e31",
+   "date": "2026-10-01T13:31:38+02:00",
+   "subject": "fix(p01): stabilize witness assignment dependency"
+  },
+  {
+   "commit": "cc640d98669c0c79c5710f4ce7ed8e83cec9544c",
+   "date": "2026-10-01T13:31:34+02:00",
+   "subject": "fix(p01): stabilize witness assignment dependency"
+  },
+  {
+   "commit": "ef509d0d65d3212713943b4d2e07f70f4338dea6",
+   "date": "2026-10-01T13:29:35+02:00",
+   "subject": "fix(p01): align recursive step layouts and witness domains"
+  },
+  {
+   "commit": "42ead6dd05dc53b8bc61d36acdbc8b43346f8ba0",
+   "date": "2026-10-01T13:23:11+02:00",
+   "subject": "fix(p01): stabilize recursive binary failure steps"
+  },
+  {
+   "commit": "046bb0d9ee8850ce36903a90aa47cb71dffa2304",
+   "date": "2026-10-01T13:14:52+02:00",
+   "subject": "fix(p01): qualify witness assignment in raw totalization"
+  },
+  {
+   "commit": "e96e027b4df579331019671673c010ec0b00ba16",
+   "date": "2026-10-01T13:14:27+02:00",
+   "subject": "fix(p01): eliminate phantom witness assignment and normalize recursive modes"
+  },
+  {
+   "commit": "54fab575f584bd50909577810ca50769077536ae",
+   "date": "2026-10-01T13:03:00+02:00",
+   "subject": "fix(p01): make terminal build namespace dependencies explicit"
+  },
+  {
+   "commit": "de5dedd9e59eb4a64b0fa3dc6fa9c4306fba7f66",
+   "date": "2026-10-01T13:02:56+02:00",
+   "subject": "fix(p01): make terminal build namespace dependencies explicit"
+  },
+  {
+   "commit": "f35d05cc96ca6644c710c3364d8b1b2c511cf415",
+   "date": "2026-10-01T13:02:23+02:00",
+   "subject": "fix(p01): close eval sink namespaces and exact unary rewrite"
+  },
+  {
+   "commit": "1aef0099879fec174296c038f88d254e3b4c2c12",
+   "date": "2026-10-01T12:53:24+02:00",
+   "subject": "fix(p01): qualify terminal halt predicates across final raw modules"
+  },
+  {
+   "commit": "64dcab9a0b25922c9f8c57ac0a42ba99e1d4e040",
+   "date": "2026-10-01T12:52:39+02:00",
+   "subject": "fix(p01): harden raw base exact terminal and unary proofs"
+  },
+  {
+   "commit": "38af74c67ddc4e3796adf8cf8d22b6a862d45485",
+   "date": "2026-10-01T12:44:26+02:00",
+   "subject": "fix(p01): harden raw base exact terminal and unary proofs"
+  },
+  {
+   "commit": "67e8e3c324255235f1add44092960b9d655c0c12",
+   "date": "2026-10-01T12:29:07+02:00",
+   "subject": "fix(p01): qualify deterministic helpers in raw totalization terminal"
+  },
+  {
+   "commit": "881e9559fb56a76d865943895fb45977c7f3b61e",
+   "date": "2026-10-01T12:28:36+02:00",
+   "subject": "fix(p01): eliminate unavailable arithmetic alias from raw budget proof"
+  },
+  {
+   "commit": "1321fdd48789b7cebdefda4ed8279e40c4cd5fda",
+   "date": "2026-10-01T12:14:02+02:00",
+   "subject": "fix(p01): normalize final recursive budget identity explicitly"
+  },
+  {
+   "commit": "846962408b93a8e9355ded74edbc6bb45f277055",
+   "date": "2026-10-01T12:08:26+02:00",
+   "subject": "fix(p01): make recursive budget arithmetic explicit"
+  },
+  {
+   "commit": "99528e725a90ca06c9e1bc6bd80471b7967a88d9",
+   "date": "2026-10-01T12:02:30+02:00",
+   "subject": "fix(p01): qualify deterministic halting lift in prepared reject proofs"
+  },
+  {
+   "commit": "9523ecb6e096665ba14826e34fbc8c44c0a9eb1f",
+   "date": "2026-10-01T11:55:22+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "4e3db027bf5c999a35caf4c81bd6073d7fc3c599",
+   "date": "2026-10-01T11:55:19+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "651d3919f1beebcc099a06e786fe7f501ae0fe96",
+   "date": "2026-10-01T11:55:16+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "19dd02fb110be54aee9820ce7f2b9e687495f0f8",
+   "date": "2026-10-01T11:55:13+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "e57259ac5fe3b78fb917c57b8024685244c79ebb",
+   "date": "2026-10-01T11:54:08+02:00",
+   "subject": "fix(p01): replace broad contradiction in raw totalization"
+  },
+  {
+   "commit": "cf9d43fd79cc30b23a87d8e4ceaa52d1b2193fa0",
+   "date": "2026-10-01T11:54:05+02:00",
+   "subject": "fix(p01): remove impossible source split from invalid-tag exact proof"
+  },
+  {
+   "commit": "1db9811d649a07f36fa5fafc2eb6b5137b4b8ed7",
+   "date": "2026-10-01T11:52:33+02:00",
+   "subject": "fix(p01): stabilize residual reject tape proof and explicit namespaces"
+  },
+  {
+   "commit": "c1eb5a8f7075fd6140827bbcd80f37a8a622262b",
+   "date": "2026-10-01T11:42:30+02:00",
+   "subject": "fix(p01): factor raw decoder descent into stable structural lemmas"
+  },
+  {
+   "commit": "33aabfc1450959e81476b595ca15e05a2f1312e0",
+   "date": "2026-10-01T11:34:14+02:00",
+   "subject": "fix(p01): replace broad contradiction with direct nonempty elimination"
+  },
+  {
+   "commit": "fd5d5c65dcd327d2563f37b355395810a76c596e",
+   "date": "2026-10-01T11:34:11+02:00",
+   "subject": "fix(p01): replace broad contradiction with direct nonempty elimination"
+  },
+  {
+   "commit": "966b763ee37dbf52a3e4c8c12f1a4387d59b9109",
+   "date": "2026-10-01T11:33:03+02:00",
+   "subject": "fix(p01): close raw source split branches without stale equality or contradiction"
+  },
+  {
+   "commit": "04123dffd5b53e4c41a6951ab4cf7d010e679b74",
+   "date": "2026-10-01T10:11:05+02:00",
+   "subject": "fix(p01): replace recursive contradiction tactics with direct boolean elimination"
+  },
+  {
+   "commit": "0d6502f82eb976eb53b0d907a484dd0df12ab16e",
+   "date": "2026-10-01T09:52:02+02:00",
+   "subject": "fix(p01): avoid recursive simp in invalid canonical acceptance branch"
+  },
+  {
+   "commit": "86b9c0a5eed7b46aededeb674ca42a72c70a395a",
+   "date": "2026-10-01T09:46:08+02:00",
+   "subject": "fix(p01): preempt raw recursive budget ring and pow failures"
+  },
+  {
+   "commit": "f9db6d82128d86bc184371ef04f71a8384e16c01",
+   "date": "2026-10-01T09:45:01+02:00",
+   "subject": "fix(p01): reuse proven canonical terminal pattern and halting API"
+  },
+  {
+   "commit": "9f40f2b331cdbb957b3587033e503b72f9c25e31",
+   "date": "2026-10-01T09:36:50+02:00",
+   "subject": "fix(p01): align canonical run imports, powers and halting API"
+  },
+  {
+   "commit": "89d5413680111b77268e34fcddaf44ff37ee39a6",
+   "date": "2026-10-01T06:46:51+02:00",
+   "subject": "fix(p01): use repository-proven Nat.pow_succ normalization"
+  },
+  {
+   "commit": "dd90812d41f3dc241b32fe7b11bb1b3ca0731c31",
+   "date": "2026-10-01T06:40:15+02:00",
+   "subject": "fix(p01): close exact global cubic budget without ring"
+  },
+  {
+   "commit": "e57d39394ba8cb23ed435d9d3517605a6a5b0e58",
+   "date": "2026-10-01T06:35:46+02:00",
+   "subject": "fix(p01): remove duplicate proof and normalize reject or handoff"
+  },
+  {
+   "commit": "e14f204754eb0fade648dde69604d90c0f284ff3",
+   "date": "2026-10-01T06:32:27+02:00",
+   "subject": "fix(p01): factor reject budgets and normalize or child mode"
+  },
+  {
+   "commit": "a20b03eda38903d0139d3be74ef0945c39170210",
+   "date": "2026-10-01T06:26:39+02:00",
+   "subject": "fix(p01): align exact bounded reject with exact producer invariants"
+  },
+  {
+   "commit": "6867ca2c18590b87e61a8a71e4f4dd230ce9eb39",
+   "date": "2026-10-01T06:08:23+02:00",
+   "subject": "fix(p01): eliminate heartbeat loops in exact producer"
+  },
+  {
+   "commit": "504ee32f0950274fd92d9e4af260c3c3096b0951",
+   "date": "2026-10-01T06:02:50+02:00",
+   "subject": "fix(p01): make exact producer arithmetic normalization explicit"
+  },
+  {
+   "commit": "ffc332c28189a0ed56ca3ddffa691ae4aa299c2e",
+   "date": "2026-10-01T05:52:35+02:00",
+   "subject": "fix(p01): close exact producer layout and budget failure classes"
+  },
+  {
+   "commit": "7c6921396128178e94e641556523d7e0e51d1bd0",
+   "date": "2026-10-01T05:48:24+02:00",
+   "subject": "fix(p01): reconnect exact producer and normalize mode/layout wiring"
+  },
+  {
+   "commit": "b20a7d4123b2256b9a2cb069b7961e4dcf9ac3e2",
+   "date": "2026-10-01T05:48:10+02:00",
+   "subject": "fix(p01): expose exact bounded constant have-state producer"
+  },
+  {
+   "commit": "46c35a89dde9d1af01456a76dfdc870c4f0fe8e9",
+   "date": "2026-10-01T05:42:07+02:00",
+   "subject": "fix(p01): align exact producer with current const API and root mode"
+  },
+  {
+   "commit": "b56ab138d97287ca7c6863cdbf8fa9088fdf9d9f",
+   "date": "2026-10-01T05:31:21+02:00",
+   "subject": "fix(p01): close final verifier state bounds explicitly"
+  },
+  {
+   "commit": "a7937b581773ef390e68bfa787d4abb64ecc1cf7",
+   "date": "2026-10-01T05:27:00+02:00",
+   "subject": "fix(p01): expose checked-eval bound in verifier state codec"
+  },
+  {
+   "commit": "2c373743754d853de12958ad490f12fdf431c0d9",
+   "date": "2026-10-01T05:11:52+02:00",
+   "subject": "fix(p01): make checked-eval state bounds explicit"
+  },
+  {
+   "commit": "5e45d03c84676f73ed3b5e61660734e6c9c5244e",
+   "date": "2026-10-01T05:07:19+02:00",
+   "subject": "fix(p01): close composite decode guards explicitly"
+  },
+  {
+   "commit": "1510bc381869ffe00e587c10139b506820897693",
+   "date": "2026-10-01T04:37:46+02:00",
+   "subject": "fix(p01): stabilize composite codec arithmetic proofs"
+  },
+  {
+   "commit": "25eaf4e8f157eaf5c2aeeb661bcd49b8d69e86ee",
+   "date": "2026-10-01T04:32:20+02:00",
+   "subject": "fix(p01): place composite codec option after imports"
+  },
+  {
+   "commit": "133de385e9cd3012884ee17c3c28494616411cbd",
+   "date": "2026-10-01T04:28:10+02:00",
+   "subject": "fix(p01): prove all return codec interval guards explicitly"
+  },
+  {
+   "commit": "f06065ab7555e202fdc106ada5cbfbb46e9851ad",
+   "date": "2026-10-01T04:25:38+02:00",
+   "subject": "fix(p01): scope composite codec recursion depth at file level"
+  },
+  {
+   "commit": "a4eb907c741f6a06477d26ce19c9425273532d8f",
+   "date": "2026-10-01T04:25:28+02:00",
+   "subject": "fix(p01): normalize composite state codecs and reserved constructor"
+  },
+  {
+   "commit": "d0116056e092d8e4e7add461a792d2f8aed4f502",
+   "date": "2026-10-01T04:19:51+02:00",
+   "subject": "fix(p01): fully enumerate nested return-mode codec cases"
+  },
+  {
+   "commit": "bfd876ae92263efd09e2849b927f432fb3cf4b1e",
+   "date": "2026-10-01T04:16:04+02:00",
+   "subject": "fix(p01): raise recursion depth for finite codec normalization"
+  },
+  {
+   "commit": "15bd8e8b8e38e77797d16848628f97419466c74b",
+   "date": "2026-10-01T04:12:54+02:00",
+   "subject": "fix(p01): make return-state codec proof fully finite"
+  },
+  {
+   "commit": "6bf10a17c629f22820e87d2eaeb40cdc7954527c",
+   "date": "2026-10-01T04:07:11+02:00",
+   "subject": "fix(p01): close all manual input codec interval cases"
+  },
+  {
+   "commit": "7c67f30b87a2a75d89c75d84fc0dbd218e834fe4",
+   "date": "2026-10-01T04:02:14+02:00",
+   "subject": "fix(p01): make input reader codec bounds explicit"
+  },
+  {
+   "commit": "c4791f395e526ddead08fbc298394b7ad73aa7b1",
+   "date": "2026-10-01T03:58:43+02:00",
+   "subject": "ci(p01): rerun terminal min-cut after state-codec fix"
+  },
+  {
+   "commit": "5866dbefc58db33a1bd04cd45924a99444e113b5",
+   "date": "2026-10-01T01:51:19+02:00",
+   "subject": "fix(p01): make verifier state codec proofs constructor-explicit"
+  },
+  {
+   "commit": "fce084db2732093eba3de30686f2e835c26ec313",
+   "date": "2026-10-01T01:50:08+02:00",
+   "subject": "ci(p01): gate final raw totalization producer"
+  },
+  {
+   "commit": "5ef98cdf6551836f656291254eb5486c1d2107a2",
+   "date": "2026-10-01T01:48:16+02:00",
+   "subject": "atk(p01): construct raw totalization producer and close mechanical P01"
+  },
+  {
+   "commit": "0f09a3f08af112a033bf09adc8b3c378f16c9744",
+   "date": "2026-10-01T01:46:39+02:00",
+   "subject": "atk(p01): lift recursive decoder failure sinks to quartic verifier closure"
+  },
+  {
+   "commit": "74c78cee6e5ebf04236e7d586debaab390b03977",
+   "date": "2026-10-01T01:46:25+02:00",
+   "subject": "ci(p01): kernel-audit raw decoder fuel induction"
+  },
+  {
+   "commit": "1b801d24673c9cbfb8f88b559568863a09978b8b",
+   "date": "2026-10-01T01:46:10+02:00",
+   "subject": "atk(p01): prove physical raw decode failure by fuel induction"
+  },
+  {
+   "commit": "10e09673c376672714055c22877c790e471799fa",
+   "date": "2026-10-01T01:46:07+02:00",
+   "subject": "atk(p01): close recursive decoder failures by strict sink induction"
+  },
+  {
+   "commit": "12f47f6d17e87c91e03cbdc1dcafb0c985b9b5ee",
+   "date": "2026-10-01T01:44:33+02:00",
+   "subject": "ci(p01): kernel-audit recursive malformed-source propagation"
+  },
+  {
+   "commit": "ebdd898381a7bf377aa0c517422b57d356f20702",
+   "date": "2026-10-01T01:44:13+02:00",
+   "subject": "atk(p01): formalize recursive malformed-source physical propagation"
+  },
+  {
+   "commit": "40b91dee842cf7c7862865733c7c46739c8b1726",
+   "date": "2026-10-01T01:42:34+02:00",
+   "subject": "atk(p01): use one quartic polynomial bound for raw totalization"
+  },
+  {
+   "commit": "5cef6c542b22fce6352521b73373c6c95ef4f0ae",
+   "date": "2026-10-01T01:42:10+02:00",
+   "subject": "atk(p01): lift canonical verifier semantics to quartic raw budget"
+  },
+  {
+   "commit": "3f70ff9dfd8e1b9736c304a1a43fc362a90db3bc",
+   "date": "2026-10-01T01:41:38+02:00",
+   "subject": "ci(p01): audit reusable raw evaluator sinks"
+  },
+  {
+   "commit": "6fd9609f1a26a93155b8baf290f7cb79a250db3b",
+   "date": "2026-10-01T01:41:26+02:00",
+   "subject": "atk(p01): formalize reusable raw evaluator failure sinks"
+  },
+  {
+   "commit": "245ca9d0ebeac6d8c85265273d8783aa35e52bbb",
+   "date": "2026-10-01T01:40:45+02:00",
+   "subject": "atk(p01): bound unary local work by one raw chunk"
+  },
+  {
+   "commit": "6d0de82ee7e912732302a3a98129c4fd7b742487",
+   "date": "2026-10-01T01:40:17+02:00",
+   "subject": "atk(p01): add scanner-plus-dead-step raw budget lemma"
+  },
+  {
+   "commit": "86df61b23f1c824c4388991ead79393739d985ce",
+   "date": "2026-10-01T01:40:10+02:00",
+   "subject": "ci(p01): audit prepared local raw rejection closure"
+  },
+  {
+   "commit": "4c546f5168745daa9efae16d5efb19e4bbdb83fa",
+   "date": "2026-10-01T01:39:46+02:00",
+   "subject": "atk(p01): close local raw reject classes in prepared verifier"
+  },
+  {
+   "commit": "693d9219b548d437e3919bc481c97122ea70069c",
+   "date": "2026-10-01T01:38:34+02:00",
+   "subject": "ci(p01): audit quartic raw recursion budget"
+  },
+  {
+   "commit": "72940a6a7bef701b316b894846168f21988f7c75",
+   "date": "2026-10-01T01:38:21+02:00",
+   "subject": "atk(p01): add quartic recursive raw-failure budget"
+  },
+  {
+   "commit": "643e8af6d134c30118feb6ded45f4c339370ec0b",
+   "date": "2026-10-01T01:37:57+02:00",
+   "subject": "atk(p01): lift evaluator reject to verifier fail-closed"
+  },
+  {
+   "commit": "ce55b51a8ce9a63dc6315ed4e16686378b90b43d",
+   "date": "2026-10-01T01:36:25+02:00",
+   "subject": "ci(p01): audit exhaustive raw failure shape and strict descent"
+  },
+  {
+   "commit": "e544ba706e42d2e31a42e20931cbfe5d824524ba",
+   "date": "2026-10-01T01:36:11+02:00",
+   "subject": "atk(p01): prove strict descent of recursive raw decode failures"
+  },
+  {
+   "commit": "4800b35795c52d8616b68f177bda78eebcd41076",
+   "date": "2026-10-01T01:35:05+02:00",
+   "subject": "ci(p01): audit decoder source-reconstruction law"
+  },
+  {
+   "commit": "f7b6d96b6886fa56f335368a82e520b0b2f0d689",
+   "date": "2026-10-01T01:34:44+02:00",
+   "subject": "atk(p01): prove decoder-success source reconstruction"
+  },
+  {
+   "commit": "52be20760bf5ba2210972c2c0e88b53f21e776be",
+   "date": "2026-10-01T01:34:28+02:00",
+   "subject": "ci(p01): kernel-audit exact raw base cases"
+  },
+  {
+   "commit": "193a1d0b999634b4c69379babb687d5cddb922f4",
+   "date": "2026-10-01T01:34:08+02:00",
+   "subject": "atk(p01): close raw base failures at common exact global fuel"
+  },
+  {
+   "commit": "b47f5951c27e8aa30ffb15cd470cdede22defc5d",
+   "date": "2026-10-01T01:30:39+02:00",
+   "subject": "ci(p01): audit all recovered raw rejection components"
+  },
+  {
+   "commit": "a2674280543bece7508360357baec1adb5521483",
+   "date": "2026-10-01T01:30:35+02:00",
+   "subject": "restore(p01): transplant clean P01RawDecodeFailureShape.lean for raw min-cut"
+  },
+  {
+   "commit": "359f68e8eae3ab24d080c583c17ea703e9c4eaaa",
+   "date": "2026-10-01T01:30:24+02:00",
+   "subject": "restore(p01): transplant P01RawResidualReject.lean onto clean raw lane"
+  },
+  {
+   "commit": "29fc2d21c057984db8da0ef56c35216718cf50ef",
+   "date": "2026-10-01T01:30:17+02:00",
+   "subject": "restore(p01): transplant P01RawMalformedUnary.lean onto clean raw lane"
+  },
+  {
+   "commit": "01e3564b4c23329068bf757debab7cf9c3717330",
+   "date": "2026-10-01T01:30:12+02:00",
+   "subject": "restore(p01): transplant P01RawMalformedTag.lean onto clean raw lane"
+  },
+  {
+   "commit": "5201307047e697628d2b9836c5acbce3bb5313c2",
+   "date": "2026-10-01T01:30:06+02:00",
+   "subject": "restore(p01): transplant P01RawVerifierLift.lean onto clean raw lane"
+  },
+  {
+   "commit": "f39eb69addae560857320a6b64a154a35de30972",
+   "date": "2026-10-01T01:30:01+02:00",
+   "subject": "restore(p01): transplant P01RawDeadEnd.lean onto clean raw lane"
+  },
+  {
+   "commit": "c19484bf6591681f4f1cf2e1037ec8d48484d3ba",
+   "date": "2026-10-01T01:30:01+02:00",
+   "subject": "cleanup(p01): keep canonical raw totalization min-cut only"
+  },
+  {
+   "commit": "527f10d4f536633986700dabf9d27af5f3ff3628",
+   "date": "2026-10-01T01:29:56+02:00",
+   "subject": "restore(p01): transplant P01RawSourceSplit.lean onto clean raw lane"
+  },
+  {
+   "commit": "6106cbb6a1724512eeb808edeffa8a455e43fced",
+   "date": "2026-10-01T01:29:32+02:00",
+   "subject": "atk(p01): reduce global verifier core to raw decode-none fail-closed producer"
+  },
+  {
+   "commit": "e7691aedd2de0ae369e9291e7e0d9457dc68af09",
+   "date": "2026-10-01T01:27:54+02:00",
+   "subject": "ci(p01): kernel-audit raw-totalization min-cut"
+  },
+  {
+   "commit": "f25f362cd276992f501e2ad4f385dafd9c89ce68",
+   "date": "2026-10-01T01:27:36+02:00",
+   "subject": "atk(p01): reduce global verifier closure to raw decode-none fail-closed core"
+  },
+  {
+   "commit": "b9a0309e56796beb77eda83178ec28f5597bd6f8",
+   "date": "2026-10-01T01:25:31+02:00",
+   "subject": "ci(p01): validate transplanted exact bounded execution chain"
+  },
+  {
+   "commit": "14cee022edc1ff96bbf464679d7879515ad07a76",
+   "date": "2026-10-01T01:25:07+02:00",
+   "subject": "restore(p01): transplant P01ExactVerifierCanonicalRun.lean onto clean mincut"
+  },
+  {
+   "commit": "be1f386ae5dff671e8d1930063e13c223464aab7",
+   "date": "2026-10-01T01:25:03+02:00",
+   "subject": "restore(p01): transplant P01ExactVerifierGlobalBudget.lean onto clean mincut"
+  },
+  {
+   "commit": "073b7d8a4206cb2f49e59897799237df184e7403",
+   "date": "2026-10-01T01:25:00+02:00",
+   "subject": "restore(p01): transplant P01ExactBoundedReject.lean onto clean mincut"
+  },
+  {
+   "commit": "16d1ba251a4e097476e5c759661378d0e1d3dc6f",
+   "date": "2026-10-01T01:24:56+02:00",
+   "subject": "restore(p01): transplant P01ExactBoundedCircuitProducer.lean onto clean mincut"
+  },
+  {
+   "commit": "9e04e4de2d62ba014538960a63ef4a58f2ba3dca",
+   "date": "2026-10-01T01:24:01+02:00",
+   "subject": "ci(p01): point codec audit to canonical finite-state relabel"
+  },
+  {
+   "commit": "adef19fa72ceaa9198786b605c2d6f27e88e8e96",
+   "date": "2026-10-01T01:23:49+02:00",
+   "subject": "cleanup(p01): keep one canonical manual finite-state relabel"
+  },
+  {
+   "commit": "4aea9709ce36c67204542f26dc1f05ab028bd4e2",
+   "date": "2026-10-01T01:23:14+02:00",
+   "subject": "ci(p01): audit explicit manual state codec"
+  },
+  {
+   "commit": "93b6ffb71f4b3764a83e28e239e2b0bfbe04075e",
+   "date": "2026-10-01T01:23:07+02:00",
+   "subject": "ci(p01): audit fixed-machine global execution core"
+  },
+  {
+   "commit": "11919ac18fd92826d95abd1243f801327a2bb8a4",
+   "date": "2026-10-01T01:22:56+02:00",
+   "subject": "atk(p01): relabel checked verifier to explicit Fin control"
+  },
+  {
+   "commit": "d9ec808fba3961813fae8cdc3080be10a4bc4cc1",
+   "date": "2026-10-01T01:22:52+02:00",
+   "subject": "atk(p01): reduce verifier phase to fixed-machine global execution core"
+  },
+  {
+   "commit": "075b3b36684d0d41da81c92f5148217db73bc990",
+   "date": "2026-10-01T01:22:18+02:00",
+   "subject": "ci(p01): kernel-audit manual finite-state codec chain"
+  },
+  {
+   "commit": "fa318fc622ae077bf3971789f2da8aefe68eb25c",
+   "date": "2026-10-01T01:22:03+02:00",
+   "subject": "atk(p01): relabel checked verifier with manual finite-state codec"
+  },
+  {
+   "commit": "cfa08ad883fcf1d73c05314745dd37aa22efb9ba",
+   "date": "2026-10-01T01:20:57+02:00",
+   "subject": "atk(p01): lift manual codec through evaluator control"
+  },
+  {
+   "commit": "82c1cf9beaf03f592d656aff761c16f01728c987",
+   "date": "2026-10-01T01:20:02+02:00",
+   "subject": "atk(p01): add explicit reversible input-state codec"
+  },
+  {
+   "commit": "8834817bb57e0e67dd5b18a1e0b5592e80486a70",
+   "date": "2026-10-01T01:17:03+02:00",
+   "subject": "ci(p01): keep canonical verifier-phase min-cut only"
+  },
+  {
+   "commit": "ac3e36c0163f46b60b715cbc3d91bb4fd2caa482",
+   "date": "2026-10-01T01:16:44+02:00",
+   "subject": "cleanup(p01): remove noncanonical broken adapter P01CheckedVerifierGlobalCore.lean"
+  },
+  {
+   "commit": "dd7de89d03ca7075c483dd4b5e9fb5c7d272706c",
+   "date": "2026-10-01T01:16:42+02:00",
+   "subject": "cleanup(p01): remove noncanonical broken adapter P01CheckedVerifierFiniteState.lean"
+  },
+  {
+   "commit": "b170fff2efe279ea00829615ecf364e5303f4271",
+   "date": "2026-10-01T01:04:23+02:00",
+   "subject": "ci(p01): watch both min-cut source files correctly"
+  },
+  {
+   "commit": "935e84ff0cac2889f6f9f22008ceec6451754897",
+   "date": "2026-10-01T01:04:21+02:00",
+   "subject": "fix(p01): remove accidental Mathlib dependency from finite-state relabel"
+  },
+  {
+   "commit": "18a01b5fedf6a6828012bcfe4cb5a73d6b6f89fd",
+   "date": "2026-10-01T00:31:18+02:00",
+   "subject": "ci(p01): rerun min-cut after finite-state import repair"
+  },
+  {
+   "commit": "b18a944b954a05ed0a15bda8fe4045bdc8d33e1e",
+   "date": "2026-10-01T00:31:08+02:00",
+   "subject": "fix(p01): import Fintype support for clean finite-state relabelling"
+  },
+  {
+   "commit": "3f78f02702f1eb48152d7a899cfc6b9cf4839ff7",
+   "date": "2026-10-01T00:27:52+02:00",
+   "subject": "ci(p01): kernel-check fixed-machine global core"
+  },
+  {
+   "commit": "f54373c9e93e43b3c801c2bba14d21a4b4e3f949",
+   "date": "2026-10-01T00:27:49+02:00",
+   "subject": "atk(p01): reduce verifier phase to fixed-machine global core"
+  },
+  {
+   "commit": "efa06811fb03e24569254f55b714c67b42b29445",
+   "date": "2026-10-01T00:26:54+02:00",
+   "subject": "ci(p01): audit only exact mechanical min-cut theorem"
+  },
+  {
+   "commit": "c51a35617f6b94ed42d626c50e68ab08e7f6c393",
+   "date": "2026-10-01T00:26:50+02:00",
+   "subject": "fix(p01): keep exact verifier-phase to construction min-cut only"
+  },
+  {
+   "commit": "aac12ed9b7d4dcb48c7715e32b58499d6f02d039",
+   "date": "2026-10-01T00:23:15+02:00",
+   "subject": "ci(p01): clean-build verifier-phase min-cut"
+  },
+  {
+   "commit": "1868b0e21ae22574a0b486b5f90d39be4256e5ea",
+   "date": "2026-10-01T00:23:11+02:00",
+   "subject": "atk(p01): certify single verifier-phase mechanical min-cut"
+  },
+  {
+   "commit": "34b3cdcff9fb4953bde76901b7e18ff4c391c5ad",
+   "date": "2026-09-30T14:21:23+02:00",
+   "subject": "fix(p01): split boolean continuation frames in bounded input proof"
+  },
+  {
+   "commit": "b7f445e659d911cb83d9b3bc6ff4051598c918aa",
+   "date": "2026-09-30T12:34:06+02:00",
+   "subject": "fix(p01): normalize push-tag fuel associativity"
+  },
+  {
+   "commit": "d0cfa5a7d6379a63cbc1387ccfdbdda2b15e09e6",
+   "date": "2026-09-30T12:32:03+02:00",
+   "subject": "feat(p01): bound all checked continuation returns"
+  },
+  {
+   "commit": "0bd47add16f1f29f892ad6f9cfc01fe019cae704",
+   "date": "2026-09-30T12:29:31+02:00",
+   "subject": "ci(p01): isolate bounded terminal inhabitant path"
+  },
+  {
+   "commit": "95ddf85f36940f39663abe498b79e52ce9b446bc",
+   "date": "2026-09-30T12:29:19+02:00",
+   "subject": "feat(p01): carry direct canonical verifier proof onto bounded terminal lane"
+  },
+  {
+   "commit": "c3362f8034d8dbd1a2e5c77898a96eb2145dbd27",
+   "date": "2026-09-30T12:28:57+02:00",
+   "subject": "fix(p01): normalize bounded helper envelope bridge"
+  },
+  {
+   "commit": "e84b43992d7af4761c4e62b81374b3dc0cd78361",
+   "date": "2026-09-30T12:23:52+02:00",
+   "subject": "build(p01): kernel-check bounded circuit certificate"
+  },
+  {
+   "commit": "12a26bf647e6bbf31665a8fccc7da1b9700134a0",
+   "date": "2026-09-30T12:23:40+02:00",
+   "subject": "feat(p01): add canonical bounded checked circuit certificate"
+  },
+  {
+   "commit": "21106163bfeec13b4613f348da934682939e69a7",
+   "date": "2026-09-30T12:21:51+02:00",
+   "subject": "fix(p01): normalize bounded helper envelopes"
+  },
+  {
+   "commit": "469e205bbe4023c269f5bc1f6509c243a654794e",
+   "date": "2026-09-30T12:19:32+02:00",
+   "subject": "fix(p01): normalize bounded constant loop envelope"
+  },
+  {
+   "commit": "938fa76547489b3e1e2a82598d7b81939046de53",
+   "date": "2026-09-30T12:19:20+02:00",
+   "subject": "fix(p01): normalize checked constant envelope arithmetic"
+  },
+  {
+   "commit": "7fb716cff1bcc217103ddf2175ed945c812f88ba",
+   "date": "2026-09-30T12:19:17+02:00",
+   "subject": "fix(p01): use certified step-to-loop envelope bridge"
+  },
+  {
+   "commit": "ed523d207cec1d60cddb2f4b3a221609bff19b52",
+   "date": "2026-09-30T12:19:12+02:00",
+   "subject": "fix(p01): use 256 checked-loop envelope in bounded helpers"
+  },
+  {
+   "commit": "f3626ad12abd42b8fa145ed7cd56f1a7d0129ee6",
+   "date": "2026-09-30T12:18:14+02:00",
+   "subject": "fix(p01): normalize three-bit drop in bounded push helper"
+  },
+  {
+   "commit": "94ac851bcf8341a048f530eaad88b43267eccab0",
+   "date": "2026-09-30T12:17:24+02:00",
+   "subject": "fix(p01): align bounded input with tightened checked step envelope"
+  },
+  {
+   "commit": "725b006b219d74a66badc360fb4ee96e11d26343",
+   "date": "2026-09-30T12:16:52+02:00",
+   "subject": "build(p01): kernel-check bounded checked base cases"
+  },
+  {
+   "commit": "2ad3d8f58801a3e8e9a2a001f25d255fd69bb1d6",
+   "date": "2026-09-30T12:16:45+02:00",
+   "subject": "cert(p01): add sha256 for checked verifier green certificate"
+  },
+  {
+   "commit": "607f0dcd21ee1cd9fdde0570fac84918d9f1249b",
+   "date": "2026-09-30T12:16:38+02:00",
+   "subject": "feat(p01): bound checked constant route by loop envelope"
+  },
+  {
+   "commit": "3d8ce4527a520306b279a225af4e0a7bbe7edbb8",
+   "date": "2026-09-30T12:16:36+02:00",
+   "subject": "fix(p01): normalize bounded checked helper tag types"
+  },
+  {
+   "commit": "c4d560e626d7db46737a5dbbdfc72b79ed96740b",
+   "date": "2026-09-30T12:15:57+02:00",
+   "subject": "cert(p01): record checked verifier green state b137c0d6"
+  },
+  {
+   "commit": "84df9f30e489590e2ce352692245c59dc455fa31",
+   "date": "2026-09-30T12:15:14+02:00",
+   "subject": "build(p01): kernel-check bounded checked helpers"
+  },
+  {
+   "commit": "8788e67a9d014c5ea3b52b43c39dae24931a6f9a",
+   "date": "2026-09-30T12:15:05+02:00",
+   "subject": "feat(p01): add bounded helpers for checked evaluator"
+  },
+  {
+   "commit": "12e0ce3f96f7a9d09619c833bb5004eefb3b0f5d",
+   "date": "2026-09-30T12:14:55+02:00",
+   "subject": "build(p01): kernel-check bounded checked input route"
+  },
+  {
+   "commit": "f41cc83e0704fb29ca85de6da7f5700be88cff92",
+   "date": "2026-09-30T12:14:43+02:00",
+   "subject": "feat(p01): bound checked input route by loop envelope"
+  },
+  {
+   "commit": "c8187edab9c4e80cebb3576c2a457c1374028ad7",
+   "date": "2026-09-30T12:13:59+02:00",
+   "subject": "tighten(p01): fit checked input tag in common step envelope"
+  },
+  {
+   "commit": "f2031e167f202111bbaa51ea035f9d68cacd4f93",
+   "date": "2026-09-30T12:13:45+02:00",
+   "subject": "fix(p01): size global budget for checked input route"
+  },
+  {
+   "commit": "b137c0d674347d7f7302f77a6eb4c36d563af1b7",
+   "date": "2026-09-30T12:10:38+02:00",
+   "subject": "fix(p01): qualify canonical unary encoding in step envelope"
+  },
+  {
+   "commit": "26a0862e0eaff2a8ee8bfb2faf3ad1a84b3ba7af",
+   "date": "2026-09-30T12:08:44+02:00",
+   "subject": "fix(p01): prove checked layout invariant by explicit arithmetic"
+  },
+  {
+   "commit": "accfc83b84a1218d9562a375b8352db0578d2318",
+   "date": "2026-09-30T12:08:41+02:00",
+   "subject": "fix(p01): normalize uniform evalStep envelope proofs"
+  },
+  {
+   "commit": "abd930c32c4e3c1bc353715731f86b60e76d3fc8",
+   "date": "2026-09-30T12:07:50+02:00",
+   "subject": "fix(p01): normalize checked layout invariant arithmetic"
+  },
+  {
+   "commit": "49561288c58d326367e15232515151fdb9232179",
+   "date": "2026-09-30T12:06:27+02:00",
+   "subject": "fix(p01): prove global checked budget without ring tactic"
+  },
+  {
+   "commit": "e975eb3bd0aa4159e577d5381e0644bc24d6251b",
+   "date": "2026-09-30T12:05:54+02:00",
+   "subject": "build(p01): kernel-check uniform evalStep envelope"
+  },
+  {
+   "commit": "7db2c6b1c408fc3a07437837fffb7906a633f2e4",
+   "date": "2026-09-30T12:05:43+02:00",
+   "subject": "feat(p01): bound every physical evalStep branch by one envelope"
+  },
+  {
+   "commit": "89087e49dcbd512830be331f4d68392c2dd34e0c",
+   "date": "2026-09-30T12:04:04+02:00",
+   "subject": "build(p01): kernel-check checked verifier invariant"
+  },
+  {
+   "commit": "ab86eef0f041265b02f78e0a54861fe07b4f0c58",
+   "date": "2026-09-30T12:03:51+02:00",
+   "subject": "feat(p01): add checked verifier layout invariant"
+  },
+  {
+   "commit": "f1e4059253ca54ff17ba40305d0ae748deb1de8e",
+   "date": "2026-09-30T12:03:42+02:00",
+   "subject": "build(p01): kernel-check global checked-verifier budget"
+  },
+  {
+   "commit": "d2dce380e895417643216b27f5b79a6a514de22b",
+   "date": "2026-09-30T12:03:11+02:00",
+   "subject": "feat(p01): add global cubic checked-verifier budget"
+  },
+  {
+   "commit": "f482fdd1624b0492d8400b68bcb01e540c25df3e",
+   "date": "2026-09-30T12:01:28+02:00",
+   "subject": "fix(p01): bound checked push fuel from exact linear formula"
+  },
+  {
+   "commit": "d9a7b41c5728257f05119aee373323767d1bd5ab",
+   "date": "2026-09-30T12:01:00+02:00",
+   "subject": "feat(p01): bound checked evaluator local fuels"
+  },
+  {
+   "commit": "4ab2502326febb19576b700e143ce6f2cb64f5c0",
+   "date": "2026-09-30T11:58:20+02:00",
+   "subject": "fix(p01): combine input-tag budget from explicit prefix bound"
+  },
+  {
+   "commit": "66b9dbf978154691ebde710b5a9dbe49b8eccd32",
+   "date": "2026-09-30T11:56:53+02:00",
+   "subject": "fix(p01): prove runtime envelopes without nlinarith"
+  },
+  {
+   "commit": "a54caf16abde2a2a69f121caffc59199cabf69b6",
+   "date": "2026-09-30T11:55:33+02:00",
+   "subject": "fix(p01): correct consumed bounds in checked verifier budget"
+  },
+  {
+   "commit": "6f9c0077a2d2de15be102d8c7deab74a22720f89",
+   "date": "2026-09-30T11:54:53+02:00",
+   "subject": "build(p01): kernel-check checked verifier budget"
+  },
+  {
+   "commit": "82ae1e2736eeba6bc0e46380ecb4a641ea8f42c1",
+   "date": "2026-09-30T11:54:42+02:00",
+   "subject": "fix(p01): separate core and full checked-step envelopes"
+  },
+  {
+   "commit": "64379600c747113dd791a59ec39b63bf0a61e413",
+   "date": "2026-09-30T11:54:08+02:00",
+   "subject": "feat(p01): add uniform checked verifier runtime envelopes"
+  },
+  {
+   "commit": "4c82e850dec88692575a7dfeddb394f5f3c6b3e4",
+   "date": "2026-09-30T11:49:49+02:00",
+   "subject": "fix(p01): use exact frame-pop state constructors in determinism proof"
+  },
+  {
+   "commit": "be9c0a715a7dd878e72058e785d46d1a2853ca5e",
+   "date": "2026-09-30T11:49:22+02:00",
+   "subject": "fix(p01): use real frame-pop constructors in determinism proof"
+  },
+  {
+   "commit": "9c1d9949245f1ee44b5d3e5a51e4854ac71e4fb7",
+   "date": "2026-09-30T11:46:39+02:00",
+   "subject": "fix(p01): complete checked verifier determinism cases"
+  },
+  {
+   "commit": "440d437b085bd50e237dbebde9aa36349e6050b4",
+   "date": "2026-09-30T11:45:58+02:00",
+   "subject": "fix(p01): close reserved have and frame-pop determinism cases"
+  },
+  {
+   "commit": "64f58940c0d2a0450e930911c9895407d663def5",
+   "date": "2026-09-30T11:43:22+02:00",
+   "subject": "fix(p01): prove checked verifier determinism structurally"
+  },
+  {
+   "commit": "e5ca630a78284a30dd3f130692778b874c383db4",
+   "date": "2026-09-30T11:43:19+02:00",
+   "subject": "fix(p01): restore repo-local Fintype dependency chain"
+  },
+  {
+   "commit": "c5a297e630307e523f962b6be3765129c03a8b05",
+   "date": "2026-09-30T11:42:26+02:00",
+   "subject": "feat(p01): prove needExpr operational determinism"
+  },
+  {
+   "commit": "5162e91fa0d08821a7e783f6b15980e60e1da3b7",
+   "date": "2026-09-30T11:40:25+02:00",
+   "subject": "fix(p01): make checked verifier Fintype dependency explicit"
+  },
+  {
+   "commit": "ba1ee5a1edf505e87f10684ecef4d56dc338702b",
+   "date": "2026-09-30T11:38:46+02:00",
+   "subject": "build(p01): kernel-check checked verifier determinism"
+  },
+  {
+   "commit": "84c82da33d4aa35b443df326453f21defacf3e8a",
+   "date": "2026-09-30T11:38:43+02:00",
+   "subject": "fix(p01): import singleton run lemma for determinism certificate"
+  },
+  {
+   "commit": "6c63facea71ecd4a9d5f6b0c336c971f8c162d1b",
+   "date": "2026-09-30T11:38:28+02:00",
+   "subject": "feat(p01): certify checked verifier operational determinism"
+  },
+  {
+   "commit": "a93fda0968fcc6a5dd354c2b422529de15ab8457",
+   "date": "2026-09-30T11:02:09+02:00",
+   "subject": "fix(p01): use directional child invalidity for AND and OR rejection"
+  },
+  {
+   "commit": "2d4055cfb3de584b5c5e6d16411332c73569311a",
+   "date": "2026-09-30T10:59:28+02:00",
+   "subject": "feat(p01): close structural checked OR rejection"
+  },
+  {
+   "commit": "0bdb0f9a9acb071e966fc7b117be2a97dc61a15b",
+   "date": "2026-09-30T10:55:52+02:00",
+   "subject": "feat(p01): close structural checked rejection for conjunction"
+  },
+  {
+   "commit": "1b2dab68d3efe04984a81add1de7acb958f6cf63",
+   "date": "2026-09-30T10:52:01+02:00",
+   "subject": "fix(p01): discharge impossible input and constant rejection cases"
+  },
+  {
+   "commit": "16e34d01d66923aba4d15ff344706e08884a9ea0",
+   "date": "2026-09-30T10:50:06+02:00",
+   "subject": "feat(p01): define structural checked rejection certificates"
+  },
+  {
+   "commit": "656008ae6f21d811bb81ed2972254d14da0ebc34",
+   "date": "2026-09-30T10:45:02+02:00",
+   "subject": "build(p01): keep experimental checked Fin relabel out of umbrella"
+  },
+  {
+   "commit": "5b695a5edaf76750dcde86e6dc7acb28528e9612",
+   "date": "2026-09-30T10:44:46+02:00",
+   "subject": "fix(p01): open NTM run laws in checked rejection composition"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Attack.canonicalFailureProducer_closes_separation",
+   "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
+   "line": 48,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(w : CanonicalFailureProducer) : ClosedDiscriminant.SeparationFinal Real.CanonicalComplexityBridge.canonicalInterface.inP Real.CanonicalComplexityBridge.canonicalInterface.inNP"
+  },
+  {
+   "name": "MCore.Attack.canonicalFailureProducer_not_in_p",
+   "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(w : CanonicalFailureProducer) : ¬ Real.CanonicalComplexityBridge.canonicalInterface.inP w.language"
+  },
+  {
+   "name": "MCore.Attack.canonicalSATInNP_closed",
+   "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
+   "line": 14,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Real.CanonicalComplexityBridge.canonicalInterface.inNP (Real.CanonicalSATBoundary.SATBits Real.CanonicalCircuitBits.circuitBitEncoding)"
+  },
+  {
+   "name": "MCore.Attack.canonicalSAT_failure_generator_closes_separation",
+   "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(G : Real.FailProofAllGaps.FailureGenerator (Real.CanonicalSATBoundary.SATBits Real.CanonicalCircuitBits.circuitBitEncoding)) : ClosedDiscriminant.SeparationFinal Real.CanonicalComplexityBridge.canonicalInterface.inP Real.CanonicalComplexityBridge.canonicalInterface.inNP"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.cleanup_run_halts",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 672,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(result : Bool) (k : Nat) (left : List (Option Bool)) : preservingUnaryReadMachine.run (k + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalRead_to_rewind",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 616,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(result : Bool) (left : List (Option Bool)) (bits : BitString) (after : List (Option Bool)) : preservingUnaryReadMachine.run 2 { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBits_over_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 568,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(bits : BitString) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (bits.length + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBits_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 556,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(x b : Bool) (xs : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBlanks_over_blanks",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 498,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (k + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBlanks_step_bit",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 541,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(first b : Bool) (bits : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeConfig_eq_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 295,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(pref suffix : BitString) (n : Nat) : indexSomeConfig pref suffix n = indexSomeBitsConfig pref suffix (encodeNat n)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeFuel_le",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 996,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(m n : Nat) : indexSomeFuel m n ≤ (4 * (m + n) + 8) * n + 6 * (m + n) + 5"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_cycle_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 301,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(first b next : Bool) (prefTail witnessTail sourceTail : BitString) : preservingUnaryReadMachine.run (4 * (first :: prefTail).length + 8) (indexSomeBitsConfig (first :: prefTail) (b :: witnessTail) (true :: next :: sourceTail)) = indexSomeBitsConfig ((first :: prefTail) ++ [b]) witnessTail (next :: sourceTail)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_false_finalize",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 727,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(pref : BitString) (selected : Bool) (rest : BitString) (hpref : pref ≠ []) : preservingUnaryReadMachine.run (indexSomeFinalizeFuel pref) (indexSomeConfig pref (selected :: rest) 0) = { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_forall",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 899,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(first : Bool) (prefTail rest : BitString) (n : Nat) (h : n < rest.length) : preservingUnaryReadMachine.run (indexSomeFuel (first :: prefTail).length n) (indexSomeConfig (first :: prefTail) rest n) = { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_run_advance",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 479,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(pref : BitString) (b : Bool) (suffix : BitString) (n : Nat) (hpref : pref ≠ []) : preservingUnaryReadMachine.run (4 * pref.length + 8) (indexSomeConfig pref (b :: suffix) (n + 1)) = indexSomeConfig (pref ++ [b]) suffix n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnaryExactFuel_le_quadratic",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 1017,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(i : Nat) : preservingUnaryExactFuel i ≤ 16 * (i + 1) ^ 2"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnary_run_exact",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 957,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) (i : Nat) (hi : i < witness.length) : preservingUnaryReadMachine.run (preservingUnaryExactFuel i) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.replicate_none_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 253,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (source : List (Option Bool)) : List.replicate k none ++ (none :: source) = none :: (List.replicate k none ++ source)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.replicate_none_extend",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (right : List (Option Bool)) : List.replicate (k + 1) none ++ (none :: right) = List.replicate (k + 2) none ++ right"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.replicate_none_two_extend",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 716,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (left : List (Option Bool)) : List.replicate (k + 1) none ++ (none :: none :: left) = List.replicate (k + 3) none ++ left"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.returnBits_over_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 180,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(bits : BitString) (left after : List (Option Bool)) : preservingUnaryReadMachine.run (bits.length + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.returnBits_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 168,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (left after : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.returnBlanks_over_blanks",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 210,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (k + 2) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rewind_empty_to_cleanup",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 662,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(result : Bool) (left stream : List (Option Bool)) : preservingUnaryReadMachine.run 1 (rewindConfig result left [] (none :: stream)) = { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rewind_over_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 641,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(result : Bool) (bits : BitString) (left : List (Option Bool)) (after : List (Option Bool)) : preservingUnaryReadMachine.run (3 * bits.length) (rewindConfig result left bits after) = rewindConfig result (bits.reverse.map some ++ left) [] after"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rewind_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 630,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(result x : Bool) (xs : BitString) (left : List (Option Bool)) (after : List (Option Bool)) : preservingUnaryReadMachine.run 3 (rewindConfig result left (x :: xs) after) = rewindConfig result (some x :: left) xs after"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rightStreamTape_blank_block",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 263,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (left source : List (Option Bool)) : rightStreamTape left (List.replicate k none ++ (none :: source)) = { left"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBits_over_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 107,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(bits : BitString) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (bits.length + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBits_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 95,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(x b : Bool) (xs : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBlanks_over_blanks",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (k + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBlanks_step_bit",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 80,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(first b : Bool) (bits : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.shift_carry_return_to_stream",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
+   "line": 145,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) (left stream : List (Option Bool)) : preservingUnaryReadMachine.run 3 { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderBound.nonzeroReaderFuel_le_timeBound",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderBound.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) (i : Nat) : nonzeroReaderFuel i ≤ preservingUnaryReaderTimeBound (witness.length + (encodeNat i).length)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderBound.preservingUnaryReaderTimeBound_poly",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderBound.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": PolynomialTimeBound preservingUnaryReaderTimeBound"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderBound.zeroFuel_le_timeBound",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderBound.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) : 5 ≤ preservingUnaryReaderTimeBound (witness.length + (encodeNat 0).length)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCycleObligation_material",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
+   "line": 99,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": SuccessorCycleObligation"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCyclePhysicalEquality_closes_frontier",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
+   "line": 84,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hphys : SuccessorCyclePhysicalEquality) : SuccessorCycleObligation"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCyclePhysicalEquality_material",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
+   "line": 92,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": SuccessorCyclePhysicalEquality"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCycleSteps_bound",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(pref suffix : BitString) (n : Nat) (hpref : pref ≠ []) : successorCycleSteps pref ≤ (pref.length + n + suffix.length + 1)^2 + 16"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.encodeNat_length",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(i : Nat) : (encodeNat i).length = i + 1"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryExactFuel_le_timeBound",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) (i : Nat) (hi : i < witness.length) : preservingUnaryExactFuel i ≤ preservingUnaryTimeBound (witness.length + (encodeNat i).length)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryReaderGap_material",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 134,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": PreservingUnaryReaderGap"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound_poly",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": PolynomialTimeBound preservingUnaryTimeBound"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_correct_material",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 92,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ (witness : BitString) (i : Nat) (hi : i < witness.length), preservingReadAccepting (preservingUnaryReadMachine.run (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_halts_material",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ (witness : BitString) (i : Nat), i < witness.length → preservingUnaryReadMachine.HaltsWithin (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_preserves_material",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 106,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ (witness : BitString) (i : Nat) (hi : i < witness.length), ∃ left right : List (Option Bool), (preservingUnaryReadMachine.run (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_run_timeBound",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
+   "line": 46,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) (i : Nat) (hi : i < witness.length) : preservingUnaryReadMachine.run (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+  },
+  {
+   "name": "MCore.Real.P02ClockBridgeMaterial.correctAt_mono_clock",
+   "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (c e : Nat) (hLe : ∀ n, M.timeBound n ≤ polynomialMajorant c e n) (L : BitLanguage) (x : BitString) (hCorrect : M.CorrectAt L x) : (withMajorantClock M c e).CorrectAt L x"
+  },
+  {
+   "name": "MCore.Real.P02ClockBridgeMaterial.exists_majorant_candidate_preserving_correctAt",
+   "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
+   "line": 58,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (L : BitLanguage) (x : BitString) (hCorrect : M.CorrectAt L x) : ∃ c e : Nat, (withMajorantClock M c e).CorrectAt L x"
+  },
+  {
+   "name": "MCore.Real.P02ClockBridgeMaterial.polynomialMajorant_poly",
+   "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
+   "line": 13,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(c e : Nat) : PolynomialTimeBound (polynomialMajorant c e)"
+  },
+  {
+   "name": "MCore.Real.P02ExactnessKernelFinalRefutation.G2_exactness_closed_by_refutation",
+   "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
+   "line": 54,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : G2RefutationWitness) : ¬ Nonempty TotalSemanticFailureProducer ∧ ¬ UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02ExactnessKernelFinalRefutation.mincut_exact_form",
+   "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
+   "line": 23,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty TotalSemanticFailureProducer ↔ UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02ExactnessKernelFinalRefutation.realization_refutes_totalSemanticFailure",
+   "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : G2RefutationWitness) : ¬ Nonempty TotalSemanticFailureProducer"
+  },
+  {
+   "name": "MCore.Real.P02ExactnessKernelFinalRefutation.realization_refutes_universalFailure",
+   "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
+   "line": 35,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(R : G2RefutationWitness) : ¬ UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02ExactnessKernelFinalRefutation.refutationWitness_iff_sat_in_p",
+   "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
+   "line": 63,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty G2RefutationWitness ↔ InP CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02ExactnessKernelFinalRefutation.semantic_negation_invariant_refuted",
+   "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ SEMANTIC_NEGATION_INVARIANT_OPEN_MATH"
+  },
+  {
+   "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_accepting",
+   "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
+   "line": 42,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).accepting = M.accepting"
+  },
+  {
+   "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_haltsWithin",
+   "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
+   "line": 73,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (k : Nat) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.HaltsWithin k cfg ↔ M.machine.HaltsWithin k cfg"
+  },
+  {
+   "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_run",
+   "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
+   "line": 65,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (k : Nat) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.run k cfg = M.machine.run k cfg"
+  },
+  {
+   "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_stateCount",
+   "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).stateCount = M.stateCount"
+  },
+  {
+   "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_step",
+   "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
+   "line": 58,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.step cfg = M.machine.step cfg"
+  },
+  {
+   "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_toTM",
+   "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
+   "line": 47,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).toTM = M.machine"
+  },
+  {
+   "name": "MCore.Real.P02G2TruncationBoundary.universalDisagreementForcado",
+   "file": "probe/P02G2TruncationBoundary.lean",
+   "line": 27,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (selfCodeForcado M)"
+  },
+  {
+   "name": "MCore.Real.P02MachineSerialization.list_ofFn_getD",
+   "file": "lean/MCore/Real/P02MachineSerialization.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} {α : Type} (f : Fin n → α) (i : Fin n) (d : α) : (List.ofFn f).getD i.val d = f i"
+  },
+  {
+   "name": "MCore.Real.P02MachineSerialization.payload_accepting_roundtrip",
+   "file": "lean/MCore/Real/P02MachineSerialization.lean",
+   "line": 88,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) : (payloadToMachine (machinePayload enc)).accepting q = enc.accepting q"
+  },
+  {
+   "name": "MCore.Real.P02MachineSerialization.payload_halting_roundtrip",
+   "file": "lean/MCore/Real/P02MachineSerialization.lean",
+   "line": 81,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) : (payloadToMachine (machinePayload enc)).halting q = enc.halting q"
+  },
+  {
+   "name": "MCore.Real.P02MachineSerialization.payload_initial_roundtrip",
+   "file": "lean/MCore/Real/P02MachineSerialization.lean",
+   "line": 75,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) : (payloadToMachine (machinePayload enc)).initial = enc.initial"
+  },
+  {
+   "name": "MCore.Real.P02MachineSerialization.payload_toTM_run_roundtrip",
+   "file": "lean/MCore/Real/P02MachineSerialization.lean",
+   "line": 111,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) (k : Nat) (cfg : Configuration (Fin (enc.stateCount + 1)) (Option Bool)) : (payloadToMachine (machinePayload enc)).toTM.run k cfg = enc.toTM.run k cfg"
+  },
+  {
+   "name": "MCore.Real.P02MachineSerialization.payload_transition_roundtrip",
+   "file": "lean/MCore/Real/P02MachineSerialization.lean",
+   "line": 95,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) (s : Option Bool) : (payloadToMachine (machinePayload enc)).transition q s = enc.transition q s"
+  },
+  {
+   "name": "MCore.Real.P02SemanticInvariantCore.invariantPoint_gives_semantic_failure",
+   "file": "lean/MCore/Real/P02SemanticInvariantCore.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{M : PolyDTMCandidate} {hTotal : DeclaredClockTotal M} (R : ComplementSemanticReduction M hTotal) (W : InvariantPoint R) : let y"
+  },
+  {
+   "name": "MCore.Real.P02SemanticInvariantCore.totalInvariantPoint_closes_G2",
+   "file": "lean/MCore/Real/P02SemanticInvariantCore.lean",
+   "line": 89,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : TOTAL_INVARIANT_POINT_OPEN_MATH) : UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationCounterexample.no_secondBit_semanticNegationInvariant",
+   "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
+   "line": 101,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ SemanticNegationInvariantPoint secondBitCandidate secondBitCandidate_total"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationCounterexample.secondBitCandidate_total",
+   "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": DeclaredClockTotal secondBitCandidate"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_accepts_constTrue",
+   "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": DeclaredAccepts secondBitCandidate (encodeCircuit (.const true))"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_rejects_constFalse",
+   "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
+   "line": 59,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ DeclaredAccepts secondBitCandidate (encodeCircuit (.const false))"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_semanticNegation_flips",
+   "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
+   "line": 73,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : BitString) : ¬ (DeclaredAccepts secondBitCandidate (semanticNegationBits secondBitCandidate x) ↔ DeclaredAccepts secondBitCandidate x)"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationCounterexample.semanticNegationInvariant_open_math_refuted",
+   "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
+   "line": 108,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ SEMANTIC_NEGATION_INVARIANT_OPEN_MATH"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationReduction.declaredAcceptBit_true_iff",
+   "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
+   "line": 25,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (x : BitString) : declaredAcceptBit M x = true ↔ DeclaredAccepts M x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationReduction.semanticNegationBits_flip",
+   "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (x : BitString) : CanonicalSAT (semanticNegationBits M x) ↔ ¬ DeclaredAccepts M x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticNegationReduction.semanticNegationInvariant_closes_G2",
+   "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
+   "line": 81,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(H : SEMANTIC_NEGATION_INVARIANT_OPEN_MATH) : UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02TerminalForcingG2.failureLaw_iff_correctAt",
+   "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(xM : CounterexampleSelector) : FailureLaw xM ↔ ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (xM M)"
+  },
+  {
+   "name": "MCore.Real.P02TerminalForcingG2.g2_terminal_iff_witness",
+   "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
+   "line": 52,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": G2_TERMINAL ↔ Nonempty UniversalFailureWitness"
+  },
+  {
+   "name": "MCore.Real.P02TerminalForcingG2.g2_terminal_implies_p_ne_np",
+   "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
+   "line": 60,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : G2_TERMINAL) : PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateFailureMinCut.exists_timeout_of_not_total",
+   "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (h : ¬ DeclaredClockTotal M) : ∃ x : BitString, ¬ M.machine.HaltsWithin (M.timeBound x.length) (initialTMConfig M.machine x)"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(hNP : InNP CanonicalSAT) (P : TotalSemanticFailureProducer) : PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_iff_universalFailure",
+   "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty TotalSemanticFailureProducer ↔ UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_implies_universalFailure",
+   "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(P : TotalSemanticFailureProducer) : UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02TruncationFrontier.universalDisagreementForcado",
+   "file": "probe/P02TruncationFrontier.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (selfCodeForcado M)"
+  },
+  {
+   "name": "MCore.Real.P02TwoSidedExactnessAudit.canonicalSAT_inNP",
+   "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
+   "line": 17,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": InNP CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02TwoSidedExactnessAudit.g2_proved_implies_p_ne_np",
+   "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
+   "line": 72,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hG2 : UniversalFailure CanonicalSAT) : PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02TwoSidedExactnessAudit.g2_refutation_witness_iff_sat_in_p",
+   "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
+   "line": 66,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty G2RefutationWitness ↔ InP CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02TwoSidedExactnessAudit.orient_from_canonicalSAT",
+   "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
+   "line": 58,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(T : CanonicalSATCompletenessTransfer) : Nonempty (FinalOrientation T)"
+  },
+  {
+   "name": "MCore.Real.P02TwoSidedExactnessAudit.sat_in_p_implies_p_eq_np",
+   "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
+   "line": 30,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(T : CanonicalSATCompletenessTransfer) (hSAT : InP CanonicalSAT) : ∀ L : BitLanguage, InP L ↔ InNP L"
+  },
+  {
+   "name": "MCore.Real.P02TwoSidedExactnessAudit.sat_not_in_p_implies_p_ne_np",
+   "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
+   "line": 41,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(hNotP : ¬ InP CanonicalSAT) : PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_iff_universalFailure",
+   "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
+   "line": 53,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": Nonempty UniversalFailureWitness ↔ UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_notInP",
+   "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
+   "line": 37,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : UniversalFailureWitness) : ¬ InP CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_p_ne_np",
+   "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : UniversalFailureWitness) : PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_universalFailure",
+   "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(W : UniversalFailureWitness) : UniversalFailure CanonicalSAT"
+  },
+  {
+   "name": "MCore.Real.P02UniversalSimMaterial.universalSim_none_iff",
+   "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
+   "line": 63,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) (x : BitString) (fuel : Nat) : UniversalSim enc x fuel = none ↔ ¬ enc.toTM.HaltsWithin fuel (encodedInitialConfig enc x)"
+  },
+  {
+   "name": "MCore.Real.P02UniversalSimMaterial.universalSim_projected_correct",
+   "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
+   "line": 85,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (x : BitString) (fuel : Nat) (b : Bool) (k : Nat) : UniversalSim (projectFiniteMachine M) x fuel = some (b, k) ↔ k = fuel ∧ M.machine.HaltsWithin fuel (initialTMConfig M.machine x) ∧ b = M.accepting (M.machine.run fuel (initialTMConfig M.machine x)).state"
+  },
+  {
+   "name": "MCore.Real.P02UniversalSimMaterial.universalSim_some_iff",
+   "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
+   "line": 31,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(enc : EncodedMachine) (x : BitString) (fuel : Nat) (b : Bool) (k : Nat) : UniversalSim enc x fuel = some (b, k) ↔ k = fuel ∧ enc.toTM.HaltsWithin fuel (encodedInitialConfig enc x) ∧ b = enc.accepting (enc.toTM.run fuel (encodedInitialConfig enc x)).state"
+  },
+  {
+   "name": "MCore.Real.RigidLockNoReopen.detected_gain0_is_structural_evidence",
+   "file": "lean/MCore/Real/RigidLockNoReopen.lean",
+   "line": 55,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (R : InfiniteRouteAttempt P) (_h : isGain0Loop R = true) : R.Target ↔ P"
+  },
+  {
+   "name": "MCore.Real.RigidLockNoReopen.g2_pointwise_rigid_classification",
+   "file": "lean/MCore/Real/RigidLockNoReopen.lean",
+   "line": 108,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": rigidLock g2PointwiseRigidAttempt = .evidenceOfStructuralFixedPoint"
+  },
+  {
+   "name": "MCore.Real.RigidLockNoReopen.g2_pointwise_rigid_evidence",
+   "file": "lean/MCore/Real/RigidLockNoReopen.lean",
+   "line": 103,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": g2PointwiseRigidAttempt.Target ↔ P02TerminalForcingG2.G2_TERMINAL"
+  },
+  {
+   "name": "MCore.Real.RigidLockNoReopen.reject_equivalent_minimum",
+   "file": "lean/MCore/Real/RigidLockNoReopen.lean",
+   "line": 78,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P Pmin : Prop} (hEq : Pmin ↔ P) : (equivalent_subtarget_has_zero_terminal_gain hEq).Target ↔ P"
+  },
+  {
+   "name": "MCore.Real.RigidLockNoReopen.rigid_route_target_iff_terminal",
+   "file": "lean/MCore/Real/RigidLockNoReopen.lean",
+   "line": 43,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (R : InfiniteRouteAttempt P) : R.Target ↔ P"
+  },
+  {
+   "name": "MCore.Real.StructuralDiagonalObstruction.iterateCode_length_strict",
+   "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
+   "line": 32,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ (n : Nat) (x : BitString), x.length < (iterateCode D (n + 1) x).length"
+  },
+  {
+   "name": "MCore.Real.StructuralDiagonalObstruction.strict_length_no_literal_fixed_point",
+   "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
+   "line": 8,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ x : BitString, D x ≠ x"
+  },
+  {
+   "name": "MCore.Real.StructuralDiagonalObstruction.strict_length_no_positive_cycle",
+   "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
+   "line": 56,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ (n : Nat) (x : BitString), iterateCode D (n + 1) x ≠ x"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.existential_auxiliary_zero_gain",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 45,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} {A : Type} {Q : A → Prop} (eliminate : (∃ a, Q a) → P) (introduce : P → ∃ a, Q a) : (∃ a, Q a) ↔ P"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.g2_pointwise_iff_uniform",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 106,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∀ M : PolyDTMCandidate, ∃ x : BitString, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT x) ↔ (∃ F : PolyDTMCandidate → BitString, ∀ M : PolyDTMCandidate, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT (F M))"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.g2_structural_fixed_point",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 122,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∀ M : PolyDTMCandidate, ∃ x : BitString, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT x) ↔ P02TerminalForcingG2.G2_TERMINAL"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.neg_and_iff_neg_or_neg",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 76,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{A B : Prop} : ¬ (A ∧ B) ↔ (¬ A ∨ ¬ B)"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.no_escape_from_terminal",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 19,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (R : ConservativeRefinement P) : R.target ↔ P"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.pointwise_iff_uniform_selector",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 58,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{A W : Type} {R : A → W → Prop} : (∀ a : A, ∃ w : W, R a w) ↔ ∃ F : A → W, ∀ a : A, R a (F a)"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.stable_mincut",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 93,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} {I : Type} (refine : I → ConservativeRefinement P) : ∀ i : I, (refine i).target ↔ P"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPoint.zero_gain_chain",
+   "file": "lean/MCore/Real/StructuralFixedPoint.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (C : ZeroGainChain P) : ∀ n : Nat, C.stage n ↔ P"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPointBreak.hdiag_real_implies_not_correctAt",
+   "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) (M : PolyDTMCandidate) : ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT (B.diagonalInput M)"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPointBreak.perelman_break_closes_g2_terminal",
+   "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
+   "line": 74,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) : P02TerminalForcingG2.G2_TERMINAL"
+  },
+  {
+   "name": "MCore.Real.StructuralFixedPointBreak.perelman_break_closes_p_ne_np",
+   "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
+   "line": 98,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) : PneqNP"
+  },
+  {
+   "name": "MCore.Real.StructuralNoReopen.close_from_positive_break",
+   "file": "lean/MCore/Real/StructuralNoReopen.lean",
+   "line": 38,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (B : PositiveBreak P) : P"
+  },
+  {
+   "name": "MCore.Real.StructuralNoReopen.g2_close_from_positive_break",
+   "file": "lean/MCore/Real/StructuralNoReopen.lean",
+   "line": 116,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(B : PositiveBreak P02TerminalForcingG2.G2_TERMINAL) : P02TerminalForcingG2.G2_TERMINAL"
+  },
+  {
+   "name": "MCore.Real.StructuralNoReopen.g2_no_reopen",
+   "file": "lean/MCore/Real/StructuralNoReopen.lean",
+   "line": 94,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": g2PointwiseGainZero.Target ↔ P02TerminalForcingG2.G2_TERMINAL"
+  },
+  {
+   "name": "MCore.Real.StructuralNoReopen.gainZero_fixed_point",
+   "file": "lean/MCore/Real/StructuralNoReopen.lean",
+   "line": 22,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (R : GainZero P) : R.Target ↔ P"
+  },
+  {
+   "name": "MCore.Real.StructuralNoReopen.no_reopen_zero_gain_chain",
+   "file": "lean/MCore/Real/StructuralNoReopen.lean",
+   "line": 44,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "{P : Prop} (E : Nat → Prop) (h0 : E 0 ↔ P) (step : ∀ n : Nat, E (n + 1) ↔ E n) : ∀ n : Nat, E n ↔ P"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean": "bf108c3c4db8e7c8ac5f53ef91218f25bb8303514c78cf992f79a8d837a66923",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "b7792577d613f8b0b507030732ff2196d79efcbe2e48f9c17452f3fef2aef310"
+}

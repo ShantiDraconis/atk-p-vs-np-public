@@ -1,0 +1,1555 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "attack/material-orientation-clean-v2-20260921",
+ "branch_state": "parada",
+ "head_commit": "d72e53bc7f667c75a432226a23adc59a255c5652",
+ "head_commit_date": "2026-09-22T09:53:29+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "d72e53bc7f667c75a432226a23adc59a255c5652",
+   "date": "2026-09-22T09:53:29+01:00",
+   "subject": "fix(p02-g2.0): package normalization witness with Classical.choose"
+  },
+  {
+   "commit": "3234fe2dce50924002b354170393ea8edeb09719",
+   "date": "2026-09-22T09:49:48+01:00",
+   "subject": "fix(p02-g2.0): avoid dependent candidate equality and preserve canonical normalization"
+  },
+  {
+   "commit": "2d9d46e71a7df8c3217e155222de1a3f5650610b",
+   "date": "2026-09-22T09:43:58+01:00",
+   "subject": "ci: build and audit P02 G2.0 normalization"
+  },
+  {
+   "commit": "b3a2a86a06618fcc9252b46c61aa0ffc66856bb4",
+   "date": "2026-09-22T09:43:53+01:00",
+   "subject": "p02 g2.0: activate candidate normalization"
+  },
+  {
+   "commit": "cf59af85b70ce5b660ccae22b5a7c5be9688db52",
+   "date": "2026-09-22T09:43:36+01:00",
+   "subject": "p02 g2.0: normalize deterministic polynomial time bounds"
+  },
+  {
+   "commit": "aa1307a0d79930766347f9fe957ecc96eddfa1cb",
+   "date": "2026-09-22T08:49:32+01:00",
+   "subject": "ci: build and audit parser work scan phases"
+  },
+  {
+   "commit": "584d9523c4637ee597c5adb2dea3e6ce48aceaa1",
+   "date": "2026-09-22T08:49:28+01:00",
+   "subject": "p01: activate parser source/work scan proofs"
+  },
+  {
+   "commit": "08c41149a2386dc04a4bdcd5102f70735358459d",
+   "date": "2026-09-22T08:49:13+01:00",
+   "subject": "p01: prove source and work-log scan phases of parser machine"
+  },
+  {
+   "commit": "fc20887e556091a4775080ab23ee1ff61917040e",
+   "date": "2026-09-22T08:42:01+01:00",
+   "subject": "fix(p01): stabilize parser path arithmetic and list rewrites"
+  },
+  {
+   "commit": "111feb573419bf402e7fbc4d14e04d87b7391bf6",
+   "date": "2026-09-22T08:41:58+01:00",
+   "subject": "fix(p01): use core Nat power lemma in initialization proof"
+  },
+  {
+   "commit": "ee394cf5f22c315aea0e548d930e520b559e43c2",
+   "date": "2026-09-22T08:41:54+01:00",
+   "subject": "fix(p01): use Lean 4.19 Nat power lemmas"
+  },
+  {
+   "commit": "9c41bbfeae0f7350eda28f15e1504deb4572da2d",
+   "date": "2026-09-22T08:38:55+01:00",
+   "subject": "fix(p01): type blank replicates explicitly on parser paths"
+  },
+  {
+   "commit": "601dc34ff8cab18b93fa5ef490c1bbe73d1d8bc2",
+   "date": "2026-09-22T08:38:51+01:00",
+   "subject": "fix(p01): prove initialization square with local Nat lemma"
+  },
+  {
+   "commit": "209d7262c3e8595348ae25967bd16a10f8cff17c",
+   "date": "2026-09-22T08:38:48+01:00",
+   "subject": "fix(p01): replace unavailable power lemmas with local Nat proofs"
+  },
+  {
+   "commit": "bdddc2cb78a6d5e99519dd3052d309b3d0d00fb0",
+   "date": "2026-09-22T08:36:05+01:00",
+   "subject": "fix(p01): prove blank-replicate arithmetic locally"
+  },
+  {
+   "commit": "76464eb15f9d934ee2fa1ac4590f36b9418ce264",
+   "date": "2026-09-22T08:36:02+01:00",
+   "subject": "fix(p01): normalize initialization square explicitly"
+  },
+  {
+   "commit": "d139da5fe1aa4553e5d12a06d8ab60ea0cc25ffa",
+   "date": "2026-09-22T08:35:59+01:00",
+   "subject": "fix(p01): normalize parser budget powers explicitly"
+  },
+  {
+   "commit": "c1b1a1b7f4b560f13bf3e01a2efc34db2375dc30",
+   "date": "2026-09-22T08:32:01+01:00",
+   "subject": "fix(p01): keep parser budget proof in core Lean arithmetic"
+  },
+  {
+   "commit": "bd3e3c3dbfc0e8030af6c2b70ee3bfe41555d00e",
+   "date": "2026-09-22T08:31:22+01:00",
+   "subject": "fix(p01): normalize recursive parser path proofs"
+  },
+  {
+   "commit": "06e89652765597521a1b6b957202f5ff3c5b09f3",
+   "date": "2026-09-22T08:31:19+01:00",
+   "subject": "fix(p01): normalize parser initialization proof for Lean 4.19"
+  },
+  {
+   "commit": "e207a0fde01d21b5d0e6effb2b7ce37576f40301",
+   "date": "2026-09-22T08:29:27+01:00",
+   "subject": "ci: build and audit parser macro budget"
+  },
+  {
+   "commit": "c5031334311cb95c6a1240927e73174483bf0ea0",
+   "date": "2026-09-22T08:29:24+01:00",
+   "subject": "p01: activate parser macro budget"
+  },
+  {
+   "commit": "f93a21d503aea8b237c1e40442b923b6df4e9884",
+   "date": "2026-09-22T08:29:11+01:00",
+   "subject": "p01: prove global polynomial budget for parser macro loop"
+  },
+  {
+   "commit": "7f0bb803833c6eb66c1c2d25db27d904091d40ac",
+   "date": "2026-09-22T08:28:33+01:00",
+   "subject": "fix(p01): normalize tombstone replicate lengths"
+  },
+  {
+   "commit": "1279889cc855541a2e5504765a667cd4207e3b7a",
+   "date": "2026-09-22T08:27:58+01:00",
+   "subject": "ci: build and audit parser boundary bridge"
+  },
+  {
+   "commit": "b65b4230c524d8a67150533856db3c4086157eb0",
+   "date": "2026-09-22T08:27:56+01:00",
+   "subject": "p01: activate initialization-to-source boundary bridge"
+  },
+  {
+   "commit": "f832ddb6436e6dd0acee8aca93a54b8cbd29d808",
+   "date": "2026-09-22T08:27:41+01:00",
+   "subject": "p01: connect parser initialization to canonical source boundary"
+  },
+  {
+   "commit": "6b2a902dd307cf2849b62d2de5ca745555a7cafa",
+   "date": "2026-09-22T08:26:56+01:00",
+   "subject": "fix(p01): preserve a single source/work delimiter in parser paths"
+  },
+  {
+   "commit": "403ea383e75807acb20c2d4c4daceb50eb4a5bc6",
+   "date": "2026-09-22T08:26:03+01:00",
+   "subject": "fix(p01): repair slot-log rightmost-pop elaboration"
+  },
+  {
+   "commit": "eabcb91533cfbe42ad8617e81a22815c80ef5c94",
+   "date": "2026-09-22T08:24:05+01:00",
+   "subject": "p01: activate concrete parser machine and path proofs in umbrella build"
+  },
+  {
+   "commit": "c647ba67bb8b7be5311042695338b3314fbce183",
+   "date": "2026-09-22T00:16:31+01:00",
+   "subject": "p01: characterize rightmost active slot consumed by pop"
+  },
+  {
+   "commit": "a0039c51c15534586bcb75e1a090ec21516f8796",
+   "date": "2026-09-22T00:15:52+01:00",
+   "subject": "fix: prove Fin25 initialization without reverseRecOn or nonlinear omega"
+  },
+  {
+   "commit": "0dc6b4e22957b9ab9bb96f55de4dce3b0afb580e",
+   "date": "2026-09-22T00:15:49+01:00",
+   "subject": "fix: make Fin25 source paths structurally exact"
+  },
+  {
+   "commit": "4eec5b32138a8bfb92c9ae5cb07e64bc7c2107b9",
+   "date": "2026-09-22T00:13:00+01:00",
+   "subject": "p01: repoint CanonicalSATRecursiveParserPaths.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "ffadafde0007c03855975c54460313614e832dce",
+   "date": "2026-09-22T00:12:56+01:00",
+   "subject": "p01: repoint CanonicalSATRecursiveParserInitProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "a974e92d0d6f180210963cccb597bc3ed10a79f6",
+   "date": "2026-09-22T00:11:32+01:00",
+   "subject": "p01: restore canonical Fin25 parser paths and head consumption"
+  },
+  {
+   "commit": "0152e3511c5f48565dc40da34bedd65a4d36226e",
+   "date": "2026-09-22T00:10:10+01:00",
+   "subject": "ci: build Fin25 parser initialization proof"
+  },
+  {
+   "commit": "57d2bb84914393d70f13f663e8188ae3ff4d633d",
+   "date": "2026-09-22T00:10:06+01:00",
+   "subject": "p01: activate Fin25 parser initialization proof"
+  },
+  {
+   "commit": "f2b56cddc191ec1be1e2a37f108ebdba359fe2cb",
+   "date": "2026-09-22T00:09:57+01:00",
+   "subject": "p01: prove Fin25 parser initialization to canonical one-slot boundary"
+  },
+  {
+   "commit": "534c82e233006a82c352101580bf37b34eb65a5e",
+   "date": "2026-09-22T00:08:48+01:00",
+   "subject": "ci: purge Fin31 proof line from canonical P01 gate"
+  },
+  {
+   "commit": "69643c46575525ad488c2c10da203a3b6ebfcba1",
+   "date": "2026-09-22T00:07:33+01:00",
+   "subject": "fix: keep deprecated Fin31 parser provenance kernel-clean"
+  },
+  {
+   "commit": "7061c6a777e902f4dcc9f4d0094b3aa19f5c526a",
+   "date": "2026-09-22T00:07:29+01:00",
+   "subject": "fix: prove TM run composition with halted semantics"
+  },
+  {
+   "commit": "aba91c621b9a7c6ced03cf381cd4a93506931677",
+   "date": "2026-09-22T00:06:43+01:00",
+   "subject": "fix: use explicit Nat reflexivity in parser polynomial bound"
+  },
+  {
+   "commit": "5f3bb702d323e79e722376f773725811299d7387",
+   "date": "2026-09-22T00:06:40+01:00",
+   "subject": "fix: prove TM run composition with halted-state absorption"
+  },
+  {
+   "commit": "d2636eafd0a5f61cea2dfb514172cbf0da7efc0c",
+   "date": "2026-09-22T00:05:56+01:00",
+   "subject": "ci: remove stale Fin31 parser artifacts"
+  },
+  {
+   "commit": "5737ee6afaa8e0708b3a5a1d91257bfd5c293788",
+   "date": "2026-09-22T00:05:47+01:00",
+   "subject": "ci: validate only canonical Fin25 parser chain"
+  },
+  {
+   "commit": "71ebc5485dc8f26b640d7ceecd84075db39be5a1",
+   "date": "2026-09-22T00:05:44+01:00",
+   "subject": "p01: keep Fin25 parser as sole canonical operational chain"
+  },
+  {
+   "commit": "635f09d52793ab00b4aca7bcfa7876c670430b87",
+   "date": "2026-09-22T00:05:40+01:00",
+   "subject": "atk: drop stale Fin31 parser proof imports"
+  },
+  {
+   "commit": "d98a98bcaf28859acf74731e2bb848cc809acd64",
+   "date": "2026-09-22T00:05:37+01:00",
+   "subject": "atk: remove stale Fin31 CanonicalSATRecursiveParserPaths.lean"
+  },
+  {
+   "commit": "4495abf5fc589ace5c5fadafb4c8b63d18947054",
+   "date": "2026-09-22T00:05:34+01:00",
+   "subject": "atk: remove stale Fin31 CanonicalSATParserLogBoundary.lean"
+  },
+  {
+   "commit": "1e6eab79b7c13b0de7674054dad231519f35018f",
+   "date": "2026-09-22T00:05:08+01:00",
+   "subject": "ci: build and audit Fin31 parser init/head proofs"
+  },
+  {
+   "commit": "d79e5d8032043666addff200380501f3399fda34",
+   "date": "2026-09-22T00:04:52+01:00",
+   "subject": "p01: activate Fin31 init and head proofs"
+  },
+  {
+   "commit": "b984b4a1c7a4b12b21c509e10fae3ca31bd4a58d",
+   "date": "2026-09-22T00:04:50+01:00",
+   "subject": "p01: port exact head-consumption proof to Fin31"
+  },
+  {
+   "commit": "f4e549b452f220263fbeb99347a2bcb88fd89d36",
+   "date": "2026-09-22T00:04:46+01:00",
+   "subject": "p01: port exact parser initialization proof to Fin31"
+  },
+  {
+   "commit": "fcf73683781b0bb794dfd8ff20de2067bcc28c2d",
+   "date": "2026-09-22T00:04:24+01:00",
+   "subject": "fix: prove physical slot-log push run explicitly"
+  },
+  {
+   "commit": "dde502585d5aec5bcd1353c32c84b8c8f21db7ad",
+   "date": "2026-09-22T00:04:08+01:00",
+   "subject": "p01: fix Fin25 head continuation states"
+  },
+  {
+   "commit": "f6b33a5cce772b85c2d8558aaefd0d7307d5ae8c",
+   "date": "2026-09-22T00:03:39+01:00",
+   "subject": "p01: repoint CanonicalSATRecursiveParserSimulation.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "bf1410ccad763da32d97bc40a75731111ad121be",
+   "date": "2026-09-22T00:03:37+01:00",
+   "subject": "p01: repoint CanonicalSATParserHeadProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "d76fecc98143c1469a026d6ac3cb277eb9542ef1",
+   "date": "2026-09-22T00:03:31+01:00",
+   "subject": "ci: consolidate P01 parser audit on Fin31 simulation"
+  },
+  {
+   "commit": "389c06c3743f2efa23dc3193e4e7fe6880a44624",
+   "date": "2026-09-22T00:03:28+01:00",
+   "subject": "p01: stabilize parser boundary on canonical Fin31 machine"
+  },
+  {
+   "commit": "55ec0c88380e92ec7293764102b6e9111cdcadda",
+   "date": "2026-09-22T00:03:25+01:00",
+   "subject": "fix: stabilize slot-log push proof on current head"
+  },
+  {
+   "commit": "611618c3d7a5c220925b93ee1a8e398568a7d55f",
+   "date": "2026-09-22T00:03:25+01:00",
+   "subject": "p01: repoint CanonicalSATParserInitProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "39ff9aa581d6e4df6d5c7de7ffdd6d1cfaf6f385",
+   "date": "2026-09-22T00:03:15+01:00",
+   "subject": "p01: simplify canonical parser to Fin25 net-slot machine"
+  },
+  {
+   "commit": "8be8208d576e174b9d5bf4320ec5b7f29898bd56",
+   "date": "2026-09-22T00:02:45+01:00",
+   "subject": "p01: port parser path proofs to canonical Fin31 machine"
+  },
+  {
+   "commit": "fad135440c0848d39fc1da8cc4b83e231ed43a2f",
+   "date": "2026-09-22T00:02:42+01:00",
+   "subject": "p01: port parser boundary initialization to canonical Fin31 machine"
+  },
+  {
+   "commit": "a87e1fe37e03c493d35c6428f4d1773ad0c55760",
+   "date": "2026-09-22T00:02:38+01:00",
+   "subject": "fix: prove slot-log push run by explicit finite-control induction"
+  },
+  {
+   "commit": "495d1eb6d385d7cd1034be62ec739311d2920ee7",
+   "date": "2026-09-22T00:01:50+01:00",
+   "subject": "p01: specialize parser initialization proof to canonical bit tapes"
+  },
+  {
+   "commit": "d40fe197b23104ceead5ca3ce1ff5025b0c072f2",
+   "date": "2026-09-22T00:00:44+01:00",
+   "subject": "p01: prove exact Fin31 constructor-head consumption"
+  },
+  {
+   "commit": "4f530eaa855ed3b7fd2e1810b76820bfdd922776",
+   "date": "2026-09-22T00:00:30+01:00",
+   "subject": "fix: close parser polynomial bound with reflexive order proof"
+  },
+  {
+   "commit": "ad45a34431fabe8d93d5383ac12ce76bb87375ff",
+   "date": "2026-09-22T00:00:27+01:00",
+   "subject": "fix: avoid reserved prefix identifier in slot-log machines"
+  },
+  {
+   "commit": "f395591f8ba795c7368cbde95c29bcbd8df35bac",
+   "date": "2026-09-22T00:00:04+01:00",
+   "subject": "p01: reuse shared TM run lemmas in initialization proof"
+  },
+  {
+   "commit": "4bf81ac6bed696be5e3d59cabb389066974dde96",
+   "date": "2026-09-21T23:59:56+01:00",
+   "subject": "p01: add generic TM run composition and halt monotonicity lemmas"
+  },
+  {
+   "commit": "2fe79a0f6513ccce7cf1081ebdcb367e6ba84f80",
+   "date": "2026-09-21T23:59:33+01:00",
+   "subject": "fix: close empty slot-log append case"
+  },
+  {
+   "commit": "b949a4086700c509d0056bc025d8d25027b94606",
+   "date": "2026-09-21T23:59:19+01:00",
+   "subject": "p01: internalize TM run-add lemma for initialization proof"
+  },
+  {
+   "commit": "157b96644061c91a219d353065179fc0068c9d43",
+   "date": "2026-09-21T23:59:07+01:00",
+   "subject": "ci: build parser initialization simulation"
+  },
+  {
+   "commit": "5701bbb8f4be5b10c1d7409bf417f1e8717a5961",
+   "date": "2026-09-21T23:59:04+01:00",
+   "subject": "p01: activate parser initialization simulation"
+  },
+  {
+   "commit": "33f4a6e0fd0873f717ec04ff070f3977ac41708e",
+   "date": "2026-09-21T23:59:01+01:00",
+   "subject": "fix: close empty slot-log append base case"
+  },
+  {
+   "commit": "3ae98dd1ed39b8fbc2ba21d33f8e99829f2aad2d",
+   "date": "2026-09-21T23:58:59+01:00",
+   "subject": "p01: prove Fin31 parser scan and rewind initialization"
+  },
+  {
+   "commit": "cc5f1bf062373628522e788e5d907f26eb9477d6",
+   "date": "2026-09-21T23:58:53+01:00",
+   "subject": "p01: prove canonical parser initialization to one-slot boundary"
+  },
+  {
+   "commit": "aad9ea8b888554181f78040399e9294b269a8900",
+   "date": "2026-09-21T23:58:01+01:00",
+   "subject": "ci: build and audit recursive parser path proofs"
+  },
+  {
+   "commit": "486e928c13bdfae026ee110e581daff6717b3b5c",
+   "date": "2026-09-21T23:57:58+01:00",
+   "subject": "p01: activate recursive parser path proofs"
+  },
+  {
+   "commit": "7feb8df44db1f4bbfa2de8da8efa33f83285a87c",
+   "date": "2026-09-21T23:57:47+01:00",
+   "subject": "ci: repair recursive parser axiom audit"
+  },
+  {
+   "commit": "8d845f7181a81548644211a09e7b3b4e192fcc19",
+   "date": "2026-09-21T23:57:10+01:00",
+   "subject": "fix: prove slot-log append and push counts structurally"
+  },
+  {
+   "commit": "bc54ca2c9ccc3d71ffc1e063b1c98fec633d95f4",
+   "date": "2026-09-21T23:57:00+01:00",
+   "subject": "fix: close canonical slot-accept proof by exact simulation lemma"
+  },
+  {
+   "commit": "3c89e8adb1cc5c9dd4638034b172da0a850c8ea3",
+   "date": "2026-09-21T23:56:52+01:00",
+   "subject": "ci: canonicalize parser/P02 audit targets"
+  },
+  {
+   "commit": "818fb717e25613948aed4c150a119da78a7f4471",
+   "date": "2026-09-21T23:56:50+01:00",
+   "subject": "atk: canonicalize Fin31 parser and P02 terminal imports"
+  },
+  {
+   "commit": "c837263570e99e69ef0bf80418e64ff4f5697fa7",
+   "date": "2026-09-21T23:56:35+01:00",
+   "subject": "atk: remove superseded P02ExactFrontier.lean"
+  },
+  {
+   "commit": "3a710c04696a8bb006645587cbe1ee2923e63b64",
+   "date": "2026-09-21T23:56:32+01:00",
+   "subject": "atk: remove superseded CanonicalSATRecursiveParserMachine.lean"
+  },
+  {
+   "commit": "91bb007814d2557ea48c6d798aacdaca8418042a",
+   "date": "2026-09-21T23:56:29+01:00",
+   "subject": "p01: repoint simulation frontier to canonical Fin31 parser"
+  },
+  {
+   "commit": "b36f91a1cd9232bb89f27dc020a62f324640b11d",
+   "date": "2026-09-21T23:56:17+01:00",
+   "subject": "p01: prove finite-control parser tag and unary payload paths"
+  },
+  {
+   "commit": "4ae22a59ac168af0d26843d7858807c009e9faf5",
+   "date": "2026-09-21T23:55:14+01:00",
+   "subject": "fix: prove parser boundary padding and delimiter read structurally"
+  },
+  {
+   "commit": "151b584f8b3e0e92c17c532d35e2c2799cecd6ff",
+   "date": "2026-09-21T23:55:11+01:00",
+   "subject": "fix: make slot parser canonical proofs structural"
+  },
+  {
+   "commit": "75d2c6376dde3854ae553b0ec9ac1c9488c11943",
+   "date": "2026-09-21T23:54:23+01:00",
+   "subject": "ci: include parser simulation frontier"
+  },
+  {
+   "commit": "fae869328e488208f7c3de1b021b933fd505c93a",
+   "date": "2026-09-21T23:54:19+01:00",
+   "subject": "p01: activate exact parser simulation frontier"
+  },
+  {
+   "commit": "5b760875f178b752bc9eef49e70f596dc5d4dff0",
+   "date": "2026-09-21T23:54:10+01:00",
+   "subject": "p01: reduce parser closure to exact slot-machine simulation"
+  },
+  {
+   "commit": "c808914816eccd388094cfedd5c3cb3bd0ed73c7",
+   "date": "2026-09-21T23:52:50+01:00",
+   "subject": "ci: build parser machine source and exact P02 frontier"
+  },
+  {
+   "commit": "56e38b6fa70cc4dcef2aa20e09e2733a69211986",
+   "date": "2026-09-21T23:52:35+01:00",
+   "subject": "ci: build and audit exact P02 terminal frontier"
+  },
+  {
+   "commit": "afea5cbd80f2b20476832a1cfeaadf7496a7fda6",
+   "date": "2026-09-21T23:52:34+01:00",
+   "subject": "atk: activate complete parser machine source and exact P02 frontier"
+  },
+  {
+   "commit": "118e5405c39787364502c2dcfca68c3e2e5dcdc7",
+   "date": "2026-09-21T23:52:32+01:00",
+   "subject": "p02: activate exact terminal lower-bound frontier"
+  },
+  {
+   "commit": "18c9353bf5d191b4548b8e9e0688832c47caf152",
+   "date": "2026-09-21T23:52:25+01:00",
+   "subject": "ci: expose targeted P01 gate on pull requests"
+  },
+  {
+   "commit": "094abeeb46e2e084d0df3bd1f78a96bd9fa151ac",
+   "date": "2026-09-21T23:52:22+01:00",
+   "subject": "p02: isolate exact universal deterministic lower-bound terminal"
+  },
+  {
+   "commit": "4c3edc3fbc54ede742b28f736a60b6f558473bc8",
+   "date": "2026-09-21T23:52:13+01:00",
+   "subject": "fix: orient unary blank-replicate induction"
+  },
+  {
+   "commit": "d3653b84df0b2e9128040e285e3328a908162b28",
+   "date": "2026-09-21T23:52:11+01:00",
+   "subject": "fix: orient canonical encoding injectivity proof"
+  },
+  {
+   "commit": "b7d561c82588eb4811000de9756a54c65ad96ec1",
+   "date": "2026-09-21T23:51:42+01:00",
+   "subject": "ci: build and audit complete finite-control parser machine candidate"
+  },
+  {
+   "commit": "acda3a57421528a0d8e541bc5b0b14aa994364d9",
+   "date": "2026-09-21T23:51:39+01:00",
+   "subject": "p01: activate complete finite-control parser machine candidate"
+  },
+  {
+   "commit": "b67721491ab9d3f3fe0e0556e8a09a181b1edb1a",
+   "date": "2026-09-21T23:51:20+01:00",
+   "subject": "p01: implement complete finite-control parser machine candidate"
+  },
+  {
+   "commit": "5f7d9fbafee2da9a3c590bee253f9635bfc576e1",
+   "date": "2026-09-21T23:51:10+01:00",
+   "subject": "fix: close unary payload blank-list and halt proofs"
+  },
+  {
+   "commit": "dc985751e746bc7aeeee4843c02010084e7a349d",
+   "date": "2026-09-21T23:51:07+01:00",
+   "subject": "fix: remove unavailable Function.Injective alias"
+  },
+  {
+   "commit": "7b015206f348a29bff4d07efb597280132a686bb",
+   "date": "2026-09-21T23:50:50+01:00",
+   "subject": "p01: define complete Fin25 single-tape recursive parser machine"
+  },
+  {
+   "commit": "6748af53d2aa9f554f647d45a3d303f37da02bfa",
+   "date": "2026-09-21T23:49:09+01:00",
+   "subject": "ci: build and audit slot-log tape machines"
+  },
+  {
+   "commit": "af1b51232836208a48ba731da1d1992778793d84",
+   "date": "2026-09-21T23:49:07+01:00",
+   "subject": "p01: activate slot-log tape machines"
+  },
+  {
+   "commit": "9b3ac7772de7f291d11d63370dfed547afb6d75a",
+   "date": "2026-09-21T23:48:52+01:00",
+   "subject": "p01: implement finite-control slot-log push/pop machines"
+  },
+  {
+   "commit": "ef89f6a29c29223e5442b14a6e59304ac0b1c47d",
+   "date": "2026-09-21T23:48:30+01:00",
+   "subject": "p02: pin exact universal SAT lower-bound terminal target"
+  },
+  {
+   "commit": "80fbfce82e3ef09e89a2df317e18ec4f8c20c645",
+   "date": "2026-09-21T23:45:18+01:00",
+   "subject": "ci: build and audit tombstone slot-log semantics"
+  },
+  {
+   "commit": "d012c2fb43d98be9a17442d6a6f2d609a83f34e8",
+   "date": "2026-09-21T23:45:14+01:00",
+   "subject": "p01: activate tombstone slot-log semantics"
+  },
+  {
+   "commit": "9f9199f0332d7cf45815c61ae0b503e304672733",
+   "date": "2026-09-21T23:45:00+01:00",
+   "subject": "p01: replace compacted unary counter with tombstone slot log"
+  },
+  {
+   "commit": "28e1f452b8fbf7e67fc5952cf618768b24ce1f89",
+   "date": "2026-09-21T23:43:33+01:00",
+   "subject": "ci: build and audit parser layout initializer"
+  },
+  {
+   "commit": "8dc9d9ecf61e288e8d9a9059574c231ff21f6ac1",
+   "date": "2026-09-21T23:43:30+01:00",
+   "subject": "p01: activate parser tape layout and initializer"
+  },
+  {
+   "commit": "f8b87b01b56dcbdf37bac27d28208fc7f2dbda14",
+   "date": "2026-09-21T23:43:07+01:00",
+   "subject": "p01: implement finite-control parser tape initializer"
+  },
+  {
+   "commit": "fd65aafa68ca37f04bec60b0c078894d4e8c330a",
+   "date": "2026-09-21T23:42:26+01:00",
+   "subject": "p01: formalize single-tape parser boundary and unary slot layout"
+  },
+  {
+   "commit": "ab8325289e4f69ec79943a549ba295535c75b6b7",
+   "date": "2026-09-21T23:41:54+01:00",
+   "subject": "ci: build and audit finite-control tag consumer"
+  },
+  {
+   "commit": "7aaf973d3dd6cc3bbf55a86aeed9a44e86fa363e",
+   "date": "2026-09-21T23:41:50+01:00",
+   "subject": "p01: activate finite-control tag consumer"
+  },
+  {
+   "commit": "440c9a32909fa7b6227bd57ec20d8974a0927034",
+   "date": "2026-09-21T23:40:48+01:00",
+   "subject": "p01: implement finite-control canonical tag consumer"
+  },
+  {
+   "commit": "ea195e40d9dcd5ccebe754d3a960aa5650015fe6",
+   "date": "2026-09-21T23:40:03+01:00",
+   "subject": "ci: build and audit finite-control variable payload consumer"
+  },
+  {
+   "commit": "5d7098febbc1e38c6156f64a7cef788bc3ecbb6f",
+   "date": "2026-09-21T23:40:01+01:00",
+   "subject": "p01: activate finite-control variable payload consumer"
+  },
+  {
+   "commit": "f433f224f2f2e5334efc94a5b6c0a8341eba211a",
+   "date": "2026-09-21T23:39:38+01:00",
+   "subject": "p01: implement finite-control unary variable payload consumer"
+  },
+  {
+   "commit": "15748f5cad1a5d5eadc2977d2f6076ff75c98e21",
+   "date": "2026-09-21T23:35:23+01:00",
+   "subject": "ci: audit exact slot-parser decoder equivalence"
+  },
+  {
+   "commit": "c9f71740d28b4909590f7c1a3eb7c475332544fe",
+   "date": "2026-09-21T23:35:11+01:00",
+   "subject": "p01: prove slot parser soundness and exact decoder equivalence"
+  },
+  {
+   "commit": "82fb27251a7c32777e994ea92e4c9bc23b1840f6",
+   "date": "2026-09-21T23:33:04+01:00",
+   "subject": "ci: include full P01 frontier in fail-closed hygiene"
+  },
+  {
+   "commit": "688657aba3312add42284d3d97bb839559f9fd66",
+   "date": "2026-09-21T23:30:10+01:00",
+   "subject": "ci: build and audit P01 slot parser spec"
+  },
+  {
+   "commit": "d82d3f1a52d17a02638d0d8590480b1f1f0670e3",
+   "date": "2026-09-21T23:30:03+01:00",
+   "subject": "p01: activate slot parser spec in umbrella build"
+  },
+  {
+   "commit": "b82cd47d268815bf65402382d5aa3e8a115443af",
+   "date": "2026-09-21T23:29:52+01:00",
+   "subject": "p01: add prefix-tree slot recognizer and canonical completeness"
+  },
+  {
+   "commit": "dfbeb18b7067aaf5c29634833b7b3b0ea95bb775",
+   "date": "2026-09-21T23:28:18+01:00",
+   "subject": "ci: audit exact canonical decoder inverse"
+  },
+  {
+   "commit": "e11b5ecda7d2092b0e856de706ab392bcf5112a4",
+   "date": "2026-09-21T23:28:16+01:00",
+   "subject": "p01: activate canonical decoder inverse in umbrella build"
+  },
+  {
+   "commit": "9fadd0a2bc51e09d703bcb54fd100b96313fe611",
+   "date": "2026-09-21T23:28:01+01:00",
+   "subject": "p01: reduce parser correctness to exact canonical-encoding recognition"
+  },
+  {
+   "commit": "f47f786708bf1bc5da0da0e41c2ead2aa4369750",
+   "date": "2026-09-21T23:27:37+01:00",
+   "subject": "p01: prove exact inverse of canonical circuit decoding"
+  },
+  {
+   "commit": "3ab811a9561e3eda2cb67d77c8bed1b6cfd35e98",
+   "date": "2026-09-21T23:02:26+01:00",
+   "subject": "ci: wire P01 frontier and expected-open runner"
+  },
+  {
+   "commit": "482b5ab29109a86cca272554256748d6a4ccd2ff",
+   "date": "2026-09-21T23:02:23+01:00",
+   "subject": "p01: activate recursive finite-control frontier in umbrella build"
+  },
+  {
+   "commit": "af7e8e034c2b7aee34577e91de5e87a07752b969",
+   "date": "2026-09-21T23:02:10+01:00",
+   "subject": "p01: document exact final certificate boundary"
+  },
+  {
+   "commit": "6d6f276ea0c132cc0f7e22f6878e79398366da9b",
+   "date": "2026-09-21T23:02:08+01:00",
+   "subject": "p01: add frame machine kernel audit"
+  },
+  {
+   "commit": "c08042a2668b0af1c183341f36b5affc08123df0",
+   "date": "2026-09-21T23:02:05+01:00",
+   "subject": "p01: add Lean source hygiene audit"
+  },
+  {
+   "commit": "b1f4554db37fd235ccb34604153dad4ce83a56b0",
+   "date": "2026-09-21T23:02:03+01:00",
+   "subject": "p01: add fail-closed certificate runner"
+  },
+  {
+   "commit": "a01bf98361a7a8803e14a92aa9b0a016ddb69f77",
+   "date": "2026-09-21T23:00:58+01:00",
+   "subject": "p01: formalize recursive finite-control frontier without weakening"
+  },
+  {
+   "commit": "0c89ecaca4449e1b551970a13a38f4e4d3d55a9a",
+   "date": "2026-09-21T22:54:54+01:00",
+   "subject": "ci: validate clean P01 operational chain"
+  },
+  {
+   "commit": "a9e94da1868399ce03662f115fee5bf579aa861d",
+   "date": "2026-09-21T22:40:41+01:00",
+   "subject": "atk: activate P01 concrete frame-machine source"
+  },
+  {
+   "commit": "9e04e4e5dd909361b5267a801c538f111e3db5d5",
+   "date": "2026-09-21T22:40:33+01:00",
+   "subject": "atk: port P01 frame-machine source: CanonicalSATFrameMachineV2.lean"
+  },
+  {
+   "commit": "57841bde72eed90a88caf1fff7372db67b894523",
+   "date": "2026-09-21T22:40:30+01:00",
+   "subject": "atk: port P01 frame-machine source: CanonicalSATFrameAttack.lean"
+  },
+  {
+   "commit": "0c831fbde24157b62b6206759ef97768d834d657",
+   "date": "2026-09-21T22:40:26+01:00",
+   "subject": "atk: port P01 frame-machine source: CanonicalSATNatParserAttack.lean"
+  },
+  {
+   "commit": "a6efaee78d93de29a39acebd7ba302db906625a0",
+   "date": "2026-09-21T22:36:33+01:00",
+   "subject": "atk: activate recovered P01 component failproof"
+  },
+  {
+   "commit": "f6123e8177037a9f2ec502a513f343bde7965159",
+   "date": "2026-09-21T22:36:26+01:00",
+   "subject": "atk: recover certified P01 failproof: P01ComponentFailProof.lean"
+  },
+  {
+   "commit": "20997f1a5bb1af59fe9ae98b944060f4b7f9e474",
+   "date": "2026-09-21T22:36:24+01:00",
+   "subject": "atk: recover certified P01 failproof: CanonicalSATParserAttack.lean"
+  },
+  {
+   "commit": "6e5a7e0f4908040b18407d6ad20f7a7e9acc934a",
+   "date": "2026-09-21T22:36:21+01:00",
+   "subject": "atk: recover certified P01 failproof: CanonicalSATNTMAttack.lean"
+  },
+  {
+   "commit": "92d9c4835bea653c89c47beea8011a71b1c3f2d1",
+   "date": "2026-09-21T22:36:10+01:00",
+   "subject": "atk: activate recovered P01 verified relation"
+  },
+  {
+   "commit": "e273f0f076dafd6eec40fb0479cc0b594131b051",
+   "date": "2026-09-21T22:36:04+01:00",
+   "subject": "atk: recover certified P01 verified relation"
+  },
+  {
+   "commit": "4d41ce1a88c580b329708cc7917b59b0dfaf739f",
+   "date": "2026-09-21T22:35:31+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalSATVerifier.lean"
+  },
+  {
+   "commit": "5b038199baa841a32af8732d62afbcd1f5477fa9",
+   "date": "2026-09-21T22:35:29+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalSATWitness.lean"
+  },
+  {
+   "commit": "bdb516d12a2d6ce7593477dda0e44356789f358c",
+   "date": "2026-09-21T22:35:26+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalCircuitBits.lean"
+  },
+  {
+   "commit": "cfad9a32c3f15a33d0de8e9ba8415ec13a4b5308",
+   "date": "2026-09-21T22:35:24+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalSATBoundary.lean"
+  },
+  {
+   "commit": "3a6d898ae76dc6a8ed2a19cb4795f820889c617c",
+   "date": "2026-09-21T22:35:22+01:00",
+   "subject": "atk: recover certified P01 verified prefix: FailProofAllGaps.lean"
+  },
+  {
+   "commit": "8d20de15ba2a9374d68a30e8171335c1101cfb97",
+   "date": "2026-09-21T22:35:19+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalFinalProof.lean"
+  },
+  {
+   "commit": "0a0b50119d144e44c7b92aee598d39e5268332a1",
+   "date": "2026-09-21T22:35:17+01:00",
+   "subject": "atk: recover certified P01 verified prefix: SATMachine.lean"
+  },
+  {
+   "commit": "4356673461c281d212e94a3ef67a485bdd27b01d",
+   "date": "2026-09-21T22:35:15+01:00",
+   "subject": "atk: recover certified P01 verified prefix: Semantics.lean"
+  },
+  {
+   "commit": "19ccda1ef5c6598867104546d0b95c0467b6d90c",
+   "date": "2026-09-21T22:35:12+01:00",
+   "subject": "atk: recover certified P01 verified prefix: Model.lean"
+  },
+  {
+   "commit": "edce9ddeef30cf10fc81d100b4f7f12b0c6ce412",
+   "date": "2026-09-21T22:35:10+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CNFStructure.lean"
+  },
+  {
+   "commit": "9c0e4e6de3f3d899ee55b2f945a91d37e4cf34e3",
+   "date": "2026-09-21T22:19:29+01:00",
+   "subject": "atk: wire clean material orientation attack"
+  },
+  {
+   "commit": "969408f2d84121667319da04680893dd2978e9a6",
+   "date": "2026-09-19T10:47:29+02:00",
+   "subject": "ci: rebuild material orientation dependencies after clean"
+  },
+  {
+   "commit": "c3f665dd5a0fc84024d6adeaa0958ba051946c6f",
+   "date": "2026-09-19T10:45:53+02:00",
+   "subject": "ci: compile and audit material P-vs-NP orientation kernel"
+  },
+  {
+   "commit": "a90e7a652ea187561741c2001bed116e31b06578",
+   "date": "2026-09-19T10:45:35+02:00",
+   "subject": "attack: require material orientation beyond excluded middle"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBoundaryProof.boundaryConfig_eq_sourceConfig",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBoundaryProof.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (leftBlankCount : Nat) (unread : MCore.Real.CanonicalFinalProof.BitString)   (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   MCore.Real.CanonicalSATRecursiveParserInitProof.boundaryConfig leftBlankCount unread log =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 (List.replicate leftBlankCount none) unread       (List.map some log)"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBoundaryProof.parser_initializes_to_sourceConfig",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBoundaryProof.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (2 * List.length bits + 4)       (MCore.Real.CanonicalFinalProof.initialTMConfig MCore.Real.CanonicalSATParserMachine.parserMachine bits) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 [none] bits       (List.map some MCore.Real.CanonicalSATSlotLog.initialSlotLog)"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBudget.global_budget_dominates",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat),   2 * n + 4 +       MCore.Real.CanonicalSATRecursiveParserBudget.macroIterationCountBound n *         MCore.Real.CanonicalSATRecursiveParserBudget.macroIterationBound n ≤     MCore.Real.CanonicalSATParserMachine.parserTimeBound n"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBudget.head_encode_length_ge_three",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (h : MCore.Real.CanonicalSATSlotParserSpec.Head), 3 ≤ List.length h.encode"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBudget.macroIterationBound_poly",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalFinalProof.PolynomialTimeBound MCore.Real.CanonicalSATRecursiveParserBudget.macroIterationBound"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBudget.nat_pow_one_local",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : Nat), x ^ 1 = x"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBudget.nat_pow_two_local",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : Nat), x ^ 2 = x * x"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserBudget.one_iteration_plus_rest_fits",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean",
+   "line": 86,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n k : Nat),   k ≤ n + 1 →     2 * n + 4 + k * MCore.Real.CanonicalSATRecursiveParserBudget.macroIterationBound n ≤       MCore.Real.CanonicalSATParserMachine.parserTimeBound n"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.boundaryConfig_state",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (leftBlankCount : Nat) (unread : MCore.Real.CanonicalFinalProof.BitString)   (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   (MCore.Real.CanonicalSATRecursiveParserInitProof.boundaryConfig leftBlankCount unread log).state = 4"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.forwardConfig_state",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (bits : MCore.Real.CanonicalFinalProof.BitString),   (MCore.Real.CanonicalSATRecursiveParserInitProof.forwardConfig left bits).state = 0"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.forward_scan_run",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (List.length bits)       (MCore.Real.CanonicalSATRecursiveParserInitProof.forwardConfig left bits) =     { state := 0, tape := { left := (List.map some bits).reverse ++ left, head := none, right := [] } }"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.forward_step_cons",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (b : Bool) (bs : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserInitProof.forwardConfig left (b :: bs)) =     MCore.Real.CanonicalSATRecursiveParserInitProof.forwardConfig (some b :: left) bs"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.nat_pow_two_init_local",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : Nat), x ^ 2 = x * x"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.parserMachine_not_halted_0",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 0 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.parserMachine_not_halted_3",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 3 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.parser_initialization_within_global_bound",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 192,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString),   2 * List.length bits + 4 ≤ MCore.Real.CanonicalSATParserMachine.parserTimeBound (List.length bits)"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.parser_initializes",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 166,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (2 * List.length bits + 4)       (MCore.Real.CanonicalFinalProof.initialTMConfig MCore.Real.CanonicalSATParserMachine.parserMachine bits) =     MCore.Real.CanonicalSATRecursiveParserInitProof.boundaryConfig 1 bits MCore.Real.CanonicalSATSlotLog.initialSlotLog"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig_state",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (remaining : List Bool) (right : List (Option Bool)),   (MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig remaining right).state = 3"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.rewind_finish",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 153,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (List.length bits + 1)       (MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig (List.reverse bits) [none, some true]) =     MCore.Real.CanonicalSATRecursiveParserInitProof.boundaryConfig 1 bits MCore.Real.CanonicalSATSlotLog.initialSlotLog"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.rewind_run",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (remaining : List Bool) (right : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run remaining.length       (MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig remaining right) =     MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig [] (List.map some remaining.reverse ++ right)"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.rewind_step_cons",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (b : Bool) (bs : List Bool) (right : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig (b :: bs) right) =     MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig bs (some b :: right)"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserInitProof.setup_to_rewind",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean",
+   "line": 141,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserInitProof.endConfig bits) =     MCore.Real.CanonicalSATRecursiveParserInitProof.rewindConfig (List.reverse bits) [none, some true]"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.consumeHead_run",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 297,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (h : MCore.Real.CanonicalSATSlotParserSpec.Head)   (tail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (List.length h.encode)       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (h.encode ++ tail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConf"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.encodeNat_length_local",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 283,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat), List.length (MCore.Real.CanonicalCircuitBits.encodeNat n) = n + 1"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_10",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 10 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_4",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 4 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_5",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 5 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_6",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 6 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_7",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 7 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_8",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 8 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.parser_not_halted_9",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 9 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.replicate_none_concat",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 235,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b : Nat), List.replicate a none ++ List.replicate b none = List.replicate (a + b) none"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.replicate_none_succ_append",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 248,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat) (left : List (Option Bool)),   List.replicate (n + 1) none ++ none :: left = List.replicate (n + 2) none ++ left"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_and_tag",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 195,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (tail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (true :: false :: false :: tail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 ([none, none, none] ++ left) tail suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_const_false_tag",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 173,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (tail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (false :: false :: true :: tail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 ([none, none, none] ++ left) tail suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_const_true_tag",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 184,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (tail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (false :: true :: false :: tail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 ([none, none, none] ++ left) tail suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_input_tag",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 162,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (payload : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (false :: false :: false :: payload) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 10 ([none, none, none] ++ left) payload suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_not_tag",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 150,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (childAndTail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (false :: true :: true :: childAndTail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 ([none, none, none] ++ left) childAndT"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_or_tag",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 206,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (tail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run 3       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (true :: false :: true :: tail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 ([none, none, none] ++ left) tail suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.run_var_payload",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 263,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (n : Nat) (tail : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (n + 1)       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 10 left         (MCore.Real.CanonicalCircuitBits.encodeNat n ++ tail) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 (List."
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig_state",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (q : Fin 25) (left : List (Option Bool)) (bits : MCore.Real.CanonicalFinalProof.BitString)   (suffix : List (Option Bool)), (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig q left bits suffix).state = q"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_4_false",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (false :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 5 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_4_true",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 69,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 left (true :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 6 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_5_false",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 5 left (false :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 7 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_5_true",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 5 left (true :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 8 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_6_false",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 6 left (false :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 9 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_7_false",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 7 left (false :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 10 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_7_true",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 114,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 7 left (true :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_8_false",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 123,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 8 left (false :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_8_true",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 8 left (true :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 4 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_tag_9_bit",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 141,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (third : Bool) (rest : MCore.Real.CanonicalFinalProof.BitString)   (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 9 left (third :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_var_false",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 226,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 10 left (false :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserPaths.step_var_true",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean",
+   "line": 217,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (rest : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 10 left (true :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 10 (none :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig_state",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (q : Fin 25) (left : List (Option Bool)) (log : List Bool),   (MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig q left log).state = q"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.parser_not_halted_11",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 11 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.parser_not_halted_12",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 12 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.parser_not_halted_18",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 18 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.parser_not_halted_19",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalSATParserMachine.parserMachine.halting 19 = false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.run_log_12_to_end",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 129,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (log : List Bool),   MCore.Real.CanonicalSATParserMachine.parserMachine.run log.length       (MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 12 left log) =     MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 12 ((List.map some log).reverse ++ left) []"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.run_log_19_to_end",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 143,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (log : List Bool),   MCore.Real.CanonicalSATParserMachine.parserMachine.run log.length       (MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 19 left log) =     MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 19 ((List.map some log).reverse ++ left) []"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.run_source_11_to_delimiter",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 41,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (bits : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (List.length bits)       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 left bits suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 ((List.map some bits).reverse ++ left) [] suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.run_source_18_to_delimiter",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 56,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (bits : MCore.Real.CanonicalFinalProof.BitString) (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.run (List.length bits)       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 left bits suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 ((List.map some bits).reverse ++ left) [] suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.step_binary_delimiter_to_log",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 101,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (log : List Bool),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 left [] (List.map some log)) =     MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 19 (none :: left) log"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.step_leaf_delimiter_to_log",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (log : List Bool),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 left [] (List.map some log)) =     MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 12 (none :: left) log"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.step_log_12",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (b : Bool) (rest : List Bool),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 12 left (b :: rest)) =     MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 12 (some b :: left) rest"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.step_log_19",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (b : Bool) (rest : List Bool),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 19 left (b :: rest)) =     MCore.Real.CanonicalSATRecursiveParserWorkScans.logConfig 19 (some b :: left) rest"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.step_source_11",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (b : Bool) (rest : MCore.Real.CanonicalFinalProof.BitString)   (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 left (b :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 11 (some b :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATRecursiveParserWorkScans.step_source_18",
+   "file": "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (left : List (Option Bool)) (b : Bool) (rest : MCore.Real.CanonicalFinalProof.BitString)   (suffix : List (Option Bool)),   MCore.Real.CanonicalSATParserMachine.parserMachine.step       (MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 left (b :: rest) suffix) =     MCore.Real.CanonicalSATRecursiveParserPaths.sourceConfig 18 (some b :: left) rest suffix"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATSlotLog.activeSlots_zero_eq_replicate_false",
+   "file": "lean/MCore/Real/CanonicalSATSlotLog.lean",
+   "line": 150,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   MCore.Real.CanonicalSATSlotLog.activeSlots log = 0 → log = List.replicate (List.length log) false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATSlotLog.popSlot_decompose_rightmost",
+   "file": "lean/MCore/Real/CanonicalSATSlotLog.lean",
+   "line": 168,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (log log' : MCore.Real.CanonicalSATSlotLog.SlotLog),   MCore.Real.CanonicalSATSlotLog.popSlot log = some log' →     ∃ pre k, log = pre ++ true :: List.replicate k false ∧ log' = pre ++ false :: List.replicate k false"
+  },
+  {
+   "name": "MCore.Real.CanonicalSATSlotLog.popSlot_exists_iff_activeSlots_pos",
+   "file": "lean/MCore/Real/CanonicalSATSlotLog.lean",
+   "line": 211,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   (∃ log', MCore.Real.CanonicalSATSlotLog.popSlot log = some log') ↔ 0 < MCore.Real.CanonicalSATSlotLog.activeSlots log"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.canonical_normalization",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 104,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   ∃ coefficient exponent,     (∀ (n : Nat), M.timeBound n ≤ coefficient * (n + 1) ^ exponent) ∧       ∀ (language : MCore.Real.CanonicalFinalProof.BitLanguage) (x : MCore.Real.CanonicalFinalProof.BitString),         M.CorrectAt language x →           (MCore.Real.P02CandidateNormalization.normalizedCandidate M coefficient exponent).CorrectAt"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.correctAt_preserved_by_dominating_bound",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (c k : Nat),   (∀ (n : Nat), M.timeBound n ≤ c * (n + 1) ^ k) →     ∀ (language : MCore.Real.CanonicalFinalProof.BitLanguage) (x : MCore.Real.CanonicalFinalProof.BitString),       M.CorrectAt language x → (MCore.Real.P02CandidateNormalization.normalizedCandidate M c k).CorrectAt language x"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.normalizationBound",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 156,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (n : Nat),   M.timeBound n ≤     MCore.Real.P02CandidateNormalization.normalizationCoefficient M *       (n + 1) ^ MCore.Real.P02CandidateNormalization.normalizationExponent M"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.normalizedCandidate_accepting",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (c k : Nat),   (MCore.Real.P02CandidateNormalization.normalizedCandidate M c k).accepting = M.accepting"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.normalizedCandidate_machine",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (c k : Nat),   (MCore.Real.P02CandidateNormalization.normalizedCandidate M c k).machine = M.machine"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.normalizedCandidate_stateCount",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (c k : Nat),   (MCore.Real.P02CandidateNormalization.normalizedCandidate M c k).stateCount = M.stateCount"
+  },
+  {
+   "name": "MCore.Real.P02CandidateNormalization.normalizedCandidate_timeBound",
+   "file": "lean/MCore/Real/P02CandidateNormalization.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (c k n : Nat),   (MCore.Real.P02CandidateNormalization.normalizedCandidate M c k).timeBound n = c * (n + 1) ^ k"
+  }
+ ],
+ "closed": 78,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalCircuitBitsInverse.lean": "8d3cee0161c1da3c7021748fad676ebaa2c8827de6291d5f22283cb99ada3f64",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATParserMachine.lean": "8f9e054098a3385370a1eaef27be9767e2ea959f36c8858c30cb04d238f999e1",
+  "lean/MCore/Real/CanonicalSATParserTapeLayout.lean": "64019324f913467e64bcad3dfd2d1983acec6fc3bf2fbc2d0dd3d063df52d8c0",
+  "lean/MCore/Real/CanonicalSATRecursiveParserBoundaryProof.lean": "c07b548825b89fea5e7b1527841716951a30b6166bdbb089040293a693d82601",
+  "lean/MCore/Real/CanonicalSATRecursiveParserBudget.lean": "5acc28877b61f08320bd1f5bc66486107303441226819136c40ccc04edb88659",
+  "lean/MCore/Real/CanonicalSATRecursiveParserInitProof.lean": "ab9b5272228e0529f0461b6d9fd5628cb55cc8282797a13cc84e457811c5d313",
+  "lean/MCore/Real/CanonicalSATRecursiveParserPaths.lean": "ef57699a9b5c5f443663f77ecbbc3e56b60b12f700b65dacf0b1d9e4a59e01d9",
+  "lean/MCore/Real/CanonicalSATRecursiveParserWorkScans.lean": "da8592dcacf65d90c7ebb2ffd5bd64edb74b4c97f29c3a44306464bd48ebf7e6",
+  "lean/MCore/Real/CanonicalSATSlotLog.lean": "36106d5233e7fac4a56cc856ed480dcc7763950a4a8d495f3fc00347d8691cfd",
+  "lean/MCore/Real/CanonicalSATSlotParserSpec.lean": "a2ec908ec78fe79fc7698e21c3139b82687f448506ed287bf0b1a6eee286e5fb",
+  "lean/MCore/Real/CanonicalSATTagConsumerMachine.lean": "237a6565543d66a2c8d163ae341fa87567dcc642bf66c59084be0716cba7db02",
+  "lean/MCore/Real/CanonicalSATVarPayloadMachine.lean": "0b43e0f5f6ebd74266ab44720eba8b9a1dc2c0e892da28bb182ee5e995bafb50",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "fa9a20ff5e14a2e23269a555771a581587e8db416a90fb41634fbb97b6562e37",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P02CandidateNormalization.lean": "5c36027707de61311f62a6aa7a43eee796e91ccbae69b7690160dda82fc7febf",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:17Z",
+ "certificate_sha256": "d72a582a35ffe9c98191ff337761af7fca5b3d8f56d67861a03bc83b2da5fbfc"
+}

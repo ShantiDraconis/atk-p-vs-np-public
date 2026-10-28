@@ -1,4 +1,4 @@
-MVEI — log consolidado da verificação (2026-10-28T16:41:02+00:00)
+MVEI — log consolidado da verificação (2026-10-28T19:11:15+00:00)
 Os logs completos de cada compilação no GitHub ficam na página da execução do workflow (Actions).
 
 == m-core-p-vs-np/.  [leanprover/lean4:v4.19.0 -> leanprover/lean4:v4.19.0]  OK

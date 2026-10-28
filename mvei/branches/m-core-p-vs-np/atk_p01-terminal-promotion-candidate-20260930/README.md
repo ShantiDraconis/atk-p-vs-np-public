@@ -1,0 +1,129 @@
+# m-core-p-vs-np — branch `atk/p01-terminal-promotion-candidate-20260930`
+
+Lean sources from the branch `atk/p01-terminal-promotion-candidate-20260930` of the private repository `ShantiDraconis/m-core-p-vs-np`, commit `84801b9711f15aa722162bf6a8e0121030eb5693` (2026-10-01T01:33:55+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
+
+* Branch state: parada (not in the default branch).
+* Theorems only on branches, in this branch: 116 — closed 6, conditional 0, open 1, proof error 7, not reached 91, no result 11.
+* History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
+* `certificate.json` (SHA-256 of its content: `d1e41b0ce45074dc44c813f434f8bc3a378393be0864273e0b6f9080a03844ab`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/SOURCES.sha256`.
+
+Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
+
+| Theorem | File | State |
+|---|---|---|
+| `MCore.Real.P01CanonicalWrapperBounded.canonical_cnf_halts_bounded` | `lean/MCore/Real/P01CanonicalWrapperBounded.lean`:152 | nao_alcancado |
+| `MCore.Real.P01CanonicalWrapperBounded.canonical_cnf_reaches_final_bounded` | `lean/MCore/Real/P01CanonicalWrapperBounded.lean`:29 | nao_alcancado |
+| `MCore.Real.P01CanonicalWrapperBounded.encodeCircuit_ne_nil` | `lean/MCore/Real/P01CanonicalWrapperBounded.lean`:24 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalReject.circuit_reject_certificate` | `lean/MCore/Real/P01CheckedEvalReject.lean`:762 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.and_bounded_reject_certificate` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:365 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.binary_left_reject_cap` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:158 | nao_checado |
+| `MCore.Real.P01CheckedEvalRejectBounded.binary_right_reject_cap` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:176 | nao_checado |
+| `MCore.Real.P01CheckedEvalRejectBounded.bounded_circuit_reject_certificate` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:907 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.const_bounded_reject_certificate` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:215 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.disallowed_tag_prefix_reaches_reject_within_envelope` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:100 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.envelope_plus_unary_budget_le` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:133 | nao_checado |
+| `MCore.Real.P01CheckedEvalRejectBounded.input_bounded_reject_certificate` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:204 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.not_bounded_reject_certificate` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:264 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.or_bounded_reject_certificate` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:645 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRejectBounded.short_tag_reaches_reject_within_envelope` | `lean/MCore/Real/P01CheckedEvalRejectBounded.lean`:57 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRunBoundedCertificate.neg_bounded_certificate` | `lean/MCore/Real/P01CheckedEvalRunBoundedCertificate.lean`:201 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRunInputTag.inputTag_unterminated_reaches_reject` | `lean/MCore/Real/P01CheckedEvalRunInputTag.lean`:220 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRunInputTag.unterminated_input_checked_from_read` | `lean/MCore/Real/P01CheckedEvalRunInputTag.lean`:173 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRunLoopNTM.nested_need_reject_successors` | `lean/MCore/Real/P01CheckedEvalRunLoopNTM.lean`:172 | nao_alcancado |
+| `MCore.Real.P01CheckedEvalRunTagPrefix.short_tag_source_reaches_reject` | `lean/MCore/Real/P01CheckedEvalRunTagPrefix.lean`:75 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierFinMachine_acceptsWithin_iff` | `lean/MCore/Real/P01CheckedVerifierFiniteState.lean`:61 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierFinMachine_blank` | `lean/MCore/Real/P01CheckedVerifierFiniteState.lean`:45 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierFinMachine_haltsWithin_iff` | `lean/MCore/Real/P01CheckedVerifierFiniteState.lean`:48 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierStateDecode_encode` | `lean/MCore/Real/P01CheckedVerifierFiniteState.lean`:28 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierInvariant.after_circuit` | `lean/MCore/Real/P01CheckedVerifierInvariant.lean`:169 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierInvariant.after_encoded_prefix` | `lean/MCore/Real/P01CheckedVerifierInvariant.lean`:149 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.checkedEvalRunStateCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:530 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.checkedVerifierStateCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:562 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.checkedVerifier_decode_encode` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:565 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.evalFrameCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:58 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.framePopStateCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:403 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.framePushStateCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:370 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.haveValueCompositeCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:489 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.inputAfterReadReturnCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:236 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.inputIndexLookaheadCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:130 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.inputNodeCompositeCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:273 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.inputReturnClassifyCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:99 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.needExprCompositeCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:451 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.preservingReadDecode_encode` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:196 | nao_alcancado |
+| `MCore.Real.P01CheckedVerifierStateCodec.tagDecodeStateCodec_size` | `lean/MCore/Real/P01CheckedVerifierStateCodec.lean`:347 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureAtoms.checkedLoopStepEnvelope_le_material` | `lean/MCore/Real/P01CoreDecodeFailureAtoms.lean`:41 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureAtoms.decodeNat_none_eq_replicate_true` | `lean/MCore/Real/P01CoreDecodeFailureAtoms.lean`:23 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureAtoms.input_decode_failure_rejects_material` | `lean/MCore/Real/P01CoreDecodeFailureAtoms.lean`:163 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureAtoms.invalid_tag_rejects_material` | `lean/MCore/Real/P01CoreDecodeFailureAtoms.lean`:79 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureAtoms.short_source_rejects_material` | `lean/MCore/Real/P01CoreDecodeFailureAtoms.lean`:55 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureAtoms.unterminated_input_rejects_material` | `lean/MCore/Real/P01CoreDecodeFailureAtoms.lean`:107 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureBudget.binary_left_semantic_reject_le` | `lean/MCore/Real/P01CoreDecodeFailureBudget.lean`:94 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureBudget.binary_right_path_le` | `lean/MCore/Real/P01CoreDecodeFailureBudget.lean`:55 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureBudget.eval_budget_le_encoding_units` | `lean/MCore/Real/P01CoreDecodeFailureBudget.lean`:40 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureBudget.loop_le_potential` | `lean/MCore/Real/P01CoreDecodeFailureBudget.lean`:23 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureBudget.root_potential_le_material` | `lean/MCore/Real/P01CoreDecodeFailureBudget.lean`:118 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailureBudget.tag_plus_recursive_le` | `lean/MCore/Real/P01CoreDecodeFailureBudget.lean`:31 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailurePhysical.coreDecodeFailurePhysicalAux` | `lean/MCore/Real/P01CoreDecodeFailurePhysical.lean`:96 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailurePhysical.coreDecodeFailurePhysicalReject` | `lean/MCore/Real/P01CoreDecodeFailurePhysical.lean`:814 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailurePhysical.one_plus_potential_le_parent` | `lean/MCore/Real/P01CoreDecodeFailurePhysical.lean`:89 | nao_checado |
+| `MCore.Real.P01CoreDecodeFailurePhysical.p01ConstructionGap` | `lean/MCore/Real/P01CoreDecodeFailurePhysical.lean`:827 | nao_alcancado |
+| `MCore.Real.P01CoreDecodeFailurePhysical.unterminated_input_within_loop` | `lean/MCore/Real/P01CoreDecodeFailurePhysical.lean`:38 | nao_checado |
+| `MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_none_of_larger_none` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:249 | erro |
+| `MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_size_lt` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:141 | erro |
+| `MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_some_mono` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:237 | aberto-sorry |
+| `MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_sound` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:54 | fechado |
+| `MCore.Real.P01DecodeCoreLaws.decodeCircuit_sound` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:216 | fechado |
+| `MCore.Real.P01DecodeCoreLaws.decodeNat_none_eq_replicate_true` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:34 | fechado |
+| `MCore.Real.P01DecodeCoreLaws.decodeNat_sound` | `lean/MCore/Real/P01DecodeCoreLaws.lean`:10 | fechado |
+| `MCore.Real.P01DecodeFailureLaws.decodeCore_none_cases` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:94 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_and_none_iff` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:40 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_const_false_ne_none` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:20 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_const_true_ne_none` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:26 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_input_none_iff` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:12 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_invalid_110_none` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:82 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_invalid_111_none` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:88 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_not_none_iff` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:32 | nao_alcancado |
+| `MCore.Real.P01DecodeFailureLaws.decode_or_none_iff` | `lean/MCore/Real/P01DecodeFailureLaws.lean`:61 | nao_alcancado |
+| `MCore.Real.P01ExactBoundedAll.exact_bounded_all` | `lean/MCore/Real/P01ExactBoundedAll.lean`:14 | nao_alcancado |
+| `MCore.Real.P01ExactBoundedBinary.and_exact_bounded_certificate` | `lean/MCore/Real/P01ExactBoundedBinary.lean`:74 | nao_alcancado |
+| `MCore.Real.P01ExactBoundedBinary.binary_budget_cap` | `lean/MCore/Real/P01ExactBoundedBinary.lean`:27 | nao_checado |
+| `MCore.Real.P01ExactBoundedBinary.binary_prefix_budget_cap` | `lean/MCore/Real/P01ExactBoundedBinary.lean`:52 | nao_checado |
+| `MCore.Real.P01ExactBoundedBinary.or_exact_bounded_certificate` | `lean/MCore/Real/P01ExactBoundedBinary.lean`:464 | nao_alcancado |
+| `MCore.Real.P01InputIndexLookahead.unterminated_true_index_rejects` | `lean/MCore/Real/P01InputIndexLookahead.lean`:184 | fechado |
+| `MCore.Real.P01InputNodeCompositeNTM.nested_input_reject_successors` | `lean/MCore/Real/P01InputNodeCompositeNTM.lean`:87 | fechado |
+| `MCore.Real.P01InputNodeCompositeRun.unterminated_index_reaches_reject` | `lean/MCore/Real/P01InputNodeCompositeRun.lean`:700 | erro |
+| `MCore.Real.P01IntegratedAssembly.verifierFinMachine_acceptsWithin_iff` | `lean/MCore/Real/P01IntegratedAssembly.lean`:205 | erro |
+| `MCore.Real.P01IntegratedAssembly.verifierFinMachine_blank` | `lean/MCore/Real/P01IntegratedAssembly.lean`:194 | erro |
+| `MCore.Real.P01IntegratedAssembly.verifierFinMachine_haltsWithin_iff` | `lean/MCore/Real/P01IntegratedAssembly.lean`:198 | erro |
+| `MCore.Real.P01MalformedRawBoundedReject.checkedCircuitBudget_plus_loop_le_material` | `lean/MCore/Real/P01MalformedRawBoundedReject.lean`:309 | nao_alcancado |
+| `MCore.Real.P01MalformedRawBoundedReject.checked_nonempty_source_reaches_reject` | `lean/MCore/Real/P01MalformedRawBoundedReject.lean`:56 | nao_alcancado |
+| `MCore.Real.P01MalformedRawBoundedReject.checked_nonempty_source_reaches_reject_within_envelope` | `lean/MCore/Real/P01MalformedRawBoundedReject.lean`:171 | nao_alcancado |
+| `MCore.Real.P01MalformedRawBoundedReject.core_success_with_trailing_reaches_reject_bounded` | `lean/MCore/Real/P01MalformedRawBoundedReject.lean`:197 | nao_alcancado |
+| `MCore.Real.P01MalformedRawBoundedReject.decodeCircuit_none_split` | `lean/MCore/Real/P01MalformedRawBoundedReject.lean`:33 | nao_alcancado |
+| `MCore.Real.P01MalformedRawBoundedReject.malformed_raw_reaches_reject_bounded_of_core` | `lean/MCore/Real/P01MalformedRawBoundedReject.lean`:334 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.checkedCircuitBudget_le_6144_cubic` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:30 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.entry_plus_checkedCircuitBudget_le_material` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:77 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.entry_plus_material_le_terminal` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:115 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.materialVerifierGlobalTimeBound_poly` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:24 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.material_le_terminal` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:109 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.scan_entry_le_2048_cubic` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:56 | nao_alcancado |
+| `MCore.Real.P01MaterialGlobalBudget.terminalVerifierTimeBound_poly` | `lean/MCore/Real/P01MaterialGlobalBudget.lean`:103 | nao_alcancado |
+| `MCore.Real.P01MaterialInhabitantFrontier.p01_of_raw_material_core` | `lean/MCore/Real/P01MaterialInhabitantFrontier.lean`:46 | nao_alcancado |
+| `MCore.Real.P01MaterialInhabitantFrontier.p01_reduced_to_raw_core` | `lean/MCore/Real/P01MaterialInhabitantFrontier.lean`:51 | nao_alcancado |
+| `MCore.Real.P01MaterialInhabitantFrontier.prep_phase_inhabited` | `lean/MCore/Real/P01MaterialInhabitantFrontier.lean`:20 | nao_alcancado |
+| `MCore.Real.P01NeedExprTagDecode.tagDecode_rejects_short_three` | `lean/MCore/Real/P01NeedExprTagDecode.lean`:106 | erro |
+| `MCore.Real.P01ParserFirewall.decode_none_iff_parser_not_accepts` | `lean/MCore/Real/P01ParserFirewall.lean`:22 | nao_alcancado |
+| `MCore.Real.P01ParserFirewall.parser_accepts_iff_decode_some` | `lean/MCore/Real/P01ParserFirewall.lean`:44 | nao_alcancado |
+| `MCore.Real.P01ParserFirewall.parser_halts_all` | `lean/MCore/Real/P01ParserFirewall.lean`:13 | nao_alcancado |
+| `MCore.Real.P01RawVerifierFromCoreReject.decode_none_wrapper_reject` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:197 | nao_alcancado |
+| `MCore.Real.P01RawVerifierFromCoreReject.decoded_noncnf_wrapper_reject` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:222 | nao_alcancado |
+| `MCore.Real.P01RawVerifierFromCoreReject.empty_wrapper_reaches_reject` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:101 | nao_checado |
+| `MCore.Real.P01RawVerifierFromCoreReject.lift_eval_reject_to_wrapper` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:130 | nao_checado |
+| `MCore.Real.P01RawVerifierFromCoreReject.p01_of_core_decode_failure_physical_reject` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:393 | nao_alcancado |
+| `MCore.Real.P01RawVerifierFromCoreReject.wrapper_final_accepts_iff` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:69 | nao_checado |
+| `MCore.Real.P01RawVerifierFromCoreReject.wrapper_reject_not_accepts` | `lean/MCore/Real/P01RawVerifierFromCoreReject.lean`:40 | nao_checado |
+| `MCore.Real.P01RawVerifierMaterialCore.verifyBits_false_of_decode_none` | `lean/MCore/Real/P01RawVerifierMaterialCore.lean`:46 | nao_alcancado |
+| `MCore.Real.P01RawVerifierMaterialCore.verifyBits_split` | `lean/MCore/Real/P01RawVerifierMaterialCore.lean`:36 | nao_alcancado |
+| `MCore.Real.P01TerminalMaterialCertificate.material_terminal` | `lean/MCore/Real/P01TerminalMaterialCertificate.lean`:33 | nao_alcancado |
+| `MCore.Real.P01TerminalMaterialCertificate.p01_closed_no_hypothesis` | `lean/MCore/Real/P01TerminalMaterialCertificate.lean`:15 | nao_alcancado |
+| `MCore.Real.P01TerminalMaterialCertificate.raw_verifier_material_core_inhabited` | `lean/MCore/Real/P01TerminalMaterialCertificate.lean`:21 | nao_alcancado |

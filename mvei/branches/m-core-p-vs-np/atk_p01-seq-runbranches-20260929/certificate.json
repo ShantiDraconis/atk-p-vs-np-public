@@ -1,0 +1,102 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/p01-seq-runbranches-20260929",
+ "branch_state": "parada",
+ "head_commit": "ad208be8520a6f38b081e6b84d0b88c6b2b0e726",
+ "head_commit_date": "2026-09-29T10:43:55+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "ad208be8520a6f38b081e6b84d0b88c6b2b0e726",
+   "date": "2026-09-29T10:43:55+01:00",
+   "subject": "atk: prove exact right-phase runBranches preservation"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P01NTMPhaseSeqExecution.active_filter_right",
+   "file": "lean/MCore/Real/P01NTMPhaseSeqExecution.lean",
+   "line": 24,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{StateA StateB Symbol : Type} (A : NTM StateA Symbol) (B : NTM StateB Symbol) (cs : List (Configuration StateB Symbol)) : (cs.map (liftRight (StateA"
+  },
+  {
+   "name": "MCore.Real.P01NTMPhaseSeqExecution.halted_filter_right",
+   "file": "lean/MCore/Real/P01NTMPhaseSeqExecution.lean",
+   "line": 39,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{StateA StateB Symbol : Type} (A : NTM StateA Symbol) (B : NTM StateB Symbol) (cs : List (Configuration StateB Symbol)) : (cs.map (liftRight (StateA"
+  },
+  {
+   "name": "MCore.Real.P01NTMPhaseSeqExecution.liftRight_state",
+   "file": "lean/MCore/Real/P01NTMPhaseSeqExecution.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{StateA StateB Symbol : Type} (c : Configuration StateB Symbol) : (liftRight (StateA"
+  },
+  {
+   "name": "MCore.Real.P01NTMPhaseSeqExecution.liftRight_tape",
+   "file": "lean/MCore/Real/P01NTMPhaseSeqExecution.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{StateA StateB Symbol : Type} (c : Configuration StateB Symbol) : (liftRight (StateA"
+  },
+  {
+   "name": "MCore.Real.P01NTMPhaseSeqExecution.runBranches_right_exact",
+   "file": "lean/MCore/Real/P01NTMPhaseSeqExecution.lean",
+   "line": 69,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{StateA StateB Symbol : Type} (A : NTM StateA Symbol) (B : NTM StateB Symbol) (hblank : A.blank = B.blank) (fuel : Nat) (cs : List (Configuration StateB Symbol)) : (seq A B).runBranches fuel (cs.map (liftRight (StateA"
+  },
+  {
+   "name": "MCore.Real.P01NTMPhaseSeqExecution.successors_flatMap_right",
+   "file": "lean/MCore/Real/P01NTMPhaseSeqExecution.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{StateA StateB Symbol : Type} (A : NTM StateA Symbol) (B : NTM StateB Symbol) (hblank : A.blank = B.blank) (cs : List (Configuration StateB Symbol)) : (cs.map (liftRight (StateA"
+  }
+ ],
+ "closed": 3,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01NTMPhaseSeq.lean": "507e5f148ec100a51869305fecc56b9308f7eb48ea3229dc18ccd42551d59895",
+  "lean/MCore/Real/P01NTMPhaseSeqExecution.lean": "2f6b7385f735861e1106cd2491d6d893f959e8dbf8f5801a51179c56da1c9fa0",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:20Z",
+ "certificate_sha256": "f96c225fcba6cc109031b6cde6151cc21119a19e56d9958d2a8d93c77098fa2d"
+}

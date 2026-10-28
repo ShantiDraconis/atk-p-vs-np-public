@@ -1,0 +1,205 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "meta/finalproof-frontier-map-v1",
+ "branch_state": "parada",
+ "head_commit": "6e160a95ac47dd72313d6ea35fc304cbb2e2dfce",
+ "head_commit_date": "2026-09-26T02:09:01+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "6e160a95ac47dd72313d6ea35fc304cbb2e2dfce",
+   "date": "2026-09-26T02:09:01+01:00",
+   "subject": "formal: add inhabited 003 assembly theorem from exact lemmas"
+  },
+  {
+   "commit": "8acfb18fd9aa52c49eafa51325ec3e2916cea06f",
+   "date": "2026-09-26T02:08:22+01:00",
+   "subject": "formal: add 003 endpoint composition laws"
+  },
+  {
+   "commit": "26c1eff8727c6ca0f7e981d578008633f8a357eb",
+   "date": "2026-09-26T02:06:44+01:00",
+   "subject": "restore: reinstate 003 fail-closed proof target state"
+  },
+  {
+   "commit": "011180e0f4de8b9efcf2504be0389904447970e9",
+   "date": "2026-09-26T02:06:41+01:00",
+   "subject": "restore: reinstate 003 fail-closed proof target state"
+  },
+  {
+   "commit": "de69d1a12ed0b4d3a5a26913a765581a13d1ed16",
+   "date": "2026-09-26T02:05:18+01:00",
+   "subject": "rollback: remove uninhabited 003 claim, keep certified AXM-002"
+  },
+  {
+   "commit": "b391fcb44a4235710c4fd95307fb42cc0170e715",
+   "date": "2026-09-26T02:05:16+01:00",
+   "subject": "rollback: remove uninhabited 003 claim, keep certified AXM-002"
+  },
+  {
+   "commit": "11f280f864342d29d6ce6624feb037fb29803861",
+   "date": "2026-09-26T02:04:21+01:00",
+   "subject": "meta: bind 003 claim to exact Lean proof target"
+  },
+  {
+   "commit": "e62bd215724dbc2621f2fb7c4a95e9f23a53e9cb",
+   "date": "2026-09-26T02:03:56+01:00",
+   "subject": "formal: add exact 003 endpoint proof target"
+  },
+  {
+   "commit": "96c876f38bc9cf1be103b5c395b177598e88cae7",
+   "date": "2026-09-26T02:02:12+01:00",
+   "subject": "meta: anchor 003 endpoint claim on certified AXM-002 core B"
+  },
+  {
+   "commit": "f39b23ceabcfa732420d14ca2d7aad12965f6952",
+   "date": "2026-09-26T01:57:44+01:00",
+   "subject": "cert: add preparatory AXM-PNP-ENDPOINT-003"
+  },
+  {
+   "commit": "656704b479b7d9356857c434354edda85e11e849",
+   "date": "2026-09-26T01:53:13+01:00",
+   "subject": "cert: bind local FinalProof to certified AXM-CROSS-SIGNATURE-002"
+  },
+  {
+   "commit": "a8b8a6c498e8062fedc09ff389378778548c6b39",
+   "date": "2026-09-26T01:50:49+01:00",
+   "subject": "ledger: add local frozen RED view"
+  },
+  {
+   "commit": "bc2153031942141da63423f894d4bee4946fd4c4",
+   "date": "2026-09-26T01:50:48+01:00",
+   "subject": "ledger: add local scientific RED view"
+  },
+  {
+   "commit": "de36008c5d31973c500943da7fad10f4a5851ad6",
+   "date": "2026-09-26T01:50:46+01:00",
+   "subject": "ledger: add local frontier RED view"
+  },
+  {
+   "commit": "70bb9b83d81431d3938015e76b9b7a7e30387e84",
+   "date": "2026-09-26T01:50:45+01:00",
+   "subject": "cert: add local AXM-CROSS-SIGNATURE-002 claim"
+  },
+  {
+   "commit": "57bb8663eb7586badb9eb123f2f8660e1ec2b7cb",
+   "date": "2026-09-26T01:47:43+01:00",
+   "subject": "fix: avoid Lean prefix keyword in FinalProof frontier"
+  },
+  {
+   "commit": "f2dae3bcea1c62003e579b17ce96eb45966c2581",
+   "date": "2026-09-26T01:16:20+01:00",
+   "subject": "formal: add FinalProof frontier theorem"
+  },
+  {
+   "commit": "ceb91429ee7599ff30fe75b016f3bbaa008502ee",
+   "date": "2026-09-26T01:12:51+01:00",
+   "subject": "meta: add FinalProof frontier map"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "FinalProof.g21_literal_route_closed",
+   "file": "FinalProof/FrontierTheorem.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{A A' PAlleged : Prop} (f : G21LiteralFixedPointClosed A A' PAlleged) (hA : A) (hP : PAlleged) : False"
+  },
+  {
+   "name": "FinalProof.p01_target_unreachable",
+   "file": "FinalProof/FrontierTheorem.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{A P B : Prop} (f : P01Frontier A P B) : ¬ B"
+  },
+  {
+   "name": "FinalProof.pnp003_all_requirements_iff",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) : r.closed ↔ r.P01MachineConstruction ∧ r.p01_closed_no_hypothesis ∧ r.semantic_self_embedding_witness ∧ r.pointwise_universal_obstruction ∧ r.size_time_closure"
+  },
+  {
+   "name": "FinalProof.pnp003_assemble",
+   "file": "FinalProof/EndpointProofTarget.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h1 : r.P01MachineConstruction) (h2 : r.p01_closed_no_hypothesis) (h3 : r.semantic_self_embedding_witness) (h4 : r.pointwise_universal_obstruction) (h5 : r.size_time_closure) : r.closed"
+  },
+  {
+   "name": "FinalProof.pnp003_closes_from_requirements",
+   "file": "FinalProof/EndpointProofTarget.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h : r.closed) : r.closed"
+  },
+  {
+   "name": "FinalProof.pnp003_has_P01MachineConstruction",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 4,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h : r.closed) : r.P01MachineConstruction"
+  },
+  {
+   "name": "FinalProof.pnp003_has_p01_closed_no_hypothesis",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 8,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h : r.closed) : r.p01_closed_no_hypothesis"
+  },
+  {
+   "name": "FinalProof.pnp003_has_pointwise_universal_obstruction",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h : r.closed) : r.pointwise_universal_obstruction"
+  },
+  {
+   "name": "FinalProof.pnp003_has_semantic_self_embedding",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h : r.closed) : r.semantic_self_embedding_witness"
+  },
+  {
+   "name": "FinalProof.pnp003_has_size_time_closure",
+   "file": "FinalProof/EndpointLaws.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(r : PNP003Requirements) (h : r.closed) : r.size_time_closure"
+  }
+ ],
+ "closed": 10,
+ "files_sha256": {
+  "FinalProof/EndpointLaws.lean": "8d80022ffe3012cdb4770a5354c5ab9b07b515ae5aad58cceb76b46012271a71",
+  "FinalProof/EndpointProofTarget.lean": "7c099d7bba140f5c3650d5befd639a2ea321f048747037ec47b10852f555b7d4",
+  "FinalProof/FrontierTheorem.lean": "752c1c027f8ca189faa3c9421caee92e3b74ff17cec4b5382a2980ce8789739b",
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea"
+ },
+ "published_at": "2026-10-28T19:19:20Z",
+ "certificate_sha256": "5430fe58ed96661e1cf1facd4d780233c60a01291aa34fab1c4f883780cd00e9"
+}

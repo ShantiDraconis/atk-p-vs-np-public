@@ -1,0 +1,235 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/next-p01-integrated-machine-20260929",
+ "branch_state": "parada",
+ "head_commit": "833fe0ded9676bfd19d226b8bf1dfd0aeb070bf5",
+ "head_commit_date": "2026-09-29T10:12:45+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "833fe0ded9676bfd19d226b8bf1dfd0aeb070bf5",
+   "date": "2026-09-29T10:12:45+01:00",
+   "subject": "fix(p01): close full-run and acceptance transport goals"
+  },
+  {
+   "commit": "ccf778b1757ba2fd64c1f3950a76f5d48a2ed0b3",
+   "date": "2026-09-29T10:11:32+01:00",
+   "subject": "atk: transport full runs halting and acceptance through TM embedding"
+  },
+  {
+   "commit": "6d39ae705e390ba9901d927bfaac8ab2150304b7",
+   "date": "2026-09-29T10:10:05+01:00",
+   "subject": "fix(p01): close terminal case after Bool split"
+  },
+  {
+   "commit": "a4960ed0e393f8870b45ca2a9a1c4f4ffbbbf061",
+   "date": "2026-09-29T10:09:17+01:00",
+   "subject": "fix(p01): stabilize singleton runBranches proof"
+  },
+  {
+   "commit": "903a2508c64e8fb739f140f1dc8172e06d0994f1",
+   "date": "2026-09-29T10:08:11+01:00",
+   "subject": "fix(p01): make terminal-to-halt proof Lean 4.19 compatible"
+  },
+  {
+   "commit": "75d0ab17725669dd9c5b469ad02f80e02f4c2ee2",
+   "date": "2026-09-29T10:07:31+01:00",
+   "subject": "atk: prove singleton run and terminal equivalence for TM embedding"
+  },
+  {
+   "commit": "5ea92e0d9ac81cb6b708ff4f6906882d63c3fb2f",
+   "date": "2026-09-29T10:07:03+01:00",
+   "subject": "ci: kernel-gate deterministic NTM embedding on P01 branch"
+  },
+  {
+   "commit": "dfabba61369547fc89123e23a3743018a4441ffe",
+   "date": "2026-09-29T10:06:32+01:00",
+   "subject": "atk: embed deterministic P01 phases as singleton-branch NTMs"
+  },
+  {
+   "commit": "00be4a9fdc998eb14c855698992742bc64efd763",
+   "date": "2026-09-29T09:08:13+01:00",
+   "subject": "fix(pnp): normalize encoded frame list before pop-run composition"
+  },
+  {
+   "commit": "898f4b091a075e0e6b5c6b3421528d06daf58ad7",
+   "date": "2026-09-29T02:58:04+01:00",
+   "subject": "fix(pnp): preserve frame-pop config through first run pair"
+  },
+  {
+   "commit": "56e73f0db59bb858a56420a38fa3a3e593fc08f5",
+   "date": "2026-09-29T02:56:25+01:00",
+   "subject": "fix(pnp): normalize blank tape writes in physical frame pop"
+  },
+  {
+   "commit": "ab979ae904be4ecfe78f471811514aa7f6d876b6",
+   "date": "2026-09-29T02:54:38+01:00",
+   "subject": "ci(pnp): kernel-gate physical EvalFrame pop machine"
+  },
+  {
+   "commit": "e15a0ac7a4577db74c0a719a87f93339377a1271",
+   "date": "2026-09-29T02:54:24+01:00",
+   "subject": "atk: implement fixed physical EvalFrame pop/decode machine"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P01DeterministicNTMEmbedding.runBranches_halted_all",
+   "file": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {State Symbol : Type} (M : MCore.Real.TM State Symbol) (accepting : State → Bool) (n : Nat)   (c : MCore.Real.Configuration State Symbol),   M.halting c.state = true → (MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM M accepting).runBranches n [c] = [c]"
+  },
+  {
+   "name": "MCore.Real.P01DeterministicNTMEmbedding.runBranches_tmAsNTM_singleton",
+   "file": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean",
+   "line": 132,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {State Symbol : Type} (M : MCore.Real.TM State Symbol) (accepting : State → Bool) (n : Nat)   (c : MCore.Real.Configuration State Symbol),   (MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM M accepting).runBranches n [c] = [M.run n c]"
+  },
+  {
+   "name": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_acceptsWithin_iff",
+   "file": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean",
+   "line": 180,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {State Symbol : Type} (M : MCore.Real.TM State Symbol) (accepting : State → Bool) (n : Nat)   (c : MCore.Real.Configuration State Symbol),   M.HaltsWithin n c →     ((MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM M accepting).AcceptsWithin n c ↔       accepting (M.run n c).state = true)"
+  },
+  {
+   "name": "MCore.Real.P01DeterministicNTMEmbedding.tmHaltsWithin_iff_ntmHaltsWithin",
+   "file": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean",
+   "line": 159,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {State Symbol : Type} (M : MCore.Real.TM State Symbol) (accepting : State → Bool) (n : Nat)   (c : MCore.Real.Configuration State Symbol),   M.HaltsWithin n c ↔ (MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM M accepting).HaltsWithin n c"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_empty_rejects",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 230,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness source : BitString) (padding : Nat) : (framePopMachine.run 2 (framePopConfig (physicalStackV2Tape witness source [] padding))).state = .reject"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_first_two",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 149,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness source : BitString) (rest : List Bool) (padding : Nat) (b0 : Bool) : framePopMachine.run 2 (framePopConfig (physicalStackV2Tape witness source (b0 :: rest) padding)) = { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_gap1_one",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 107,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 : Bool) (t : Tape (Option Bool)) (hblank : t.head = none) : framePopMachine.run 1 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_gap2_one",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 127,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 b1 : Bool) (t : Tape (Option Bool)) (hblank : t.head = none) : framePopMachine.run 1 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_read0_one",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 97,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 : Bool) (t : Tape (Option Bool)) (hhead : t.head = some b0) : framePopMachine.run 1 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_read1_one",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 117,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 b1 : Bool) (t : Tape (Option Bool)) (hhead : t.head = some b1) : framePopMachine.run 1 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_read2_one",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 137,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 b1 b2 : Bool) (f : EvalFrame) (t : Tape (Option Bool)) (hhead : t.head = some b2) (hdecode : decodeEvalFrame [b0,b1,b2] = some f) : framePopMachine.run 1 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_run_six",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 199,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness source : BitString) (stack : List Bool) (padding : Nat) (f : EvalFrame) : framePopMachine.run 6 (framePopConfig (physicalStackV2Tape witness source (encodeEvalFrame f ++ stack) padding)) = { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_second_two",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 166,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness source : BitString) (rest : List Bool) (padding : Nat) (b0 b1 : Bool) : framePopMachine.run 2 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_start_one",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 87,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(t : Tape (Option Bool)) (hblank : t.head = none) : framePopMachine.run 1 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.framePop_third_two",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 182,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness source : BitString) (rest : List Bool) (padding : Nat) (b0 b1 b2 : Bool) (f : EvalFrame) (hdecode : decodeEvalFrame [b0,b1,b2] = some f) : framePopMachine.run 2 { state"
+  },
+  {
+   "name": "MCore.Real.P01EvalFramePopMachine.tape_write_none_of_head_none",
+   "file": "lean/MCore/Real/P01EvalFramePopMachine.lean",
+   "line": 77,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(t : Tape (Option Bool)) (h : t.head = none) : Tape.write t none = t"
+  }
+ ],
+ "closed": 4,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01DeterministicNTMEmbedding.lean": "8da7b759cfada65d69c1a54a41dff035b534c4c96e02a64a4789d647c263ab02",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:19Z",
+ "certificate_sha256": "df6f11ae54308f1b41ca5bfa58670a2d9e470f6f35b1239a186e5d021bbb4ab9"
+}

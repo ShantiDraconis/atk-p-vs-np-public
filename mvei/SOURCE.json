@@ -5,9 +5,9 @@
  "files": 150,
  "lean_files": 145,
  "verified_commit": "328cb6726222af4ad93e7727737d477640f74f89",
- "verification_generated_at": "2026-10-28T16:41:02+00:00",
+ "verification_generated_at": "2026-10-28T19:11:15+00:00",
  "lean_files_added_after_verified_commit": [],
  "lean_files_changed_after_verified_commit": [],
- "published_at": "2026-10-28T16:43:14Z",
+ "published_at": "2026-10-28T19:18:45Z",
  "published_by": "MVEI tools/publicar_espelhos.py"
 }

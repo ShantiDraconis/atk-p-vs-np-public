@@ -1,0 +1,133 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "red/C8-3394f470",
+ "branch_state": "incorporada",
+ "head_commit": "3394f4705be200047c16cd9744001fca2dbd9229",
+ "head_commit_date": "2026-09-17T15:30:11+02:00",
+ "history_not_on_default_branch": [],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.CircuitC2.depth_simplifyAnd_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 92,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(a b : Circuit) : depth (simplifyAnd a b) ≤ max (depth a) (depth b) + 1"
+  },
+  {
+   "name": "MCore.CircuitC2.depth_simplifyOr_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 108,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(a b : Circuit) : depth (simplifyOr a b) ≤ max (depth a) (depth b) + 1"
+  },
+  {
+   "name": "MCore.CircuitC2.depth_simplify_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 141,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(c : Circuit) : depth (simplify c) ≤ depth c"
+  },
+  {
+   "name": "MCore.CircuitC2.eval_simplifyAnd",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 163,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(σ : Assignment) (a b : Circuit) : eval σ (simplifyAnd a b) = (eval σ a && eval σ b)"
+  },
+  {
+   "name": "MCore.CircuitC2.eval_simplifyOr",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 179,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(σ : Assignment) (a b : Circuit) : eval σ (simplifyOr a b) = (eval σ a || eval σ b)"
+  },
+  {
+   "name": "MCore.CircuitC2.size_simplifyAnd_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 60,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(a b : Circuit) : size (simplifyAnd a b) ≤ size a + size b + 1"
+  },
+  {
+   "name": "MCore.CircuitC2.size_simplifyOr_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 76,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(a b : Circuit) : size (simplifyOr a b) ≤ size a + size b + 1"
+  },
+  {
+   "name": "MCore.CircuitC2.size_simplify_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 124,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(c : Circuit) : size (simplify c) ≤ size c"
+  },
+  {
+   "name": "MCore.CircuitC2.μ_simplify_le",
+   "file": "lean/MCore/CircuitC2.lean",
+   "line": 158,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(c : Circuit) : μ (simplify c) ≤ μ c"
+  }
+ ],
+ "closed": 2,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "7af4b7d96983d7f4a2601c99456d5a1c803770942f8a5532cc6130ff01fdd29d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/CircuitC2.lean": "25d9daa7ebfb59d881750c2a68f920851d93a8ad1864a6bc4dd47f46a2c2f346",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:20Z",
+ "certificate_sha256": "e1c5c5c6df11d16829c585c72169f7d68ebfb80753bb99fab6a456606b10bf53"
+}

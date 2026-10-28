@@ -1,0 +1,334 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "work/C12-progress-coverage",
+ "branch_state": "parada",
+ "head_commit": "f25fdb788277308961f956d7fad5709562d39c19",
+ "head_commit_date": "2026-09-18T04:01:38+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "f25fdb788277308961f956d7fad5709562d39c19",
+   "date": "2026-09-18T04:01:38+02:00",
+   "subject": "feat(c12): include structural progress coverage gate"
+  },
+  {
+   "commit": "a74e64197cdf7f4eb725db296d5392c7acfdd855",
+   "date": "2026-09-18T04:01:35+02:00",
+   "subject": "feat(c12): close structural progress coverage by fixing a present variable"
+  },
+  {
+   "commit": "52c433c46c6a05f9b3d06912babb6091ab33011e",
+   "date": "2026-09-18T03:59:59+02:00",
+   "subject": "cert(c11): add fail-closed variable-monotonicity gates"
+  },
+  {
+   "commit": "4feebd2b1805adfed1d0946d7a00d4ed2e6eac30",
+   "date": "2026-09-18T03:58:50+02:00",
+   "subject": "fix(c11): close eraseDups boolean cases and normalize disjunctions"
+  },
+  {
+   "commit": "c4ed5776b66c55d28e31b73a3d8b268cd2c4d2b1",
+   "date": "2026-09-18T03:57:46+02:00",
+   "subject": "fix(c11): prove eraseDups invariants on Lean 4.19 and normalize simplifier"
+  },
+  {
+   "commit": "aa8b19a1de4bd73cd04cb1f4aa2b0781f859941f",
+   "date": "2026-09-18T03:53:10+02:00",
+   "subject": "fix(c11): factor simplifier membership lemmas and import List proofs"
+  },
+  {
+   "commit": "d0570194b50eb2dcb0b924df5541b6a32ccbbe98",
+   "date": "2026-09-18T03:51:23+02:00",
+   "subject": "feat(c11): include free-variable monotonicity gate"
+  },
+  {
+   "commit": "707b674c3effc1501de99ccae56ecb3d264b7c13",
+   "date": "2026-09-18T03:51:17+02:00",
+   "subject": "feat(c11): prove free-variable monotonicity under restriction and simplification"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.C11.eraseDups_length_le_of_subset",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {l₁ l₂ : List Nat}, l₁ ⊆ l₂ → l₁.eraseDups.length ≤ l₂.eraseDups.length"
+  },
+  {
+   "name": "MCore.C11.eraseDups_loop_mem_nat",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : Nat) (as bs : List Nat), x ∈ List.eraseDups.loop as bs ↔ x ∈ as ∨ x ∈ bs"
+  },
+  {
+   "name": "MCore.C11.eraseDups_loop_nodup_nat",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (as bs : List Nat), bs.Nodup → (List.eraseDups.loop as bs).Nodup"
+  },
+  {
+   "name": "MCore.C11.eraseDups_nodup_nat",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (l : List Nat), l.eraseDups.Nodup"
+  },
+  {
+   "name": "MCore.C11.mem_eraseDups_nat",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 89,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} {l : List Nat}, x ∈ l.eraseDups ↔ x ∈ l"
+  },
+  {
+   "name": "MCore.C11.mem_freeVarList_D",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 253,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} (ρ : MCore.CircuitK1.Restriction) (t : MCore.C9.FormulaTree),   x ∈ MCore.C9.freeVarList (MCore.C9.D ρ t) → x ∈ MCore.C9.freeVarList t"
+  },
+  {
+   "name": "MCore.C11.mem_freeVarList_reduceAnd",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 197,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} {d e : MCore.C9.FormulaTree},   x ∈ MCore.C9.freeVarList (MCore.C11.reduceAnd d e) → x ∈ MCore.C9.freeVarList d ∨ x ∈ MCore.C9.freeVarList e"
+  },
+  {
+   "name": "MCore.C11.mem_freeVarList_reduceNot",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 189,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} {d : MCore.C9.FormulaTree}, x ∈ MCore.C9.freeVarList (MCore.C11.reduceNot d) → x ∈ MCore.C9.freeVarList d"
+  },
+  {
+   "name": "MCore.C11.mem_freeVarList_reduceOr",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 206,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} {d e : MCore.C9.FormulaTree},   x ∈ MCore.C9.freeVarList (MCore.C11.reduceOr d e) → x ∈ MCore.C9.freeVarList d ∨ x ∈ MCore.C9.freeVarList e"
+  },
+  {
+   "name": "MCore.C11.mem_freeVarList_restrict",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 136,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} (ρ : MCore.CircuitK1.Restriction) (t : MCore.C9.FormulaTree),   x ∈ MCore.C9.freeVarList (MCore.CircuitK1.restrict ρ t) → x ∈ MCore.C9.freeVarList t"
+  },
+  {
+   "name": "MCore.C11.mem_freeVarList_simplify",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 215,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {x : Nat} (t : MCore.C9.FormulaTree),   x ∈ MCore.C9.freeVarList (MCore.CircuitC2.simplify t) → x ∈ MCore.C9.freeVarList t"
+  },
+  {
+   "name": "MCore.C11.nodup_length_le_of_subset_nat",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 97,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {l₁ l₂ : List Nat}, l₁.Nodup → l₂.Nodup → l₁ ⊆ l₂ → l₁.length ≤ l₂.length"
+  },
+  {
+   "name": "MCore.C11.restrictionProgress_of_strict",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 281,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (ρ : MCore.CircuitK1.Restriction) (t : MCore.C9.FormulaTree),   MCore.C11.StrictRestrictionProgress ρ t → MCore.C10.RestrictionProgress ρ t"
+  },
+  {
+   "name": "MCore.C11.simplify_and_eq",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 183,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b : MCore.C9.FormulaTree),   MCore.CircuitC2.simplify (MCore.CircuitK1.Circuit.and a b) =     MCore.C11.reduceAnd (MCore.CircuitC2.simplify a) (MCore.CircuitC2.simplify b)"
+  },
+  {
+   "name": "MCore.C11.simplify_not_eq",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 180,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (c : MCore.C9.FormulaTree),   MCore.CircuitC2.simplify (MCore.CircuitK1.Circuit.not c) = MCore.C11.reduceNot (MCore.CircuitC2.simplify c)"
+  },
+  {
+   "name": "MCore.C11.simplify_or_eq",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 186,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (a b : MCore.C9.FormulaTree),   MCore.CircuitC2.simplify (MCore.CircuitK1.Circuit.or a b) =     MCore.C11.reduceOr (MCore.CircuitC2.simplify a) (MCore.CircuitC2.simplify b)"
+  },
+  {
+   "name": "MCore.C11.stateRank_D_decreases_of_strict",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 287,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (ρ : MCore.CircuitK1.Restriction) (t : MCore.C9.FormulaTree),   MCore.C11.StrictRestrictionProgress ρ t → MCore.C9.stateRank (MCore.C9.D ρ t) < MCore.C9.stateRank t"
+  },
+  {
+   "name": "MCore.C11.varsNonincrease_closed",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 272,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.C10.VarsNonincreaseObligation"
+  },
+  {
+   "name": "MCore.C11.vars_D_le",
+   "file": "lean/MCore/C11/VarsMonotone.lean",
+   "line": 263,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (ρ : MCore.CircuitK1.Restriction) (t : MCore.C9.FormulaTree), MCore.C9.vars (MCore.C9.D ρ t) ≤ MCore.C9.vars t"
+  },
+  {
+   "name": "MCore.C12.eraseDups_length_lt_of_subset_of_missing",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {l₁ l₂ : List Nat} {i : Nat}, l₁ ⊆ l₂ → i ∈ l₂ → ¬i ∈ l₁ → l₁.eraseDups.length < l₂.eraseDups.length"
+  },
+  {
+   "name": "MCore.C12.exists_freeVar_of_vars_pos",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (t : MCore.C9.FormulaTree), 0 < MCore.C9.vars t → ∃ i, i ∈ MCore.C9.freeVarList t"
+  },
+  {
+   "name": "MCore.C12.exists_rank_decreasing_restriction",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 122,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (t : MCore.C9.FormulaTree), 0 < MCore.C9.vars t → ∃ ρ, MCore.C9.stateRank (MCore.C9.D ρ t) < MCore.C9.stateRank t"
+  },
+  {
+   "name": "MCore.C12.fixVarTrue_ne",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {i j : Nat}, j ≠ i → MCore.C12.fixVarTrue i j = none"
+  },
+  {
+   "name": "MCore.C12.fixVarTrue_self",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (i : Nat), MCore.C12.fixVarTrue i i = some true"
+  },
+  {
+   "name": "MCore.C12.fixedVar_not_mem_D",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (i : Nat) (t : MCore.C9.FormulaTree), ¬i ∈ MCore.C9.freeVarList (MCore.C9.D (MCore.C12.fixVarTrue i) t)"
+  },
+  {
+   "name": "MCore.C12.fixedVar_not_mem_restrict",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (i : Nat) (t : MCore.C9.FormulaTree), ¬i ∈ MCore.C9.freeVarList (MCore.CircuitK1.restrict (MCore.C12.fixVarTrue i) t)"
+  },
+  {
+   "name": "MCore.C12.progressCoverage_closed",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.C10.ProgressCoverageObligation"
+  },
+  {
+   "name": "MCore.C12.strictProgress_fix_present",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (i : Nat) (t : MCore.C9.FormulaTree),   i ∈ MCore.C9.freeVarList t → MCore.C11.StrictRestrictionProgress (MCore.C12.fixVarTrue i) t"
+  },
+  {
+   "name": "MCore.C12.vars_D_lt_fixVarTrue",
+   "file": "lean/MCore/C12/ProgressCoverage.lean",
+   "line": 92,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (i : Nat) (t : MCore.C9.FormulaTree),   i ∈ MCore.C9.freeVarList t → MCore.C9.vars (MCore.C9.D (MCore.C12.fixVarTrue i) t) < MCore.C9.vars t"
+  }
+ ],
+ "closed": 29,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "7af4b7d96983d7f4a2601c99456d5a1c803770942f8a5532cc6130ff01fdd29d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/VarsMonotone.lean": "c5c061e8758327f604d32a8dae7ef8c5a8ed35e927d0bfec6bc6a9c8a890d589",
+  "lean/MCore/C12/ProgressCoverage.lean": "1c7ad77a94d3697df852da5ab042100f6ec742615b0af11515d528a6bd434c35",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:19Z",
+ "certificate_sha256": "83827352210be3561df10fde3d25e4e0536da2a259e4546f1ba124ed075a32c5"
+}

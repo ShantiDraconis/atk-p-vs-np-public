@@ -1,0 +1,508 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "audit/multistate-proof-refutation-v1",
+ "branch_state": "parada",
+ "head_commit": "01848759e400553769221813e5466ddacdae877e",
+ "head_commit_date": "2026-09-19T10:39:32+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "01848759e400553769221813e5466ddacdae877e",
+   "date": "2026-09-19T10:39:32+02:00",
+   "subject": "ci: remove umbrella clean rebuild from normal certification"
+  },
+  {
+   "commit": "790b688263a7d39551a5423e1f22410b5e9da75f",
+   "date": "2026-09-19T09:42:37+02:00",
+   "subject": "ci: enforce targeted fast-fail certification builds"
+  },
+  {
+   "commit": "4e67eb8061489ba1554dd577cb954b6214eaa764",
+   "date": "2026-09-19T09:42:32+02:00",
+   "subject": "ci: add global NO-UMBRELLA regression firewall"
+  },
+  {
+   "commit": "ff5f26d6d93f51dc1c596c88aee76a2ad371a930",
+   "date": "2026-09-19T00:36:52+02:00",
+   "subject": "audit(pnp): isolate SAT bit-witness and NTM realization boundary"
+  },
+  {
+   "commit": "13af48a361d40bb965d047e0a0bfc849961f716b",
+   "date": "2026-09-19T00:02:25+02:00",
+   "subject": "fix(pnp): normalize CNF decoder bind"
+  },
+  {
+   "commit": "e3cf2d4270564e9e52feb6d7ae887d4e09476269",
+   "date": "2026-09-18T23:59:02+02:00",
+   "subject": "fix(pnp): specialize CNF list decode proof"
+  },
+  {
+   "commit": "f9e5286a65b3f0c756a0e9496704112daf733de2",
+   "date": "2026-09-18T23:57:27+02:00",
+   "subject": "fix(pnp): close CNF decode-encode round trip"
+  },
+  {
+   "commit": "f2ac8405c247af95ef535bb08be5509973c24a55",
+   "date": "2026-09-18T22:58:24+02:00",
+   "subject": "audit(pnp): construct concrete round-trip CNF bit encoding"
+  },
+  {
+   "commit": "af7a40cd76b38ea5aca530a0509be64675b711f0",
+   "date": "2026-09-18T22:55:53+02:00",
+   "subject": "audit(pnp): fix F2 witness to the canonical language universe"
+  },
+  {
+   "commit": "57bf8fb2e69212640161d2adcdc824152649f1ca",
+   "date": "2026-09-18T22:54:26+02:00",
+   "subject": "fix(pnp): include SAT audit in open-bridge trigger"
+  },
+  {
+   "commit": "1533d037bbe96dbdfbdc1fdfc5ae3aef847e5fc0",
+   "date": "2026-09-18T22:53:36+02:00",
+   "subject": "fix(pnp): remove placeholder from Cook-Levin boundary"
+  },
+  {
+   "commit": "e404fe810a0ece7c31ed6461b1538fd81b1aba05",
+   "date": "2026-09-18T22:53:02+02:00",
+   "subject": "audit(pnp): formalize SAT semantic core and machine boundaries"
+  },
+  {
+   "commit": "23f70f062abfab6e2412f2e774ee195b261fbc56",
+   "date": "2026-09-18T22:52:12+02:00",
+   "subject": "fix(pnp): make C12 proxy refutation choice-free"
+  },
+  {
+   "commit": "00ec76cd8283f3b52d61c44f7e335f7d9e13e789",
+   "date": "2026-09-18T22:50:18+02:00",
+   "subject": "audit(pnp): test representation invariance of C12 potential"
+  },
+  {
+   "commit": "ca9dca98ac8a64d394f5d1b13df47b41b09261cd",
+   "date": "2026-09-18T22:49:07+02:00",
+   "subject": "audit(pnp): record F1 internal closure and C12 finite robustness"
+  },
+  {
+   "commit": "0cc830beae500b5bfd20faa736eb6d749522b77f",
+   "date": "2026-09-18T22:46:46+02:00",
+   "subject": "fix(pnp): keep C13 calibration generator audit-only"
+  },
+  {
+   "commit": "2234dc0b53decc24dc99b09e6ec0a75ee605a305",
+   "date": "2026-09-18T22:45:04+02:00",
+   "subject": "fix(pnp): type C12 calibration over circuit alias"
+  },
+  {
+   "commit": "a007c7e045cde7fb83e1a40b6101c85f3b8099e8",
+   "date": "2026-09-18T22:43:02+02:00",
+   "subject": "fix(pnp): remove duplicate import from F1 replay"
+  },
+  {
+   "commit": "8b61c62cd78b94136c563fbec77ed54ef9612446",
+   "date": "2026-09-18T22:41:48+02:00",
+   "subject": "fix(pnp): preserve halting under deterministic embedding"
+  },
+  {
+   "commit": "abe697d2490aa52de467d25c41baddbf473e70aa",
+   "date": "2026-09-18T22:40:16+02:00",
+   "subject": "fix(pnp): make F1 halting executable and replay audit files"
+  },
+  {
+   "commit": "a5323008d6615ec19a4bc96e86504aa70854a433",
+   "date": "2026-09-18T22:38:35+02:00",
+   "subject": "audit(pnp): attack F1 operational model and C12 S/K calibration"
+  },
+  {
+   "commit": "aa1a8d787a180db88b284725389c9146cb242cbc",
+   "date": "2026-09-18T20:03:54+02:00",
+   "subject": "audit(pnp): start universal 8x5 semantic certification"
+  },
+  {
+   "commit": "8527ea7d5a3a5939a9bf0d60bf954762ef6e29c0",
+   "date": "2026-09-18T18:19:12+02:00",
+   "subject": "docs: add closed cores complexity research agenda"
+  },
+  {
+   "commit": "eb51ed9613e71b9efdefff44e290382d37a537a0",
+   "date": "2026-09-18T11:53:06+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "e0a964ae6311a3cdd382aae4642603109e59b077",
+   "date": "2026-09-18T11:53:00+02:00",
+   "subject": "audit: formalize 12-gate massive no-cheating architecture"
+  },
+  {
+   "commit": "a4cc3aec2be14e2c4a707a60e01856e725da6619",
+   "date": "2026-09-18T11:48:19+02:00",
+   "subject": "audit: formalize canonical 18-test backward matrix"
+  },
+  {
+   "commit": "9b0342b7b174f5490e506746581341996418a47b",
+   "date": "2026-09-18T11:39:49+02:00",
+   "subject": "audit: define hypothetical initial closed-system contract"
+  },
+  {
+   "commit": "97a34fa9aaca87ff3626ebfb5227cbd261415432",
+   "date": "2026-09-18T07:11:22+02:00",
+   "subject": "audit: add isolated multistate proof/refutation certification protocol"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T19:11:15+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "Audit.OfficialModel.F1_canonical_model_match",
+   "file": "audit/OfficialModel/F1_OfficialModelMatch.lean",
+   "line": 28,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": OfficialModelMatch canonicalInterface OfficialP OfficialNP"
+  },
+  {
+   "name": "Audit.OfficialModel.F1_internal_to_official_NP",
+   "file": "audit/OfficialModel/F1_OfficialModelMatch.lean",
+   "line": 23,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ L, canonicalInterface.inNP L ↔ OfficialNP (toOfficial L)"
+  },
+  {
+   "name": "Audit.OfficialModel.F1_internal_to_official_P",
+   "file": "audit/OfficialModel/F1_OfficialModelMatch.lean",
+   "line": 18,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ L, canonicalInterface.inP L ↔ OfficialP (toOfficial L)"
+  },
+  {
+   "name": "Audit.OfficialModel.F2_implies_separation",
+   "file": "audit/OfficialModel/F2_FixedWitness.lean",
+   "line": 15,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": F2_FixedWitnessExistence → ¬ (∀ L : OfficialLanguage, OfficialP L ↔ OfficialNP L)"
+  },
+  {
+   "name": "Audit.OfficialModel.halted_toNTM",
+   "file": "audit/OfficialModel/OperationalTM.lean",
+   "line": 148,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : DTM) (c : Config) : M.toNTM.halted c = M.halted c"
+  },
+  {
+   "name": "Audit.OfficialModel.lower_bound_witness_separates",
+   "file": "audit/OfficialModel/F2_FixedWitness.lean",
+   "line": 10,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(W : LowerBoundWitness) : ¬ (∀ L : OfficialLanguage, OfficialP L ↔ OfficialNP L)"
+  },
+  {
+   "name": "Audit.OfficialModel.nextConfigs_toNTM",
+   "file": "audit/OfficialModel/OperationalTM.lean",
+   "line": 151,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : DTM) (c : Config) : M.toNTM.nextConfigs c = [M.next c]"
+  },
+  {
+   "name": "Audit.OfficialModel.ofOfficial_toOfficial",
+   "file": "audit/OfficialModel/F1_OfficialModelMatch.lean",
+   "line": 15,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : OfficialLanguage) : ofOfficial (toOfficial L) = L"
+  },
+  {
+   "name": "Audit.OfficialModel.officialP_subset_officialNP",
+   "file": "audit/OfficialModel/OperationalTM.lean",
+   "line": 165,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ∀ L : OfficialLanguage, OfficialP L → OfficialNP L"
+  },
+  {
+   "name": "Audit.OfficialModel.runSet_toNTM_singleton",
+   "file": "audit/OfficialModel/OperationalTM.lean",
+   "line": 158,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : DTM) (n : Nat) (c : Config) : M.toNTM.runSet n [c] = [M.run n c]"
+  },
+  {
+   "name": "Audit.OfficialModel.toOfficial_ofOfficial",
+   "file": "audit/OfficialModel/F1_OfficialModelMatch.lean",
+   "line": 12,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : OfficialLanguage) : toOfficial (ofOfficial L) = L"
+  },
+  {
+   "name": "Audit.SAT.SATBits_encodeCNF_iff",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 49,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(φ : CNF) : SATBits concreteBitEncoding (encodeCNF φ) ↔ Satisfiable φ"
+  },
+  {
+   "name": "Audit.SAT.SATBits_iff_bitWitnessSemantics",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 40,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(x : BitStr) : SATBits concreteBitEncoding x ↔ SATBitWitnessSemantics x"
+  },
+  {
+   "name": "Audit.SAT.SATEncodingExistence_closed",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 134,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": ": SATEncodingExistence"
+  },
+  {
+   "name": "Audit.SAT.SATNTMRealization_implies_OfficialNP",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 81,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": ": SATNTMRealizationExistence → Audit.OfficialModel.OfficialNP (SATBits concreteBitEncoding)"
+  },
+  {
+   "name": "Audit.SAT.decodeCNF_encodeCNF",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 111,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "(φ : CNF) : decodeCNF (encodeCNF φ) = some φ"
+  },
+  {
+   "name": "Audit.SAT.decodeClause_encodeClause_append",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 93,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (c : Clause n) (tail : BitStr) : decodeClause n (encodeClause c ++ tail) = some (c, tail)"
+  },
+  {
+   "name": "Audit.SAT.decodeList_encodeList_append",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 74,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (enc : α → BitStr) (dec : BitStr → Option (α × BitStr)) (hround : ∀ x tail, dec (enc x ++ tail) = some (x, tail)) (xs : List α) (tail : BitStr) : decodeList dec (encodeList enc xs ++ tail) = some (xs, tail)"
+  },
+  {
+   "name": "Audit.SAT.decodeLiteral_encodeLiteral_append",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 32,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (l : Literal n) (tail : BitStr) : decodeLiteral n (encodeLiteral l ++ tail) = some (l, tail)"
+  },
+  {
+   "name": "Audit.SAT.decodeN_encodeNList_append",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 51,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{α : Type} (enc : α → BitStr) (dec : BitStr → Option (α × BitStr)) (hround : ∀ x tail, dec (enc x ++ tail) = some (x, tail)) (xs : List α) (tail : BitStr) : decodeN dec xs.length (encodeNList enc xs ++ tail) = some (xs, tail)"
+  },
+  {
+   "name": "Audit.SAT.decodeNat_encodeNat_append",
+   "file": "audit/SAT/SATEncoding.lean",
+   "line": 13,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (tail : BitStr) : decodeNat (encodeNat n ++ tail) = some (n, tail)"
+  },
+  {
+   "name": "Audit.SAT.decode_none_not_SATBits",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 60,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{x : BitStr} (h : decodeCNF x = none) : ¬ SATBits concreteBitEncoding x"
+  },
+  {
+   "name": "Audit.SAT.sat_verifier_correct",
+   "file": "audit/SAT/SATCore.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(φ : CNF) : Satisfiable φ ↔ ∃ w : Valuation φ.nvars, SATVerifier φ w = true"
+  },
+  {
+   "name": "Audit.SAT.satisfiable_iff_bitWitness",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 23,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(φ : CNF) : Satisfiable φ ↔ ∃ w : BitStr, SATBitVerifier φ w"
+  },
+  {
+   "name": "Audit.SAT.three_sat_implies_sat",
+   "file": "audit/SAT/SATCore.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{φ : CNF} : ThreeSatisfiable φ → Satisfiable φ"
+  },
+  {
+   "name": "Audit.SAT.valuationBits_length",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 5,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{n : Nat} (v : Valuation n) : (valuationBits v).length = n"
+  },
+  {
+   "name": "Audit.SAT.valuationOfExactBits_valuationBits",
+   "file": "audit/SAT/SATNPRealization.lean",
+   "line": 13,
+   "state": "erro",
+   "axioms_beyond_standard": [],
+   "statement": "{n : Nat} (v : Valuation n) : valuationOfExactBits (valuationBits v) (valuationBits_length v) = v"
+  },
+  {
+   "name": "Audit.SAT.witness_length_exact",
+   "file": "audit/SAT/SATCore.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(φ : CNF) : witnessBitLength φ = φ.nvars"
+  },
+  {
+   "name": "MCore.Audit8x5.A_axis_pending",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.A = MCore.Audit8x5.AxisState.pending"
+  },
+  {
+   "name": "MCore.Audit8x5.HC_axis_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.HC = MCore.Audit8x5.AxisState.blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.K_axis_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 49,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.K = MCore.Audit8x5.AxisState.blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.Q_axis_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.Q = MCore.Audit8x5.AxisState.blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.S_axis_blocking",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Audit8x5.sigmaReviewed.S = MCore.Audit8x5.AxisState.blocking"
+  },
+  {
+   "name": "MCore.Audit8x5.no_placebo_classical_endpoint",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 20,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k6_dependency.target)"
+  },
+  {
+   "name": "MCore.Audit8x5.no_placebo_k10",
+   "file": "lean/MCore/Audit8x5.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬Nonempty (MCore.ProofCertificate MCore.k10_obligation_node)"
+  },
+  {
+   "name": "MultistateAudit.PvsNP.Gates.fullyAudited_elim",
+   "file": "audit/20_BACKWARD_ELIMINATION/MassiveGateArchitecture.lean",
+   "line": 34,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(A : DecisiveAudit) (h : FullyAudited A) : A.provenanceLock ∧ A.hypothesisConclusionMatch ∧ A.quantifierMatch ∧ A.scalingConstantMatch ∧ A.axiomNoncircularity ∧ A.proofSearchDischarged ∧ A.falsificationSearchDischarged ∧ A.leanBuildAndAxiomsAudited"
+  }
+ ],
+ "closed": 16,
+ "files_sha256": {
+  "audit/OfficialModel/F1_OfficialModelMatch.lean": "78cac0789c973c520dc107c3c292f844232fb1bc98282dda12969ea8455fc2df",
+  "audit/OfficialModel/OperationalTM.lean": "0551f1fc46f5bbdfe4ecc9e3b00ee17f2eae2cfd7fa2ca5cd1b096cf146fa88d",
+  "audit/SAT/SATCore.lean": "78400053e667fd0058c409b25beae01aba51d3a84362deea5126e2a921161689",
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "11f82d8ee6d5f9a6377eef3203ef026021fb6cb7b6946d1278c72e137a4f19fa",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Audit8x5.lean": "40f67003d22ed17e559348c2ecc08414c967cc9f76c152fe8736c43230abfddd",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-28T19:19:19Z",
+ "certificate_sha256": "800a51c4096a74bfce6fadc23d779ed1d940f8dc6d1a27b3cfc68e8ca90d2f24"
+}

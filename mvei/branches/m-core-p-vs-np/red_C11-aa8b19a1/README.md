@@ -5,7 +5,7 @@ Lean sources from the branch `red/C11-aa8b19a1` of the private repository `Shant
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 1, conditional 0, open 0, proof error 2, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `041c87317078784e372d2969336c4edeb67e5cdd8842a2e491f75703360dd117`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/red_C11-aa8b19a1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `78551795e276ae0920f417d910bc173aac258a63bd43859b9929d5d685e3293f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/red_C11-aa8b19a1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

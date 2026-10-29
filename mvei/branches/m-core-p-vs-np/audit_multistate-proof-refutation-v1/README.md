@@ -5,7 +5,7 @@ Lean sources from the branch `audit/multistate-proof-refutation-v1` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 36 — closed 16, conditional 0, open 0, proof error 19, not reached 1, no result 0.
 * History: 28 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `064c5ae325d0b9235a4c5c20203efc82c1da48853c7bdad5ced29eb29a5a74e3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/audit_multistate-proof-refutation-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `29654c10224637735e4e77b236aebf62f56f29b537835bb07ff3b52bb0181cc4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/audit_multistate-proof-refutation-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

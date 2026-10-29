@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-a1-completeness-fast-20260925` of the priv
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 927 — closed 237, conditional 0, open 0, proof error 0, not reached 681, no result 9.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `1c76e22b793d6c68bba89ac166eb2f8f0ba856a99612a86f93e5b9a2a0c9c37c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `ce97f7efd36b16020d0cfd49bbb05eaf223e41bd39f94ff5d37369fda07b8ac0`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

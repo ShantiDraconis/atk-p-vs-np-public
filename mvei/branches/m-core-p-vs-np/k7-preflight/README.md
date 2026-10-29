@@ -5,7 +5,7 @@ Lean sources from the branch `k7-preflight` of the private repository `ShantiDra
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 1 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `0db9470ba06f1910b9fc52fc392668e6f58b702e053d49dd4e7c4762091def61`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/k7-preflight/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `8aa5549c3ff9c7e4ad6ff83b00cab570b983f5870c92da67bcef5636f745669a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/k7-preflight/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

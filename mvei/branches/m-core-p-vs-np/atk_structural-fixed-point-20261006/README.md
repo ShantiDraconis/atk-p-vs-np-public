@@ -5,7 +5,7 @@ Lean sources from the branch `atk/structural-fixed-point-20261006` of the privat
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 126 — closed 4, conditional 0, open 0, proof error 0, not reached 122, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `34c31a0b4ff82024c975da865060f4d81099424263a2029e43d2a7c39df0bfc7`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_structural-fixed-point-20261006/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `c61a361201e078c78845dd91a9bcafb61ab182f310c39dff99d70c5d6a6374e3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_structural-fixed-point-20261006/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

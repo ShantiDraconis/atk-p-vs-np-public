@@ -5,7 +5,7 @@ Lean sources from the branch `atk/next-pnp-finite-clock-explicit-coding-20260928
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 43 — closed 20, conditional 0, open 0, proof error 0, not reached 23, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `c5da845f2bb49e32ed679f9dc916711012d4e1f8fee644760cd3618603f6ae1e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_next-pnp-finite-clock-explicit-coding-20260928/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `706e9b69875a3df1a5cefb6e178cb01d13aa1864e553ef1cf46c6ac4e1eec64f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_next-pnp-finite-clock-explicit-coding-20260928/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-verifier-decomposition-20261008` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 6, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `20da9e26ba6c89d7f32e22178fdc3a2ee72347ee0f5618b2a004d3d96527c653`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-verifier-decomposition-20261008/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `aaedadf7a7d971004fd3533ce3718389b34a165fbc196755dd87aebbd6a97a19`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-verifier-decomposition-20261008/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

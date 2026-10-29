@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-exact-bounded-outcome-20260930` of the pri
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 5 — closed 4, conditional 0, open 0, proof error 1, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `725bdecf313e4e25aff50ca9a84689b6ff4084ad60d21212859a90ef5823b2fd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-exact-bounded-outcome-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `2d56d9a06491aa081a1c4709ed86e4ab9acf4d75f81c03bba47bb96b665fd96d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-exact-bounded-outcome-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

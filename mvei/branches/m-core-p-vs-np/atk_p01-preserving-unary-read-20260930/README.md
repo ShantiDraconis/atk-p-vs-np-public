@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-preserving-unary-read-20260930` of the pri
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 6 — closed 2, conditional 0, open 2, proof error 2, not reached 0, no result 0.
 * History: 2 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `9acfedb8ee928a2eafa3b8d8d8bf4b45799714042de32da911c3de1eeaa83387`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-preserving-unary-read-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a721345bc84fa85b50133261d1f39cf998aff993e739eb76a76477f3ed42f9a2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-preserving-unary-read-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

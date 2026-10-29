@@ -1,0 +1,805 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "attack/g3-model-match-only-20260922",
+ "branch_state": "parada",
+ "head_commit": "93e897adc526d50edae9a3a399ac2ea2194b44f0",
+ "head_commit_date": "2026-09-22T10:05:54+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "93e897adc526d50edae9a3a399ac2ea2194b44f0",
+   "date": "2026-09-22T10:05:54+01:00",
+   "subject": "ci: verify additive G3 model-match lane"
+  },
+  {
+   "commit": "7196bacfeec4c7cc3e0388f5a331127f41f269ed",
+   "date": "2026-09-22T10:05:42+01:00",
+   "subject": "p02: formalize exact G3 external model-match closure condition"
+  },
+  {
+   "commit": "f4e2215b65aab2bef2f16b131e3dad7105994aee",
+   "date": "2026-09-22T00:45:28+01:00",
+   "subject": "fix(p01): align rewind invariant with physical tape orientation"
+  },
+  {
+   "commit": "d77d1814c78cb60bf52b4182ca0d05d7f38ef36e",
+   "date": "2026-09-22T00:43:34+01:00",
+   "subject": "fix(p01): preserve work-scan step lemmas in recursive runs"
+  },
+  {
+   "commit": "c2d04bece081a8bcc71cd9792f1f4400d78893c1",
+   "date": "2026-09-22T00:41:44+01:00",
+   "subject": "fix(p01): repair work-scan binder syntax"
+  },
+  {
+   "commit": "0cb40594ecec1eb61d4d9c7f16d536384e53aaaf",
+   "date": "2026-09-22T00:40:28+01:00",
+   "subject": "fix(p01): keep transition hypothesis opaque in step lemma"
+  },
+  {
+   "commit": "8532cad90a2000667c11eef32e2a05e5af650482",
+   "date": "2026-09-22T00:38:54+01:00",
+   "subject": "fix(p01): close recursive payload and input-head composition"
+  },
+  {
+   "commit": "d98340f78c0c10986a81e8f4608c3108b42762f9",
+   "date": "2026-09-22T00:37:17+01:00",
+   "subject": "fix(p01): normalize parser head machine proofs"
+  },
+  {
+   "commit": "ca6c07d3721f0a84f723657531a9897ee607af31",
+   "date": "2026-09-22T00:33:42+01:00",
+   "subject": "fix(p01): repair parser head proof normal forms"
+  },
+  {
+   "commit": "a4a9e1865e4c0df915ecfb4c50f1faead1804e16",
+   "date": "2026-09-22T00:32:29+01:00",
+   "subject": "fix(p01): close unary payload run and halting proofs"
+  },
+  {
+   "commit": "26f3a947888dbf8c6c70d28eb0f5f16c39c82b9a",
+   "date": "2026-09-22T00:21:14+01:00",
+   "subject": "p01: rewrite whole scan-end configuration in initialization proof"
+  },
+  {
+   "commit": "22da59b5d32cc1ba61e2349d9e5cced18edc9f73",
+   "date": "2026-09-22T00:19:53+01:00",
+   "subject": "p01: remove redundant reverse rewrites in init proof"
+  },
+  {
+   "commit": "45b16e1c1485be5f3443106714c5125380457bb9",
+   "date": "2026-09-22T00:18:40+01:00",
+   "subject": "p01: normalize map/reverse explicitly in init proof"
+  },
+  {
+   "commit": "03ed62e006b72fdc8ed5ae1c7b14b445cc6b9660",
+   "date": "2026-09-22T00:17:12+01:00",
+   "subject": "p01: rewrite initialization proof without reverseRecOn"
+  },
+  {
+   "commit": "e94118f5d69f08430429ce29b22b184a69509289",
+   "date": "2026-09-22T00:15:36+01:00",
+   "subject": "p01: fix parser polynomial-bound reflexivity proof"
+  },
+  {
+   "commit": "7137b6d8550b6b19f29004e27556d36b7f97296f",
+   "date": "2026-09-22T00:15:34+01:00",
+   "subject": "p01: close halted branch of TM run-add"
+  },
+  {
+   "commit": "a8f9992484fdac856de178b1c7484123f373e4d7",
+   "date": "2026-09-22T00:14:09+01:00",
+   "subject": "p01: repair slot-log pop decomposition parser syntax"
+  },
+  {
+   "commit": "f1b7e1faf4b8f32fd7ddc7ff5f2cb0c5012f9e03",
+   "date": "2026-09-22T00:14:05+01:00",
+   "subject": "p01: fix TM run composition without sorryAx"
+  },
+  {
+   "commit": "8b2ac359281016ef73f4086ab2aa2db1d004a314",
+   "date": "2026-09-22T00:12:40+01:00",
+   "subject": "ci: cover current work-scan and rewind frontier"
+  },
+  {
+   "commit": "2842fcba86f2a2e9f488b586a45b8b9a2aaa5e4c",
+   "date": "2026-09-22T00:12:37+01:00",
+   "subject": "p01: include work-scan and rewind proofs in umbrella build"
+  },
+  {
+   "commit": "2f7b88b2f93801e331dfdfa811833bbdd57a810d",
+   "date": "2026-09-22T00:10:35+01:00",
+   "subject": "p01: prove Fin25 unread-source rewind phase"
+  },
+  {
+   "commit": "8a35f84c6757894f8c14dfa8572407ce1be0cbf0",
+   "date": "2026-09-22T00:08:34+01:00",
+   "subject": "p01: prove source-to-work and work-end scans for Fin25 parser"
+  },
+  {
+   "commit": "8734c5708d34d1aeaa1f57ce9d172b11038c87fc",
+   "date": "2026-09-22T00:07:20+01:00",
+   "subject": "p01: decompose rightmost active-slot pop"
+  },
+  {
+   "commit": "baaa57e737c332e5c54524e9bbd05261faa153a4",
+   "date": "2026-09-22T00:06:46+01:00",
+   "subject": "p01: normalize head proof to Fin25 continuations"
+  },
+  {
+   "commit": "1d59d524449c100042ba56bacb280cf6f3e25196",
+   "date": "2026-09-22T00:06:43+01:00",
+   "subject": "p01: normalize init proof to Fin25"
+  },
+  {
+   "commit": "d2636eafd0a5f61cea2dfb514172cbf0da7efc0c",
+   "date": "2026-09-22T00:05:56+01:00",
+   "subject": "ci: remove stale Fin31 parser artifacts"
+  },
+  {
+   "commit": "5737ee6afaa8e0708b3a5a1d91257bfd5c293788",
+   "date": "2026-09-22T00:05:47+01:00",
+   "subject": "ci: validate only canonical Fin25 parser chain"
+  },
+  {
+   "commit": "71ebc5485dc8f26b640d7ceecd84075db39be5a1",
+   "date": "2026-09-22T00:05:44+01:00",
+   "subject": "p01: keep Fin25 parser as sole canonical operational chain"
+  },
+  {
+   "commit": "635f09d52793ab00b4aca7bcfa7876c670430b87",
+   "date": "2026-09-22T00:05:40+01:00",
+   "subject": "atk: drop stale Fin31 parser proof imports"
+  },
+  {
+   "commit": "d98a98bcaf28859acf74731e2bb848cc809acd64",
+   "date": "2026-09-22T00:05:37+01:00",
+   "subject": "atk: remove stale Fin31 CanonicalSATRecursiveParserPaths.lean"
+  },
+  {
+   "commit": "4495abf5fc589ace5c5fadafb4c8b63d18947054",
+   "date": "2026-09-22T00:05:34+01:00",
+   "subject": "atk: remove stale Fin31 CanonicalSATParserLogBoundary.lean"
+  },
+  {
+   "commit": "1e6eab79b7c13b0de7674054dad231519f35018f",
+   "date": "2026-09-22T00:05:08+01:00",
+   "subject": "ci: build and audit Fin31 parser init/head proofs"
+  },
+  {
+   "commit": "d79e5d8032043666addff200380501f3399fda34",
+   "date": "2026-09-22T00:04:52+01:00",
+   "subject": "p01: activate Fin31 init and head proofs"
+  },
+  {
+   "commit": "b984b4a1c7a4b12b21c509e10fae3ca31bd4a58d",
+   "date": "2026-09-22T00:04:50+01:00",
+   "subject": "p01: port exact head-consumption proof to Fin31"
+  },
+  {
+   "commit": "f4e549b452f220263fbeb99347a2bcb88fd89d36",
+   "date": "2026-09-22T00:04:46+01:00",
+   "subject": "p01: port exact parser initialization proof to Fin31"
+  },
+  {
+   "commit": "fcf73683781b0bb794dfd8ff20de2067bcc28c2d",
+   "date": "2026-09-22T00:04:24+01:00",
+   "subject": "fix: prove physical slot-log push run explicitly"
+  },
+  {
+   "commit": "dde502585d5aec5bcd1353c32c84b8c8f21db7ad",
+   "date": "2026-09-22T00:04:08+01:00",
+   "subject": "p01: fix Fin25 head continuation states"
+  },
+  {
+   "commit": "f6b33a5cce772b85c2d8558aaefd0d7307d5ae8c",
+   "date": "2026-09-22T00:03:39+01:00",
+   "subject": "p01: repoint CanonicalSATRecursiveParserSimulation.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "bf1410ccad763da32d97bc40a75731111ad121be",
+   "date": "2026-09-22T00:03:37+01:00",
+   "subject": "p01: repoint CanonicalSATParserHeadProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "d76fecc98143c1469a026d6ac3cb277eb9542ef1",
+   "date": "2026-09-22T00:03:31+01:00",
+   "subject": "ci: consolidate P01 parser audit on Fin31 simulation"
+  },
+  {
+   "commit": "389c06c3743f2efa23dc3193e4e7fe6880a44624",
+   "date": "2026-09-22T00:03:28+01:00",
+   "subject": "p01: stabilize parser boundary on canonical Fin31 machine"
+  },
+  {
+   "commit": "55ec0c88380e92ec7293764102b6e9111cdcadda",
+   "date": "2026-09-22T00:03:25+01:00",
+   "subject": "fix: stabilize slot-log push proof on current head"
+  },
+  {
+   "commit": "611618c3d7a5c220925b93ee1a8e398568a7d55f",
+   "date": "2026-09-22T00:03:25+01:00",
+   "subject": "p01: repoint CanonicalSATParserInitProof.lean to canonical Fin25 parser"
+  },
+  {
+   "commit": "39ff9aa581d6e4df6d5c7de7ffdd6d1cfaf6f385",
+   "date": "2026-09-22T00:03:15+01:00",
+   "subject": "p01: simplify canonical parser to Fin25 net-slot machine"
+  },
+  {
+   "commit": "8be8208d576e174b9d5bf4320ec5b7f29898bd56",
+   "date": "2026-09-22T00:02:45+01:00",
+   "subject": "p01: port parser path proofs to canonical Fin31 machine"
+  },
+  {
+   "commit": "fad135440c0848d39fc1da8cc4b83e231ed43a2f",
+   "date": "2026-09-22T00:02:42+01:00",
+   "subject": "p01: port parser boundary initialization to canonical Fin31 machine"
+  },
+  {
+   "commit": "a87e1fe37e03c493d35c6428f4d1773ad0c55760",
+   "date": "2026-09-22T00:02:38+01:00",
+   "subject": "fix: prove slot-log push run by explicit finite-control induction"
+  },
+  {
+   "commit": "495d1eb6d385d7cd1034be62ec739311d2920ee7",
+   "date": "2026-09-22T00:01:50+01:00",
+   "subject": "p01: specialize parser initialization proof to canonical bit tapes"
+  },
+  {
+   "commit": "d40fe197b23104ceead5ca3ce1ff5025b0c072f2",
+   "date": "2026-09-22T00:00:44+01:00",
+   "subject": "p01: prove exact Fin31 constructor-head consumption"
+  },
+  {
+   "commit": "4f530eaa855ed3b7fd2e1810b76820bfdd922776",
+   "date": "2026-09-22T00:00:30+01:00",
+   "subject": "fix: close parser polynomial bound with reflexive order proof"
+  },
+  {
+   "commit": "ad45a34431fabe8d93d5383ac12ce76bb87375ff",
+   "date": "2026-09-22T00:00:27+01:00",
+   "subject": "fix: avoid reserved prefix identifier in slot-log machines"
+  },
+  {
+   "commit": "f395591f8ba795c7368cbde95c29bcbd8df35bac",
+   "date": "2026-09-22T00:00:04+01:00",
+   "subject": "p01: reuse shared TM run lemmas in initialization proof"
+  },
+  {
+   "commit": "4bf81ac6bed696be5e3d59cabb389066974dde96",
+   "date": "2026-09-21T23:59:56+01:00",
+   "subject": "p01: add generic TM run composition and halt monotonicity lemmas"
+  },
+  {
+   "commit": "2fe79a0f6513ccce7cf1081ebdcb367e6ba84f80",
+   "date": "2026-09-21T23:59:33+01:00",
+   "subject": "fix: close empty slot-log append case"
+  },
+  {
+   "commit": "b949a4086700c509d0056bc025d8d25027b94606",
+   "date": "2026-09-21T23:59:19+01:00",
+   "subject": "p01: internalize TM run-add lemma for initialization proof"
+  },
+  {
+   "commit": "157b96644061c91a219d353065179fc0068c9d43",
+   "date": "2026-09-21T23:59:07+01:00",
+   "subject": "ci: build parser initialization simulation"
+  },
+  {
+   "commit": "5701bbb8f4be5b10c1d7409bf417f1e8717a5961",
+   "date": "2026-09-21T23:59:04+01:00",
+   "subject": "p01: activate parser initialization simulation"
+  },
+  {
+   "commit": "33f4a6e0fd0873f717ec04ff070f3977ac41708e",
+   "date": "2026-09-21T23:59:01+01:00",
+   "subject": "fix: close empty slot-log append base case"
+  },
+  {
+   "commit": "3ae98dd1ed39b8fbc2ba21d33f8e99829f2aad2d",
+   "date": "2026-09-21T23:58:59+01:00",
+   "subject": "p01: prove Fin31 parser scan and rewind initialization"
+  },
+  {
+   "commit": "cc5f1bf062373628522e788e5d907f26eb9477d6",
+   "date": "2026-09-21T23:58:53+01:00",
+   "subject": "p01: prove canonical parser initialization to one-slot boundary"
+  },
+  {
+   "commit": "aad9ea8b888554181f78040399e9294b269a8900",
+   "date": "2026-09-21T23:58:01+01:00",
+   "subject": "ci: build and audit recursive parser path proofs"
+  },
+  {
+   "commit": "486e928c13bdfae026ee110e581daff6717b3b5c",
+   "date": "2026-09-21T23:57:58+01:00",
+   "subject": "p01: activate recursive parser path proofs"
+  },
+  {
+   "commit": "7feb8df44db1f4bbfa2de8da8efa33f83285a87c",
+   "date": "2026-09-21T23:57:47+01:00",
+   "subject": "ci: repair recursive parser axiom audit"
+  },
+  {
+   "commit": "8d845f7181a81548644211a09e7b3b4e192fcc19",
+   "date": "2026-09-21T23:57:10+01:00",
+   "subject": "fix: prove slot-log append and push counts structurally"
+  },
+  {
+   "commit": "bc54ca2c9ccc3d71ffc1e063b1c98fec633d95f4",
+   "date": "2026-09-21T23:57:00+01:00",
+   "subject": "fix: close canonical slot-accept proof by exact simulation lemma"
+  },
+  {
+   "commit": "3c89e8adb1cc5c9dd4638034b172da0a850c8ea3",
+   "date": "2026-09-21T23:56:52+01:00",
+   "subject": "ci: canonicalize parser/P02 audit targets"
+  },
+  {
+   "commit": "818fb717e25613948aed4c150a119da78a7f4471",
+   "date": "2026-09-21T23:56:50+01:00",
+   "subject": "atk: canonicalize Fin31 parser and P02 terminal imports"
+  },
+  {
+   "commit": "c837263570e99e69ef0bf80418e64ff4f5697fa7",
+   "date": "2026-09-21T23:56:35+01:00",
+   "subject": "atk: remove superseded P02ExactFrontier.lean"
+  },
+  {
+   "commit": "3a710c04696a8bb006645587cbe1ee2923e63b64",
+   "date": "2026-09-21T23:56:32+01:00",
+   "subject": "atk: remove superseded CanonicalSATRecursiveParserMachine.lean"
+  },
+  {
+   "commit": "91bb007814d2557ea48c6d798aacdaca8418042a",
+   "date": "2026-09-21T23:56:29+01:00",
+   "subject": "p01: repoint simulation frontier to canonical Fin31 parser"
+  },
+  {
+   "commit": "b36f91a1cd9232bb89f27dc020a62f324640b11d",
+   "date": "2026-09-21T23:56:17+01:00",
+   "subject": "p01: prove finite-control parser tag and unary payload paths"
+  },
+  {
+   "commit": "4ae22a59ac168af0d26843d7858807c009e9faf5",
+   "date": "2026-09-21T23:55:14+01:00",
+   "subject": "fix: prove parser boundary padding and delimiter read structurally"
+  },
+  {
+   "commit": "151b584f8b3e0e92c17c532d35e2c2799cecd6ff",
+   "date": "2026-09-21T23:55:11+01:00",
+   "subject": "fix: make slot parser canonical proofs structural"
+  },
+  {
+   "commit": "75d2c6376dde3854ae553b0ec9ac1c9488c11943",
+   "date": "2026-09-21T23:54:23+01:00",
+   "subject": "ci: include parser simulation frontier"
+  },
+  {
+   "commit": "fae869328e488208f7c3de1b021b933fd505c93a",
+   "date": "2026-09-21T23:54:19+01:00",
+   "subject": "p01: activate exact parser simulation frontier"
+  },
+  {
+   "commit": "5b760875f178b752bc9eef49e70f596dc5d4dff0",
+   "date": "2026-09-21T23:54:10+01:00",
+   "subject": "p01: reduce parser closure to exact slot-machine simulation"
+  },
+  {
+   "commit": "c808914816eccd388094cfedd5c3cb3bd0ed73c7",
+   "date": "2026-09-21T23:52:50+01:00",
+   "subject": "ci: build parser machine source and exact P02 frontier"
+  },
+  {
+   "commit": "56e38b6fa70cc4dcef2aa20e09e2733a69211986",
+   "date": "2026-09-21T23:52:35+01:00",
+   "subject": "ci: build and audit exact P02 terminal frontier"
+  },
+  {
+   "commit": "afea5cbd80f2b20476832a1cfeaadf7496a7fda6",
+   "date": "2026-09-21T23:52:34+01:00",
+   "subject": "atk: activate complete parser machine source and exact P02 frontier"
+  },
+  {
+   "commit": "118e5405c39787364502c2dcfca68c3e2e5dcdc7",
+   "date": "2026-09-21T23:52:32+01:00",
+   "subject": "p02: activate exact terminal lower-bound frontier"
+  },
+  {
+   "commit": "18c9353bf5d191b4548b8e9e0688832c47caf152",
+   "date": "2026-09-21T23:52:25+01:00",
+   "subject": "ci: expose targeted P01 gate on pull requests"
+  },
+  {
+   "commit": "094abeeb46e2e084d0df3bd1f78a96bd9fa151ac",
+   "date": "2026-09-21T23:52:22+01:00",
+   "subject": "p02: isolate exact universal deterministic lower-bound terminal"
+  },
+  {
+   "commit": "4c3edc3fbc54ede742b28f736a60b6f558473bc8",
+   "date": "2026-09-21T23:52:13+01:00",
+   "subject": "fix: orient unary blank-replicate induction"
+  },
+  {
+   "commit": "d3653b84df0b2e9128040e285e3328a908162b28",
+   "date": "2026-09-21T23:52:11+01:00",
+   "subject": "fix: orient canonical encoding injectivity proof"
+  },
+  {
+   "commit": "b7d561c82588eb4811000de9756a54c65ad96ec1",
+   "date": "2026-09-21T23:51:42+01:00",
+   "subject": "ci: build and audit complete finite-control parser machine candidate"
+  },
+  {
+   "commit": "acda3a57421528a0d8e541bc5b0b14aa994364d9",
+   "date": "2026-09-21T23:51:39+01:00",
+   "subject": "p01: activate complete finite-control parser machine candidate"
+  },
+  {
+   "commit": "b67721491ab9d3f3fe0e0556e8a09a181b1edb1a",
+   "date": "2026-09-21T23:51:20+01:00",
+   "subject": "p01: implement complete finite-control parser machine candidate"
+  },
+  {
+   "commit": "5f7d9fbafee2da9a3c590bee253f9635bfc576e1",
+   "date": "2026-09-21T23:51:10+01:00",
+   "subject": "fix: close unary payload blank-list and halt proofs"
+  },
+  {
+   "commit": "dc985751e746bc7aeeee4843c02010084e7a349d",
+   "date": "2026-09-21T23:51:07+01:00",
+   "subject": "fix: remove unavailable Function.Injective alias"
+  },
+  {
+   "commit": "7b015206f348a29bff4d07efb597280132a686bb",
+   "date": "2026-09-21T23:50:50+01:00",
+   "subject": "p01: define complete Fin25 single-tape recursive parser machine"
+  },
+  {
+   "commit": "6748af53d2aa9f554f647d45a3d303f37da02bfa",
+   "date": "2026-09-21T23:49:09+01:00",
+   "subject": "ci: build and audit slot-log tape machines"
+  },
+  {
+   "commit": "af1b51232836208a48ba731da1d1992778793d84",
+   "date": "2026-09-21T23:49:07+01:00",
+   "subject": "p01: activate slot-log tape machines"
+  },
+  {
+   "commit": "9b3ac7772de7f291d11d63370dfed547afb6d75a",
+   "date": "2026-09-21T23:48:52+01:00",
+   "subject": "p01: implement finite-control slot-log push/pop machines"
+  },
+  {
+   "commit": "ef89f6a29c29223e5442b14a6e59304ac0b1c47d",
+   "date": "2026-09-21T23:48:30+01:00",
+   "subject": "p02: pin exact universal SAT lower-bound terminal target"
+  },
+  {
+   "commit": "80fbfce82e3ef09e89a2df317e18ec4f8c20c645",
+   "date": "2026-09-21T23:45:18+01:00",
+   "subject": "ci: build and audit tombstone slot-log semantics"
+  },
+  {
+   "commit": "d012c2fb43d98be9a17442d6a6f2d609a83f34e8",
+   "date": "2026-09-21T23:45:14+01:00",
+   "subject": "p01: activate tombstone slot-log semantics"
+  },
+  {
+   "commit": "9f9199f0332d7cf45815c61ae0b503e304672733",
+   "date": "2026-09-21T23:45:00+01:00",
+   "subject": "p01: replace compacted unary counter with tombstone slot log"
+  },
+  {
+   "commit": "28e1f452b8fbf7e67fc5952cf618768b24ce1f89",
+   "date": "2026-09-21T23:43:33+01:00",
+   "subject": "ci: build and audit parser layout initializer"
+  },
+  {
+   "commit": "8dc9d9ecf61e288e8d9a9059574c231ff21f6ac1",
+   "date": "2026-09-21T23:43:30+01:00",
+   "subject": "p01: activate parser tape layout and initializer"
+  },
+  {
+   "commit": "f8b87b01b56dcbdf37bac27d28208fc7f2dbda14",
+   "date": "2026-09-21T23:43:07+01:00",
+   "subject": "p01: implement finite-control parser tape initializer"
+  },
+  {
+   "commit": "fd65aafa68ca37f04bec60b0c078894d4e8c330a",
+   "date": "2026-09-21T23:42:26+01:00",
+   "subject": "p01: formalize single-tape parser boundary and unary slot layout"
+  },
+  {
+   "commit": "ab8325289e4f69ec79943a549ba295535c75b6b7",
+   "date": "2026-09-21T23:41:54+01:00",
+   "subject": "ci: build and audit finite-control tag consumer"
+  },
+  {
+   "commit": "7aaf973d3dd6cc3bbf55a86aeed9a44e86fa363e",
+   "date": "2026-09-21T23:41:50+01:00",
+   "subject": "p01: activate finite-control tag consumer"
+  },
+  {
+   "commit": "440c9a32909fa7b6227bd57ec20d8974a0927034",
+   "date": "2026-09-21T23:40:48+01:00",
+   "subject": "p01: implement finite-control canonical tag consumer"
+  },
+  {
+   "commit": "ea195e40d9dcd5ccebe754d3a960aa5650015fe6",
+   "date": "2026-09-21T23:40:03+01:00",
+   "subject": "ci: build and audit finite-control variable payload consumer"
+  },
+  {
+   "commit": "5d7098febbc1e38c6156f64a7cef788bc3ecbb6f",
+   "date": "2026-09-21T23:40:01+01:00",
+   "subject": "p01: activate finite-control variable payload consumer"
+  },
+  {
+   "commit": "f433f224f2f2e5334efc94a5b6c0a8341eba211a",
+   "date": "2026-09-21T23:39:38+01:00",
+   "subject": "p01: implement finite-control unary variable payload consumer"
+  },
+  {
+   "commit": "15748f5cad1a5d5eadc2977d2f6076ff75c98e21",
+   "date": "2026-09-21T23:35:23+01:00",
+   "subject": "ci: audit exact slot-parser decoder equivalence"
+  },
+  {
+   "commit": "c9f71740d28b4909590f7c1a3eb7c475332544fe",
+   "date": "2026-09-21T23:35:11+01:00",
+   "subject": "p01: prove slot parser soundness and exact decoder equivalence"
+  },
+  {
+   "commit": "82fb27251a7c32777e994ea92e4c9bc23b1840f6",
+   "date": "2026-09-21T23:33:04+01:00",
+   "subject": "ci: include full P01 frontier in fail-closed hygiene"
+  },
+  {
+   "commit": "688657aba3312add42284d3d97bb839559f9fd66",
+   "date": "2026-09-21T23:30:10+01:00",
+   "subject": "ci: build and audit P01 slot parser spec"
+  },
+  {
+   "commit": "d82d3f1a52d17a02638d0d8590480b1f1f0670e3",
+   "date": "2026-09-21T23:30:03+01:00",
+   "subject": "p01: activate slot parser spec in umbrella build"
+  },
+  {
+   "commit": "b82cd47d268815bf65402382d5aa3e8a115443af",
+   "date": "2026-09-21T23:29:52+01:00",
+   "subject": "p01: add prefix-tree slot recognizer and canonical completeness"
+  },
+  {
+   "commit": "dfbeb18b7067aaf5c29634833b7b3b0ea95bb775",
+   "date": "2026-09-21T23:28:18+01:00",
+   "subject": "ci: audit exact canonical decoder inverse"
+  },
+  {
+   "commit": "e11b5ecda7d2092b0e856de706ab392bcf5112a4",
+   "date": "2026-09-21T23:28:16+01:00",
+   "subject": "p01: activate canonical decoder inverse in umbrella build"
+  },
+  {
+   "commit": "9fadd0a2bc51e09d703bcb54fd100b96313fe611",
+   "date": "2026-09-21T23:28:01+01:00",
+   "subject": "p01: reduce parser correctness to exact canonical-encoding recognition"
+  },
+  {
+   "commit": "f47f786708bf1bc5da0da0e41c2ead2aa4369750",
+   "date": "2026-09-21T23:27:37+01:00",
+   "subject": "p01: prove exact inverse of canonical circuit decoding"
+  },
+  {
+   "commit": "3ab811a9561e3eda2cb67d77c8bed1b6cfd35e98",
+   "date": "2026-09-21T23:02:26+01:00",
+   "subject": "ci: wire P01 frontier and expected-open runner"
+  },
+  {
+   "commit": "482b5ab29109a86cca272554256748d6a4ccd2ff",
+   "date": "2026-09-21T23:02:23+01:00",
+   "subject": "p01: activate recursive finite-control frontier in umbrella build"
+  },
+  {
+   "commit": "af7e8e034c2b7aee34577e91de5e87a07752b969",
+   "date": "2026-09-21T23:02:10+01:00",
+   "subject": "p01: document exact final certificate boundary"
+  },
+  {
+   "commit": "6d6f276ea0c132cc0f7e22f6878e79398366da9b",
+   "date": "2026-09-21T23:02:08+01:00",
+   "subject": "p01: add frame machine kernel audit"
+  },
+  {
+   "commit": "c08042a2668b0af1c183341f36b5affc08123df0",
+   "date": "2026-09-21T23:02:05+01:00",
+   "subject": "p01: add Lean source hygiene audit"
+  },
+  {
+   "commit": "b1f4554db37fd235ccb34604153dad4ce83a56b0",
+   "date": "2026-09-21T23:02:03+01:00",
+   "subject": "p01: add fail-closed certificate runner"
+  },
+  {
+   "commit": "a01bf98361a7a8803e14a92aa9b0a016ddb69f77",
+   "date": "2026-09-21T23:00:58+01:00",
+   "subject": "p01: formalize recursive finite-control frontier without weakening"
+  },
+  {
+   "commit": "0c89ecaca4449e1b551970a13a38f4e4d3d55a9a",
+   "date": "2026-09-21T22:54:54+01:00",
+   "subject": "ci: validate clean P01 operational chain"
+  },
+  {
+   "commit": "a9e94da1868399ce03662f115fee5bf579aa861d",
+   "date": "2026-09-21T22:40:41+01:00",
+   "subject": "atk: activate P01 concrete frame-machine source"
+  },
+  {
+   "commit": "9e04e4e5dd909361b5267a801c538f111e3db5d5",
+   "date": "2026-09-21T22:40:33+01:00",
+   "subject": "atk: port P01 frame-machine source: CanonicalSATFrameMachineV2.lean"
+  },
+  {
+   "commit": "57841bde72eed90a88caf1fff7372db67b894523",
+   "date": "2026-09-21T22:40:30+01:00",
+   "subject": "atk: port P01 frame-machine source: CanonicalSATFrameAttack.lean"
+  },
+  {
+   "commit": "0c831fbde24157b62b6206759ef97768d834d657",
+   "date": "2026-09-21T22:40:26+01:00",
+   "subject": "atk: port P01 frame-machine source: CanonicalSATNatParserAttack.lean"
+  },
+  {
+   "commit": "a6efaee78d93de29a39acebd7ba302db906625a0",
+   "date": "2026-09-21T22:36:33+01:00",
+   "subject": "atk: activate recovered P01 component failproof"
+  },
+  {
+   "commit": "f6123e8177037a9f2ec502a513f343bde7965159",
+   "date": "2026-09-21T22:36:26+01:00",
+   "subject": "atk: recover certified P01 failproof: P01ComponentFailProof.lean"
+  },
+  {
+   "commit": "20997f1a5bb1af59fe9ae98b944060f4b7f9e474",
+   "date": "2026-09-21T22:36:24+01:00",
+   "subject": "atk: recover certified P01 failproof: CanonicalSATParserAttack.lean"
+  },
+  {
+   "commit": "6e5a7e0f4908040b18407d6ad20f7a7e9acc934a",
+   "date": "2026-09-21T22:36:21+01:00",
+   "subject": "atk: recover certified P01 failproof: CanonicalSATNTMAttack.lean"
+  },
+  {
+   "commit": "92d9c4835bea653c89c47beea8011a71b1c3f2d1",
+   "date": "2026-09-21T22:36:10+01:00",
+   "subject": "atk: activate recovered P01 verified relation"
+  },
+  {
+   "commit": "e273f0f076dafd6eec40fb0479cc0b594131b051",
+   "date": "2026-09-21T22:36:04+01:00",
+   "subject": "atk: recover certified P01 verified relation"
+  },
+  {
+   "commit": "4d41ce1a88c580b329708cc7917b59b0dfaf739f",
+   "date": "2026-09-21T22:35:31+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalSATVerifier.lean"
+  },
+  {
+   "commit": "5b038199baa841a32af8732d62afbcd1f5477fa9",
+   "date": "2026-09-21T22:35:29+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalSATWitness.lean"
+  },
+  {
+   "commit": "bdb516d12a2d6ce7593477dda0e44356789f358c",
+   "date": "2026-09-21T22:35:26+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalCircuitBits.lean"
+  },
+  {
+   "commit": "cfad9a32c3f15a33d0de8e9ba8415ec13a4b5308",
+   "date": "2026-09-21T22:35:24+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalSATBoundary.lean"
+  },
+  {
+   "commit": "3a6d898ae76dc6a8ed2a19cb4795f820889c617c",
+   "date": "2026-09-21T22:35:22+01:00",
+   "subject": "atk: recover certified P01 verified prefix: FailProofAllGaps.lean"
+  },
+  {
+   "commit": "8d20de15ba2a9374d68a30e8171335c1101cfb97",
+   "date": "2026-09-21T22:35:19+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CanonicalFinalProof.lean"
+  },
+  {
+   "commit": "0a0b50119d144e44c7b92aee598d39e5268332a1",
+   "date": "2026-09-21T22:35:17+01:00",
+   "subject": "atk: recover certified P01 verified prefix: SATMachine.lean"
+  },
+  {
+   "commit": "4356673461c281d212e94a3ef67a485bdd27b01d",
+   "date": "2026-09-21T22:35:15+01:00",
+   "subject": "atk: recover certified P01 verified prefix: Semantics.lean"
+  },
+  {
+   "commit": "19ccda1ef5c6598867104546d0b95c0467b6d90c",
+   "date": "2026-09-21T22:35:12+01:00",
+   "subject": "atk: recover certified P01 verified prefix: Model.lean"
+  },
+  {
+   "commit": "edce9ddeef30cf10fc81d100b4f7f12b0c6ce412",
+   "date": "2026-09-21T22:35:10+01:00",
+   "subject": "atk: recover certified P01 verified prefix: CNFStructure.lean"
+  },
+  {
+   "commit": "9c0e4e6de3f3d899ee55b2f945a91d37e4cf34e3",
+   "date": "2026-09-21T22:19:29+01:00",
+   "subject": "atk: wire clean material orientation attack"
+  },
+  {
+   "commit": "969408f2d84121667319da04680893dd2978e9a6",
+   "date": "2026-09-19T10:47:29+02:00",
+   "subject": "ci: rebuild material orientation dependencies after clean"
+  },
+  {
+   "commit": "c3f665dd5a0fc84024d6adeaa0958ba051946c6f",
+   "date": "2026-09-19T10:45:53+02:00",
+   "subject": "ci: compile and audit material P-vs-NP orientation kernel"
+  },
+  {
+   "commit": "a90e7a652ea187561741c2001bed116e31b06578",
+   "date": "2026-09-19T10:45:35+02:00",
+   "subject": "attack: require material orientation beyond excluded middle"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P02G3ExternalModel.g3_statement_iff_closure_condition",
+   "file": "lean/MCore/Real/P02G3ExternalModel.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(officialP officialNP : BitLanguage → Prop) : G3Statement officialP officialNP ↔ G3ClosureCondition officialP officialNP"
+  },
+  {
+   "name": "MCore.Real.P02G3ExternalModel.g3_transfers_internal_separation",
+   "file": "lean/MCore/Real/P02G3ExternalModel.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "{officialP officialNP : BitLanguage → Prop} (hG3 : G3Statement officialP officialNP) (hInternal : PneqNP) : OfficialPneqNP officialP officialNP"
+  }
+ ],
+ "closed": 2,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P02G3ExternalModel.lean": "bab8dfe1332f12278db06d8a3d51c982a1ea7d11c391ab4dfe0e1338cb5e9f97",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:30Z",
+ "certificate_sha256": "50aee3a1ff5b22c4f34dc95444447f1e9d7a19276a87820bb66c0477c775f4b7"
+}

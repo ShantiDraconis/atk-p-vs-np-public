@@ -28,7 +28,14 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 | m-core-p-vs-np | `atk/p01-exact-bounded-outcome-20260930` | 2026-10-01 | parada | 4 / 5 | 116 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-exact-bounded-outcome-20260930/README.md) |
 | m-core-p-vs-np | `atk/p01-exact-consumption-certificate-20260930` | 2026-10-01 | parada | 3 / 9 | 106 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-exact-consumption-certificate-20260930/README.md) |
 | m-core-p-vs-np | `atk/p01-seq-runbranches-20260929` | 2026-09-29 | parada | 3 / 6 | 14 | 1 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-seq-runbranches-20260929/README.md) |
+| m-core-p-vs-np | `k7-PNP` | 2026-09-15 | parada | 3 / 3 | 13 | 2 | [certificate](../mvei/branches/m-core-p-vs-np/k7-PNP/README.md) |
+| m-core-p-vs-np | `k7-preflight` | 2026-09-15 | parada | 3 / 3 | 13 | 1 | [certificate](../mvei/branches/m-core-p-vs-np/k7-preflight/README.md) |
 | m-core-p-vs-np | `atk/p01-exact-rebuild-clean-20260930` | 2026-10-01 | parada | 2 / 39 | 45 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-exact-rebuild-clean-20260930/README.md) |
 | m-core-p-vs-np | `red/C8-3394f470` | 2026-09-17 | incorporada | 2 / 9 | 19 | 0 | [certificate](../mvei/branches/m-core-p-vs-np/red_C8-3394f470/README.md) |
 | m-core-p-vs-np | `atk/p01-preserving-unary-read-20260930` | 2026-09-30 | parada | 2 / 6 | 64 | 2 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-preserving-unary-read-20260930/README.md) |
+| m-core-p-vs-np | `attack/g3-model-match-only-20260922` | 2026-09-22 | parada | 2 / 2 | 15 | 149 | [certificate](../mvei/branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/README.md) |
 | m-core-p-vs-np | `work/C9-two-channel-bridge` | 2026-09-18 | parada | 1 / 29 | 29 | 9 | [certificate](../mvei/branches/m-core-p-vs-np/work_C9-two-channel-bridge/README.md) |
+| m-core-p-vs-np | `atk/p02-lane4-terminal-densify-20261003` | 2026-10-04 | parada | 1 / 4 | 163 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p02-lane4-terminal-densify-20261003/README.md) |
+| m-core-p-vs-np | `atk/falsified-terminal-inhabitants-20260930` | 2026-09-30 | parada | 1 / 3 | 105 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_falsified-terminal-inhabitants-20260930/README.md) |
+| m-core-p-vs-np | `red/C11-aa8b19a1` | 2026-09-18 | parada | 1 / 3 | 32 | 3 | [certificate](../mvei/branches/m-core-p-vs-np/red_C11-aa8b19a1/README.md) |
+| m-core-p-vs-np | `atk/p01-preserving-input-reader-20260930` | 2026-09-30 | parada | 1 / 2 | 64 | 3 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-preserving-input-reader-20260930/README.md) |

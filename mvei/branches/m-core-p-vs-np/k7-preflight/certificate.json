@@ -1,0 +1,71 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "k7-preflight",
+ "branch_state": "parada",
+ "head_commit": "f4030cd7ea4cdb962bf7f9bf0bd4b1df35a3cc9a",
+ "head_commit_date": "2026-09-15T20:10:57+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "f4030cd7ea4cdb962bf7f9bf0bd4b1df35a3cc9a",
+   "date": "2026-09-15T20:10:57+02:00",
+   "subject": "K7 preflight: freeze P versus NP specification without promotion"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.k7_spec_not_certified",
+   "file": "lean/MCore/K7.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ Nonempty (ProofCertificate k7_spec_node)"
+  },
+  {
+   "name": "MCore.k7_spec_not_proved",
+   "file": "lean/MCore/K7.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": k7_spec_node.status ≠ .provedProperty"
+  },
+  {
+   "name": "MCore.k7_spec_status_openBridge",
+   "file": "lean/MCore/K7.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": k7_spec_node.status = .openBridge"
+  }
+ ],
+ "closed": 3,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "7af4b7d96983d7f4a2601c99456d5a1c803770942f8a5532cc6130ff01fdd29d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "f5f310423d325f2ee28b3a7d6ff9efe07389cb5bd53e6135d77ad6ebd85af7f3",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:29Z",
+ "certificate_sha256": "0db9470ba06f1910b9fc52fc392668e6f58b702e053d49dd4e7c4762091def61"
+}

@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T19:11:15+00:00",
+  "generated_at": "2026-10-28T23:56:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1846,6 +1846,6 @@
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-28T19:19:19Z",
- "certificate_sha256": "da9da643b927e7fefe6d6962b5d3c22abde07d366b741bfb1269d6b7971c12a1"
+ "published_at": "2026-10-29T01:37:21Z",
+ "certificate_sha256": "d451068c3fec626be3b9c97f8710c91ae176c37970680dec5ce18f4b54d2d539"
 }

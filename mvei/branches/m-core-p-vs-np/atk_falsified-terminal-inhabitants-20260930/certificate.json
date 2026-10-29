@@ -1,0 +1,1660 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/falsified-terminal-inhabitants-20260930",
+ "branch_state": "parada",
+ "head_commit": "400019e9b98d4e2ee79d80ddd54bb36f781db0ad",
+ "head_commit_date": "2026-09-30T17:08:34+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "400019e9b98d4e2ee79d80ddd54bb36f781db0ad",
+   "date": "2026-09-30T17:08:34+02:00",
+   "subject": "ATK FALSIFIED: verify terminal mock closes only via injected axiom"
+  },
+  {
+   "commit": "4df559c5be0c9e0e434f6ab74c50b0c7777dc5c7",
+   "date": "2026-09-30T17:07:15+02:00",
+   "subject": "ATK FALSIFIED: inject exact terminal inhabitant for propagation test"
+  },
+  {
+   "commit": "9edb300de335afe58eb4f7cb195bfb41dfdf79dd",
+   "date": "2026-09-30T13:55:27+02:00",
+   "subject": "ATK: add minimal terminal auto-compose workflow"
+  },
+  {
+   "commit": "0f0ce20d6ddb4cc398e5ffe904263ec211e81366",
+   "date": "2026-09-30T13:55:25+02:00",
+   "subject": "ATK: proof-first composition on terminal branch"
+  },
+  {
+   "commit": "6263785f94538a9324b4b23607a2cb1181ec5bc2",
+   "date": "2026-09-30T12:23:11+02:00",
+   "subject": "fix(p01): close terminal Boolean acceptance split"
+  },
+  {
+   "commit": "cd34dcfa1fb1e935a3d1cf502fae403a369a77a2",
+   "date": "2026-09-30T12:20:02+02:00",
+   "subject": "fix(p01): keep direct inhabitant proof independent of budget scaffold"
+  },
+  {
+   "commit": "f0eb299aed0483698c99f902533fcb6f1208cc95",
+   "date": "2026-09-30T12:19:37+02:00",
+   "subject": "feat(p01): prove exact canonical acceptance on direct inhabitant lane"
+  },
+  {
+   "commit": "0e6c1dc5fdeca3f29e8883eebe1c732f4bcb9da6",
+   "date": "2026-09-30T12:15:00+02:00",
+   "subject": "ci(p01): audit direct verifier inhabitant attack"
+  },
+  {
+   "commit": "d808d949d75f8ea7f9ea48ce576757cc3bfffc6a",
+   "date": "2026-09-30T12:14:47+02:00",
+   "subject": "feat(p01): attack verifier inhabitant directly via total canonical termination"
+  },
+  {
+   "commit": "d2dce380e895417643216b27f5b79a6a514de22b",
+   "date": "2026-09-30T12:03:11+02:00",
+   "subject": "feat(p01): add global cubic checked-verifier budget"
+  },
+  {
+   "commit": "f482fdd1624b0492d8400b68bcb01e540c25df3e",
+   "date": "2026-09-30T12:01:28+02:00",
+   "subject": "fix(p01): bound checked push fuel from exact linear formula"
+  },
+  {
+   "commit": "d9a7b41c5728257f05119aee373323767d1bd5ab",
+   "date": "2026-09-30T12:01:00+02:00",
+   "subject": "feat(p01): bound checked evaluator local fuels"
+  },
+  {
+   "commit": "4ab2502326febb19576b700e143ce6f2cb64f5c0",
+   "date": "2026-09-30T11:58:20+02:00",
+   "subject": "fix(p01): combine input-tag budget from explicit prefix bound"
+  },
+  {
+   "commit": "66b9dbf978154691ebde710b5a9dbe49b8eccd32",
+   "date": "2026-09-30T11:56:53+02:00",
+   "subject": "fix(p01): prove runtime envelopes without nlinarith"
+  },
+  {
+   "commit": "a54caf16abde2a2a69f121caffc59199cabf69b6",
+   "date": "2026-09-30T11:55:33+02:00",
+   "subject": "fix(p01): correct consumed bounds in checked verifier budget"
+  },
+  {
+   "commit": "6f9c0077a2d2de15be102d8c7deab74a22720f89",
+   "date": "2026-09-30T11:54:53+02:00",
+   "subject": "build(p01): kernel-check checked verifier budget"
+  },
+  {
+   "commit": "82ae1e2736eeba6bc0e46380ecb4a641ea8f42c1",
+   "date": "2026-09-30T11:54:42+02:00",
+   "subject": "fix(p01): separate core and full checked-step envelopes"
+  },
+  {
+   "commit": "64379600c747113dd791a59ec39b63bf0a61e413",
+   "date": "2026-09-30T11:54:08+02:00",
+   "subject": "feat(p01): add uniform checked verifier runtime envelopes"
+  },
+  {
+   "commit": "4c82e850dec88692575a7dfeddb394f5f3c6b3e4",
+   "date": "2026-09-30T11:49:49+02:00",
+   "subject": "fix(p01): use exact frame-pop state constructors in determinism proof"
+  },
+  {
+   "commit": "be9c0a715a7dd878e72058e785d46d1a2853ca5e",
+   "date": "2026-09-30T11:49:22+02:00",
+   "subject": "fix(p01): use real frame-pop constructors in determinism proof"
+  },
+  {
+   "commit": "9c1d9949245f1ee44b5d3e5a51e4854ac71e4fb7",
+   "date": "2026-09-30T11:46:39+02:00",
+   "subject": "fix(p01): complete checked verifier determinism cases"
+  },
+  {
+   "commit": "440d437b085bd50e237dbebde9aa36349e6050b4",
+   "date": "2026-09-30T11:45:58+02:00",
+   "subject": "fix(p01): close reserved have and frame-pop determinism cases"
+  },
+  {
+   "commit": "64f58940c0d2a0450e930911c9895407d663def5",
+   "date": "2026-09-30T11:43:22+02:00",
+   "subject": "fix(p01): prove checked verifier determinism structurally"
+  },
+  {
+   "commit": "e5ca630a78284a30dd3f130692778b874c383db4",
+   "date": "2026-09-30T11:43:19+02:00",
+   "subject": "fix(p01): restore repo-local Fintype dependency chain"
+  },
+  {
+   "commit": "c5a297e630307e523f962b6be3765129c03a8b05",
+   "date": "2026-09-30T11:42:26+02:00",
+   "subject": "feat(p01): prove needExpr operational determinism"
+  },
+  {
+   "commit": "5162e91fa0d08821a7e783f6b15980e60e1da3b7",
+   "date": "2026-09-30T11:40:25+02:00",
+   "subject": "fix(p01): make checked verifier Fintype dependency explicit"
+  },
+  {
+   "commit": "ba1ee5a1edf505e87f10684ecef4d56dc338702b",
+   "date": "2026-09-30T11:38:46+02:00",
+   "subject": "build(p01): kernel-check checked verifier determinism"
+  },
+  {
+   "commit": "84c82da33d4aa35b443df326453f21defacf3e8a",
+   "date": "2026-09-30T11:38:43+02:00",
+   "subject": "fix(p01): import singleton run lemma for determinism certificate"
+  },
+  {
+   "commit": "6c63facea71ecd4a9d5f6b0c336c971f8c162d1b",
+   "date": "2026-09-30T11:38:28+02:00",
+   "subject": "feat(p01): certify checked verifier operational determinism"
+  },
+  {
+   "commit": "a93fda0968fcc6a5dd354c2b422529de15ab8457",
+   "date": "2026-09-30T11:02:09+02:00",
+   "subject": "fix(p01): use directional child invalidity for AND and OR rejection"
+  },
+  {
+   "commit": "2d4055cfb3de584b5c5e6d16411332c73569311a",
+   "date": "2026-09-30T10:59:28+02:00",
+   "subject": "feat(p01): close structural checked OR rejection"
+  },
+  {
+   "commit": "0bdb0f9a9acb071e966fc7b117be2a97dc61a15b",
+   "date": "2026-09-30T10:55:52+02:00",
+   "subject": "feat(p01): close structural checked rejection for conjunction"
+  },
+  {
+   "commit": "1b2dab68d3efe04984a81add1de7acb958f6cf63",
+   "date": "2026-09-30T10:52:01+02:00",
+   "subject": "fix(p01): discharge impossible input and constant rejection cases"
+  },
+  {
+   "commit": "16e34d01d66923aba4d15ff344706e08884a9ea0",
+   "date": "2026-09-30T10:50:06+02:00",
+   "subject": "feat(p01): define structural checked rejection certificates"
+  },
+  {
+   "commit": "656008ae6f21d811bb81ed2972254d14da0ebc34",
+   "date": "2026-09-30T10:45:02+02:00",
+   "subject": "build(p01): keep experimental checked Fin relabel out of umbrella"
+  },
+  {
+   "commit": "5b695a5edaf76750dcde86e6dc7acb28528e9612",
+   "date": "2026-09-30T10:44:46+02:00",
+   "subject": "fix(p01): open NTM run laws in checked rejection composition"
+  },
+  {
+   "commit": "5cb2fe27bab3cd88213e76d051419899e965f4be",
+   "date": "2026-09-30T10:42:52+02:00",
+   "subject": "feat(p01): close physical rejection for invalid negation"
+  },
+  {
+   "commit": "290aa0d6a0dae5e33b221168b5836a68562185c2",
+   "date": "2026-09-30T10:40:23+02:00",
+   "subject": "build(p01): keep incomplete finite-state relabel out of umbrella"
+  },
+  {
+   "commit": "c6e2aee4f7d83b2549f74d59296990c6c9e9c7cb",
+   "date": "2026-09-30T10:36:16+02:00",
+   "subject": "fix(p01): derive checked verifier finite control without Mathlib"
+  },
+  {
+   "commit": "be460981a4ee512779d3e774170c4f70beecbd8a",
+   "date": "2026-09-30T10:35:17+02:00",
+   "subject": "build(p01): kernel-check checked rejection producer"
+  },
+  {
+   "commit": "a43d2e34e804c7af98025e7fc23076f522a8dc8c",
+   "date": "2026-09-30T10:34:55+02:00",
+   "subject": "feat(p01): add root-disallowed checked rejection producer"
+  },
+  {
+   "commit": "1bbc12266c40e95e68f5de9cc9c99ab56d454c96",
+   "date": "2026-09-30T10:31:34+02:00",
+   "subject": "build(p01): kernel-check checked verifier Fin relabel"
+  },
+  {
+   "commit": "eee8a7d352037ea84f6c83e0383846a74fd77191",
+   "date": "2026-09-30T10:31:11+02:00",
+   "subject": "feat(p01): relabel checked verifier to finite Fin control"
+  },
+  {
+   "commit": "60696aa1dc6fd65136dc89f3d34de346f1fe2361",
+   "date": "2026-09-30T10:30:31+02:00",
+   "subject": "feat(p01): add physical rejection prefix for forbidden tags"
+  },
+  {
+   "commit": "ef740e4d6a1f5ba8ee6e31e4701c8f34cabcf625",
+   "date": "2026-09-30T10:25:37+02:00",
+   "subject": "fix(p01): normalize checked verifier composition on concrete source"
+  },
+  {
+   "commit": "660722ee0b05a466016e83e32405c1254d216535",
+   "date": "2026-09-30T10:23:41+02:00",
+   "subject": "fix(p01): open canonical eval cursor layout in checked verifier run"
+  },
+  {
+   "commit": "8fab6b714fd37083770b4f9c804272842c127f19",
+   "date": "2026-09-30T10:22:16+02:00",
+   "subject": "build(p01): kernel-check whole checked verifier run"
+  },
+  {
+   "commit": "1ddf1f7d81e2f9c3ca43644e9766c07574f66b33",
+   "date": "2026-09-30T10:22:02+02:00",
+   "subject": "feat(p01): add whole checked verifier run for valid CNF"
+  },
+  {
+   "commit": "40feb35474894084a88f22a51cb051ccaca3e9d0",
+   "date": "2026-09-30T10:18:34+02:00",
+   "subject": "fix(p01): reuse certified scan step in checked verifier prefix"
+  },
+  {
+   "commit": "99c37fc472b7a87f042a3dcbc830b905396bb3ae",
+   "date": "2026-09-30T10:16:39+02:00",
+   "subject": "feat(p01): connect prepared tape to checked evaluator root"
+  },
+  {
+   "commit": "18c747dc2f890c953c93173515892209f1b27043",
+   "date": "2026-09-30T10:15:03+02:00",
+   "subject": "feat(p01): close checked circuit certificate structurally"
+  },
+  {
+   "commit": "711e952921cf5c0ef0b88fc20768e7996e6a6bcd",
+   "date": "2026-09-30T10:09:38+02:00",
+   "subject": "fix(p01): reuse canonical nonempty encoding lemma in checked or certificate"
+  },
+  {
+   "commit": "21cdcc0298228baea0ab21b2c6fc8e9d5d244158",
+   "date": "2026-09-30T10:08:17+02:00",
+   "subject": "fix(p01): reconcile duplicate checked disjunction certificates"
+  },
+  {
+   "commit": "e3eddbd6062ff9c0dc0af8f7073f51e77b72f1a6",
+   "date": "2026-09-30T10:07:50+02:00",
+   "subject": "fix(p01): decompose checked or mode with existing simp laws"
+  },
+  {
+   "commit": "8ec2e25f859b77d2f5487ab8ce6e66a69b0d3c9f",
+   "date": "2026-09-30T10:06:37+02:00",
+   "subject": "feat(p01): compose checked disjunction circuit certificate"
+  },
+  {
+   "commit": "606cd1f40775a92f59bce8039f1d98e636afcbb6",
+   "date": "2026-09-30T10:06:15+02:00",
+   "subject": "feat(p01): add checked structural disjunction certificate"
+  },
+  {
+   "commit": "d769de653f486eee13893269ad0467ba1cbe1e77",
+   "date": "2026-09-30T10:05:52+02:00",
+   "subject": "feat(p01): add checked disjunction circuit certificate"
+  },
+  {
+   "commit": "59cd75a8d4e2a5ecda5241734144f6b76905c99b",
+   "date": "2026-09-30T10:04:18+02:00",
+   "subject": "fix(p01): prove canonical circuit encoding nonempty by constructors"
+  },
+  {
+   "commit": "744e455b78b17f00d6a27be4eed540aad6c0c163",
+   "date": "2026-09-30T10:03:37+02:00",
+   "subject": "fix(p01): reuse certified nonempty circuit encoding lemma"
+  },
+  {
+   "commit": "f4d4435627a59cbd7af3ef4a6e9c2f52e2eda2ff",
+   "date": "2026-09-30T10:02:37+02:00",
+   "subject": "fix(p01): remove duplicate checked conjunction certificate"
+  },
+  {
+   "commit": "864d164b6cb4f8fafbfdbf1475d0dabbeb41abcc",
+   "date": "2026-09-30T10:01:58+02:00",
+   "subject": "fix(p01): reconcile checked conjunction certificate"
+  },
+  {
+   "commit": "bac804470f3b179346cd36ed34134a65b9686d69",
+   "date": "2026-09-30T10:01:22+02:00",
+   "subject": "feat(p01): compose checked conjunction circuit certificate"
+  },
+  {
+   "commit": "1db16a21d073a6c489e54ab90d96a4f3a78f9981",
+   "date": "2026-09-30T10:00:39+02:00",
+   "subject": "fix(p01): reuse canonical circuit nonempty encoding lemma"
+  },
+  {
+   "commit": "4796412ef2185cd71bcee1e3e775b7d9ffb73564",
+   "date": "2026-09-30T10:00:16+02:00",
+   "subject": "feat(p01): add checked conjunction circuit certificate"
+  },
+  {
+   "commit": "02b838278c9380efb713806bd25e8499fa480c4c",
+   "date": "2026-09-30T09:59:38+02:00",
+   "subject": "feat(p01): add checked structural conjunction certificate"
+  },
+  {
+   "commit": "c7d5ea7245f37d173bb938526391f980718aa4a9",
+   "date": "2026-09-30T09:58:03+02:00",
+   "subject": "feat(p01): expose checked nonterminal outcome helpers"
+  },
+  {
+   "commit": "358c0f1074113276e34acabdce3c24caf27375f8",
+   "date": "2026-09-30T09:56:30+02:00",
+   "subject": "fix(p01): restore parent syntax mode on right-frame returns"
+  },
+  {
+   "commit": "88ec71817c0fb7d4da3709f540a9b833c2e6ad98",
+   "date": "2026-09-30T09:54:22+02:00",
+   "subject": "fix(p01): restore syntax mode on right-frame completion"
+  },
+  {
+   "commit": "7c50d4a4e4c91f77262e34ce1852db34ce435897",
+   "date": "2026-09-30T09:54:04+02:00",
+   "subject": "fix(p01): remove duplicate namespace qualification"
+  },
+  {
+   "commit": "03d477e9f3400b45063dd58a077633ae8feb3117",
+   "date": "2026-09-30T09:52:55+02:00",
+   "subject": "fix(p01): qualify checked circuit certificate dependencies"
+  },
+  {
+   "commit": "0c2c7626a1c81e93855227cb43ee4cfe80c4e51f",
+   "date": "2026-09-30T09:51:53+02:00",
+   "subject": "fix(p01): normalize negation child and exit modes in checked certificate"
+  },
+  {
+   "commit": "69b299c9922e275c30b38d8e368e80785358a4a1",
+   "date": "2026-09-30T09:51:03+02:00",
+   "subject": "fix(p01): normalize checked negation modes"
+  },
+  {
+   "commit": "5cf67303a0b30c637d6c7993a579ea4ed5158bff",
+   "date": "2026-09-30T09:50:47+02:00",
+   "subject": "fix(p01): import canonical circuit and frame encodings for checked certificate"
+  },
+  {
+   "commit": "556c2933364754916a9efe5f486bf1c2a0bfe774",
+   "date": "2026-09-30T09:50:26+02:00",
+   "subject": "fix(p01): restore kernel-green checked circuit certificate"
+  },
+  {
+   "commit": "1be504c37aff38fa1be8176b904885b040c4ad03",
+   "date": "2026-09-30T09:49:54+02:00",
+   "subject": "fix(p01): resolve checked circuit certificate namespaces"
+  },
+  {
+   "commit": "169deda513052cb792416076fb585b002caee4a7",
+   "date": "2026-09-30T09:48:40+02:00",
+   "subject": "build(p01): kernel-check checked circuit negation certificate"
+  },
+  {
+   "commit": "2dbf673f3c2f73ba619cca759310900fd230c7a8",
+   "date": "2026-09-30T09:48:24+02:00",
+   "subject": "feat(p01): add checked structural negation certificate"
+  },
+  {
+   "commit": "eb87672b2a1039a2c2f49d6fd07e4ebfbbe924d9",
+   "date": "2026-09-30T08:46:08+02:00",
+   "subject": "fix(p01): close zero-step checked verifier scan lift"
+  },
+  {
+   "commit": "14cc25dfddcff682c0f1b38a8d8388c4f6b378fd",
+   "date": "2026-09-30T08:44:27+02:00",
+   "subject": "build(p01): kernel-check checked verifier wrapper"
+  },
+  {
+   "commit": "daafcbdc5fb097e9d6b771cbc955b36c17df92a6",
+   "date": "2026-09-30T08:44:10+02:00",
+   "subject": "feat(p01): add CNF-checked verifier wrapper"
+  },
+  {
+   "commit": "39cc7d19f1c5d3610816d69daebbfd838eb08206",
+   "date": "2026-09-30T08:40:12+02:00",
+   "subject": "fix(p01): align checked constant final tape with source guard"
+  },
+  {
+   "commit": "86b35a52942b9ffe75b191b0053ea29ba07a6583",
+   "date": "2026-09-30T08:38:08+02:00",
+   "subject": "fix(p01): route checked final through source-empty guard"
+  },
+  {
+   "commit": "0d2cf4d663c939244f7997ea0527175e278c4d34",
+   "date": "2026-09-30T08:37:38+02:00",
+   "subject": "feat(p01): require full source consumption before checked final"
+  },
+  {
+   "commit": "e05513c5214893334015f35b50a3b3496c3ea613",
+   "date": "2026-09-30T08:35:07+02:00",
+   "subject": "fix(p01): split reversed unread tail in final source guard"
+  },
+  {
+   "commit": "c874c97e437f6b06636e3258214a25495520a619",
+   "date": "2026-09-30T08:33:33+02:00",
+   "subject": "fix(p01): normalize unread-tail reversal in final source guard"
+  },
+  {
+   "commit": "caf15820703dcc0b9f9d5246aee1ba2e39ed8fa5",
+   "date": "2026-09-30T08:32:23+02:00",
+   "subject": "build(p01): kernel-check final source-empty guard"
+  },
+  {
+   "commit": "1988db03f4bb9f962ab08f2fe273946a9f3e7eab",
+   "date": "2026-09-30T08:32:12+02:00",
+   "subject": "feat(p01): add physical final source-empty guard"
+  },
+  {
+   "commit": "30971f48ffd15d10969434ddeacbddb9f32cf64f",
+   "date": "2026-09-30T08:25:00+02:00",
+   "subject": "build(p01): kernel-check checked operator tag routes"
+  },
+  {
+   "commit": "98566a8df380d43fd961b45c56d32894bbea6426",
+   "date": "2026-09-30T08:24:47+02:00",
+   "subject": "feat(p01): add checked continuation-tag routes"
+  },
+  {
+   "commit": "ebadf1f0694a2b651f63d2676aabf1054eb8f8b2",
+   "date": "2026-09-30T08:22:44+02:00",
+   "subject": "fix(p01): expose blank start handoff in checked haveValue"
+  },
+  {
+   "commit": "eff4959a1b579aa33a151d82085facada3869232",
+   "date": "2026-09-30T08:21:14+02:00",
+   "subject": "build(p01): kernel-check checked haveValue returns"
+  },
+  {
+   "commit": "ff6aee5718dcbb14c9d699128b8004d23122fb34",
+   "date": "2026-09-30T08:21:03+02:00",
+   "subject": "feat(p01): add checked haveValue return routes"
+  },
+  {
+   "commit": "c6bd14f7f479d0691442e28a7026a3c47428c18a",
+   "date": "2026-09-30T08:18:01+02:00",
+   "subject": "fix(p01): normalize boolean right-frame input returns"
+  },
+  {
+   "commit": "1974e8c592bd0bd9180ff3f73cd0eed44fa0b323",
+   "date": "2026-09-30T08:16:40+02:00",
+   "subject": "build(p01): kernel-check checked input eval-run certificate"
+  },
+  {
+   "commit": "4c416fee080729371aad96bb57c95afba9c392c6",
+   "date": "2026-09-30T08:16:30+02:00",
+   "subject": "feat(p01): add checked input eval-run certificate"
+  },
+  {
+   "commit": "eb7ff13bc64d710fe3ff3b01f3fdf863565c2068",
+   "date": "2026-09-30T08:12:59+02:00",
+   "subject": "fix(p01): close checked constant eval-run base cases"
+  },
+  {
+   "commit": "846060a0f70c14b9ee06701f21704683a7b30bc5",
+   "date": "2026-09-30T01:05:12+02:00",
+   "subject": "feat(p01): begin manual verifier state encoding"
+  },
+  {
+   "commit": "877c3a4fa56dfa386c994c5683c46209ba589c3f",
+   "date": "2026-09-30T01:04:11+02:00",
+   "subject": "build(p01): drop unavailable Fintype verifier experiment"
+  },
+  {
+   "commit": "f92ed04522dc1923e787b3b9e68c711049e024ba",
+   "date": "2026-09-30T00:58:14+02:00",
+   "subject": "fix(p01): normalize checked constant base cases"
+  },
+  {
+   "commit": "276ee718dd39bc9f4b023da7c3674426d374b873",
+   "date": "2026-09-30T00:58:06+02:00",
+   "subject": "fix(p01): import finite-state enumeration support"
+  },
+  {
+   "commit": "a5367695029b208eb05f563698950f69197ca2ad",
+   "date": "2026-09-30T00:56:16+02:00",
+   "subject": "build(p01): kernel-check checked evalRun base cases"
+  },
+  {
+   "commit": "a024fdbbcf14ec44d0cf45ef5a13f5577337908c",
+   "date": "2026-09-30T00:55:53+02:00",
+   "subject": "build(p01): kernel-check verifier Fin encoding"
+  },
+  {
+   "commit": "290e2f0f9a9621ac1497f27956f118af7a4f0b19",
+   "date": "2026-09-30T00:55:52+02:00",
+   "subject": "feat(p01): add checked evalRun constant certificates"
+  },
+  {
+   "commit": "c4d13d359a704f6a0f96d4b086586324ada77a3b",
+   "date": "2026-09-30T00:55:38+02:00",
+   "subject": "feat(p01): Fin-encode concrete verifier control"
+  },
+  {
+   "commit": "5a53c58916a47aa1a6b9b8609ba43bd7b67b84f4",
+   "date": "2026-09-30T00:50:34+02:00",
+   "subject": "fix(p01): remove redundant witness length proof tail"
+  },
+  {
+   "commit": "402f2fde643fe8e5d0205fb7f39c5cf6b1f97be7",
+   "date": "2026-09-30T00:50:04+02:00",
+   "subject": "fix(p01): discharge witness length in SAT specialization"
+  },
+  {
+   "commit": "2166734ebf52464b9e6a2e958927a1119e02ec35",
+   "date": "2026-09-30T00:48:12+02:00",
+   "subject": "fix(p01): make checked evaluator final state decide Boolean value"
+  },
+  {
+   "commit": "5ea6f53ad47e02592cb089c379ccb1fd0d78e270",
+   "date": "2026-09-30T00:47:45+02:00",
+   "subject": "fix(p01): close canonical witness length obligation"
+  },
+  {
+   "commit": "3eeac66093543d664f764b78ea3f558a37ccd0f9",
+   "date": "2026-09-30T00:47:26+02:00",
+   "subject": "fix(p01): close canonical witness length bound"
+  },
+  {
+   "commit": "bd9b4ad37438c1df09b387aa8d71feceac96651a",
+   "date": "2026-09-30T00:44:57+02:00",
+   "subject": "fix(p01): specialize existing verifier circuit certificate"
+  },
+  {
+   "commit": "1786c05d47f58b63d0b078b9a0001a72167c4e87",
+   "date": "2026-09-30T00:41:23+02:00",
+   "subject": "fix(p01): normalize verifier circuit-run certificate"
+  },
+  {
+   "commit": "dd2ed5a2326a1eb20e5dba0e54e06fa08b9d011c",
+   "date": "2026-09-30T00:41:09+02:00",
+   "subject": "fix(p01): make checked tag prefix mode-correct"
+  },
+  {
+   "commit": "d5f2c8ce322079ebcf985d27e500b81c6b56411d",
+   "date": "2026-09-30T00:40:57+02:00",
+   "subject": "fix(p01): make eval-run final state decide Boolean value"
+  },
+  {
+   "commit": "47b953e48c12e76eeebcb6ef13d8f782e65c02d5",
+   "date": "2026-09-30T00:39:22+02:00",
+   "subject": "build(p01): kernel-check checked tag prefix"
+  },
+  {
+   "commit": "fa70979ac38d0668e2448fa6b11eaf30865f6c3c",
+   "date": "2026-09-30T00:39:05+02:00",
+   "subject": "feat(p01): close checked seek-decode tag prefix"
+  },
+  {
+   "commit": "60dad70628cb7c09a6cbe341655da092dc8351f4",
+   "date": "2026-09-30T00:38:54+02:00",
+   "subject": "build(p01): kernel-check verifier circuit run certificate"
+  },
+  {
+   "commit": "548c2db3490d04423974d87b0c5a6a98a72138a7",
+   "date": "2026-09-30T00:38:43+02:00",
+   "subject": "feat(p01): connect prepared verifier layout to circuit eval certificate"
+  },
+  {
+   "commit": "96416162792a7ee024c8789a638ddae3611ab13e",
+   "date": "2026-09-30T00:37:15+02:00",
+   "subject": "fix(p01): qualify checked tag decoder and normalize embeds"
+  },
+  {
+   "commit": "ed93a6e21c8d5b62bb68ccd7e50067ba254c70e0",
+   "date": "2026-09-30T00:34:44+02:00",
+   "subject": "build(p01): kernel-check checked evalRun phase lifts"
+  },
+  {
+   "commit": "60b83b9c8dae33b6855e71b2e5f8d109890cea47",
+   "date": "2026-09-30T00:34:32+02:00",
+   "subject": "feat(p01): lift physical evaluator phases through CNF firewall"
+  },
+  {
+   "commit": "091752c2240734d15cfb39ad1fe9dc5053318ccc",
+   "date": "2026-09-30T00:25:29+02:00",
+   "subject": "fix(p01): specialize syntax mode in allowed-tag simulation"
+  },
+  {
+   "commit": "c0c1b9b8bcc6c016620fa29d326bb0a44b56b6fc",
+   "date": "2026-09-30T00:22:20+02:00",
+   "subject": "fix(p01): prove root tag admissibility by explicit syntax modes"
+  },
+  {
+   "commit": "d77de1fc2a7571f28d4cc44a92d853f0947c5b73",
+   "date": "2026-09-30T00:21:18+02:00",
+   "subject": "feat(p01): certify allowed CNF tag handoff"
+  },
+  {
+   "commit": "00327ef70ba356d571bda377e3a2ab14163f69f0",
+   "date": "2026-09-30T00:20:40+02:00",
+   "subject": "fix(p01): discharge forbidden true-constant syntax modes explicitly"
+  },
+  {
+   "commit": "2b67e7da5ae6baa3a33c43916675f78c5be80999",
+   "date": "2026-09-30T00:19:38+02:00",
+   "subject": "fix(p01): unfold clause recognizer in CNF tag admission proof"
+  },
+  {
+   "commit": "b211ff0fc5cc04781f25fe3382f0b866fc9bfe6f",
+   "date": "2026-09-30T00:19:27+02:00",
+   "subject": "fix(p01): normalize canonical source in final verifier run"
+  },
+  {
+   "commit": "b96ca877d2db7390c01e22d3579e71ac710e890d",
+   "date": "2026-09-30T00:17:26+02:00",
+   "subject": "build(p01): kernel-check prepared circuit verifier run"
+  },
+  {
+   "commit": "fb59912ffcf5ba2aad42b9be42d42baf115cea80",
+   "date": "2026-09-30T00:17:24+02:00",
+   "subject": "feat(p01): certify allowed root tags from CNF modes"
+  },
+  {
+   "commit": "de3528c6c59412c8d369ba12b34b70bd94699fce",
+   "date": "2026-09-30T00:17:16+02:00",
+   "subject": "feat(p01): compose prepared verifier entry with circuit eval certificate"
+  },
+  {
+   "commit": "ad4cc2da99a27521d9856e63687594139d72d8b5",
+   "date": "2026-09-30T00:14:36+02:00",
+   "subject": "fix(p01): compute verifier enter step directly"
+  },
+  {
+   "commit": "9a899659b44bed745116aa6385f48e63978eb978",
+   "date": "2026-09-30T00:13:17+02:00",
+   "subject": "fix(p01): unfold source-end tape at scanner handoff"
+  },
+  {
+   "commit": "7283afe3d9749f9f903872d15a4609b4ae5e14e7",
+   "date": "2026-09-30T00:11:57+02:00",
+   "subject": "fix(p01): correct tape write order and close entry fuel bound"
+  },
+  {
+   "commit": "43e231e8e2968e4c27be95be3db8de687dbd40bf",
+   "date": "2026-09-30T00:11:29+02:00",
+   "subject": "fix(p01): normalize scanner halt handoff"
+  },
+  {
+   "commit": "6215af29f7a8e73110ac1a223aa4905d8807e4dd",
+   "date": "2026-09-30T00:10:58+02:00",
+   "subject": "fix(p01): close prepared-to-eval physical handoffs"
+  },
+  {
+   "commit": "8c31c7756ae089641aa142d807ed3cc09e304b17",
+   "date": "2026-09-30T00:10:22+02:00",
+   "subject": "fix(p01): use local EvalFrame patterns in checked loop"
+  },
+  {
+   "commit": "4b36f062a314abb9e59a68505d2a07bd98e1c2f0",
+   "date": "2026-09-30T00:10:11+02:00",
+   "subject": "fix(p01): normalize verifier entry handoffs and fuel"
+  },
+  {
+   "commit": "0cb6dd2f9f4f6eb143583affaf02b25823e3f641",
+   "date": "2026-09-30T00:09:48+02:00",
+   "subject": "fix(p01): bind CNF mode helper to evaluator frame type"
+  },
+  {
+   "commit": "5c2964e97a067542f50c42bfeab53098f82fdcc1",
+   "date": "2026-09-30T00:08:15+02:00",
+   "subject": "fix(p01): qualify continuation-frame mode patterns"
+  },
+  {
+   "commit": "37d1e8ef76f68f1120a6f1488ddaae023d7a38de",
+   "date": "2026-09-30T00:08:07+02:00",
+   "subject": "build(p01): kernel-check prepared-to-eval verifier composite"
+  },
+  {
+   "commit": "af86603155b667bd42660bec53f835a714ba47de",
+   "date": "2026-09-30T00:07:57+02:00",
+   "subject": "feat(p01): compose prepared layout entry with evalRun verifier"
+  },
+  {
+   "commit": "620a3625ce79a822a623ca7a664ca959cee65375",
+   "date": "2026-09-30T00:07:12+02:00",
+   "subject": "build(p01): kernel-check CNF-aware evalRun wrapper"
+  },
+  {
+   "commit": "517619c63c5b708724ad27669d95aef384d75aa3",
+   "date": "2026-09-30T00:07:02+02:00",
+   "subject": "feat(p01): fuse CNF mode checks into evalRun control"
+  },
+  {
+   "commit": "bdb286668123d99350f23994d2fde4fbe954942d",
+   "date": "2026-09-30T00:05:04+02:00",
+   "subject": "build(p01): kernel-check finite CNF traversal modes"
+  },
+  {
+   "commit": "3f8166ed1b533f780d2e94d8856d2963b4899d6f",
+   "date": "2026-09-30T00:04:54+02:00",
+   "subject": "feat(p01): formalize finite CNF traversal modes"
+  },
+  {
+   "commit": "2025b9bf66bc97fa8e89418e9776db83b0101ab9",
+   "date": "2026-09-29T23:58:18+02:00",
+   "subject": "chore(p01): remove finite probe from umbrella"
+  },
+  {
+   "commit": "3d8a28689e2b578204f239c3154d5fc8394df7f0",
+   "date": "2026-09-29T23:57:09+02:00",
+   "subject": "build(p01): kernel-probe finite evalRun control"
+  },
+  {
+   "commit": "5ba8b7e83bd141608875cb1b0b626114a2f5015a",
+   "date": "2026-09-29T23:56:57+02:00",
+   "subject": "probe(p01): test finite instances for evalRun loop state"
+  },
+  {
+   "commit": "345567f585c8f7beedb14a7fe35c1d7edf997427",
+   "date": "2026-09-29T23:52:30+02:00",
+   "subject": "fix(p01): linearize composite fuel envelope for omega"
+  },
+  {
+   "commit": "0d24740de0c48e60a9b52ac15f5a085b7ff29f20",
+   "date": "2026-09-29T23:45:40+02:00",
+   "subject": "fix(p01): remove unavailable Mathlib imports"
+  },
+  {
+   "commit": "76b9b3a69c37c22bdb417982c61078dcc71a8d68",
+   "date": "2026-09-29T23:45:35+02:00",
+   "subject": "fix(p01): remove unavailable Mathlib imports"
+  },
+  {
+   "commit": "5d4e9bf04bb0ef5922bad9685671cf18b3c1a403",
+   "date": "2026-09-29T23:44:43+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "068b83b96cf0424c7023f15eb994e15a2a12b4d9",
+   "date": "2026-09-29T23:44:37+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "72db518294162a109cb908bab7e6bf8cdd9b5f5b",
+   "date": "2026-09-29T23:44:31+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "e20deffe996560f31a01b18b8c9b0dcbb3c8934f",
+   "date": "2026-09-29T23:44:25+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "bb86c0caf1635ec0e63232a17787152f42297c88",
+   "date": "2026-09-29T23:44:18+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "683fb75867951cd8e3b73c51130e138884ea46f8",
+   "date": "2026-09-29T23:44:13+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "f41c87eb9a75abc20e63ebe81514fff7ccfc536e",
+   "date": "2026-09-29T23:43:59+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "acdc0bf636a16890d376cf8d56e6d6c95dff72fa",
+   "date": "2026-09-29T23:43:53+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "cc2c80b99de22dca628fad375b47d00eb576ad85",
+   "date": "2026-09-29T23:43:48+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "0dd458391245f534a9238c8b6f2970a13cb52554",
+   "date": "2026-09-29T23:43:44+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "31d1a5de6046e162c2e2e37f0fb3e9c8fe4c4a1d",
+   "date": "2026-09-29T23:43:39+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "5b7d61e24ba4d703133e008195169c957d192d5b",
+   "date": "2026-09-29T23:43:35+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "31fba87739693350824f6c164f75e38cdec1050d",
+   "date": "2026-09-29T23:43:29+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "d612d678cbb17f9de4705d31e359775d5b128030",
+   "date": "2026-09-29T23:43:26+02:00",
+   "subject": "fix(p01): remove unavailable Fintype derivation"
+  },
+  {
+   "commit": "4bc2e42687b0227a04cdf2a8e99458c384fad1a0",
+   "date": "2026-09-29T23:43:19+02:00",
+   "subject": "fix(p01): import Fintype support for finite verifier controls"
+  },
+  {
+   "commit": "cf59e82f35e0bdf699c36a77fcd120cc0141d13c",
+   "date": "2026-09-29T23:43:15+02:00",
+   "subject": "fix(p01): import Fintype support for finite verifier controls"
+  },
+  {
+   "commit": "e55fb3ac45730678d8d965e4317ef2706096f411",
+   "date": "2026-09-29T23:40:15+02:00",
+   "subject": "fix(p01): close empty return-fuel bound without redundant tactic"
+  },
+  {
+   "commit": "c780d227df79ea3a6f7e53ce20c4e3aaf2fed483",
+   "date": "2026-09-29T23:39:50+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "70575ad3e54dd969b9d4ab99593bbd33a3692113",
+   "date": "2026-09-29T23:39:47+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "2ce1d209aa4f49f45b70320aa76746912d795367",
+   "date": "2026-09-29T23:39:43+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "e82fa9f12b9b5b35919516df6ba150cc59367f19",
+   "date": "2026-09-29T23:39:36+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "fc7b8a187a7b3e0f5a1171628fe0f2c6933e01f6",
+   "date": "2026-09-29T23:39:08+02:00",
+   "subject": "feat(p01): bound fused input-node fuel explicitly"
+  },
+  {
+   "commit": "a320ec423c2b477d1a4e40adeb0a43229a5bba6f",
+   "date": "2026-09-29T23:39:02+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "db0a4ff3ae7d64d6a60681e79adbfcfd9bcafb30",
+   "date": "2026-09-29T23:38:56+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "1d28d8c9ea7558810d5a3d3fa6bd2ed79cf56f3f",
+   "date": "2026-09-29T23:38:53+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "a4d6dfaa667fff3dd7cbde0b6aefc8b66dacc2a5",
+   "date": "2026-09-29T23:38:47+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "986a0d2ce607a44ccaef3103a4e99f6ade56aa37",
+   "date": "2026-09-29T23:38:43+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "e014d57f6411ea1181dbe560db834f01e9350fba",
+   "date": "2026-09-29T23:38:38+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "a57ee6b3284999b30fb5b8a52a432c8cb2b23857",
+   "date": "2026-09-29T23:38:33+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "e122a1c88cd7a19ccbd98b3fbed6b37c98a111b8",
+   "date": "2026-09-29T23:38:26+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "bb84c1bce366ae1ac4ab351ff91b6c0e1f213a63",
+   "date": "2026-09-29T23:38:21+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "0a7768ba2303f8b2ba083deb70f748bc3608d04e",
+   "date": "2026-09-29T23:38:12+02:00",
+   "subject": "chore(p01): derive Fintype for physical verifier control"
+  },
+  {
+   "commit": "1b4cf21e65c446c92c0c51ab61ca166826f8b8d5",
+   "date": "2026-09-29T23:38:05+02:00",
+   "subject": "feat(p01): bound post-read return fuel linearly"
+  },
+  {
+   "commit": "a4dd9c27116b3b7f74a646554c6e24c5ff591a40",
+   "date": "2026-09-29T23:36:27+02:00",
+   "subject": "feat(p01): bound gap-aware preserving read fuel quadratically"
+  },
+  {
+   "commit": "262472890496c09ed2d0c53aaf642ab00e9f5c83",
+   "date": "2026-09-29T23:27:07+02:00",
+   "subject": "feat(p01): close structural circuit eval-run certificate"
+  },
+  {
+   "commit": "d4fbe946bf81f8af091cb973bf6ded46c1df6a11",
+   "date": "2026-09-29T23:26:01+02:00",
+   "subject": "feat(p01): add structural disjunction circuit-run certificate"
+  },
+  {
+   "commit": "00db919b2af9a71a01fd9757f5d17ade1b3ca854",
+   "date": "2026-09-29T23:24:36+02:00",
+   "subject": "fix(p01): prove canonical circuit encoding nonempty by constructor"
+  },
+  {
+   "commit": "9641d3db5ede1304e038732d5a7a4f98a19ee14f",
+   "date": "2026-09-29T23:23:31+02:00",
+   "subject": "feat(p01): add structural conjunction circuit-run certificate"
+  },
+  {
+   "commit": "7c3d99bde6e81952879b2686ebf7f60572f037e9",
+   "date": "2026-09-29T23:20:57+02:00",
+   "subject": "feat(p01): normalize computed values into circuit outcomes"
+  },
+  {
+   "commit": "a65c8510fc51e9f97c5752f21d87b2b387ca2b17",
+   "date": "2026-09-29T23:19:09+02:00",
+   "subject": "fix(p01): normalize terminal negation run source"
+  },
+  {
+   "commit": "cb293bc71afbf7f2ea2197813e051c2ceb7dbfa6",
+   "date": "2026-09-29T23:18:14+02:00",
+   "subject": "feat(p01): add structural negation circuit-run certificate"
+  },
+  {
+   "commit": "808f1b37477c5e2f0974dfca8a9feb24e6bfe0ce",
+   "date": "2026-09-29T23:14:34+02:00",
+   "subject": "fix(p01): split boolean continuation frame encodings"
+  },
+  {
+   "commit": "25ea9f00883e46db6a28a35952ac49bb15b5fb87",
+   "date": "2026-09-29T23:13:08+02:00",
+   "subject": "fix(p01): discharge nonempty encoded-frame input outcome"
+  },
+  {
+   "commit": "b12d4b97b623ac72e9ef10fab65eaa6fe74e15d0",
+   "date": "2026-09-29T23:11:23+02:00",
+   "subject": "fix(p01): align input certificate semantic value with physical bit"
+  },
+  {
+   "commit": "0c9d93dd946aca3c6f04d63184c35b241ced7979",
+   "date": "2026-09-29T23:09:58+02:00",
+   "subject": "build(p01): kernel-check circuit-run base certificates"
+  },
+  {
+   "commit": "0cf94977174f0281dd9e220c3de88d928e4d7fc1",
+   "date": "2026-09-29T23:09:44+02:00",
+   "subject": "feat(p01): add circuit-run certificate base producers"
+  },
+  {
+   "commit": "56348cffbf6bbf47fead358a0ca547d19dacd6a8",
+   "date": "2026-09-29T23:07:02+02:00",
+   "subject": "fix(p01): let dependent induction generalize witness automatically"
+  },
+  {
+   "commit": "67e7701c1d65cde3c234f3d72c1a9a59f763dab8",
+   "date": "2026-09-29T23:06:16+02:00",
+   "subject": "fix(p01): prove canonical input witness lookup by induction"
+  },
+  {
+   "commit": "5217d3f7e70bb66b47c96ece22bf5a7d237bcf0d",
+   "date": "2026-09-29T23:04:52+02:00",
+   "subject": "build(p01): kernel-check evalRun base cases"
+  },
+  {
+   "commit": "ad79b319967c3044873c9d07be2def0edb4a3bdb",
+   "date": "2026-09-29T23:04:42+02:00",
+   "subject": "feat(p01): add global evalRun base cases"
+  },
+  {
+   "commit": "fe4a8e20479cd8a4b046643501efd6940f8bd159",
+   "date": "2026-09-29T22:52:30+02:00",
+   "subject": "fix(p01): close haveValue start handoffs and correct frame bound"
+  },
+  {
+   "commit": "8c449b792164537154bbe3c26ccee03a7eef0001",
+   "date": "2026-09-29T22:51:07+02:00",
+   "subject": "build(p01): kernel-check evalRun haveValue routes"
+  },
+  {
+   "commit": "2f6f383a37aed602bea698add5dd4f11ed457ae3",
+   "date": "2026-09-29T22:50:55+02:00",
+   "subject": "feat(p01): close haveValue routes in evalRun loop"
+  },
+  {
+   "commit": "91c04f59f04d27d5a303477c5bf6c9a8ecba6be8",
+   "date": "2026-09-29T22:47:38+02:00",
+   "subject": "build(p01): kernel-check evalRun input tag"
+  },
+  {
+   "commit": "61ce01a761dc54a06f91645b2e944796be8a0f1d",
+   "date": "2026-09-29T22:47:26+02:00",
+   "subject": "feat(p01): close mode-aware input tag in evalRun loop"
+  },
+  {
+   "commit": "6631b73d46f57e11908cc415ecb5fd866a24eabb",
+   "date": "2026-09-29T22:44:10+02:00",
+   "subject": "fix(p01): resolve input-loop source and return namespaces"
+  },
+  {
+   "commit": "c19b872aa8c60f3c5519389c71b90b1fcf387ccb",
+   "date": "2026-09-29T22:41:52+02:00",
+   "subject": "feat(p01): lift mode-aware input primitive into evalRun loop"
+  },
+  {
+   "commit": "82cc1a0361cb15ece541e71e39338d6a4e3d16b2",
+   "date": "2026-09-29T22:38:31+02:00",
+   "subject": "fix(p01): resolve encoded frame namespace in evalRun loop"
+  },
+  {
+   "commit": "51f9e12aaea547d383a0b898e69b2fd165fd65c1",
+   "date": "2026-09-29T22:38:21+02:00",
+   "subject": "fix(p01): open encoded frame namespace in evalRun loop"
+  },
+  {
+   "commit": "4a15c42109167403c3ef3765c856a2720d600964",
+   "date": "2026-09-29T22:36:54+02:00",
+   "subject": "feat(p01): close neg and or routes in evalRun loop"
+  },
+  {
+   "commit": "32f2083f2cd9b52a01a02d0c2fe124cbe1dbed23",
+   "date": "2026-09-29T22:36:26+02:00",
+   "subject": "fix(p01): open encoded-frame namespace in evalRun push routes"
+  },
+  {
+   "commit": "4e767826a980f0bd5a77276c0d8ac5c5fbb12e38",
+   "date": "2026-09-29T22:34:58+02:00",
+   "subject": "build(p01): kernel-check structural evalRun loop routes"
+  },
+  {
+   "commit": "06736a39f55a74c8743bfb541a6ab6b1083fdd7b",
+   "date": "2026-09-29T22:34:43+02:00",
+   "subject": "feat(p01): prove structural evaluator steps inside evalRun loop"
+  },
+  {
+   "commit": "e3bf99cc647da70f72c174376744129726b4d11e",
+   "date": "2026-09-29T22:34:09+02:00",
+   "subject": "feat(p01): lift retPush and framePush phases into evalRun loop"
+  },
+  {
+   "commit": "e468134115563f8353c7081c48ba9a99cf969644",
+   "date": "2026-09-29T22:31:16+02:00",
+   "subject": "fix(p01): close active loop phases and const handoff"
+  },
+  {
+   "commit": "51fd85205d6bdd4ea02a4c27b0c48be75767b7e4",
+   "date": "2026-09-29T22:30:54+02:00",
+   "subject": "fix(p01): close evalRun loop phase and terminal handoffs"
+  },
+  {
+   "commit": "8c9d7fdc7564ca82ff7366d7e20452af15139448",
+   "date": "2026-09-29T22:29:15+02:00",
+   "subject": "fix(p01): normalize terminal-aware need loop embedding"
+  },
+  {
+   "commit": "3cef1694a458371617fa4d6c25ca7a1df02f8369",
+   "date": "2026-09-29T22:29:03+02:00",
+   "subject": "fix(p01): normalize terminal-aware need loop embedding"
+  },
+  {
+   "commit": "f9345eb2e59cb6d738a7816d1edc70a5d9fd54c3",
+   "date": "2026-09-29T22:27:11+02:00",
+   "subject": "fix(p01): drop obsolete evalRun lift import"
+  },
+  {
+   "commit": "fc69f8a8356f7463d8e00138578e94a17ff36878",
+   "date": "2026-09-29T22:27:06+02:00",
+   "subject": "chore(p01): remove lift tied to superseded evalRun route"
+  },
+  {
+   "commit": "58e950b974884755bd390f6de50449a72120a58b",
+   "date": "2026-09-29T22:26:56+02:00",
+   "subject": "chore(p01): remove superseded evalRun composite route"
+  },
+  {
+   "commit": "e76beb260850913630ad73e1faef04a4a773f4f6",
+   "date": "2026-09-29T22:26:21+02:00",
+   "subject": "fix(p01): decompose evalStep successor fuel in terminal lift"
+  },
+  {
+   "commit": "0b0317ebf8dc2e10fd0915472625e02b14f1fe66",
+   "date": "2026-09-29T22:25:32+02:00",
+   "subject": "build(p01): kernel-check evalRun loop constant routes"
+  },
+  {
+   "commit": "759296dd67cb6c733bd4768b19b618b0fe928a39",
+   "date": "2026-09-29T22:25:17+02:00",
+   "subject": "feat(p01): prove constant evaluator steps inside physical evalRun loop"
+  },
+  {
+   "commit": "068ceb20e5bc08eaa48504047b664cf05d2330e7",
+   "date": "2026-09-29T22:25:07+02:00",
+   "subject": "restore(p01): reapply green evalRun restart controller"
+  },
+  {
+   "commit": "baa2a75ee795cec06b8fdadc82a82f0eee717028",
+   "date": "2026-09-29T22:23:24+02:00",
+   "subject": "build(p01): kernel-check evalRun terminal lift"
+  },
+  {
+   "commit": "fd2579feed984ce902558e3fd7899a7186702711",
+   "date": "2026-09-29T22:23:10+02:00",
+   "subject": "feat(p01): lift evalStep terminal reachability into evalRun"
+  },
+  {
+   "commit": "1beb8df21d4196c7470a6268322926774721db13",
+   "date": "2026-09-29T22:21:57+02:00",
+   "subject": "chore(p01): remove superseded evalRun controller route"
+  },
+  {
+   "commit": "eb0d72c403d5b9f220864fa48e29c172a256abbe",
+   "date": "2026-09-29T22:20:40+02:00",
+   "subject": "fix(p01): qualify evalRun halted predicate and frame cases"
+  },
+  {
+   "commit": "e29d7aeaa4fc4924e4f0d8453999a90927638cea",
+   "date": "2026-09-29T22:19:36+02:00",
+   "subject": "build(p01): keep terminal-aware evalRun loop as canonical route"
+  },
+  {
+   "commit": "117fd83d9a014a18cf01059eec9adf1ecc35cd96",
+   "date": "2026-09-29T22:19:01+02:00",
+   "subject": "fix(p01): prove evalRun dispatcher by reachability"
+  },
+  {
+   "commit": "901a9d913784cfc88888b9eea5cedf3518529ef0",
+   "date": "2026-09-29T22:17:48+02:00",
+   "subject": "fix(p01): keep evalRun loop focused on material handoffs"
+  },
+  {
+   "commit": "4e082f9e741ff5a0abfe6c2bdb5aa9c68a4bc487",
+   "date": "2026-09-29T22:16:51+02:00",
+   "subject": "build(p01): kernel-check evalRun restart controller"
+  },
+  {
+   "commit": "8fb81fb739846fe0502bc4e6ee146d8bd60bd2ef",
+   "date": "2026-09-29T22:16:40+02:00",
+   "subject": "feat(p01): add physical evalRun restart controller"
+  },
+  {
+   "commit": "2add3f35af4e9b8116685546e66ed83baac563d9",
+   "date": "2026-09-29T22:15:36+02:00",
+   "subject": "build(p01): kernel-check physical evalRun loop"
+  },
+  {
+   "commit": "c57e07d1e0c96a320d4da36c8bfc0ed5d7eb8536",
+   "date": "2026-09-29T22:15:21+02:00",
+   "subject": "feat(p01): add terminal-aware physical evalRun loop NTM"
+  },
+  {
+   "commit": "9c45d825ce48d234d4bbfdf2fe24537a290205af",
+   "date": "2026-09-29T22:11:17+02:00",
+   "subject": "feat(p01): close semantic refinement of physical input tag"
+  },
+  {
+   "commit": "5d3292db0a3ddc507aa68d11d32f27fdce930ffa",
+   "date": "2026-09-29T22:10:01+02:00",
+   "subject": "fix(p01): normalize semantic tag cases in evalStep refinement"
+  },
+  {
+   "commit": "1a752f6a595d7f46caebb81abd07c93963ca38c7",
+   "date": "2026-09-29T22:08:45+02:00",
+   "subject": "build(p01): kernel-check semantic evalStep refinement"
+  },
+  {
+   "commit": "ff861b5a24c5b6196a8d410c02db8b6d03e5c749",
+   "date": "2026-09-29T22:08:37+02:00",
+   "subject": "feat(p01): connect physical evalStep runs to semantic evaluator"
+  },
+  {
+   "commit": "ec575f868df56237736722832c569432360bb6de",
+   "date": "2026-09-29T22:05:09+02:00",
+   "subject": "build(p01): kernel-check unified evalStep run transport"
+  },
+  {
+   "commit": "d5d53ab34667e2334ac1627b81b0962d133ad31e",
+   "date": "2026-09-29T22:04:59+02:00",
+   "subject": "feat(p01): transport certified runs into unified evalStep NTM"
+  },
+  {
+   "commit": "66d72dc2ac6cd185ce6703d3c845f10f88b57336",
+   "date": "2026-09-29T22:02:47+02:00",
+   "subject": "fix(p01): qualify embedded input-node machine in evalStep simulation"
+  },
+  {
+   "commit": "880b9362ba75389ebcfb2079c4ce314f51f772d5",
+   "date": "2026-09-29T22:01:54+02:00",
+   "subject": "fix(p01): preserve nested input terminals in evalStep embed"
+  },
+  {
+   "commit": "475390060d64d876fb0e2a4e02e69071ad0666c1",
+   "date": "2026-09-29T22:00:11+02:00",
+   "subject": "fix(p01): split active input substates in evalStep simulation"
+  },
+  {
+   "commit": "4cdc9123b5fe4f1c698042351bc804b977a164d5",
+   "date": "2026-09-29T21:58:11+02:00",
+   "subject": "fix(p01): promote nested input terminals in evalStep embedding"
+  },
+  {
+   "commit": "bcc8b46f2fc8eb152c8a64bd7895e34f339d018d",
+   "date": "2026-09-29T21:56:50+02:00",
+   "subject": "fix(p01): preserve input terminals in evalStep simulation"
+  },
+  {
+   "commit": "2b245e4eb757a280341061f4bf31cbc37841ed21",
+   "date": "2026-09-29T21:55:38+02:00",
+   "subject": "build(p01): kernel-check unified evalStep NTM"
+  },
+  {
+   "commit": "bc5cf53fe342464f11459e2240f29790f3877ade",
+   "date": "2026-09-29T21:55:29+02:00",
+   "subject": "feat(p01): unify physical evalStep arms in one NTM"
+  },
+  {
+   "commit": "2b1cbd0ea845cdb3704702efb1dbd0a1f44bf1d2",
+   "date": "2026-09-29T21:53:31+02:00",
+   "subject": "fix(p01): normalize frame-pop initial state in haveValue handoff"
+  },
+  {
+   "commit": "d5783ba4385a0169b40c14a15689946b14512036",
+   "date": "2026-09-29T21:51:47+02:00",
+   "subject": "fix(p01): normalize haveValue pop and push handoffs"
+  },
+  {
+   "commit": "ff220077e7a184ac9287c6801241ee68549dac58",
+   "date": "2026-09-29T21:50:31+02:00",
+   "subject": "build(p01): kernel-check haveValue composite runs"
+  },
+  {
+   "commit": "994ea3f218a9dd2deec85de13eb80b9886943534",
+   "date": "2026-09-29T21:50:18+02:00",
+   "subject": "feat(p01): add physical haveValue composite runs"
+  },
+  {
+   "commit": "7890098efac90706cbb0217284271581c266ce18",
+   "date": "2026-09-29T21:44:39+02:00",
+   "subject": "fix(p01): close haveValue successor and determinism proofs"
+  },
+  {
+   "commit": "a2f84ed22ce549fd712c8beb24bb95b0b148b325",
+   "date": "2026-09-29T21:42:41+02:00",
+   "subject": "fix(p01): close haveValue tape handoffs and deterministic length"
+  },
+  {
+   "commit": "be09733c431cd143162431d723b28c0ae8560db1",
+   "date": "2026-09-29T21:41:12+02:00",
+   "subject": "build(p01): kernel-check haveValue composite NTM"
+  },
+  {
+   "commit": "65083112ccbbae6259c0378228d78d986c24cdd9",
+   "date": "2026-09-29T21:41:05+02:00",
+   "subject": "feat(p01): add physical haveValue composite NTM"
+  },
+  {
+   "commit": "e8c72a21ccf230b15a5abe682eb39d2829d84c69",
+   "date": "2026-09-29T21:39:27+02:00",
+   "subject": "build(p01): kernel-check cursor frame pop"
+  },
+  {
+   "commit": "0c359f9c6ee2fae0474ac379dfa211164a23ea1f",
+   "date": "2026-09-29T21:39:19+02:00",
+   "subject": "feat(p01): add cursor-aware six-step frame pop"
+  },
+  {
+   "commit": "bc1f80386649119488b02c40aa12a1e43fb57ad5",
+   "date": "2026-09-29T21:35:44+02:00",
+   "subject": "fix(p01): close input route through certified embedded primitive"
+  },
+  {
+   "commit": "93b5c56dbcabb6ad56e0882d111ce4ae24760adf",
+   "date": "2026-09-29T21:35:06+02:00",
+   "subject": "fix(p01): open input round-trip and canonical encoding namespaces"
+  },
+  {
+   "commit": "6ea734839240df09740f33fe3297621f48d8ac3d",
+   "date": "2026-09-29T21:34:46+02:00",
+   "subject": "fix(p01): open canonical input-roundtrip namespaces"
+  },
+  {
+   "commit": "61ee3442ad5b7c816c7673f9830701d5d57155d1",
+   "date": "2026-09-29T21:33:59+02:00",
+   "subject": "fix(p01): open canonical input round-trip namespaces"
+  },
+  {
+   "commit": "7b11ebbdeb4801a739f575e3a7911b24625b40a8",
+   "date": "2026-09-29T21:32:09+02:00",
+   "subject": "feat(p01): close physical input tag inside fused needExpr NTM"
+  },
+  {
+   "commit": "75f228c180323eaad55318f6378498f04fb9342c",
+   "date": "2026-09-29T21:32:00+02:00",
+   "subject": "feat(p01): lift input-node run into needExpr composite"
+  },
+  {
+   "commit": "94fe09bf1030979c4609875f7ed2162d1868c522",
+   "date": "2026-09-29T21:30:56+02:00",
+   "subject": "fix(p01): keep canonical input simulation only"
+  },
+  {
+   "commit": "6e5f39312e4a3b13a8193b0fb27319010c865997",
+   "date": "2026-09-29T21:29:39+02:00",
+   "subject": "feat(p01): simulate certified input primitive inside fused needExpr NTM"
+  },
+  {
+   "commit": "7b861d598b67aaef3bee9ab235906f50612867bc",
+   "date": "2026-09-29T21:29:15+02:00",
+   "subject": "feat(p01): simulate indexed-input NTM inside fused needExpr machine"
+  },
+  {
+   "commit": "8b4be09c1a0751b46175ca6fcac48444001c94c4",
+   "date": "2026-09-29T21:28:32+02:00",
+   "subject": "feat(p01): preserve input primitive terminal flags in fused evaluator"
+  },
+  {
+   "commit": "50c4ef9b65991a8d307244d29a23451de9989ee1",
+   "date": "2026-09-29T21:27:53+02:00",
+   "subject": "feat(p01): embed input terminals directly into needExpr terminals"
+  },
+  {
+   "commit": "2f8142220373e40d4432a5dd585af1edd60ac76a",
+   "date": "2026-09-29T21:25:18+02:00",
+   "subject": "fix(p01): resolve encoded frame namespace in continuation routes"
+  },
+  {
+   "commit": "3e42724b90b027ca23b05daa17660c6b40e389a3",
+   "date": "2026-09-29T21:24:04+02:00",
+   "subject": "feat(p01): close generic physical continuation-tag routes"
+  },
+  {
+   "commit": "74d1816e347f4b1e2e2735b408a0cf9bfee31f0f",
+   "date": "2026-09-29T21:23:35+02:00",
+   "subject": "fix(p01): prove exact cursor frame push structurally"
+  },
+  {
+   "commit": "4a4842f790908a13cc1ecc8449b319cdfadcfd68",
+   "date": "2026-09-29T21:22:13+02:00",
+   "subject": "feat(p01): expose exact cursor frame-push configuration"
+  },
+  {
+   "commit": "3187c611b236c85a2c8a61f19672c2c496a894ae",
+   "date": "2026-09-29T21:21:44+02:00",
+   "subject": "fix(p01): keep one certified const-true needExpr route"
+  },
+  {
+   "commit": "4b47d1de19745bd5172ee4b3b626eeaa2d7fef18",
+   "date": "2026-09-29T21:20:50+02:00",
+   "subject": "feat(p01): close physical const-true needExpr route"
+  },
+  {
+   "commit": "be39a55c4ccb37675048baca31d9dcb9b81a6047",
+   "date": "2026-09-29T21:20:23+02:00",
+   "subject": "feat(p01): prove fused const-true needExpr route"
+  },
+  {
+   "commit": "3706cdda0ce6662db258d96994ad7573153de967",
+   "date": "2026-09-29T21:19:13+02:00",
+   "subject": "fix(p01): expose fused const-false handoff configurations"
+  },
+  {
+   "commit": "6f891d7b74107f2fc1349d9b113a9f86788ee9cb",
+   "date": "2026-09-29T21:17:33+02:00",
+   "subject": "fix(p01): keep canonical needExpr terminal handoffs once"
+  },
+  {
+   "commit": "7b293a144157f1455c4d813609d42f40619c87be",
+   "date": "2026-09-29T21:16:55+02:00",
+   "subject": "feat(p01): prove fused const-false needExpr route"
+  },
+  {
+   "commit": "34fdbd2e837c0e092031dbbc6c7c72834a891f86",
+   "date": "2026-09-29T21:16:20+02:00",
+   "subject": "feat(p01): add terminal handoffs for fused needExpr phases"
+  },
+  {
+   "commit": "fc054e75cab86edf72cac851ac34732cea19293f",
+   "date": "2026-09-29T21:16:07+02:00",
+   "subject": "feat(p01): expose final handoffs in fused needExpr NTM"
+  },
+  {
+   "commit": "37200559efcd47a8d7f756992a0951925d86af41",
+   "date": "2026-09-29T21:15:16+02:00",
+   "subject": "fix(p01): reuse certified active transitions in needExpr run"
+  },
+  {
+   "commit": "ed2bed5a8c96cdd66416b0db135634b76e8964ea",
+   "date": "2026-09-29T21:13:47+02:00",
+   "subject": "fix(p01): identify embedded TM steps structurally"
+  },
+  {
+   "commit": "eddac1b50b6778d4da54941261cdca57b72d4259",
+   "date": "2026-09-29T21:13:43+02:00",
+   "subject": "fix(p01): destruct phase configs before successor reduction"
+  },
+  {
+   "commit": "f39da6bbd05cd7ee95646116e78c8be219791caf",
+   "date": "2026-09-29T21:11:54+02:00",
+   "subject": "fix(p01): align fused needExpr run lifting with active transition lemmas"
+  },
+  {
+   "commit": "8ca05d1749efae68e7482c90f2fe78c2947cffec",
+   "date": "2026-09-29T21:11:37+02:00",
+   "subject": "fix(p01): close generic needExpr phase reachability helpers"
+  },
+  {
+   "commit": "8b9fda785848875aacd73fb43e039e3568dd4b19",
+   "date": "2026-09-29T21:11:29+02:00",
+   "subject": "fix(p01): expose active transitions of fused needExpr phases"
+  },
+  {
+   "commit": "481ba250700936b8376cb1170e46e856ee20ff6c",
+   "date": "2026-09-29T21:09:49+02:00",
+   "subject": "build(p01): kernel-check fused needExpr run lifting"
+  },
+  {
+   "commit": "636e669edd58ff4626370de66f480392c92fde9e",
+   "date": "2026-09-29T21:09:41+02:00",
+   "subject": "fix(p01): convert tag handoff equalities to successor membership"
+  },
+  {
+   "commit": "44490d5aa7e2c0ac8d749d66d49203fa63d46ff2",
+   "date": "2026-09-29T21:09:40+02:00",
+   "subject": "feat(p01): lift deterministic needExpr phases into fused NTM runs"
+  },
+  {
+   "commit": "d288200e1ef4c9c7c2f76787ee4f00792466aa2d",
+   "date": "2026-09-29T21:08:41+02:00",
+   "subject": "build(p01): kernel-check fused tag decoder run"
+  },
+  {
+   "commit": "324adac6a366a8df351b0d841c1ecb43f0a7bfa0",
+   "date": "2026-09-29T21:08:33+02:00",
+   "subject": "feat(p01): prove fused physical tag decoder reachability"
+  },
+  {
+   "commit": "3e2317fed7288b5372cfeee7a80df6eb9c11fbe1",
+   "date": "2026-09-29T21:07:53+02:00",
+   "subject": "build(p01): kernel-check fused needExpr NTM"
+  },
+  {
+   "commit": "38e90f37170d4627640fd217152284ce8c0fb7cd",
+   "date": "2026-09-29T21:07:45+02:00",
+   "subject": "feat(p01): fuse all six needExpr tags into one physical NTM"
+  },
+  {
+   "commit": "e5a95c27ab57e56125d95a830c5768158ee9bace",
+   "date": "2026-09-29T21:07:12+02:00",
+   "subject": "build(p01): kernel-check fused tag decoder"
+  },
+  {
+   "commit": "11f8aa25be4a9c0c4718d6431946e8a63e7d5dc9",
+   "date": "2026-09-29T21:07:02+02:00",
+   "subject": "feat(p01): fuse cursor seek and physical tag decode"
+  },
+  {
+   "commit": "1d96245b248e67b3fee59be5914a2159298efc13",
+   "date": "2026-09-29T21:06:25+02:00",
+   "subject": "feat(p01): prove source-preserving cursor return"
+  },
+  {
+   "commit": "c425fc94968e68f5fb14e3d157d75a4a4d06f676",
+   "date": "2026-09-29T21:05:35+02:00",
+   "subject": "build(p01): kernel-check non-erasing cursor return"
+  },
+  {
+   "commit": "daca829fbec1885f5a61d35c97b2f55c220a997d",
+   "date": "2026-09-29T21:05:31+02:00",
+   "subject": "build(p01): kernel-check physical tag decoder"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P01CheckedVerifierGlobalBudget.evalStepCount_mul_checkedEnvelope_le",
+   "file": "lean/MCore/Real/P01CheckedVerifierGlobalBudget.lean",
+   "line": 25,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(n : Nat) (phi : CircuitK1.Circuit) (henc : (encodeCircuit phi).length ≤ n) : evalStepCount phi * checkedStepEnvelope n ≤ 384 * (n + 1) ^ 3"
+  },
+  {
+   "name": "MCore.Real.P01CheckedVerifierGlobalBudget.scanEntryEnvelope_le",
+   "file": "lean/MCore/Real/P01CheckedVerifierGlobalBudget.lean",
+   "line": 61,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) : 128 * (n + 1) ^ 2 ≤ 128 * (n + 1) ^ 3"
+  },
+  {
+   "name": "MCore.Real.falsified_SATNotInP",
+   "file": "lean/MCore/Real/FalsifiedTerminal.lean",
+   "line": 7,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": ": SATNotInP"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean": "4458b9dbe909fb6c53d78d1fab16e8d27120e3c4c47ddc3ac5745e5c9f895daf",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01CNFMode.lean": "49708ee32e113d190069303dd73a5b1bb8e68a337d99ad26ca8cc04462478242",
+  "lean/MCore/Real/P01CheckedEvalRunBaseCases.lean": "2d440229efd81140765b1febcb0e2041ecec37c5e397badce450aabe1c1d1136",
+  "lean/MCore/Real/P01CheckedEvalRunHaveValue.lean": "04ddabc21b1c9914fdd15ab6c0a57ddb888518b8e0c7cfe294bbb38ecf20e21c",
+  "lean/MCore/Real/P01CheckedEvalRunInputTag.lean": "faf754bb1ed47f573c3a436c3b37ed59efb5af9bec25a45b803f548ef255a973",
+  "lean/MCore/Real/P01CheckedEvalRunLoopNTM.lean": "a182c8ed23202e51a66ef639d88958d406ecce2513dc2d8d582b0312100d7a35",
+  "lean/MCore/Real/P01CheckedEvalRunNeedTags.lean": "d1b7f42c55613613a19d2c5292c142ab57711d9961dd21a894ec23d2c9ab3abd",
+  "lean/MCore/Real/P01CheckedEvalRunPhaseLift.lean": "7d7301b66177df013fb3a8e6a1ad6af58a92694af1f6095c4dd422a37c6373ec",
+  "lean/MCore/Real/P01CheckedEvalRunTagPrefix.lean": "e86f337ccf68f41ae463395f32225ef271011e53e21d391ffd8e824466861bd4",
+  "lean/MCore/Real/P01CheckedVerifierBudget.lean": "e876adc30d02758a15298c8b762806c3afec1cd2e576dc2973aa2f9df512df48",
+  "lean/MCore/Real/P01CheckedVerifierGlobalBudget.lean": "3bff05c6b5895f0ec7997e7551767b2df43d7655b61ecd3cbe95cc1eacd0f149",
+  "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
+  "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
+  "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
+  "lean/MCore/Real/P01EvalCursorConsume.lean": "eb9518da610a8f3093a7b01e0728f56da590ca7ed25dc9eebedf90da252523d3",
+  "lean/MCore/Real/P01EvalCursorFramePop.lean": "19fb1a904b8ce1c3722ac7842b70f43445710beb6a40acef7f8f6bab72a59045",
+  "lean/MCore/Real/P01EvalCursorFramePush.lean": "60efaf72ca078f1c5f424b2f9639c03226de4eb5c540601caedb8906d6dfec1d",
+  "lean/MCore/Real/P01EvalCursorMachine.lean": "334a8f85835424cc3df77c31b69bf9dbb9b9826de0c6d31859d201a5ac4cc5d6",
+  "lean/MCore/Real/P01EvalCursorRoundTrip.lean": "6e18f3626364ddf28d290d3fb8d13a24d8792fe04d37481102741c26d3fb2cfe",
+  "lean/MCore/Real/P01EvalFramePopMachineV2.lean": "e0c1afd35037d8fa0597fa46a66359d77692c235d9067db05492144e187cfceb",
+  "lean/MCore/Real/P01EvalFramePushMachine.lean": "262e46a1aa5c75dee155f976e5fb998aafd144c98aa5808ee6a46e448a748d5f",
+  "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean": "537ce6156e5dc8b2488b645d04ef32203dacfffb3d2e5100f438020a67413a9f",
+  "lean/MCore/Real/P01EvalRunLoopNTM.lean": "a8c041d48972b83a7b98346da4abee73f48aa88361ff783704f1aa1c3acedd68",
+  "lean/MCore/Real/P01EvalStepCompositeNTM.lean": "34e0f2751846232cd8d86d200b8a1bc76986092d95c3c943dac8984f58aa15c1",
+  "lean/MCore/Real/P01EvalStepCompositeRun.lean": "b9accc345ec97bc09a659e90813f74c0bab7f2555d8b5b94e8916ce3ee336116",
+  "lean/MCore/Real/P01EvalStepSemanticRefinement.lean": "79cc25c10ff94b136e77112f8cba4b5d159ae4a003c4549b376e4be3bda20654",
+  "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean": "65f57eded7aa9085213da2975bb611899ae9381a4d101d25c1bf748d8e542649",
+  "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean": "2dc0bc85bb3dbaab9bc6845f077824a418061fb1bec21f7a909d71c1836adec5",
+  "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
+  "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
+  "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
+  "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "e9f86bee64d482007e3e2feded7b9980c6f6c28a4c8a50a0d48672403dfb0322",
+  "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
+  "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "a666eaae40420970c54e5cf8652991427c660b6e529cbbb14c4bb843be46add9",
+  "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
+  "lean/MCore/Real/P01FullVerifierTraversal.lean": "b792b4dffa2c7e346fcd36e635c6d867a8a0898cfc5ee543c63ecc09666cdd1d",
+  "lean/MCore/Real/P01HaveValueCompositeNTM.lean": "1d1a7d8817f0d410c008b7c767b149442727cdf9eba5eea140d1e840b97d1bf8",
+  "lean/MCore/Real/P01HaveValueCompositeRun.lean": "c36792cb1c8e4b8a249173fe0815f09836fd1be9d6d34abb0fa6e74105230fa4",
+  "lean/MCore/Real/P01InputAfterReadReturn.lean": "2820cbad381e0a42e3ef28ea7e50f5f321d71b0ef506023c6eef8d46125bc36f",
+  "lean/MCore/Real/P01InputIndexLookahead.lean": "e1b57adcae5f90fe4c270a2cdec277bfcf41b8a1591f3336deda95de412e84dc",
+  "lean/MCore/Real/P01InputNodeCompositeNTM.lean": "380754fcb92a3ac4fa60f881384a68bbe3de11ce16dc0e00bca6b96366ef5b20",
+  "lean/MCore/Real/P01InputNodeCompositeRun.lean": "c5567592378d5d3bb8955ab1cc721097d01b97e3aaac5a74aa674717cad6dcb9",
+  "lean/MCore/Real/P01InputNodeRoundTrip.lean": "e0973e561e3a456aa67f02cd09f5b8ded182e180e007fd0f848d3001d1790179",
+  "lean/MCore/Real/P01InputReturnMode.lean": "2a1d7cf6c91330ada6754cff12f83c0ae03314c880444d11fbb0050b1cbe89fc",
+  "lean/MCore/Real/P01NTMRunLaws.lean": "5cf9499ac23d11c5e261c093c0ec700bdc9e0015e738f2efd9757035e60a6af5",
+  "lean/MCore/Real/P01NeedExprCompositeNTM.lean": "3c5bc9af50dabe99c95ca8864ea099247669085d1c9d2ccbaf39f9f8bbd57005",
+  "lean/MCore/Real/P01NeedExprCompositeRun.lean": "a72e6bc9104e3c66ef66c8a42d03a2351254803d16ff302cf3c6253bbc33148e",
+  "lean/MCore/Real/P01NeedExprTagDecode.lean": "21ec123cc5f427e1557ef368b5bab0d270777fbf0545be616a0d41ddc9958c8b",
+  "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
+  "lean/MCore/Real/P01VerifierComposition.lean": "e98bd8fce28dda051ed418d25a82bc8e9c251ca1dcddde6bb6c092ea50ebbb3f",
+  "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
+  "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
+  "lean/MCore/Real/P01WitnessIndexedReadGap.lean": "fff39492548c870016080d6414d9b58ad17fa377661fecfc8b2cefaeff5022a1",
+  "lean/MCore/Real/P01WitnessIndexedReadGapRaw.lean": "938110b6918c1123cc7209dabc1da5f061b56b956b05f90641170a7739334b85",
+  "lean/MCore/Real/P01WitnessIndexedReadPreserving.lean": "8026e111464329111f197ba07ed4eab4a30e4d0d71fdb2a120334b2b3c3008b6",
+  "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:29Z",
+ "certificate_sha256": "36df241c4a8b00f429c57d5b73f0496329cce6ea080fb2f6419f1b8d2fbf862d"
+}

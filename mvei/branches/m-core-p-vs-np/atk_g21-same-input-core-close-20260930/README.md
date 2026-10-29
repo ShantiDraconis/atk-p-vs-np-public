@@ -5,7 +5,7 @@ Lean sources from the branch `atk/g21-same-input-core-close-20260930` of the pri
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 32 — closed 4, conditional 0, open 5, proof error 3, not reached 20, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `da9da643b927e7fefe6d6962b5d3c22abde07d366b741bfb1269d6b7971c12a1`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_g21-same-input-core-close-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `d451068c3fec626be3b9c97f8710c91ae176c37970680dec5ce18f4b54d2d539`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_g21-same-input-core-close-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

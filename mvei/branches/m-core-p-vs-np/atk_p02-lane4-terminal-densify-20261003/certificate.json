@@ -1,0 +1,1724 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/p02-lane4-terminal-densify-20261003",
+ "branch_state": "parada",
+ "head_commit": "685593f052ea7bd87fd7046918ee2a507177f2c8",
+ "head_commit_date": "2026-10-04T12:06:25+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "685593f052ea7bd87fd7046918ee2a507177f2c8",
+   "date": "2026-10-04T12:06:25+02:00",
+   "subject": "fix(p02): apply dependent Kleene realizer field directly"
+  },
+  {
+   "commit": "61a2333ffcb3201d3f42d227d4c76d9b67812ac3",
+   "date": "2026-10-04T12:06:00+02:00",
+   "subject": "fix(p03): use Mathlib 4.19 polynomial module path"
+  },
+  {
+   "commit": "220f05c9ad425e3aeab11734309aa62a606e127a",
+   "date": "2026-10-04T12:05:57+02:00",
+   "subject": "fix(p02): close NTMUniqueAt ExistsUnique fields"
+  },
+  {
+   "commit": "c2dcf11cb84ef9dc5ba7a05cc58a5d7a2abdd82e",
+   "date": "2026-10-04T02:07:23+02:00",
+   "subject": "fix(p02): compose transition effect CNFs with explicit append associativity"
+  },
+  {
+   "commit": "294060fe2e63dd7b7a923c5f226c7ce95b5ff2a6",
+   "date": "2026-10-04T02:04:29+02:00",
+   "subject": "fix(p02): align guarded copy proof with flatMap clause shape"
+  },
+  {
+   "commit": "db76b95759170bdecc50f854cda46c3b769623ec",
+   "date": "2026-10-04T01:56:18+02:00",
+   "subject": "fix(p02): align initial CNF and guarded clause proofs with list shapes"
+  },
+  {
+   "commit": "4fe7a9041b9daac153adb17e3a5dc4f4c9b62d31",
+   "date": "2026-10-04T01:55:08+02:00",
+   "subject": "fix(p02): make path assignment choice and initial tape proofs explicit"
+  },
+  {
+   "commit": "48d4e83f4782dc6e3d349b88cdb3e54e9326ad52",
+   "date": "2026-10-04T01:34:54+02:00",
+   "subject": "fix(ci): use valid Lake manifest project name"
+  },
+  {
+   "commit": "9063086d74d2dfea9a5e0f5e8cd414da5438b91e",
+   "date": "2026-10-04T01:31:39+02:00",
+   "subject": "fix(p02): restore pinned mathlib v4.19 manifest and tactic imports"
+  },
+  {
+   "commit": "28dca4012c3a1fb7de64663dd8423c44648d4730",
+   "date": "2026-10-04T01:10:38+02:00",
+   "subject": "fix(p02): elaborate dependent fixed-point realizer application"
+  },
+  {
+   "commit": "115a4a06ee0d010a8aaba29202dc78e95c15d8f0",
+   "date": "2026-10-04T01:10:35+02:00",
+   "subject": "fix(p02): remove unavailable Mathlib.Tactic import from PNPNTMTableauEncoding.lean"
+  },
+  {
+   "commit": "fe18617f01e31c1c39127b4e76126e205c94737a",
+   "date": "2026-10-04T01:10:32+02:00",
+   "subject": "fix(p02): remove unavailable Mathlib.Tactic import from Claim6CNFDeficitAudit.lean"
+  },
+  {
+   "commit": "d662c48e7d805f1e38f48702255e349662149689",
+   "date": "2026-10-04T01:10:29+02:00",
+   "subject": "fix(p02): remove unavailable Mathlib.Tactic import from P02RestrictionFamilyAudit.lean"
+  },
+  {
+   "commit": "c6f8404da3b25378f4e7caec7cf43464681c0a48",
+   "date": "2026-10-04T01:05:53+02:00",
+   "subject": "fix(ci): restore manifest-compatible no-mathlib lake config"
+  },
+  {
+   "commit": "2664822b66268e0963bae9a829f044aa191f8774",
+   "date": "2026-10-04T00:50:37+02:00",
+   "subject": "feat(p02): expose exact G21 terminal transports"
+  },
+  {
+   "commit": "3d621449145789643b66d1388861bf66b524de05",
+   "date": "2026-10-03T22:15:55+02:00",
+   "subject": "p02 lane4: enforce advanced certificate reuse in structure preflight"
+  },
+  {
+   "commit": "0f43fa8ee832993fe59c7af647363f248a0ed49c",
+   "date": "2026-10-03T22:15:33+02:00",
+   "subject": "p02 lane4: certify advanced artifact reuse inventory"
+  },
+  {
+   "commit": "905495a6d9334dceeb579c030125dfb0b0baca26",
+   "date": "2026-10-03T22:15:16+02:00",
+   "subject": "p02 lane4: classify Claim1-7 semantic gate as exact firewall"
+  },
+  {
+   "commit": "1c63d9b75330bcffcb6a32441825646d201236dc",
+   "date": "2026-10-03T22:14:24+02:00",
+   "subject": "p02 lane4: aggregate advanced certificates into fail-closed ledger"
+  },
+  {
+   "commit": "26ffe14108005bef49cca050189eb4451a2d1c7b",
+   "date": "2026-10-03T22:14:21+02:00",
+   "subject": "p02 lane4: record advanced reusable certificates and exact remaining frontier"
+  },
+  {
+   "commit": "453c09c168402ceb2dd9fdaa5bcb681a546e7d85",
+   "date": "2026-10-03T22:14:18+02:00",
+   "subject": "p02 lane4: wire advanced certificate reuse into MCore"
+  },
+  {
+   "commit": "868fc400c5c7a5f49423b20d6109f59ccf715eef",
+   "date": "2026-10-03T22:13:52+02:00",
+   "subject": "p02 lane4: reuse closed P01 and historical G21 terminal equivalences"
+  },
+  {
+   "commit": "fd7f1599d801389f1a1ff920f7e6aaca2a0719f3",
+   "date": "2026-10-03T22:13:12+02:00",
+   "subject": "p02 lane4: record advanced certificate reuse chain"
+  },
+  {
+   "commit": "4fac3f0e25a99a6cb17ebb78ef402a58ad4c7690",
+   "date": "2026-10-03T22:13:09+02:00",
+   "subject": "p02 lane4: require advanced certificate reuse in structure check"
+  },
+  {
+   "commit": "810f50130a78aaa0a6f2feeed481c9b7e6de7c03",
+   "date": "2026-10-03T22:12:51+02:00",
+   "subject": "p02 lane4: catalog advanced reusable certificates"
+  },
+  {
+   "commit": "f86b772d818e2810adf77a829818fb898b0c911c",
+   "date": "2026-10-03T22:12:48+02:00",
+   "subject": "p02 lane4: wire advanced certificate reuse chain"
+  },
+  {
+   "commit": "9bb2d8bf18a1a032533e54625ad2fcecee32890c",
+   "date": "2026-10-03T22:12:25+02:00",
+   "subject": "p02 lane4: aggregate advanced certified terminal chain"
+  },
+  {
+   "commit": "f5ca7f06aba3c309cc270cf7b561beed5ec1543d",
+   "date": "2026-10-03T22:10:04+02:00",
+   "subject": "p02 lane4: record source-complete structure before kernel validation"
+  },
+  {
+   "commit": "805ebf9caa20f988b019878f6bc9d92c9934821e",
+   "date": "2026-10-03T22:10:01+02:00",
+   "subject": "p02 lane4: require complete structure before kernel preflight"
+  },
+  {
+   "commit": "aadd4ddd46354af863265939401d0deb62725a9f",
+   "date": "2026-10-03T22:09:47+02:00",
+   "subject": "p02 lane4: add static structure completeness check"
+  },
+  {
+   "commit": "bc1d5a5d8801f8ab4f79aeda94710472d6737d2a",
+   "date": "2026-10-03T22:09:45+02:00",
+   "subject": "p02 lane4: record complete structural dependency graph"
+  },
+  {
+   "commit": "88582c25c3a3fb2522645e8deba99e7f19603ff5",
+   "date": "2026-10-03T22:08:50+02:00",
+   "subject": "p02 lane4: wire R5 facade and structural bundle"
+  },
+  {
+   "commit": "6c9842d5b7c22c526a5988f8f67cba6044ea75d7",
+   "date": "2026-10-03T22:08:47+02:00",
+   "subject": "p02 lane4: add complete structural bundle before final build"
+  },
+  {
+   "commit": "4ee29b47ab498e357f32dd014d5122466143b786",
+   "date": "2026-10-03T22:05:14+02:00",
+   "subject": "p02 lane4: make local preflight build dependencies topologically"
+  },
+  {
+   "commit": "9ca0b10c407f9ec14d4c4979d4b995f5d2cd2ca5",
+   "date": "2026-10-03T21:58:09+02:00",
+   "subject": "p02 lane4: make CI execute identical local preflight"
+  },
+  {
+   "commit": "0a2e85e9831a22a2b8698d6eeb9463bb273a445f",
+   "date": "2026-10-03T21:57:53+02:00",
+   "subject": "p02 lane4: add local three-layer preflight mirror"
+  },
+  {
+   "commit": "5230e929f309ffba28410e9d0059e88c4f2c0729",
+   "date": "2026-10-03T21:57:50+02:00",
+   "subject": "p02 lane4: emit explicit MCore success marker"
+  },
+  {
+   "commit": "6a38ef6179605010e4fd35363b86caef5b410906",
+   "date": "2026-10-03T21:55:50+02:00",
+   "subject": "p02 lane4: fetch mathlib cache before kernel gate"
+  },
+  {
+   "commit": "2fe1b9db694bc9f9cdf657baabe9d5bba6fa986e",
+   "date": "2026-10-03T21:55:44+02:00",
+   "subject": "p02 lane4: declare mathlib v4.19.0 dependency"
+  },
+  {
+   "commit": "cab8fc1ae82013b195aad5158392e3f0bdb69a6d",
+   "date": "2026-10-03T21:53:19+02:00",
+   "subject": "p02 lane4: compile tableau base before AUX imports"
+  },
+  {
+   "commit": "a39a4096091eac818f30987c1236e9f1c2c9a091",
+   "date": "2026-10-03T21:35:07+02:00",
+   "subject": "p02 lane4: make tableau polynomial bounds constructive in Nat"
+  },
+  {
+   "commit": "40399cb97c1018722734ab885d20356795bb8113",
+   "date": "2026-10-03T21:23:52+02:00",
+   "subject": "p02 lane4: compile lane files directly with lake env lean"
+  },
+  {
+   "commit": "f636e76f3ed0bfc0d361eecfe5a361b7f87caa0e",
+   "date": "2026-10-03T21:22:25+02:00",
+   "subject": "p02 lane4: disable lean-action autobuild for targeted gate"
+  },
+  {
+   "commit": "37bcb65be9533d4cae73f68ef5773c272723ff76",
+   "date": "2026-10-03T21:20:52+02:00",
+   "subject": "fix tableau encoding build blockers for lane4 AUX gate"
+  },
+  {
+   "commit": "502c1914df43501f82eaca676f7a648b7fc931f7",
+   "date": "2026-10-03T21:15:48+02:00",
+   "subject": "p02 lane4: add targeted AUX kernel gate"
+  },
+  {
+   "commit": "d1f4eacdac8a43451378115277ebb752b0b207b5",
+   "date": "2026-10-03T21:12:55+02:00",
+   "subject": "p02 lane4: record exact poly-size route decomposition"
+  },
+  {
+   "commit": "4049fffb3aa998a2751e3ba4f47b6f2e8f42b95c",
+   "date": "2026-10-03T21:12:44+02:00",
+   "subject": "p02 lane4: include poly-size frontier in local gate"
+  },
+  {
+   "commit": "403247090a05870beea42ebe596de09c348280b1",
+   "date": "2026-10-03T21:12:38+02:00",
+   "subject": "p02 lane4: wire poly-size behavioral frontier module"
+  },
+  {
+   "commit": "c4effb74da21d322aed783b14f3bf1161f0e82cb",
+   "date": "2026-10-03T21:12:27+02:00",
+   "subject": "p02 lane4: isolate exact poly-size prerequisites for behavioral alignment"
+  },
+  {
+   "commit": "fafdb1a11a70db09fa4b04edb5eab3a941c1e053",
+   "date": "2026-10-03T20:41:49+02:00",
+   "subject": "p02 lane4: record densified structural/open-math package and local gate"
+  },
+  {
+   "commit": "4018038749895045274786328e0834b7e14b61a9",
+   "date": "2026-10-03T20:41:36+02:00",
+   "subject": "p02 lane4: add fail-closed local AUX build gate"
+  },
+  {
+   "commit": "84c5fa0e99b6ea1dea9c513d7a220ea0f6f99bcd",
+   "date": "2026-10-03T20:41:23+02:00",
+   "subject": "p02 lane4: wire compatibility facades and fuel barrier module"
+  },
+  {
+   "commit": "fa07db68cfd5cdc6820397a886c643c9f104dfa4",
+   "date": "2026-10-03T20:41:08+02:00",
+   "subject": "p02 lane4: densify structural closure with pair recovery"
+  },
+  {
+   "commit": "ccf8348db67ca581474b158abcd7b23adf26cc37",
+   "date": "2026-10-03T20:40:52+02:00",
+   "subject": "p02 lane4: formalize abstract barrier to bare fuel-to-behavior inference"
+  },
+  {
+   "commit": "5dca35b440e555bc063210e77cfcc8058935df69",
+   "date": "2026-10-03T20:40:30+02:00",
+   "subject": "p02 lane4: densify behavioral frontier and branch dichotomy"
+  },
+  {
+   "commit": "c303486ea63b231de9eabf487b9eb57c6cefb7a6",
+   "date": "2026-10-03T20:39:45+02:00",
+   "subject": "p02 lane4: add compatibility facade for structural closure"
+  },
+  {
+   "commit": "bedae3b2c678edbe150becb61819098ea35a5ea5",
+   "date": "2026-10-03T20:39:43+02:00",
+   "subject": "p02 lane4: add compatibility facade for pair and reduction injectivity"
+  },
+  {
+   "commit": "521f0e55d5ced320511de1100e7adec59470b57e",
+   "date": "2026-10-03T20:39:41+02:00",
+   "subject": "p02 lane4: add compatibility facade for fixed-fuel R4"
+  },
+  {
+   "commit": "db9240dc2eaa844983d3fa6144a293e5fce2da42",
+   "date": "2026-10-03T20:39:39+02:00",
+   "subject": "p02 lane4: add compatibility facade for initial CNF decoder"
+  },
+  {
+   "commit": "c07af2ca86678c1cea8a4f6c70d9ef05bf933315",
+   "date": "2026-10-03T20:28:42+02:00",
+   "subject": "p02 lane4: record honest fuel-route open-math frontier"
+  },
+  {
+   "commit": "916f0267ae61159b31446f5ca489b8ec9dc2782b",
+   "date": "2026-10-03T20:28:32+02:00",
+   "subject": "p02 lane4: wire honest behavioral fuel-route frontier"
+  },
+  {
+   "commit": "4880da19a05848f31370431c404f6643eed12694",
+   "date": "2026-10-03T20:28:25+02:00",
+   "subject": "p02 lane4: expose honest fuel-route semantic frontier"
+  },
+  {
+   "commit": "ebb8bf22ffda3615084cfbd06f412e105d6337d4",
+   "date": "2026-10-03T20:20:30+02:00",
+   "subject": "p02 lane4: record fail-closed structural closure ledger"
+  },
+  {
+   "commit": "8b15dcd414e2248e0b3350daa07134857421a6b7",
+   "date": "2026-10-03T20:20:17+02:00",
+   "subject": "p02 lane4: wire structural closure aggregate"
+  },
+  {
+   "commit": "f49a96e988e4df2713fee73ada35a2439002cb4b",
+   "date": "2026-10-03T20:19:59+02:00",
+   "subject": "p02 lane4: consolidate structural closure and isolate T10 open math"
+  },
+  {
+   "commit": "34708a796a4cf72df1fb968984e623c9d61f4483",
+   "date": "2026-10-03T20:19:42+02:00",
+   "subject": "p02 lane4: wire R4 final and R5 pair injectivity"
+  },
+  {
+   "commit": "c13d2b7f7f46571e7e853f677ab92597f007e147",
+   "date": "2026-10-03T20:19:25+02:00",
+   "subject": "p02 lane4: add pair injectivity and concrete reduction injectivity"
+  },
+  {
+   "commit": "bb56a0e51bb3b8e628f4e34e3b10d56e02ea3429",
+   "date": "2026-10-03T20:18:11+02:00",
+   "subject": "p02 lane4: close fixed-fuel tableau and circuit injectivity"
+  },
+  {
+   "commit": "788fa28cad08825a6fce8ac89e59daf72a31f016",
+   "date": "2026-10-03T20:17:56+02:00",
+   "subject": "p02 lane4: wire initial-CNF injectivity module"
+  },
+  {
+   "commit": "d6c98e0229fea57d8f5cbbd9c4d58350a0b48eb3",
+   "date": "2026-10-03T20:17:44+02:00",
+   "subject": "p02 lane4: add syntactic initial-CNF source decoder and injectivity"
+  },
+  {
+   "commit": "7944d7f47f9aa19d3b7b3271b0b618f40acb6565",
+   "date": "2026-10-03T20:14:14+02:00",
+   "subject": "p02 lane4: wire final transition-head lift"
+  },
+  {
+   "commit": "4dd63396bd62fe3500a2c8b358753b01d4badf96",
+   "date": "2026-10-03T20:14:05+02:00",
+   "subject": "p02 lane4: lift non-singleton transition head to step and transition block"
+  },
+  {
+   "commit": "51c727fbdc15e984275d9c7846e2f4e39526001f",
+   "date": "2026-10-03T20:10:15+02:00",
+   "subject": "p02 lane4: wire transition-head AUX module"
+  },
+  {
+   "commit": "3fd6c4cc09fc2a3446e71f3103414af46e6d5bfc",
+   "date": "2026-10-03T20:10:09+02:00",
+   "subject": "p02 lane4: prove non-singleton head for every transition case"
+  },
+  {
+   "commit": "c91a4a58be353cd00fd2c1ce42ebddcc06764e66",
+   "date": "2026-10-03T20:00:31+02:00",
+   "subject": "p02 lane4: wire maximal singleton prefix extractor"
+  },
+  {
+   "commit": "d91f0a7b3f383536e30ff68db14c9f77cd2cf3f0",
+   "date": "2026-10-03T20:00:25+02:00",
+   "subject": "p02 lane4: add maximal singleton prefix extractor for R4"
+  },
+  {
+   "commit": "69e5fd5f30a275928e33c86e3412be36a1635f74",
+   "date": "2026-10-03T19:53:21+02:00",
+   "subject": "p02 lane4: wire prefix signature AUX module"
+  },
+  {
+   "commit": "77eb12541f9e60de30ddf81c80240952953193a6",
+   "date": "2026-10-03T19:53:15+02:00",
+   "subject": "p02 lane4: add initial/transition clause prefix signatures"
+  },
+  {
+   "commit": "709421727c4a9c76bfc0f9eadab35ada395f4925",
+   "date": "2026-10-03T19:51:10+02:00",
+   "subject": "p02 lane4: wire exact transition length module"
+  },
+  {
+   "commit": "31bb676abf0b68f8c6dd074c6a1fbd73d724015d",
+   "date": "2026-10-03T19:51:04+02:00",
+   "subject": "p02 lane4: derive exact transition component lengths"
+  },
+  {
+   "commit": "4228573c43d486258758b3f4d3b8b1eb8df0caaf",
+   "date": "2026-10-03T19:16:01+02:00",
+   "subject": "p02 lane4: wire bounded structural cut module"
+  },
+  {
+   "commit": "a2394c51bba803a9eb8ed27bfc639520d73196d8",
+   "date": "2026-10-03T19:15:56+02:00",
+   "subject": "p02 lane4: reduce bounded circuit equality to structural tableau cut"
+  },
+  {
+   "commit": "de96bc3e635329749ee77fe0673f193dff74132a",
+   "date": "2026-10-03T19:13:42+02:00",
+   "subject": "p02 lane4: wire radius/dimension AUX module"
+  },
+  {
+   "commit": "c69a0e561236b39c3027be7b3d1dc1ba569cb8d4",
+   "date": "2026-10-03T19:13:32+02:00",
+   "subject": "p02 lane4: derive radius and dimension from real initial tableau syntax"
+  },
+  {
+   "commit": "e56e87994ceb8f0a8c95c5756659ed9568666cce",
+   "date": "2026-10-03T19:11:25+02:00",
+   "subject": "p02 lane4: wire R1/R3 real AUX module"
+  },
+  {
+   "commit": "bbfadacc20893dbfab067ab2fb7b1d8271058217",
+   "date": "2026-10-03T19:11:19+02:00",
+   "subject": "p02 lane4: add real R1/R3 AUX theorem module"
+  },
+  {
+   "commit": "1437c2436992ac6b8eb8274b4e579c405f688e13",
+   "date": "2026-10-03T19:10:32+02:00",
+   "subject": "p02 lane4: add recoverability AUX module with audited R1/R3 reuse"
+  },
+  {
+   "commit": "bda7d8033e45d0d2e85de0931ae128fbe7d65508",
+   "date": "2026-10-03T19:09:01+02:00",
+   "subject": "p02 lane4: wire tableau source recovery module"
+  },
+  {
+   "commit": "0cb516a6aea201f4959e3bf5c8f4b8bb6383fba0",
+   "date": "2026-10-03T19:08:53+02:00",
+   "subject": "p02 lane4: add structural source recovery injectivity"
+  },
+  {
+   "commit": "860ea36b2cd3bd4cb920641966d576fd546a27df",
+   "date": "2026-10-03T18:15:20+02:00",
+   "subject": "p02 lane4: record Elyon reuse provenance and fail-closed T10 result"
+  },
+  {
+   "commit": "fb03dfd1e4d94a31485328123236fa2b597f6b31",
+   "date": "2026-10-03T18:14:40+02:00",
+   "subject": "p02 lane4: include reuse and semantic audit modules in MCore build"
+  },
+  {
+   "commit": "3ac40d280660f3e05a45066d7e2fb52e6e1fba0a",
+   "date": "2026-10-03T18:14:19+02:00",
+   "subject": "p02 lane4: fix fully-qualified SATBits namespace in T10 gate"
+  },
+  {
+   "commit": "05c2efeeaa8e51b394fcc07f23d8719bad3d83df",
+   "date": "2026-10-03T18:13:59+02:00",
+   "subject": "p02 lane4: formalize fail-closed T10 semantic gate"
+  },
+  {
+   "commit": "57efd2c2d4ddf08ae790b80bc48ba7e231faf2a8",
+   "date": "2026-10-03T18:13:44+02:00",
+   "subject": "p02 lane4: add Claim6 deficit interface adapter"
+  },
+  {
+   "commit": "c776c40632cb86d0ac0ec474bb51fe672438e2d1",
+   "date": "2026-10-03T18:13:30+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/Claim1To7Only.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "aaa86d6015b08b3dda2eb8468a0a4e4059f55610",
+   "date": "2026-10-03T18:13:28+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/BridgeSeven.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "06c64a04d3e9ec676aaf5939e76f5ce8bf34a0d9",
+   "date": "2026-10-03T18:13:25+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/TotalVariableCoverageObligationNorm.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "edfa555b4f3019263943ba240377e8f52b0974f7",
+   "date": "2026-10-03T18:13:23+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/P02RestrictionFamilyAudit.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "a6887846456d2e91ec5938754f13a6125c1f2573",
+   "date": "2026-10-03T18:13:20+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/Claim6CNFDeficitAudit.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "3b36294b5074554f2b57c974d51b4199e937bf67",
+   "date": "2026-10-03T18:13:17+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/P02RestrictionLowerBoundPattern.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "44fecd70d66a6a9b38e3861820bbf2e1ddb85fc7",
+   "date": "2026-10-03T18:13:14+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/Claim7VariableCoverage.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "0ef7007b68a55c429b96281aa81d6fa0576ab7bc",
+   "date": "2026-10-03T18:13:11+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/Claim4NormalizedProgress.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "0c7d4b8a75d52dac780b183876593900b7d59586",
+   "date": "2026-10-03T18:13:09+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/Claim3PersistentFamily.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "5c7cb15cc318727194e2dbe62cceab7857a3909d",
+   "date": "2026-10-03T18:13:06+02:00",
+   "subject": "p02 lane4: port lean/MCore/Real/P02BoundedComputationEncoding.lean from Elyon d88ad767"
+  },
+  {
+   "commit": "2e87d036a7f86638e413823cc59662a0d69d39c3",
+   "date": "2026-10-03T17:04:33+02:00",
+   "subject": "wire concrete terminal law into default build"
+  },
+  {
+   "commit": "6deb1041d0d6af340b11caa05cf49fdf4811bb31",
+   "date": "2026-10-03T17:03:42+02:00",
+   "subject": "formalize concrete terminal certification/refutation law"
+  },
+  {
+   "commit": "5572a4c984ddebb3f3757cc114593910737aba50",
+   "date": "2026-10-03T13:21:18+02:00",
+   "subject": "p03: simplify bounded source uniqueness closure"
+  },
+  {
+   "commit": "f184b0264fb8f8ece5c20850734fa0e3dfc1622a",
+   "date": "2026-10-03T13:21:00+02:00",
+   "subject": "p03: start bounded source uniqueness with injective-clock candidate"
+  },
+  {
+   "commit": "f146340412ea577afb06aa74feb72094c1e0cd98",
+   "date": "2026-10-03T08:54:38+02:00",
+   "subject": "audit: set P01-P06 GREEN gate status to RED fail-closed"
+  },
+  {
+   "commit": "7707a20ca3129cfeeb44ee52b797b4bf40fa91d9",
+   "date": "2026-10-03T08:50:49+02:00",
+   "subject": "audit: record genuine material producer policy"
+  },
+  {
+   "commit": "131fccefc4f4ef1c620a4376dd6e2e8aaf2d4b75",
+   "date": "2026-10-03T08:50:46+02:00",
+   "subject": "audit: document genuine producer requirement"
+  },
+  {
+   "commit": "8d619c37cd5d2fe3af2e2b6c75a9ca2891243cf9",
+   "date": "2026-10-03T08:50:25+02:00",
+   "subject": "audit: require genuine producer instead of alias for GREEN"
+  },
+  {
+   "commit": "becec3d844f6e2f0b43240002fafbeed36798d39",
+   "date": "2026-10-03T08:49:57+02:00",
+   "subject": "audit: classify remaining RED as material terminal not structural"
+  },
+  {
+   "commit": "4ac7f486ec6822dd8bb9b80d0aa2d27074a57183",
+   "date": "2026-10-03T08:49:53+02:00",
+   "subject": "audit: separate structural RED cleanup from terminal GREEN proof"
+  },
+  {
+   "commit": "efea0e0cfae36c787de7a100d8dc80ffe09e36d3",
+   "date": "2026-10-03T08:47:56+02:00",
+   "subject": "audit: record zero sorry holes and terminal RED reason"
+  },
+  {
+   "commit": "25c18cb5d71c053f1d4a0a896bb26c9c67a2f6af",
+   "date": "2026-10-03T08:47:44+02:00",
+   "subject": "audit: make static GREEN scan token-aware and distinguish mathematical RED"
+  },
+  {
+   "commit": "2283ebd0709e29c073487a7c89a77cf74a5f41b0",
+   "date": "2026-10-03T08:43:30+02:00",
+   "subject": "audit: normalize GREEN source of truth and record material-frontier status"
+  },
+  {
+   "commit": "962c707c7642b2d4ce821ea97ac63e05ef4749ad",
+   "date": "2026-10-03T08:42:46+02:00",
+   "subject": "green gate: derive lane state from GreenCertificate sources"
+  },
+  {
+   "commit": "b2f89924ae71950dd554985a78aee94adc6b2f92",
+   "date": "2026-10-03T08:42:13+02:00",
+   "subject": "green gate: source P06_BSD certificate from material frontier status"
+  },
+  {
+   "commit": "5d4a477f737008fc204178bb60195cf71992da08",
+   "date": "2026-10-03T08:42:10+02:00",
+   "subject": "green gate: source P05_Hodge certificate from material frontier status"
+  },
+  {
+   "commit": "03b643c7f8a1c5056203e385cbf249d7d3614631",
+   "date": "2026-10-03T08:42:08+02:00",
+   "subject": "green gate: source P04_NavierStokes certificate from material frontier status"
+  },
+  {
+   "commit": "b6893342e69e3e75898164b479dd449e56a9aa2f",
+   "date": "2026-10-03T08:42:05+02:00",
+   "subject": "green gate: source P03 certificate from material frontier status"
+  },
+  {
+   "commit": "9f3aac3f5c675cd56a5d4f860711ac2a1c28b4a1",
+   "date": "2026-10-03T08:42:03+02:00",
+   "subject": "green gate: source P02_YangMills certificate from material frontier status"
+  },
+  {
+   "commit": "4071f8f0750efd30b721957544834c728502ece2",
+   "date": "2026-10-03T08:42:00+02:00",
+   "subject": "green gate: source P01_Riemann certificate from material frontier status"
+  },
+  {
+   "commit": "d09aa793e5306ea3f9012e264ad42aecc4b4ee37",
+   "date": "2026-10-03T08:41:46+02:00",
+   "subject": "green gate: add material frontier status for MaterialFrontierStatus.lean"
+  },
+  {
+   "commit": "81cbdef9da76628a50117f2d199fae82693a60fd",
+   "date": "2026-10-03T08:41:44+02:00",
+   "subject": "green gate: add material frontier status for MaterialFrontierStatus.lean"
+  },
+  {
+   "commit": "151e5927a7b33fe8beb0442c000c067a45f9fda7",
+   "date": "2026-10-03T08:41:42+02:00",
+   "subject": "green gate: add material frontier status for MaterialFrontierStatus.lean"
+  },
+  {
+   "commit": "23672956d50d6e6486bd86f06292bd4310b233b1",
+   "date": "2026-10-03T08:41:40+02:00",
+   "subject": "green gate: add material frontier status for MaterialFrontierStatus.lean"
+  },
+  {
+   "commit": "5433a0688883b03c1ef6c7daf61113e4bd9a248d",
+   "date": "2026-10-03T08:41:38+02:00",
+   "subject": "green gate: add material frontier status for MaterialFrontierStatus.lean"
+  },
+  {
+   "commit": "21b5a02b35fc92ea1b9ac9847b5be2964702c62f",
+   "date": "2026-10-03T08:41:36+02:00",
+   "subject": "green gate: add material frontier status for MaterialFrontierStatus.lean"
+  },
+  {
+   "commit": "8aed4a899a7c9ee12c44082e4469826ed7072bb6",
+   "date": "2026-10-03T04:32:28+02:00",
+   "subject": "state: record C1 gate fix as build pending"
+  },
+  {
+   "commit": "9a39ed5c89e97768bf6124d2df36fa6e93c0631f",
+   "date": "2026-10-03T04:32:17+02:00",
+   "subject": "fix: align C1 axiom gate with documented propext policy"
+  },
+  {
+   "commit": "c46930612837e7ee10b977f40850745c70fb7e9d",
+   "date": "2026-10-03T04:29:37+02:00",
+   "subject": "fix: close next tableau guard cluster and Kleene accessor"
+  },
+  {
+   "commit": "bd6b4400398d5abb168b418388eb4eeeef5ca119",
+   "date": "2026-10-03T04:24:56+02:00",
+   "subject": "fix: normalize NTM effect decomposition and Kleene bridge"
+  },
+  {
+   "commit": "8f361d42555801c944b03a30aee50d803d000bf3",
+   "date": "2026-10-03T04:20:08+02:00",
+   "subject": "fix: remove tableau Mathlib import and normalize Kleene CorrectAt"
+  },
+  {
+   "commit": "be4ed5c3ffcb41f4d0884ed321236e8e3172a23b",
+   "date": "2026-10-03T04:18:59+02:00",
+   "subject": "fix: eliminate Mathlib dependency and manifest REDs"
+  },
+  {
+   "commit": "6fd8c05d6b94b38e50f60e619c0257b555748e8a",
+   "date": "2026-10-03T04:09:49+02:00",
+   "subject": "fix: repair first PNP tableau build-error cluster"
+  },
+  {
+   "commit": "97da42e33bdeb176d4b6a1e46057873d1abad61a",
+   "date": "2026-10-03T04:04:41+02:00",
+   "subject": "green-gate: pin Riemann frontier source and forbid administrative aliases"
+  },
+  {
+   "commit": "3da358756ee0ac8f8facc05a91dc81df1939c72a",
+   "date": "2026-10-03T04:04:27+02:00",
+   "subject": "riemann: align RED certificate with real finite-span frontier"
+  },
+  {
+   "commit": "4fd6c00e5fdf0537d758456afe809a9a9d0caf0f",
+   "date": "2026-10-03T04:04:24+02:00",
+   "subject": "claim-boundary: align P01 with real finite-span frontier"
+  },
+  {
+   "commit": "00e4864187912cf5bcfce0ce0f845c471e7cc96e",
+   "date": "2026-10-03T04:00:28+02:00",
+   "subject": "green-gate: document RED certificate template semantics"
+  },
+  {
+   "commit": "fbd6322e157f3c668ccf19722c37c1bece82cbca",
+   "date": "2026-10-03T04:00:25+02:00",
+   "subject": "green-gate: require explicit terminal certification theorem"
+  },
+  {
+   "commit": "a51725b6b4203d837c4225c05ac427d51fe50a6e",
+   "date": "2026-10-03T04:00:13+02:00",
+   "subject": "green-gate: audit RED certificate for P06_BSD"
+  },
+  {
+   "commit": "de93787073e576e34e20b68e97ab4e979673c355",
+   "date": "2026-10-03T04:00:11+02:00",
+   "subject": "green-gate: audit RED certificate for P05_Hodge"
+  },
+  {
+   "commit": "a7aa38ee0099669440fbb908ab42534e3efd11d6",
+   "date": "2026-10-03T04:00:08+02:00",
+   "subject": "green-gate: audit RED certificate for P04_NavierStokes"
+  },
+  {
+   "commit": "309d8760f763a02e189261e370008378fc07a0e1",
+   "date": "2026-10-03T04:00:06+02:00",
+   "subject": "green-gate: audit RED certificate for P03_PvsNP"
+  },
+  {
+   "commit": "84ce360ff29eb400b620c73dc017f6e37202b340",
+   "date": "2026-10-03T04:00:03+02:00",
+   "subject": "green-gate: audit RED certificate for P02_YangMills"
+  },
+  {
+   "commit": "397a5967e4c07a2e7a547373139b7e1c93055b22",
+   "date": "2026-10-03T04:00:01+02:00",
+   "subject": "green-gate: audit RED certificate for P01_Riemann"
+  },
+  {
+   "commit": "d9f519f532f99565c0986e02afcbf00d88c8c4d3",
+   "date": "2026-10-03T03:59:51+02:00",
+   "subject": "green-gate: add RED certificate template for P06_BSD"
+  },
+  {
+   "commit": "2f6f7719bd74c10f86cbc62cbc810d8b646f1d5e",
+   "date": "2026-10-03T03:59:49+02:00",
+   "subject": "green-gate: add RED certificate template for P05_Hodge"
+  },
+  {
+   "commit": "0334d8e88b178528d8f16a58efeac1747de581ba",
+   "date": "2026-10-03T03:59:47+02:00",
+   "subject": "green-gate: add RED certificate template for P04_NavierStokes"
+  },
+  {
+   "commit": "6b0b89cb79a944522771a03cad43c980e672c3d2",
+   "date": "2026-10-03T03:59:46+02:00",
+   "subject": "green-gate: add RED certificate template for P03_PvsNP"
+  },
+  {
+   "commit": "af1ea8f77b4c3e1900320d1b589ac13874e46a4e",
+   "date": "2026-10-03T03:59:44+02:00",
+   "subject": "green-gate: add RED certificate template for P02_YangMills"
+  },
+  {
+   "commit": "3a9beee9bcc3c41302a0eafe83c560418528b6fd",
+   "date": "2026-10-03T03:59:42+02:00",
+   "subject": "green-gate: add RED certificate template for P01_Riemann"
+  },
+  {
+   "commit": "99e9ee9a2c35ab2944f5a75bcc88198a63d7955e",
+   "date": "2026-10-03T03:58:45+02:00",
+   "subject": "audit: record canonical deduplicated BSD lane"
+  },
+  {
+   "commit": "7ef153ccf61046be5644b43732f80a70d7fcd84c",
+   "date": "2026-10-03T03:58:19+02:00",
+   "subject": "bsd: remove duplicate legacy evidence wrapper"
+  },
+  {
+   "commit": "65a2d7201f9fec791393513a87d3d6df74c2a3d8",
+   "date": "2026-10-03T03:58:18+02:00",
+   "subject": "bsd: remove duplicate legacy evidence wrapper"
+  },
+  {
+   "commit": "7d1e135903ba19ece3f3aefa2ba760eb301106b2",
+   "date": "2026-10-03T03:58:16+02:00",
+   "subject": "bsd: remove duplicate legacy evidence wrapper"
+  },
+  {
+   "commit": "dc8d0b486a95ede667a2b81545f765327bc2c9dd",
+   "date": "2026-10-03T03:58:14+02:00",
+   "subject": "bsd: remove duplicate legacy evidence wrapper"
+  },
+  {
+   "commit": "b082d5bcd959a7bd5a1921f3ecaf2755b23cae6f",
+   "date": "2026-10-03T03:58:06+02:00",
+   "subject": "bsd: remove duplicate legacy evidence imports"
+  },
+  {
+   "commit": "18b3008ee48b57de1489e251650b2a84763a2bff",
+   "date": "2026-10-03T03:56:26+02:00",
+   "subject": "audit: document fail-closed GREEN promotion gate"
+  },
+  {
+   "commit": "a4b46824450804aa1fbcdc6f39307391b8d65fbc",
+   "date": "2026-10-03T03:55:48+02:00",
+   "subject": "audit: add fail-closed GREEN gate configuration"
+  },
+  {
+   "commit": "1a28d780584125c2ae7995639ca694e5edbe435b",
+   "date": "2026-10-03T03:55:23+02:00",
+   "subject": "audit: bind seven-lane claim boundary into manifest"
+  },
+  {
+   "commit": "2ecabe88ce0583e3aa261182e8dad0786bb9749c",
+   "date": "2026-10-03T03:55:14+02:00",
+   "subject": "audit: import seven-lane green gate and claim boundary"
+  },
+  {
+   "commit": "eb0b3a728d96077b7725df2bfc3af28464998953",
+   "date": "2026-10-03T03:55:12+02:00",
+   "subject": "audit: harden seven-lane claim boundary and clarify record counts"
+  },
+  {
+   "commit": "57abe34bcaf919ae42ef1f72fe77217f14664e13",
+   "date": "2026-10-03T03:54:56+02:00",
+   "subject": "audit: formalize seven-lane frontier claim boundary"
+  },
+  {
+   "commit": "2e7eb7e12972d1c7ae89c3c8897d5c3c73576ae4",
+   "date": "2026-10-03T03:54:34+02:00",
+   "subject": "audit: align RH and BSD with real source-bound frontiers"
+  },
+  {
+   "commit": "3d58ab229bf0f828cfebef2f9db31f37774d2721",
+   "date": "2026-10-03T03:54:31+02:00",
+   "subject": "audit: import six open-frontier registry"
+  },
+  {
+   "commit": "8d7e30414b38d5adbeb45d0323b5474eca77076a",
+   "date": "2026-10-03T03:54:21+02:00",
+   "subject": "audit: add six-lane real open-frontier registry"
+  },
+  {
+   "commit": "2c75269a6670dcbbf83584db1b767bb44c4ca3bf",
+   "date": "2026-10-03T03:54:13+02:00",
+   "subject": "audit: reconcile BSD composite frontier and material atoms"
+  },
+  {
+   "commit": "5aa493aab794f5088ec276f1689189ccfdb755ef",
+   "date": "2026-10-03T03:54:10+02:00",
+   "subject": "riemann: audit canonical finite-span frontier bridge"
+  },
+  {
+   "commit": "6711dd738cabb48e6f89886db12b1f805f401a1d",
+   "date": "2026-10-03T03:53:59+02:00",
+   "subject": "riemann: bind canonical finite-span frontier"
+  },
+  {
+   "commit": "90ccf90559f44aad9db767fd55a0b95435871865",
+   "date": "2026-10-03T03:53:47+02:00",
+   "subject": "bsd: audit composite material atom count"
+  },
+  {
+   "commit": "8f88d23df2c43053eceb7941bf97d177630363ec",
+   "date": "2026-10-03T03:53:44+02:00",
+   "subject": "bsd: finalize fail-closed composite frontier accounting"
+  },
+  {
+   "commit": "04dcfeef40a449a92eb212eda64f3c968cfa9026",
+   "date": "2026-10-03T03:53:13+02:00",
+   "subject": "riemann: bind finite-span to DNLimit bridge"
+  },
+  {
+   "commit": "813ddf792cd2f926e401dc0ecc1c348a3a88d85c",
+   "date": "2026-10-03T03:53:11+02:00",
+   "subject": "bsd: audit closed evidence and composite frontier"
+  },
+  {
+   "commit": "d9d8d90795b840812a5f257d8855aa7be3a08d8f",
+   "date": "2026-10-03T03:53:06+02:00",
+   "subject": "riemann: add canonical source binding"
+  },
+  {
+   "commit": "bb25d0851081dff42d5faa0a983990036180c25a",
+   "date": "2026-10-03T03:52:58+02:00",
+   "subject": "bsd: bind closed evidence and realizable composite frontier"
+  },
+  {
+   "commit": "58eb58f9be23cb28541905986cc30eb76f402cf3",
+   "date": "2026-10-03T03:52:54+02:00",
+   "subject": "bsd: record two atomic obligations inside one composite producer"
+  },
+  {
+   "commit": "c99859fd418a5cf64951b7553364c627f19893ca",
+   "date": "2026-10-03T03:52:44+02:00",
+   "subject": "audit: bind P04 P05 P06 real frontiers in seven-lane manifest"
+  },
+  {
+   "commit": "52b6cbdebb4489b09839081038b4e932d32d7a9c",
+   "date": "2026-10-03T03:52:43+02:00",
+   "subject": "audit: add P02 material obligations"
+  },
+  {
+   "commit": "60fb30bcf6d198486d486ae79625a7039fe99fdc",
+   "date": "2026-10-03T03:52:34+02:00",
+   "subject": "bsd architecture evidence: ClosedBridge/RankPartToRankEquality"
+  },
+  {
+   "commit": "626df197ff4404668ea9c718f9ee4fbe5df35806",
+   "date": "2026-10-03T03:52:32+02:00",
+   "subject": "audit: add material obligations for P01_Riemann"
+  },
+  {
+   "commit": "1c6e4e61faa80198cb3150a99bb1b419bebfee74",
+   "date": "2026-10-03T03:52:31+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/NoFalseFinalCertificate"
+  },
+  {
+   "commit": "e012e6bcc1cf04608c260181730fde663d0a196a",
+   "date": "2026-10-03T03:52:28+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/AbstractRankInterfaceCounteraudit"
+  },
+  {
+   "commit": "935346f73e439b6c71a7605e96afb8840cec1bc7",
+   "date": "2026-10-03T03:52:11+02:00",
+   "subject": "bsd: audit closed evidence and realizable-domain frontier"
+  },
+  {
+   "commit": "8a298f7650a74fb173af03bc726da0b8531a07e3",
+   "date": "2026-10-03T03:52:09+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/ExternalInputProvenance"
+  },
+  {
+   "commit": "253d0f5b1591c7c724899fcdf678cbb3246817e8",
+   "date": "2026-10-03T03:50:44+02:00",
+   "subject": "audit: update P05/P06 real frontiers and research claim boundaries"
+  },
+  {
+   "commit": "71c55439902a1fa71fd90fa4f449de1e25f9bc75",
+   "date": "2026-10-03T03:49:41+02:00",
+   "subject": "audit: bind formal GREEN gate into seven-lane manifest"
+  },
+  {
+   "commit": "ad9eafc4a32bc127cb72b861ddd733de9581c6f9",
+   "date": "2026-10-03T03:49:38+02:00",
+   "subject": "audit: import seven-lane GREEN promotion gate"
+  },
+  {
+   "commit": "defbeaafa964a32ac1399bfb2612be52eec23da4",
+   "date": "2026-10-03T03:49:28+02:00",
+   "subject": "audit: add fail-closed GREEN promotion gate for six open lanes"
+  },
+  {
+   "commit": "aef5f562d134b5413d9885b6cfd7401533eaef1c",
+   "date": "2026-10-03T03:49:06+02:00",
+   "subject": "audit: update seven-lane manifest through BSD real frontier"
+  },
+  {
+   "commit": "922ea92c305a016c84eb059d858ce45ab8bcd731",
+   "date": "2026-10-03T03:48:38+02:00",
+   "subject": "bsd: audit closed evidence and realizable-domain frontier"
+  },
+  {
+   "commit": "fb0a25b819878ea9625847961e25ac93aaa8d04f",
+   "date": "2026-10-03T03:48:18+02:00",
+   "subject": "bsd: bind closed evidence and realizable-domain frontier"
+  },
+  {
+   "commit": "ce712be9b1117d1904e233a7d941fad5fdaf38dc",
+   "date": "2026-10-03T03:47:54+02:00",
+   "subject": "bsd architecture evidence: OpenBridge/RealizableBSDProducerTarget"
+  },
+  {
+   "commit": "145817547d24139fbeca997737dd990bf3a1cb00",
+   "date": "2026-10-03T03:47:52+02:00",
+   "subject": "bsd architecture evidence: ClosedBridge/RankPartToEquality"
+  },
+  {
+   "commit": "4215052bc226806398427e6d3ff64caf2dd03425",
+   "date": "2026-10-03T03:47:49+02:00",
+   "subject": "bsd architecture evidence: ClosedBridge/RankWitnessToOpenCore"
+  },
+  {
+   "commit": "a0773d0af2916273a015b0f9668360051497e3b8",
+   "date": "2026-10-03T03:47:47+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/OpenCoreFirewall"
+  },
+  {
+   "commit": "84bc90b3b4ac0341dec0d391c47b96e933491191",
+   "date": "2026-10-03T03:47:45+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/AbstractTypeCounteraudit"
+  },
+  {
+   "commit": "2915bb060b970debb01b843f5ffed6e34254cb69",
+   "date": "2026-10-03T03:47:42+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/ExternalInputClassification"
+  },
+  {
+   "commit": "57aee08e58173dcb5a3765a8de51ee0edb853e9b",
+   "date": "2026-10-03T03:47:40+02:00",
+   "subject": "bsd architecture evidence: ClosedBase/RankEqualityTwoDirections"
+  },
+  {
+   "commit": "98127d0b31864ddba36df4724d8dda32bcfdcc03",
+   "date": "2026-10-03T03:47:37+02:00",
+   "subject": "bsd architecture evidence: P06_BSD/SourceBinding"
+  },
+  {
+   "commit": "5c74d6a67d41c28dc33bdd26c556564f6ff6e11d",
+   "date": "2026-10-03T03:45:50+02:00",
+   "subject": "hodge: audit closed evidence and real frontier"
+  },
+  {
+   "commit": "d5f69759c21dfd93667845234fe638e985b6bbb3",
+   "date": "2026-10-03T03:45:48+02:00",
+   "subject": "hodge: bind closed evidence and real algebraicity frontier"
+  },
+  {
+   "commit": "42e4433bc5ea640be9841a83dbb85d4a53a5e7de",
+   "date": "2026-10-03T03:45:31+02:00",
+   "subject": "hodge architecture evidence: OpenBridge/ConcreteAlgebraicityPayloadTarget"
+  },
+  {
+   "commit": "7195dfff5ab2473b8c1309907e26c4d524461f52",
+   "date": "2026-10-03T03:45:29+02:00",
+   "subject": "hodge architecture evidence: ClosedBridge/PointwiseToHodge"
+  },
+  {
+   "commit": "cbc31f830e5d7a85db82e1d111560d20f6fa96fe",
+   "date": "2026-10-03T03:45:27+02:00",
+   "subject": "hodge architecture evidence: ClosedBridge/H01ToPointwise"
+  },
+  {
+   "commit": "1bccba0d9325e91284da2d8aae97bb1d9963bf24",
+   "date": "2026-10-03T03:45:25+02:00",
+   "subject": "hodge architecture evidence: ClosedBase/AlgebraicityFrontierStatus"
+  },
+  {
+   "commit": "94be81d4edeb6fe05a0f96c776ff365e6ec71b75",
+   "date": "2026-10-03T03:45:23+02:00",
+   "subject": "hodge architecture evidence: ClosedBase/SemanticInterfaceCounteraudit"
+  },
+  {
+   "commit": "75a5ae34c0ec55f1134bbc833eff0ce9730d6986",
+   "date": "2026-10-03T03:45:21+02:00",
+   "subject": "hodge architecture evidence: ClosedBase/HodgeDecompositionReduction"
+  },
+  {
+   "commit": "0db1e1f98dc1de427e6286a93b394b9ce7293f4b",
+   "date": "2026-10-03T03:45:19+02:00",
+   "subject": "hodge architecture evidence: ClosedBase/RationalHodgePointwiseReduction"
+  },
+  {
+   "commit": "358debd4c6a86ce8f9cefe3117d7f8afa8f97a70",
+   "date": "2026-10-03T03:45:18+02:00",
+   "subject": "hodge architecture evidence: P05_Hodge/SourceBinding"
+  },
+  {
+   "commit": "ca49d93884c912671fb836f102c3c6afad250e50",
+   "date": "2026-10-03T03:41:13+02:00",
+   "subject": "navier-stokes: audit signed-gain source bindings"
+  },
+  {
+   "commit": "f0ce17a5ae24b3415af3d419ae0a0d5d6e2b38f9",
+   "date": "2026-10-03T03:41:11+02:00",
+   "subject": "navier-stokes: bind signed-gain closed evidence and real open frontier"
+  },
+  {
+   "commit": "e040dccd71d697f66e0abb7d76d32dc59e547271",
+   "date": "2026-10-03T03:40:55+02:00",
+   "subject": "yang-mills: audit B60 open-bridge binding"
+  },
+  {
+   "commit": "6ef69e60b6bb3a7d447d1ac4b62f0e7a9db56101",
+   "date": "2026-10-03T03:40:52+02:00",
+   "subject": "yang-mills: bind real B60 open-bridge target"
+  },
+  {
+   "commit": "5a4376ad8fd28ee8b1b5c8c74d40cfeff1c1080a",
+   "date": "2026-10-03T03:40:41+02:00",
+   "subject": "ns architecture evidence: OpenBridge/ActualNSToSignedGainCoreTarget"
+  },
+  {
+   "commit": "02447364e2c1e571316a8e3eed816c36b45e373b",
+   "date": "2026-10-03T03:40:39+02:00",
+   "subject": "ns architecture evidence: ClosedBridge/SignedGainToDifferential"
+  },
+  {
+   "commit": "76e54e7505f7beeef2afa49a6e0f79af70c1410f",
+   "date": "2026-10-03T03:40:37+02:00",
+   "subject": "ns architecture evidence: ClosedBridge/CoreToCertificate"
+  },
+  {
+   "commit": "8399ede5ff286943a86f0e16184b2b1a9f9327e7",
+   "date": "2026-10-03T03:40:31+02:00",
+   "subject": "ns architecture evidence: ClosedBase/SignedGainCoreEquivalence"
+  },
+  {
+   "commit": "93bce17d387e2f9b5082defc46e110b1f30718cd",
+   "date": "2026-10-03T03:40:28+02:00",
+   "subject": "ns architecture evidence: ClosedBase/SignedGainNontriviality"
+  },
+  {
+   "commit": "e986ceb80de0667fcd4a2d0bf39a3e087d781e5d",
+   "date": "2026-10-03T03:40:26+02:00",
+   "subject": "ns architecture evidence: ClosedBase/EnergyCompatibleResidual"
+  },
+  {
+   "commit": "b402eeba5525067ce20d4ce3e67287c1d603a7aa",
+   "date": "2026-10-03T03:40:24+02:00",
+   "subject": "ns architecture evidence: ClosedBase/ProducerANonnegative"
+  },
+  {
+   "commit": "195815f0c912674b1eed80f25ad69ec1390ef8da",
+   "date": "2026-10-03T03:40:22+02:00",
+   "subject": "ns architecture evidence: P04_NavierStokes/SourceBinding"
+  },
+  {
+   "commit": "af206c477cea5def305ef2403e2f48acdec95f4c",
+   "date": "2026-10-03T03:40:19+02:00",
+   "subject": "ns architecture evidence: OpenBridge/B60Target"
+  },
+  {
+   "commit": "03d59725f64e4fe2ffaa34b1b9da07aa7716b9b7",
+   "date": "2026-10-03T03:36:57+02:00",
+   "subject": "audit: add fail-closed seven-lane claim manifest"
+  },
+  {
+   "commit": "dd79326cc4c3760c484da5f1adcd6f130566ae59",
+   "date": "2026-10-03T03:36:17+02:00",
+   "subject": "yang-mills: audit source-bound closed evidence"
+  },
+  {
+   "commit": "db2b8d1b3ae533ec7572d1c24e927c30cd866f9b",
+   "date": "2026-10-03T03:36:14+02:00",
+   "subject": "yang-mills: bind closed-base and closed-bridge source evidence"
+  },
+  {
+   "commit": "0216d8473e78d138dd7ffaec7529453097bd49ce",
+   "date": "2026-10-03T03:36:00+02:00",
+   "subject": "riemann: audit bounded-zero source-middle candidate"
+  },
+  {
+   "commit": "707d398b6ceb54927cbf8a9c728b990dfe6ccae5",
+   "date": "2026-10-03T03:35:57+02:00",
+   "subject": "riemann: bind bounded-zero source-middle candidate"
+  },
+  {
+   "commit": "90e9873ce6725c499d897326d1395d92c93da672",
+   "date": "2026-10-03T03:35:41+02:00",
+   "subject": "architecture evidence: OpenBridge/BoundedZeroCandidate"
+  },
+  {
+   "commit": "1a1b45a125619d4eb45d8fd340fee4667ddb1c5e",
+   "date": "2026-10-03T03:35:38+02:00",
+   "subject": "architecture evidence: ClosedBridge/B60ToMassGap"
+  },
+  {
+   "commit": "92641c5be33eb28dc8691a400b87d4905555a5b2",
+   "date": "2026-10-03T03:35:36+02:00",
+   "subject": "architecture evidence: ClosedBase/B6IsUniqueBlockingNode"
+  },
+  {
+   "commit": "53b9a2c7b80c622bb073dc0e451a222a3261dc0a",
+   "date": "2026-10-03T03:35:34+02:00",
+   "subject": "architecture evidence: ClosedBase/A1FrontierReduction"
+  },
+  {
+   "commit": "eebd47fe7ff31924cf757307902a5866326ac9e1",
+   "date": "2026-10-03T03:35:32+02:00",
+   "subject": "architecture evidence: ClosedBase/PositiveTransferInterfaceTrivial"
+  },
+  {
+   "commit": "33c28ae312037895a5c55d349b552fea3ec24a64",
+   "date": "2026-10-03T03:35:29+02:00",
+   "subject": "architecture evidence: ClosedBase/ReflectionPositivityInterfaceTrivial"
+  },
+  {
+   "commit": "b741a8bb64bba7eebc68f7bd21e5f7ecbd33f461",
+   "date": "2026-10-03T03:35:27+02:00",
+   "subject": "architecture evidence: P02_YangMills/SourceBinding"
+  },
+  {
+   "commit": "97a3eaddbf7483db9cb3fa2b38b46d6b653d6f69",
+   "date": "2026-10-03T03:28:28+02:00",
+   "subject": "riemann: audit bound closed-base source facts"
+  },
+  {
+   "commit": "c254933bcaea527554d9d817ccb6964d26d1dab3",
+   "date": "2026-10-03T03:28:26+02:00",
+   "subject": "riemann: bind first three closed-base source facts"
+  },
+  {
+   "commit": "6404463249d03eb77f4a367bceda796c068ce150",
+   "date": "2026-10-03T03:28:11+02:00",
+   "subject": "riemann closed-base: ZetaEulerProduct"
+  },
+  {
+   "commit": "67c594b68e80945fb54f371d5f523be73da36933",
+   "date": "2026-10-03T03:28:09+02:00",
+   "subject": "riemann closed-base: ZetaFunctionalEquation"
+  },
+  {
+   "commit": "857724f66cc1cc688ae8ecf3aca21a272b1451b1",
+   "date": "2026-10-03T03:28:07+02:00",
+   "subject": "riemann closed-base: ZetaAnalytic"
+  },
+  {
+   "commit": "641531d189eb925646ea2dd7e268926d79b73491",
+   "date": "2026-10-03T03:25:59+02:00",
+   "subject": "p03: audit complete route-B material package"
+  },
+  {
+   "commit": "5b218e4513f02939f5863df8e0224856be1e7cf6",
+   "date": "2026-10-03T03:25:54+02:00",
+   "subject": "p03: promote complete route-B package as single open bridge target"
+  },
+  {
+   "commit": "8efb917c1f5939b1a94a850ff0c6905ad61fc4e3",
+   "date": "2026-10-03T03:25:40+02:00",
+   "subject": "p03: define complete material route-B inhabitant without assuming PerfectFlip"
+  },
+  {
+   "commit": "d151bb868c84ac3f3727d927c550da89ab01060f",
+   "date": "2026-10-03T03:23:32+02:00",
+   "subject": "architecture: import five lane skeletons and audits"
+  },
+  {
+   "commit": "1737279b5b21ae9383302f44d6954a9012a257b5",
+   "date": "2026-10-03T03:23:25+02:00",
+   "subject": "architecture: audit P06_BSD skeleton"
+  },
+  {
+   "commit": "45b0f8df1fc0508d0604d84a86538747070a11d0",
+   "date": "2026-10-03T03:23:23+02:00",
+   "subject": "architecture: audit P05_Hodge skeleton"
+  },
+  {
+   "commit": "bf56f378b2eac78849dc8432b8c13e62771f0327",
+   "date": "2026-10-03T03:23:21+02:00",
+   "subject": "architecture: audit P04_NavierStokes skeleton"
+  },
+  {
+   "commit": "49caaa8decff3815cbf0aedc39b73d2fce50ec5e",
+   "date": "2026-10-03T03:23:19+02:00",
+   "subject": "architecture: audit P02_YangMills skeleton"
+  },
+  {
+   "commit": "3fc0ba256333b954f82645297c31e8495e691d31",
+   "date": "2026-10-03T03:23:16+02:00",
+   "subject": "architecture: audit P01_Riemann skeleton"
+  },
+  {
+   "commit": "9812eeb30def547ca9fa001a2a25fe7f4eafeacf",
+   "date": "2026-10-03T03:23:09+02:00",
+   "subject": "architecture: add P06_BSD four-layer skeleton"
+  },
+  {
+   "commit": "27419d5ed6c379f4fa16a8cb7365d633056dedcb",
+   "date": "2026-10-03T03:23:06+02:00",
+   "subject": "architecture: add P05_Hodge four-layer skeleton"
+  },
+  {
+   "commit": "efd2221b1c6d6f97eb350d466f2396efa49bea7b",
+   "date": "2026-10-03T03:23:04+02:00",
+   "subject": "architecture: add P04_NavierStokes four-layer skeleton"
+  },
+  {
+   "commit": "e358bc302c85ec27e6eda24439cb37baf5ea6834",
+   "date": "2026-10-03T03:23:02+02:00",
+   "subject": "architecture: add P02_YangMills four-layer skeleton"
+  },
+  {
+   "commit": "e859caeb88c633b6393808ee8f1d32887fe4ad24",
+   "date": "2026-10-03T03:23:00+02:00",
+   "subject": "architecture: add P01_Riemann four-layer skeleton"
+  },
+  {
+   "commit": "815b87cb7c40a7574f6c0b0c357ca28f8527089b",
+   "date": "2026-10-03T03:16:49+02:00",
+   "subject": "p03: import four-layer architecture and audit"
+  },
+  {
+   "commit": "fdfd5a27855ca764cf5247d9f7652ac0a64adcf0",
+   "date": "2026-10-03T03:16:47+02:00",
+   "subject": "p03: audit single open-bridge count"
+  },
+  {
+   "commit": "fe8a824eadd9c482b8e9b63a32928b0b1b89e8ef",
+   "date": "2026-10-03T03:16:38+02:00",
+   "subject": "p03: keep BoundedUnique as the single independent open bridge"
+  },
+  {
+   "commit": "d3b77235fb43f182cbbf332bebf691ae965705c7",
+   "date": "2026-10-03T03:16:24+02:00",
+   "subject": "p03: audit closed architecture layers"
+  },
+  {
+   "commit": "9018858d08d106a19e0defb93a629278fa9830a3",
+   "date": "2026-10-03T03:16:22+02:00",
+   "subject": "p03: add four-layer architecture manifest"
+  },
+  {
+   "commit": "a51ddb4e49906e33b49e7cb22f9003ee990c272b",
+   "date": "2026-10-03T03:16:01+02:00",
+   "subject": "p03 architecture: OpenMath/SATinP"
+  },
+  {
+   "commit": "83cd4b09cefbc3741f67349f071ca0f47ad3f674",
+   "date": "2026-10-03T03:15:59+02:00",
+   "subject": "p03 architecture: OpenMath/RangeFailureLaw"
+  },
+  {
+   "commit": "c03b6e54239c78735103a43b2f12bfc95b52543d",
+   "date": "2026-10-03T03:15:57+02:00",
+   "subject": "p03 architecture: OpenBridge/MFlipDepth"
+  },
+  {
+   "commit": "d37d40872eae44df4089f09a76b083594034d246",
+   "date": "2026-10-03T03:15:54+02:00",
+   "subject": "p03 architecture: OpenBridge/UniformDecoder"
+  },
+  {
+   "commit": "b8daa400093312f232dc7dd6b8c4772a007cfe72",
+   "date": "2026-10-03T03:15:52+02:00",
+   "subject": "p03 architecture: OpenBridge/BoundedUnique"
+  },
+  {
+   "commit": "ef55d7488ab4c181c62d4b3fcca31a5d935e5973",
+   "date": "2026-10-03T03:15:50+02:00",
+   "subject": "p03 architecture: OpenBridge/SourceLen"
+  },
+  {
+   "commit": "e2a8b61af798000df6bc92d6976318a513258b36",
+   "date": "2026-10-03T03:15:48+02:00",
+   "subject": "p03 architecture: OpenBridge/BoundedCandidate"
+  },
+  {
+   "commit": "e604371a13ddf673033872f28395cbdef7cb60ef",
+   "date": "2026-10-03T03:15:46+02:00",
+   "subject": "p03 architecture: ClosedBridge/Transport"
+  },
+  {
+   "commit": "9c9a96280fe583bf55b11bded6ce164779151a57",
+   "date": "2026-10-03T03:15:44+02:00",
+   "subject": "p03 architecture: ClosedBridge/OddAntiRec"
+  },
+  {
+   "commit": "89fe003b745b95e9589afd6e954020d332b4fa84",
+   "date": "2026-10-03T03:15:42+02:00",
+   "subject": "p03 architecture: ClosedBridge/Dichotomy"
+  },
+  {
+   "commit": "28b53b641a376e98147b79310bb74dc855e2e379",
+   "date": "2026-10-03T03:15:39+02:00",
+   "subject": "p03 architecture: ClosedBridge/ComplementReduce"
+  },
+  {
+   "commit": "3e074d546496789e2c73b4b210abb581d0e23026",
+   "date": "2026-10-03T03:15:08+02:00",
+   "subject": "p03 closed-base: Nabla2"
+  },
+  {
+   "commit": "9a63941c097bc2ff2b82bc4c709bb224f4746fb7",
+   "date": "2026-10-03T03:15:06+02:00",
+   "subject": "p03 closed-base: SMinus"
+  },
+  {
+   "commit": "2e20eb3b3f98e113e397befa2544377c2403c9d8",
+   "date": "2026-10-03T03:15:04+02:00",
+   "subject": "p03 closed-base: SPlus"
+  },
+  {
+   "commit": "a282399e7f32f689ff571a1920d5c37f7bf57f9e",
+   "date": "2026-10-03T03:15:02+02:00",
+   "subject": "p03 closed-base: PhiC"
+  },
+  {
+   "commit": "31098c199ae081c0d2967cab25d7d846efd5fa4d",
+   "date": "2026-10-03T03:15:00+02:00",
+   "subject": "p03 closed-base: R2I"
+  },
+  {
+   "commit": "52026a0b5c7b925c69a8b505df232be633cc38fd",
+   "date": "2026-10-03T03:14:58+02:00",
+   "subject": "p03 closed-base: C2I"
+  },
+  {
+   "commit": "715a04bf301054f04d452a22e0cf7677ce53273c",
+   "date": "2026-10-03T03:02:07+02:00",
+   "subject": "p03: audit closed-math snapshot"
+  },
+  {
+   "commit": "d8ac3dba4d06cf0e11b757153c9d35358b957b38",
+   "date": "2026-10-03T03:02:04+02:00",
+   "subject": "p03: import closed-math snapshot"
+  },
+  {
+   "commit": "9bdd878549eed32ca36508e0fffea667033a252b",
+   "date": "2026-10-03T03:01:22+02:00",
+   "subject": "p03: add closed-math consolidation module"
+  },
+  {
+   "commit": "c9d7a6f8cec5ccff3fdc116464b45a9b36b9ddc3",
+   "date": "2026-10-03T02:37:09+02:00",
+   "subject": "p03: audit finite predecessor candidate space"
+  },
+  {
+   "commit": "7ad94b03a9342662f13116bd25b8ce62b0c3a304",
+   "date": "2026-10-03T02:36:56+02:00",
+   "subject": "p03: isolate finite predecessor candidate space and uniqueness gap"
+  },
+  {
+   "commit": "d5deb76788c7b8196441f93e2fdff7471d290e8e",
+   "date": "2026-10-03T02:35:50+02:00",
+   "subject": "p03: audit SAT-decider perfect flip and uniform decoder lemmas"
+  },
+  {
+   "commit": "e2b6d965754c4e9075756e19a05a23678d7e6c22",
+   "date": "2026-10-03T02:35:48+02:00",
+   "subject": "p03: import uniform range decoder frontier"
+  },
+  {
+   "commit": "c07726cc00ac09ec0b5425bc5b1b5dce486223f1",
+   "date": "2026-10-03T02:35:34+02:00",
+   "subject": "p03: show any polynomial SAT decider is a real perfect flip"
+  },
+  {
+   "commit": "5bcc89fe8fc5ad6e1625a1beaafd8e870c3ecb11",
+   "date": "2026-10-03T02:33:57+02:00",
+   "subject": "p03: derive finite source-length search bound and clock recovery"
+  },
+  {
+   "commit": "f9c9cfb925cae53267bf391b9bc32937f53ae586",
+   "date": "2026-10-03T02:33:00+02:00",
+   "subject": "p03: audit concrete perfect-flip construction constraints"
+  },
+  {
+   "commit": "aec9118af7fd9ce4f146a9dfb1ccd741961cff4b",
+   "date": "2026-10-03T02:32:57+02:00",
+   "subject": "p03: import concrete perfect-flip construction constraints"
+  },
+  {
+   "commit": "6c39621fbfb14dc84f7d946dbd58ef00a3285322",
+   "date": "2026-10-03T02:32:54+02:00",
+   "subject": "p03: isolate uniform source decoder for real reduction range"
+  },
+  {
+   "commit": "2c6a0f04caf84df5a3962e9f711c636068f16482",
+   "date": "2026-10-03T02:32:46+02:00",
+   "subject": "p03: harden concrete tableau namespace in perfect-flip construction"
+  },
+  {
+   "commit": "1fa4e511873cfc4c37869661f1191750c33354e5",
+   "date": "2026-10-03T02:32:34+02:00",
+   "subject": "p03: isolate concrete prefix and source-recovery constraints for perfect flip"
+  },
+  {
+   "commit": "1667d7d4b876d5abd1db911f002d299923f06daa",
+   "date": "2026-10-03T02:31:52+02:00",
+   "subject": "p03: audit exact terminal A-or-B kernel split"
+  },
+  {
+   "commit": "3722bb0d2d1e4dab07314ab27a8dadd6e4333e13",
+   "date": "2026-10-03T02:31:44+02:00",
+   "subject": "p03: make terminal dichotomy proof explicit"
+  },
+  {
+   "commit": "1a4f75bd5591acc6b5bd259702a77c8827035049",
+   "date": "2026-10-03T02:31:32+02:00",
+   "subject": "p03: expose exact terminal dichotomy in closure kernel"
+  },
+  {
+   "commit": "13717908d38a407c2c33c2c6d08b363904d62dd1",
+   "date": "2026-10-03T02:02:02+02:00",
+   "subject": "p03: audit exact perfect-flip dichotomy"
+  },
+  {
+   "commit": "a86d4c110b7308ddb72313cc50ea8c1bdf72140d",
+   "date": "2026-10-03T02:01:57+02:00",
+   "subject": "p03: import perfect-flip dichotomy into closure kernel"
+  },
+  {
+   "commit": "969b72a79b4394e50a49cb07842b310d429557cf",
+   "date": "2026-10-03T02:01:48+02:00",
+   "subject": "p03: formalize exact global perfect-flip dichotomy"
+  },
+  {
+   "commit": "b061317459c8ad072d9e936836ff464400e4f181",
+   "date": "2026-10-03T01:59:19+02:00",
+   "subject": "p03: audit real perfect-flip equivalence"
+  },
+  {
+   "commit": "4500828c68ee13a298b25fcb9a950c68d77bebff",
+   "date": "2026-10-03T01:59:11+02:00",
+   "subject": "p03: identify range correctness with real perfect flip"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.PNPNTMTableauEncoding.evalNTMCNF_of_all_mem_true",
+   "file": "lean/MCore/Real/PNPNTMTableauEncoding.lean",
+   "line": 5763,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(sigma : Assignment) (f : NTMCNF) (h : ∀ cl, cl ∈ f → evalNTMClause sigma cl = true) : evalNTMCNF sigma f = true"
+  },
+  {
+   "name": "P02.LANE4.AdvancedCertificateReuse.g21Pointwise_of_lowerBound",
+   "file": "lean/P02/LANE4/AdvancedCertificateReuse.lean",
+   "line": 73,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : P02UniversalLowerBound.UniversalSATLowerBound) : G21Pointwise"
+  },
+  {
+   "name": "P02.LANE4.AdvancedCertificateReuse.g21_closes_internal_endpoint",
+   "file": "lean/P02/LANE4/AdvancedCertificateReuse.lean",
+   "line": 87,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : G21Pointwise) : PneqNP"
+  },
+  {
+   "name": "P02.LANE4.AdvancedCertificateReuse.lowerBound_of_g21Pointwise",
+   "file": "lean/P02/LANE4/AdvancedCertificateReuse.lean",
+   "line": 81,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : G21Pointwise) : P02UniversalLowerBound.UniversalSATLowerBound"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "8da886a9676338ba6b0588f97616e901646d4977a62a732c3e2a17b0c3365319",
+  "lakefile.toml": "ad91457f63f05005706b8dcb30b47295e69baa347a10b2d5697bd781ab5b0923",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/ClosedDiscriminant.lean": "94232dacfadb9f186ef9af1a1d45f88c6f448a43e272f4d3eb8e83d3945afb53",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean": "4458b9dbe909fb6c53d78d1fab16e8d27120e3c4c47ddc3ac5745e5c9f895daf",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01CNFMode.lean": "49708ee32e113d190069303dd73a5b1bb8e68a337d99ad26ca8cc04462478242",
+  "lean/MCore/Real/P01CheckedEvalReject.lean": "31a6d297e67125553997eb17b9ad0c46b7bab930db1083d1be9c3ef5787d1753",
+  "lean/MCore/Real/P01CheckedEvalRunBaseCases.lean": "2d440229efd81140765b1febcb0e2041ecec37c5e397badce450aabe1c1d1136",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedCertificate.lean": "7652a3a60ebfda5385c3adf16febb7a7fd880ed1b7bb90959cba599ea29fcddd",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedConst.lean": "6ed332a7f19c430d9668d5aa30b5c4531b3b6e12569726b4e829cfb2c74db513",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedHelpers.lean": "f09fd3323426d0e4dcd6a476c6b1d31d7399063703bb4f1ac3a96bff3cf5e5c7",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedInput.lean": "4ac2c96d0e0c49d317bb52d6da893c89a5cdb35e25a075b7811618e2cf060e49",
+  "lean/MCore/Real/P01CheckedEvalRunCircuitCertificate.lean": "e8cfbbfcb1b2e5f2275ae3e20aa1f52f2873a9c4db64734cb94f0a026e16fb30",
+  "lean/MCore/Real/P01CheckedEvalRunHaveValue.lean": "04ddabc21b1c9914fdd15ab6c0a57ddb888518b8e0c7cfe294bbb38ecf20e21c",
+  "lean/MCore/Real/P01CheckedEvalRunInputTag.lean": "faf754bb1ed47f573c3a436c3b37ed59efb5af9bec25a45b803f548ef255a973",
+  "lean/MCore/Real/P01CheckedEvalRunLoopNTM.lean": "a182c8ed23202e51a66ef639d88958d406ecce2513dc2d8d582b0312100d7a35",
+  "lean/MCore/Real/P01CheckedEvalRunNeedTags.lean": "d1b7f42c55613613a19d2c5292c142ab57711d9961dd21a894ec23d2c9ab3abd",
+  "lean/MCore/Real/P01CheckedEvalRunPhaseLift.lean": "7d7301b66177df013fb3a8e6a1ad6af58a92694af1f6095c4dd422a37c6373ec",
+  "lean/MCore/Real/P01CheckedEvalRunTagPrefix.lean": "e86f337ccf68f41ae463395f32225ef271011e53e21d391ffd8e824466861bd4",
+  "lean/MCore/Real/P01CheckedVerifierBudget.lean": "700c68cd6488bfe456915b2347761070a39e9e3592934a8c9a1b778766eadb13",
+  "lean/MCore/Real/P01CheckedVerifierCompositeNTM.lean": "e42ad171999c88e2af9c19f3afd93a38d9fb137a5581b4fe60fbc7f5cc085f27",
+  "lean/MCore/Real/P01CheckedVerifierDeterminism.lean": "bc7de5ce82901fc631a7654d2ce426054dd92b6d3cd9085103601fd2325b9840",
+  "lean/MCore/Real/P01CheckedVerifierGlobalBudget.lean": "91f0ae95ff42b042fc702bb7d4b7d9109d55d704d974bfd74195fa070aa01022",
+  "lean/MCore/Real/P01CheckedVerifierGlobalCoreV2.lean": "eddced8268e8ead948ed12c26de8852708c54c76991c3dc5ef8fa227855f2ffe",
+  "lean/MCore/Real/P01CheckedVerifierInvariant.lean": "bc77f862e79fd52e79821a349d71cb0cb6d07adb2072f47a9b94c46459ba37df",
+  "lean/MCore/Real/P01CheckedVerifierManualFiniteState.lean": "952bc034fd88347f46b7ad20c29fcfad9505e95adabfb06955957ccc7fb511d2",
+  "lean/MCore/Real/P01CheckedVerifierRun.lean": "e7474cf1fc1af1a5d10011f9a2ac1ed7d224573fde0ebec13cfb29e71ffa3b2d",
+  "lean/MCore/Real/P01DirectVerifierInhabitant.lean": "99b896d890b7ca09a9fb4a3cab5d5a2fb8c74b4c8ca1a652b3deea02719fb7a0",
+  "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
+  "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
+  "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
+  "lean/MCore/Real/P01EvalCursorConsume.lean": "eb9518da610a8f3093a7b01e0728f56da590ca7ed25dc9eebedf90da252523d3",
+  "lean/MCore/Real/P01EvalCursorFramePop.lean": "19fb1a904b8ce1c3722ac7842b70f43445710beb6a40acef7f8f6bab72a59045",
+  "lean/MCore/Real/P01EvalCursorFramePush.lean": "60efaf72ca078f1c5f424b2f9639c03226de4eb5c540601caedb8906d6dfec1d",
+  "lean/MCore/Real/P01EvalCursorMachine.lean": "334a8f85835424cc3df77c31b69bf9dbb9b9826de0c6d31859d201a5ac4cc5d6",
+  "lean/MCore/Real/P01EvalCursorRoundTrip.lean": "6e18f3626364ddf28d290d3fb8d13a24d8792fe04d37481102741c26d3fb2cfe",
+  "lean/MCore/Real/P01EvalFramePopMachineV2.lean": "e0c1afd35037d8fa0597fa46a66359d77692c235d9067db05492144e187cfceb",
+  "lean/MCore/Real/P01EvalFramePushMachine.lean": "262e46a1aa5c75dee155f976e5fb998aafd144c98aa5808ee6a46e448a748d5f",
+  "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean": "537ce6156e5dc8b2488b645d04ef32203dacfffb3d2e5100f438020a67413a9f",
+  "lean/MCore/Real/P01EvalRunCircuitCertificate.lean": "25d327b8ece973b7d4b93e305a2ef3b42c759ed17455081cab210590b1b17203",
+  "lean/MCore/Real/P01EvalRunHaveValue.lean": "038ef3601fef649a8aa4c9e4dacbb2226d2461855b082fda9aae34596905710e",
+  "lean/MCore/Real/P01EvalRunInputTag.lean": "880c73694a04b35c73145dc8ac45cdc657ea37666fba2c507bd87e638ea88386",
+  "lean/MCore/Real/P01EvalRunLoopNTM.lean": "a8c041d48972b83a7b98346da4abee73f48aa88361ff783704f1aa1c3acedd68",
+  "lean/MCore/Real/P01EvalRunLoopRun.lean": "19e4cf7854ef9dffb51f1de22b73ed71d9bbd27d2b82074304a662732f086bd8",
+  "lean/MCore/Real/P01EvalStepCompositeNTM.lean": "34e0f2751846232cd8d86d200b8a1bc76986092d95c3c943dac8984f58aa15c1",
+  "lean/MCore/Real/P01EvalStepCompositeRun.lean": "b9accc345ec97bc09a659e90813f74c0bab7f2555d8b5b94e8916ce3ee336116",
+  "lean/MCore/Real/P01EvalStepSemanticRefinement.lean": "79cc25c10ff94b136e77112f8cba4b5d159ae4a003c4549b376e4be3bda20654",
+  "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean": "65f57eded7aa9085213da2975bb611899ae9381a4d101d25c1bf748d8e542649",
+  "lean/MCore/Real/P01ExactBoundedCircuitProducer.lean": "660e84c2d0fd2c0f3313c143fce557a54219e1eb89ff8334c03f0a83369bf994",
+  "lean/MCore/Real/P01ExactBoundedReject.lean": "e5ac3d820cba3a2d952917f45d66a1bfb351f9225bd23a1a6c132cd112dd40b5",
+  "lean/MCore/Real/P01ExactVerifierCanonicalRun.lean": "6df0322a082b4ccade83457625d755bfab41e082bfce78850cb8f3c541b3beaa",
+  "lean/MCore/Real/P01ExactVerifierGlobalBudget.lean": "366e5a42bf6b83de01c274502df51602828960cbf28bfba001cafe309a4a27b2",
+  "lean/MCore/Real/P01FinalCertificate.lean": "22e141679b28b1cb0b2ca6ec05516c2c9c8a8461e707a4e6c8e7b72f30626a3a",
+  "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean": "2dc0bc85bb3dbaab9bc6845f077824a418061fb1bec21f7a909d71c1836adec5",
+  "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
+  "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
+  "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
+  "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "e9f86bee64d482007e3e2feded7b9980c6f6c28a4c8a50a0d48672403dfb0322",
+  "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
+  "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "a666eaae40420970c54e5cf8652991427c660b6e529cbbb14c4bb843be46add9",
+  "lean/MCore/Real/P01FullVerifierSourceToStack.lean": "f6808aa9931696899bb256214b514bfe743167c1e1632dec18be0404148f00c7",
+  "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
+  "lean/MCore/Real/P01FullVerifierTraversal.lean": "b792b4dffa2c7e346fcd36e635c6d867a8a0898cfc5ee543c63ecc09666cdd1d",
+  "lean/MCore/Real/P01GuessedWitnessRelation.lean": "abea715b76e38d7fbaa3b81d2f0543e436f0bf6f5cd1ccad74ad9711ad747908",
+  "lean/MCore/Real/P01HaveValueCompositeNTM.lean": "1d1a7d8817f0d410c008b7c767b149442727cdf9eba5eea140d1e840b97d1bf8",
+  "lean/MCore/Real/P01HaveValueCompositeRun.lean": "c36792cb1c8e4b8a249173fe0815f09836fd1be9d6d34abb0fa6e74105230fa4",
+  "lean/MCore/Real/P01InputAfterReadReturn.lean": "2820cbad381e0a42e3ef28ea7e50f5f321d71b0ef506023c6eef8d46125bc36f",
+  "lean/MCore/Real/P01InputIndexLookahead.lean": "e1b57adcae5f90fe4c270a2cdec277bfcf41b8a1591f3336deda95de412e84dc",
+  "lean/MCore/Real/P01InputNodeCompositeNTM.lean": "380754fcb92a3ac4fa60f881384a68bbe3de11ce16dc0e00bca6b96366ef5b20",
+  "lean/MCore/Real/P01InputNodeCompositeRun.lean": "c5567592378d5d3bb8955ab1cc721097d01b97e3aaac5a74aa674717cad6dcb9",
+  "lean/MCore/Real/P01InputNodeRoundTrip.lean": "e0973e561e3a456aa67f02cd09f5b8ded182e180e007fd0f848d3001d1790179",
+  "lean/MCore/Real/P01InputReturnMode.lean": "2a1d7cf6c91330ada6754cff12f83c0ae03314c880444d11fbb0050b1cbe89fc",
+  "lean/MCore/Real/P01IntegratedAssembly.lean": "efa987c1871b936497e02b6dbdab0baa3c0dbf0c596013500f7e2a137a8e38e7",
+  "lean/MCore/Real/P01ManualStateCodecBase.lean": "80f05ed8be22110bb99e5091ed2e41ce7516838d0ffad7883283a33a7bd6dd8d",
+  "lean/MCore/Real/P01ManualStateCodecComposite.lean": "2b5ed8ebeb3ca8ee3ae72e435d00d83bd827ac8b5e172a5160be9e67668f441a",
+  "lean/MCore/Real/P01NTMPhaseSeq.lean": "507e5f148ec100a51869305fecc56b9308f7eb48ea3229dc18ccd42551d59895",
+  "lean/MCore/Real/P01NTMRunLaws.lean": "5cf9499ac23d11c5e261c093c0ec700bdc9e0015e738f2efd9757035e60a6af5",
+  "lean/MCore/Real/P01NTMSeqRun.lean": "f873314ff18f20fc6235c4f869eee02d518c5c6cdd15f5e4e752a7fb7f7effdb",
+  "lean/MCore/Real/P01NeedExprCompositeNTM.lean": "3c5bc9af50dabe99c95ca8864ea099247669085d1c9d2ccbaf39f9f8bbd57005",
+  "lean/MCore/Real/P01NeedExprCompositeRun.lean": "a72e6bc9104e3c66ef66c8a42d03a2351254803d16ff302cf3c6253bbc33148e",
+  "lean/MCore/Real/P01NeedExprTagDecode.lean": "21ec123cc5f427e1557ef368b5bab0d270777fbf0545be616a0d41ddc9958c8b",
+  "lean/MCore/Real/P01PostMinCutClosure.lean": "97da01ed4c43b19a0349d12f36f6598a71089c89b4916e2ab8c2a783d1a3bf4a",
+  "lean/MCore/Real/P01RawBaseExact.lean": "f91d6bb622ab14fc7dd4eb4afe335d5fc7ab5bf72da9eef087489b83e7544c19",
+  "lean/MCore/Real/P01RawDeadEnd.lean": "d08cbe4958e02819b5aa872fabf95888dab82ea86d596d05e6f3bc8e50fcba64",
+  "lean/MCore/Real/P01RawDecodeFailureDescent.lean": "7205f991ae9e2a28e8ccc2d6978caab522b946723602bbd2775ec4fd6754df22",
+  "lean/MCore/Real/P01RawDecodeFailureShape.lean": "6ff0cf6fc8117f33979302b2d8b005681ba51b2e19f17dc995b653b48dd99efe",
+  "lean/MCore/Real/P01RawDecodeInduction.lean": "c6e470cedca6ec4d1ef2596c624f6ed06f7d8bff0c2cff1c63fe2d748692eeb8",
+  "lean/MCore/Real/P01RawDecoderSound.lean": "794e8b8cf2ebb8f86d50d663532a92c93345a908355a462935728183e9c1b02c",
+  "lean/MCore/Real/P01RawEvalSink.lean": "da7b4f1fe6d2d879ca03659cb156f688d9e319ef5485695f76d9233d88b49c4b",
+  "lean/MCore/Real/P01RawGlobalBudgetLift.lean": "6089f266d18b42e0b63f5061367ac784aa6077137f73b66ff39251c0810792d3",
+  "lean/MCore/Real/P01RawMalformedTag.lean": "a67139f1ea0d5f5ba21bf961a314ed5396ace52084dd0bc3ceb7ced67eb5e01c",
+  "lean/MCore/Real/P01RawMalformedUnary.lean": "1a9b083c94166be442edb33fbd3f45a6fc10dcd66ab56c9238409fa187506cae",
+  "lean/MCore/Real/P01RawRecursiveBudget.lean": "d50dbf44ba4255e4adaafb66f86d5c8b4d534ae540cb1f2841fdb6a89d8b9f37",
+  "lean/MCore/Real/P01RawRecursiveSteps.lean": "de4036116d394aa2d15ce8a317ad3654fd565cafa11b0110313d7a111e447935",
+  "lean/MCore/Real/P01RawResidualReject.lean": "afa6a36c9c120a0fe591bc1f2e814d3b2011790268ef7e8e3ac54a7aa3653f30",
+  "lean/MCore/Real/P01RawSourceSplit.lean": "32df78c922f2bf908468bcf831880b41462050104d719bda191a387b28902a18",
+  "lean/MCore/Real/P01RawTotalizationMinCut.lean": "f5d6262ce7bf043ae340a6d7d03d63b7175be4cb04a9fb4e77a85d836f305726",
+  "lean/MCore/Real/P01RawTotalizationProducer.lean": "9480a726d6e766027a039045b5481f2b5445cd06b903fc9da51b1ecf6d08e0dd",
+  "lean/MCore/Real/P01RawVerifierLift.lean": "3fb67b181f09f13729de5f76fd14607c5764aac884fea67577bdd4165923ef79",
+  "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
+  "lean/MCore/Real/P01VerifierComposition.lean": "e98bd8fce28dda051ed418d25a82bc8e9c251ca1dcddde6bb6c092ea50ebbb3f",
+  "lean/MCore/Real/P01VerifierEvalCompositeNTM.lean": "5e7e45f664ba55836d754e5b05bc38283bb6331d47e66a7d645dde00799a226a",
+  "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
+  "lean/MCore/Real/P01VerifierStateCode.lean": "a95bc87dca929e61c40616bf6baade705b6e0105bd40ed7b6c11e8441b28560d",
+  "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
+  "lean/MCore/Real/P01WitnessIndexedReadGap.lean": "fff39492548c870016080d6414d9b58ad17fa377661fecfc8b2cefaeff5022a1",
+  "lean/MCore/Real/P01WitnessIndexedReadGapRaw.lean": "938110b6918c1123cc7209dabc1da5f061b56b956b05f90641170a7739334b85",
+  "lean/MCore/Real/P01WitnessIndexedReadPreserving.lean": "8026e111464329111f197ba07ed4eab4a30e4d0d71fdb2a120334b2b3c3008b6",
+  "lean/MCore/Real/P01WitnessPrepGlobal.lean": "fecdb82a710f59aeb20fd977734afbae6f2299222ea3c862f764a1fb3cd78913",
+  "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
+  "lean/MCore/Real/P02TwoSidedOrientation.lean": "0424d452b98df6b01c563c6152adb11095c9d686da539e89e96f37ea91e5cd7b",
+  "lean/MCore/Real/P02UniversalFailureMinCut.lean": "795fd1c870ea20518299d84fa45406fd288f08c3c59e677304cc5a76dc9bcb78",
+  "lean/MCore/Real/PNPCookLevinMaterialMinCut.lean": "f7d8c9599d1d59a3d54465085d453205951c5f775885ac3c3ec80c7c6cc44d6d",
+  "lean/MCore/Real/PNPEqualityBranchMinCut.lean": "bf7c972b3702d4a7baff2f6dede2c80c35abe5a3afb217e2619f167dd074f2ea",
+  "lean/MCore/Real/PNPNTMPathFrontier.lean": "8235a89fdb1662478ce668d6f5bbbea8c6b89293179392c5c55ab6e92e12d73a",
+  "lean/MCore/Real/PNPNTMTableauEncoding.lean": "6ee4df1c2e22336ebb261cbc1ee9889e728e983a4507632eacea9b43b9c2aca4",
+  "lean/MCore/Real/PNPNTMTableauFrontier.lean": "31b84376c89d00c109d5b3143881da14fb852d2d9e4a0db91cfa70b95dc7b407",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:29Z",
+ "certificate_sha256": "564c497c0e242fd5cbb1eac39ae4c71ebaa1cee1b7ce5d9a12bae1c2f065dd9f"
+}

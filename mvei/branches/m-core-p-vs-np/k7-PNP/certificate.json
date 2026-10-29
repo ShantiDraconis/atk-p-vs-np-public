@@ -1,0 +1,76 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "k7-PNP",
+ "branch_state": "parada",
+ "head_commit": "6523e08ea40c6bf69951d26da7346b22829ca827",
+ "head_commit_date": "2026-09-15T21:59:45+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "6523e08ea40c6bf69951d26da7346b22829ca827",
+   "date": "2026-09-15T21:59:45+02:00",
+   "subject": "K7 FULL: certify explicit K7 structural gates"
+  },
+  {
+   "commit": "851ba4bb4f47498efc0f647ed225de44bcd029f3",
+   "date": "2026-09-15T21:12:50+02:00",
+   "subject": "K7: add audit reachability checkpoint"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-28T23:56:08+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.k7_dependency_reachable",
+   "file": "lean/MCore/K7.lean",
+   "line": 9,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": K7Reachable k6_dependency.source k6_dependency.target"
+  },
+  {
+   "name": "MCore.k7_source_open",
+   "file": "lean/MCore/K7.lean",
+   "line": 13,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": k6_dependency.source.status = .openBridge"
+  },
+  {
+   "name": "MCore.k7_target_open",
+   "file": "lean/MCore/K7.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": k6_dependency.target.status = .openBridge"
+  }
+ ],
+ "closed": 3,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "7af4b7d96983d7f4a2601c99456d5a1c803770942f8a5532cc6130ff01fdd29d",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "821effb603d8112c7270f8d52a505a3f5f7c31dfcf414b72ddf124d4a1848aa2",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-10-29T01:37:29Z",
+ "certificate_sha256": "3048d75ee06b4c4a81e74b51ed7c1c585af1cd22346ac7c462d84a7d1e3c0a64"
+}

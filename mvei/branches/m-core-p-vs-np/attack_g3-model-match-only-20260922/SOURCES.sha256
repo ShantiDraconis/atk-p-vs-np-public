@@ -1,0 +1,15 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lake-manifest.json
+558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean-toolchain
+e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/Boundary.lean
+487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/K0.lean
+0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/K1.lean
+7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/K2.lean
+dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/K3.lean
+c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/K4.lean
+ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/K5.lean
+79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/Real/CanonicalFinalProof.lean
+5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/Real/FailProofAllGaps.lean
+83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/Real/Model.lean
+bab8dfe1332f12278db06d8a3d51c982a1ea7d11c391ab4dfe0e1338cb5e9f97  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/Real/P02G3ExternalModel.lean
+8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9  branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/lean/MCore/Signature.lean

@@ -73,7 +73,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -230,6 +230,6 @@
   "lean/MCore/Real/P01DeterministicNTMEmbedding.lean": "8da7b759cfada65d69c1a54a41dff035b534c4c96e02a64a4789d647c263ab02",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T02:47:05Z",
- "certificate_sha256": "8c0d7f4d4d2b8582a81a2622c3bde4cf32e1096d40a6edbd3b09b31fcffc4539"
+ "published_at": "2026-10-29T06:27:22Z",
+ "certificate_sha256": "d962eeee5fa42c8ce524d84782b679b13ccc04b47bae6113790befa99e1ad633"
 }

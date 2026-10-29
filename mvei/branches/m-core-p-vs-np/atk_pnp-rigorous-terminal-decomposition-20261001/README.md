@@ -5,7 +5,7 @@ Lean sources from the branch `atk/pnp-rigorous-terminal-decomposition-20261001` 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 14 — closed 6, conditional 0, open 0, proof error 0, not reached 8, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `f70154455fe04131c29e3e311ac01569926c5645e1938362f0b06c85c0c7dcaf`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `2e0504be3662b5ff4bda8b1c7b8c94209f0f2fff294faa86ad0fb3568ae9073e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

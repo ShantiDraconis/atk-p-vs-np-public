@@ -5,7 +5,7 @@ Lean sources from the branch `atk/hardened-final-boundary-20261001` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 47 — closed 26, conditional 0, open 0, proof error 0, not reached 21, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `0e7c335c3cddbdc3cb2c68d949d23b6dd23c9b1f4615eeb3629c38b35025a65a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_hardened-final-boundary-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `3d9fa992c5cd3e3cf7347f61793e9ee9d4bb7373bd25d83116f678fc5906de41`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_hardened-final-boundary-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

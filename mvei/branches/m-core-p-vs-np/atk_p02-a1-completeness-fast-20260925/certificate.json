@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-28T23:56:08+00:00",
+  "generated_at": "2026-10-29T05:36:17+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -9018,6 +9018,6 @@
   "lean/MCore/Research/ResidualRotationAlgebra.lean": "9a65a5857493c85bc2becbfae9ce601b7afb37dca3e37f99d5df949784176b5b",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T02:47:01Z",
- "certificate_sha256": "ce97f7efd36b16020d0cfd49bbb05eaf223e41bd39f94ff5d37369fda07b8ac0"
+ "published_at": "2026-10-29T06:27:14Z",
+ "certificate_sha256": "62742e4e8e5978952ea653994acf952d38d6c09c216b1316ca78f99ac93e2cbb"
 }

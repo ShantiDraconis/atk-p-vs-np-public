@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-preserving-input-reader-20260930` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 1, conditional 0, open 0, proof error 1, not reached 0, no result 0.
 * History: 3 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `95d27192b36ad71c1453419e918867c49a920f1d6f4842353d4c62c3438657c3`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-preserving-input-reader-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `40ef478e12e5aff5027172d75fd9b7a401055c90f99b3f77e29ba862fb0b1878`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-preserving-input-reader-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

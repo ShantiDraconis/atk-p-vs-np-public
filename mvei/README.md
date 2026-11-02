@@ -11,39 +11,81 @@ This folder records what the Lean 4 kernel said about the Lean sources of the pr
 
 ## What the kernel said
 
-MVEI verification of 2026-10-29T18:57:14+00:00, on commit `328cb6726222af4ad93e7727737d477640f74f89`. Each theorem was read with `Lean.collectAxioms`, the function behind `#print axioms`.
+MVEI verification of 2026-10-30T16:50:26+00:00, on commit `328cb6726222af4ad93e7727737d477640f74f89`. Each theorem was read with `Lean.collectAxioms`, the function behind `#print axioms`.
 
 | Lean project | Lean version | Build | Closed | Conditional | Open (`sorry`) | Checked file by file: closed / conditional / open / proof error / not reached |
 |---|---|---|---:|---:|---:|---|
-| `.` | v4.19.0 | OK | 1 141 | 0 | 0 | 366 / 0 / 3 / 184 / 99 |
+| `.` | v4.19.0 | partial | 1 601 | 0 | 0 | 81 / 0 / 44 / 232 / 45 |
 | `atk-kernel` | v4.34.1 | OK | 2 | 0 | 0 | — |
 
 | Closed theorems in this repository | |
 |---|---:|
-| Counting each project | 1 509 |
-| Unique (name + statement) | 1 422 |
-| Unique, without the lemmas Lean generates itself (`eq_1`, `mk.inj`, `sizeOf_spec`, `deriving`) | 871 |
+| Counting each project | 1 684 |
+| Unique (name + statement) | 1 649 |
+| Unique, without the lemmas Lean generates itself (`eq_1`, `mk.inj`, `sizeOf_spec`, `deriving`) | 922 |
 
 *Closed* means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`. It says that the statement as written in the file is proved; it does not say that an open problem is solved. Every statement is in `VERIFICACAO.json`. *Conditional* means the proof also uses axioms declared in the repository; *open* means it uses `sorry`. *Checked file by file* covers the files that no build reached: each one went through Lean whole, with a `#print axioms` for each theorem.
 
 | Theorem | Project | State | Axioms beyond the standard three |
 |---|---|---|---|
-| `MCore.Real.FailProofFiniteAttack.empty_language_not_universal_failure` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.FailProofFiniteAttack.empty_sample_evidence` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.FailProofFiniteAttack.finite_to_universal_principle_refuted` | `. (file by file)` | open | `sorryAx` |
+| `MCore.FinalFail.boundaryAtom_nonempty` | `. (file by file)` | open | `sorryAx` |
+| `MCore.FinalFail.interpretedBoundary_nonempty` | `. (file by file)` | open | `sorryAx` |
+| `MCore.FinalFail.nonempty_boundaryInterpretation_iff_nonempty_target` | `. (file by file)` | open | `sorryAx` |
+| `MCore.FinalFail.boundaryAtom_nonempty` | `. (file by file)` | open | `sorryAx` |
+| `MCore.FinalFail.interpretedBoundary_nonempty` | `. (file by file)` | open | `sorryAx` |
+| `MCore.FinalFail.nonempty_boundaryInterpretation_iff_nonempty_target` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalFinalProof.universal_failure_implies_not_in_p` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalFinalProof.universal_failure_iff_not_in_p` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalFinalProof.target_failure_implies_p_ne_np` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalFinalProof.separation_certificate_closes` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATFrameAttack.exact_frame_tape_implies_semantic` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_halt4` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_not_halt0` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATFrameMachineV2.blank_normalized_frame_tape_operational_closed` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATNTMAttack.scanMachine_not_halted_at_zero` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATNTMAttack.scanMachine_halted_at_one` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATNatParserAttack.natScan_not_halted_zero` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATNatParserAttack.natScan_halted_one` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATNatParserAttack.natScan_halted_two` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_initial_not_halted` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_one` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_two` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_three` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_four` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_five` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.tagMachine_halted_at_twelve` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATParserAttack.canonical_recursive_parser_closes_legacy_gap` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuessMachine_initial` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.CanonicalSATWitnessGuessNTM.doneConfig_accepting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.universal_sat_failure_implies_sat_not_in_p` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.universal_sat_failure_iff_sat_not_in_p` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.sat_not_in_p_of_lower_bound_certificate` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.lower_bound_certificate_of_sat_not_in_p` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.sat_lower_bound_certificate_iff` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.sat_certificate_implies_machine_p_ne_np` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.final_proof_from_residual` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EncodedStackEvaluator.evalRun_add` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EvalCursorMachine.start_not_halting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EvalCursorMachine.scanStack_not_halting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EvalCursorMachine.scanUnread_not_halting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EvalCursorRoundTrip.erase_not_halting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EvalCursorRoundTrip.scanUnread_not_halting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01EvalCursorRoundTrip.scanFrames_not_halting` | `. (file by file)` | open | `sorryAx` |
+| `MCore.Real.P01FullVerifierInputShuttleV2.witnessOffsetV2_positive` | `. (file by file)` | open | `sorryAx` |
 
 ### Declared theorems
 
-The `.lean` files of the verified commit declare 1 162 `theorem`/`lemma` (counting copies). The kernel checked 961 of them (961 closed, 0 conditional, 0 open). The closed count in the table above is larger: it also counts the theorems Lean generates by itself (equation lemmas, structure fields, `deriving`), which are not written in the text. For 201 the kernel has no result:
+The `.lean` files of the verified commit declare 1 162 `theorem`/`lemma` (counting copies). The kernel checked 1 046 of them (1 046 closed, 0 conditional, 0 open). The closed count in the table above is larger: it also counts the theorems Lean generates by itself (equation lemmas, structure fields, `deriving`), which are not written in the text. For 116 the kernel has no result:
 
 | Reason | Theorems |
 |---|---:|
-| the project built, but the file is not part of the lakefile target | 200 |
-| checked file by file: the written proof does not pass the kernel | 1 |
+| the file did not compile (an error in it or in a file it imports) | 116 |
 
 ### MVEI corrections
 
-* `correcoes/imports-no-topo.patch` (import fora do início do arquivo, 6 file(s)): applies to the published sources: `git apply -p1 --directory=imports/m-core-p-vs-np mvei/correcoes/imports-no-topo.patch` (in order, after the ones above)
+* `correcoes/imports-no-topo.patch` (import fora do início do arquivo, 1 file(s)): applies to the published sources: `git apply -p1 --directory=imports/m-core-p-vs-np mvei/correcoes/imports-no-topo.patch` (in order, after the ones above)
+* `correcoes/vocabulario-lean4.patch` (grafia que o Lean 4 não lê (nome acentuado, λ/Σ/Π como nome, ∀ x y ∈ s, docstring solta, constant, tática do Mathlib sem import), 73 file(s)): applies to the published sources: `git apply -p1 --directory=imports/m-core-p-vs-np mvei/correcoes/vocabulario-lean4.patch` (in order, after the ones above)
+* `correcoes/z-provas-reparadas.patch` (prova que não passava no kernel (o enunciado fica igual), 3 file(s)): applies to the published sources: `git apply -p1 --directory=imports/m-core-p-vs-np mvei/correcoes/z-provas-reparadas.patch` (in order, after the ones above)
 
 ## Files in this folder
 

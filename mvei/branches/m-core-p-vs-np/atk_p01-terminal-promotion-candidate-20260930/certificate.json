@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1524,7 +1524,7 @@
    "name": "MCore.Real.P01CanonicalWrapperBounded.canonical_cnf_halts_bounded",
    "file": "lean/MCore/Real/P01CanonicalWrapperBounded.lean",
    "line": 152,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) (witness : BitString) (hCNF : IsCNF phi) (hlen : (encodeCircuit phi).length ≤ witness.length) : checkedVerifierMachine.HaltsWithin (materialVerifierGlobalTimeBound (encodeCircuit phi).length) { state"
   },
@@ -1532,7 +1532,7 @@
    "name": "MCore.Real.P01CanonicalWrapperBounded.canonical_cnf_reaches_final_bounded",
    "file": "lean/MCore/Real/P01CanonicalWrapperBounded.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) (witness : BitString) (hCNF : IsCNF phi) (hlen : (encodeCircuit phi).length ≤ witness.length) : ∃ m ≤ materialVerifierGlobalTimeBound (encodeCircuit phi).length, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1540,7 +1540,7 @@
    "name": "MCore.Real.P01CanonicalWrapperBounded.encodeCircuit_ne_nil",
    "file": "lean/MCore/Real/P01CanonicalWrapperBounded.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) : encodeCircuit phi ≠ []"
   },
@@ -1548,7 +1548,7 @@
    "name": "MCore.Real.P01CheckedEvalReject.circuit_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalReject.lean",
    "line": 762,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) : ∀ (phi : Circuit) (mode : SyntaxMode), CheckedCircuitRejectCertificate sigma witness mode phi"
   },
@@ -1556,7 +1556,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.and_bounded_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 365,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (left right : Circuit) (hleftReject : BoundedCheckedCircuitRejectCertificate sigma witness .cnf left) (hrightReject : BoundedCheckedCircuitRejectCertificate sigma witness .cnf right) : ∀ mode : SyntaxMode, BoundedCheckedCircuitRejectCertificate sigma witness mode (.and left right)"
   },
@@ -1580,7 +1580,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.bounded_circuit_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 907,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) : ∀ (phi : Circuit) (mode : SyntaxMode), BoundedCheckedCircuitRejectCertificate sigma witness mode phi"
   },
@@ -1588,7 +1588,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.const_bounded_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 215,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (v : Bool) : BoundedCheckedCircuitRejectCertificate sigma witness mode (.const v)"
   },
@@ -1596,7 +1596,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.disallowed_tag_prefix_reaches_reject_within_envelope",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 100,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (mode : SyntaxMode) (witness rest frameStack : BitString) (consumed padding : Nat) (b0 b1 b2 : Bool) (hdisallowed : tagAllowed mode (P01NeedExprTagDecode.decodeTagBits b0 b1 b2) = false) (hsource : (b0 :: b1 :: b2 :: rest).length ≤ n) (hframes : frameStack.length ≤ n) : ∃ m ≤ checkedLoopStepEnvelope n, ({ state"
   },
@@ -1612,7 +1612,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.input_bounded_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 204,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (i : Nat) : BoundedCheckedCircuitRejectCertificate sigma witness mode (.input i)"
   },
@@ -1620,7 +1620,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.not_bounded_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 264,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (child : Circuit) (hchild : BoundedCheckedCircuitRejectCertificate sigma witness (childMode mode .neg) child) : BoundedCheckedCircuitRejectCertificate sigma witness mode (.not child)"
   },
@@ -1628,7 +1628,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.or_bounded_reject_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 645,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (left right : Circuit) (hleftReject : BoundedCheckedCircuitRejectCertificate sigma witness .clause left) (hrightReject : BoundedCheckedCircuitRejectCertificate sigma witness .clause right) : ∀ mode : SyntaxMode, BoundedCheckedCircuitRejectCertificate sigma witness mode (.or left right)"
   },
@@ -1636,7 +1636,7 @@
    "name": "MCore.Real.P01CheckedEvalRejectBounded.short_tag_reaches_reject_within_envelope",
    "file": "lean/MCore/Real/P01CheckedEvalRejectBounded.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (mode : SyntaxMode) (witness source frameStack : BitString) (consumed padding : Nat) (hshort : source.length < 3) (hsource : source.length ≤ n) (hframes : frameStack.length ≤ n) : ∃ m ≤ checkedLoopStepEnvelope n, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1644,7 +1644,7 @@
    "name": "MCore.Real.P01CheckedEvalRunBoundedCertificate.neg_bounded_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRunBoundedCertificate.lean",
    "line": 201,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (child : CircuitK1.Circuit) (hchild : BoundedCheckedCircuitRunCertificate sigma witness (childMode mode .neg) child) : BoundedCheckedCircuitRunCertificate sigma witness mode (.not child)"
   },
@@ -1652,7 +1652,7 @@
    "name": "MCore.Real.P01CheckedEvalRunInputTag.inputTag_unterminated_reaches_reject",
    "file": "lean/MCore/Real/P01CheckedEvalRunInputTag.lean",
    "line": 220,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(mode : SyntaxMode) (witness frameStack : BitString) (consumed padding n : Nat) : ∃ m ≤ checkedUnterminatedInputFuel n frameStack, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1660,7 +1660,7 @@
    "name": "MCore.Real.P01CheckedEvalRunInputTag.unterminated_input_checked_from_read",
    "file": "lean/MCore/Real/P01CheckedEvalRunInputTag.lean",
    "line": 173,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(mode : SyntaxMode) (witness frameStack : BitString) (consumed padding n : Nat) : ∃ m ≤ n + 2, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1668,7 +1668,7 @@
    "name": "MCore.Real.P01CheckedEvalRunLoopNTM.nested_need_reject_successors",
    "file": "lean/MCore/Real/P01CheckedEvalRunLoopNTM.lean",
    "line": 172,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(mode : SyntaxMode) (tape : Tape (Option Bool)) : checkedEvalRunLoopMachine.successors { state"
   },
@@ -1676,7 +1676,7 @@
    "name": "MCore.Real.P01CheckedEvalRunTagPrefix.short_tag_source_reaches_reject",
    "file": "lean/MCore/Real/P01CheckedEvalRunTagPrefix.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(mode : SyntaxMode) (witness source frameStack : BitString) (consumed padding : Nat) (hshort : source.length < 3) : ∃ m ≤ checkedShortTagRejectFuel source frameStack, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1684,7 +1684,7 @@
    "name": "MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierFinMachine_acceptsWithin_iff",
    "file": "lean/MCore/Real/P01CheckedVerifierFiniteState.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (c : Configuration CheckedVerifierState (Option Bool)) : checkedVerifierFinMachine.AcceptsWithin n (P01NTMRunLaws.liftConfig checkedVerifierStateEncode c) ↔ checkedVerifierMachine.AcceptsWithin n c"
   },
@@ -1692,7 +1692,7 @@
    "name": "MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierFinMachine_blank",
    "file": "lean/MCore/Real/P01CheckedVerifierFiniteState.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": checkedVerifierFinMachine.blank = none"
   },
@@ -1700,7 +1700,7 @@
    "name": "MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierFinMachine_haltsWithin_iff",
    "file": "lean/MCore/Real/P01CheckedVerifierFiniteState.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (c : Configuration CheckedVerifierState (Option Bool)) : checkedVerifierFinMachine.HaltsWithin n (P01NTMRunLaws.liftConfig checkedVerifierStateEncode c) ↔ checkedVerifierMachine.HaltsWithin n c"
   },
@@ -1708,7 +1708,7 @@
    "name": "MCore.Real.P01CheckedVerifierFiniteState.checkedVerifierStateDecode_encode",
    "file": "lean/MCore/Real/P01CheckedVerifierFiniteState.lean",
    "line": 28,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(q : CheckedVerifierState) : checkedVerifierStateDecode (checkedVerifierStateEncode q) = q"
   },
@@ -1716,7 +1716,7 @@
    "name": "MCore.Real.P01CheckedVerifierInvariant.after_circuit",
    "file": "lean/MCore/Real/P01CheckedVerifierInvariant.lean",
    "line": 169,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n consumed : Nat) (phi : CircuitK1.Circuit) (tail frameStack : BitString) (h : CheckedLayoutBound n consumed (encodeCircuit phi ++ tail) frameStack) : CheckedLayoutBound n (consumed + (encodeCircuit phi).length) tail frameStack"
   },
@@ -1724,7 +1724,7 @@
    "name": "MCore.Real.P01CheckedVerifierInvariant.after_encoded_prefix",
    "file": "lean/MCore/Real/P01CheckedVerifierInvariant.lean",
    "line": 149,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n consumed : Nat) (bits tail frameStack : BitString) (h : CheckedLayoutBound n consumed (bits ++ tail) frameStack) : CheckedLayoutBound n (consumed + bits.length) tail frameStack"
   },
@@ -1732,7 +1732,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.checkedEvalRunStateCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 530,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": checkedEvalRunStateCodec.size = 1847"
   },
@@ -1740,7 +1740,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.checkedVerifierStateCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 562,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": checkedVerifierStateCodec.size = 1852"
   },
@@ -1748,7 +1748,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.checkedVerifier_decode_encode",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 565,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(q : CheckedVerifierState) : checkedVerifierStateCodec.decode (checkedVerifierStateCodec.encode q) = q"
   },
@@ -1756,7 +1756,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.evalFrameCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": evalFrameCodec.size = 7"
   },
@@ -1764,7 +1764,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.framePopStateCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 403,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": framePopStateCodec.size = 22"
   },
@@ -1772,7 +1772,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.framePushStateCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 370,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": framePushStateCodec.size = 23"
   },
@@ -1780,7 +1780,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.haveValueCompositeCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 489,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": haveValueCompositeCodec.size = 213"
   },
@@ -1788,7 +1788,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.inputAfterReadReturnCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 236,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": inputAfterReadReturnCodec.size = 11"
   },
@@ -1796,7 +1796,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.inputIndexLookaheadCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 130,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": inputIndexLookaheadCodec.size = 13"
   },
@@ -1804,7 +1804,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.inputNodeCompositeCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 273,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": inputNodeCompositeCodec.size = 170"
   },
@@ -1812,7 +1812,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.inputReturnClassifyCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 99,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": inputReturnClassifyCodec.size = 10"
   },
@@ -1820,7 +1820,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.needExprCompositeCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 451,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": needExprCompositeCodec.size = 401"
   },
@@ -1828,7 +1828,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.preservingReadDecode_encode",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 196,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(q : PreservingReadState) : preservingReadDecode (preservingReadEncode q) = q"
   },
@@ -1836,7 +1836,7 @@
    "name": "MCore.Real.P01CheckedVerifierStateCodec.tagDecodeStateCodec_size",
    "file": "lean/MCore/Real/P01CheckedVerifierStateCodec.lean",
    "line": 347,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": tagDecodeStateCodec.size = 16"
   },
@@ -1844,7 +1844,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureAtoms.checkedLoopStepEnvelope_le_material",
    "file": "lean/MCore/Real/P01CoreDecodeFailureAtoms.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) : checkedLoopStepEnvelope n ≤ materialVerifierGlobalTimeBound n"
   },
@@ -1852,7 +1852,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureAtoms.decodeNat_none_eq_replicate_true",
    "file": "lean/MCore/Real/P01CoreDecodeFailureAtoms.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ bits : BitString, decodeNat bits = none → bits = List.replicate bits.length true | [], _ => by simp | false :: rest, h => by simp [decodeNat] at h | true :: rest, h => by simp only [decodeNat] at h cases hr : decodeNat rest with | some p => simp [hr] at h | none => have ih"
   },
@@ -1860,7 +1860,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureAtoms.input_decode_failure_rejects_material",
    "file": "lean/MCore/Real/P01CoreDecodeFailureAtoms.lean",
    "line": 163,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : Nat) (mode : SyntaxMode) (witness rest frameStack : BitString) (consumed padding : Nat) (hdecode : decodeNat rest = none) (hrest : rest.length ≤ N) (hframes : frameStack.length ≤ N) : ∃ m ≤ materialVerifierGlobalTimeBound N, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1868,7 +1868,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureAtoms.invalid_tag_rejects_material",
    "file": "lean/MCore/Real/P01CoreDecodeFailureAtoms.lean",
    "line": 79,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (mode : SyntaxMode) (witness rest frameStack : BitString) (consumed padding : Nat) (third : Bool) (hsource : (true :: true :: third :: rest).length ≤ n) (hframes : frameStack.length ≤ n) : ∃ m ≤ materialVerifierGlobalTimeBound n, ({ state"
   },
@@ -1876,7 +1876,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureAtoms.short_source_rejects_material",
    "file": "lean/MCore/Real/P01CoreDecodeFailureAtoms.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (mode : SyntaxMode) (witness source frameStack : BitString) (consumed padding : Nat) (hshort : source.length < 3) (hsource : source.length ≤ n) (hframes : frameStack.length ≤ n) : ∃ m ≤ materialVerifierGlobalTimeBound n, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1884,7 +1884,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureAtoms.unterminated_input_rejects_material",
    "file": "lean/MCore/Real/P01CoreDecodeFailureAtoms.lean",
    "line": 107,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(N : Nat) (mode : SyntaxMode) (witness frameStack : BitString) (consumed padding k : Nat) (hk : k ≤ N) (hframes : frameStack.length ≤ N) : ∃ m ≤ materialVerifierGlobalTimeBound N, ∃ tape : Tape (Option Bool), ({ state"
   },
@@ -1892,7 +1892,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureBudget.binary_left_semantic_reject_le",
    "file": "lean/MCore/Real/P01CoreDecodeFailureBudget.lean",
    "line": 94,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) (rightLength n : Nat) : checkedLoopStepEnvelope n + checkedCircuitBudget phi n ≤ coreRejectPotential (3 + (encodeCircuit phi).length + rightLength) n"
   },
@@ -1900,7 +1900,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureBudget.binary_right_path_le",
    "file": "lean/MCore/Real/P01CoreDecodeFailureBudget.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) (rightLength n : Nat) : checkedLoopStepEnvelope n + checkedCircuitBudget phi n + checkedLoopStepEnvelope n + coreRejectPotential rightLength n ≤ coreRejectPotential (3 + (encodeCircuit phi).length + rightLength) n"
   },
@@ -1908,7 +1908,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureBudget.eval_budget_le_encoding_units",
    "file": "lean/MCore/Real/P01CoreDecodeFailureBudget.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) (n : Nat) : checkedCircuitBudget phi n ≤ (24 * (encodeCircuit phi).length + 8) * checkedLoopStepEnvelope n"
   },
@@ -1916,7 +1916,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureBudget.loop_le_potential",
    "file": "lean/MCore/Real/P01CoreDecodeFailureBudget.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sourceLength n : Nat) : checkedLoopStepEnvelope n ≤ coreRejectPotential sourceLength n"
   },
@@ -1924,7 +1924,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureBudget.root_potential_le_material",
    "file": "lean/MCore/Real/P01CoreDecodeFailureBudget.lean",
    "line": 118,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sourceLength n : Nat) (h : sourceLength ≤ n) : coreRejectPotential sourceLength n ≤ materialVerifierGlobalTimeBound n"
   },
@@ -1932,7 +1932,7 @@
    "name": "MCore.Real.P01CoreDecodeFailureBudget.tag_plus_recursive_le",
    "file": "lean/MCore/Real/P01CoreDecodeFailureBudget.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(restLength n : Nat) : checkedLoopStepEnvelope n + coreRejectPotential restLength n ≤ coreRejectPotential (restLength + 3) n"
   },
@@ -1940,7 +1940,7 @@
    "name": "MCore.Real.P01CoreDecodeFailurePhysical.coreDecodeFailurePhysicalAux",
    "file": "lean/MCore/Real/P01CoreDecodeFailurePhysical.lean",
    "line": 96,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ (fuel : Nat) (source : BitString) (mode : SyntaxMode) (witness : BitString) (frames : List EvalFrame) (consumed padding n : Nat), source.length < fuel → n ≤ witness.length → CheckedLayoutBound n consumed source (encodeEvalFrames frames) → decodeCircuitCore fuel source = none → ∃ m ≤ coreRejectPotential source.length n, ∃ cfg, cfg ∈ checkedEvalRunLoopMachine.runBranches m [{ state"
   },
@@ -1948,7 +1948,7 @@
    "name": "MCore.Real.P01CoreDecodeFailurePhysical.coreDecodeFailurePhysicalReject",
    "file": "lean/MCore/Real/P01CoreDecodeFailurePhysical.lean",
    "line": 814,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CoreDecodeFailurePhysicalReject"
   },
@@ -1964,7 +1964,7 @@
    "name": "MCore.Real.P01CoreDecodeFailurePhysical.p01ConstructionGap",
    "file": "lean/MCore/Real/P01CoreDecodeFailurePhysical.lean",
    "line": 827,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": P01FinalCertificate.P01ConstructionGap"
   },
@@ -1980,37 +1980,31 @@
    "name": "MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_none_of_larger_none",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 249,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{fuel fuel' : Nat} (hff : fuel ≤ fuel') {bits : BitString} (h : decodeCircuitCore fuel' bits = none) : decodeCircuitCore fuel bits = none"
   },
   {
    "name": "MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_size_lt",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 141,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (bits : BitString) (phi : Circuit) (tail : BitString) (h : decodeCircuitCore fuel bits = some (phi, tail)) : CircuitK1.size phi < fuel"
   },
   {
    "name": "MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_some_mono",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 237,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "{fuel fuel' : Nat} (hff : fuel ≤ fuel') {bits : BitString} {phi : Circuit} {tail : BitString} (h : decodeCircuitCore fuel bits = some (phi, tail)) : decodeCircuitCore fuel' bits = some (phi, tail)"
   },
   {
    "name": "MCore.Real.P01DecodeCoreLaws.decodeCircuitCore_sound",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 54,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (bits : BitString) (phi : Circuit) (tail : BitString) (h : decodeCircuitCore fuel bits = some (phi, tail)) : bits = encodeCircuit phi ++ tail"
   },
@@ -2018,7 +2012,7 @@
    "name": "MCore.Real.P01DecodeCoreLaws.decodeCircuit_sound",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 216,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bits : BitString) (phi : Circuit) (h : decodeCircuit bits = some phi) : bits = encodeCircuit phi"
   },
@@ -2026,7 +2020,7 @@
    "name": "MCore.Real.P01DecodeCoreLaws.decodeNat_none_eq_replicate_true",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 34,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bits : BitString) (h : decodeNat bits = none) : bits = List.replicate bits.length true"
   },
@@ -2034,7 +2028,7 @@
    "name": "MCore.Real.P01DecodeCoreLaws.decodeNat_sound",
    "file": "lean/MCore/Real/P01DecodeCoreLaws.lean",
    "line": 10,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bits : BitString) (n : Nat) (tail : BitString) (h : decodeNat bits = some (n, tail)) : bits = encodeNat n ++ tail"
   },
@@ -2042,7 +2036,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decodeCore_none_cases",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 94,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (bits : BitString) (h : decodeCircuitCore (fuel + 1) bits = none) : bits.length < 3 ∨ (∃ rest, bits = false :: false :: false :: rest ∧ decodeNat rest = none) ∨ (∃ rest, bits = false :: true :: true :: rest ∧ decodeCircuitCore fuel rest = none) ∨ (∃ rest, bits = true :: false :: false :: rest ∧ (decodeCircuitCore fuel rest = none ∨ ∃ a rest', decodeCircuitCore fuel rest = some (a, res"
   },
@@ -2050,7 +2044,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_and_none_iff",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 40,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (true :: false :: false :: rest) = none ↔ decodeCircuitCore fuel rest = none ∨ ∃ a rest', decodeCircuitCore fuel rest = some (a, rest') ∧ decodeCircuitCore fuel rest' = none"
   },
@@ -2058,7 +2052,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_const_false_ne_none",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (false :: false :: true :: rest) ≠ none"
   },
@@ -2066,7 +2060,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_const_true_ne_none",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (false :: true :: false :: rest) ≠ none"
   },
@@ -2074,7 +2068,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_input_none_iff",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (false :: false :: false :: rest) = none ↔ decodeNat rest = none"
   },
@@ -2082,7 +2076,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_invalid_110_none",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 82,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (true :: true :: false :: rest) = none"
   },
@@ -2090,7 +2084,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_invalid_111_none",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 88,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (true :: true :: true :: rest) = none"
   },
@@ -2098,7 +2092,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_not_none_iff",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (false :: true :: true :: rest) = none ↔ decodeCircuitCore fuel rest = none"
   },
@@ -2106,7 +2100,7 @@
    "name": "MCore.Real.P01DecodeFailureLaws.decode_or_none_iff",
    "file": "lean/MCore/Real/P01DecodeFailureLaws.lean",
    "line": 61,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(fuel : Nat) (rest : BitString) : decodeCircuitCore (fuel + 1) (true :: false :: true :: rest) = none ↔ decodeCircuitCore fuel rest = none ∨ ∃ a rest', decodeCircuitCore fuel rest = some (a, rest') ∧ decodeCircuitCore fuel rest' = none"
   },
@@ -2114,7 +2108,7 @@
    "name": "MCore.Real.P01ExactBoundedAll.exact_bounded_all",
    "file": "lean/MCore/Real/P01ExactBoundedAll.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) : ∀ (phi : Circuit) (mode : SyntaxMode), ExactBoundedCheckedCircuitRunCertificate sigma witness mode phi"
   },
@@ -2122,7 +2116,7 @@
    "name": "MCore.Real.P01ExactBoundedBinary.and_exact_bounded_certificate",
    "file": "lean/MCore/Real/P01ExactBoundedBinary.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (left right : CircuitK1.Circuit) (hleft : ExactBoundedCheckedCircuitRunCertificate sigma witness .cnf left) (hright : ExactBoundedCheckedCircuitRunCertificate sigma witness .cnf right) : ExactBoundedCheckedCircuitRunCertificate sigma witness mode (.and left right)"
   },
@@ -2146,7 +2140,7 @@
    "name": "MCore.Real.P01ExactBoundedBinary.or_exact_bounded_certificate",
    "file": "lean/MCore/Real/P01ExactBoundedBinary.lean",
    "line": 464,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (left right : CircuitK1.Circuit) (hleft : ExactBoundedCheckedCircuitRunCertificate sigma witness .clause left) (hright : ExactBoundedCheckedCircuitRunCertificate sigma witness .clause right) : ExactBoundedCheckedCircuitRunCertificate sigma witness mode (.or left right)"
   },
@@ -2170,27 +2164,23 @@
    "name": "MCore.Real.P01InputNodeCompositeRun.unterminated_index_reaches_reject",
    "file": "lean/MCore/Real/P01InputNodeCompositeRun.lean",
    "line": 700,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(witness frameStack : BitString) (consumed padding n : Nat) : ∃ m ≤ n + 2, ∃ tape : Tape (Option Bool), ({ state"
   },
   {
    "name": "MCore.Real.P01IntegratedAssembly.verifierFinMachine_acceptsWithin_iff",
    "file": "lean/MCore/Real/P01IntegratedAssembly.lean",
    "line": 205,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(n : Nat) (c : Configuration V.State (Option Bool)) : (verifierFinMachine V).AcceptsWithin n (liftConfig V.encode c) ↔ V.machine.AcceptsWithin n c"
   },
   {
    "name": "MCore.Real.P01IntegratedAssembly.verifierFinMachine_blank",
    "file": "lean/MCore/Real/P01IntegratedAssembly.lean",
    "line": 194,
-   "state": "erro",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (verifierFinMachine V).blank = none"
   },
@@ -2198,17 +2188,15 @@
    "name": "MCore.Real.P01IntegratedAssembly.verifierFinMachine_haltsWithin_iff",
    "file": "lean/MCore/Real/P01IntegratedAssembly.lean",
    "line": 198,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(n : Nat) (c : Configuration V.State (Option Bool)) : (verifierFinMachine V).HaltsWithin n (liftConfig V.encode c) ↔ V.machine.HaltsWithin n c"
   },
   {
    "name": "MCore.Real.P01MalformedRawBoundedReject.checkedCircuitBudget_plus_loop_le_material",
    "file": "lean/MCore/Real/P01MalformedRawBoundedReject.lean",
    "line": 309,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (phi : Circuit) (henc : (encodeCircuit phi).length ≤ n) : checkedCircuitBudget phi n + checkedLoopStepEnvelope n ≤ materialVerifierGlobalTimeBound n"
   },
@@ -2216,7 +2204,7 @@
    "name": "MCore.Real.P01MalformedRawBoundedReject.checked_nonempty_source_reaches_reject",
    "file": "lean/MCore/Real/P01MalformedRawBoundedReject.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(mode : SyntaxMode) (witness : BitString) (consumed padding : Nat) (v b : Bool) (rest : BitString) : ∃ m ≤ 3, ({ state"
   },
@@ -2224,7 +2212,7 @@
    "name": "MCore.Real.P01MalformedRawBoundedReject.checked_nonempty_source_reaches_reject_within_envelope",
    "file": "lean/MCore/Real/P01MalformedRawBoundedReject.lean",
    "line": 171,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (mode : SyntaxMode) (witness : BitString) (consumed padding : Nat) (v b : Bool) (rest : BitString) : ∃ m ≤ checkedLoopStepEnvelope n, ({ state"
   },
@@ -2232,7 +2220,7 @@
    "name": "MCore.Real.P01MalformedRawBoundedReject.core_success_with_trailing_reaches_reject_bounded",
    "file": "lean/MCore/Real/P01MalformedRawBoundedReject.lean",
    "line": 197,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(witness bs : BitString) (phi : Circuit) (b : Bool) (rest : BitString) (hw : witness.length = bs.length) (hcore : decodeCircuitCore (bs.length + 1) bs = some (phi, b :: rest)) : ∃ m ≤ checkedCircuitBudget phi bs.length + checkedLoopStepEnvelope bs.length, ∃ cfg, cfg ∈ checkedEvalRunLoopMachine.runBranches m [{ state"
   },
@@ -2240,7 +2228,7 @@
    "name": "MCore.Real.P01MalformedRawBoundedReject.decodeCircuit_none_split",
    "file": "lean/MCore/Real/P01MalformedRawBoundedReject.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs : BitString) (h : decodeCircuit bs = none) : decodeCircuitCore (bs.length + 1) bs = none ∨ ∃ phi b rest, decodeCircuitCore (bs.length + 1) bs = some (phi, b :: rest)"
   },
@@ -2248,7 +2236,7 @@
    "name": "MCore.Real.P01MalformedRawBoundedReject.malformed_raw_reaches_reject_bounded_of_core",
    "file": "lean/MCore/Real/P01MalformedRawBoundedReject.lean",
    "line": 334,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(K : CoreDecodeFailurePhysicalReject) (witness bs : BitString) (hw : witness.length = bs.length) (hdecode : decodeCircuit bs = none) : ∃ m ≤ materialVerifierGlobalTimeBound bs.length, ∃ cfg, cfg ∈ checkedEvalRunLoopMachine.runBranches m [{ state"
   },
@@ -2256,7 +2244,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.checkedCircuitBudget_le_6144_cubic",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (phi : CircuitK1.Circuit) (henc : (encodeCircuit phi).length ≤ n) : checkedCircuitBudget phi n ≤ 6144 * (n + 1) ^ 3"
   },
@@ -2264,7 +2252,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.entry_plus_checkedCircuitBudget_le_material",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 77,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (phi : CircuitK1.Circuit) (henc : (encodeCircuit phi).length ≤ n) : n + 3 + checkedCircuitBudget phi n ≤ materialVerifierGlobalTimeBound n"
   },
@@ -2272,7 +2260,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.entry_plus_material_le_terminal",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 115,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) : n + 3 + materialVerifierGlobalTimeBound n ≤ terminalVerifierTimeBound n"
   },
@@ -2280,7 +2268,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.materialVerifierGlobalTimeBound_poly",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 24,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": PolynomialTimeBound materialVerifierGlobalTimeBound"
   },
@@ -2288,7 +2276,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.material_le_terminal",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 109,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) : materialVerifierGlobalTimeBound n ≤ terminalVerifierTimeBound n"
   },
@@ -2296,7 +2284,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.scan_entry_le_2048_cubic",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) : n + 3 ≤ 2048 * (n + 1) ^ 3"
   },
@@ -2304,7 +2292,7 @@
    "name": "MCore.Real.P01MaterialGlobalBudget.terminalVerifierTimeBound_poly",
    "file": "lean/MCore/Real/P01MaterialGlobalBudget.lean",
    "line": 103,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": PolynomialTimeBound terminalVerifierTimeBound"
   },
@@ -2312,7 +2300,7 @@
    "name": "MCore.Real.P01MaterialInhabitantFrontier.p01_of_raw_material_core",
    "file": "lean/MCore/Real/P01MaterialInhabitantFrontier.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(K : RawVerifierMaterialCore) : P01FinalCertificate.P01ConstructionGap"
   },
@@ -2320,7 +2308,7 @@
    "name": "MCore.Real.P01MaterialInhabitantFrontier.p01_reduced_to_raw_core",
    "file": "lean/MCore/Real/P01MaterialInhabitantFrontier.lean",
    "line": 51,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": RawVerifierMaterialCore → P01FinalCertificate.P01ConstructionGap"
   },
@@ -2328,7 +2316,7 @@
    "name": "MCore.Real.P01MaterialInhabitantFrontier.prep_phase_inhabited",
    "file": "lean/MCore/Real/P01MaterialInhabitantFrontier.lean",
    "line": 20,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty P01PrepPhase"
   },
@@ -2336,17 +2324,15 @@
    "name": "MCore.Real.P01NeedExprTagDecode.tagDecode_rejects_short_three",
    "file": "lean/MCore/Real/P01NeedExprTagDecode.lean",
    "line": 106,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
    "statement": "(witness bits frameStack : BitString) (consumed padding : Nat) (hshort : bits.length < 3) : (tagDecodeMachine.run 3 { state"
   },
   {
    "name": "MCore.Real.P01ParserFirewall.decode_none_iff_parser_not_accepts",
    "file": "lean/MCore/Real/P01ParserFirewall.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs : BitString) : decodeCircuit bs = none ↔ ¬ parserNTM.AcceptsWithin (parserTimeBound bs.length) (initialNTMConfig parserNTM bs)"
   },
@@ -2354,7 +2340,7 @@
    "name": "MCore.Real.P01ParserFirewall.parser_accepts_iff_decode_some",
    "file": "lean/MCore/Real/P01ParserFirewall.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs : BitString) : parserNTM.AcceptsWithin (parserTimeBound bs.length) (initialNTMConfig parserNTM bs) ↔ ∃ c : CircuitK1.Circuit, decodeCircuit bs = some c"
   },
@@ -2362,7 +2348,7 @@
    "name": "MCore.Real.P01ParserFirewall.parser_halts_all",
    "file": "lean/MCore/Real/P01ParserFirewall.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs : BitString) : parserNTM.HaltsWithin (parserTimeBound bs.length) (initialNTMConfig parserNTM bs)"
   },
@@ -2370,7 +2356,7 @@
    "name": "MCore.Real.P01RawVerifierFromCoreReject.decode_none_wrapper_reject",
    "file": "lean/MCore/Real/P01RawVerifierFromCoreReject.lean",
    "line": 197,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(K : CoreDecodeFailurePhysicalReject) (witness bs : BitString) (hw : witness.length = bs.length) (hdecode : decodeCircuit bs = none) : ∃ m ≤ terminalVerifierTimeBound bs.length, ∃ terminal : VConfig, terminal ∈ checkedVerifierMachine.runBranches m [{ state"
   },
@@ -2378,7 +2364,7 @@
    "name": "MCore.Real.P01RawVerifierFromCoreReject.decoded_noncnf_wrapper_reject",
    "file": "lean/MCore/Real/P01RawVerifierFromCoreReject.lean",
    "line": 222,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(witness bs : BitString) (hw : witness.length = bs.length) (phi : Circuit) (hdecode : decodeCircuit bs = some phi) (hnot : ¬ IsCNF phi) : ∃ m ≤ terminalVerifierTimeBound bs.length, ∃ terminal : VConfig, terminal ∈ checkedVerifierMachine.runBranches m [{ state"
   },
@@ -2402,7 +2388,7 @@
    "name": "MCore.Real.P01RawVerifierFromCoreReject.p01_of_core_decode_failure_physical_reject",
    "file": "lean/MCore/Real/P01RawVerifierFromCoreReject.lean",
    "line": 393,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(K : CoreDecodeFailurePhysicalReject) : P01FinalCertificate.P01ConstructionGap"
   },
@@ -2426,7 +2412,7 @@
    "name": "MCore.Real.P01RawVerifierMaterialCore.verifyBits_false_of_decode_none",
    "file": "lean/MCore/Real/P01RawVerifierMaterialCore.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs w : BitString) (h : CanonicalCircuitBits.decodeCircuit bs = none) : ¬ VerifyBits bs w"
   },
@@ -2434,7 +2420,7 @@
    "name": "MCore.Real.P01RawVerifierMaterialCore.verifyBits_split",
    "file": "lean/MCore/Real/P01RawVerifierMaterialCore.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs w : BitString) : VerifyBits bs w ↔ ∃ phi : CircuitK1.Circuit, CanonicalCircuitBits.decodeCircuit bs = some phi ∧ CircuitK1.IsCNF phi ∧ CircuitK1.evalCircuit (fun i => w.getD i false) phi = true"
   },
@@ -2442,7 +2428,7 @@
    "name": "MCore.Real.P01TerminalMaterialCertificate.material_terminal",
    "file": "lean/MCore/Real/P01TerminalMaterialCertificate.lean",
    "line": 33,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MaterialTerminal where coreReject"
   },
@@ -2450,7 +2436,7 @@
    "name": "MCore.Real.P01TerminalMaterialCertificate.p01_closed_no_hypothesis",
    "file": "lean/MCore/Real/P01TerminalMaterialCertificate.lean",
    "line": 15,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": P01ConstructionGap"
   },
@@ -2458,12 +2444,12 @@
    "name": "MCore.Real.P01TerminalMaterialCertificate.raw_verifier_material_core_inhabited",
    "file": "lean/MCore/Real/P01TerminalMaterialCertificate.lean",
    "line": 21,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty P01RawVerifierMaterialCore.RawVerifierMaterialCore"
   }
  ],
- "closed": 6,
+ "closed": 2,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "db486861aefca7da9a704a0d0863e617564f0e9cc20d300ec27c3fbd61e02763",
@@ -2512,7 +2498,6 @@
   "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
   "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
   "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
-  "lean/MCore/Real/P01DecodeCoreLaws.lean": "ee21a346b7e0f6a4000f3b5c3b039edc61d0da8987985bcb927b1c68bbb08ddc",
   "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
   "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
   "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
@@ -2550,6 +2535,6 @@
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:57Z",
- "certificate_sha256": "b07fb9e5a72cf57e079a652b5262add15be284aef924173b16495fdcf0bb9b52"
+ "published_at": "2026-11-02T20:55:38Z",
+ "certificate_sha256": "9687422cccd86c8d1017b4a4388cec4c2d9fcbe480722c0bfbc44556bac5ce69"
 }

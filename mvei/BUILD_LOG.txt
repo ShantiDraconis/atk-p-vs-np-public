@@ -1,11 +1,13 @@
-MVEI — log consolidado da verificação (2026-10-29T18:57:14+00:00)
+MVEI — log consolidado da verificação (2026-10-30T16:50:26+00:00)
 Os logs completos de cada compilação no GitHub ficam na página da execução do workflow (Actions).
 
-== m-core-p-vs-np/.  [leanprover/lean4:v4.19.0 -> leanprover/lean4:v4.19.0]  OK
-   teoremas: fechados 1141, condicionais 0, abertos 0; axiomas declarados 0
-   correções do MVEI: imports-no-topo
-   nota: CORRIGIDO PELO MVEI (imports-no-topo): imports movidos para o início (antes de comentários de módulo ou de documentação) em 6 arquivo(s).
+== m-core-p-vs-np/.  [leanprover/lean4:v4.19.0 -> leanprover/lean4:v4.19.0]  FALHOU
+   teoremas: fechados 1601, condicionais 0, abertos 0; axiomas declarados 0
+   correções do MVEI: imports-no-topo, vocabulario-lean4, z-provas-reparadas
+   nota: CORRIGIDO PELO MVEI (imports-no-topo, vocabulario-lean4, z-provas-reparadas): imports movidos para o início (antes de comentários de módulo ou de documentação) em 1 arquivo(s); trocas de grafia com o mesmo nome e o mesmo enunciado em 73 arquivo(s): imports_topo 108, lambda 2, noncomputable 73, palavra_chave 3; 5 prova(s) reescrita(s), conferidas no Lean do projeto: normalizeMultiplicity (def), normalize_positive_positive_full, normalizeMultiplicity (def), normalize_positive_positive_full, rewind_false_bits. RECONSTRUÍDO: a configuração original não compila; o MVEI gerou um lakefile com C11Regression, C12Gen, C13BidirectionalProbe, MCore e o Mathlib v4.19.0 e compilou o que foi possível (erros restantes: error: ./././lean/MCore/ATK_HARD_PNP_NEXT.lean:5:7: unknown identifier 'hard_PvsNP_SAT_operational_forward' | error: ./././lean/MCore/ATK_HARD_PNP_NEXT.lean:6:7: unknown identifier 'hard_PvsNP_SAT_not_in_P_backward')
 
 == m-core-p-vs-np/atk-kernel  [leanprover/lean4:v4.34.1 -> leanprover/lean4:v4.34.1]  OK
    teoremas: fechados 2, condicionais 0, abertos 0; axiomas declarados 0
+   correções do MVEI: vocabulario-lean4, z-provas-reparadas
+   nota: CORRIGIDO PELO MVEI (vocabulario-lean4, z-provas-reparadas): trocas de grafia com o mesmo nome e o mesmo enunciado em 73 arquivo(s): imports_topo 108, lambda 2, noncomputable 73, palavra_chave 3; 5 prova(s) reescrita(s), conferidas no Lean do projeto: normalizeMultiplicity (def), normalize_positive_positive_full, normalizeMultiplicity (def), normalize_positive_positive_full, rewind_false_bits.
 

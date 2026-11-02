@@ -1,0 +1,3064 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/p01-post-mincut-advance-20261001",
+ "branch_state": "parada",
+ "head_commit": "16a171efed5b2f9e695d3ed4e08c97be9a00abd6",
+ "head_commit_date": "2026-10-01T20:24:31+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "16a171efed5b2f9e695d3ed4e08c97be9a00abd6",
+   "date": "2026-10-01T20:24:31+02:00",
+   "subject": "fix(p02): normalize constant-clock prefix locality proof"
+  },
+  {
+   "commit": "2d1970220c42d09ba1cf3631e53071add02ca3d4",
+   "date": "2026-10-01T20:19:40+02:00",
+   "subject": "advance(p02): eliminate constant-clock finite descriptors"
+  },
+  {
+   "commit": "29c5c0536eda9f1490f45d868489649d0186caed",
+   "date": "2026-10-01T20:11:55+02:00",
+   "subject": "ci(p02): audit finite descriptor locality"
+  },
+  {
+   "commit": "de076189c6757396e7a6605414239812b3625c21",
+   "date": "2026-10-01T20:11:39+02:00",
+   "subject": "advance(p02): prove concrete bounded-window TM locality"
+  },
+  {
+   "commit": "20e23e590d7a213f3cf08ac7e4c7da904f5e3029",
+   "date": "2026-10-01T19:35:44+02:00",
+   "subject": "fix(p02): qualify canonical constant orbit seeds"
+  },
+  {
+   "commit": "b06c4721b51ce5a889a095d511fd6e064269b75c",
+   "date": "2026-10-01T19:35:28+02:00",
+   "subject": "fix(p02): open canonical constant-pattern namespace"
+  },
+  {
+   "commit": "591696bf9724ccadc89b0a0cd3193218fee2dceb",
+   "date": "2026-10-01T19:35:15+02:00",
+   "subject": "ci(p02): audit current infinite-orbit laws"
+  },
+  {
+   "commit": "6e1fa53bf73191c1bbd7a1f8a6e5f0242eb9d19d",
+   "date": "2026-10-01T19:33:19+02:00",
+   "subject": "advance(p02): derive local orbit failure-or-flip law"
+  },
+  {
+   "commit": "6bdcd94bd1330b61b405be1083d7def065f80e46",
+   "date": "2026-10-01T19:32:48+02:00",
+   "subject": "advance(p02): add unconditional diagonal orbit invariants"
+  },
+  {
+   "commit": "e074c634f6ba563219f0a63882fa3f147a333978",
+   "date": "2026-10-01T19:31:58+02:00",
+   "subject": "fix(p02): make infinite orbit laws dependency-free"
+  },
+  {
+   "commit": "64e7c0d24a8d03a0cc90320864039afdf632ee9b",
+   "date": "2026-10-01T19:26:07+02:00",
+   "subject": "fix(p02): prove tableau growth from per-cell lower bound"
+  },
+  {
+   "commit": "9709340c3c57a4b91beef99ad9a6c65361366a88",
+   "date": "2026-10-01T19:20:21+02:00",
+   "subject": "fix(p02): make range-sum induction version-compatible"
+  },
+  {
+   "commit": "6866ddf97be3ff36da1655809c70aa46cd00d5e1",
+   "date": "2026-10-01T19:14:02+02:00",
+   "subject": "fix(p02): prove tableau right-block length by induction"
+  },
+  {
+   "commit": "1d314254d1780f9cc056829c1842a8ff5fbdccfe",
+   "date": "2026-10-01T19:09:03+02:00",
+   "subject": "fix(p02): resolve semantic acceptance namespace in alternation law"
+  },
+  {
+   "commit": "ba8b8b8d58b8735e873ee14ab681fc17600a64b8",
+   "date": "2026-10-01T19:08:48+02:00",
+   "subject": "fix(p02): reuse certified countermodel and structural length proof"
+  },
+  {
+   "commit": "504dbe08430a638c35a51d4afe988e6c2509e5ba",
+   "date": "2026-10-01T18:14:52+02:00",
+   "subject": "ci(p02): repair finite descriptor structural path trigger"
+  },
+  {
+   "commit": "81226057b48512eb3cbf6872b8808ca1d659f8cb",
+   "date": "2026-10-01T18:14:20+02:00",
+   "subject": "fix(p02): normalize zero-state Fin bounds numerically"
+  },
+  {
+   "commit": "83f0f96d8acabd68a0bb4050380c7d07642692d6",
+   "date": "2026-10-01T18:10:37+02:00",
+   "subject": "ci(p02): audit infinite alternating orbit frontier"
+  },
+  {
+   "commit": "06fc1878b8a3a6cd9ab9ee076a68a342936919ba",
+   "date": "2026-10-01T18:10:20+02:00",
+   "subject": "advance(p02): characterize residual descriptors by infinite alternating orbits"
+  },
+  {
+   "commit": "16c93cbaec939c4c41392c448249a9d6e23b5af4",
+   "date": "2026-10-01T18:08:17+02:00",
+   "subject": "fix(p02): close finite descriptor structural laws definitionally"
+  },
+  {
+   "commit": "90119870357beba6e00e69d1c5a90ecce0acba4d",
+   "date": "2026-10-01T18:01:25+02:00",
+   "subject": "fix(p02): remove unsupported contradiction tactics from descriptor laws"
+  },
+  {
+   "commit": "062f355eabd4fcdb1eeeccb22a6521ee876a80c7",
+   "date": "2026-10-01T17:52:10+02:00",
+   "subject": "ci(p02): audit finite descriptor structural exclusions"
+  },
+  {
+   "commit": "c790d74f01e89c6c4d32dacfb94f9877689a0017",
+   "date": "2026-10-01T17:51:56+02:00",
+   "subject": "advance(p02): eliminate degenerate finite descriptors"
+  },
+  {
+   "commit": "9325995e283863ffd73c30275a883d06761cd92c",
+   "date": "2026-10-01T17:50:33+02:00",
+   "subject": "ci(p02): include finite descriptor orbit residual"
+  },
+  {
+   "commit": "3f0dcafce8298e4a2b674d486cb96622730d59b1",
+   "date": "2026-10-01T17:45:40+02:00",
+   "subject": "ci(p02): include finite descriptor residual frontier"
+  },
+  {
+   "commit": "4085e08e96cee6fa26a2fa6203a030a48d66f51a",
+   "date": "2026-10-01T17:45:20+02:00",
+   "subject": "fix(p02): eliminate descriptor residual via semantic equivalence"
+  },
+  {
+   "commit": "6a889e9fcd1f52afd7557bfced236d26243c9b3a",
+   "date": "2026-10-01T17:08:15+02:00",
+   "subject": "ci(p02): audit residual alternation law"
+  },
+  {
+   "commit": "c634b0c773ff77b24e196f3c948c6280eced54a3",
+   "date": "2026-10-01T17:07:57+02:00",
+   "subject": "advance(p02): derive exact alternation law on residual diagonal orbits"
+  },
+  {
+   "commit": "f7d55b32b3903ea4d3e2bb7f79e6d1d87390cec8",
+   "date": "2026-10-01T17:07:03+02:00",
+   "subject": "ci(p02): audit finite descriptor orbit residual"
+  },
+  {
+   "commit": "9e1cf9b5c0eb8779a9d7ddeebfa8b5e435d2d00f",
+   "date": "2026-10-01T17:06:50+02:00",
+   "subject": "advance(p02): isolate finite descriptor diagonal-orbit residual"
+  },
+  {
+   "commit": "694c32d3201a99a18c3d672bb4fa9eb041b578d6",
+   "date": "2026-10-01T17:05:14+02:00",
+   "subject": "ci(p02): audit finite descriptor residual core"
+  },
+  {
+   "commit": "baf7b84bc9bdaf3ad160d6819c2db27fbf78323e",
+   "date": "2026-10-01T17:05:00+02:00",
+   "subject": "advance(p02): isolate finite total constant-correct residual"
+  },
+  {
+   "commit": "a79fad731bb1824c149e5add996d87df894d4e24",
+   "date": "2026-10-01T17:03:29+02:00",
+   "subject": "fix(p02): remove unavailable Mathlib root tactic import"
+  },
+  {
+   "commit": "cd80d3e8220c7bd21afaca8a444bd908b95c847a",
+   "date": "2026-10-01T16:49:27+02:00",
+   "subject": "fix(p02): normalize falsification imports and order lemmas"
+  },
+  {
+   "commit": "b37078882d0471dfae995532cd01a8eb2c5ea14b",
+   "date": "2026-10-01T16:11:12+02:00",
+   "subject": "fix(p02): transport same-input SAT proposition without recursive rewrite"
+  },
+  {
+   "commit": "ce528054c1abd2ce2809929157f5089ced9b99c5",
+   "date": "2026-10-01T16:09:25+02:00",
+   "subject": "ci(p02): cover full post-falsification frontier in firewall"
+  },
+  {
+   "commit": "ccefe11b489b3fc5a0a6d4f8401c896eca3605d8",
+   "date": "2026-10-01T16:08:00+02:00",
+   "subject": "ci(p02): audit route falsifications and repair frontier firewall"
+  },
+  {
+   "commit": "6eb8de0b4882066af060fb1c6a1a36970830e7a5",
+   "date": "2026-10-01T16:07:37+02:00",
+   "subject": "advance(p02): falsify semantic-alignment and literal same-input routes"
+  },
+  {
+   "commit": "13082d017e27c90b7383a9a8d6f6375f040ef7c9",
+   "date": "2026-10-01T16:04:26+02:00",
+   "subject": "fix(p02): close false-bit countermodel branch definitionally"
+  },
+  {
+   "commit": "8934fef9da665e7936fb0cf5636d508d1cd1ffa4",
+   "date": "2026-10-01T15:58:02+02:00",
+   "subject": "fix(p02): reuse certified semantic-flip equivalence in orbit core"
+  },
+  {
+   "commit": "e9452486ffca06b58eb3a70407a665ec77af42c7",
+   "date": "2026-10-01T15:52:06+02:00",
+   "subject": "ci(p02): audit finite descriptor reduction"
+  },
+  {
+   "commit": "ad7ccb022fc4f29040eca46f2402430ee3b331af",
+   "date": "2026-10-01T15:51:40+02:00",
+   "subject": "advance(p02): reduce universal failure to finite descriptors"
+  },
+  {
+   "commit": "3aecbae4d29a677091a1ef172b2eebf98c16db4f",
+   "date": "2026-10-01T15:50:03+02:00",
+   "subject": "fix(p02): normalize complement-tableau semantic transport"
+  },
+  {
+   "commit": "56860fea4dfae2f91389cae0b2577f05bcbb9c65",
+   "date": "2026-10-01T15:48:34+02:00",
+   "subject": "audit(p02): pin exact post-falsification open-math frontier"
+  },
+  {
+   "commit": "c1ece98b9cfebfa4b906ca093ac1648bab5213e6",
+   "date": "2026-10-01T15:48:18+02:00",
+   "subject": "ci(p02): normalize full universal-failure gate"
+  },
+  {
+   "commit": "094f75100d9e687eae9d411581c774dd272db77c",
+   "date": "2026-10-01T15:47:33+02:00",
+   "subject": "ci(p02): audit alignment countermodel and full frontier"
+  },
+  {
+   "commit": "a8251b54680ad646549b4467c266cfa81a1651d7",
+   "date": "2026-10-01T15:47:10+02:00",
+   "subject": "fix(p02): avoid hygiene keyword in countermodel comment"
+  },
+  {
+   "commit": "6e598e966a42ddd5629186efb711c14e8a9226b1",
+   "date": "2026-10-01T15:46:42+02:00",
+   "subject": "fix(p02): transport same-input semantic flip only on SAT side"
+  },
+  {
+   "commit": "afe77fc055782282c4a9a586683d33e62679c60f",
+   "date": "2026-10-01T15:45:54+02:00",
+   "subject": "ci(p02): audit diagonal orbit residual core"
+  },
+  {
+   "commit": "9d3af6be590f6988e6942500884d4516c3d5c159",
+   "date": "2026-10-01T15:45:40+02:00",
+   "subject": "advance(p02): falsify universal semantic alignment route"
+  },
+  {
+   "commit": "b95077ba6a044294017e4e9f1602a446785ec49a",
+   "date": "2026-10-01T15:45:36+02:00",
+   "subject": "advance(p02): reduce lower bound to diagonal-orbit residual core"
+  },
+  {
+   "commit": "987643875d33e3680b92e4be207dfc6c383806df",
+   "date": "2026-10-01T15:44:03+02:00",
+   "subject": "fix(p02): avoid hygiene false positive in comment"
+  },
+  {
+   "commit": "503e9ec802b9599473c78ecad969214c1b677c11",
+   "date": "2026-10-01T15:42:32+02:00",
+   "subject": "fix(p02): repair universal-failure workflow paths and firewall"
+  },
+  {
+   "commit": "c7968d110a1352abbafc4114a0232a80b96e4092",
+   "date": "2026-10-01T15:42:05+02:00",
+   "subject": "ci(p02): audit constant-pattern semantic reduction"
+  },
+  {
+   "commit": "32361f934a70bd3b78bae19a13841ad645c3b9a4",
+   "date": "2026-10-01T15:41:46+02:00",
+   "subject": "advance(p02): reduce semantic core to constant-correct candidates"
+  },
+  {
+   "commit": "6a3584ad343c55889e83379d3175d11bb3514760",
+   "date": "2026-10-01T15:41:24+02:00",
+   "subject": "ci(p02): audit complement-tableau diagonal operator"
+  },
+  {
+   "commit": "6ab0b3fc9acdf23cce4dbb10ada38ee026c64bfc",
+   "date": "2026-10-01T15:41:22+02:00",
+   "subject": "ci(p02): audit anti-tableau operator"
+  },
+  {
+   "commit": "ba869524bc8052d9a9b7bca2dd8cd5fb742ece4b",
+   "date": "2026-10-01T15:41:06+02:00",
+   "subject": "advance(p02): build complement-tableau diagonal operator"
+  },
+  {
+   "commit": "d8a6286fefb0ab24876c071dbfe51f1edc3d7f6a",
+   "date": "2026-10-01T15:40:59+02:00",
+   "subject": "advance(p02): construct anti-tableau semantic flip operator"
+  },
+  {
+   "commit": "580b0134ad11627c6845849e4f13319a2f4c0183",
+   "date": "2026-10-01T15:40:26+02:00",
+   "subject": "ci(p02): audit Cook-Levin same-input core"
+  },
+  {
+   "commit": "7b4e6ac3f467fcfc9aaa394cf6c84c2135fea4df",
+   "date": "2026-10-01T15:40:11+02:00",
+   "subject": "advance(p02): close Cook-Levin bridge and isolate same-input core"
+  },
+  {
+   "commit": "1594b929fd9357acd0520c569b73ab589944b0d5",
+   "date": "2026-10-01T15:38:42+02:00",
+   "subject": "fix(p02): eliminate empty membership in guarded copy clauses"
+  },
+  {
+   "commit": "d27ccdc8bceb511b0f77c2c2f775d406f4093c68",
+   "date": "2026-10-01T15:38:39+02:00",
+   "subject": "fix(p02): normalize guarded copy membership"
+  },
+  {
+   "commit": "c0487b52d998ff7c04fa3de28965dcfa9ed8db7a",
+   "date": "2026-10-01T15:38:26+02:00",
+   "subject": "fix(p02): close guarded copy-symbol membership"
+  },
+  {
+   "commit": "04ea9aa8df7ad1502faac67dc8c1408f2b19609f",
+   "date": "2026-10-01T15:37:36+02:00",
+   "subject": "fix(p02): normalize tableau completion membership and append proofs"
+  },
+  {
+   "commit": "a2e58404d1a18785fb549e9616fb6bbb1418e974",
+   "date": "2026-10-01T15:37:31+02:00",
+   "subject": "fix(p02): normalize tableau membership and append associativity"
+  },
+  {
+   "commit": "883b4ee325dd046c8d56e49ad5d264f7b2ff8c3f",
+   "date": "2026-10-01T15:37:25+02:00",
+   "subject": "fix(p02): close tableau completeness membership and association"
+  },
+  {
+   "commit": "c6707ca2baeabb56e03c2eec25c3ad7836304161",
+   "date": "2026-10-01T15:37:05+02:00",
+   "subject": "fix(p02): prove inactive tableau cases by guard-prefix algebra"
+  },
+  {
+   "commit": "c6b9996d0679847041d90a5a0c7519427b11cb90",
+   "date": "2026-10-01T15:35:50+02:00",
+   "subject": "fix(p02): close final inactive tableau association errors"
+  },
+  {
+   "commit": "0e93f85bfc220317f1e7d48f194e3745fa1545a9",
+   "date": "2026-10-01T15:35:44+02:00",
+   "subject": "fix(p02): normalize tableau append association and empty branch"
+  },
+  {
+   "commit": "463e1780324e9f6485099013bf2c057f655e04a1",
+   "date": "2026-10-01T15:34:13+02:00",
+   "subject": "fix(p02): prove inactive tableau cases compositionally"
+  },
+  {
+   "commit": "2c9b58e8143fe4db1f3753597b7fa54052e5eec5",
+   "date": "2026-10-01T15:32:41+02:00",
+   "subject": "fix(p02): prove inactive tableau clauses via guarded CNF algebra"
+  },
+  {
+   "commit": "87e703339f35b8815adf1482f88f6ed850818ea1",
+   "date": "2026-10-01T15:32:04+02:00",
+   "subject": "fix(p02): remove unavailable Mathlib tactic dependency"
+  },
+  {
+   "commit": "d1c22869c12b7b10d45614eb4b5a06891f608d95",
+   "date": "2026-10-01T15:30:49+02:00",
+   "subject": "fix(p02): prove tableau guards compositionally"
+  },
+  {
+   "commit": "8e5e3db44895cd9e229d6803a6bcdb7b91c1a58a",
+   "date": "2026-10-01T15:30:22+02:00",
+   "subject": "fix(p02): enable aesop for guarded tableau normalization"
+  },
+  {
+   "commit": "897b20fcf126482c6bfe990d94ab1403cd8f9157",
+   "date": "2026-10-01T15:29:30+02:00",
+   "subject": "fix(p02): restore certified tableau active proof"
+  },
+  {
+   "commit": "b91042c13e8a05af5d730e24dce23e6d862fdfa0",
+   "date": "2026-10-01T15:28:32+02:00",
+   "subject": "fix(p02): normalize guarded tableau clause membership"
+  },
+  {
+   "commit": "a5c5a119dd5d51605b2d65d1cabea56c913961b8",
+   "date": "2026-10-01T15:27:26+02:00",
+   "subject": "ci(p02): use repository Lean action for bounded recovery"
+  },
+  {
+   "commit": "f9a00431dd5d52cc3a57eac78bc2858962f46a7c",
+   "date": "2026-10-01T15:25:42+02:00",
+   "subject": "ci(p02): audit semantic transformer alignment core"
+  },
+  {
+   "commit": "9824ddc8e4968107dd0d2afe3e94e40c6b4cfac9",
+   "date": "2026-10-01T15:25:27+02:00",
+   "subject": "fix(p02): simplify semantic alignment reduction"
+  },
+  {
+   "commit": "fd645b3e1166004ccf689e791d8e381b2c33f49f",
+   "date": "2026-10-01T15:25:06+02:00",
+   "subject": "advance(p02): isolate semantic output-alignment core"
+  },
+  {
+   "commit": "bab0152e1e3cac3d980f558b948e59c2d4d8750f",
+   "date": "2026-10-01T15:24:36+02:00",
+   "subject": "ci(p02): harden bounded-exec elan install retries"
+  },
+  {
+   "commit": "164b41a87915895873ebebd7f1242a3e02eb9059",
+   "date": "2026-10-01T15:23:29+02:00",
+   "subject": "advance(p02): recover bounded execution and tableau closure"
+  },
+  {
+   "commit": "4bf2c6885c088392e0d19c7f464df07ab285305e",
+   "date": "2026-10-01T15:22:33+02:00",
+   "subject": "ci(p02): audit semantic flip core"
+  },
+  {
+   "commit": "b6b265e928b74c73f77f1b90419faec0f1dc82ca",
+   "date": "2026-10-01T15:22:20+02:00",
+   "subject": "advance(p02): reduce total semantic core to exact SAT flip law"
+  },
+  {
+   "commit": "58b1f5fde010128072552833df67834ad3acfce9",
+   "date": "2026-10-01T15:20:35+02:00",
+   "subject": "fix(p02): extract polynomial clock witness noncomputably"
+  },
+  {
+   "commit": "e4e7dcd311e845aabdcd0cdb49ffbd078510a75c",
+   "date": "2026-10-01T15:20:31+02:00",
+   "subject": "fix(p02): extract polynomial clock by classical choice"
+  },
+  {
+   "commit": "d6ffc6e910463fd4e98522bf4fdd2cf96360c760",
+   "date": "2026-10-01T15:20:03+02:00",
+   "subject": "fix(p02): extract polynomial clock witnesses with classical choice"
+  },
+  {
+   "commit": "ca4568b57ec771135f4215a93e203790703e85e8",
+   "date": "2026-10-01T15:18:24+02:00",
+   "subject": "advance(p02): exact reduction to total-candidate semantic core"
+  },
+  {
+   "commit": "4ea5e501964770a5a2b731ff8dc57d14f072faf9",
+   "date": "2026-10-01T15:17:13+02:00",
+   "subject": "fix(p02): isolate incompatible historical Kleene dependency"
+  },
+  {
+   "commit": "6846adfd27120252d67879dbd7f8fbb290759968",
+   "date": "2026-10-01T15:12:57+02:00",
+   "subject": "ci(p02): audit total-candidate Kleene reduction"
+  },
+  {
+   "commit": "b51da23a97746edc7ed8add814fb4ac1103ec23e",
+   "date": "2026-10-01T15:11:45+02:00",
+   "subject": "advance(p02): reduce Kleene obligation to clock-total candidates"
+  },
+  {
+   "commit": "3dab2217d58175cb1bf08ec2262f872a5b796c57",
+   "date": "2026-10-01T15:10:42+02:00",
+   "subject": "ci(p02): recheck corrected clock and Kleene bridge"
+  },
+  {
+   "commit": "5760099efd076a1aa6250efb212c1ce853cb5cb4",
+   "date": "2026-10-01T15:09:40+02:00",
+   "subject": "fix(p02): materialize polynomial clock witness via classical choice"
+  },
+  {
+   "commit": "76d9118543fde0c54fa1307abadffd89b6db7a9c",
+   "date": "2026-10-01T15:08:58+02:00",
+   "subject": "ci(p02): audit clock normal form and Kleene bridge"
+  },
+  {
+   "commit": "20305768d63c6d37d5c2e12175f6818cb3b51d91",
+   "date": "2026-10-01T15:08:43+02:00",
+   "subject": "fix(p02): extract polynomial clock witnesses via classical choice"
+  },
+  {
+   "commit": "99d7a37bfd8826936a031fe5d4a2abbbe4468418",
+   "date": "2026-10-01T15:08:21+02:00",
+   "subject": "advance(p02): port Kleene self-reference bridge to canonical failure producer"
+  },
+  {
+   "commit": "508791a65fb571078836a9f8fbbc1b34c8f63776",
+   "date": "2026-10-01T15:06:02+02:00",
+   "subject": "fix(p02): mark extracted polynomial envelope noncomputable"
+  },
+  {
+   "commit": "a665f2c595ea3ac1ff3bf13dfa3a9682e52d2a87",
+   "date": "2026-10-01T15:02:55+02:00",
+   "subject": "ci(p02): audit explicit polynomial clock normal form"
+  },
+  {
+   "commit": "8221d37a899da89c2c44a97d656944ea23df7386",
+   "date": "2026-10-01T15:02:42+02:00",
+   "subject": "advance(p02): normalize polynomial clocks for universal failure"
+  },
+  {
+   "commit": "228be4c774b77aed71524897878b2bd851262439",
+   "date": "2026-10-01T15:02:12+02:00",
+   "subject": "advance(p02): normalize universal failure into timeout false-positive false-negative"
+  },
+  {
+   "commit": "b3546285754fcafa39195a72e1aa3800eb24555f",
+   "date": "2026-10-01T14:47:34+02:00",
+   "subject": "ci(p02): add universal failure min-cut gate"
+  },
+  {
+   "commit": "d088f107ec12e64222efa6f98fc2e6a79a3915a0",
+   "date": "2026-10-01T14:47:15+02:00",
+   "subject": "advance(p02): expose exact universal failure min-cut"
+  },
+  {
+   "commit": "d31cb3915c246995d2fe8bc300c2101f2f1cb001",
+   "date": "2026-10-01T14:41:05+02:00",
+   "subject": "advance(p01): collapse post-mincut residual to canonical universal failure"
+  },
+  {
+   "commit": "720596c0bd3900b5de25eab57b7b979d2a6aaf68",
+   "date": "2026-10-01T14:31:07+02:00",
+   "subject": "fix(p01): align totalization namespaces and halted proof"
+  },
+  {
+   "commit": "851233b2518be3a72c5c5095b174a9d4e952278e",
+   "date": "2026-10-01T14:25:22+02:00",
+   "subject": "fix(p01): align totalization with raw decoder sound theorem"
+  },
+  {
+   "commit": "4296777b955867ea8182f1ad6552e110c3b38cd2",
+   "date": "2026-10-01T14:25:19+02:00",
+   "subject": "fix(p01): close decode induction namespace and invalid-tag obligations"
+  },
+  {
+   "commit": "158b119072abba63d9d9d0d116eeb35383f6895a",
+   "date": "2026-10-01T14:14:38+02:00",
+   "subject": "fix(p01): preserve layout equality across binary right branches"
+  },
+  {
+   "commit": "3a21eae3fa04adb8b4ee5f6a480b6c25697af395",
+   "date": "2026-10-01T14:07:40+02:00",
+   "subject": "fix(p01): normalize binary right-branch layout arithmetic"
+  },
+  {
+   "commit": "f53545f4ae8bfcf1b7de45819398b8738874bb32",
+   "date": "2026-10-01T13:37:23+02:00",
+   "subject": "fix(p01): construct binary right-layout bounds explicitly"
+  },
+  {
+   "commit": "a9344ce4153eea664956d399be0a4722254174d6",
+   "date": "2026-10-01T13:31:41+02:00",
+   "subject": "fix(p01): stabilize witness assignment dependency"
+  },
+  {
+   "commit": "34780d991b905ab0e3a2b32e01a3fd35caa22e31",
+   "date": "2026-10-01T13:31:38+02:00",
+   "subject": "fix(p01): stabilize witness assignment dependency"
+  },
+  {
+   "commit": "cc640d98669c0c79c5710f4ce7ed8e83cec9544c",
+   "date": "2026-10-01T13:31:34+02:00",
+   "subject": "fix(p01): stabilize witness assignment dependency"
+  },
+  {
+   "commit": "ef509d0d65d3212713943b4d2e07f70f4338dea6",
+   "date": "2026-10-01T13:29:35+02:00",
+   "subject": "fix(p01): align recursive step layouts and witness domains"
+  },
+  {
+   "commit": "42ead6dd05dc53b8bc61d36acdbc8b43346f8ba0",
+   "date": "2026-10-01T13:23:11+02:00",
+   "subject": "fix(p01): stabilize recursive binary failure steps"
+  },
+  {
+   "commit": "046bb0d9ee8850ce36903a90aa47cb71dffa2304",
+   "date": "2026-10-01T13:14:52+02:00",
+   "subject": "fix(p01): qualify witness assignment in raw totalization"
+  },
+  {
+   "commit": "e96e027b4df579331019671673c010ec0b00ba16",
+   "date": "2026-10-01T13:14:27+02:00",
+   "subject": "fix(p01): eliminate phantom witness assignment and normalize recursive modes"
+  },
+  {
+   "commit": "54fab575f584bd50909577810ca50769077536ae",
+   "date": "2026-10-01T13:03:00+02:00",
+   "subject": "fix(p01): make terminal build namespace dependencies explicit"
+  },
+  {
+   "commit": "de5dedd9e59eb4a64b0fa3dc6fa9c4306fba7f66",
+   "date": "2026-10-01T13:02:56+02:00",
+   "subject": "fix(p01): make terminal build namespace dependencies explicit"
+  },
+  {
+   "commit": "f35d05cc96ca6644c710c3364d8b1b2c511cf415",
+   "date": "2026-10-01T13:02:23+02:00",
+   "subject": "fix(p01): close eval sink namespaces and exact unary rewrite"
+  },
+  {
+   "commit": "1aef0099879fec174296c038f88d254e3b4c2c12",
+   "date": "2026-10-01T12:53:24+02:00",
+   "subject": "fix(p01): qualify terminal halt predicates across final raw modules"
+  },
+  {
+   "commit": "64dcab9a0b25922c9f8c57ac0a42ba99e1d4e040",
+   "date": "2026-10-01T12:52:39+02:00",
+   "subject": "fix(p01): harden raw base exact terminal and unary proofs"
+  },
+  {
+   "commit": "38af74c67ddc4e3796adf8cf8d22b6a862d45485",
+   "date": "2026-10-01T12:44:26+02:00",
+   "subject": "fix(p01): harden raw base exact terminal and unary proofs"
+  },
+  {
+   "commit": "67e8e3c324255235f1add44092960b9d655c0c12",
+   "date": "2026-10-01T12:29:07+02:00",
+   "subject": "fix(p01): qualify deterministic helpers in raw totalization terminal"
+  },
+  {
+   "commit": "881e9559fb56a76d865943895fb45977c7f3b61e",
+   "date": "2026-10-01T12:28:36+02:00",
+   "subject": "fix(p01): eliminate unavailable arithmetic alias from raw budget proof"
+  },
+  {
+   "commit": "1321fdd48789b7cebdefda4ed8279e40c4cd5fda",
+   "date": "2026-10-01T12:14:02+02:00",
+   "subject": "fix(p01): normalize final recursive budget identity explicitly"
+  },
+  {
+   "commit": "846962408b93a8e9355ded74edbc6bb45f277055",
+   "date": "2026-10-01T12:08:26+02:00",
+   "subject": "fix(p01): make recursive budget arithmetic explicit"
+  },
+  {
+   "commit": "99528e725a90ca06c9e1bc6bd80471b7967a88d9",
+   "date": "2026-10-01T12:02:30+02:00",
+   "subject": "fix(p01): qualify deterministic halting lift in prepared reject proofs"
+  },
+  {
+   "commit": "9523ecb6e096665ba14826e34fbc8c44c0a9eb1f",
+   "date": "2026-10-01T11:55:22+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "4e3db027bf5c999a35caf4c81bd6073d7fc3c599",
+   "date": "2026-10-01T11:55:19+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "651d3919f1beebcc099a06e786fe7f501ae0fe96",
+   "date": "2026-10-01T11:55:16+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "19dd02fb110be54aee9820ce7f2b9e687495f0f8",
+   "date": "2026-10-01T11:55:13+02:00",
+   "subject": "fix(p01): make raw terminal namespace dependencies explicit"
+  },
+  {
+   "commit": "e57259ac5fe3b78fb917c57b8024685244c79ebb",
+   "date": "2026-10-01T11:54:08+02:00",
+   "subject": "fix(p01): replace broad contradiction in raw totalization"
+  },
+  {
+   "commit": "cf9d43fd79cc30b23a87d8e4ceaa52d1b2193fa0",
+   "date": "2026-10-01T11:54:05+02:00",
+   "subject": "fix(p01): remove impossible source split from invalid-tag exact proof"
+  },
+  {
+   "commit": "1db9811d649a07f36fa5fafc2eb6b5137b4b8ed7",
+   "date": "2026-10-01T11:52:33+02:00",
+   "subject": "fix(p01): stabilize residual reject tape proof and explicit namespaces"
+  },
+  {
+   "commit": "c1eb5a8f7075fd6140827bbcd80f37a8a622262b",
+   "date": "2026-10-01T11:42:30+02:00",
+   "subject": "fix(p01): factor raw decoder descent into stable structural lemmas"
+  },
+  {
+   "commit": "33aabfc1450959e81476b595ca15e05a2f1312e0",
+   "date": "2026-10-01T11:34:14+02:00",
+   "subject": "fix(p01): replace broad contradiction with direct nonempty elimination"
+  },
+  {
+   "commit": "fd5d5c65dcd327d2563f37b355395810a76c596e",
+   "date": "2026-10-01T11:34:11+02:00",
+   "subject": "fix(p01): replace broad contradiction with direct nonempty elimination"
+  },
+  {
+   "commit": "966b763ee37dbf52a3e4c8c12f1a4387d59b9109",
+   "date": "2026-10-01T11:33:03+02:00",
+   "subject": "fix(p01): close raw source split branches without stale equality or contradiction"
+  },
+  {
+   "commit": "04123dffd5b53e4c41a6951ab4cf7d010e679b74",
+   "date": "2026-10-01T10:11:05+02:00",
+   "subject": "fix(p01): replace recursive contradiction tactics with direct boolean elimination"
+  },
+  {
+   "commit": "0d6502f82eb976eb53b0d907a484dd0df12ab16e",
+   "date": "2026-10-01T09:52:02+02:00",
+   "subject": "fix(p01): avoid recursive simp in invalid canonical acceptance branch"
+  },
+  {
+   "commit": "86b9c0a5eed7b46aededeb674ca42a72c70a395a",
+   "date": "2026-10-01T09:46:08+02:00",
+   "subject": "fix(p01): preempt raw recursive budget ring and pow failures"
+  },
+  {
+   "commit": "f9db6d82128d86bc184371ef04f71a8384e16c01",
+   "date": "2026-10-01T09:45:01+02:00",
+   "subject": "fix(p01): reuse proven canonical terminal pattern and halting API"
+  },
+  {
+   "commit": "9f40f2b331cdbb957b3587033e503b72f9c25e31",
+   "date": "2026-10-01T09:36:50+02:00",
+   "subject": "fix(p01): align canonical run imports, powers and halting API"
+  },
+  {
+   "commit": "89d5413680111b77268e34fcddaf44ff37ee39a6",
+   "date": "2026-10-01T06:46:51+02:00",
+   "subject": "fix(p01): use repository-proven Nat.pow_succ normalization"
+  },
+  {
+   "commit": "dd90812d41f3dc241b32fe7b11bb1b3ca0731c31",
+   "date": "2026-10-01T06:40:15+02:00",
+   "subject": "fix(p01): close exact global cubic budget without ring"
+  },
+  {
+   "commit": "e57d39394ba8cb23ed435d9d3517605a6a5b0e58",
+   "date": "2026-10-01T06:35:46+02:00",
+   "subject": "fix(p01): remove duplicate proof and normalize reject or handoff"
+  },
+  {
+   "commit": "e14f204754eb0fade648dde69604d90c0f284ff3",
+   "date": "2026-10-01T06:32:27+02:00",
+   "subject": "fix(p01): factor reject budgets and normalize or child mode"
+  },
+  {
+   "commit": "a20b03eda38903d0139d3be74ef0945c39170210",
+   "date": "2026-10-01T06:26:39+02:00",
+   "subject": "fix(p01): align exact bounded reject with exact producer invariants"
+  },
+  {
+   "commit": "6867ca2c18590b87e61a8a71e4f4dd230ce9eb39",
+   "date": "2026-10-01T06:08:23+02:00",
+   "subject": "fix(p01): eliminate heartbeat loops in exact producer"
+  },
+  {
+   "commit": "504ee32f0950274fd92d9e4af260c3c3096b0951",
+   "date": "2026-10-01T06:02:50+02:00",
+   "subject": "fix(p01): make exact producer arithmetic normalization explicit"
+  },
+  {
+   "commit": "ffc332c28189a0ed56ca3ddffa691ae4aa299c2e",
+   "date": "2026-10-01T05:52:35+02:00",
+   "subject": "fix(p01): close exact producer layout and budget failure classes"
+  },
+  {
+   "commit": "7c6921396128178e94e641556523d7e0e51d1bd0",
+   "date": "2026-10-01T05:48:24+02:00",
+   "subject": "fix(p01): reconnect exact producer and normalize mode/layout wiring"
+  },
+  {
+   "commit": "b20a7d4123b2256b9a2cb069b7961e4dcf9ac3e2",
+   "date": "2026-10-01T05:48:10+02:00",
+   "subject": "fix(p01): expose exact bounded constant have-state producer"
+  },
+  {
+   "commit": "46c35a89dde9d1af01456a76dfdc870c4f0fe8e9",
+   "date": "2026-10-01T05:42:07+02:00",
+   "subject": "fix(p01): align exact producer with current const API and root mode"
+  },
+  {
+   "commit": "b56ab138d97287ca7c6863cdbf8fa9088fdf9d9f",
+   "date": "2026-10-01T05:31:21+02:00",
+   "subject": "fix(p01): close final verifier state bounds explicitly"
+  },
+  {
+   "commit": "a7937b581773ef390e68bfa787d4abb64ecc1cf7",
+   "date": "2026-10-01T05:27:00+02:00",
+   "subject": "fix(p01): expose checked-eval bound in verifier state codec"
+  },
+  {
+   "commit": "2c373743754d853de12958ad490f12fdf431c0d9",
+   "date": "2026-10-01T05:11:52+02:00",
+   "subject": "fix(p01): make checked-eval state bounds explicit"
+  },
+  {
+   "commit": "5e45d03c84676f73ed3b5e61660734e6c9c5244e",
+   "date": "2026-10-01T05:07:19+02:00",
+   "subject": "fix(p01): close composite decode guards explicitly"
+  },
+  {
+   "commit": "1510bc381869ffe00e587c10139b506820897693",
+   "date": "2026-10-01T04:37:46+02:00",
+   "subject": "fix(p01): stabilize composite codec arithmetic proofs"
+  },
+  {
+   "commit": "25eaf4e8f157eaf5c2aeeb661bcd49b8d69e86ee",
+   "date": "2026-10-01T04:32:20+02:00",
+   "subject": "fix(p01): place composite codec option after imports"
+  },
+  {
+   "commit": "133de385e9cd3012884ee17c3c28494616411cbd",
+   "date": "2026-10-01T04:28:10+02:00",
+   "subject": "fix(p01): prove all return codec interval guards explicitly"
+  },
+  {
+   "commit": "f06065ab7555e202fdc106ada5cbfbb46e9851ad",
+   "date": "2026-10-01T04:25:38+02:00",
+   "subject": "fix(p01): scope composite codec recursion depth at file level"
+  },
+  {
+   "commit": "a4eb907c741f6a06477d26ce19c9425273532d8f",
+   "date": "2026-10-01T04:25:28+02:00",
+   "subject": "fix(p01): normalize composite state codecs and reserved constructor"
+  },
+  {
+   "commit": "d0116056e092d8e4e7add461a792d2f8aed4f502",
+   "date": "2026-10-01T04:19:51+02:00",
+   "subject": "fix(p01): fully enumerate nested return-mode codec cases"
+  },
+  {
+   "commit": "bfd876ae92263efd09e2849b927f432fb3cf4b1e",
+   "date": "2026-10-01T04:16:04+02:00",
+   "subject": "fix(p01): raise recursion depth for finite codec normalization"
+  },
+  {
+   "commit": "15bd8e8b8e38e77797d16848628f97419466c74b",
+   "date": "2026-10-01T04:12:54+02:00",
+   "subject": "fix(p01): make return-state codec proof fully finite"
+  },
+  {
+   "commit": "6bf10a17c629f22820e87d2eaeb40cdc7954527c",
+   "date": "2026-10-01T04:07:11+02:00",
+   "subject": "fix(p01): close all manual input codec interval cases"
+  },
+  {
+   "commit": "7c67f30b87a2a75d89c75d84fc0dbd218e834fe4",
+   "date": "2026-10-01T04:02:14+02:00",
+   "subject": "fix(p01): make input reader codec bounds explicit"
+  },
+  {
+   "commit": "c4791f395e526ddead08fbc298394b7ad73aa7b1",
+   "date": "2026-10-01T03:58:43+02:00",
+   "subject": "ci(p01): rerun terminal min-cut after state-codec fix"
+  },
+  {
+   "commit": "5866dbefc58db33a1bd04cd45924a99444e113b5",
+   "date": "2026-10-01T01:51:19+02:00",
+   "subject": "fix(p01): make verifier state codec proofs constructor-explicit"
+  },
+  {
+   "commit": "fce084db2732093eba3de30686f2e835c26ec313",
+   "date": "2026-10-01T01:50:08+02:00",
+   "subject": "ci(p01): gate final raw totalization producer"
+  },
+  {
+   "commit": "5ef98cdf6551836f656291254eb5486c1d2107a2",
+   "date": "2026-10-01T01:48:16+02:00",
+   "subject": "atk(p01): construct raw totalization producer and close mechanical P01"
+  },
+  {
+   "commit": "0f09a3f08af112a033bf09adc8b3c378f16c9744",
+   "date": "2026-10-01T01:46:39+02:00",
+   "subject": "atk(p01): lift recursive decoder failure sinks to quartic verifier closure"
+  },
+  {
+   "commit": "74c78cee6e5ebf04236e7d586debaab390b03977",
+   "date": "2026-10-01T01:46:25+02:00",
+   "subject": "ci(p01): kernel-audit raw decoder fuel induction"
+  },
+  {
+   "commit": "1b801d24673c9cbfb8f88b559568863a09978b8b",
+   "date": "2026-10-01T01:46:10+02:00",
+   "subject": "atk(p01): prove physical raw decode failure by fuel induction"
+  },
+  {
+   "commit": "10e09673c376672714055c22877c790e471799fa",
+   "date": "2026-10-01T01:46:07+02:00",
+   "subject": "atk(p01): close recursive decoder failures by strict sink induction"
+  },
+  {
+   "commit": "12f47f6d17e87c91e03cbdc1dcafb0c985b9b5ee",
+   "date": "2026-10-01T01:44:33+02:00",
+   "subject": "ci(p01): kernel-audit recursive malformed-source propagation"
+  },
+  {
+   "commit": "ebdd898381a7bf377aa0c517422b57d356f20702",
+   "date": "2026-10-01T01:44:13+02:00",
+   "subject": "atk(p01): formalize recursive malformed-source physical propagation"
+  },
+  {
+   "commit": "40b91dee842cf7c7862865733c7c46739c8b1726",
+   "date": "2026-10-01T01:42:34+02:00",
+   "subject": "atk(p01): use one quartic polynomial bound for raw totalization"
+  },
+  {
+   "commit": "5cef6c542b22fce6352521b73373c6c95ef4f0ae",
+   "date": "2026-10-01T01:42:10+02:00",
+   "subject": "atk(p01): lift canonical verifier semantics to quartic raw budget"
+  },
+  {
+   "commit": "3f70ff9dfd8e1b9736c304a1a43fc362a90db3bc",
+   "date": "2026-10-01T01:41:38+02:00",
+   "subject": "ci(p01): audit reusable raw evaluator sinks"
+  },
+  {
+   "commit": "6fd9609f1a26a93155b8baf290f7cb79a250db3b",
+   "date": "2026-10-01T01:41:26+02:00",
+   "subject": "atk(p01): formalize reusable raw evaluator failure sinks"
+  },
+  {
+   "commit": "245ca9d0ebeac6d8c85265273d8783aa35e52bbb",
+   "date": "2026-10-01T01:40:45+02:00",
+   "subject": "atk(p01): bound unary local work by one raw chunk"
+  },
+  {
+   "commit": "6d0de82ee7e912732302a3a98129c4fd7b742487",
+   "date": "2026-10-01T01:40:17+02:00",
+   "subject": "atk(p01): add scanner-plus-dead-step raw budget lemma"
+  },
+  {
+   "commit": "86df61b23f1c824c4388991ead79393739d985ce",
+   "date": "2026-10-01T01:40:10+02:00",
+   "subject": "ci(p01): audit prepared local raw rejection closure"
+  },
+  {
+   "commit": "4c546f5168745daa9efae16d5efb19e4bbdb83fa",
+   "date": "2026-10-01T01:39:46+02:00",
+   "subject": "atk(p01): close local raw reject classes in prepared verifier"
+  },
+  {
+   "commit": "693d9219b548d437e3919bc481c97122ea70069c",
+   "date": "2026-10-01T01:38:34+02:00",
+   "subject": "ci(p01): audit quartic raw recursion budget"
+  },
+  {
+   "commit": "72940a6a7bef701b316b894846168f21988f7c75",
+   "date": "2026-10-01T01:38:21+02:00",
+   "subject": "atk(p01): add quartic recursive raw-failure budget"
+  },
+  {
+   "commit": "643e8af6d134c30118feb6ded45f4c339370ec0b",
+   "date": "2026-10-01T01:37:57+02:00",
+   "subject": "atk(p01): lift evaluator reject to verifier fail-closed"
+  },
+  {
+   "commit": "ce55b51a8ce9a63dc6315ed4e16686378b90b43d",
+   "date": "2026-10-01T01:36:25+02:00",
+   "subject": "ci(p01): audit exhaustive raw failure shape and strict descent"
+  },
+  {
+   "commit": "e544ba706e42d2e31a42e20931cbfe5d824524ba",
+   "date": "2026-10-01T01:36:11+02:00",
+   "subject": "atk(p01): prove strict descent of recursive raw decode failures"
+  },
+  {
+   "commit": "4800b35795c52d8616b68f177bda78eebcd41076",
+   "date": "2026-10-01T01:35:05+02:00",
+   "subject": "ci(p01): audit decoder source-reconstruction law"
+  },
+  {
+   "commit": "f7b6d96b6886fa56f335368a82e520b0b2f0d689",
+   "date": "2026-10-01T01:34:44+02:00",
+   "subject": "atk(p01): prove decoder-success source reconstruction"
+  },
+  {
+   "commit": "52be20760bf5ba2210972c2c0e88b53f21e776be",
+   "date": "2026-10-01T01:34:28+02:00",
+   "subject": "ci(p01): kernel-audit exact raw base cases"
+  },
+  {
+   "commit": "193a1d0b999634b4c69379babb687d5cddb922f4",
+   "date": "2026-10-01T01:34:08+02:00",
+   "subject": "atk(p01): close raw base failures at common exact global fuel"
+  },
+  {
+   "commit": "b47f5951c27e8aa30ffb15cd470cdede22defc5d",
+   "date": "2026-10-01T01:30:39+02:00",
+   "subject": "ci(p01): audit all recovered raw rejection components"
+  },
+  {
+   "commit": "a2674280543bece7508360357baec1adb5521483",
+   "date": "2026-10-01T01:30:35+02:00",
+   "subject": "restore(p01): transplant clean P01RawDecodeFailureShape.lean for raw min-cut"
+  },
+  {
+   "commit": "359f68e8eae3ab24d080c583c17ea703e9c4eaaa",
+   "date": "2026-10-01T01:30:24+02:00",
+   "subject": "restore(p01): transplant P01RawResidualReject.lean onto clean raw lane"
+  },
+  {
+   "commit": "29fc2d21c057984db8da0ef56c35216718cf50ef",
+   "date": "2026-10-01T01:30:17+02:00",
+   "subject": "restore(p01): transplant P01RawMalformedUnary.lean onto clean raw lane"
+  },
+  {
+   "commit": "01e3564b4c23329068bf757debab7cf9c3717330",
+   "date": "2026-10-01T01:30:12+02:00",
+   "subject": "restore(p01): transplant P01RawMalformedTag.lean onto clean raw lane"
+  },
+  {
+   "commit": "5201307047e697628d2b9836c5acbce3bb5313c2",
+   "date": "2026-10-01T01:30:06+02:00",
+   "subject": "restore(p01): transplant P01RawVerifierLift.lean onto clean raw lane"
+  },
+  {
+   "commit": "f39eb69addae560857320a6b64a154a35de30972",
+   "date": "2026-10-01T01:30:01+02:00",
+   "subject": "restore(p01): transplant P01RawDeadEnd.lean onto clean raw lane"
+  },
+  {
+   "commit": "c19484bf6591681f4f1cf2e1037ec8d48484d3ba",
+   "date": "2026-10-01T01:30:01+02:00",
+   "subject": "cleanup(p01): keep canonical raw totalization min-cut only"
+  },
+  {
+   "commit": "527f10d4f536633986700dabf9d27af5f3ff3628",
+   "date": "2026-10-01T01:29:56+02:00",
+   "subject": "restore(p01): transplant P01RawSourceSplit.lean onto clean raw lane"
+  },
+  {
+   "commit": "6106cbb6a1724512eeb808edeffa8a455e43fced",
+   "date": "2026-10-01T01:29:32+02:00",
+   "subject": "atk(p01): reduce global verifier core to raw decode-none fail-closed producer"
+  },
+  {
+   "commit": "e7691aedd2de0ae369e9291e7e0d9457dc68af09",
+   "date": "2026-10-01T01:27:54+02:00",
+   "subject": "ci(p01): kernel-audit raw-totalization min-cut"
+  },
+  {
+   "commit": "f25f362cd276992f501e2ad4f385dafd9c89ce68",
+   "date": "2026-10-01T01:27:36+02:00",
+   "subject": "atk(p01): reduce global verifier closure to raw decode-none fail-closed core"
+  },
+  {
+   "commit": "b9a0309e56796beb77eda83178ec28f5597bd6f8",
+   "date": "2026-10-01T01:25:31+02:00",
+   "subject": "ci(p01): validate transplanted exact bounded execution chain"
+  },
+  {
+   "commit": "14cee022edc1ff96bbf464679d7879515ad07a76",
+   "date": "2026-10-01T01:25:07+02:00",
+   "subject": "restore(p01): transplant P01ExactVerifierCanonicalRun.lean onto clean mincut"
+  },
+  {
+   "commit": "be1f386ae5dff671e8d1930063e13c223464aab7",
+   "date": "2026-10-01T01:25:03+02:00",
+   "subject": "restore(p01): transplant P01ExactVerifierGlobalBudget.lean onto clean mincut"
+  },
+  {
+   "commit": "073b7d8a4206cb2f49e59897799237df184e7403",
+   "date": "2026-10-01T01:25:00+02:00",
+   "subject": "restore(p01): transplant P01ExactBoundedReject.lean onto clean mincut"
+  },
+  {
+   "commit": "16d1ba251a4e097476e5c759661378d0e1d3dc6f",
+   "date": "2026-10-01T01:24:56+02:00",
+   "subject": "restore(p01): transplant P01ExactBoundedCircuitProducer.lean onto clean mincut"
+  },
+  {
+   "commit": "9e04e4de2d62ba014538960a63ef4a58f2ba3dca",
+   "date": "2026-10-01T01:24:01+02:00",
+   "subject": "ci(p01): point codec audit to canonical finite-state relabel"
+  },
+  {
+   "commit": "adef19fa72ceaa9198786b605c2d6f27e88e8e96",
+   "date": "2026-10-01T01:23:49+02:00",
+   "subject": "cleanup(p01): keep one canonical manual finite-state relabel"
+  },
+  {
+   "commit": "4aea9709ce36c67204542f26dc1f05ab028bd4e2",
+   "date": "2026-10-01T01:23:14+02:00",
+   "subject": "ci(p01): audit explicit manual state codec"
+  },
+  {
+   "commit": "93b6ffb71f4b3764a83e28e239e2b0bfbe04075e",
+   "date": "2026-10-01T01:23:07+02:00",
+   "subject": "ci(p01): audit fixed-machine global execution core"
+  },
+  {
+   "commit": "11919ac18fd92826d95abd1243f801327a2bb8a4",
+   "date": "2026-10-01T01:22:56+02:00",
+   "subject": "atk(p01): relabel checked verifier to explicit Fin control"
+  },
+  {
+   "commit": "d9ec808fba3961813fae8cdc3080be10a4bc4cc1",
+   "date": "2026-10-01T01:22:52+02:00",
+   "subject": "atk(p01): reduce verifier phase to fixed-machine global execution core"
+  },
+  {
+   "commit": "075b3b36684d0d41da81c92f5148217db73bc990",
+   "date": "2026-10-01T01:22:18+02:00",
+   "subject": "ci(p01): kernel-audit manual finite-state codec chain"
+  },
+  {
+   "commit": "fa318fc622ae077bf3971789f2da8aefe68eb25c",
+   "date": "2026-10-01T01:22:03+02:00",
+   "subject": "atk(p01): relabel checked verifier with manual finite-state codec"
+  },
+  {
+   "commit": "cfa08ad883fcf1d73c05314745dd37aa22efb9ba",
+   "date": "2026-10-01T01:20:57+02:00",
+   "subject": "atk(p01): lift manual codec through evaluator control"
+  },
+  {
+   "commit": "82c1cf9beaf03f592d656aff761c16f01728c987",
+   "date": "2026-10-01T01:20:02+02:00",
+   "subject": "atk(p01): add explicit reversible input-state codec"
+  },
+  {
+   "commit": "8834817bb57e0e67dd5b18a1e0b5592e80486a70",
+   "date": "2026-10-01T01:17:03+02:00",
+   "subject": "ci(p01): keep canonical verifier-phase min-cut only"
+  },
+  {
+   "commit": "ac3e36c0163f46b60b715cbc3d91bb4fd2caa482",
+   "date": "2026-10-01T01:16:44+02:00",
+   "subject": "cleanup(p01): remove noncanonical broken adapter P01CheckedVerifierGlobalCore.lean"
+  },
+  {
+   "commit": "dd7de89d03ca7075c483dd4b5e9fb5c7d272706c",
+   "date": "2026-10-01T01:16:42+02:00",
+   "subject": "cleanup(p01): remove noncanonical broken adapter P01CheckedVerifierFiniteState.lean"
+  },
+  {
+   "commit": "b170fff2efe279ea00829615ecf364e5303f4271",
+   "date": "2026-10-01T01:04:23+02:00",
+   "subject": "ci(p01): watch both min-cut source files correctly"
+  },
+  {
+   "commit": "935e84ff0cac2889f6f9f22008ceec6451754897",
+   "date": "2026-10-01T01:04:21+02:00",
+   "subject": "fix(p01): remove accidental Mathlib dependency from finite-state relabel"
+  },
+  {
+   "commit": "18a01b5fedf6a6828012bcfe4cb5a73d6b6f89fd",
+   "date": "2026-10-01T00:31:18+02:00",
+   "subject": "ci(p01): rerun min-cut after finite-state import repair"
+  },
+  {
+   "commit": "b18a944b954a05ed0a15bda8fe4045bdc8d33e1e",
+   "date": "2026-10-01T00:31:08+02:00",
+   "subject": "fix(p01): import Fintype support for clean finite-state relabelling"
+  },
+  {
+   "commit": "3f78f02702f1eb48152d7a899cfc6b9cf4839ff7",
+   "date": "2026-10-01T00:27:52+02:00",
+   "subject": "ci(p01): kernel-check fixed-machine global core"
+  },
+  {
+   "commit": "f54373c9e93e43b3c801c2bba14d21a4b4e3f949",
+   "date": "2026-10-01T00:27:49+02:00",
+   "subject": "atk(p01): reduce verifier phase to fixed-machine global core"
+  },
+  {
+   "commit": "efa06811fb03e24569254f55b714c67b42b29445",
+   "date": "2026-10-01T00:26:54+02:00",
+   "subject": "ci(p01): audit only exact mechanical min-cut theorem"
+  },
+  {
+   "commit": "c51a35617f6b94ed42d626c50e68ab08e7f6c393",
+   "date": "2026-10-01T00:26:50+02:00",
+   "subject": "fix(p01): keep exact verifier-phase to construction min-cut only"
+  },
+  {
+   "commit": "aac12ed9b7d4dcb48c7715e32b58499d6f02d039",
+   "date": "2026-10-01T00:23:15+02:00",
+   "subject": "ci(p01): clean-build verifier-phase min-cut"
+  },
+  {
+   "commit": "1868b0e21ae22574a0b486b5f90d39be4256e5ea",
+   "date": "2026-10-01T00:23:11+02:00",
+   "subject": "atk(p01): certify single verifier-phase mechanical min-cut"
+  },
+  {
+   "commit": "34b3cdcff9fb4953bde76901b7e18ff4c391c5ad",
+   "date": "2026-09-30T14:21:23+02:00",
+   "subject": "fix(p01): split boolean continuation frames in bounded input proof"
+  },
+  {
+   "commit": "b7f445e659d911cb83d9b3bc6ff4051598c918aa",
+   "date": "2026-09-30T12:34:06+02:00",
+   "subject": "fix(p01): normalize push-tag fuel associativity"
+  },
+  {
+   "commit": "d0cfa5a7d6379a63cbc1387ccfdbdda2b15e09e6",
+   "date": "2026-09-30T12:32:03+02:00",
+   "subject": "feat(p01): bound all checked continuation returns"
+  },
+  {
+   "commit": "0bd47add16f1f29f892ad6f9cfc01fe019cae704",
+   "date": "2026-09-30T12:29:31+02:00",
+   "subject": "ci(p01): isolate bounded terminal inhabitant path"
+  },
+  {
+   "commit": "95ddf85f36940f39663abe498b79e52ce9b446bc",
+   "date": "2026-09-30T12:29:19+02:00",
+   "subject": "feat(p01): carry direct canonical verifier proof onto bounded terminal lane"
+  },
+  {
+   "commit": "c3362f8034d8dbd1a2e5c77898a96eb2145dbd27",
+   "date": "2026-09-30T12:28:57+02:00",
+   "subject": "fix(p01): normalize bounded helper envelope bridge"
+  },
+  {
+   "commit": "e84b43992d7af4761c4e62b81374b3dc0cd78361",
+   "date": "2026-09-30T12:23:52+02:00",
+   "subject": "build(p01): kernel-check bounded circuit certificate"
+  },
+  {
+   "commit": "12a26bf647e6bbf31665a8fccc7da1b9700134a0",
+   "date": "2026-09-30T12:23:40+02:00",
+   "subject": "feat(p01): add canonical bounded checked circuit certificate"
+  },
+  {
+   "commit": "21106163bfeec13b4613f348da934682939e69a7",
+   "date": "2026-09-30T12:21:51+02:00",
+   "subject": "fix(p01): normalize bounded helper envelopes"
+  },
+  {
+   "commit": "469e205bbe4023c269f5bc1f6509c243a654794e",
+   "date": "2026-09-30T12:19:32+02:00",
+   "subject": "fix(p01): normalize bounded constant loop envelope"
+  },
+  {
+   "commit": "938fa76547489b3e1e2a82598d7b81939046de53",
+   "date": "2026-09-30T12:19:20+02:00",
+   "subject": "fix(p01): normalize checked constant envelope arithmetic"
+  },
+  {
+   "commit": "7fb716cff1bcc217103ddf2175ed945c812f88ba",
+   "date": "2026-09-30T12:19:17+02:00",
+   "subject": "fix(p01): use certified step-to-loop envelope bridge"
+  },
+  {
+   "commit": "ed523d207cec1d60cddb2f4b3a221609bff19b52",
+   "date": "2026-09-30T12:19:12+02:00",
+   "subject": "fix(p01): use 256 checked-loop envelope in bounded helpers"
+  },
+  {
+   "commit": "f3626ad12abd42b8fa145ed7cd56f1a7d0129ee6",
+   "date": "2026-09-30T12:18:14+02:00",
+   "subject": "fix(p01): normalize three-bit drop in bounded push helper"
+  },
+  {
+   "commit": "94ac851bcf8341a048f530eaad88b43267eccab0",
+   "date": "2026-09-30T12:17:24+02:00",
+   "subject": "fix(p01): align bounded input with tightened checked step envelope"
+  },
+  {
+   "commit": "725b006b219d74a66badc360fb4ee96e11d26343",
+   "date": "2026-09-30T12:16:52+02:00",
+   "subject": "build(p01): kernel-check bounded checked base cases"
+  },
+  {
+   "commit": "2ad3d8f58801a3e8e9a2a001f25d255fd69bb1d6",
+   "date": "2026-09-30T12:16:45+02:00",
+   "subject": "cert(p01): add sha256 for checked verifier green certificate"
+  },
+  {
+   "commit": "607f0dcd21ee1cd9fdde0570fac84918d9f1249b",
+   "date": "2026-09-30T12:16:38+02:00",
+   "subject": "feat(p01): bound checked constant route by loop envelope"
+  },
+  {
+   "commit": "3d8ce4527a520306b279a225af4e0a7bbe7edbb8",
+   "date": "2026-09-30T12:16:36+02:00",
+   "subject": "fix(p01): normalize bounded checked helper tag types"
+  },
+  {
+   "commit": "c4d560e626d7db46737a5dbbdfc72b79ed96740b",
+   "date": "2026-09-30T12:15:57+02:00",
+   "subject": "cert(p01): record checked verifier green state b137c0d6"
+  },
+  {
+   "commit": "84df9f30e489590e2ce352692245c59dc455fa31",
+   "date": "2026-09-30T12:15:14+02:00",
+   "subject": "build(p01): kernel-check bounded checked helpers"
+  },
+  {
+   "commit": "8788e67a9d014c5ea3b52b43c39dae24931a6f9a",
+   "date": "2026-09-30T12:15:05+02:00",
+   "subject": "feat(p01): add bounded helpers for checked evaluator"
+  },
+  {
+   "commit": "12e0ce3f96f7a9d09619c833bb5004eefb3b0f5d",
+   "date": "2026-09-30T12:14:55+02:00",
+   "subject": "build(p01): kernel-check bounded checked input route"
+  },
+  {
+   "commit": "f41cc83e0704fb29ca85de6da7f5700be88cff92",
+   "date": "2026-09-30T12:14:43+02:00",
+   "subject": "feat(p01): bound checked input route by loop envelope"
+  },
+  {
+   "commit": "c8187edab9c4e80cebb3576c2a457c1374028ad7",
+   "date": "2026-09-30T12:13:59+02:00",
+   "subject": "tighten(p01): fit checked input tag in common step envelope"
+  },
+  {
+   "commit": "f2031e167f202111bbaa51ea035f9d68cacd4f93",
+   "date": "2026-09-30T12:13:45+02:00",
+   "subject": "fix(p01): size global budget for checked input route"
+  },
+  {
+   "commit": "b137c0d674347d7f7302f77a6eb4c36d563af1b7",
+   "date": "2026-09-30T12:10:38+02:00",
+   "subject": "fix(p01): qualify canonical unary encoding in step envelope"
+  },
+  {
+   "commit": "26a0862e0eaff2a8ee8bfb2faf3ad1a84b3ba7af",
+   "date": "2026-09-30T12:08:44+02:00",
+   "subject": "fix(p01): prove checked layout invariant by explicit arithmetic"
+  },
+  {
+   "commit": "accfc83b84a1218d9562a375b8352db0578d2318",
+   "date": "2026-09-30T12:08:41+02:00",
+   "subject": "fix(p01): normalize uniform evalStep envelope proofs"
+  },
+  {
+   "commit": "abd930c32c4e3c1bc353715731f86b60e76d3fc8",
+   "date": "2026-09-30T12:07:50+02:00",
+   "subject": "fix(p01): normalize checked layout invariant arithmetic"
+  },
+  {
+   "commit": "49561288c58d326367e15232515151fdb9232179",
+   "date": "2026-09-30T12:06:27+02:00",
+   "subject": "fix(p01): prove global checked budget without ring tactic"
+  },
+  {
+   "commit": "e975eb3bd0aa4159e577d5381e0644bc24d6251b",
+   "date": "2026-09-30T12:05:54+02:00",
+   "subject": "build(p01): kernel-check uniform evalStep envelope"
+  },
+  {
+   "commit": "7db2c6b1c408fc3a07437837fffb7906a633f2e4",
+   "date": "2026-09-30T12:05:43+02:00",
+   "subject": "feat(p01): bound every physical evalStep branch by one envelope"
+  },
+  {
+   "commit": "89087e49dcbd512830be331f4d68392c2dd34e0c",
+   "date": "2026-09-30T12:04:04+02:00",
+   "subject": "build(p01): kernel-check checked verifier invariant"
+  },
+  {
+   "commit": "ab86eef0f041265b02f78e0a54861fe07b4f0c58",
+   "date": "2026-09-30T12:03:51+02:00",
+   "subject": "feat(p01): add checked verifier layout invariant"
+  },
+  {
+   "commit": "f1e4059253ca54ff17ba40305d0ae748deb1de8e",
+   "date": "2026-09-30T12:03:42+02:00",
+   "subject": "build(p01): kernel-check global checked-verifier budget"
+  },
+  {
+   "commit": "d2dce380e895417643216b27f5b79a6a514de22b",
+   "date": "2026-09-30T12:03:11+02:00",
+   "subject": "feat(p01): add global cubic checked-verifier budget"
+  },
+  {
+   "commit": "f482fdd1624b0492d8400b68bcb01e540c25df3e",
+   "date": "2026-09-30T12:01:28+02:00",
+   "subject": "fix(p01): bound checked push fuel from exact linear formula"
+  },
+  {
+   "commit": "d9a7b41c5728257f05119aee373323767d1bd5ab",
+   "date": "2026-09-30T12:01:00+02:00",
+   "subject": "feat(p01): bound checked evaluator local fuels"
+  },
+  {
+   "commit": "4ab2502326febb19576b700e143ce6f2cb64f5c0",
+   "date": "2026-09-30T11:58:20+02:00",
+   "subject": "fix(p01): combine input-tag budget from explicit prefix bound"
+  },
+  {
+   "commit": "66b9dbf978154691ebde710b5a9dbe49b8eccd32",
+   "date": "2026-09-30T11:56:53+02:00",
+   "subject": "fix(p01): prove runtime envelopes without nlinarith"
+  },
+  {
+   "commit": "a54caf16abde2a2a69f121caffc59199cabf69b6",
+   "date": "2026-09-30T11:55:33+02:00",
+   "subject": "fix(p01): correct consumed bounds in checked verifier budget"
+  },
+  {
+   "commit": "6f9c0077a2d2de15be102d8c7deab74a22720f89",
+   "date": "2026-09-30T11:54:53+02:00",
+   "subject": "build(p01): kernel-check checked verifier budget"
+  },
+  {
+   "commit": "82ae1e2736eeba6bc0e46380ecb4a641ea8f42c1",
+   "date": "2026-09-30T11:54:42+02:00",
+   "subject": "fix(p01): separate core and full checked-step envelopes"
+  },
+  {
+   "commit": "64379600c747113dd791a59ec39b63bf0a61e413",
+   "date": "2026-09-30T11:54:08+02:00",
+   "subject": "feat(p01): add uniform checked verifier runtime envelopes"
+  },
+  {
+   "commit": "4c82e850dec88692575a7dfeddb394f5f3c6b3e4",
+   "date": "2026-09-30T11:49:49+02:00",
+   "subject": "fix(p01): use exact frame-pop state constructors in determinism proof"
+  },
+  {
+   "commit": "be9c0a715a7dd878e72058e785d46d1a2853ca5e",
+   "date": "2026-09-30T11:49:22+02:00",
+   "subject": "fix(p01): use real frame-pop constructors in determinism proof"
+  },
+  {
+   "commit": "9c1d9949245f1ee44b5d3e5a51e4854ac71e4fb7",
+   "date": "2026-09-30T11:46:39+02:00",
+   "subject": "fix(p01): complete checked verifier determinism cases"
+  },
+  {
+   "commit": "440d437b085bd50e237dbebde9aa36349e6050b4",
+   "date": "2026-09-30T11:45:58+02:00",
+   "subject": "fix(p01): close reserved have and frame-pop determinism cases"
+  },
+  {
+   "commit": "64f58940c0d2a0450e930911c9895407d663def5",
+   "date": "2026-09-30T11:43:22+02:00",
+   "subject": "fix(p01): prove checked verifier determinism structurally"
+  },
+  {
+   "commit": "e5ca630a78284a30dd3f130692778b874c383db4",
+   "date": "2026-09-30T11:43:19+02:00",
+   "subject": "fix(p01): restore repo-local Fintype dependency chain"
+  },
+  {
+   "commit": "c5a297e630307e523f962b6be3765129c03a8b05",
+   "date": "2026-09-30T11:42:26+02:00",
+   "subject": "feat(p01): prove needExpr operational determinism"
+  },
+  {
+   "commit": "5162e91fa0d08821a7e783f6b15980e60e1da3b7",
+   "date": "2026-09-30T11:40:25+02:00",
+   "subject": "fix(p01): make checked verifier Fintype dependency explicit"
+  },
+  {
+   "commit": "ba1ee5a1edf505e87f10684ecef4d56dc338702b",
+   "date": "2026-09-30T11:38:46+02:00",
+   "subject": "build(p01): kernel-check checked verifier determinism"
+  },
+  {
+   "commit": "84c82da33d4aa35b443df326453f21defacf3e8a",
+   "date": "2026-09-30T11:38:43+02:00",
+   "subject": "fix(p01): import singleton run lemma for determinism certificate"
+  },
+  {
+   "commit": "6c63facea71ecd4a9d5f6b0c336c971f8c162d1b",
+   "date": "2026-09-30T11:38:28+02:00",
+   "subject": "feat(p01): certify checked verifier operational determinism"
+  },
+  {
+   "commit": "a93fda0968fcc6a5dd354c2b422529de15ab8457",
+   "date": "2026-09-30T11:02:09+02:00",
+   "subject": "fix(p01): use directional child invalidity for AND and OR rejection"
+  },
+  {
+   "commit": "2d4055cfb3de584b5c5e6d16411332c73569311a",
+   "date": "2026-09-30T10:59:28+02:00",
+   "subject": "feat(p01): close structural checked OR rejection"
+  },
+  {
+   "commit": "0bdb0f9a9acb071e966fc7b117be2a97dc61a15b",
+   "date": "2026-09-30T10:55:52+02:00",
+   "subject": "feat(p01): close structural checked rejection for conjunction"
+  },
+  {
+   "commit": "1b2dab68d3efe04984a81add1de7acb958f6cf63",
+   "date": "2026-09-30T10:52:01+02:00",
+   "subject": "fix(p01): discharge impossible input and constant rejection cases"
+  },
+  {
+   "commit": "16e34d01d66923aba4d15ff344706e08884a9ea0",
+   "date": "2026-09-30T10:50:06+02:00",
+   "subject": "feat(p01): define structural checked rejection certificates"
+  },
+  {
+   "commit": "656008ae6f21d811bb81ed2972254d14da0ebc34",
+   "date": "2026-09-30T10:45:02+02:00",
+   "subject": "build(p01): keep experimental checked Fin relabel out of umbrella"
+  },
+  {
+   "commit": "5b695a5edaf76750dcde86e6dc7acb28528e9612",
+   "date": "2026-09-30T10:44:46+02:00",
+   "subject": "fix(p01): open NTM run laws in checked rejection composition"
+  },
+  {
+   "commit": "5cb2fe27bab3cd88213e76d051419899e965f4be",
+   "date": "2026-09-30T10:42:52+02:00",
+   "subject": "feat(p01): close physical rejection for invalid negation"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-30T16:50:26+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P02AntiTableau.SameInputTransport.semanticFlip",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate} (T : MCore.Real.P02AntiTableau.SameInputTransport M),   MCore.Real.P02SemanticFlipCore.SemanticFlip M T.source"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.antiDeclaredBits_flip_source",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02AntiTableau.SATTarget (MCore.Real.P02AntiTableau.antiDeclaredBits M x) ↔     ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M x"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.antiDeclaredBits_valid",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 104,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   ∃ phi, MCore.Real.CanonicalCircuitBits.decodeCircuit (MCore.Real.P02AntiTableau.antiDeclaredBits M x) = some phi"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.antiTableauBits_sat_iff_not_acceptsAtFuel",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   MCore.Real.P02AntiTableau.SATTarget (MCore.Real.P02AntiTableau.antiTableauBits M x t) ↔     M.accepting (M.machine.run t (MCore.Real.CanonicalFinalProof.initialTMConfig M.machine x)).state ≠ true"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.antiTableauBits_valid",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   ∃ phi, MCore.Real.CanonicalCircuitBits.decodeCircuit (MCore.Real.P02AntiTableau.antiTableauBits M x t) = some phi"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.complementCandidate_machine",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   (MCore.Real.P02AntiTableau.complementCandidate M).machine = M.machine"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.complementCandidate_timeBound",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   (MCore.Real.P02AntiTableau.complementCandidate M).timeBound = M.timeBound"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.complement_acceptsAtFuel_iff",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   MCore.Real.P02BoundedComputationEncoding.AcceptsAtFuel (MCore.Real.P02AntiTableau.complementCandidate M) x t ↔     M.accepting (M.machine.run t (MCore.Real.CanonicalFinalProof.initialTMConfig M.machine x)).state ≠ true"
+  },
+  {
+   "name": "MCore.Real.P02AntiTableau.same_input_transport_implies_total_semantic_flip_core",
+   "file": "lean/MCore/Real/P02AntiTableau.lean",
+   "line": 136,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),     MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal M →       Nonempty (MCore.Real.P02AntiTableau.SameInputTransport M)) →   MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.alignment_core_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 137,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02ComplementTableauDiagonal.TotalCandidateAcceptanceAlignmentCore → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.alignment_core_implies_semantic_flip_core",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 123,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02ComplementTableauDiagonal.TotalCandidateAcceptanceAlignmentCore →   MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.alignment_core_implies_universal_failure",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 131,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02ComplementTableauDiagonal.TotalCandidateAcceptanceAlignmentCore →   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02ComplementTableauDiagonal.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.complementCandidate_machine",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   (MCore.Real.P02ComplementTableauDiagonal.complementCandidate M).machine = M.machine"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.complementCandidate_timeBound",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   (MCore.Real.P02ComplementTableauDiagonal.complementCandidate M).timeBound = M.timeBound"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.complement_acceptsAtFuel_iff_not",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   MCore.Real.P02BoundedComputationEncoding.AcceptsAtFuel (MCore.Real.P02ComplementTableauDiagonal.complementCandidate M)       x t ↔     ¬M.accepting (M.machine.run t (MCore.Real.CanonicalFinalProof.initialTMConfig M.machine x)).state = true"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.diagonalBits_sat_iff_not_declaredAccepts",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02ComplementTableauDiagonal.SATTarget (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x) ↔     ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M x"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.diagonalBits_valid",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   ∃ phi,     MCore.Real.CanonicalCircuitBits.decodeCircuit (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x) = some phi"
+  },
+  {
+   "name": "MCore.Real.P02ComplementTableauDiagonal.semanticFlip_diagonalBits_of_alignment",
+   "file": "lean/MCore/Real/P02ComplementTableauDiagonal.lean",
+   "line": 94,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02ComplementTableauDiagonal.AcceptanceAligned M x →     MCore.Real.P02SemanticFlipCore.SemanticFlip M (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x)"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.SameInputWitness.semanticFlip",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate} (W : MCore.Real.P02CookLevinSameInputCore.SameInputWitness M),   MCore.Real.P02SemanticFlipCore.SemanticFlip M W.input"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.complement_acceptsAtFuel_iff",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   MCore.Real.P02BoundedComputationEncoding.AcceptsAtFuel (MCore.Real.P02CookLevinSameInputCore.complementCandidate M) x       t ↔     ¬MCore.Real.P02BoundedComputationEncoding.AcceptsAtFuel M x t"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.rejectTransform_sat_iff_not_accepts",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02CookLevinSameInputCore.SATTarget (MCore.Real.P02CookLevinSameInputCore.rejectTransform M x) ↔     ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M x"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.rejectTransform_valid",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 44,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   ∃ phi,     MCore.Real.CanonicalCircuitBits.decodeCircuit (MCore.Real.P02CookLevinSameInputCore.rejectTransform M x) = some phi"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.sameInputCore_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 109,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02CookLevinSameInputCore.TotalCandidateSameInputCore → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.sameInputCore_implies_semanticFlipCore",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02CookLevinSameInputCore.TotalCandidateSameInputCore →   MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore"
+  },
+  {
+   "name": "MCore.Real.P02CookLevinSameInputCore.sameInputCore_implies_universal_failure",
+   "file": "lean/MCore/Real/P02CookLevinSameInputCore.lean",
+   "line": 103,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02CookLevinSameInputCore.TotalCandidateSameInputCore →   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02CookLevinSameInputCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.alignment_or_correctAt_next",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal M →     ∀ (x : MCore.Real.CanonicalFinalProof.BitString),       MCore.Real.P02ComplementTableauDiagonal.AcceptanceAligned M x ∨         M.CorrectAt MCore.Real.P02DiagonalOrbitCore.SATTarget (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x)"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.constant_pattern_core_implies_orbit_residual_core",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 211,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore →   MCore.Real.P02DiagonalOrbitCore.OrbitResidualCore"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.constant_pattern_seed_correct",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 148,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal M →     MCore.Real.P02SemanticTransformerDichotomy.ConstantCorrectPattern M →       M.CorrectAt MCore.Real.P02DiagonalOrbitCore.SATTarget MCore.Real.P02SemanticTransformerDichotomy.falseBits ∧         M.CorrectAt MCore.Real.P02DiagonalOrbitCore.SATTarget MCore.Real.P02SemanticTran"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.not_alignment_implies_semantic_correct_next",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 36,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   ¬MCore.Real.P02ComplementTableauDiagonal.AcceptanceAligned M x →     (MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x) ↔       MCore.Real.P02DiagonalOrbitCore.SATTarget (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x))"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_alignment_gives_semantic_disagreement",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02DiagonalOrbitCore.OrbitHasAlignment M seed →     ∃ y, MCore.Real.P02FailureNormalForms.SemanticDisagreement M y"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_alignment_or_constant_orbit_correct",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 171,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal M →     MCore.Real.P02SemanticTransformerDichotomy.ConstantCorrectPattern M →       MCore.Real.P02DiagonalOrbitCore.OrbitHasAlignment M MCore.Real.P02SemanticTransformerDichotomy.falseBits ∨         MCore.Real.P02DiagonalOrbitCore.OrbitHasAlignment M MCore.Real.P02SemanticTransfor"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_correct_of_no_alignment",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal M →     ∀ (seed : MCore.Real.CanonicalFinalProof.BitString),       M.CorrectAt MCore.Real.P02DiagonalOrbitCore.SATTarget seed →         ¬MCore.Real.P02DiagonalOrbitCore.OrbitHasAlignment M seed → MCore.Real.P02DiagonalOrbitCore.OrbitCorrect M seed"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_residual_core_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 229,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02DiagonalOrbitCore.OrbitResidualCore → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_residual_core_iff_universal_failure",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 217,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02DiagonalOrbitCore.OrbitResidualCore ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02DiagonalOrbitCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_residual_core_implies_constant_pattern_core",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 200,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02DiagonalOrbitCore.OrbitResidualCore →   MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_succ",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1) =     MCore.Real.P02ComplementTableauDiagonal.diagonalBits M (MCore.Real.P02DiagonalOrbitCore.orbit M seed n)"
+  },
+  {
+   "name": "MCore.Real.P02DiagonalOrbitCore.orbit_zero",
+   "file": "lean/MCore/Real/P02DiagonalOrbitCore.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02DiagonalOrbitCore.orbit M seed 0 = seed"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorAlternation.failure_of_nonalternating_step",
+   "file": "lean/MCore/Real/P02FiniteDescriptorAlternation.lean",
+   "line": 71,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   ¬(MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) ↔         ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed n)) →     ¬M.CorrectAt MCore.Real.P02FiniteDescriptorAlternation.SATT"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorAlternation.orbitCorrect_implies_alternating",
+   "file": "lean/MCore/Real/P02FiniteDescriptorAlternation.lean",
+   "line": 50,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02DiagonalOrbitCore.OrbitCorrect M seed →     MCore.Real.P02FiniteDescriptorAlternation.AlternatingOrbit M seed"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorAlternation.orbit_step_acceptance_flips",
+   "file": "lean/MCore/Real/P02FiniteDescriptorAlternation.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   M.CorrectAt MCore.Real.P02FiniteDescriptorAlternation.SATTarget       (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) →     (MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) ↔       ¬MCore.Real.P02SemanticFlipCore.Decla"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorAlternation.residual_descriptor_has_two_alternating_orbits",
+   "file": "lean/MCore/Real/P02FiniteDescriptorAlternation.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorOrbitResidual.DescriptorOrbitCorrect D →     MCore.Real.P02FiniteDescriptorAlternation.AlternatingOrbit D.toCandidate         MCore.Real.P02SemanticTransformerDichotomy.falseBits ∧       MCore.Real.P02FiniteDescriptorAlternation.AlternatingOrbit D.toCandidate         MCore.Real.P02SemanticTransform"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.canonical_run_state_eq_of_common_prefix",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 38,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {stateCount : Nat} (M : MCore.Real.TM (Fin (stateCount + 1)) (Option Bool)) (fuel : Nat)   (pref tail₁ tail₂ : MCore.Real.CanonicalFinalProof.BitString),   fuel < List.length pref →     (M.run fuel (MCore.Real.CanonicalFinalProof.initialTMConfig M (pref ++ tail₁))).state =       (M.run fuel (MCore.Real.CanonicalFinalProof.initialTMConfig M (pref ++ tail₂))).state"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.encode_padCNF",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat) (c : MCore.CircuitK1.Circuit),   MCore.Real.CanonicalCircuitBits.encodeCircuit (MCore.Real.P02FiniteDescriptorConstantClock.padCNF n c) =     MCore.Real.P02FiniteDescriptorConstantClock.padPrefix n ++ MCore.Real.CanonicalCircuitBits.encodeCircuit c"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.eval_padCNF",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 113,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (σ : MCore.Real.Assignment) (n : Nat) (c : MCore.CircuitK1.Circuit),   MCore.Real.evalCircuit σ (MCore.Real.P02FiniteDescriptorConstantClock.padCNF n c) = MCore.Real.evalCircuit σ c"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.exponent_zero_descriptor_failure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 180,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   D.exponent = 0 → ∃ x, ¬D.toCandidate.CorrectAt MCore.Real.P02FiniteDescriptorConstantClock.SATTarget x"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.getD_append_of_lt_length",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 18,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type} (xs ys : List α) (i : Nat) (d : α), i < xs.length → (xs ++ ys).getD i d = xs.getD i d"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.padCNF_isCNF",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 102,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat) {c : MCore.CircuitK1.Circuit},   MCore.Real.IsCNF c → MCore.Real.IsCNF (MCore.Real.P02FiniteDescriptorConstantClock.padCNF n c)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.padPrefix_length",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 92,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat), List.length (MCore.Real.P02FiniteDescriptorConstantClock.padPrefix n) = 6 * n"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.paddedFalse_not_sat",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 145,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat),   ¬MCore.Real.P02FiniteDescriptorConstantClock.SATTarget (MCore.Real.P02FiniteDescriptorConstantClock.paddedFalseBits n)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.paddedTrue_sat",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 155,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat),   MCore.Real.P02FiniteDescriptorConstantClock.SATTarget (MCore.Real.P02FiniteDescriptorConstantClock.paddedTrueBits n)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.padded_pair_run_state_eq",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 162,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {stateCount : Nat} (M : MCore.Real.TM (Fin (stateCount + 1)) (Option Bool)) (fuel : Nat),   (M.run fuel         (MCore.Real.CanonicalFinalProof.initialTMConfig M           (MCore.Real.P02FiniteDescriptorConstantClock.paddedFalseBits (fuel + 1)))).state =     (M.run fuel         (MCore.Real.CanonicalFinalProof.initialTMConfig M           (MCore.Real.P02FiniteDescriptorConstantClock.paddedTrueBits"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorConstantClock.sat_padCNF_iff",
+   "file": "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean",
+   "line": 124,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat) (c : MCore.CircuitK1.Circuit),   MCore.Real.IsCNF c →     (MCore.Real.SATLanguage (MCore.Real.P02FiniteDescriptorConstantClock.padCNF n c) ↔ MCore.Real.SATLanguage c)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.diagonalBits_strict_growth",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 19,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   List.length x < List.length (MCore.Real.P02ComplementTableauDiagonal.diagonalBits M x)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.infinite_alternating_certificate",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 230,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorOrbitResidual.DescriptorOrbitCorrect D →     MCore.Real.P02FiniteDescriptorInfiniteOrbit.InfiniteAlternatingOrbitCertificate D"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_index_eq_of_bitstring_eq",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 78,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) {i j : Nat},   MCore.Real.P02DiagonalOrbitCore.orbit M seed i = MCore.Real.P02DiagonalOrbitCore.orbit M seed j → i = j"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_index_injective",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 112,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02FiniteDescriptorInfiniteOrbit.OrbitIndexInjective M seed"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_length_le_of_le",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 52,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) {i j : Nat},   i ≤ j →     List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed i) ≤       List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed j)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_length_lower_bound",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   List.length seed + n ≤ List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed n)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_length_lt_of_lt",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) {i j : Nat},   i < j →     List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed i) <       List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed j)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_length_step",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 43,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed n) <     List.length (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1))"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_ne_next",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   MCore.Real.P02DiagonalOrbitCore.orbit M seed n ≠ MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_ne_of_index_ne",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 150,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) {i j : Nat},   i ≠ j → MCore.Real.P02DiagonalOrbitCore.orbit M seed i ≠ MCore.Real.P02DiagonalOrbitCore.orbit M seed j"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_next_sat_iff_not_declared_accepts",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 159,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   MCore.Real.P02UniversalFailureMinCut.CanonicalSAT (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) ↔     ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed n)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.orbit_succ_valid",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   ∃ phi, MCore.Real.CanonicalCircuitBits.decodeCircuit (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) = some phi"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.semantic_disagreement_of_no_acceptance_flip",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 201,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   ¬(MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) ↔         ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed n)) →     MCore.Real.P02FailureNormalForms.SemanticDisagreement M (MC"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorInfiniteOrbit.semantic_disagreement_or_acceptance_flip_step",
+   "file": "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean",
+   "line": 172,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (seed : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   MCore.Real.P02FailureNormalForms.SemanticDisagreement M (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) ∨     (MCore.Real.P02SemanticFlipCore.DeclaredAccepts M (MCore.Real.P02DiagonalOrbitCore.orbit M seed (n + 1)) ↔       ¬MCore.Real.P02SemanticFlipCore.DeclaredAccepts M ("
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorLocality.canonical_run_state_eq_of_right_window",
+   "file": "lean/MCore/Real/P02FiniteDescriptorLocality.lean",
+   "line": 128,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {stateCount : Nat} (M : MCore.Real.TM (Fin (stateCount + 1)) (Option Bool)) (fuel : Nat)   (x y : MCore.Real.CanonicalFinalProof.BitString),   (MCore.Real.CanonicalFinalProof.initialTMConfig M x).tape.head =       (MCore.Real.CanonicalFinalProof.initialTMConfig M y).tape.head →     (∀ (i : Nat),         i < fuel →           (MCore.Real.CanonicalFinalProof.initialTMConfig M x).tape.right.getD i M"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorLocality.initial_left_window_eq",
+   "file": "lean/MCore/Real/P02FiniteDescriptorLocality.lean",
+   "line": 116,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {stateCount : Nat} (M : MCore.Real.TM (Fin (stateCount + 1)) (Option Bool))   (x y : MCore.Real.CanonicalFinalProof.BitString) (k i : Nat),   i < k →     (MCore.Real.CanonicalFinalProof.initialTMConfig M x).tape.left.getD i M.blank =       (MCore.Real.CanonicalFinalProof.initialTMConfig M y).tape.left.getD i M.blank"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorLocality.run_state_eq_of_windowEq",
+   "file": "lean/MCore/Real/P02FiniteDescriptorLocality.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {State : Type} (M : MCore.Real.TM State (Option Bool)) (fuel : Nat)   {c₁ c₂ : MCore.Real.Configuration State (Option Bool)},   MCore.Real.P02FiniteDescriptorLocality.ConfigWindowEq M fuel c₁ c₂ → (M.run fuel c₁).state = (M.run fuel c₂).state"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorLocality.step_windowEq",
+   "file": "lean/MCore/Real/P02FiniteDescriptorLocality.lean",
+   "line": 28,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {State : Type} (M : MCore.Real.TM State (Option Bool)) (k : Nat)   {c₁ c₂ : MCore.Real.Configuration State (Option Bool)},   MCore.Real.P02FiniteDescriptorLocality.ConfigWindowEq M (k + 1) c₁ c₂ →     MCore.Real.P02FiniteDescriptorLocality.ConfigWindowEq M k (M.step c₁) (M.step c₂)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorOrbitResidual.orbitResidual_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02FiniteDescriptorOrbitResidual.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorOrbitResidual.FiniteDescriptorOrbitResidual → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorOrbitResidual.orbitResidual_iff_residual",
+   "file": "lean/MCore/Real/P02FiniteDescriptorOrbitResidual.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorOrbitResidual.FiniteDescriptorOrbitResidual ↔   MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorOrbitResidual.orbitResidual_iff_universalFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorOrbitResidual.lean",
+   "line": 60,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorOrbitResidual.FiniteDescriptorOrbitResidual ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02FiniteDescriptorOrbitResidual.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorOrbitResidual.orbitResidual_implies_residual",
+   "file": "lean/MCore/Real/P02FiniteDescriptorOrbitResidual.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorOrbitResidual.FiniteDescriptorOrbitResidual →   MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorOrbitResidual.residual_implies_orbitResidual",
+   "file": "lean/MCore/Real/P02FiniteDescriptorOrbitResidual.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual →   MCore.Real.P02FiniteDescriptorOrbitResidual.FiniteDescriptorOrbitResidual"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorReduction.descriptorOf_toCandidate",
+   "file": "lean/MCore/Real/P02FiniteDescriptorReduction.lean",
+   "line": 54,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   (MCore.Real.P02FiniteDescriptorReduction.descriptorOf M).toCandidate =     MCore.Real.P02ExplicitClockNormalForm.normalizedCandidate M"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorReduction.finiteDescriptorFailure_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02FiniteDescriptorReduction.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorReduction.finiteDescriptorFailure_iff_universalFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorReduction.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02FiniteDescriptorReduction.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorReduction.finiteDescriptorFailure_implies_universalFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorReduction.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure →   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02FiniteDescriptorReduction.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorReduction.monomialTimeBound_poly",
+   "file": "lean/MCore/Real/P02FiniteDescriptorReduction.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (coefficient exponent : Nat),   MCore.Real.CanonicalFinalProof.PolynomialTimeBound     (MCore.Real.P02FiniteDescriptorReduction.monomialTimeBound coefficient exponent)"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorReduction.universalFailure_implies_finiteDescriptorFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorReduction.lean",
+   "line": 75,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02FiniteDescriptorReduction.SATTarget →   MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.failure_of_not_constant_correct",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorTotal D →     ¬MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D →       ∃ x, ¬D.toCandidate.CorrectAt MCore.Real.P02FiniteDescriptorResidualCore.SATTarget x"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.failure_of_not_total",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   ¬MCore.Real.P02FiniteDescriptorResidualCore.DescriptorTotal D →     ∃ x, ¬D.toCandidate.CorrectAt MCore.Real.P02FiniteDescriptorResidualCore.SATTarget x"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.finiteDescriptorFailure_implies_residual",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure →   MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.residual_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 111,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.residual_iff_finiteDescriptorFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 100,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual ↔   MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.residual_iff_universalFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 106,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02FiniteDescriptorResidualCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorResidualCore.residual_implies_finiteDescriptorFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual →   MCore.Real.P02FiniteDescriptorReduction.FiniteDescriptorFailure"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.accepting_nonconstant",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 77,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D →     ∃ qReject qAccept, qReject ≠ qAccept ∧ D.accepting qReject = false ∧ D.accepting qAccept = true"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.coefficient_pos",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 89,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D → 0 < D.coefficient"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.constant_final_states_distinct",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D →     MCore.Real.P02FiniteDescriptorStructuralLaws.finalState D MCore.Real.P02SemanticTransformerDichotomy.falseBits ≠       MCore.Real.P02FiniteDescriptorStructuralLaws.finalState D MCore.Real.P02SemanticTransformerDichotomy.trueBits"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.false_final_rejects",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D →     D.accepting         (MCore.Real.P02FiniteDescriptorStructuralLaws.finalState D           MCore.Real.P02SemanticTransformerDichotomy.falseBits) =       false"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.stateCount_pos",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 57,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D → 0 < D.stateCount"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.structuralResidual_iff_residual",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 138,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorStructuralLaws.FiniteDescriptorStructuralResidual ↔   MCore.Real.P02FiniteDescriptorResidualCore.FiniteDescriptorResidual"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.structuralResidual_iff_universalFailure",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 148,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02FiniteDescriptorStructuralLaws.FiniteDescriptorStructuralResidual ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02FiniteDescriptorStructuralLaws.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.structural_certificate_of_constant_correct",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 121,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D →     MCore.Real.P02FiniteDescriptorStructuralLaws.ResidualStructuralCertificate D"
+  },
+  {
+   "name": "MCore.Real.P02FiniteDescriptorStructuralLaws.true_final_accepts",
+   "file": "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (D : MCore.Real.P02FiniteDescriptorReduction.FiniteDTMDescriptor),   MCore.Real.P02FiniteDescriptorResidualCore.DescriptorConstantCorrect D →     D.accepting         (MCore.Real.P02FiniteDescriptorStructuralLaws.finalState D           MCore.Real.P02SemanticTransformerDichotomy.trueBits) =       true"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.boundedExecTableauCNF_length_gt_input",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 84,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   List.length x < List.length (MCore.Real.P02BoundedComputationEncoding.boundedExecTableauCNF M x t)"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.cnfCircuit_encode_length_ge_clause_count",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 31,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (f : MCore.Real.P02BoundedComputationEncoding.CNF),   List.length f ≤     List.length (MCore.Real.CanonicalCircuitBits.encodeCircuit (MCore.Real.P02BoundedComputationEncoding.cnfCircuit f))"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.encodeCircuit_length_pos",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 23,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (c : MCore.CircuitK1.Circuit), 0 < List.length (MCore.Real.CanonicalCircuitBits.encodeCircuit c)"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.length_le_flatMap_of_one_le",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 48,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α β : Type} (xs : List α) (f : α → List β),   (∀ (a : α), a ∈ xs → 1 ≤ (f a).length) → xs.length ≤ (List.flatMap f xs).length"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.no_SameInputWitness",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 120,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   ¬Nonempty (MCore.Real.P02CookLevinSameInputCore.SameInputWitness M)"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.not_SemanticAlignmentCore",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 17,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.Real.P02SemanticTransformerCore.SemanticAlignmentCore"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.not_TotalCandidateSameInputCore",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 130,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.Real.P02CookLevinSameInputCore.TotalCandidateSameInputCore"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.radius_le_initialRightPart_length",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t : Nat),   MCore.Real.P02BoundedComputationEncoding.radius x t ≤     (List.flatMap         (fun i =>           MCore.Real.P02BoundedComputationEncoding.setRightCell [] M x t 0 i             ((MCore.Real.CanonicalFinalProof.inputTape x).right.getD i M.machine.blank))         (List.range (MCore.R"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.rejectTransform_strict_growth",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 102,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   List.length x < List.length (MCore.Real.P02CookLevinSameInputCore.rejectTransform M x)"
+  },
+  {
+   "name": "MCore.Real.P02OpenMathRouteFalsification.setRightCell_length",
+   "file": "lean/MCore/Real/P02OpenMathRouteFalsification.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s i : Nat)   (target : Option Bool), List.length (MCore.Real.P02BoundedComputationEncoding.setRightCell [] M x t s i target) = 3"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.constantPairTimeBound_poly",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 39,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalFinalProof.PolynomialTimeBound MCore.Real.P02SemanticAlignmentCountermodel.constantPairTimeBound"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.constantPair_accepts_trueBits",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 88,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerCore.DeclaredAccept MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate   MCore.Real.P02SemanticAlignmentCountermodel.trueBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.constantPair_declared_total",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal   MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.constantPair_no_output_alignment",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 118,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬∃ x,     MCore.Real.P02SemanticTransformerCore.OutputAcceptanceAligned       MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.constantPair_rejects_falseBits",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.Real.P02SemanticTransformerCore.DeclaredAccept MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate     MCore.Real.P02SemanticAlignmentCountermodel.falseBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.semanticAlignmentCore_refuted",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 142,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.Real.P02SemanticTransformerCore.SemanticAlignmentCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.semanticNegationBits_eq_false_of_accepts",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02SemanticTransformerCore.DeclaredAccept MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate       x →     MCore.Real.P02SemanticTransformerCore.semanticNegationBits         MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate x =       MCore.Real.P02SemanticAlignmentCountermodel.falseBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticAlignmentCountermodel.semanticNegationBits_eq_true_of_rejects",
+   "file": "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean",
+   "line": 105,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (x : MCore.Real.CanonicalFinalProof.BitString),   ¬MCore.Real.P02SemanticTransformerCore.DeclaredAccept         MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate x →     MCore.Real.P02SemanticTransformerCore.semanticNegationBits         MCore.Real.P02SemanticAlignmentCountermodel.constantPairCandidate x =       MCore.Real.P02SemanticAlignmentCountermodel.trueBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticFlipCore.semanticFlip_iff_semanticDisagreement",
+   "file": "lean/MCore/Real/P02SemanticFlipCore.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02SemanticFlipCore.SemanticFlip M x ↔ MCore.Real.P02FailureNormalForms.SemanticDisagreement M x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticFlipCore.semantic_flip_core_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02SemanticFlipCore.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02SemanticFlipCore.semantic_flip_core_iff_total_semantic_core",
+   "file": "lean/MCore/Real/P02SemanticFlipCore.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore ↔   MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticFlipCore.semantic_flip_core_iff_universal_failure",
+   "file": "lean/MCore/Real/P02SemanticFlipCore.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02SemanticFlipCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02SemanticFlipCore.semantic_flip_core_implies_total_semantic_core",
+   "file": "lean/MCore/Real/P02SemanticFlipCore.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore →   MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticFlipCore.total_semantic_core_implies_semantic_flip_core",
+   "file": "lean/MCore/Real/P02SemanticFlipCore.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore →   MCore.Real.P02SemanticFlipCore.TotalCandidateSemanticFlipCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.declaredAcceptBit_true_iff",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 33,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02SemanticTransformerCore.declaredAcceptBit M x = true ↔     MCore.Real.P02SemanticTransformerCore.DeclaredAccept M x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.semanticNegationBits_flip",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 66,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02SemanticTransformerCore.SATTarget (MCore.Real.P02SemanticTransformerCore.semanticNegationBits M x) ↔     ¬MCore.Real.P02SemanticTransformerCore.DeclaredAccept M x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.semanticNegationBits_length",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 58,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   List.length (MCore.Real.P02SemanticTransformerCore.semanticNegationBits M x) = 3"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.semanticNegationBits_valid",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 51,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   ∃ phi,     MCore.Real.CanonicalCircuitBits.decodeCircuit (MCore.Real.P02SemanticTransformerCore.semanticNegationBits M x) =       some phi"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.semantic_alignment_core_implies_total_semantic_core",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerCore.SemanticAlignmentCore →   MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.semantic_alignment_core_implies_universal_failure",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 137,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerCore.SemanticAlignmentCore →   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02SemanticTransformerCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerCore.transformed_output_fails_semantically",
+   "file": "lean/MCore/Real/P02SemanticTransformerCore.lean",
+   "line": 93,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02SemanticTransformerCore.OutputAcceptanceAligned M x →     ¬(M.accepting             (M.machine.run (M.timeBound (List.length (MCore.Real.P02SemanticTransformerCore.semanticNegationBits M x)))                 (MCore.Real.CanonicalFinalProof.initialTMConfig M.machine"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.alignment_of_not_constantCorrectPattern",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 90,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   ¬MCore.Real.P02SemanticTransformerDichotomy.ConstantCorrectPattern M →     ∃ x, MCore.Real.P02SemanticTransformerCore.OutputAcceptanceAligned M x"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.alignment_or_constantCorrectPattern",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   (∃ x, MCore.Real.P02SemanticTransformerCore.OutputAcceptanceAligned M x) ∨     MCore.Real.P02SemanticTransformerDichotomy.ConstantCorrectPattern M"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.constant_pattern_core_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 138,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.constant_pattern_core_iff_total_semantic_core",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 127,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore ↔   MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.constant_pattern_core_iff_universal_failure",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 133,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02SemanticTransformerDichotomy.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.constant_pattern_core_implies_total_semantic_core",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 107,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore →   MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.falseBits_not_sat",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 24,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "¬MCore.Real.P02SemanticTransformerDichotomy.SATTarget MCore.Real.P02SemanticTransformerDichotomy.falseBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.semanticNegationBits_of_accept",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 37,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P02SemanticTransformerCore.DeclaredAccept M x →     MCore.Real.P02SemanticTransformerCore.semanticNegationBits M x =       MCore.Real.P02SemanticTransformerDichotomy.falseBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.semanticNegationBits_of_reject",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 47,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString),   ¬MCore.Real.P02SemanticTransformerCore.DeclaredAccept M x →     MCore.Real.P02SemanticTransformerCore.semanticNegationBits M x = MCore.Real.P02SemanticTransformerDichotomy.trueBits"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.total_semantic_core_implies_constant_pattern_core",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 121,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore →   MCore.Real.P02SemanticTransformerDichotomy.ConstantPatternSemanticCore"
+  },
+  {
+   "name": "MCore.Real.P02SemanticTransformerDichotomy.trueBits_sat",
+   "file": "lean/MCore/Real/P02SemanticTransformerDichotomy.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02SemanticTransformerDichotomy.SATTarget MCore.Real.P02SemanticTransformerDichotomy.trueBits"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyLeftAll_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 235,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.copyLeftAll guard M x t s)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyLeftAll_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 99,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause)   (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma         (MCore.Real.P02BoundedComputationEncoding.copyLeft"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyLeftCell_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 271,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (x : MCore.Real.CanonicalFinalProof.BitString) (t oldS oldI newS newI : Nat),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.copyLeftCell guard M x t oldS oldI newS newI)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyLeftCells_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 139,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause)   (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString)   (t oldS newS : Nat) (indices : List Nat) (oldI newI : Nat → Nat),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyRightAll_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 245,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.copyRightAll guard M x t s)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyRightAll_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 119,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause)   (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma         (MCore.Real.P02BoundedComputationEncoding.copyRigh"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyRightCell_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 279,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (x : MCore.Real.CanonicalFinalProof.BitString) (t oldS oldI newS newI : Nat),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.copyRightCell guard M x t oldS oldI newS newI)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copyRightCells_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 163,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause)   (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString)   (t oldS newS : Nat) (indices : List Nat) (oldI newI : Nat → Nat),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copySymbolClauses_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 221,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (oldVar newVar : Option Bool → Nat),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.copySymbolClauses guard oldVar newVar)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.copySymbolClauses_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause)   (oldVar newVar : Option Bool → Nat),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma         (MCore.Real.P02BoundedComputationEncoding.copySymbolClauses guard oldVar newVar) =       true"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.evalCNF_append_true_local",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 21,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (a b : MCore.Real.P02BoundedComputationEncoding.CNF),   MCore.Real.P02BoundedComputationEncoding.evalCNF sigma a = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma b = true →       MCore.Real.P02BoundedComputationEncoding.evalCNF sigma (a ++ b) = true"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.flatMap_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 287,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {α : Type} (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (xs : List α)   (F : α → MCore.Real.P02BoundedComputationEncoding.CNF),   (∀ (x : α), x ∈ xs → MCore.Real.P02TableauCompletenessActive.GuardedCNF guard (F x)) →     MCore.Real.P02TableauCompletenessActive.GuardedCNF guard (List.flatMap F xs)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.guarded_append",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 190,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (A B : MCore.Real.P02BoundedComputationEncoding.CNF),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard A →     MCore.Real.P02TableauCompletenessActive.GuardedCNF guard B →       MCore.Real.P02TableauCompletenessActive.GuardedCNF guard (A ++ B)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.haltingCaseCNF_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 298,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat)   (q : Fin (M.stateCount + 1)) (a : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF     [MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02BoundedComputationEncoding.stateVar M t s q),       MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02Bound"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.leftMoveCaseCNF_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 334,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat)   (q : Fin (M.stateCount + 1)) (a : Option Bool) (qNext : Fin (M.stateCount + 1)) (write : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF     [MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02BoundedComputationEncoding.stateVar M t s q),       MCore.Real"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.rightMoveCaseCNF_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 372,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat)   (q : Fin (M.stateCount + 1)) (a : Option Bool) (qNext : Fin (M.stateCount + 1)) (write : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF     [MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02BoundedComputationEncoding.stateVar M t s q),       MCore.Real"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.setLeftCell_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 255,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (x : MCore.Real.CanonicalFinalProof.BitString) (t s i : Nat) (target : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.setLeftCell guard M x t s i target)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.setRightCell_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 263,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (x : MCore.Real.CanonicalFinalProof.BitString) (t s i : Nat) (target : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.setRightCell guard M x t s i target)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.setStateClauses_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 200,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate)   (t s : Nat) (target : Fin (M.stateCount + 1)),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.setStateClauses guard M t s target)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.setStateClauses_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 53,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause)   (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (t s : Nat) (target : Fin (M.stateCount + 1)),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma         (MCore.Real.P02BoundedComputationEncoding.setStateClauses guard"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.setSymbolClauses_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 210,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (varAt : Option Bool → Nat) (target : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF guard     (MCore.Real.P02BoundedComputationEncoding.setSymbolClauses guard varAt target)"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.setSymbolClauses_true_of_guard_true",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 67,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (sigma : MCore.Real.Assignment) (guard : MCore.Real.P02BoundedComputationEncoding.Clause) (varAt : Option Bool → Nat)   (target : Option Bool),   MCore.Real.P02BoundedComputationEncoding.evalClause sigma guard = true →     MCore.Real.P02BoundedComputationEncoding.evalCNF sigma         (MCore.Real.P02BoundedComputationEncoding.setSymbolClauses guard varAt target) =       true"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.stayCaseCNF_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 316,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat)   (q : Fin (M.stateCount + 1)) (a : Option Bool) (qNext : Fin (M.stateCount + 1)) (write : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF     [MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02BoundedComputationEncoding.stateVar M t s q),       MCore.Real"
+  },
+  {
+   "name": "MCore.Real.P02TableauCompletenessActive.transitionCaseCNF_guarded",
+   "file": "lean/MCore/Real/P02TableauCompletenessActive.lean",
+   "line": 410,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate) (x : MCore.Real.CanonicalFinalProof.BitString) (t s : Nat)   (q : Fin (M.stateCount + 1)) (a : Option Bool),   MCore.Real.P02TableauCompletenessActive.GuardedCNF     [MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02BoundedComputationEncoding.stateVar M t s q),       MCore.Real.P02BoundedComputationEncoding.neg (MCore.Real.P02Bound"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateSemanticCore.candidate_failure_of_total_semantic",
+   "file": "lean/MCore/Real/P02TotalCandidateSemanticCore.lean",
+   "line": 45,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore →   ∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),     ∃ x, MCore.Real.P02UniversalFailureMinCut.CandidateFailureMode M x"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateSemanticCore.exists_timeout_of_not_total",
+   "file": "lean/MCore/Real/P02TotalCandidateSemanticCore.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (M : MCore.Real.CanonicalFinalProof.PolyDTMCandidate),   ¬MCore.Real.P02TotalCandidateSemanticCore.DeclaredClockTotal M →     ∃ x, ¬MCore.Real.P02TotalCandidateSemanticCore.DeclaredHalts M x"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateSemanticCore.total_semantic_core_closes_internal_endpoint",
+   "file": "lean/MCore/Real/P02TotalCandidateSemanticCore.lean",
+   "line": 102,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore → MCore.Real.CanonicalFinalProof.PneqNP"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateSemanticCore.total_semantic_core_iff_universal_failure",
+   "file": "lean/MCore/Real/P02TotalCandidateSemanticCore.lean",
+   "line": 96,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore ↔   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02TotalCandidateSemanticCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateSemanticCore.total_semantic_core_implies_universal_failure",
+   "file": "lean/MCore/Real/P02TotalCandidateSemanticCore.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore →   MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02TotalCandidateSemanticCore.SATTarget"
+  },
+  {
+   "name": "MCore.Real.P02TotalCandidateSemanticCore.universal_failure_implies_total_semantic_core",
+   "file": "lean/MCore/Real/P02TotalCandidateSemanticCore.lean",
+   "line": 80,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "MCore.Real.CanonicalFinalProof.UniversalFailure MCore.Real.P02TotalCandidateSemanticCore.SATTarget →   MCore.Real.P02TotalCandidateSemanticCore.TotalCandidateSemanticCore"
+  }
+ ],
+ "closed": 169,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean": "4458b9dbe909fb6c53d78d1fab16e8d27120e3c4c47ddc3ac5745e5c9f895daf",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01CNFMode.lean": "49708ee32e113d190069303dd73a5b1bb8e68a337d99ad26ca8cc04462478242",
+  "lean/MCore/Real/P01CheckedEvalReject.lean": "31a6d297e67125553997eb17b9ad0c46b7bab930db1083d1be9c3ef5787d1753",
+  "lean/MCore/Real/P01CheckedEvalRunBaseCases.lean": "2d440229efd81140765b1febcb0e2041ecec37c5e397badce450aabe1c1d1136",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedCertificate.lean": "7652a3a60ebfda5385c3adf16febb7a7fd880ed1b7bb90959cba599ea29fcddd",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedConst.lean": "6ed332a7f19c430d9668d5aa30b5c4531b3b6e12569726b4e829cfb2c74db513",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedHelpers.lean": "f09fd3323426d0e4dcd6a476c6b1d31d7399063703bb4f1ac3a96bff3cf5e5c7",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedInput.lean": "4ac2c96d0e0c49d317bb52d6da893c89a5cdb35e25a075b7811618e2cf060e49",
+  "lean/MCore/Real/P01CheckedEvalRunCircuitCertificate.lean": "e8cfbbfcb1b2e5f2275ae3e20aa1f52f2873a9c4db64734cb94f0a026e16fb30",
+  "lean/MCore/Real/P01CheckedEvalRunHaveValue.lean": "04ddabc21b1c9914fdd15ab6c0a57ddb888518b8e0c7cfe294bbb38ecf20e21c",
+  "lean/MCore/Real/P01CheckedEvalRunInputTag.lean": "faf754bb1ed47f573c3a436c3b37ed59efb5af9bec25a45b803f548ef255a973",
+  "lean/MCore/Real/P01CheckedEvalRunLoopNTM.lean": "a182c8ed23202e51a66ef639d88958d406ecce2513dc2d8d582b0312100d7a35",
+  "lean/MCore/Real/P01CheckedEvalRunNeedTags.lean": "d1b7f42c55613613a19d2c5292c142ab57711d9961dd21a894ec23d2c9ab3abd",
+  "lean/MCore/Real/P01CheckedEvalRunPhaseLift.lean": "7d7301b66177df013fb3a8e6a1ad6af58a92694af1f6095c4dd422a37c6373ec",
+  "lean/MCore/Real/P01CheckedEvalRunTagPrefix.lean": "e86f337ccf68f41ae463395f32225ef271011e53e21d391ffd8e824466861bd4",
+  "lean/MCore/Real/P01CheckedVerifierBudget.lean": "700c68cd6488bfe456915b2347761070a39e9e3592934a8c9a1b778766eadb13",
+  "lean/MCore/Real/P01CheckedVerifierCompositeNTM.lean": "e42ad171999c88e2af9c19f3afd93a38d9fb137a5581b4fe60fbc7f5cc085f27",
+  "lean/MCore/Real/P01CheckedVerifierDeterminism.lean": "bc7de5ce82901fc631a7654d2ce426054dd92b6d3cd9085103601fd2325b9840",
+  "lean/MCore/Real/P01CheckedVerifierGlobalBudget.lean": "91f0ae95ff42b042fc702bb7d4b7d9109d55d704d974bfd74195fa070aa01022",
+  "lean/MCore/Real/P01CheckedVerifierGlobalCoreV2.lean": "eddced8268e8ead948ed12c26de8852708c54c76991c3dc5ef8fa227855f2ffe",
+  "lean/MCore/Real/P01CheckedVerifierInvariant.lean": "bc77f862e79fd52e79821a349d71cb0cb6d07adb2072f47a9b94c46459ba37df",
+  "lean/MCore/Real/P01CheckedVerifierManualFiniteState.lean": "952bc034fd88347f46b7ad20c29fcfad9505e95adabfb06955957ccc7fb511d2",
+  "lean/MCore/Real/P01CheckedVerifierRun.lean": "e7474cf1fc1af1a5d10011f9a2ac1ed7d224573fde0ebec13cfb29e71ffa3b2d",
+  "lean/MCore/Real/P01DirectVerifierInhabitant.lean": "99b896d890b7ca09a9fb4a3cab5d5a2fb8c74b4c8ca1a652b3deea02719fb7a0",
+  "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
+  "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
+  "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
+  "lean/MCore/Real/P01EvalCursorConsume.lean": "eb9518da610a8f3093a7b01e0728f56da590ca7ed25dc9eebedf90da252523d3",
+  "lean/MCore/Real/P01EvalCursorFramePop.lean": "19fb1a904b8ce1c3722ac7842b70f43445710beb6a40acef7f8f6bab72a59045",
+  "lean/MCore/Real/P01EvalCursorFramePush.lean": "60efaf72ca078f1c5f424b2f9639c03226de4eb5c540601caedb8906d6dfec1d",
+  "lean/MCore/Real/P01EvalCursorMachine.lean": "334a8f85835424cc3df77c31b69bf9dbb9b9826de0c6d31859d201a5ac4cc5d6",
+  "lean/MCore/Real/P01EvalCursorRoundTrip.lean": "6e18f3626364ddf28d290d3fb8d13a24d8792fe04d37481102741c26d3fb2cfe",
+  "lean/MCore/Real/P01EvalFramePopMachineV2.lean": "e0c1afd35037d8fa0597fa46a66359d77692c235d9067db05492144e187cfceb",
+  "lean/MCore/Real/P01EvalFramePushMachine.lean": "262e46a1aa5c75dee155f976e5fb998aafd144c98aa5808ee6a46e448a748d5f",
+  "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean": "537ce6156e5dc8b2488b645d04ef32203dacfffb3d2e5100f438020a67413a9f",
+  "lean/MCore/Real/P01EvalRunCircuitCertificate.lean": "25d327b8ece973b7d4b93e305a2ef3b42c759ed17455081cab210590b1b17203",
+  "lean/MCore/Real/P01EvalRunHaveValue.lean": "038ef3601fef649a8aa4c9e4dacbb2226d2461855b082fda9aae34596905710e",
+  "lean/MCore/Real/P01EvalRunInputTag.lean": "880c73694a04b35c73145dc8ac45cdc657ea37666fba2c507bd87e638ea88386",
+  "lean/MCore/Real/P01EvalRunLoopNTM.lean": "a8c041d48972b83a7b98346da4abee73f48aa88361ff783704f1aa1c3acedd68",
+  "lean/MCore/Real/P01EvalRunLoopRun.lean": "19e4cf7854ef9dffb51f1de22b73ed71d9bbd27d2b82074304a662732f086bd8",
+  "lean/MCore/Real/P01EvalStepCompositeNTM.lean": "34e0f2751846232cd8d86d200b8a1bc76986092d95c3c943dac8984f58aa15c1",
+  "lean/MCore/Real/P01EvalStepCompositeRun.lean": "b9accc345ec97bc09a659e90813f74c0bab7f2555d8b5b94e8916ce3ee336116",
+  "lean/MCore/Real/P01EvalStepSemanticRefinement.lean": "79cc25c10ff94b136e77112f8cba4b5d159ae4a003c4549b376e4be3bda20654",
+  "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean": "65f57eded7aa9085213da2975bb611899ae9381a4d101d25c1bf748d8e542649",
+  "lean/MCore/Real/P01ExactBoundedCircuitProducer.lean": "660e84c2d0fd2c0f3313c143fce557a54219e1eb89ff8334c03f0a83369bf994",
+  "lean/MCore/Real/P01ExactBoundedReject.lean": "e5ac3d820cba3a2d952917f45d66a1bfb351f9225bd23a1a6c132cd112dd40b5",
+  "lean/MCore/Real/P01ExactVerifierCanonicalRun.lean": "6df0322a082b4ccade83457625d755bfab41e082bfce78850cb8f3c541b3beaa",
+  "lean/MCore/Real/P01ExactVerifierGlobalBudget.lean": "366e5a42bf6b83de01c274502df51602828960cbf28bfba001cafe309a4a27b2",
+  "lean/MCore/Real/P01FinalCertificate.lean": "22e141679b28b1cb0b2ca6ec05516c2c9c8a8461e707a4e6c8e7b72f30626a3a",
+  "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean": "2dc0bc85bb3dbaab9bc6845f077824a418061fb1bec21f7a909d71c1836adec5",
+  "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
+  "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
+  "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
+  "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "e9f86bee64d482007e3e2feded7b9980c6f6c28a4c8a50a0d48672403dfb0322",
+  "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
+  "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "a666eaae40420970c54e5cf8652991427c660b6e529cbbb14c4bb843be46add9",
+  "lean/MCore/Real/P01FullVerifierSourceToStack.lean": "f6808aa9931696899bb256214b514bfe743167c1e1632dec18be0404148f00c7",
+  "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
+  "lean/MCore/Real/P01FullVerifierTraversal.lean": "b792b4dffa2c7e346fcd36e635c6d867a8a0898cfc5ee543c63ecc09666cdd1d",
+  "lean/MCore/Real/P01GuessedWitnessRelation.lean": "abea715b76e38d7fbaa3b81d2f0543e436f0bf6f5cd1ccad74ad9711ad747908",
+  "lean/MCore/Real/P01HaveValueCompositeNTM.lean": "1d1a7d8817f0d410c008b7c767b149442727cdf9eba5eea140d1e840b97d1bf8",
+  "lean/MCore/Real/P01HaveValueCompositeRun.lean": "c36792cb1c8e4b8a249173fe0815f09836fd1be9d6d34abb0fa6e74105230fa4",
+  "lean/MCore/Real/P01InputAfterReadReturn.lean": "2820cbad381e0a42e3ef28ea7e50f5f321d71b0ef506023c6eef8d46125bc36f",
+  "lean/MCore/Real/P01InputIndexLookahead.lean": "e1b57adcae5f90fe4c270a2cdec277bfcf41b8a1591f3336deda95de412e84dc",
+  "lean/MCore/Real/P01InputNodeCompositeNTM.lean": "380754fcb92a3ac4fa60f881384a68bbe3de11ce16dc0e00bca6b96366ef5b20",
+  "lean/MCore/Real/P01InputNodeCompositeRun.lean": "c5567592378d5d3bb8955ab1cc721097d01b97e3aaac5a74aa674717cad6dcb9",
+  "lean/MCore/Real/P01InputNodeRoundTrip.lean": "e0973e561e3a456aa67f02cd09f5b8ded182e180e007fd0f848d3001d1790179",
+  "lean/MCore/Real/P01InputReturnMode.lean": "2a1d7cf6c91330ada6754cff12f83c0ae03314c880444d11fbb0050b1cbe89fc",
+  "lean/MCore/Real/P01IntegratedAssembly.lean": "efa987c1871b936497e02b6dbdab0baa3c0dbf0c596013500f7e2a137a8e38e7",
+  "lean/MCore/Real/P01ManualStateCodecBase.lean": "80f05ed8be22110bb99e5091ed2e41ce7516838d0ffad7883283a33a7bd6dd8d",
+  "lean/MCore/Real/P01ManualStateCodecComposite.lean": "2b5ed8ebeb3ca8ee3ae72e435d00d83bd827ac8b5e172a5160be9e67668f441a",
+  "lean/MCore/Real/P01NTMPhaseSeq.lean": "507e5f148ec100a51869305fecc56b9308f7eb48ea3229dc18ccd42551d59895",
+  "lean/MCore/Real/P01NTMRunLaws.lean": "5cf9499ac23d11c5e261c093c0ec700bdc9e0015e738f2efd9757035e60a6af5",
+  "lean/MCore/Real/P01NTMSeqRun.lean": "f873314ff18f20fc6235c4f869eee02d518c5c6cdd15f5e4e752a7fb7f7effdb",
+  "lean/MCore/Real/P01NeedExprCompositeNTM.lean": "3c5bc9af50dabe99c95ca8864ea099247669085d1c9d2ccbaf39f9f8bbd57005",
+  "lean/MCore/Real/P01NeedExprCompositeRun.lean": "a72e6bc9104e3c66ef66c8a42d03a2351254803d16ff302cf3c6253bbc33148e",
+  "lean/MCore/Real/P01NeedExprTagDecode.lean": "21ec123cc5f427e1557ef368b5bab0d270777fbf0545be616a0d41ddc9958c8b",
+  "lean/MCore/Real/P01PostMinCutClosure.lean": "97da01ed4c43b19a0349d12f36f6598a71089c89b4916e2ab8c2a783d1a3bf4a",
+  "lean/MCore/Real/P01RawBaseExact.lean": "f91d6bb622ab14fc7dd4eb4afe335d5fc7ab5bf72da9eef087489b83e7544c19",
+  "lean/MCore/Real/P01RawDeadEnd.lean": "d08cbe4958e02819b5aa872fabf95888dab82ea86d596d05e6f3bc8e50fcba64",
+  "lean/MCore/Real/P01RawDecodeFailureDescent.lean": "7205f991ae9e2a28e8ccc2d6978caab522b946723602bbd2775ec4fd6754df22",
+  "lean/MCore/Real/P01RawDecodeFailureShape.lean": "6ff0cf6fc8117f33979302b2d8b005681ba51b2e19f17dc995b653b48dd99efe",
+  "lean/MCore/Real/P01RawDecodeInduction.lean": "c6e470cedca6ec4d1ef2596c624f6ed06f7d8bff0c2cff1c63fe2d748692eeb8",
+  "lean/MCore/Real/P01RawDecoderSound.lean": "794e8b8cf2ebb8f86d50d663532a92c93345a908355a462935728183e9c1b02c",
+  "lean/MCore/Real/P01RawEvalSink.lean": "da7b4f1fe6d2d879ca03659cb156f688d9e319ef5485695f76d9233d88b49c4b",
+  "lean/MCore/Real/P01RawGlobalBudgetLift.lean": "6089f266d18b42e0b63f5061367ac784aa6077137f73b66ff39251c0810792d3",
+  "lean/MCore/Real/P01RawMalformedTag.lean": "a67139f1ea0d5f5ba21bf961a314ed5396ace52084dd0bc3ceb7ced67eb5e01c",
+  "lean/MCore/Real/P01RawMalformedUnary.lean": "1a9b083c94166be442edb33fbd3f45a6fc10dcd66ab56c9238409fa187506cae",
+  "lean/MCore/Real/P01RawRecursiveBudget.lean": "d50dbf44ba4255e4adaafb66f86d5c8b4d534ae540cb1f2841fdb6a89d8b9f37",
+  "lean/MCore/Real/P01RawRecursiveSteps.lean": "de4036116d394aa2d15ce8a317ad3654fd565cafa11b0110313d7a111e447935",
+  "lean/MCore/Real/P01RawResidualReject.lean": "afa6a36c9c120a0fe591bc1f2e814d3b2011790268ef7e8e3ac54a7aa3653f30",
+  "lean/MCore/Real/P01RawSourceSplit.lean": "32df78c922f2bf908468bcf831880b41462050104d719bda191a387b28902a18",
+  "lean/MCore/Real/P01RawTotalizationMinCut.lean": "f5d6262ce7bf043ae340a6d7d03d63b7175be4cb04a9fb4e77a85d836f305726",
+  "lean/MCore/Real/P01RawTotalizationProducer.lean": "9480a726d6e766027a039045b5481f2b5445cd06b903fc9da51b1ecf6d08e0dd",
+  "lean/MCore/Real/P01RawVerifierLift.lean": "3fb67b181f09f13729de5f76fd14607c5764aac884fea67577bdd4165923ef79",
+  "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
+  "lean/MCore/Real/P01VerifierComposition.lean": "e98bd8fce28dda051ed418d25a82bc8e9c251ca1dcddde6bb6c092ea50ebbb3f",
+  "lean/MCore/Real/P01VerifierEvalCompositeNTM.lean": "5e7e45f664ba55836d754e5b05bc38283bb6331d47e66a7d645dde00799a226a",
+  "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
+  "lean/MCore/Real/P01VerifierStateCode.lean": "a95bc87dca929e61c40616bf6baade705b6e0105bd40ed7b6c11e8441b28560d",
+  "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
+  "lean/MCore/Real/P01WitnessIndexedReadGap.lean": "fff39492548c870016080d6414d9b58ad17fa377661fecfc8b2cefaeff5022a1",
+  "lean/MCore/Real/P01WitnessIndexedReadGapRaw.lean": "938110b6918c1123cc7209dabc1da5f061b56b956b05f90641170a7739334b85",
+  "lean/MCore/Real/P01WitnessIndexedReadPreserving.lean": "8026e111464329111f197ba07ed4eab4a30e4d0d71fdb2a120334b2b3c3008b6",
+  "lean/MCore/Real/P01WitnessPrepGlobal.lean": "fecdb82a710f59aeb20fd977734afbae6f2299222ea3c862f764a1fb3cd78913",
+  "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
+  "lean/MCore/Real/P02AntiTableau.lean": "c0caf150fc71305ad6d775ac734323615f3625f4f16950b03ae1e27e04fbf4b4",
+  "lean/MCore/Real/P02BoundedComputationClose.lean": "723a94f5039a7bfe3ed73de97816a8b82538c52585fe69f48c4eb9ebb7386dc9",
+  "lean/MCore/Real/P02BoundedComputationEncoding.lean": "e1e66e3145b09ce5864661b77f44de8db912170d36b6ba60727970a7c943c96b",
+  "lean/MCore/Real/P02BoundedComputationLogic.lean": "52625a496b8a9ffd2b14146fde8df152650de5228343f4e89aa758d54b169aec",
+  "lean/MCore/Real/P02BoundedComputationSoundness.lean": "e9d0824f7d97490983696dc5261ad40cc0e482c0ddf979ca5e305e5049be49ed",
+  "lean/MCore/Real/P02BoundedComputationTape.lean": "41dd77597dfb4e03fad6208abe56df2bab26581728a76a63d879a296cd069ba3",
+  "lean/MCore/Real/P02ComplementTableauDiagonal.lean": "f750e87b8ec784793b434e3872d98481ccdf4670de7aa403db73ced63c714d60",
+  "lean/MCore/Real/P02CookLevinSameInputCore.lean": "15ea344bfc823fff1ca4e8de57b8bc11c4f33fbb51cacd0e40b9af11e44a3b33",
+  "lean/MCore/Real/P02DiagonalOrbitCore.lean": "7cba705734d5a94e0eda3615ea1e270644b1380b2b87b569c98097185e39624b",
+  "lean/MCore/Real/P02ExplicitClockNormalForm.lean": "10b1d20d910db785221bc8e0a652c1a8024167bcc2bebde13a1d4b5b256f3412",
+  "lean/MCore/Real/P02FailureNormalForms.lean": "0201e919f5ea0e49a860d57f1603e51dc790bbf40d03a377f4f601ad75e14d42",
+  "lean/MCore/Real/P02FiniteDescriptorAlternation.lean": "c51deb068b22a3194d86899a110c0473eea8fa95beb96e9ce634f732a7ffdd8c",
+  "lean/MCore/Real/P02FiniteDescriptorConstantClock.lean": "61cb1af3ef2727e7248ae88344ce8ed107cdc55af6eb42f8d751177e4094d83b",
+  "lean/MCore/Real/P02FiniteDescriptorInfiniteOrbit.lean": "2aa33582919903c2ceb4071f846a52ef0bdf720b646faf4e75ff31f4895c1a83",
+  "lean/MCore/Real/P02FiniteDescriptorLocality.lean": "a9126e10940e7113b54d098b240009207d498f7d10284afafebca1fea0a5a293",
+  "lean/MCore/Real/P02FiniteDescriptorOrbitResidual.lean": "56c4b60f842618e3db730a72d76fcce0514c0b8c5f6b6e12d07766b76ecf842c",
+  "lean/MCore/Real/P02FiniteDescriptorReduction.lean": "447ba8adacb67401f694cd7890e6995aa6433c9741d1dfa56413ed44d7b62d0e",
+  "lean/MCore/Real/P02FiniteDescriptorResidualCore.lean": "fe910f1c61a3d5889be04f260eb84b849f0a3263418ad6050f6ed43923f4cecb",
+  "lean/MCore/Real/P02FiniteDescriptorStructuralLaws.lean": "16370b4670cd0e5642a9a8e0a15675f99c6c367c35a9c1a3c74829497f9dec41",
+  "lean/MCore/Real/P02OpenMathRouteFalsification.lean": "586ef097a53d171a49f56ce23e0a540f22b1893f7198eb9dad9e236d363d70a3",
+  "lean/MCore/Real/P02SemanticAlignmentCountermodel.lean": "0d457b139e3753c9a2a306fda82f39f8b9dfa8cd5bcb071528bbc8ff14cd8383",
+  "lean/MCore/Real/P02SemanticFlipCore.lean": "5e470ca4cfa859e71f1084d344ede6ca93c21550e719845ab7085dbaa70ca7ef",
+  "lean/MCore/Real/P02SemanticTransformerCore.lean": "51275aac6d62500e26012422ceb3d2079cd08658d254b76a5bc1aac5056416f4",
+  "lean/MCore/Real/P02SemanticTransformerDichotomy.lean": "21d29903d28c6e28dcbd12ad7d922842e9dd3e3684fe49aabc04ee65175f4b33",
+  "lean/MCore/Real/P02TableauCompletenessActive.lean": "f203c58b67b5dfecb3f8a45d8beaf0d92082e27285fe133dd976a2f3a683e3e1",
+  "lean/MCore/Real/P02TableauCompletenessClose.lean": "a33ab64af390e24bfa515139f30ac230decc076a986ae137fe164a1e247ca204",
+  "lean/MCore/Real/P02TotalCandidateSemanticCore.lean": "c23e1b132782139e771d26edb12f08cd27a1536cbd26e76ac8bbf1cca15a897c",
+  "lean/MCore/Real/P02UniversalFailureMinCut.lean": "795fd1c870ea20518299d84fa45406fd288f08c3c59e677304cc5a76dc9bcb78",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-11-02T20:55:38Z",
+ "certificate_sha256": "ceefbbf289f5d409a885bd85d46e9661efd489e14fbeb23eb810ac97aa9e97e9"
+}

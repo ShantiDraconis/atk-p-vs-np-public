@@ -5,7 +5,7 @@ Lean sources from the branch `work/C12-progress-coverage` of the private reposit
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 29 — closed 29, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 8 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `ceac4631978a284c593639977114df6bddfdcab6a695b55e4cd93776dc5faebd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/work_C12-progress-coverage/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `6023b0fba75319fb1457281a58f8a9891af3c00b66a9a786559651740d7e2541`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/work_C12-progress-coverage/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

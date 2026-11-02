@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1564,7 +1564,7 @@
    "name": "MCore.Real.P01IntegratedExecutionAudit.current_decoder_evaluator_not_terminal",
    "file": "lean/MCore/Real/P01IntegratedExecutionAudit.lean",
    "line": 38,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : Option Bool, (decoderEvaluatorMachine.transition decodeInstr s).1 = readWitness ∧ (decoderEvaluatorMachine.transition readWitness s).1 = pushRes ∧ (decoderEvaluatorMachine.transition pushRes s).1 = decodeInstr"
   },
@@ -1572,7 +1572,7 @@
    "name": "MCore.Real.P01IntegratedExecutionAudit.decoder_cycle_nonhalting",
    "file": "lean/MCore/Real/P01IntegratedExecutionAudit.lean",
    "line": 32,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": decoderEvaluatorMachine.halting decodeInstr = false ∧ decoderEvaluatorMachine.halting readWitness = false ∧ decoderEvaluatorMachine.halting pushRes = false"
   },
@@ -1580,7 +1580,7 @@
    "name": "MCore.Real.P01IntegratedExecutionAudit.decoder_step",
    "file": "lean/MCore/Real/P01IntegratedExecutionAudit.lean",
    "line": 10,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : Option Bool, decoderEvaluatorMachine.transition decodeInstr s = (readWitness, s, .stay)"
   },
@@ -1588,7 +1588,7 @@
    "name": "MCore.Real.P01IntegratedExecutionAudit.push_step",
    "file": "lean/MCore/Real/P01IntegratedExecutionAudit.lean",
    "line": 24,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : Option Bool, decoderEvaluatorMachine.transition pushRes s = (decodeInstr, s, .stay)"
   },
@@ -1596,7 +1596,7 @@
    "name": "MCore.Real.P01IntegratedExecutionAudit.read_step",
    "file": "lean/MCore/Real/P01IntegratedExecutionAudit.lean",
    "line": 17,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ s : Option Bool, decoderEvaluatorMachine.transition readWitness s = (pushRes, s, .stay)"
   },
@@ -1668,7 +1668,7 @@
    "name": "MCore.Real.P01PhysicalContextualState.contextualArchitectureClosed",
    "file": "lean/MCore/Real/P01PhysicalContextualState.lean",
    "line": 84,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ContextualArchitectureClosed"
   },
@@ -1676,7 +1676,7 @@
    "name": "MCore.Real.P01PhysicalContextualState.rewind_halt_routes_decode",
    "file": "lean/MCore/Real/P01PhysicalContextualState.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(op : PhysicalOp) : rewindReturn op rewindHalt = .opcode opcodeDecoderMachine.initial"
   },
@@ -1684,7 +1684,7 @@
    "name": "MCore.Real.P01PhysicalContextualState.witness_false_routes_push_false",
    "file": "lean/MCore/Real/P01PhysicalContextualState.lean",
    "line": 91,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(op : PhysicalOp) : witnessReturn op (5 : Fin 6) = .stack op .push pushFalse"
   },
@@ -1692,7 +1692,7 @@
    "name": "MCore.Real.P01PhysicalContextualState.witness_true_routes_push_true",
    "file": "lean/MCore/Real/P01PhysicalContextualState.lean",
    "line": 87,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(op : PhysicalOp) : witnessReturn op (4 : Fin 6) = .stack op .push pushTrue"
   },
@@ -1892,7 +1892,7 @@
    "name": "MCore.Real.P01PhysicalGlobalRoutingFrontier.route_target_total",
    "file": "lean/MCore/Real/P01PhysicalGlobalRoutingFrontier.lean",
    "line": 58,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(ctrl : RoutingControl) : exists q : DispatcherState, routeEntryState ctrl = q"
   },
@@ -1900,7 +1900,7 @@
    "name": "MCore.Real.P01PhysicalGlobalRoutingFrontier.structural_dispatcher_requires_routing_payload",
    "file": "lean/MCore/Real/P01PhysicalGlobalRoutingFrontier.lean",
    "line": 51,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CrossPhaseRoutingPending"
   },
@@ -2028,7 +2028,7 @@
    "name": "MCore.Real.P01PhysicalPostorderTraversalFrontier.direct_prefix_execution_falsified",
    "file": "lean/MCore/Real/P01PhysicalPostorderTraversalFrontier.lean",
    "line": 27,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": encodeCircuit (.not (.const false)) != encodeEvalProgram (evalProgram (.not (.const false)))"
   },
@@ -2036,7 +2036,7 @@
    "name": "MCore.Real.P01PhysicalPostorderTraversalFrontier.functionalPostorderTarget_spec",
    "file": "lean/MCore/Real/P01PhysicalPostorderTraversalFrontier.lean",
    "line": 65,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Circuit) : functionalPostorderTarget phi = encodeEvalProgram (evalProgram phi)"
   },
@@ -2140,7 +2140,7 @@
    "name": "MCore.Real.P01PrefixFrameSemantics.physical_prefix_target_exact",
    "file": "lean/MCore/Real/P01PrefixFrameSemantics.lean",
    "line": 77,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (c : Circuit) (v : Bool) : PhysicalPrefixFrameSemanticTarget sigma c v <-> v = evalCircuit sigma c"
   },
@@ -2148,7 +2148,7 @@
    "name": "MCore.Real.P01PrefixFrameSemantics.prefixEval_complete",
    "file": "lean/MCore/Real/P01PrefixFrameSemantics.lean",
    "line": 29,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (c : Circuit) : PrefixEval sigma c (evalCircuit sigma c)"
   },
@@ -2156,7 +2156,7 @@
    "name": "MCore.Real.P01PrefixFrameSemantics.prefixEval_iff",
    "file": "lean/MCore/Real/P01PrefixFrameSemantics.lean",
    "line": 63,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (c : Circuit) (v : Bool) : PrefixEval sigma c v <-> v = evalCircuit sigma c"
   },
@@ -2164,7 +2164,7 @@
    "name": "MCore.Real.P01PrefixFrameSemantics.prefixEval_sound",
    "file": "lean/MCore/Real/P01PrefixFrameSemantics.lean",
    "line": 45,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{sigma : Assignment} {c : Circuit} {v : Bool} (h : PrefixEval sigma c v) : v = evalCircuit sigma c"
   },
@@ -2172,7 +2172,7 @@
    "name": "MCore.Real.P01PrefixFrameValueSemantics.frameValueEval_complete",
    "file": "lean/MCore/Real/P01PrefixFrameValueSemantics.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (c : Circuit) (fs : List Frame) (vs : List Bool) : FrameValueEval sigma c fs vs (evalCircuit sigma c)"
   },
@@ -2180,7 +2180,7 @@
    "name": "MCore.Real.P01PrefixFrameValueSemantics.frameValueEval_iff",
    "file": "lean/MCore/Real/P01PrefixFrameValueSemantics.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (c : Circuit) (fs : List Frame) (vs : List Bool) (v : Bool) : FrameValueEval sigma c fs vs v <-> v = evalCircuit sigma c"
   },
@@ -2188,7 +2188,7 @@
    "name": "MCore.Real.P01PrefixFrameValueSemantics.frameValueEval_sound",
    "file": "lean/MCore/Real/P01PrefixFrameValueSemantics.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{sigma : Assignment} {c : Circuit} {fs : List Frame} {vs : List Bool} {v : Bool} (h : FrameValueEval sigma c fs vs v) : v = evalCircuit sigma c"
   },
@@ -2196,7 +2196,7 @@
    "name": "MCore.Real.P01PrefixFrameValueSemantics.integratedPrefixPhysicalTarget_exact",
    "file": "lean/MCore/Real/P01PrefixFrameValueSemantics.lean",
    "line": 90,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(sigma : Assignment) (c : Circuit) (v : Bool) : IntegratedPrefixPhysicalTarget sigma c v <-> v = evalCircuit sigma c"
   },
@@ -2204,7 +2204,7 @@
    "name": "MCore.Real.P01SourceCopyHandoff.copiedSourceLayout_visible",
    "file": "lean/MCore/Real/P01SourceCopyHandoff.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(source : BitString) : CanonicalSATFrameAttack.tapeWord (copiedSourceLayout source) = source"
   },
@@ -2212,7 +2212,7 @@
    "name": "MCore.Real.P01SourceCopyHandoff.copied_visible_decode",
    "file": "lean/MCore/Real/P01SourceCopyHandoff.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(source : BitString) : CanonicalCircuitBits.decodeCircuit (CanonicalSATFrameAttack.tapeWord (copiedSourceLayout source)) = CanonicalCircuitBits.decodeCircuit source"
   },
@@ -2220,7 +2220,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopyMachine_blank",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 82,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": sourceCopyMachine.blank = none"
   },
@@ -2228,7 +2228,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopyMachine_halt",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 88,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": sourceCopyMachine.halting copyHalt = true"
   },
@@ -2236,7 +2236,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopyMachine_initial",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 85,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": sourceCopyMachine.initial = nextCell"
   },
@@ -2244,7 +2244,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopyMachine_next_not_halt",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 91,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": sourceCopyMachine.halting nextCell = false"
   },
@@ -2252,7 +2252,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopyTimeBound_poly",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 98,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": PolynomialTimeBound sourceCopyTimeBound"
   },
@@ -2260,7 +2260,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopy_empty",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 102,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": sourceCopyMachine.run 2 (initialTMConfig sourceCopyMachine []) = { state"
   },
@@ -2268,7 +2268,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopy_first_false",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 114,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs : BitString) : sourceCopyMachine.step (initialTMConfig sourceCopyMachine (false :: bs)) = { state"
   },
@@ -2276,7 +2276,7 @@
    "name": "MCore.Real.P01SourceCopyMachine.sourceCopy_first_true",
    "file": "lean/MCore/Real/P01SourceCopyMachine.lean",
    "line": 127,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(bs : BitString) : sourceCopyMachine.step (initialTMConfig sourceCopyMachine (true :: bs)) = { state"
   },
@@ -2284,15 +2284,15 @@
    "name": "MCore.Real.P01TerminalDelta.p01_terminal_gap_closes",
    "file": "lean/MCore/Real/P01TerminalDelta.lean",
    "line": 57,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
-   "statement": "MCore.Real.P01TerminalDelta.P01TerminalGap →   MCore.Real.CanonicalSATBoundary.SATInNPGap MCore.Real.CanonicalCircuitBits.circuitBitEncoding"
+   "statement": "(h : P01TerminalGap) : SATInNPGap circuitBitEncoding"
   },
   {
    "name": "MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_p02",
    "file": "lean/MCore/Real/P02KleeneBridgeFrontier.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CandidateCodingBridgeGap) : P02TerminalFrontier.P02Target"
   },
@@ -2300,7 +2300,7 @@
    "name": "MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_semantic_self_embedding",
    "file": "lean/MCore/Real/P02KleeneBridgeFrontier.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CandidateCodingBridgeGap) : SemanticSelfEmbeddingGap"
   },
@@ -2308,7 +2308,7 @@
    "name": "MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_gap_iff_semantic_self_embedding_gap",
    "file": "lean/MCore/Real/P02KleeneBridgeFrontier.lean",
    "line": 49,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CandidateCodingBridgeGap ↔ SemanticSelfEmbeddingGap"
   },
@@ -2316,7 +2316,7 @@
    "name": "MCore.Real.P02LowerBoundProducer.producer_gap_closes_internal_separation",
    "file": "lean/MCore/Real/P02LowerBoundProducer.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hNP : SATInNPGap circuitBitEncoding) (h : LowerBoundProducerGap) : PneqNP"
   },
@@ -2324,7 +2324,7 @@
    "name": "MCore.Real.P02LowerBoundProducer.producer_gap_closes_sat_fail",
    "file": "lean/MCore/Real/P02LowerBoundProducer.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : LowerBoundProducerGap) : SATFailGap circuitBitEncoding"
   },
@@ -2332,7 +2332,7 @@
    "name": "MCore.Real.P02LowerBoundProducer.producer_gap_iff_sat_fail",
    "file": "lean/MCore/Real/P02LowerBoundProducer.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": LowerBoundProducerGap ↔ SATFailGap circuitBitEncoding"
   },
@@ -2340,7 +2340,7 @@
    "name": "MCore.Real.P02OpenMathClosure.closure_enables_pneqnp",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 141,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (hNP : SATInNPGap circuitBitEncoding) (r : ClosureResult A B) (hProd : ProducesFailure A B left right r) : PneqNP"
   },
@@ -2348,7 +2348,7 @@
    "name": "MCore.Real.P02OpenMathClosure.closure_generator_enables_pneqnp",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 115,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (hNP : SATInNPGap circuitBitEncoding) (r : ClosureResult A B) (G : FailureGenerator (SATBits circuitBitEncoding)) (hG : failureGeneratorOfClosure left right r = some G) : PneqNP"
   },
@@ -2356,7 +2356,7 @@
    "name": "MCore.Real.P02OpenMathClosure.failureGeneratorOfClosure_negativeBoth",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 107,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (hna : ¬ A) (hnb : ¬ B) : failureGeneratorOfClosure left right (.negativeBoth hna hnb) = none"
   },
@@ -2364,7 +2364,7 @@
    "name": "MCore.Real.P02OpenMathClosure.failureGeneratorOfClosure_positiveLeft",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 89,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (ha : A) (hnb : ¬ B) : failureGeneratorOfClosure left right (.positiveLeft ha hnb) = some (left ha)"
   },
@@ -2372,7 +2372,7 @@
    "name": "MCore.Real.P02OpenMathClosure.failureGeneratorOfClosure_positiveRight",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 98,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (hna : ¬ A) (hb : B) : failureGeneratorOfClosure left right (.positiveRight hna hb) = some (right hb)"
   },
@@ -2380,7 +2380,7 @@
    "name": "MCore.Real.P02OpenMathClosure.negativeBoth_has_no_failureGenerator",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 131,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (hna : ¬ A) (hnb : ¬ B) : ¬ ∃ G, failureGeneratorOfClosure left right (.negativeBoth hna hnb) = some G"
   },
@@ -2388,7 +2388,7 @@
    "name": "MCore.Real.P02OpenMathClosure.positiveLeft_produces_failure",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (ha : A) (hnb : ¬ B) : ProducesFailure A B left right (.positiveLeft ha hnb)"
   },
@@ -2396,7 +2396,7 @@
    "name": "MCore.Real.P02OpenMathClosure.positiveRight_produces_failure",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (left : A → FailureGenerator (SATBits circuitBitEncoding)) (right : B → FailureGenerator (SATBits circuitBitEncoding)) (hna : ¬ A) (hb : B) : ProducesFailure A B left right (.positiveRight hna hb)"
   },
@@ -2404,7 +2404,7 @@
    "name": "MCore.Real.P02OpenMathClosure.true_true_impossible",
    "file": "lean/MCore/Real/P02OpenMathClosure.lean",
    "line": 172,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} (hAdmissible : Admissible A B) (ha : A) (hb : B) : False"
   },
@@ -2412,7 +2412,7 @@
    "name": "MCore.Real.P02SupportBundle.support_bundle_closes_internal",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP01 : SATInNPGap circuitBitEncoding) (S : SupportBundle) : PneqNP"
   },
@@ -2420,7 +2420,7 @@
    "name": "MCore.Real.P02SupportBundle.support_bundle_gap_closes_p02",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : SupportBundleGap) : P02Target"
   },
@@ -2428,7 +2428,7 @@
    "name": "MCore.Real.P02SupportBundle.support_bundle_gap_enables_pneqnp",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 50,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hP01 : SATInNPGap circuitBitEncoding) (h : SupportBundleGap) : PneqNP"
   },
@@ -2436,7 +2436,7 @@
    "name": "MCore.Real.P02SupportBundle.support_bundle_gap_iff_candidate_coding_bridge_gap",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 36,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": SupportBundleGap ↔ CandidateCodingBridgeGap"
   },
@@ -2444,7 +2444,7 @@
    "name": "MCore.Real.P02TheoremEnablement.p02_activation_iff_candidate_coding_bridge",
    "file": "lean/MCore/Real/P02TheoremEnablement.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": SupportBundleGap ↔ CandidateCodingBridgeGap"
   },
@@ -2452,7 +2452,7 @@
    "name": "MCore.Real.P02TheoremEnablement.theorem_enablement_closes_pneqnp",
    "file": "lean/MCore/Real/P02TheoremEnablement.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : TheoremEnablementCertificate) : PneqNP"
   },
@@ -2460,7 +2460,7 @@
    "name": "MCore.Real.P02TheoremEnablement.theorem_enablement_gap_closes",
    "file": "lean/MCore/Real/P02TheoremEnablement.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : TheoremEnablementGap) : PneqNP"
   },
@@ -2468,7 +2468,7 @@
    "name": "MCore.Real.PNPCanonicalHabitantStatus.current_frontier_closes",
    "file": "lean/MCore/Real/PNPCanonicalHabitantStatus.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : CanonicalSATCurrentFrontier) : PneqNP"
   },
@@ -2476,7 +2476,7 @@
    "name": "MCore.Real.PNPCanonicalHabitantStatus.p01_and_lower_bound_close_pneqnp",
    "file": "lean/MCore/Real/PNPCanonicalHabitantStatus.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(p01 : IntegratedExecutionCertificate) (lb : UniversalFailure CanonicalSATLanguage) : PneqNP"
   },
@@ -2484,7 +2484,7 @@
    "name": "MCore.Real.PNPHabitant.canonical_sat_habitant_closes",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 93,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : CanonicalSATPNPHabitant) : PneqNP"
   },
@@ -2492,7 +2492,7 @@
    "name": "MCore.Real.PNPHabitant.canonical_sat_habitant_gap_iff",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 82,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": CanonicalSATPNPHabitantGap ↔ InNP (CanonicalSATBoundary.SATBits CanonicalCircuitBits.circuitBitEncoding) ∧ UniversalFailure (CanonicalSATBoundary.SATBits CanonicalCircuitBits.circuitBitEncoding)"
   },
@@ -2500,7 +2500,7 @@
    "name": "MCore.Real.PNPHabitant.lower_bound_is_universal_failure",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 98,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : PNP_Habitant) : UniversalFailure H.L"
   },
@@ -2508,7 +2508,7 @@
    "name": "MCore.Real.PNPHabitant.p_ne_np_of_habitant",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 37,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : PNP_Habitant) : PneqNP"
   },
@@ -2516,7 +2516,7 @@
    "name": "MCore.Real.PNPHabitant.pnp_habitant_gap_closes",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 48,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : PNP_HabitantGap) : PneqNP"
   },
@@ -2524,7 +2524,7 @@
    "name": "MCore.Real.PNPHabitant.pnp_habitant_gap_iff_separation_certificate",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 54,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": PNP_HabitantGap ↔ Nonempty SeparationCertificate"
   },
@@ -2532,7 +2532,7 @@
    "name": "MCore.Real.PNPNormativeRoot.material_producer_closes",
    "file": "lean/MCore/Real/PNPNormativeRoot.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : MaterialProducerGap) : PneqNP"
   },
@@ -2540,7 +2540,7 @@
    "name": "MCore.Real.PNPNormativeRoot.material_producer_iff",
    "file": "lean/MCore/Real/PNPNormativeRoot.lean",
    "line": 39,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": MaterialProducerGap ↔ InNP CanonicalTarget ∧ OpenMathCore"
   },
@@ -2548,7 +2548,7 @@
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_certificate_closes_pneqnp",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(C : UnconditionalClaimCertificate) : PneqNP"
   },
@@ -2556,7 +2556,7 @@
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_closes",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : UnconditionalClaimGap) : PneqNP"
   },
@@ -2564,7 +2564,7 @@
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": UnconditionalClaimGap ↔ P01TerminalGap ∧ CandidateCodingBridgeGap"
   },
@@ -2572,7 +2572,7 @@
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff_minimal",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": UnconditionalClaimGap ↔ P01TerminalGap ∧ P02SemanticSelfEmbedding.SemanticSelfEmbeddingGap"
   },
@@ -2593,7 +2593,7 @@
    "statement": "∀ {f : Nat.Partrec.Code → Nat.Partrec.Code}, Computable f → ∃ c, (f c).eval = c.eval"
   }
  ],
- "closed": 94,
+ "closed": 66,
  "files_sha256": {
   "external/p02-kleene-adapter/P02KleeneAdapter/Probe.lean": "3febae17c5f5bc400dc30e7cdc74f13cd620cba8b9d0052bcf4fb81dcd286a0e",
   "external/p02-kleene-adapter/lakefile.toml": "ee4fe2f8b68ee8b10033e4afcfeadc4c16e4212ca75adaa2082c58120da9416c",
@@ -2668,22 +2668,14 @@
   "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
   "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
   "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
-  "lean/MCore/Real/P01ComponentFailProof.lean": "803a35048ec3d02e6821d7d535735d4fb299069405a22d8779bdda60e861726f",
-  "lean/MCore/Real/P01FinalCertificate.lean": "a2fb1783141c741fc51c2b9cc73bf6f7375c8557f30d7fb17c64c00819d0ed88",
   "lean/MCore/Real/P01FullVerifierEvalLocal.lean": "bfbe04a46b52fd36aa318f6a8f3d8fb74e84281ea0bef5c9b9d0d68c401bf16f",
-  "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean": "2dc0bc85bb3dbaab9bc6845f077824a418061fb1bec21f7a909d71c1836adec5",
   "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
   "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
   "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
   "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "2257354a0680e2bdc3251311ada1078384cc645980f2ee55a95b3e4bb58fc8ba",
   "lean/MCore/Real/P01FullVerifierPhysicalOps.lean": "939ea091bf257e2cbc73112f1ae9af36a287154e3ac2cb064465d163e22f3f24",
-  "lean/MCore/Real/P01FullVerifierPhysicalRefinement.lean": "b57ce117372a3697c5f8d05fbf7ee03ea02359de9995c86d85a0722e7d9bbf9c",
-  "lean/MCore/Real/P01FullVerifierPhysicalRefinementV2.lean": "905f0af6b1fbed7a83411c61670805cdc42010e37ce2057ff22a984d52e88868",
   "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
   "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "49463d7a70c897216483a2f4a8937090701a31a0b913cc94daa609657fade37c",
-  "lean/MCore/Real/P01FullVerifierReadWitnessLocal.lean": "a1c26884ade2f8bc16c38558f51ec88be82c2355581a034f58053be8974f6c5a",
-  "lean/MCore/Real/P01FullVerifierReverseDecoderGap.lean": "a0c06dc457b678173c1ba402d254d70f96e95c212eaf98f9bbe7708db64c75fb",
-  "lean/MCore/Real/P01FullVerifierShuttleReturn.lean": "0fa43be0a673bb8ba96010a275405f8fdf798635f5db1c089d21d8a0d59dea24",
   "lean/MCore/Real/P01FullVerifierSourceRewind.lean": "03b71436f2c11c961bea3ec0c7b221cf30710e95f66a3c9d2dac2b5f53086b33",
   "lean/MCore/Real/P01FullVerifierStackPrimitiveMachine.lean": "949a9a246fd38f3bb823494904f214ae6d6a8da7711f8a39630c40e854e4a027",
   "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
@@ -2691,10 +2683,8 @@
   "lean/MCore/Real/P01GlobalParserBound.lean": "669305bac06f0fb9f8c545dc3e6835475cb6b06c09dc2020dfe8e9279fadee24",
   "lean/MCore/Real/P01GlobalParserRuntime.lean": "06231c733b9e00df9f4dacb3a1c0a25976f5926d16a1e0455691155d6c6d2067",
   "lean/MCore/Real/P01GlobalParserSimulation.lean": "b7dc0476fb4341909a3a32fffe248855f8778bbd64bd1856be42ada78b19a0e5",
-  "lean/MCore/Real/P01IntegratedExecutionAudit.lean": "f1ea0c9366f98ed730077a364b81a9773a620b74662b457ab89f64995e198390",
   "lean/MCore/Real/P01IntegratedExecutionMachine.lean": "423b0f3073b8b7cd91d0c9e10bb0c85c5aaf83d247984815b6c42879ca754b43",
   "lean/MCore/Real/P01IntegratedMachine.lean": "3d6201c5dfec544f5c2239cd60504348847480d761a2c7a59b0977349217e4ca",
-  "lean/MCore/Real/P01IntegratedPhaseSemantics.lean": "8a141fcffae0aa73c0d1f443080af150e303b04beec5ea1f12f5a1b6387c922e",
   "lean/MCore/Real/P01ParserWitnessComposition.lean": "d0291d5a595a07a39fa660a2ac0344ffa98604f7a2bc873890e60ccdfb259dec",
   "lean/MCore/Real/P01ParserWitnessHandoffAudit.lean": "ae1ecf3b3ad7099e1a9eab9c219e3960fdf8fbad6055ee746da05e3009085218",
   "lean/MCore/Real/P01PhysicalDispatcher.lean": "5cf7b8348f960ef33bfd775e7870fc866d8bd658a249cc4b8879d27d26d34b27",
@@ -2702,34 +2692,20 @@
   "lean/MCore/Real/P01PhysicalDispatcherBridge.lean": "59640345f6257a30e42970ee313cd16bb62f4addcee99e4a5387e32a99a14aa3",
   "lean/MCore/Real/P01PhysicalEmbeddedRun.lean": "69caaadb3065ddc0a991fc79d5d07ce135e366ec397033441f683ffa46874052",
   "lean/MCore/Real/P01PhysicalEmbeddedRunMulti.lean": "4e5d1364b0c1c7a78ca52661821ad1dff9ca7a098d2821769e9c1acc2a5948d8",
-  "lean/MCore/Real/P01PhysicalGlobalRoutingFrontier.lean": "0d6e553bb87037f1b39592e5fd345ec4f1577be3bc063c41f72622aa8e6e69a5",
   "lean/MCore/Real/P01PhysicalOpcodeDecoder.lean": "ec60eff9072687647c1c60853245bb081c09257bcc2245602f34ac8e4a1531a6",
   "lean/MCore/Real/P01PhysicalOperationControl.lean": "c68bc2a892c180611834edff208fbb000b023caada096c082f6016fe74335a84",
-  "lean/MCore/Real/P01PhysicalPostorderTraversalFrontier.lean": "1f7a231d65f4c534d7570994ec288a24ecaca9f31aadfa7337503f73a8a69f41",
-  "lean/MCore/Real/P01PhysicalRealizationAssembly.lean": "87643a3b18e0d330a74766ed32b4f426f78a9894f918d664440c89a45baf3c75",
   "lean/MCore/Real/P01PhysicalRoutingAdapter.lean": "d87f9c20409b4fce8ebe4a8ee9d9fd79523e73db7da9a540ad888c5244952ce7",
-  "lean/MCore/Real/P01PhysicalVerifierBudget.lean": "281939f98910044d77c64fb82184141137dacb09613b8c660f126d2d46312423",
   "lean/MCore/Real/P01PhysicalVerifierFoundations.lean": "8e8883895b14a61057c2a38702b78c8338058b9795521817c7055ea8f93c79cc",
-  "lean/MCore/Real/P01PhysicalVerifierUniformCosts.lean": "7646831b1d07e90eb0eeb9853925d3fb6f3550cf01de5857ac737034384c421b",
-  "lean/MCore/Real/P01PrefixFrameSemantics.lean": "f21bcf6ac0f4d54c85248f350c1e7cd374b29c2ace064fb433ef87c507d77cd9",
-  "lean/MCore/Real/P01RecursiveFiniteControlFrontier.lean": "6e8b0b16b921a1524fd9c065de60b5fbaa7855c9161ee6e7e6a94a256236fc5a",
-  "lean/MCore/Real/P01SourceCopyMachine.lean": "a07da88ea8597fe28130dce39cfcd89d514c31ed4cd874908f81a649904154e7",
-  "lean/MCore/Real/P01T1DGlobalPhysical.lean": "2cc3593bed89b298199a9f7c06289dcb278e33dc4031ae6f96ca9368c9d5bf0e",
-  "lean/MCore/Real/P01T1DPhysicalAssembly.lean": "cc084d782507170c6759fb0cf15f25794343f5d59fbb4fc31b574efec29e5692",
-  "lean/MCore/Real/P01TerminalDelta.lean": "21cd42deccf50e399e991b6d522a32e432c4dbc87abe179865b52c9ddd185b46",
   "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
   "lean/MCore/Real/P01VerifierComposition.lean": "7d3383402858e8dfde062f1b2f036a92fd95d96b585473ede6ef550c2a7fcb66",
   "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
-  "lean/MCore/Real/P01WitnessBoundNormalization.lean": "f46e326066848e16889099a8ce5ebfc5c851f910ae70f5ca61817e8862930e06",
-  "lean/MCore/Real/P01WitnessGuessExecution.lean": "76dc0157d67833ed2a02a01ed6cc75610fc4eb25ef6789d9fa690bc8660e42ac",
   "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
   "lean/MCore/Real/P01WitnessIndexedReadMachine.lean": "ad83fffba6208428834d8ad865ae95dc4a2429b0d9360c5b318581fd9b7705d2",
   "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
-  "lean/MCore/Real/PNPHabitant.lean": "83b82deb267b5fd7dc159020c0977bd427e8ad60316513f1496d3ede807a1683",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:57Z",
- "certificate_sha256": "d6945af55def7104530ce23144f0398326cc2158ceb0a7d34ec95e8dc722dd76"
+ "published_at": "2026-11-02T20:55:38Z",
+ "certificate_sha256": "d76130d67f022e1ad94e7574bc66a06409d47e5d3925e14828d9b7bd407c7d5c"
 }

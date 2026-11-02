@@ -32,8 +32,6 @@ ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-cor
 5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/K7.lean
 4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/K8.lean
 b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/K9.lean
-a899f994e412e42f257ce939507d5ee32451d0e613956f24b3209f59e651fb94  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/P012/P012Core.lean
-4017b97c5a611d4155e7beca5eebb3885001e08f8799fa7859a242b7135e09c1  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/P012/P012PrimeArithmetic.lean
 c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/PrizeK0.lean
 cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CNFStructure.lean
 b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalCircuitBits.lean
@@ -49,8 +47,6 @@ cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a  branches/m-cor
 5197450ed46e2e9cb011525b08e2dd8d9d30c67256c0ce49f01510f2599f418c  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserInitMachine.lean
 0fa691116dc17d0548c687f79c1dadbf5614922fe9186fdafdee63b013e24b4b  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserInitProof.lean
 3671407d4b52d2f5eb288d6dac1c10a4dd7c7b65265d6cd1c889644ccec200cf  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserMachine.lean
-063b3947c20246842030578bd300912c0897fe63b075d534886e06462a54bcc2  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserMacroProof.lean
-7f2aa516ff3567e66392aadb9205d7d761151695d26173537734d0c0b6c6810a  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserNTM.lean
 000d3ea2ed3b0244dbfd408f99fac1ab6f8d218f03e1b40540f8cbd77cea1ee3  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserRewindProof.lean
 64019324f913467e64bcad3dfd2d1983acec6fc3bf2fbc2d0dd3d063df52d8c0  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserTapeLayout.lean
 28b046c66b56fca8b65059ce7362c72034a23b314806bb3df085fadd4843c9f3  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/CanonicalSATParserWorkScanProof.lean
@@ -66,13 +62,8 @@ b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca  branches/m-cor
 388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/MachineRunLemmas.lean
 83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/Model.lean
 803a35048ec3d02e6821d7d535735d4fb299069405a22d8779bdda60e861726f  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P01ComponentFailProof.lean
-210bde0d53502fb99df9dca16347e3cf65a13c6afe8504cc26ed0c55e1bad7c1  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P01PolynomialBudgetAlgebra.lean
 6e8b0b16b921a1524fd9c065de60b5fbaa7855c9161ee6e7e6a94a256236fc5a  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P01RecursiveFiniteControlFrontier.lean
 0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P01VerifiedRelation.lean
-f46e326066848e16889099a8ce5ebfc5c851f910ae70f5ca61817e8862930e06  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P01WitnessBoundNormalization.lean
-c3294771258646412234a23329e7851e621f55e28309fdc8548b870029482411  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02BitStringNatCoding.lean
-b8d4e79963dab8320c6ffb268e56903fc48fe0bea357a0705c1c0d43b81fe265  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02CanonicalNormalization.lean
 a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/SATMachine.lean
 16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/Semantics.lean
-9a65a5857493c85bc2becbfae9ce601b7afb37dca3e37f99d5df949784176b5b  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Research/ResidualRotationAlgebra.lean
 8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Signature.lean

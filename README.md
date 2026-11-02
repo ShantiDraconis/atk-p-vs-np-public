@@ -13,11 +13,11 @@ Do not add confidential data or third-party code without checking its license an
 <!-- mvei:start -->
 ## Lean sources and kernel check (MVEI)
 
-[`imports/m-core-p-vs-np/`](imports/m-core-p-vs-np/) holds the Lean sources of `ShantiDraconis/m-core-p-vs-np` at commit `328cb67` (2026-10-11): 150 files. In the MVEI verification the Lean kernel closed 1 509 theorems here (871 unique, without the lemmas Lean generates itself), with 0 conditional and 3 open (`sorry`). A closed theorem proves the statement written in the file; it is not a claim that an open problem is solved. Statements, axioms, the build log and how to reproduce: [`mvei/README.md`](mvei/README.md).
+[`imports/m-core-p-vs-np/`](imports/m-core-p-vs-np/) holds the Lean sources of `ShantiDraconis/m-core-p-vs-np` at commit `328cb67` (2026-10-11): 150 files. In the MVEI verification the Lean kernel closed 1 684 theorems here (922 unique, without the lemmas Lean generates itself), with 0 conditional and 44 open (`sorry`). A closed theorem proves the statement written in the file; it is not a claim that an open problem is solved. Statements, axioms, the build log and how to reproduce: [`mvei/README.md`](mvei/README.md).
 <!-- mvei:end -->
 
 <!-- mvei-branches:start -->
 ## Theorems found only on branches
 
-35 branch(es) with 2 108 theorems that exist only on branches and that the Lean kernel closed, each with a certificate (commit, date, history, SHA-256): [`branches/README.md`](branches/README.md).
+37 branch(es) with 1 748 theorems that exist only on branches and that the Lean kernel closed, each with a certificate (commit, date, history, SHA-256): [`branches/README.md`](branches/README.md).
 <!-- mvei-branches:end -->

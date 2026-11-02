@@ -3,23 +3,23 @@
 Lean sources from the branch `atk/p03-closure-repair-20261025` of the private repository `ShantiDraconis/m-core-p-vs-np`, commit `da7569c16f4d06c66ccc308085c613dfa2ee4d91` (2026-10-25T01:37:15+01:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: em andamento (not in the default branch).
-* Theorems only on branches, in this branch: 2133 — closed 1486, conditional 0, open 13, proof error 26, not reached 573, no result 35.
+* Theorems only on branches, in this branch: 2133 — closed 982, conditional 0, open 0, proof error 0, not reached 0, no result 1151.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `8751864696b4c08e6eaaa027f5a32dcedca32d406a46ec1657b20ab11ce9e784`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `60f6bd9debb48280cebd68b18b1a5d42f1efafb8be35f6c7efc82b8b972af722`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
 | Theorem | File | State |
 |---|---|---|
 | `MCore.Barrier.audit_erases` | `lean/MCore/Barrier/Audit.lean`:77 | fechado |
-| `MCore.Integration.WinWinLogic20261024.missing_half_iff_target` | `lean/MCore/Integration/WinWinLogic20261024.lean`:29 | fechado |
-| `MCore.Integration.WinWinLogic20261024.self_target_missing_half` | `lean/MCore/Integration/WinWinLogic20261024.lean`:41 | fechado |
-| `MCore.Integration.WinWinLogic20261024.simultaneous_sides_impossible` | `lean/MCore/Integration/WinWinLogic20261024.lean`:25 | fechado |
-| `MCore.Integration.WinWinLogic20261024.winwin_close` | `lean/MCore/Integration/WinWinLogic20261024.lean`:19 | fechado |
-| `MCore.Integration.WinWinMissingHalfAudit20261024.perfectFlip_missing_half_iff_target` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:37 | nao_alcancado |
-| `MCore.Integration.WinWinMissingHalfAudit20261024.present_half` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:33 | nao_alcancado |
-| `MCore.Integration.WinWinMissingHalfAudit20261024.winwin_over_p03_closes` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:52 | nao_alcancado |
-| `MCore.Integration.WinWinMissingHalfAudit20261024.winwin_over_p03_iff_target` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:42 | nao_alcancado |
+| `MCore.Integration.WinWinLogic20261024.missing_half_iff_target` | `lean/MCore/Integration/WinWinLogic20261024.lean`:29 | nao_checado |
+| `MCore.Integration.WinWinLogic20261024.self_target_missing_half` | `lean/MCore/Integration/WinWinLogic20261024.lean`:41 | nao_checado |
+| `MCore.Integration.WinWinLogic20261024.simultaneous_sides_impossible` | `lean/MCore/Integration/WinWinLogic20261024.lean`:25 | nao_checado |
+| `MCore.Integration.WinWinLogic20261024.winwin_close` | `lean/MCore/Integration/WinWinLogic20261024.lean`:19 | nao_checado |
+| `MCore.Integration.WinWinMissingHalfAudit20261024.perfectFlip_missing_half_iff_target` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:37 | nao_checado |
+| `MCore.Integration.WinWinMissingHalfAudit20261024.present_half` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:33 | nao_checado |
+| `MCore.Integration.WinWinMissingHalfAudit20261024.winwin_over_p03_closes` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:52 | nao_checado |
+| `MCore.Integration.WinWinMissingHalfAudit20261024.winwin_over_p03_iff_target` | `lean/MCore/Integration/WinWinMissingHalfAudit20261024.lean`:42 | nao_checado |
 | `MCore.Real.CanonicalFinalProof.not_pvsnpTerminalCertifies_iff_refutes` | `lean/MCore/Real/PvsNPTerminalLaw.lean`:21 | fechado |
 | `MCore.Real.CanonicalFinalProof.pvsnp_producer_certifies_terminal` | `lean/MCore/Real/PvsNPTerminalLaw.lean`:15 | fechado |
 | `MCore.Real.CanonicalFinalProof.pvsnp_terminal_cert_refute_disjoint` | `lean/MCore/Real/PvsNPTerminalLaw.lean`:25 | fechado |
@@ -191,7 +191,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.Real.P01CheckedVerifierRun.encodeCircuit_ne_nil` | `lean/MCore/Real/P01CheckedVerifierRun.lean`:40 | nao_checado |
 | `MCore.Real.P01CheckedVerifierRun.prepared_cnf_reaches_accepting_iff_eval_true` | `lean/MCore/Real/P01CheckedVerifierRun.lean`:143 | fechado |
 | `MCore.Real.P01CheckedVerifierRun.prepared_cnf_reaches_semantic_final` | `lean/MCore/Real/P01CheckedVerifierRun.lean`:55 | fechado |
-| `MCore.Real.P01DeterministicNTMEmbedding.runBranches_singleton_eq_run` | `lean/MCore/Real/P01DeterministicNTMEmbedding.lean`:112 | erro |
+| `MCore.Real.P01DeterministicNTMEmbedding.runBranches_singleton_eq_run` | `lean/MCore/Real/P01DeterministicNTMEmbedding.lean`:112 | nao_checado |
 | `MCore.Real.P01DirectVerifierInhabitant.acceptsWithin_iff_of_reached_terminal` | `lean/MCore/Real/P01DirectVerifierInhabitant.lean`:223 | fechado |
 | `MCore.Real.P01DirectVerifierInhabitant.circuit_reject_certificate` | `lean/MCore/Real/P01DirectVerifierInhabitant.lean`:36 | fechado |
 | `MCore.Real.P01DirectVerifierInhabitant.encodeCircuit_ne_nil` | `lean/MCore/Real/P01DirectVerifierInhabitant.lean`:68 | nao_checado |

@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-29T05:36:17+00:00",
+  "generated_at": "2026-10-30T16:50:26+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1524,391 +1524,391 @@
    "name": "MCore.Attack.canonicalFailureProducer_closes_separation",
    "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
    "line": 48,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(w : CanonicalFailureProducer) : ClosedDiscriminant.SeparationFinal Real.CanonicalComplexityBridge.canonicalInterface.inP Real.CanonicalComplexityBridge.canonicalInterface.inNP"
+   "statement": "MCore.Attack.CanonicalFailureProducer →   MCore.ClosedDiscriminant.SeparationFinal MCore.Real.CanonicalComplexityBridge.canonicalInterface.inP     MCore.Real.CanonicalComplexityBridge.canonicalInterface.inNP"
   },
   {
    "name": "MCore.Attack.canonicalFailureProducer_not_in_p",
    "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(w : CanonicalFailureProducer) : ¬ Real.CanonicalComplexityBridge.canonicalInterface.inP w.language"
+   "statement": "∀ (w : MCore.Attack.CanonicalFailureProducer), ¬MCore.Real.CanonicalComplexityBridge.canonicalInterface.inP w.language"
   },
   {
    "name": "MCore.Attack.canonicalSATInNP_closed",
    "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
    "line": 14,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": Real.CanonicalComplexityBridge.canonicalInterface.inNP (Real.CanonicalSATBoundary.SATBits Real.CanonicalCircuitBits.circuitBitEncoding)"
+   "statement": "MCore.Real.CanonicalComplexityBridge.canonicalInterface.inNP   (MCore.Real.CanonicalSATBoundary.SATBits MCore.Real.CanonicalCircuitBits.circuitBitEncoding)"
   },
   {
    "name": "MCore.Attack.canonicalSAT_failure_generator_closes_separation",
    "file": "lean/MCore/Attack/CanonicalTerminalProducer.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(G : Real.FailProofAllGaps.FailureGenerator (Real.CanonicalSATBoundary.SATBits Real.CanonicalCircuitBits.circuitBitEncoding)) : ClosedDiscriminant.SeparationFinal Real.CanonicalComplexityBridge.canonicalInterface.inP Real.CanonicalComplexityBridge.canonicalInterface.inNP"
+   "statement": "MCore.Real.FailProofAllGaps.FailureGenerator     (MCore.Real.CanonicalSATBoundary.SATBits MCore.Real.CanonicalCircuitBits.circuitBitEncoding) →   MCore.ClosedDiscriminant.SeparationFinal MCore.Real.CanonicalComplexityBridge.canonicalInterface.inP     MCore.Real.CanonicalComplexityBridge.canonicalInterface.inNP"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.cleanup_run_halts",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 672,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(result : Bool) (k : Nat) (left : List (Option Bool)) : preservingUnaryReadMachine.run (k + 1) { state"
+   "statement": "∀ (result : Bool) (k : Nat) (left : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (k + 1)       { state := MCore.Real.P01PreservingUnaryPhysicalRuns.cleanupState result,         tape :=           MCore.Real.P01PreservingUnaryPhysicalRuns.rightStreamTape left (List.replicate k none ++ [some false]) } =     { state := MCore.Real.P01PreservingUnaryP"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalRead_to_rewind",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 616,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(result : Bool) (left : List (Option Bool)) (bits : BitString) (after : List (Option Bool)) : preservingUnaryReadMachine.run 2 { state"
+   "statement": "∀ (result : Bool) (left : List (Option Bool)) (bits : MCore.Real.CanonicalFinalProof.BitString)   (after : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run 2       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.finalRead,         tape := { left := left, head := some result, right := none :: (List.map some bits ++ after) }"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBits_over_bits",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 568,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(bits : BitString) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (bits.length + 1) { state"
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString) (b : Bool) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (List.length bits + 1)       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.finalSeekBits,         tape := MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBitsTape bits b left right } =     { st"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBits_step_cons",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 556,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(x b : Bool) (xs : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+   "statement": "∀ (x b : Bool) (xs : MCore.Real.CanonicalFinalProof.BitString) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.step       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.finalSeekBits,         tape := MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBitsTape (x :: xs) b left right } =     { state := MCore.Real"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBlanks_over_blanks",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 498,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (k + 1) { state"
+   "statement": "∀ (k : Nat) (b : Bool) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (k + 1)       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.finalSeekBlanks,         tape := { left := List.replicate k none ++ some b :: left, head := none, right := right } } =     { state := MCore.Real.P01PreservingUnaryWitnessMachin"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.finalSeekBlanks_step_bit",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 541,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(first b : Bool) (bits : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+   "statement": "∀ (first b : Bool) (bits : MCore.Real.CanonicalFinalProof.BitString) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.step       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.finalSeekBlanks,         tape := { left := List.map some bits ++ none :: some b :: left, head := some first, right := right } } =     { s"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeConfig_eq_bits",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 295,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(pref suffix : BitString) (n : Nat) : indexSomeConfig pref suffix n = indexSomeBitsConfig pref suffix (encodeNat n)"
+   "statement": "∀ (pref suffix : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   MCore.Real.P01PreservingUnaryWitnessMachine.indexSomeConfig pref suffix n =     MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeBitsConfig pref suffix       (MCore.Real.CanonicalCircuitBits.encodeNat n)"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeFuel_le",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 996,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(m n : Nat) : indexSomeFuel m n ≤ (4 * (m + n) + 8) * n + 6 * (m + n) + 5"
+   "statement": "∀ (m n : Nat), MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeFuel m n ≤ (4 * (m + n) + 8) * n + 6 * (m + n) + 5"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_cycle_bits",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 301,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(first b next : Bool) (prefTail witnessTail sourceTail : BitString) : preservingUnaryReadMachine.run (4 * (first :: prefTail).length + 8) (indexSomeBitsConfig (first :: prefTail) (b :: witnessTail) (true :: next :: sourceTail)) = indexSomeBitsConfig ((first :: prefTail) ++ [b]) witnessTail (next :: sourceTail)"
+   "statement": "∀ (first b next : Bool) (prefTail witnessTail sourceTail : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (4 * (first :: prefTail).length + 8)       (MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeBitsConfig (first :: prefTail) (b :: witnessTail)         (true :: next :: sourceTail)) =     MCore.Real.P01PreservingUnaryPhy"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_false_finalize",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 727,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(pref : BitString) (selected : Bool) (rest : BitString) (hpref : pref ≠ []) : preservingUnaryReadMachine.run (indexSomeFinalizeFuel pref) (indexSomeConfig pref (selected :: rest) 0) = { state"
+   "statement": "∀ (pref : MCore.Real.CanonicalFinalProof.BitString) (selected : Bool) (rest : MCore.Real.CanonicalFinalProof.BitString),   pref ≠ [] →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run         (MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeFinalizeFuel pref)         (MCore.Real.P01PreservingUnaryWitnessMachine.indexSomeConfig pref (selected :: rest) 0) =       { s"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_forall",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 899,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(first : Bool) (prefTail rest : BitString) (n : Nat) (h : n < rest.length) : preservingUnaryReadMachine.run (indexSomeFuel (first :: prefTail).length n) (indexSomeConfig (first :: prefTail) rest n) = { state"
+   "statement": "∀ (first : Bool) (prefTail rest : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   n < List.length rest →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run         (MCore.Real.P01PreservingUnaryPhysicalRuns.indexSomeFuel (first :: prefTail).length n)         (MCore.Real.P01PreservingUnaryWitnessMachine.indexSomeConfig (first :: prefTail) rest n) =       { state :"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.indexSome_run_advance",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 479,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(pref : BitString) (b : Bool) (suffix : BitString) (n : Nat) (hpref : pref ≠ []) : preservingUnaryReadMachine.run (4 * pref.length + 8) (indexSomeConfig pref (b :: suffix) (n + 1)) = indexSomeConfig (pref ++ [b]) suffix n"
+   "statement": "∀ (pref : MCore.Real.CanonicalFinalProof.BitString) (b : Bool) (suffix : MCore.Real.CanonicalFinalProof.BitString)   (n : Nat),   pref ≠ [] →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (4 * List.length pref + 8)         (MCore.Real.P01PreservingUnaryWitnessMachine.indexSomeConfig pref (b :: suffix) (n + 1)) =       MCore.Real.P01PreservingUnaryWitnessMachine.ind"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnaryExactFuel_le_quadratic",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 1017,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(i : Nat) : preservingUnaryExactFuel i ≤ 16 * (i + 1) ^ 2"
+   "statement": "∀ (i : Nat), MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnaryExactFuel i ≤ 16 * (i + 1) ^ 2"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnary_run_exact",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 957,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(witness : BitString) (i : Nat) (hi : i < witness.length) : preservingUnaryReadMachine.run (preservingUnaryExactFuel i) { state"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < List.length witness →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run         (MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnaryExactFuel i)         { state := MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.initial,           tape := MCore.Real.P01WitnessIndexedRea"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.replicate_none_cons",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 253,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (source : List (Option Bool)) : List.replicate k none ++ (none :: source) = none :: (List.replicate k none ++ source)"
+   "statement": "∀ (k : Nat) (source : List (Option Bool)),   List.replicate k none ++ none :: source = none :: (List.replicate k none ++ source)"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.replicate_none_extend",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (right : List (Option Bool)) : List.replicate (k + 1) none ++ (none :: right) = List.replicate (k + 2) none ++ right"
+   "statement": "∀ (k : Nat) (right : List (Option Bool)),   List.replicate (k + 1) none ++ none :: right = List.replicate (k + 2) none ++ right"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.replicate_none_two_extend",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 716,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (left : List (Option Bool)) : List.replicate (k + 1) none ++ (none :: none :: left) = List.replicate (k + 3) none ++ left"
+   "statement": "∀ (k : Nat) (left : List (Option Bool)),   List.replicate (k + 1) none ++ none :: none :: left = List.replicate (k + 3) none ++ left"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.returnBits_over_bits",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 180,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(bits : BitString) (left after : List (Option Bool)) : preservingUnaryReadMachine.run (bits.length + 1) { state"
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString) (left after : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (List.length bits + 1)       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.returnBits,         tape := MCore.Real.P01PreservingUnaryPhysicalRuns.returnBitsTape bits left after } =     { state := MCore.Real.P"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.returnBits_step_cons",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 168,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(x : Bool) (xs : BitString) (left after : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+   "statement": "∀ (x : Bool) (xs : MCore.Real.CanonicalFinalProof.BitString) (left after : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.step       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.returnBits,         tape := MCore.Real.P01PreservingUnaryPhysicalRuns.returnBitsTape (x :: xs) left after } =     { state := MCore.Real.P01Preser"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.returnBlanks_over_blanks",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 210,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (k + 2) { state"
+   "statement": "∀ (k : Nat) (b : Bool) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (k + 2)       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.returnBlanks,         tape := { left := left, head := none, right := List.replicate k none ++ some b :: right } } =     { state := MCore.Real.P01PreservingUnaryWitnessMachine.P"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rewind_empty_to_cleanup",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 662,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(result : Bool) (left stream : List (Option Bool)) : preservingUnaryReadMachine.run 1 (rewindConfig result left [] (none :: stream)) = { state"
+   "statement": "∀ (result : Bool) (left stream : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run 1       (MCore.Real.P01PreservingUnaryPhysicalRuns.rewindConfig result left [] (none :: stream)) =     { state := MCore.Real.P01PreservingUnaryPhysicalRuns.cleanupState result,       tape := MCore.Real.P01PreservingUnaryPhysicalRuns.rightStreamTape (none :: none :: lef"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rewind_over_bits",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 641,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(result : Bool) (bits : BitString) (left : List (Option Bool)) (after : List (Option Bool)) : preservingUnaryReadMachine.run (3 * bits.length) (rewindConfig result left bits after) = rewindConfig result (bits.reverse.map some ++ left) [] after"
+   "statement": "∀ (result : Bool) (bits : MCore.Real.CanonicalFinalProof.BitString) (left after : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (3 * List.length bits)       (MCore.Real.P01PreservingUnaryPhysicalRuns.rewindConfig result left bits after) =     MCore.Real.P01PreservingUnaryPhysicalRuns.rewindConfig result (List.map some (List.reverse bits) ++ left)"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rewind_step_cons",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 630,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(result x : Bool) (xs : BitString) (left : List (Option Bool)) (after : List (Option Bool)) : preservingUnaryReadMachine.run 3 (rewindConfig result left (x :: xs) after) = rewindConfig result (some x :: left) xs after"
+   "statement": "∀ (result x : Bool) (xs : MCore.Real.CanonicalFinalProof.BitString) (left after : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run 3       (MCore.Real.P01PreservingUnaryPhysicalRuns.rewindConfig result left (x :: xs) after) =     MCore.Real.P01PreservingUnaryPhysicalRuns.rewindConfig result (some x :: left) xs after"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.rightStreamTape_blank_block",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 263,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (left source : List (Option Bool)) : rightStreamTape left (List.replicate k none ++ (none :: source)) = { left"
+   "statement": "∀ (k : Nat) (left source : List (Option Bool)),   MCore.Real.P01PreservingUnaryPhysicalRuns.rightStreamTape left (List.replicate k none ++ none :: source) =     { left := left, head := none, right := List.replicate k none ++ source }"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBits_over_bits",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 107,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(bits : BitString) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (bits.length + 1) { state"
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString) (b : Bool) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (List.length bits + 1)       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.seekBits,         tape := MCore.Real.P01PreservingUnaryPhysicalRuns.seekBitsTape bits b left right } =     { state := MCo"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBits_step_cons",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(x b : Bool) (xs : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+   "statement": "∀ (x b : Bool) (xs : MCore.Real.CanonicalFinalProof.BitString) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.step       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.seekBits,         tape := MCore.Real.P01PreservingUnaryPhysicalRuns.seekBitsTape (x :: xs) b left right } =     { state := MCore.Real.P01Preser"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBlanks_over_blanks",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : preservingUnaryReadMachine.run (k + 1) { state"
+   "statement": "∀ (k : Nat) (b : Bool) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run (k + 1)       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.seekBlanks,         tape := { left := List.replicate k none ++ some b :: left, head := none, right := right } } =     { state := MCore.Real.P01PreservingUnaryWitnessMachine.Pre"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.seekBlanks_step_bit",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 80,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(first b : Bool) (bits : BitString) (left right : List (Option Bool)) : preservingUnaryReadMachine.step { state"
+   "statement": "∀ (first b : Bool) (bits : MCore.Real.CanonicalFinalProof.BitString) (left right : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.step       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.seekBlanks,         tape := { left := List.map some bits ++ none :: some b :: left, head := some first, right := right } } =     { state"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryPhysicalRuns.shift_carry_return_to_stream",
    "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean",
    "line": 145,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(b : Bool) (left stream : List (Option Bool)) : preservingUnaryReadMachine.run 3 { state"
+   "statement": "∀ (b : Bool) (left stream : List (Option Bool)),   MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run 3       { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.shiftRead,         tape := { left := left, head := some b, right := none :: stream } } =     { state := MCore.Real.P01PreservingUnaryWitnessMachine.PreservingReadState.returnBits,       tape"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderBound.nonzeroReaderFuel_le_timeBound",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderBound.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(witness : BitString) (i : Nat) : nonzeroReaderFuel i ≤ preservingUnaryReaderTimeBound (witness.length + (encodeNat i).length)"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   MCore.Real.P01PreservingUnaryReaderBound.nonzeroReaderFuel i ≤     MCore.Real.P01PreservingUnaryReaderBound.preservingUnaryReaderTimeBound       (List.length witness + List.length (MCore.Real.CanonicalCircuitBits.encodeNat i))"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderBound.preservingUnaryReaderTimeBound_poly",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderBound.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": PolynomialTimeBound preservingUnaryReaderTimeBound"
+   "statement": "MCore.Real.CanonicalFinalProof.PolynomialTimeBound   MCore.Real.P01PreservingUnaryReaderBound.preservingUnaryReaderTimeBound"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderBound.zeroFuel_le_timeBound",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderBound.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(witness : BitString) : 5 ≤ preservingUnaryReaderTimeBound (witness.length + (encodeNat 0).length)"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString),   5 ≤     MCore.Real.P01PreservingUnaryReaderBound.preservingUnaryReaderTimeBound       (List.length witness + List.length (MCore.Real.CanonicalCircuitBits.encodeNat 0))"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCycleObligation_material",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
    "line": 99,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": SuccessorCycleObligation"
+   "statement": "MCore.Real.P01PreservingUnaryReaderFrontier.SuccessorCycleObligation"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCyclePhysicalEquality_closes_frontier",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
    "line": 84,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(hphys : SuccessorCyclePhysicalEquality) : SuccessorCycleObligation"
+   "statement": "MCore.Real.P01PreservingUnaryReaderFrontier.SuccessorCyclePhysicalEquality →   MCore.Real.P01PreservingUnaryReaderFrontier.SuccessorCycleObligation"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCyclePhysicalEquality_material",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": SuccessorCyclePhysicalEquality"
+   "statement": "MCore.Real.P01PreservingUnaryReaderFrontier.SuccessorCyclePhysicalEquality"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderFrontier.successorCycleSteps_bound",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(pref suffix : BitString) (n : Nat) (hpref : pref ≠ []) : successorCycleSteps pref ≤ (pref.length + n + suffix.length + 1)^2 + 16"
+   "statement": "∀ (pref suffix : MCore.Real.CanonicalFinalProof.BitString) (n : Nat),   pref ≠ [] →     MCore.Real.P01PreservingUnaryReaderFrontier.successorCycleSteps pref ≤       (List.length pref + n + List.length suffix + 1) ^ 2 + 16"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.encodeNat_length",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(i : Nat) : (encodeNat i).length = i + 1"
+   "statement": "∀ (i : Nat), List.length (MCore.Real.CanonicalCircuitBits.encodeNat i) = i + 1"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryExactFuel_le_timeBound",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(witness : BitString) (i : Nat) (hi : i < witness.length) : preservingUnaryExactFuel i ≤ preservingUnaryTimeBound (witness.length + (encodeNat i).length)"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < List.length witness →     MCore.Real.P01PreservingUnaryPhysicalRuns.preservingUnaryExactFuel i ≤       MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound         (List.length witness + List.length (MCore.Real.CanonicalCircuitBits.encodeNat i))"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryReaderGap_material",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 134,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": PreservingUnaryReaderGap"
+   "statement": "MCore.Real.P01PreservingUnaryReaderCertificate.PreservingUnaryReaderGap"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound_poly",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": PolynomialTimeBound preservingUnaryTimeBound"
+   "statement": "MCore.Real.CanonicalFinalProof.PolynomialTimeBound MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_correct_material",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ∀ (witness : BitString) (i : Nat) (hi : i < witness.length), preservingReadAccepting (preservingUnaryReadMachine.run (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < List.length witness →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingReadAccepting         (MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run             (MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound               (List.length witness + List.length (MCore.Real.Canonic"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_halts_material",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 78,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ∀ (witness : BitString) (i : Nat), i < witness.length → preservingUnaryReadMachine.HaltsWithin (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < List.length witness →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.HaltsWithin       (MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound         (List.length witness + List.length (MCore.Real.CanonicalCircuitBits.encodeNat i)))       { state := MCore.Real.P01PreservingUnaryWitnes"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_preserves_material",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 106,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": ∀ (witness : BitString) (i : Nat) (hi : i < witness.length), ∃ left right : List (Option Bool), (preservingUnaryReadMachine.run (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < List.length witness →     ∃ left right,       (MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run             (MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound               (List.length witness + List.length (MCore.Real.CanonicalCircuitBits.encodeNat i)))             { state := MCor"
   },
   {
    "name": "MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnary_run_timeBound",
    "file": "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean",
    "line": 46,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(witness : BitString) (i : Nat) (hi : i < witness.length) : preservingUnaryReadMachine.run (preservingUnaryTimeBound (witness.length + (encodeNat i).length)) { state"
+   "statement": "∀ (witness : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < List.length witness →     MCore.Real.P01PreservingUnaryWitnessMachine.preservingUnaryReadMachine.run         (MCore.Real.P01PreservingUnaryReaderMaterial.preservingUnaryTimeBound           (List.length witness + List.length (MCore.Real.CanonicalCircuitBits.encodeNat i)))         { state := MCore.Real.P01PreservingUnaryWitnessM"
   },
   {
    "name": "MCore.Real.P02ClockBridgeMaterial.correctAt_mono_clock",
    "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (c e : Nat) (hLe : ∀ n, M.timeBound n ≤ polynomialMajorant c e n) (L : BitLanguage) (x : BitString) (hCorrect : M.CorrectAt L x) : (withMajorantClock M c e).CorrectAt L x"
   },
@@ -1916,7 +1916,7 @@
    "name": "MCore.Real.P02ClockBridgeMaterial.exists_majorant_candidate_preserving_correctAt",
    "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (L : BitLanguage) (x : BitString) (hCorrect : M.CorrectAt L x) : ∃ c e : Nat, (withMajorantClock M c e).CorrectAt L x"
   },
@@ -1924,7 +1924,7 @@
    "name": "MCore.Real.P02ClockBridgeMaterial.polynomialMajorant_poly",
    "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
    "line": 13,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(c e : Nat) : PolynomialTimeBound (polynomialMajorant c e)"
   },
@@ -1932,7 +1932,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.G2_exactness_closed_by_refutation",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 54,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(R : G2RefutationWitness) : ¬ Nonempty TotalSemanticFailureProducer ∧ ¬ UniversalFailure CanonicalSAT"
   },
@@ -1940,7 +1940,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.mincut_exact_form",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 23,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty TotalSemanticFailureProducer ↔ UniversalFailure CanonicalSAT"
   },
@@ -1948,7 +1948,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.realization_refutes_totalSemanticFailure",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(R : G2RefutationWitness) : ¬ Nonempty TotalSemanticFailureProducer"
   },
@@ -1956,7 +1956,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.realization_refutes_universalFailure",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 35,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(R : G2RefutationWitness) : ¬ UniversalFailure CanonicalSAT"
   },
@@ -1964,7 +1964,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.refutationWitness_iff_sat_in_p",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty G2RefutationWitness ↔ InP CanonicalSAT"
   },
@@ -1972,7 +1972,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.semantic_negation_invariant_refuted",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SEMANTIC_NEGATION_INVARIANT_OPEN_MATH"
   },
@@ -1980,7 +1980,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_accepting",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 42,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).accepting = M.accepting"
   },
@@ -1988,7 +1988,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_haltsWithin",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (k : Nat) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.HaltsWithin k cfg ↔ M.machine.HaltsWithin k cfg"
   },
@@ -1996,7 +1996,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_run",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (k : Nat) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.run k cfg = M.machine.run k cfg"
   },
@@ -2004,7 +2004,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_stateCount",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).stateCount = M.stateCount"
   },
@@ -2012,7 +2012,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_step",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.step cfg = M.machine.step cfg"
   },
@@ -2020,7 +2020,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_toTM",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 47,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).toTM = M.machine"
   },
@@ -2028,7 +2028,7 @@
    "name": "MCore.Real.P02G2TruncationBoundary.universalDisagreementForcado",
    "file": "probe/P02G2TruncationBoundary.lean",
    "line": 27,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (selfCodeForcado M)"
   },
@@ -2036,7 +2036,7 @@
    "name": "MCore.Real.P02MachineSerialization.list_ofFn_getD",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{n : Nat} {α : Type} (f : Fin n → α) (i : Fin n) (d : α) : (List.ofFn f).getD i.val d = f i"
   },
@@ -2044,7 +2044,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_accepting_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 88,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) : (payloadToMachine (machinePayload enc)).accepting q = enc.accepting q"
   },
@@ -2052,7 +2052,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_halting_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 81,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) : (payloadToMachine (machinePayload enc)).halting q = enc.halting q"
   },
@@ -2060,7 +2060,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_initial_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 75,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) : (payloadToMachine (machinePayload enc)).initial = enc.initial"
   },
@@ -2068,7 +2068,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_toTM_run_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 111,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (k : Nat) (cfg : Configuration (Fin (enc.stateCount + 1)) (Option Bool)) : (payloadToMachine (machinePayload enc)).toTM.run k cfg = enc.toTM.run k cfg"
   },
@@ -2076,7 +2076,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_transition_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 95,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) (s : Option Bool) : (payloadToMachine (machinePayload enc)).transition q s = enc.transition q s"
   },
@@ -2084,7 +2084,7 @@
    "name": "MCore.Real.P02SemanticInvariantCore.invariantPoint_gives_semantic_failure",
    "file": "lean/MCore/Real/P02SemanticInvariantCore.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{M : PolyDTMCandidate} {hTotal : DeclaredClockTotal M} (R : ComplementSemanticReduction M hTotal) (W : InvariantPoint R) : let y"
   },
@@ -2092,7 +2092,7 @@
    "name": "MCore.Real.P02SemanticInvariantCore.totalInvariantPoint_closes_G2",
    "file": "lean/MCore/Real/P02SemanticInvariantCore.lean",
    "line": 89,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : TOTAL_INVARIANT_POINT_OPEN_MATH) : UniversalFailure CanonicalSAT"
   },
@@ -2100,7 +2100,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.no_secondBit_semanticNegationInvariant",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 101,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SemanticNegationInvariantPoint secondBitCandidate secondBitCandidate_total"
   },
@@ -2108,7 +2108,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBitCandidate_total",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": DeclaredClockTotal secondBitCandidate"
   },
@@ -2116,7 +2116,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_accepts_constTrue",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": DeclaredAccepts secondBitCandidate (encodeCircuit (.const true))"
   },
@@ -2124,7 +2124,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_rejects_constFalse",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 59,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ DeclaredAccepts secondBitCandidate (encodeCircuit (.const false))"
   },
@@ -2132,7 +2132,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_semanticNegation_flips",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 73,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(x : BitString) : ¬ (DeclaredAccepts secondBitCandidate (semanticNegationBits secondBitCandidate x) ↔ DeclaredAccepts secondBitCandidate x)"
   },
@@ -2140,7 +2140,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.semanticNegationInvariant_open_math_refuted",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 108,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SEMANTIC_NEGATION_INVARIANT_OPEN_MATH"
   },
@@ -2148,7 +2148,7 @@
    "name": "MCore.Real.P02SemanticNegationReduction.declaredAcceptBit_true_iff",
    "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
    "line": 25,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) : declaredAcceptBit M x = true ↔ DeclaredAccepts M x"
   },
@@ -2156,7 +2156,7 @@
    "name": "MCore.Real.P02SemanticNegationReduction.semanticNegationBits_flip",
    "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) : CanonicalSAT (semanticNegationBits M x) ↔ ¬ DeclaredAccepts M x"
   },
@@ -2164,7 +2164,7 @@
    "name": "MCore.Real.P02SemanticNegationReduction.semanticNegationInvariant_closes_G2",
    "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
    "line": 81,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(H : SEMANTIC_NEGATION_INVARIANT_OPEN_MATH) : UniversalFailure CanonicalSAT"
   },
@@ -2172,7 +2172,7 @@
    "name": "MCore.Real.P02TerminalForcingG2.failureLaw_iff_correctAt",
    "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(xM : CounterexampleSelector) : FailureLaw xM ↔ ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (xM M)"
   },
@@ -2180,7 +2180,7 @@
    "name": "MCore.Real.P02TerminalForcingG2.g2_terminal_iff_witness",
    "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
    "line": 52,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": G2_TERMINAL ↔ Nonempty UniversalFailureWitness"
   },
@@ -2188,7 +2188,7 @@
    "name": "MCore.Real.P02TerminalForcingG2.g2_terminal_implies_p_ne_np",
    "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
    "line": 60,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(h : G2_TERMINAL) : PneqNP"
   },
@@ -2196,7 +2196,7 @@
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.exists_timeout_of_not_total",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 23,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (h : ¬ DeclaredClockTotal M) : ∃ x : BitString, ¬ M.machine.HaltsWithin (M.timeBound x.length) (initialTMConfig M.machine x)"
   },
@@ -2204,7 +2204,7 @@
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_closes_internal_endpoint",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 93,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hNP : InNP CanonicalSAT) (P : TotalSemanticFailureProducer) : PneqNP"
   },
@@ -2212,7 +2212,7 @@
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_iff_universalFailure",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 128,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty TotalSemanticFailureProducer ↔ UniversalFailure CanonicalSAT"
   },
@@ -2220,7 +2220,7 @@
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_implies_universalFailure",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 88,
-   "state": "fechado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(P : TotalSemanticFailureProducer) : UniversalFailure CanonicalSAT"
   },
@@ -2228,7 +2228,7 @@
    "name": "MCore.Real.P02TruncationFrontier.universalDisagreementForcado",
    "file": "probe/P02TruncationFrontier.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (selfCodeForcado M)"
   },
@@ -2236,7 +2236,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.canonicalSAT_inNP",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": InNP CanonicalSAT"
   },
@@ -2244,7 +2244,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.g2_proved_implies_p_ne_np",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 72,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hG2 : UniversalFailure CanonicalSAT) : PneqNP"
   },
@@ -2252,7 +2252,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.g2_refutation_witness_iff_sat_in_p",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 66,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty G2RefutationWitness ↔ InP CanonicalSAT"
   },
@@ -2260,7 +2260,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.orient_from_canonicalSAT",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(T : CanonicalSATCompletenessTransfer) : Nonempty (FinalOrientation T)"
   },
@@ -2268,7 +2268,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.sat_in_p_implies_p_eq_np",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 30,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(T : CanonicalSATCompletenessTransfer) (hSAT : InP CanonicalSAT) : ∀ L : BitLanguage, InP L ↔ InNP L"
   },
@@ -2276,7 +2276,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.sat_not_in_p_implies_p_ne_np",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 41,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(hNotP : ¬ InP CanonicalSAT) : PneqNP"
   },
@@ -2284,7 +2284,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_iff_universalFailure",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 53,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty UniversalFailureWitness ↔ UniversalFailure CanonicalSAT"
   },
@@ -2292,7 +2292,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_notInP",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 37,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(W : UniversalFailureWitness) : ¬ InP CanonicalSAT"
   },
@@ -2300,7 +2300,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_p_ne_np",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(W : UniversalFailureWitness) : PneqNP"
   },
@@ -2308,7 +2308,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_universalFailure",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(W : UniversalFailureWitness) : UniversalFailure CanonicalSAT"
   },
@@ -2316,7 +2316,7 @@
    "name": "MCore.Real.P02UniversalSimMaterial.universalSim_none_iff",
    "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
    "line": 63,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (x : BitString) (fuel : Nat) : UniversalSim enc x fuel = none ↔ ¬ enc.toTM.HaltsWithin fuel (encodedInitialConfig enc x)"
   },
@@ -2324,7 +2324,7 @@
    "name": "MCore.Real.P02UniversalSimMaterial.universalSim_projected_correct",
    "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
    "line": 85,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) (fuel : Nat) (b : Bool) (k : Nat) : UniversalSim (projectFiniteMachine M) x fuel = some (b, k) ↔ k = fuel ∧ M.machine.HaltsWithin fuel (initialTMConfig M.machine x) ∧ b = M.accepting (M.machine.run fuel (initialTMConfig M.machine x)).state"
   },
@@ -2332,7 +2332,7 @@
    "name": "MCore.Real.P02UniversalSimMaterial.universalSim_some_iff",
    "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
    "line": 31,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (x : BitString) (fuel : Nat) (b : Bool) (k : Nat) : UniversalSim enc x fuel = some (b, k) ↔ k = fuel ∧ enc.toTM.HaltsWithin fuel (encodedInitialConfig enc x) ∧ b = enc.accepting (enc.toTM.run fuel (encodedInitialConfig enc x)).state"
   },
@@ -2340,7 +2340,7 @@
    "name": "MCore.Real.RigidLockNoReopen.detected_gain0_is_structural_evidence",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 55,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : InfiniteRouteAttempt P) (_h : isGain0Loop R = true) : R.Target ↔ P"
   },
@@ -2348,7 +2348,7 @@
    "name": "MCore.Real.RigidLockNoReopen.g2_pointwise_rigid_classification",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 108,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": rigidLock g2PointwiseRigidAttempt = .evidenceOfStructuralFixedPoint"
   },
@@ -2356,7 +2356,7 @@
    "name": "MCore.Real.RigidLockNoReopen.g2_pointwise_rigid_evidence",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 103,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": g2PointwiseRigidAttempt.Target ↔ P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2364,7 +2364,7 @@
    "name": "MCore.Real.RigidLockNoReopen.reject_equivalent_minimum",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 78,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P Pmin : Prop} (hEq : Pmin ↔ P) : (equivalent_subtarget_has_zero_terminal_gain hEq).Target ↔ P"
   },
@@ -2372,7 +2372,7 @@
    "name": "MCore.Real.RigidLockNoReopen.rigid_route_target_iff_terminal",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 43,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : InfiniteRouteAttempt P) : R.Target ↔ P"
   },
@@ -2380,7 +2380,7 @@
    "name": "MCore.Real.StructuralDiagonalObstruction.iterateCode_length_strict",
    "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
    "line": 32,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ (n : Nat) (x : BitString), x.length < (iterateCode D (n + 1) x).length"
   },
@@ -2388,7 +2388,7 @@
    "name": "MCore.Real.StructuralDiagonalObstruction.strict_length_no_literal_fixed_point",
    "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
    "line": 8,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ x : BitString, D x ≠ x"
   },
@@ -2396,7 +2396,7 @@
    "name": "MCore.Real.StructuralDiagonalObstruction.strict_length_no_positive_cycle",
    "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
    "line": 56,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ (n : Nat) (x : BitString), iterateCode D (n + 1) x ≠ x"
   },
@@ -2404,7 +2404,7 @@
    "name": "MCore.Real.StructuralFixedPoint.existential_auxiliary_zero_gain",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 45,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} {A : Type} {Q : A → Prop} (eliminate : (∃ a, Q a) → P) (introduce : P → ∃ a, Q a) : (∃ a, Q a) ↔ P"
   },
@@ -2412,7 +2412,7 @@
    "name": "MCore.Real.StructuralFixedPoint.g2_pointwise_iff_uniform",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 106,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (∀ M : PolyDTMCandidate, ∃ x : BitString, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT x) ↔ (∃ F : PolyDTMCandidate → BitString, ∀ M : PolyDTMCandidate, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT (F M))"
   },
@@ -2420,7 +2420,7 @@
    "name": "MCore.Real.StructuralFixedPoint.g2_structural_fixed_point",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 122,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": (∀ M : PolyDTMCandidate, ∃ x : BitString, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT x) ↔ P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2428,7 +2428,7 @@
    "name": "MCore.Real.StructuralFixedPoint.neg_and_iff_neg_or_neg",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 76,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} : ¬ (A ∧ B) ↔ (¬ A ∨ ¬ B)"
   },
@@ -2436,7 +2436,7 @@
    "name": "MCore.Real.StructuralFixedPoint.no_escape_from_terminal",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : ConservativeRefinement P) : R.target ↔ P"
   },
@@ -2444,7 +2444,7 @@
    "name": "MCore.Real.StructuralFixedPoint.pointwise_iff_uniform_selector",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} {R : A → W → Prop} : (∀ a : A, ∃ w : W, R a w) ↔ ∃ F : A → W, ∀ a : A, R a (F a)"
   },
@@ -2452,7 +2452,7 @@
    "name": "MCore.Real.StructuralFixedPoint.stable_mincut",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 93,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} {I : Type} (refine : I → ConservativeRefinement P) : ∀ i : I, (refine i).target ↔ P"
   },
@@ -2460,7 +2460,7 @@
    "name": "MCore.Real.StructuralFixedPoint.zero_gain_chain",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (C : ZeroGainChain P) : ∀ n : Nat, C.stage n ↔ P"
   },
@@ -2468,7 +2468,7 @@
    "name": "MCore.Real.StructuralFixedPointBreak.hdiag_real_implies_not_correctAt",
    "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) (M : PolyDTMCandidate) : ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT (B.diagonalInput M)"
   },
@@ -2476,7 +2476,7 @@
    "name": "MCore.Real.StructuralFixedPointBreak.perelman_break_closes_g2_terminal",
    "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) : P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2484,7 +2484,7 @@
    "name": "MCore.Real.StructuralFixedPointBreak.perelman_break_closes_p_ne_np",
    "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
    "line": 98,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) : PneqNP"
   },
@@ -2492,7 +2492,7 @@
    "name": "MCore.Real.StructuralNoReopen.close_from_positive_break",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 38,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (B : PositiveBreak P) : P"
   },
@@ -2500,7 +2500,7 @@
    "name": "MCore.Real.StructuralNoReopen.g2_close_from_positive_break",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 116,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "(B : PositiveBreak P02TerminalForcingG2.G2_TERMINAL) : P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2508,7 +2508,7 @@
    "name": "MCore.Real.StructuralNoReopen.g2_no_reopen",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 94,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": ": g2PointwiseGainZero.Target ↔ P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2516,7 +2516,7 @@
    "name": "MCore.Real.StructuralNoReopen.gainZero_fixed_point",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : GainZero P) : R.Target ↔ P"
   },
@@ -2524,16 +2524,19 @@
    "name": "MCore.Real.StructuralNoReopen.no_reopen_zero_gain_chain",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 44,
-   "state": "nao_alcancado",
+   "state": "nao_checado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (E : Nat → Prop) (h0 : E 0 ↔ P) (step : ∀ n : Nat, E (n + 1) ↔ E n) : ∀ n : Nat, E n ↔ P"
   }
  ],
- "closed": 4,
+ "closed": 48,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Attack/CanonicalTerminalProducer.lean": "7d858fd20406760580950a2d54ab7e0863bcc6cca7a91750e6465f10b771de8c",
+  "lean/MCore/BackwardAudit/ClosedDiscriminant.lean": "94232dacfadb9f186ef9af1a1d45f88c6f448a43e272f4d3eb8e83d3945afb53",
+  "lean/MCore/BackwardAudit/OrientedWitnessBoundary.lean": "e16f099cb24af5274153e5ed78e913324d9e762be1ba14a38123d6704b30e9dd",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
   "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
@@ -2565,15 +2568,137 @@
   "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
   "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
   "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalComplexityBridge.lean": "88b0b4c9e7217048659fa635cbda48e161f80ae491a998bbfa675b9287532277",
   "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalPSubsetNP.lean": "a80423e072f70ff5d2cf825f04b5aae410f5210afd7fa87a508037b709548140",
   "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean": "4458b9dbe909fb6c53d78d1fab16e8d27120e3c4c47ddc3ac5745e5c9f895daf",
   "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
   "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
-  "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean": "bf108c3c4db8e7c8ac5f53ef91218f25bb8303514c78cf992f79a8d837a66923",
+  "lean/MCore/Real/P01CNFMode.lean": "49708ee32e113d190069303dd73a5b1bb8e68a337d99ad26ca8cc04462478242",
+  "lean/MCore/Real/P01CheckedEvalReject.lean": "31a6d297e67125553997eb17b9ad0c46b7bab930db1083d1be9c3ef5787d1753",
+  "lean/MCore/Real/P01CheckedEvalRunBaseCases.lean": "2d440229efd81140765b1febcb0e2041ecec37c5e397badce450aabe1c1d1136",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedCertificate.lean": "7652a3a60ebfda5385c3adf16febb7a7fd880ed1b7bb90959cba599ea29fcddd",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedConst.lean": "6ed332a7f19c430d9668d5aa30b5c4531b3b6e12569726b4e829cfb2c74db513",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedHelpers.lean": "f09fd3323426d0e4dcd6a476c6b1d31d7399063703bb4f1ac3a96bff3cf5e5c7",
+  "lean/MCore/Real/P01CheckedEvalRunBoundedInput.lean": "4ac2c96d0e0c49d317bb52d6da893c89a5cdb35e25a075b7811618e2cf060e49",
+  "lean/MCore/Real/P01CheckedEvalRunCircuitCertificate.lean": "e8cfbbfcb1b2e5f2275ae3e20aa1f52f2873a9c4db64734cb94f0a026e16fb30",
+  "lean/MCore/Real/P01CheckedEvalRunHaveValue.lean": "04ddabc21b1c9914fdd15ab6c0a57ddb888518b8e0c7cfe294bbb38ecf20e21c",
+  "lean/MCore/Real/P01CheckedEvalRunInputTag.lean": "faf754bb1ed47f573c3a436c3b37ed59efb5af9bec25a45b803f548ef255a973",
+  "lean/MCore/Real/P01CheckedEvalRunLoopNTM.lean": "a182c8ed23202e51a66ef639d88958d406ecce2513dc2d8d582b0312100d7a35",
+  "lean/MCore/Real/P01CheckedEvalRunNeedTags.lean": "d1b7f42c55613613a19d2c5292c142ab57711d9961dd21a894ec23d2c9ab3abd",
+  "lean/MCore/Real/P01CheckedEvalRunPhaseLift.lean": "7d7301b66177df013fb3a8e6a1ad6af58a92694af1f6095c4dd422a37c6373ec",
+  "lean/MCore/Real/P01CheckedEvalRunTagPrefix.lean": "e86f337ccf68f41ae463395f32225ef271011e53e21d391ffd8e824466861bd4",
+  "lean/MCore/Real/P01CheckedVerifierBudget.lean": "700c68cd6488bfe456915b2347761070a39e9e3592934a8c9a1b778766eadb13",
+  "lean/MCore/Real/P01CheckedVerifierCompositeNTM.lean": "e42ad171999c88e2af9c19f3afd93a38d9fb137a5581b4fe60fbc7f5cc085f27",
+  "lean/MCore/Real/P01CheckedVerifierDeterminism.lean": "bc7de5ce82901fc631a7654d2ce426054dd92b6d3cd9085103601fd2325b9840",
+  "lean/MCore/Real/P01CheckedVerifierGlobalBudget.lean": "91f0ae95ff42b042fc702bb7d4b7d9109d55d704d974bfd74195fa070aa01022",
+  "lean/MCore/Real/P01CheckedVerifierGlobalCoreV2.lean": "eddced8268e8ead948ed12c26de8852708c54c76991c3dc5ef8fa227855f2ffe",
+  "lean/MCore/Real/P01CheckedVerifierInvariant.lean": "bc77f862e79fd52e79821a349d71cb0cb6d07adb2072f47a9b94c46459ba37df",
+  "lean/MCore/Real/P01CheckedVerifierManualFiniteState.lean": "952bc034fd88347f46b7ad20c29fcfad9505e95adabfb06955957ccc7fb511d2",
+  "lean/MCore/Real/P01CheckedVerifierRun.lean": "e7474cf1fc1af1a5d10011f9a2ac1ed7d224573fde0ebec13cfb29e71ffa3b2d",
+  "lean/MCore/Real/P01DirectVerifierInhabitant.lean": "99b896d890b7ca09a9fb4a3cab5d5a2fb8c74b4c8ca1a652b3deea02719fb7a0",
+  "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
+  "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
+  "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
+  "lean/MCore/Real/P01EvalCursorConsume.lean": "eb9518da610a8f3093a7b01e0728f56da590ca7ed25dc9eebedf90da252523d3",
+  "lean/MCore/Real/P01EvalCursorFramePop.lean": "19fb1a904b8ce1c3722ac7842b70f43445710beb6a40acef7f8f6bab72a59045",
+  "lean/MCore/Real/P01EvalCursorFramePush.lean": "60efaf72ca078f1c5f424b2f9639c03226de4eb5c540601caedb8906d6dfec1d",
+  "lean/MCore/Real/P01EvalCursorMachine.lean": "334a8f85835424cc3df77c31b69bf9dbb9b9826de0c6d31859d201a5ac4cc5d6",
+  "lean/MCore/Real/P01EvalCursorRoundTrip.lean": "6e18f3626364ddf28d290d3fb8d13a24d8792fe04d37481102741c26d3fb2cfe",
+  "lean/MCore/Real/P01EvalFramePopMachineV2.lean": "e0c1afd35037d8fa0597fa46a66359d77692c235d9067db05492144e187cfceb",
+  "lean/MCore/Real/P01EvalFramePushMachine.lean": "262e46a1aa5c75dee155f976e5fb998aafd144c98aa5808ee6a46e448a748d5f",
+  "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean": "537ce6156e5dc8b2488b645d04ef32203dacfffb3d2e5100f438020a67413a9f",
+  "lean/MCore/Real/P01EvalRunCircuitCertificate.lean": "25d327b8ece973b7d4b93e305a2ef3b42c759ed17455081cab210590b1b17203",
+  "lean/MCore/Real/P01EvalRunHaveValue.lean": "038ef3601fef649a8aa4c9e4dacbb2226d2461855b082fda9aae34596905710e",
+  "lean/MCore/Real/P01EvalRunInputTag.lean": "880c73694a04b35c73145dc8ac45cdc657ea37666fba2c507bd87e638ea88386",
+  "lean/MCore/Real/P01EvalRunLoopNTM.lean": "a8c041d48972b83a7b98346da4abee73f48aa88361ff783704f1aa1c3acedd68",
+  "lean/MCore/Real/P01EvalRunLoopRun.lean": "19e4cf7854ef9dffb51f1de22b73ed71d9bbd27d2b82074304a662732f086bd8",
+  "lean/MCore/Real/P01EvalStepCompositeNTM.lean": "34e0f2751846232cd8d86d200b8a1bc76986092d95c3c943dac8984f58aa15c1",
+  "lean/MCore/Real/P01EvalStepCompositeRun.lean": "b9accc345ec97bc09a659e90813f74c0bab7f2555d8b5b94e8916ce3ee336116",
+  "lean/MCore/Real/P01EvalStepSemanticRefinement.lean": "79cc25c10ff94b136e77112f8cba4b5d159ae4a003c4549b376e4be3bda20654",
+  "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean": "65f57eded7aa9085213da2975bb611899ae9381a4d101d25c1bf748d8e542649",
+  "lean/MCore/Real/P01ExactBoundedCircuitProducer.lean": "660e84c2d0fd2c0f3313c143fce557a54219e1eb89ff8334c03f0a83369bf994",
+  "lean/MCore/Real/P01ExactBoundedReject.lean": "e5ac3d820cba3a2d952917f45d66a1bfb351f9225bd23a1a6c132cd112dd40b5",
+  "lean/MCore/Real/P01ExactVerifierCanonicalRun.lean": "6df0322a082b4ccade83457625d755bfab41e082bfce78850cb8f3c541b3beaa",
+  "lean/MCore/Real/P01ExactVerifierGlobalBudget.lean": "366e5a42bf6b83de01c274502df51602828960cbf28bfba001cafe309a4a27b2",
+  "lean/MCore/Real/P01FinalCertificate.lean": "22e141679b28b1cb0b2ca6ec05516c2c9c8a8461e707a4e6c8e7b72f30626a3a",
+  "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean": "2dc0bc85bb3dbaab9bc6845f077824a418061fb1bec21f7a909d71c1836adec5",
+  "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
+  "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
+  "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
+  "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "e9f86bee64d482007e3e2feded7b9980c6f6c28a4c8a50a0d48672403dfb0322",
+  "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
+  "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "a666eaae40420970c54e5cf8652991427c660b6e529cbbb14c4bb843be46add9",
+  "lean/MCore/Real/P01FullVerifierSourceToStack.lean": "f6808aa9931696899bb256214b514bfe743167c1e1632dec18be0404148f00c7",
+  "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
+  "lean/MCore/Real/P01FullVerifierTraversal.lean": "b792b4dffa2c7e346fcd36e635c6d867a8a0898cfc5ee543c63ecc09666cdd1d",
+  "lean/MCore/Real/P01GuessedWitnessRelation.lean": "abea715b76e38d7fbaa3b81d2f0543e436f0bf6f5cd1ccad74ad9711ad747908",
+  "lean/MCore/Real/P01HaveValueCompositeNTM.lean": "1d1a7d8817f0d410c008b7c767b149442727cdf9eba5eea140d1e840b97d1bf8",
+  "lean/MCore/Real/P01HaveValueCompositeRun.lean": "c36792cb1c8e4b8a249173fe0815f09836fd1be9d6d34abb0fa6e74105230fa4",
+  "lean/MCore/Real/P01InputAfterReadReturn.lean": "2820cbad381e0a42e3ef28ea7e50f5f321d71b0ef506023c6eef8d46125bc36f",
+  "lean/MCore/Real/P01InputIndexLookahead.lean": "e1b57adcae5f90fe4c270a2cdec277bfcf41b8a1591f3336deda95de412e84dc",
+  "lean/MCore/Real/P01InputNodeCompositeNTM.lean": "380754fcb92a3ac4fa60f881384a68bbe3de11ce16dc0e00bca6b96366ef5b20",
+  "lean/MCore/Real/P01InputNodeCompositeRun.lean": "c5567592378d5d3bb8955ab1cc721097d01b97e3aaac5a74aa674717cad6dcb9",
+  "lean/MCore/Real/P01InputNodePreservingPlan.lean": "c4be8f54923be5dc9d797ea6c8a55ded89ef9e92c6be9b247529bed29388beff",
+  "lean/MCore/Real/P01InputNodeRoundTrip.lean": "e0973e561e3a456aa67f02cd09f5b8ded182e180e007fd0f848d3001d1790179",
+  "lean/MCore/Real/P01InputReturnMode.lean": "2a1d7cf6c91330ada6754cff12f83c0ae03314c880444d11fbb0050b1cbe89fc",
+  "lean/MCore/Real/P01IntegratedAssembly.lean": "efa987c1871b936497e02b6dbdab0baa3c0dbf0c596013500f7e2a137a8e38e7",
+  "lean/MCore/Real/P01ManualStateCodecBase.lean": "80f05ed8be22110bb99e5091ed2e41ce7516838d0ffad7883283a33a7bd6dd8d",
+  "lean/MCore/Real/P01ManualStateCodecComposite.lean": "2b5ed8ebeb3ca8ee3ae72e435d00d83bd827ac8b5e172a5160be9e67668f441a",
+  "lean/MCore/Real/P01NTMPhaseSeq.lean": "507e5f148ec100a51869305fecc56b9308f7eb48ea3229dc18ccd42551d59895",
+  "lean/MCore/Real/P01NTMRunLaws.lean": "5cf9499ac23d11c5e261c093c0ec700bdc9e0015e738f2efd9757035e60a6af5",
+  "lean/MCore/Real/P01NTMSeqRun.lean": "f873314ff18f20fc6235c4f869eee02d518c5c6cdd15f5e4e752a7fb7f7effdb",
+  "lean/MCore/Real/P01NeedExprCompositeNTM.lean": "3c5bc9af50dabe99c95ca8864ea099247669085d1c9d2ccbaf39f9f8bbd57005",
+  "lean/MCore/Real/P01NeedExprCompositeRun.lean": "a72e6bc9104e3c66ef66c8a42d03a2351254803d16ff302cf3c6253bbc33148e",
+  "lean/MCore/Real/P01NeedExprTagDecode.lean": "21ec123cc5f427e1557ef368b5bab0d270777fbf0545be616a0d41ddc9958c8b",
+  "lean/MCore/Real/P01PreservingUnaryPhysicalRuns.lean": "a4b585c496635c46e7a17f4fe6dce659649d6d50749f9b9467f0fbdcb466b5f0",
+  "lean/MCore/Real/P01PreservingUnaryReaderBound.lean": "98524f652f1c5a66f4defe58cc9a1e65651c5e61f55e4e77675ceda988054a55",
+  "lean/MCore/Real/P01PreservingUnaryReaderCertificate.lean": "e9c954bdf5b6cc64e68d133db05db8e4d205863fc72565a381e3cc01e1647c65",
+  "lean/MCore/Real/P01PreservingUnaryReaderFrontier.lean": "dae317591cbdb6c55c234d29e664cbe18f5e8ff5293149d574e2c6806c0ec057",
+  "lean/MCore/Real/P01PreservingUnaryReaderMaterial.lean": "e7eb8dc4ff015703463608b4296f547c7a1d260c694f34a00cc0b6be34aefa95",
+  "lean/MCore/Real/P01PreservingUnaryWitnessMachine.lean": "85f8498ecf025de219de5a134d25c0f10316b0e9c2d3e61fd33365958e1f5a8c",
+  "lean/MCore/Real/P01PreservingUnaryWitnessMarker.lean": "ff594b5d2e17f62ceecb206d67300a901286d545f9d149835d2531b310e86d3e",
+  "lean/MCore/Real/P01RawBaseExact.lean": "d77d08ad28fa3de5c35d4401faebf153ed4df1e4273bd6de14f2363bfe010665",
+  "lean/MCore/Real/P01RawDeadEnd.lean": "d08cbe4958e02819b5aa872fabf95888dab82ea86d596d05e6f3bc8e50fcba64",
+  "lean/MCore/Real/P01RawDecodeFailureDescent.lean": "7205f991ae9e2a28e8ccc2d6978caab522b946723602bbd2775ec4fd6754df22",
+  "lean/MCore/Real/P01RawDecodeFailureShape.lean": "6ff0cf6fc8117f33979302b2d8b005681ba51b2e19f17dc995b653b48dd99efe",
+  "lean/MCore/Real/P01RawDecodeInduction.lean": "c6e470cedca6ec4d1ef2596c624f6ed06f7d8bff0c2cff1c63fe2d748692eeb8",
+  "lean/MCore/Real/P01RawDecoderSound.lean": "794e8b8cf2ebb8f86d50d663532a92c93345a908355a462935728183e9c1b02c",
+  "lean/MCore/Real/P01RawEvalSink.lean": "da7b4f1fe6d2d879ca03659cb156f688d9e319ef5485695f76d9233d88b49c4b",
+  "lean/MCore/Real/P01RawGlobalBudgetLift.lean": "6089f266d18b42e0b63f5061367ac784aa6077137f73b66ff39251c0810792d3",
+  "lean/MCore/Real/P01RawMalformedTag.lean": "a67139f1ea0d5f5ba21bf961a314ed5396ace52084dd0bc3ceb7ced67eb5e01c",
+  "lean/MCore/Real/P01RawMalformedUnary.lean": "1a9b083c94166be442edb33fbd3f45a6fc10dcd66ab56c9238409fa187506cae",
+  "lean/MCore/Real/P01RawRecursiveBudget.lean": "d50dbf44ba4255e4adaafb66f86d5c8b4d534ae540cb1f2841fdb6a89d8b9f37",
+  "lean/MCore/Real/P01RawRecursiveSteps.lean": "de4036116d394aa2d15ce8a317ad3654fd565cafa11b0110313d7a111e447935",
+  "lean/MCore/Real/P01RawResidualReject.lean": "afa6a36c9c120a0fe591bc1f2e814d3b2011790268ef7e8e3ac54a7aa3653f30",
+  "lean/MCore/Real/P01RawSourceSplit.lean": "32df78c922f2bf908468bcf831880b41462050104d719bda191a387b28902a18",
+  "lean/MCore/Real/P01RawTotalizationMinCut.lean": "f5d6262ce7bf043ae340a6d7d03d63b7175be4cb04a9fb4e77a85d836f305726",
+  "lean/MCore/Real/P01RawTotalizationProducer.lean": "9480a726d6e766027a039045b5481f2b5445cd06b903fc9da51b1ecf6d08e0dd",
+  "lean/MCore/Real/P01RawVerifierLift.lean": "3fb67b181f09f13729de5f76fd14607c5764aac884fea67577bdd4165923ef79",
+  "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
+  "lean/MCore/Real/P01VerifierComposition.lean": "e98bd8fce28dda051ed418d25a82bc8e9c251ca1dcddde6bb6c092ea50ebbb3f",
+  "lean/MCore/Real/P01VerifierEvalCompositeNTM.lean": "5e7e45f664ba55836d754e5b05bc38283bb6331d47e66a7d645dde00799a226a",
+  "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
+  "lean/MCore/Real/P01VerifierStateCode.lean": "a95bc87dca929e61c40616bf6baade705b6e0105bd40ed7b6c11e8441b28560d",
+  "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
+  "lean/MCore/Real/P01WitnessIndexedReadGap.lean": "fff39492548c870016080d6414d9b58ad17fa377661fecfc8b2cefaeff5022a1",
+  "lean/MCore/Real/P01WitnessIndexedReadGapRaw.lean": "938110b6918c1123cc7209dabc1da5f061b56b956b05f90641170a7739334b85",
+  "lean/MCore/Real/P01WitnessIndexedReadPreserving.lean": "8026e111464329111f197ba07ed4eab4a30e4d0d71fdb2a120334b2b3c3008b6",
+  "lean/MCore/Real/P01WitnessPrepGlobal.lean": "fecdb82a710f59aeb20fd977734afbae6f2299222ea3c862f764a1fb3cd78913",
+  "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-10-29T20:15:57Z",
- "certificate_sha256": "854be9be5938870b01e355c49b3931fb95f3878564997562c7b33352d6d383bc"
+ "published_at": "2026-11-02T20:55:38Z",
+ "certificate_sha256": "c61eb99cba961f9c906137f14333745987dfe5516b3a4f7e7fc715abafa98f3c"
 }

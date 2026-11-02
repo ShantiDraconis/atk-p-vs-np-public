@@ -45,7 +45,6 @@ b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca  branches/m-cor
 5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/FailProofAllGaps.lean
 388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/MachineRunLemmas.lean
 83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/Model.lean
-ee21a346b7e0f6a4000f3b5c3b039edc61d0da8987985bcb927b1c68bbb08ddc  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/P01DecodeCoreLaws.lean
 12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/P01EncodedEvaluator.lean
 db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/P01EncodedFrameTape.lean
 cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de  branches/m-core-p-vs-np/atk_p01-terminal-promotion-candidate-20260930/lean/MCore/Real/P01EncodedStackEvaluator.lean

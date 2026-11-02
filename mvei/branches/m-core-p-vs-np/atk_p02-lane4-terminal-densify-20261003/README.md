@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-lane4-terminal-densify-20261003` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 1, conditional 0, open 0, proof error 0, not reached 3, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `37155533d19de130647396e31aff08280aa8a9e8c37f29b797cd8d55f7fa4aa9`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-lane4-terminal-densify-20261003/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `0eed9217a89913366f247f11516f9086653af99dfe95e7a3819ce74a59c297ff`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-lane4-terminal-densify-20261003/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

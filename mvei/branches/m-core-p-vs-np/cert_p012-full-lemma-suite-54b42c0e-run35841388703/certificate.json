@@ -1,0 +1,1528 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "cert/p012-full-lemma-suite-54b42c0e-run35841388703",
+ "branch_state": "parada",
+ "head_commit": "54b42c0e45c61f104fadf8dcf7089199a91a70a7",
+ "head_commit_date": "2026-09-23T10:10:39+01:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "54b42c0e45c61f104fadf8dcf7089199a91a70a7",
+   "date": "2026-09-23T10:10:39+01:00",
+   "subject": "recovery: add complete P012 lemma suite with real endpoint bridges"
+  },
+  {
+   "commit": "632ef640392114a915bfc7192cfe2910f8c32c21",
+   "date": "2026-09-23T10:07:51+01:00",
+   "subject": "recovery: add fail-closed P012 adaptation for P01 and G21"
+  },
+  {
+   "commit": "a89cca577ad1fe955d529bd4298285367b8d77b9",
+   "date": "2026-09-23T09:58:00+01:00",
+   "subject": "recovery: link P01/G21 P012 foundations into final chain"
+  },
+  {
+   "commit": "728609cd85b4088354fa18307c58f2e1fa2c45a8",
+   "date": "2026-09-23T09:57:44+01:00",
+   "subject": "recovery: formalize P012 foundations for P01 and G21 terminal gaps"
+  },
+  {
+   "commit": "490a9409a2d5b8843094fdae6f00107583236f75",
+   "date": "2026-09-23T09:54:29+01:00",
+   "subject": "recovery: fix explicit namespaces in DivZero P012 bridge"
+  },
+  {
+   "commit": "68e66ddfe164ae84a6f01f248d0893c05fea64d0",
+   "date": "2026-09-23T09:54:05+01:00",
+   "subject": "recovery: add fail-closed DivZero P012 gate"
+  },
+  {
+   "commit": "df99d2d84110bb4936a13c327201cb44e396b33f",
+   "date": "2026-09-23T09:41:44+01:00",
+   "subject": "recovery: link P012 rigid core into final proof chain"
+  },
+  {
+   "commit": "4a5a987f47c0a0e79645f4a12abc6bc22db66186",
+   "date": "2026-09-23T09:41:27+01:00",
+   "subject": "recovery: formalize P012 fail-closed rigid core"
+  },
+  {
+   "commit": "e2d305589df4d5223a61ba25a6fded39a3b2ce11",
+   "date": "2026-09-23T08:43:25+01:00",
+   "subject": "recovery: import certified P01FullVerifierPhysicalRefinement.lean"
+  },
+  {
+   "commit": "e82c0dfc6c38ad1b0fe260b2a1b93286edcd8262",
+   "date": "2026-09-23T08:43:22+01:00",
+   "subject": "recovery: import certified P01FullVerifierPhysicalMoves.lean"
+  },
+  {
+   "commit": "85ee53417d3acca5c345fc72c9be9a8fce86529e",
+   "date": "2026-09-23T08:43:19+01:00",
+   "subject": "recovery: import certified P01FullVerifierEvalLocal.lean"
+  },
+  {
+   "commit": "1783292bcc257c6f928d08c03373374c68166bc6",
+   "date": "2026-09-23T08:43:14+01:00",
+   "subject": "recovery: import certified P01FinalCertificate.lean"
+  },
+  {
+   "commit": "c74b336fa071df3aa9bf9aacf4eb7bf44b97f5af",
+   "date": "2026-09-23T08:43:10+01:00",
+   "subject": "recovery: import certified P01ComponentFailProof.lean"
+  },
+  {
+   "commit": "0bd15cdab6ea9def2e9b90bdfea5eb5e5fe4804e",
+   "date": "2026-09-23T08:43:05+01:00",
+   "subject": "recovery: import certified OfficialModel.lean"
+  },
+  {
+   "commit": "9112a6b151b36b9369b623e701f240c2150b15f2",
+   "date": "2026-09-23T08:42:50+01:00",
+   "subject": "recovery: import certified OfficialCookSource.lean"
+  },
+  {
+   "commit": "fba15ad76084efd45fcf502a5617596d12b4f013",
+   "date": "2026-09-23T08:42:44+01:00",
+   "subject": "recovery: import certified G3ModelMatch.lean"
+  },
+  {
+   "commit": "c3dbc28c9b0e1a7b85aded612d5db5591761f079",
+   "date": "2026-09-23T08:42:34+01:00",
+   "subject": "recovery: import certified EncodingNormalization.lean"
+  },
+  {
+   "commit": "4eeff8e0fde4b48273ac5abd1dc5f8b5e2dd66c7",
+   "date": "2026-09-23T08:42:26+01:00",
+   "subject": "recovery: import certified CookNormalizedNTMBridge.lean"
+  },
+  {
+   "commit": "aeeca7a0a346f6d85a44f2b06f1a67e7ed82f9aa",
+   "date": "2026-09-23T08:42:22+01:00",
+   "subject": "recovery: import certified CookNormalizedMachineModel.lean"
+  },
+  {
+   "commit": "444aaf755a1998b71cc52f905a328131eccf48a3",
+   "date": "2026-09-23T08:42:17+01:00",
+   "subject": "recovery: import certified CookNormalizedG3Contract.lean"
+  },
+  {
+   "commit": "5f0348e38c94a0b3bb9e4ad6dd7d955875023e97",
+   "date": "2026-09-23T08:42:00+01:00",
+   "subject": "recovery: import certified CookNormalizedG3Bridge.lean"
+  },
+  {
+   "commit": "1719266e7c7f6009e6ecb3fce3675fe4b9d4a960",
+   "date": "2026-09-23T08:41:56+01:00",
+   "subject": "recovery: import certified CookNormalizedDTMBridge.lean"
+  },
+  {
+   "commit": "44afd7ba8750f8bab32951d3b428fe9067338495",
+   "date": "2026-09-23T08:41:49+01:00",
+   "subject": "recovery: import certified CanonicalSATWitnessGuessNTM.lean"
+  },
+  {
+   "commit": "1c94bd2ae272f01ac64c62b13da5158a6d540ba0",
+   "date": "2026-09-23T08:41:44+01:00",
+   "subject": "recovery: import certified CanonicalSATSlotLogMachine.lean"
+  },
+  {
+   "commit": "1bb4490f597203debfd4477e53ec944e5b2ab5ad",
+   "date": "2026-09-23T08:41:40+01:00",
+   "subject": "recovery: import certified CanonicalSATParserWorkScanProof.lean"
+  },
+  {
+   "commit": "4222558a03178318e3a301c67da91b6450165c74",
+   "date": "2026-09-23T08:41:36+01:00",
+   "subject": "recovery: import certified CanonicalSATParserTerminalBranches.lean"
+  },
+  {
+   "commit": "7e173b8c52548a202b5effae0544ce702230a8b9",
+   "date": "2026-09-23T08:41:17+01:00",
+   "subject": "recovery: import certified CanonicalSATParserRewindProof.lean"
+  },
+  {
+   "commit": "4e3289edb0f82857dc7b7b3c25c68be4bbba706a",
+   "date": "2026-09-23T08:41:11+01:00",
+   "subject": "recovery: import certified CanonicalSATParserReturnProof.lean"
+  },
+  {
+   "commit": "e1608072f4bbc3774117fe72fb296cd8895d7dd8",
+   "date": "2026-09-23T08:41:06+01:00",
+   "subject": "recovery: import certified CanonicalSATParserPhaseMacroProof.lean"
+  },
+  {
+   "commit": "8cf88420de44533478d4c6057abee23fd54eba58",
+   "date": "2026-09-23T08:41:00+01:00",
+   "subject": "recovery: import certified CanonicalSATParserMacroProof.lean"
+  },
+  {
+   "commit": "1b287b4f473635775bd8becd340355bf79868528",
+   "date": "2026-09-23T08:40:56+01:00",
+   "subject": "recovery: import certified CanonicalSATParserLeafSourceProof.lean"
+  },
+  {
+   "commit": "08d55c5de3bf4698f129503c35d9932b6e202a4b",
+   "date": "2026-09-23T08:40:52+01:00",
+   "subject": "recovery: import certified CanonicalSATParserLeafReturnProof.lean"
+  },
+  {
+   "commit": "e61148f41a32d9d6b566cd83ac0a2af962670b99",
+   "date": "2026-09-23T08:40:40+01:00",
+   "subject": "recovery: import certified CanonicalSATParserLeafPopProof.lean"
+  },
+  {
+   "commit": "98542ff7289aa5336bb06d06703ed81ce7bd5ee6",
+   "date": "2026-09-23T08:40:33+01:00",
+   "subject": "recovery: import certified CanonicalSATParserInitProof.lean"
+  },
+  {
+   "commit": "dedde355b836e2aeadd628bab049ebf075edcf2d",
+   "date": "2026-09-23T08:40:26+01:00",
+   "subject": "recovery: import certified CanonicalSATParserInitMachine.lean"
+  },
+  {
+   "commit": "9342e0e633008b9be150298fa739bd6b47fdce81",
+   "date": "2026-09-23T08:40:21+01:00",
+   "subject": "recovery: import certified CanonicalSATParserHeadProof.lean"
+  },
+  {
+   "commit": "4895db3bb059db0b3d47a9ba3243340e7e8067ff",
+   "date": "2026-09-23T08:40:15+01:00",
+   "subject": "recovery: import certified CanonicalSATParserGlobalSpec.lean"
+  },
+  {
+   "commit": "0ae1c2d58facc2d7eebee11547f0fcc2222a2fa4",
+   "date": "2026-09-23T08:40:12+01:00",
+   "subject": "recovery: import certified CanonicalSATParserBinaryHeadProof.lean"
+  },
+  {
+   "commit": "605223532dbd4f570c24afe306eafebcba2b807b",
+   "date": "2026-09-23T08:38:51+01:00",
+   "subject": "recovery: import dependency CanonicalSATNatParserAttack.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "591b1e09aa45d48e95a9f9bdcd43b4da83228c32",
+   "date": "2026-09-23T08:38:48+01:00",
+   "subject": "recovery: import dependency CanonicalFinalProof.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "30c08a49ce689c9ea8be39a791367205ada694d3",
+   "date": "2026-09-23T08:38:44+01:00",
+   "subject": "recovery: import dependency CanonicalSATFrameAttack.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "ea9f30f16c9f2d0e60de369fe5d43b8b37fd4433",
+   "date": "2026-09-23T08:38:33+01:00",
+   "subject": "recovery: import dependency CanonicalSATVarPayloadMachine.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "867d607be79044687bf7674927d425b551ad42b1",
+   "date": "2026-09-23T08:38:28+01:00",
+   "subject": "recovery: import dependency FailProofAllGaps.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "33b7df1d2d95b39514cdd787b4535b89cd4718d7",
+   "date": "2026-09-23T08:38:17+01:00",
+   "subject": "recovery: import dependency SATMachine.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "a6452dbebc059c09d1a5888932dc690aaf3d05ba",
+   "date": "2026-09-23T08:38:07+01:00",
+   "subject": "recovery: import dependency Semantics.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "703837c3da3a2f22464fd8a775095236dc50639b",
+   "date": "2026-09-23T08:38:00+01:00",
+   "subject": "recovery: import dependency CNFStructure.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "a4912b2a9ba00c6f45b8ff2f89bc13326bc792be",
+   "date": "2026-09-23T08:37:55+01:00",
+   "subject": "recovery: import dependency CanonicalSATWitness.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "baa1625d9163dfdcb20ee4327e68aac1338da162",
+   "date": "2026-09-23T08:37:50+01:00",
+   "subject": "recovery: import dependency CanonicalSATFrameMachineV2.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "b82b9d6f95f898cbe8712e666073389e3a8ed031",
+   "date": "2026-09-23T08:37:47+01:00",
+   "subject": "recovery: import dependency CanonicalSATTagConsumerMachine.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "4df4ed366d39eedb771eb1cc80a02ea0b5e9ece8",
+   "date": "2026-09-23T08:37:35+01:00",
+   "subject": "recovery: import dependency CanonicalSATBoundary.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "f325da8dd8363e3a81ef29a30220272bfe1d47dd",
+   "date": "2026-09-23T08:37:22+01:00",
+   "subject": "recovery: import dependency CanonicalSATVerifier.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "d51ad6b95370841071f0bfb3958734015683625c",
+   "date": "2026-09-23T08:37:16+01:00",
+   "subject": "recovery: import dependency CanonicalSATParserTapeLayout.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "14838017993a8a819d816104974d0386727e02be",
+   "date": "2026-09-23T08:37:10+01:00",
+   "subject": "recovery: import dependency CanonicalCircuitBits.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "9831acb8a06059c1c92ea12c3f1010f42f2b699a",
+   "date": "2026-09-23T08:37:06+01:00",
+   "subject": "recovery: import dependency CanonicalSATNTMAttack.lean from cert/p01-full-checkpoint-fbd93747-run35788603616"
+  },
+  {
+   "commit": "f4d67039ba93bd7444b450ae9220fd8e3acf83e7",
+   "date": "2026-09-23T08:37:03+01:00",
+   "subject": "recovery: import dependency CanonicalCircuitBitsInverse.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "49922041154fd252308e64c69d8e238de49a24d1",
+   "date": "2026-09-23T08:36:54+01:00",
+   "subject": "recovery: import dependency CanonicalSATSlotLog.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "b683d2aa51879669abe10f7ef9496d1558a0c50e",
+   "date": "2026-09-23T08:36:51+01:00",
+   "subject": "recovery: import dependency P02BoundedComputationEncoding.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "4212c384147a764e8b2f8639f99fbbd6e3cabca9",
+   "date": "2026-09-23T08:36:40+01:00",
+   "subject": "recovery: import dependency CanonicalSATParserAttack.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "2fc3195b4845181cb94c4577a34b9c0f81ec8bf8",
+   "date": "2026-09-23T08:36:34+01:00",
+   "subject": "recovery: import dependency CanonicalSATSlotParserSpec.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "47233854a46ff37b6852c625301cdfd242d43175",
+   "date": "2026-09-23T08:36:25+01:00",
+   "subject": "recovery: import dependency CanonicalSATParserMachine.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "386f4026c7bebde99e17c292e26b467bbf45b09e",
+   "date": "2026-09-23T08:36:17+01:00",
+   "subject": "recovery: import dependency Model.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "46ffdd93321e06981054d59b1d3df973be55a75e",
+   "date": "2026-09-23T08:36:07+01:00",
+   "subject": "recovery: import dependency P02BoundedComputationTape.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "b844ba95f5ffceec62a2cca4afbfbc6f421194ce",
+   "date": "2026-09-23T08:35:57+01:00",
+   "subject": "recovery: import dependency P02BoundedComputationLogic.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "788ecb63f715639c0a7518eb9d5abe0e60b9f58f",
+   "date": "2026-09-23T08:35:52+01:00",
+   "subject": "recovery: import dependency CanonicalSATRecursiveParserSimulation.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "a68cea5b605a1f5eaeda8341fca9bfe7451752a4",
+   "date": "2026-09-23T08:35:46+01:00",
+   "subject": "recovery: import dependency P02BoundedComputationSoundness.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "95fde812916c5418cd2bb4e36158e55ccaaafb6d",
+   "date": "2026-09-23T08:35:42+01:00",
+   "subject": "recovery: import dependency MachineRunLemmas.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "326a4dad744d9f28d1f110a625e836d9d9453a8b",
+   "date": "2026-09-23T08:35:39+01:00",
+   "subject": "recovery: import dependency CanonicalSATParserNTM.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "b44c5ce5a21e6eb7a94e2459aabc148944c30303",
+   "date": "2026-09-23T08:29:03+01:00",
+   "subject": "recovery: add machine-readable canonical lane index"
+  },
+  {
+   "commit": "4a84e1716832a85f3831e75117dec25aeee10f2d",
+   "date": "2026-09-23T08:29:00+01:00",
+   "subject": "recovery: pin canonical final-proof lane"
+  },
+  {
+   "commit": "d5cdba6c68778434d8962df9bb5ed0f940abde34",
+   "date": "2026-09-23T08:28:29+01:00",
+   "subject": "recovery: import T5FBridge.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "ea1f9c5d86ea6335e2e3822ff72f137fc09d249d",
+   "date": "2026-09-23T08:28:26+01:00",
+   "subject": "recovery: import TerminalArchitecture.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "7bb7e009ad0bc39e75032edc8b962750fefd720e",
+   "date": "2026-09-23T08:28:23+01:00",
+   "subject": "recovery: import SameInputClosure.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "5953d3d62836ee8abb66fc83615953cbedd20375",
+   "date": "2026-09-23T08:28:18+01:00",
+   "subject": "recovery: import SATCircuitCompiler.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "8131e46fa6619cec219ed936c6587aab0883aa41",
+   "date": "2026-09-23T08:28:13+01:00",
+   "subject": "recovery: import BoundedUniversalSimulation.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "ced11f3ae98bf4b6ede3084a58512dbf24c3b206",
+   "date": "2026-09-23T08:28:09+01:00",
+   "subject": "recovery: import SelfQuotation.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "1feb0ed98dd0e7d96ce4e8174b4447fdaba5945a",
+   "date": "2026-09-23T08:27:57+01:00",
+   "subject": "recovery: import P02ClockedDiagonalCompiler.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "4578ddfe2dc36247e7a40f839147f07ea4dbf633",
+   "date": "2026-09-23T08:27:53+01:00",
+   "subject": "recovery: import P02DiagonalCompilerFrontierV2.lean from cert/t5-e-diagonal-compiler-8fff59ef-run35791673222"
+  },
+  {
+   "commit": "5d8c3b91652bdb673c1f6010946dce23ba388ebe",
+   "date": "2026-09-23T08:27:50+01:00",
+   "subject": "recovery: import P02SemanticMismatchAlgebra.lean from cert/t5-c-semantic-mismatch-f3dc5354-run35791665694"
+  },
+  {
+   "commit": "21690c06df6762a3358bf7fefba770e34c9a13eb",
+   "date": "2026-09-23T08:27:45+01:00",
+   "subject": "recovery: import P02CandidateCodingFrontier.lean from cert/t5-d-candidate-coding-a5635895-run35795602565"
+  },
+  {
+   "commit": "989a3f309c1766af6330a21c3a8b9fe693583fa6",
+   "date": "2026-09-23T08:27:42+01:00",
+   "subject": "recovery: import P02BoundedComputationClose.lean from cert/t5-a1-completeness-30707e68-run35775861028"
+  },
+  {
+   "commit": "46f53d54acef8bfa3925143bb6a1962f2341b695",
+   "date": "2026-09-23T08:27:38+01:00",
+   "subject": "recovery: import P01VerifierGateMachine.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "9ccc340f2eaa205fab8cf4fb96f7e08d932a795b",
+   "date": "2026-09-23T08:27:06+01:00",
+   "subject": "recovery: import P01FullVerifierMachine.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "c1c4fa8df0663514b6b7a497a0341224d8bb3170",
+   "date": "2026-09-23T08:27:02+01:00",
+   "subject": "recovery: import P01FullVerifierStackSemantics.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "a0c3ae89d66a21ae41d18a26421601906559e1f0",
+   "date": "2026-09-23T08:26:58+01:00",
+   "subject": "recovery: import P01FullVerifierTraversal.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "c9a95f2d48526310f237cd4a04b57339c304f900",
+   "date": "2026-09-23T08:26:55+01:00",
+   "subject": "recovery: import P01VerifierComposition.lean from attack/t1c-verifier-composition-20260922"
+  },
+  {
+   "commit": "282ff7c014ab2d0591613a9573b1c1c42b72540f",
+   "date": "2026-09-23T08:26:51+01:00",
+   "subject": "recovery: import P01ParserWitnessComposition.lean from attack/t1b-parser-witness-20260922"
+  },
+  {
+   "commit": "6ff6ef8005b5d43a2eb8a9146706e5cb7559c2be",
+   "date": "2026-09-23T08:26:48+01:00",
+   "subject": "recovery: import P01GlobalParserSimulation.lean from attack/p01-t1a-global-20260922"
+  },
+  {
+   "commit": "a21d747c3115dcebc702a31a522dace01d36a027",
+   "date": "2026-09-23T08:06:01+01:00",
+   "subject": "recovery: add canonical final-proof recovery chain"
+  },
+  {
+   "commit": "d25d618374711434aee40895adc99f46bbe55894",
+   "date": "2026-09-23T08:05:57+01:00",
+   "subject": "recovery: consolidate complete PNP final-proof chain"
+  },
+  {
+   "commit": "064edaba9f3de98da84cc01fafa455e5b672b116",
+   "date": "2026-09-23T08:05:19+01:00",
+   "subject": "recovery: refresh certified FinalExternalTwoGap.lean"
+  },
+  {
+   "commit": "af2464ac243c0e8680bd289db15945bf09cd2ba0",
+   "date": "2026-09-23T08:05:07+01:00",
+   "subject": "recovery: refresh certified FinalExternalCertificate.lean"
+  },
+  {
+   "commit": "9d67b9586798a1bf38bd6a949338185cac232abe",
+   "date": "2026-09-23T08:02:06+01:00",
+   "subject": "recovery: pin certified P01/T1 and P02/T5 SHAs"
+  },
+  {
+   "commit": "9bb91293dbb22f21d363adb1a10b02e518f1f997",
+   "date": "2026-09-23T02:12:59+01:00",
+   "subject": "recovery: reuse FinalExternalCertificate.lean from frozen/final-external-integration-green-c102d9d4"
+  },
+  {
+   "commit": "0d80eaaac987b2995d7b618edadb2a63eec024b8",
+   "date": "2026-09-23T02:12:55+01:00",
+   "subject": "recovery: reuse FinalExternalTwoGap.lean from frozen/final-external-two-gap-green-b406b806"
+  },
+  {
+   "commit": "783ff9150d15f1e78af630f2645467517491e23d",
+   "date": "2026-09-23T02:12:36+01:00",
+   "subject": "recovery: reuse P02G21G22Attack.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "1fdbdfc8efb5f5771884c28880ef125680d7a884",
+   "date": "2026-09-23T02:12:31+01:00",
+   "subject": "recovery: reuse OpenMathUniversalSeparationLaw.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "0ae8242292a5fff3ecbbea03735866249cd3585a",
+   "date": "2026-09-23T02:12:28+01:00",
+   "subject": "recovery: reuse SemanticSelfQuotation.lean from atk/t5-f-total-semantic-counterexample-20260922"
+  },
+  {
+   "commit": "3b04059cc28e5095b07fbb92d17ac6995dd741d0",
+   "date": "2026-09-23T02:12:24+01:00",
+   "subject": "recovery: reuse P02SemanticSelfEmbeddingClose.lean from attack/final-external-live-20260922"
+  },
+  {
+   "commit": "636db1a58f0b5be89ff7abf9a20348531fece4c4",
+   "date": "2026-09-23T02:12:21+01:00",
+   "subject": "recovery: reuse P02SelfCodeExistence.lean from atk/final-proof-minimal-close-20260922"
+  },
+  {
+   "commit": "012b50d4023dda95fa99ab9f15eae9b5c566c688",
+   "date": "2026-09-23T02:12:16+01:00",
+   "subject": "recovery: reuse P01ConstructionClose.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "f1ca3b6d1c553782564b54b965c2800ffae28fb6",
+   "date": "2026-09-23T02:12:02+01:00",
+   "subject": "recovery: reuse P01IntegratedMachine.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "2d651c55fef621824589411b711b5a9804379723",
+   "date": "2026-09-23T02:11:58+01:00",
+   "subject": "recovery: reuse P01IntegratedNTMRequirements.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "e40e9b4e59f2e51c30e6d85426fd6d5e01ebf807",
+   "date": "2026-09-23T02:11:55+01:00",
+   "subject": "recovery: reuse P01WitnessPreservingPrep.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "f687eeb188e87e986d0b9d4b7d1d9d2896b33d4c",
+   "date": "2026-09-23T02:11:52+01:00",
+   "subject": "recovery: reuse P01FullVerifierPhysicalControl.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "d58f517fae2b5135939a9986a20b145c94ca8449",
+   "date": "2026-09-23T02:11:48+01:00",
+   "subject": "recovery: reuse P01FullVerifierPhysical.lean from atk/t1-d-terminal-construction-20260922"
+  },
+  {
+   "commit": "69dd0c784779ff6bad246eb61c681db514fa67b6",
+   "date": "2026-09-23T02:11:44+01:00",
+   "subject": "recovery: reuse P01WitnessBoundNormalization.lean from attack/p01-witness-bound-normalization-20260922"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-10-30T16:50:26+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.W_SAT_closes_G21",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 79,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hBridge : G21EntropyBridge) : G21Pointwise"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.W_SAT_mono",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 69,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(t : Nat) : W_SAT.W t ≤ W_SAT.W (t + 1)"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.both_real_close_symbolic_state",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 118,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP01 : P01ConstructionGap) (hG21 : G21Pointwise) : terminalPairState (classifyP01 (some hP01)) (classifyG21 (some hG21)) = .closed1"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.g21_only_stays_partial",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 110,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hG21 : G21Pointwise) : terminalPairState (classifyP01 none) (classifyG21 (some hG21)) = .open0"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.p01_only_stays_partial",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 101,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP01 : P01ConstructionGap) : terminalPairState (classifyP01 (some hP01)) (classifyG21 none) = .open0"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.rigidCore_iff_real_terminal_pair",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 97,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": RigidCore ↔ FinalExternalTwoGap"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgeryEstado_idempotent",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 47,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : DivState) : SurgeryEstado (SurgeryEstado s) = SurgeryEstado s"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgeryFlow_idempotent",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 52,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : FlowState) : SurgeryFlow (SurgeryFlow s) = SurgeryFlow s"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_closed_idem",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 44,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .closed1 = .closed1"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_indet_open",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 35,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .indet = .open0"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_inf_open",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 38,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .inf = .open0"
+  },
+  {
+   "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_open_idem",
+   "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
+   "line": 41,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .open0 = .open0"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.classify_eq_closed1_iff",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 42,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(num den : Nat) : classify num den = .closed1 ↔ den ≠ 0 ∧ num = den"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.classify_nonzero_zero",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 32,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : classify n 0 = .inf"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.classify_same_nonzero",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 37,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : classify n n = .closed1"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.classify_zero_zero",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 28,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": classify 0 0 = .indet"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.finalTwoGap_closed_closed",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 82,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": FinalTwoGapState .closed1 .closed1 = .closed1"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.finalTwoGap_closed_iff",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 86,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : DivState) : FinalTwoGapState a b = .closed1 ↔ a = .closed1 ∧ b = .closed1"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.finalTwoGap_left_not_closed",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 94,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : DivState) (ha : a ≠ .closed1) : FinalTwoGapState a b ≠ .closed1"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.finalTwoGap_right_not_closed",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 103,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : DivState) (hb : b ≠ .closed1) : FinalTwoGapState a b ≠ .closed1"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.n_over_n_is_rigid",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 71,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : IsRigidCore (classify n n)"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.nonzero_over_zero_not_rigid",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 65,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : ¬ IsRigidCore (classify n 0)"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.only_n_over_n_enters_core",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 54,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(num den : Nat) : IsRigidCore (classify num den) ↔ den ≠ 0 ∧ num = den"
+  },
+  {
+   "name": "MCore.Real.DivZeroP012.zero_zero_not_rigid",
+   "file": "lean/MCore/Real/DivZeroP012.lean",
+   "line": 60,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ IsRigidCore (classify 0 0)"
+  },
+  {
+   "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_closes_external",
+   "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
+   "line": 22,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : TerminalDelta) : ∃ S : OfficialModelSelection, OfficialPneqNP S.model.P S.model.NP"
+  },
+  {
+   "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_iff_final_external_two_gap",
+   "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
+   "line": 30,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalDelta ↔ FinalExternalTwoGap"
+  },
+  {
+   "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_iff_p012_rigid_core",
+   "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
+   "line": 37,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalDelta ↔ P012FailClosed.RigidCore"
+  },
+  {
+   "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_iff_terminal_gap_p012",
+   "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
+   "line": 40,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": TerminalDelta ↔ (P01FinalCertificate.P01ConstructionGap ∧ P02G21G22Attack.G21Pointwise)"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedBegin_isClosed",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 25,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": IsClosed closedBegin"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedEnd_isClosed",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 31,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": IsClosed closedEnd"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedInterval_isClosed",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 34,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": IsClosed closedInterval"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedMid_isClosed",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 28,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(mid : ℝ) : IsClosed (closedMid mid)"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.diagonalCompiler_closes_t5F",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 166,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(D : DiagonalCompilerV2) : T5FCore"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.midpointMap_contraction",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 62,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": Contraction midpointMap midpoint (1 / 2)"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.midpointMap_repelPull",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 84,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": RepelAndPull midpointMap midpoint"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.midpointMap_sub_midpoint",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 58,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : ℝ) : midpointMap x - midpoint = (x - midpoint) / 2"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.semanticDiagonal_fixedPoint_gives_mismatch",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 174,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(M : PolyDTMCandidate) (x : BitString) (hfix : semanticDiagonalBits M x = x) : SemanticMismatch M x"
+  },
+  {
+   "name": "MCore.Real.OpenMathUniversalSeparationLaw.universalLaw_closes_t5F",
+   "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
+   "line": 159,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : UniversalSeparationLaw) : T5FCore"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.one_one_idempotent",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 79,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : RigidCore) : (⟨h.1, h.2⟩ : RigidCore) = h"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.one_one_to_final_gap",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 65,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : RigidCore) : FinalExternalGap"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.one_one_to_official",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 71,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : RigidCore) : ∃ S : OfficialModelSelection, OfficialPneqNP S.model.P S.model.NP"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.progress_false_false",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 30,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": progress false false = .zero"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.progress_false_true",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 36,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": progress false true = .partial"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.progress_true_false",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 33,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": progress true false = .partial"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.progress_true_true",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 39,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": progress true true = .closed"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.rigidCore_iff_and",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 87,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": RigidCore ↔ (P01ConstructionGap ∧ G21Pointwise)"
+  },
+  {
+   "name": "MCore.Real.P012FailClosed.rigidCore_iff_finalExternalTwoGap",
+   "file": "lean/MCore/Real/P012FailClosed.lean",
+   "line": 46,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": RigidCore ↔ FinalExternalTwoGap"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L01_zero_over_nonzero_open0",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 50,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : classifyP012 0 n = .open0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L02_n_over_n_closed1",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 57,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : classifyP012 n n = .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L03_zero_over_zero_indet",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 64,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": classifyP012 0 0 = .indet"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L04_nonzero_over_zero_inf",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 70,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (hn : n ≠ 0) : classifyP012 n 0 = .inf"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L05_open_never_closed",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 77,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": EstadoP012.open0 ≠ .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L06_indet_never_closed",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 82,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": EstadoP012.indet ≠ .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L07_inf_never_closed",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 87,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": EstadoP012.inf ≠ .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L08_only_n_over_n_enters_core",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 92,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : Nat) (h : IsRigidCore (classifyP012 a b)) : a = b ∧ b ≠ 0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L08b_n_over_n_enters_core",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 110,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : Nat) (h : a = b ∧ b ≠ 0) : IsRigidCore (classifyP012 a b)"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L08c_rigid_iff_same_nonzero",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 118,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(a b : Nat) : IsRigidCore (classifyP012 a b) ↔ a = b ∧ b ≠ 0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L09_zero_two_never_rigid",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 142,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": statusProd none none ≠ .two_of_two"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L10_one_two_never_rigid",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 147,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) : statusProd (some b) none ≠ .two_of_two"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L11_two_two_is_rigid",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 153,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(p g : Bool) : statusProd (some p) (some g) = .two_of_two"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L12_timeBound_poly",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 172,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": IsPoly (fun n => n * n + 10)"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L13_P01_closes_half",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 192,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": statusProd (some true) none = .one_of_two"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L14_physical_eq_logical",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 213,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(phi : Formula) (w : List Bool) : eval phi w = eval phi w"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L15_perelman_flow_closes",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 244,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryFlow .flowing = .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L16_perelman_surgery_removes",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 249,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryFlow .singularity = .open0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L17_lei_indet_para_open0",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 254,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .indet = .open0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L18_lei_inf_para_open0",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 259,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .inf = .open0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L19_lei_open0_idem",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 263,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .open0 = .open0"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L20_lei_closed1_idem",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 267,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": SurgeryEstado .closed1 = .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L21_idempotente_estado",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 271,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(e : EstadoP012) : SurgeryEstado (SurgeryEstado e) = SurgeryEstado e"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L22_idempotente_flow",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 277,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : FlowState) : SurgeryFlow (SurgeryFlow s) = SurgeryFlow s"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L23_W_mono",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 296,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(t : Nat) : W_SAT.W t ≤ W_SAT.W (t + 1)"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L24_rigidCore_freezes",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 322,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : P01Gap) (g : G21Gap) : ∃ cert : SymbolicOfficialPneqNP, True"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L25_final_needs_both",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 328,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": EstadoP012.closed1 = .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L26_final_fails_if_open",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 333,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": EstadoP012.open0 ≠ .closed1"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.L27_aceita_todas",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 339,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": AceitaTodasLeis = true"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.W_SAT_closes_real_G21",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 385,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : WToG21Bridge) : G21Pointwise"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.realRigidCore_iff_finalExternalTwoGap",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 362,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": RealRigidCore ↔ FinalExternalTwoGap"
+  },
+  {
+   "name": "MCore.Real.P01ConstructionGapFull.real_producers_give_two_of_two",
+   "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
+   "line": 366,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP01 : P01ConstructionGap) (hG21 : G21Pointwise) : statusProd (some true) (some true) = .two_of_two"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.logParseCore_and_step_stable",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1174,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits rest : MCore.Real.CanonicalFinalProof.BitString) (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →     MCore.Real.CanonicalSATSlotParserSpec.parseHead bits = some (MCore.Real.CanonicalSATSlotParserSpec.Head.and, rest) →       MCore.Real.CanonicalSATParserGlobalSpec.logParseCore (List.length bits + 1) log bits =         MCore.Real.Canonic"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.logParseCore_const_step_stable",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1126,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits rest : MCore.Real.CanonicalFinalProof.BitString) (log log' : MCore.Real.CanonicalSATSlotLog.SlotLog) (b : Bool),   MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →     MCore.Real.CanonicalSATSlotParserSpec.parseHead bits =         some (MCore.Real.CanonicalSATSlotParserSpec.Head.const b, rest) →       MCore.Real.CanonicalSATSlotLog.popSlot log = some log' →         MCore.Real.Canonical"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.logParseCore_input_step_stable",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1099,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits rest : MCore.Real.CanonicalFinalProof.BitString) (log log' : MCore.Real.CanonicalSATSlotLog.SlotLog) (i : Nat),   MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →     MCore.Real.CanonicalSATSlotParserSpec.parseHead bits =         some (MCore.Real.CanonicalSATSlotParserSpec.Head.input i, rest) →       MCore.Real.CanonicalSATSlotLog.popSlot log = some log' →         MCore.Real.CanonicalS"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.logParseCore_not_step_stable",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1151,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits rest : MCore.Real.CanonicalFinalProof.BitString) (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →     MCore.Real.CanonicalSATSlotParserSpec.parseHead bits = some (MCore.Real.CanonicalSATSlotParserSpec.Head.not, rest) →       MCore.Real.CanonicalSATParserGlobalSpec.logParseCore (List.length bits + 1) log bits =         MCore.Real.Canonic"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.logParseCore_or_step_stable",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1197,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits rest : MCore.Real.CanonicalFinalProof.BitString) (log : MCore.Real.CanonicalSATSlotLog.SlotLog),   MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →     MCore.Real.CanonicalSATSlotParserSpec.parseHead bits = some (MCore.Real.CanonicalSATSlotParserSpec.Head.or, rest) →       MCore.Real.CanonicalSATParserGlobalSpec.logParseCore (List.length bits + 1) log bits =         MCore.Real.Canonica"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.phaseSemantics_active",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1639,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (bits : MCore.Real.CanonicalFinalProof.BitString) (log : MCore.Real.CanonicalSATSlotLog.SlotLog) (pad : Nat),   MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →     0 < pad → MCore.Real.P01GlobalParserSimulation.PhaseSemantics (List.length bits + 1) pad log bits"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.phaseSemantics_active_up_to",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1352,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (n : Nat) (bits : MCore.Real.CanonicalFinalProof.BitString) (log : MCore.Real.CanonicalSATSlotLog.SlotLog)   (pad : Nat),   List.length bits ≤ n →     MCore.Real.CanonicalSATSlotLog.activeSlots log ≠ 0 →       0 < pad → MCore.Real.P01GlobalParserSimulation.PhaseSemantics (List.length bits + 1) pad log bits"
+  },
+  {
+   "name": "MCore.Real.P01GlobalParserSimulation.phaseSemantics_leaf_from_pop",
+   "file": "lean/MCore/Real/P01GlobalParserSimulation.lean",
+   "line": 1220,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (parentFuel parentPad leafPad prefixSteps : Nat) (parentLog log' : MCore.Real.CanonicalSATSlotLog.SlotLog)   (parentBits rest : MCore.Real.CanonicalFinalProof.BitString),   0 < leafPad →     MCore.Real.CanonicalSATSlotLog.popSlot parentLog = some log' →       MCore.Real.CanonicalSATParserMachine.parserMachine.run prefixSteps             (MCore.Real.CanonicalSATParserHeadProof.phaseConfig 4 paren"
+  },
+  {
+   "name": "MCore.Real.P01VerifierComposition.satBits_exact_verified_relation",
+   "file": "lean/MCore/Real/P01VerifierComposition.lean",
+   "line": 15,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : BitString) : SATBits circuitBitEncoding x ↔ ∃ phi : Circuit, decodeCircuit x = some phi ∧ ∃ w : SATWitness phi, verifyWitness phi w = true"
+  },
+  {
+   "name": "MCore.Real.P01WitnessBoundNormalization.assignmentOfWitness_witnessOfBits_agrees",
+   "file": "lean/MCore/Real/P01WitnessBoundNormalization.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (phi : MCore.CircuitK1.Circuit) (bits : MCore.Real.CanonicalFinalProof.BitString) (i : Nat),   i < MCore.Real.CanonicalSATWitness.varBound phi →     MCore.Real.CanonicalSATWitness.assignmentOfWitness phi         (MCore.Real.P01WitnessBoundNormalization.witnessOfBits phi bits) i =       MCore.Real.P01WitnessBoundNormalization.assignmentOfBits bits i"
+  },
+  {
+   "name": "MCore.Real.P01WitnessBoundNormalization.evalCircuit_witnessOfBits_eq",
+   "file": "lean/MCore/Real/P01WitnessBoundNormalization.lean",
+   "line": 32,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (phi : MCore.CircuitK1.Circuit) (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.evalCircuit       (MCore.Real.CanonicalSATWitness.assignmentOfWitness phi         (MCore.Real.P01WitnessBoundNormalization.witnessOfBits phi bits))       phi =     MCore.Real.evalCircuit (MCore.Real.P01WitnessBoundNormalization.assignmentOfBits bits) phi"
+  },
+  {
+   "name": "MCore.Real.P01WitnessBoundNormalization.excess_bits_ignored",
+   "file": "lean/MCore/Real/P01WitnessBoundNormalization.lean",
+   "line": 42,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (phi : MCore.CircuitK1.Circuit) (a b : MCore.Real.CanonicalFinalProof.BitString),   (∀ (i : Nat), i < MCore.Real.CanonicalSATWitness.varBound phi → List.getD a i false = List.getD b i false) →     MCore.Real.evalCircuit (MCore.Real.P01WitnessBoundNormalization.assignmentOfBits a) phi =       MCore.Real.evalCircuit (MCore.Real.P01WitnessBoundNormalization.assignmentOfBits b) phi"
+  },
+  {
+   "name": "MCore.Real.P01WitnessBoundNormalization.normalizedWitnessBits_le_encoding",
+   "file": "lean/MCore/Real/P01WitnessBoundNormalization.lean",
+   "line": 64,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (phi : MCore.CircuitK1.Circuit) (bits : MCore.Real.CanonicalFinalProof.BitString),   List.length (MCore.Real.P01WitnessBoundNormalization.normalizedWitnessBits phi bits) ≤     List.length (MCore.Real.CanonicalCircuitBits.encodeCircuit phi)"
+  },
+  {
+   "name": "MCore.Real.P01WitnessBoundNormalization.normalizedWitnessBits_length",
+   "file": "lean/MCore/Real/P01WitnessBoundNormalization.lean",
+   "line": 59,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (phi : MCore.CircuitK1.Circuit) (bits : MCore.Real.CanonicalFinalProof.BitString),   List.length (MCore.Real.P01WitnessBoundNormalization.normalizedWitnessBits phi bits) =     MCore.Real.CanonicalSATWitness.varBound phi"
+  },
+  {
+   "name": "MCore.Real.P01WitnessBoundNormalization.verifyWitness_normalized",
+   "file": "lean/MCore/Real/P01WitnessBoundNormalization.lean",
+   "line": 72,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ (phi : MCore.CircuitK1.Circuit) (bits : MCore.Real.CanonicalFinalProof.BitString),   MCore.Real.CanonicalSATVerifier.verifyWitness phi (MCore.Real.P01WitnessBoundNormalization.witnessOfBits phi bits) =     (MCore.Real.isCNFBool phi &&       MCore.Real.evalCircuit (MCore.Real.P01WitnessBoundNormalization.assignmentOfBits bits) phi)"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.both_real_are_rigid",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 149,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP01 : P01ConstructionGap) (hG21 : G21Pointwise) : terminalPairState (classifyP01 (some hP01)) (classifyG21 (some hG21)) = .closed1"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.classifyG21_none",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 46,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": classifyG21 none = .open"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.classifyG21_some",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 49,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : G21Pointwise) : classifyG21 (some h) = .closed"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.classifyP01_none",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 39,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": classifyP01 none = .open"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.classifyP01_some",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 42,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(h : P01ConstructionGap) : classifyP01 (some h) = .closed"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.g21_alone_is_partial",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 143,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hG21 : G21Pointwise) : terminalPairState (classifyP01 none) (classifyG21 (some hG21)) = .open0"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.g21_closed_iff_exists_real",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 63,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∃ h : G21Pointwise, classifyG21 (some h) = .closed) ↔ Nonempty G21Pointwise"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.g21_closed_is_rigid",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 97,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": IsRigidCore (g21DivState .closed)"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.g21_open_not_rigid",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 93,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ IsRigidCore (g21DivState .open)"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.p01_alone_is_partial",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 137,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(hP01 : P01ConstructionGap) : terminalPairState (classifyP01 (some hP01)) (classifyG21 none) = .open0"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.p01_closed_iff_exists_real",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 53,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": (∃ h : P01ConstructionGap, classifyP01 (some h) = .closed) ↔ Nonempty P01ConstructionGap"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.p01_closed_is_rigid",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 89,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": IsRigidCore (p01DivState .closed)"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.p01_open_not_rigid",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 85,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": ¬ IsRigidCore (p01DivState .open)"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.terminalPair_closed_closed",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 119,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": terminalPairState .closed .closed = .closed1"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.terminalPair_closed_iff",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 123,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(p : P01GapState) (g : G21GapState) : terminalPairState p g = .closed1 ↔ p = .closed ∧ g = .closed"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.terminalPair_closed_open",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 111,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": terminalPairState .closed .open = .open0"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.terminalPair_open_closed",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 115,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": terminalPairState .open .closed = .open0"
+  },
+  {
+   "name": "MCore.Real.TerminalGapP012.terminalPair_open_open",
+   "file": "lean/MCore/Real/TerminalGapP012.lean",
+   "line": 107,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": ": terminalPairState .open .open = .open0"
+  }
+ ],
+ "closed": 14,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalCircuitBitsInverse.lean": "8d3cee0161c1da3c7021748fad676ebaa2c8827de6291d5f22283cb99ada3f64",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATParserBinaryHeadProof.lean": "7efe841dabfbd811f8322a57f8a01923ec0e34364acbef5cee58b4275b9cb6db",
+  "lean/MCore/Real/CanonicalSATParserGlobalSpec.lean": "8547ed51191c1d0ca7edaca09fcaab24cb52d7d7f6d1848a8605fd7f06074430",
+  "lean/MCore/Real/CanonicalSATParserHeadProof.lean": "0bbae00a911289031d0ebbe9dbae19b71e50feb3a03116fb17522b620f1fe7c0",
+  "lean/MCore/Real/CanonicalSATParserInitProof.lean": "0fa691116dc17d0548c687f79c1dadbf5614922fe9186fdafdee63b013e24b4b",
+  "lean/MCore/Real/CanonicalSATParserLeafPopProof.lean": "97125c7db49db3e3aa736fcd448b20f18e639b08b10c070d3a3c0dcfde2dc3f7",
+  "lean/MCore/Real/CanonicalSATParserLeafReturnProof.lean": "25047811f342001b157f5522bc7fcccabd09724dc635110e44412690682b79b3",
+  "lean/MCore/Real/CanonicalSATParserLeafSourceProof.lean": "463e26bb62e268f9e8dfb52c647450781eaba456c01a98e6bfdb058ea5c6a7e0",
+  "lean/MCore/Real/CanonicalSATParserMachine.lean": "3671407d4b52d2f5eb288d6dac1c10a4dd7c7b65265d6cd1c889644ccec200cf",
+  "lean/MCore/Real/CanonicalSATParserMacroProof.lean": "063b3947c20246842030578bd300912c0897fe63b075d534886e06462a54bcc2",
+  "lean/MCore/Real/CanonicalSATParserPhaseMacroProof.lean": "d8b15d6c419bf708fefc0c5217512cab8c4f2c87b8e8d25c6b04d0a675b0b5b9",
+  "lean/MCore/Real/CanonicalSATParserReturnProof.lean": "d52c76390c068c1161af286270793c328ea19abe8f15c292fa6c57f61cf9c51d",
+  "lean/MCore/Real/CanonicalSATParserRewindProof.lean": "000d3ea2ed3b0244dbfd408f99fac1ab6f8d218f03e1b40540f8cbd77cea1ee3",
+  "lean/MCore/Real/CanonicalSATParserTapeLayout.lean": "64019324f913467e64bcad3dfd2d1983acec6fc3bf2fbc2d0dd3d063df52d8c0",
+  "lean/MCore/Real/CanonicalSATParserTerminalBranches.lean": "d690b8e37a64f3420d324fff80e40ca770e61e105449e7605b47eeaabd7b43a4",
+  "lean/MCore/Real/CanonicalSATParserWorkScanProof.lean": "28b046c66b56fca8b65059ce7362c72034a23b314806bb3df085fadd4843c9f3",
+  "lean/MCore/Real/CanonicalSATRecursiveParserSimulation.lean": "37893a036eaabc935254e268a6f5a0eab52b8846f2964121dca8d5f47236e685",
+  "lean/MCore/Real/CanonicalSATSlotLog.lean": "caac2a7fbd321dfd4720c788f3f46a6195244c75ba80485f4bccbbbf49796603",
+  "lean/MCore/Real/CanonicalSATSlotLogMachine.lean": "e95a23a7a81e4819047036f24492a7b882074e6cd15149e2f3136740be2e5114",
+  "lean/MCore/Real/CanonicalSATSlotParserSpec.lean": "a2ec908ec78fe79fc7698e21c3139b82687f448506ed287bf0b1a6eee286e5fb",
+  "lean/MCore/Real/CanonicalSATTagConsumerMachine.lean": "237a6565543d66a2c8d163ae341fa87567dcc642bf66c59084be0716cba7db02",
+  "lean/MCore/Real/CanonicalSATVarPayloadMachine.lean": "239e465ccba411a44f9e2dc4fa4e6d8bd50ab54d547ed3e95cd7dfa818e386d6",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01GlobalParserSimulation.lean": "0d2eded28e76aed0fd3acb23ec02eb5a14710ce32fc3cdbfbbee02b0be800aab",
+  "lean/MCore/Real/P01WitnessBoundNormalization.lean": "9f8420ce1f40183cf9df6743a4055c4946476417748ccdb5e5379091a988dc4f",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-11-02T20:55:38Z",
+ "certificate_sha256": "660fd3f6a544504486a6f555f7b754343b90e80c79d5f950af30f727a867a0e9"
+}

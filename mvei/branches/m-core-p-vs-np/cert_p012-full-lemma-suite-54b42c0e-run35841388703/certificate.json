@@ -538,7 +538,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -554,47 +554,57 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.W_SAT_closes_G21",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 79,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hBridge : G21EntropyBridge) : G21Pointwise"
   },
   {
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.W_SAT_mono",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 69,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(t : Nat) : W_SAT.W t ≤ W_SAT.W (t + 1)"
   },
   {
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.both_real_close_symbolic_state",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 118,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hP01 : P01ConstructionGap) (hG21 : G21Pointwise) : terminalPairState (classifyP01 (some hP01)) (classifyG21 (some hG21)) = .closed1"
   },
   {
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.g21_only_stays_partial",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 110,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hG21 : G21Pointwise) : terminalPairState (classifyP01 none) (classifyG21 (some hG21)) = .open0"
   },
   {
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.p01_only_stays_partial",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 101,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hP01 : P01ConstructionGap) : terminalPairState (classifyP01 (some hP01)) (classifyG21 none) = .open0"
   },
   {
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.rigidCore_iff_real_terminal_pair",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 97,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": RigidCore ↔ FinalExternalTwoGap"
   },
@@ -602,7 +612,7 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgeryEstado_idempotent",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 47,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(s : DivState) : SurgeryEstado (SurgeryEstado s) = SurgeryEstado s"
   },
@@ -610,7 +620,7 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgeryFlow_idempotent",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 52,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(s : FlowState) : SurgeryFlow (SurgeryFlow s) = SurgeryFlow s"
   },
@@ -618,7 +628,7 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_closed_idem",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 44,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .closed1 = .closed1"
   },
@@ -626,7 +636,7 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_indet_open",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 35,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .indet = .open0"
   },
@@ -634,7 +644,7 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_inf_open",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 38,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .inf = .open0"
   },
@@ -642,7 +652,7 @@
    "name": "MCore.Real.AdaptacaoMinhaLogicaFinal.surgery_open_idem",
    "file": "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean",
    "line": 41,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .open0 = .open0"
   },
@@ -650,15 +660,17 @@
    "name": "MCore.Real.DivZeroP012.classify_eq_closed1_iff",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 42,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(num den : Nat) : classify num den = .closed1 ↔ den ≠ 0 ∧ num = den"
   },
   {
    "name": "MCore.Real.DivZeroP012.classify_nonzero_zero",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 32,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : classify n 0 = .inf"
   },
@@ -666,7 +678,7 @@
    "name": "MCore.Real.DivZeroP012.classify_same_nonzero",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : classify n n = .closed1"
   },
@@ -674,7 +686,7 @@
    "name": "MCore.Real.DivZeroP012.classify_zero_zero",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 28,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": classify 0 0 = .indet"
   },
@@ -682,7 +694,7 @@
    "name": "MCore.Real.DivZeroP012.finalTwoGap_closed_closed",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 82,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": FinalTwoGapState .closed1 .closed1 = .closed1"
   },
@@ -690,7 +702,7 @@
    "name": "MCore.Real.DivZeroP012.finalTwoGap_closed_iff",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 86,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a b : DivState) : FinalTwoGapState a b = .closed1 ↔ a = .closed1 ∧ b = .closed1"
   },
@@ -698,7 +710,7 @@
    "name": "MCore.Real.DivZeroP012.finalTwoGap_left_not_closed",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 94,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a b : DivState) (ha : a ≠ .closed1) : FinalTwoGapState a b ≠ .closed1"
   },
@@ -706,7 +718,7 @@
    "name": "MCore.Real.DivZeroP012.finalTwoGap_right_not_closed",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 103,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a b : DivState) (hb : b ≠ .closed1) : FinalTwoGapState a b ≠ .closed1"
   },
@@ -714,7 +726,7 @@
    "name": "MCore.Real.DivZeroP012.n_over_n_is_rigid",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 71,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : IsRigidCore (classify n n)"
   },
@@ -722,7 +734,7 @@
    "name": "MCore.Real.DivZeroP012.nonzero_over_zero_not_rigid",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 65,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : ¬ IsRigidCore (classify n 0)"
   },
@@ -730,15 +742,17 @@
    "name": "MCore.Real.DivZeroP012.only_n_over_n_enters_core",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 54,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(num den : Nat) : IsRigidCore (classify num den) ↔ den ≠ 0 ∧ num = den"
   },
   {
    "name": "MCore.Real.DivZeroP012.zero_zero_not_rigid",
    "file": "lean/MCore/Real/DivZeroP012.lean",
    "line": 60,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ IsRigidCore (classify 0 0)"
   },
@@ -746,15 +760,17 @@
    "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_closes_external",
    "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
    "line": 22,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : TerminalDelta) : ∃ S : OfficialModelSelection, OfficialPneqNP S.model.P S.model.NP"
   },
   {
    "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_iff_final_external_two_gap",
    "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalDelta ↔ FinalExternalTwoGap"
   },
@@ -762,7 +778,7 @@
    "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_iff_p012_rigid_core",
    "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalDelta ↔ P012FailClosed.RigidCore"
   },
@@ -770,7 +786,7 @@
    "name": "MCore.Real.FinalProofRecoveryChain.terminal_delta_iff_terminal_gap_p012",
    "file": "lean/MCore/Real/FinalProofRecoveryChain.lean",
    "line": 40,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": TerminalDelta ↔ (P01FinalCertificate.P01ConstructionGap ∧ P02G21G22Attack.G21Pointwise)"
   },
@@ -778,7 +794,7 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedBegin_isClosed",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 25,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": IsClosed closedBegin"
   },
@@ -786,7 +802,7 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedEnd_isClosed",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 31,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": IsClosed closedEnd"
   },
@@ -794,7 +810,7 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedInterval_isClosed",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 34,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": IsClosed closedInterval"
   },
@@ -802,7 +818,7 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.closedMid_isClosed",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 28,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(mid : ℝ) : IsClosed (closedMid mid)"
   },
@@ -810,7 +826,7 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.diagonalCompiler_closes_t5F",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 166,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(D : DiagonalCompilerV2) : T5FCore"
   },
@@ -818,31 +834,37 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.midpointMap_contraction",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 62,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": Contraction midpointMap midpoint (1 / 2)"
   },
   {
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.midpointMap_repelPull",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 84,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": RepelAndPull midpointMap midpoint"
   },
   {
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.midpointMap_sub_midpoint",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 58,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(x : ℝ) : midpointMap x - midpoint = (x - midpoint) / 2"
   },
   {
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.semanticDiagonal_fixedPoint_gives_mismatch",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 174,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) (hfix : semanticDiagonalBits M x = x) : SemanticMismatch M x"
   },
@@ -850,7 +872,7 @@
    "name": "MCore.Real.OpenMathUniversalSeparationLaw.universalLaw_closes_t5F",
    "file": "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean",
    "line": 159,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(L : UniversalSeparationLaw) : T5FCore"
   },
@@ -858,7 +880,7 @@
    "name": "MCore.Real.P012FailClosed.one_one_idempotent",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 79,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(h : RigidCore) : (⟨h.1, h.2⟩ : RigidCore) = h"
   },
@@ -866,7 +888,7 @@
    "name": "MCore.Real.P012FailClosed.one_one_to_final_gap",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 65,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(h : RigidCore) : FinalExternalGap"
   },
@@ -874,15 +896,17 @@
    "name": "MCore.Real.P012FailClosed.one_one_to_official",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 71,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : RigidCore) : ∃ S : OfficialModelSelection, OfficialPneqNP S.model.P S.model.NP"
   },
   {
    "name": "MCore.Real.P012FailClosed.progress_false_false",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "erro",
    "axioms_beyond_standard": [],
    "statement": ": progress false false = .zero"
   },
@@ -890,7 +914,7 @@
    "name": "MCore.Real.P012FailClosed.progress_false_true",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 36,
-   "state": "nao_checado",
+   "state": "erro",
    "axioms_beyond_standard": [],
    "statement": ": progress false true = .partial"
   },
@@ -898,7 +922,7 @@
    "name": "MCore.Real.P012FailClosed.progress_true_false",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 33,
-   "state": "nao_checado",
+   "state": "erro",
    "axioms_beyond_standard": [],
    "statement": ": progress true false = .partial"
   },
@@ -906,7 +930,7 @@
    "name": "MCore.Real.P012FailClosed.progress_true_true",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 39,
-   "state": "nao_checado",
+   "state": "erro",
    "axioms_beyond_standard": [],
    "statement": ": progress true true = .closed"
   },
@@ -914,7 +938,7 @@
    "name": "MCore.Real.P012FailClosed.rigidCore_iff_and",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 87,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": RigidCore ↔ (P01ConstructionGap ∧ G21Pointwise)"
   },
@@ -922,7 +946,7 @@
    "name": "MCore.Real.P012FailClosed.rigidCore_iff_finalExternalTwoGap",
    "file": "lean/MCore/Real/P012FailClosed.lean",
    "line": 46,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": RigidCore ↔ FinalExternalTwoGap"
   },
@@ -930,7 +954,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L01_zero_over_nonzero_open0",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 50,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : classifyP012 0 n = .open0"
   },
@@ -938,7 +962,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L02_n_over_n_closed1",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 57,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : classifyP012 n n = .closed1"
   },
@@ -946,7 +970,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L03_zero_over_zero_indet",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 64,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": classifyP012 0 0 = .indet"
   },
@@ -954,7 +978,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L04_nonzero_over_zero_inf",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 70,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(n : Nat) (hn : n ≠ 0) : classifyP012 n 0 = .inf"
   },
@@ -962,7 +986,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L05_open_never_closed",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 77,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": EstadoP012.open0 ≠ .closed1"
   },
@@ -970,7 +994,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L06_indet_never_closed",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 82,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": EstadoP012.indet ≠ .closed1"
   },
@@ -978,7 +1002,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L07_inf_never_closed",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 87,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": EstadoP012.inf ≠ .closed1"
   },
@@ -986,7 +1010,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L08_only_n_over_n_enters_core",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 92,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a b : Nat) (h : IsRigidCore (classifyP012 a b)) : a = b ∧ b ≠ 0"
   },
@@ -994,7 +1018,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L08b_n_over_n_enters_core",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 110,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a b : Nat) (h : a = b ∧ b ≠ 0) : IsRigidCore (classifyP012 a b)"
   },
@@ -1002,7 +1026,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L08c_rigid_iff_same_nonzero",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 118,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(a b : Nat) : IsRigidCore (classifyP012 a b) ↔ a = b ∧ b ≠ 0"
   },
@@ -1010,7 +1034,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L09_zero_two_never_rigid",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 142,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": statusProd none none ≠ .two_of_two"
   },
@@ -1018,7 +1042,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L10_one_two_never_rigid",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 147,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(b : Bool) : statusProd (some b) none ≠ .two_of_two"
   },
@@ -1026,7 +1050,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L11_two_two_is_rigid",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 153,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(p g : Bool) : statusProd (some p) (some g) = .two_of_two"
   },
@@ -1034,15 +1058,17 @@
    "name": "MCore.Real.P01ConstructionGapFull.L12_timeBound_poly",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 172,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": IsPoly (fun n => n * n + 10)"
   },
   {
    "name": "MCore.Real.P01ConstructionGapFull.L13_P01_closes_half",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 192,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": statusProd (some true) none = .one_of_two"
   },
@@ -1050,7 +1076,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L14_physical_eq_logical",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 213,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(phi : Formula) (w : List Bool) : eval phi w = eval phi w"
   },
@@ -1058,7 +1084,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L15_perelman_flow_closes",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 244,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryFlow .flowing = .closed1"
   },
@@ -1066,7 +1092,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L16_perelman_surgery_removes",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 249,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryFlow .singularity = .open0"
   },
@@ -1074,7 +1100,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L17_lei_indet_para_open0",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 254,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .indet = .open0"
   },
@@ -1082,7 +1108,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L18_lei_inf_para_open0",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 259,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .inf = .open0"
   },
@@ -1090,7 +1116,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L19_lei_open0_idem",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 263,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .open0 = .open0"
   },
@@ -1098,7 +1124,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L20_lei_closed1_idem",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 267,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": SurgeryEstado .closed1 = .closed1"
   },
@@ -1106,7 +1132,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L21_idempotente_estado",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 271,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(e : EstadoP012) : SurgeryEstado (SurgeryEstado e) = SurgeryEstado e"
   },
@@ -1114,7 +1140,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L22_idempotente_flow",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 277,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(s : FlowState) : SurgeryFlow (SurgeryFlow s) = SurgeryFlow s"
   },
@@ -1122,15 +1148,17 @@
    "name": "MCore.Real.P01ConstructionGapFull.L23_W_mono",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 296,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(t : Nat) : W_SAT.W t ≤ W_SAT.W (t + 1)"
   },
   {
    "name": "MCore.Real.P01ConstructionGapFull.L24_rigidCore_freezes",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 322,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(p : P01Gap) (g : G21Gap) : ∃ cert : SymbolicOfficialPneqNP, True"
   },
@@ -1138,7 +1166,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L25_final_needs_both",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 328,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": EstadoP012.closed1 = .closed1"
   },
@@ -1146,7 +1174,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L26_final_fails_if_open",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 333,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": EstadoP012.open0 ≠ .closed1"
   },
@@ -1154,7 +1182,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.L27_aceita_todas",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 339,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": AceitaTodasLeis = true"
   },
@@ -1162,15 +1190,17 @@
    "name": "MCore.Real.P01ConstructionGapFull.W_SAT_closes_real_G21",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 385,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : WToG21Bridge) : G21Pointwise"
   },
   {
    "name": "MCore.Real.P01ConstructionGapFull.realRigidCore_iff_finalExternalTwoGap",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 362,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": RealRigidCore ↔ FinalExternalTwoGap"
   },
@@ -1178,7 +1208,7 @@
    "name": "MCore.Real.P01ConstructionGapFull.real_producers_give_two_of_two",
    "file": "lean/MCore/Real/P01ConstructionGapFull.lean",
    "line": 366,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(hP01 : P01ConstructionGap) (hG21 : G21Pointwise) : statusProd (some true) (some true) = .two_of_two"
   },
@@ -1250,7 +1280,7 @@
    "name": "MCore.Real.P01VerifierComposition.satBits_exact_verified_relation",
    "file": "lean/MCore/Real/P01VerifierComposition.lean",
    "line": 15,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(x : BitString) : SATBits circuitBitEncoding x ↔ ∃ phi : Circuit, decodeCircuit x = some phi ∧ ∃ w : SATWitness phi, verifyWitness phi w = true"
   },
@@ -1306,63 +1336,77 @@
    "name": "MCore.Real.TerminalGapP012.both_real_are_rigid",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 149,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hP01 : P01ConstructionGap) (hG21 : G21Pointwise) : terminalPairState (classifyP01 (some hP01)) (classifyG21 (some hG21)) = .closed1"
   },
   {
    "name": "MCore.Real.TerminalGapP012.classifyG21_none",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 46,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": classifyG21 none = .open"
   },
   {
    "name": "MCore.Real.TerminalGapP012.classifyG21_some",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 49,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : G21Pointwise) : classifyG21 (some h) = .closed"
   },
   {
    "name": "MCore.Real.TerminalGapP012.classifyP01_none",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 39,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": classifyP01 none = .open"
   },
   {
    "name": "MCore.Real.TerminalGapP012.classifyP01_some",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 42,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : P01ConstructionGap) : classifyP01 (some h) = .closed"
   },
   {
    "name": "MCore.Real.TerminalGapP012.g21_alone_is_partial",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 143,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hG21 : G21Pointwise) : terminalPairState (classifyP01 none) (classifyG21 (some hG21)) = .open0"
   },
   {
    "name": "MCore.Real.TerminalGapP012.g21_closed_iff_exists_real",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 63,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": (∃ h : G21Pointwise, classifyG21 (some h) = .closed) ↔ Nonempty G21Pointwise"
   },
   {
    "name": "MCore.Real.TerminalGapP012.g21_closed_is_rigid",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 97,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": IsRigidCore (g21DivState .closed)"
   },
@@ -1370,7 +1414,7 @@
    "name": "MCore.Real.TerminalGapP012.g21_open_not_rigid",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 93,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ IsRigidCore (g21DivState .open)"
   },
@@ -1378,23 +1422,27 @@
    "name": "MCore.Real.TerminalGapP012.p01_alone_is_partial",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 137,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hP01 : P01ConstructionGap) : terminalPairState (classifyP01 (some hP01)) (classifyG21 none) = .open0"
   },
   {
    "name": "MCore.Real.TerminalGapP012.p01_closed_iff_exists_real",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 53,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": (∃ h : P01ConstructionGap, classifyP01 (some h) = .closed) ↔ Nonempty P01ConstructionGap"
   },
   {
    "name": "MCore.Real.TerminalGapP012.p01_closed_is_rigid",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 89,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": IsRigidCore (p01DivState .closed)"
   },
@@ -1402,7 +1450,7 @@
    "name": "MCore.Real.TerminalGapP012.p01_open_not_rigid",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 85,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ IsRigidCore (p01DivState .open)"
   },
@@ -1410,7 +1458,7 @@
    "name": "MCore.Real.TerminalGapP012.terminalPair_closed_closed",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 119,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": terminalPairState .closed .closed = .closed1"
   },
@@ -1418,7 +1466,7 @@
    "name": "MCore.Real.TerminalGapP012.terminalPair_closed_iff",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 123,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(p : P01GapState) (g : G21GapState) : terminalPairState p g = .closed1 ↔ p = .closed ∧ g = .closed"
   },
@@ -1426,7 +1474,7 @@
    "name": "MCore.Real.TerminalGapP012.terminalPair_closed_open",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 111,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": terminalPairState .closed .open = .open0"
   },
@@ -1434,7 +1482,7 @@
    "name": "MCore.Real.TerminalGapP012.terminalPair_open_closed",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 115,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": terminalPairState .open .closed = .open0"
   },
@@ -1442,12 +1490,12 @@
    "name": "MCore.Real.TerminalGapP012.terminalPair_open_open",
    "file": "lean/MCore/Real/TerminalGapP012.lean",
    "line": 107,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": terminalPairState .open .open = .open0"
   }
  ],
- "closed": 14,
+ "closed": 84,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
@@ -1481,6 +1529,7 @@
   "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
   "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
   "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/AdaptacaoMinhaLogicaFinal.lean": "65419fd23545a544fc17d4cbf4fc0d33279b99e098050e130715a18aaa5afee7",
   "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
   "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
   "lean/MCore/Real/CanonicalCircuitBitsInverse.lean": "8d3cee0161c1da3c7021748fad676ebaa2c8827de6291d5f22283cb99ada3f64",
@@ -1514,15 +1563,39 @@
   "lean/MCore/Real/CanonicalSATVarPayloadMachine.lean": "239e465ccba411a44f9e2dc4fa4e6d8bd50ab54d547ed3e95cd7dfa818e386d6",
   "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
   "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CookNormalizedDTMBridge.lean": "a4a2a99e52c5ab10a4a5ec6252d7e89ad218661889a146a9edafc74536c479d1",
+  "lean/MCore/Real/CookNormalizedG3Bridge.lean": "fc5266fe6b31b2a3ef8b09590db6b88124402388018facd4fbf974de71f6732c",
+  "lean/MCore/Real/CookNormalizedG3Contract.lean": "6551cb9b93b56e91b10b4482a06aa53ab492e12ef6b455ee1bdf94672f1a1a73",
+  "lean/MCore/Real/CookNormalizedMachineModel.lean": "714f3bde2f3f536a7d0cc6ab608645f59a654ecf2191f67942bce9bb5aca10d4",
+  "lean/MCore/Real/CookNormalizedNTMBridge.lean": "eeb7581a9b795fd4ecf21e240270668b3f615d8f0354a43330c6df62bb19c120",
+  "lean/MCore/Real/DivZeroP012.lean": "6d7db387bc0791528879b44f0441326ea0cc55cd2598a2a74ce0ac7475e5e77c",
+  "lean/MCore/Real/EncodingNormalization.lean": "c30596c728d10ef19342827935d639c9ed5848642345edcaeba1194c7d081d2d",
   "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/FinalExternalCertificate.lean": "459f144ebc21654d4b6dbf2f39e4245622b964821723a1c19e8e36d2b18f4d32",
+  "lean/MCore/Real/FinalExternalTwoGap.lean": "64ed88b7ca375288e9d2d4c97b6669ea007086bd441d3c272d3b115d4915fe33",
+  "lean/MCore/Real/FinalProofRecoveryChain.lean": "abd16bfba614581dd4c06d5ed54fddbb514c8ce77b0a342c5026391ba4ec63a9",
+  "lean/MCore/Real/G3ModelMatch.lean": "a03f9ca36d041e240081b8c4402b143b8a29751d0b2a78204021ca9643afee69",
   "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
   "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/OfficialCookSource.lean": "b68d483c7bf4c268a2427cba4af18c823d62671d4a2ef55a3e5f8e283172dd6c",
+  "lean/MCore/Real/OfficialModel.lean": "0db6e4dd722b425ca95c62d68c2bb39184a7bbfd828c38deda6c9c931e914b3a",
+  "lean/MCore/Real/OpenMathCore/T5FBridge.lean": "cc30706c562486eb6b9b8039c122af094dabc132f5d27db68db20245ed37a5a8",
+  "lean/MCore/Real/OpenMathUniversalSeparationLaw.lean": "5ef1849306f1ecee70d31ac766cab3572c5e1d1ae022c337f4f672790938c847",
+  "lean/MCore/Real/P012FailClosed.lean": "52f24e6a762cc30333eadf8ee5557a20fd444e11b8862ac77a14755766d44d78",
+  "lean/MCore/Real/P01ConstructionClose.lean": "93d1e78e0c8153c5c2f2f3e2a552d6ca05ba456b588912f202c0f0c0f5d5044f",
+  "lean/MCore/Real/P01ConstructionGapFull.lean": "2ce9a3873c0eafcee5d91b6cee5697f97ac3e9a9c97ca01f5de492c9424d3e22",
+  "lean/MCore/Real/P01FinalCertificate.lean": "a2fb1783141c741fc51c2b9cc73bf6f7375c8557f30d7fb17c64c00819d0ed88",
   "lean/MCore/Real/P01GlobalParserSimulation.lean": "0d2eded28e76aed0fd3acb23ec02eb5a14710ce32fc3cdbfbbee02b0be800aab",
+  "lean/MCore/Real/P01VerifierComposition.lean": "33212bbcdc72ed302ad117726695bc9b99bc063f90502b37803a8ac09562078e",
   "lean/MCore/Real/P01WitnessBoundNormalization.lean": "9f8420ce1f40183cf9df6743a4055c4946476417748ccdb5e5379091a988dc4f",
+  "lean/MCore/Real/P02ClockedDiagonalCompiler.lean": "232a6f479d932397d08c92f92d7708a8947c27fcd6070d0a7fc1e05df18b8721",
+  "lean/MCore/Real/P02DiagonalCompilerFrontierV2.lean": "4d460ff7c75ece58ec3929d62e4fa4375587ecd9ec12ec924335e95b3ea263f7",
+  "lean/MCore/Real/P02G21G22Attack.lean": "64a90f8b42e2d9679c5f721c7b6d472bd89456f84a4b0c219457ef109d7767a7",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Real/TerminalGapP012.lean": "89809f32ccfcacb56daf19afffcfd4d4feb2a692cdb4710dea8338f08c211551",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-02T20:55:38Z",
- "certificate_sha256": "660fd3f6a544504486a6f555f7b754343b90e80c79d5f950af30f727a867a0e9"
+ "published_at": "2026-11-03T11:28:05Z",
+ "certificate_sha256": "23935905f17215987a0134ffcbe357ccd592a146e9b99d79ec666f8a521f4a8e"
 }

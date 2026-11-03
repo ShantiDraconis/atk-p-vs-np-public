@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-10-30T16:50:26+00:00",
+  "generated_at": "2026-11-03T08:19:01+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1908,7 +1908,7 @@
    "name": "MCore.Real.P02ClockBridgeMaterial.correctAt_mono_clock",
    "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
    "line": 27,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (c e : Nat) (hLe : ∀ n, M.timeBound n ≤ polynomialMajorant c e n) (L : BitLanguage) (x : BitString) (hCorrect : M.CorrectAt L x) : (withMajorantClock M c e).CorrectAt L x"
   },
@@ -1916,7 +1916,7 @@
    "name": "MCore.Real.P02ClockBridgeMaterial.exists_majorant_candidate_preserving_correctAt",
    "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
    "line": 58,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (L : BitLanguage) (x : BitString) (hCorrect : M.CorrectAt L x) : ∃ c e : Nat, (withMajorantClock M c e).CorrectAt L x"
   },
@@ -1924,7 +1924,7 @@
    "name": "MCore.Real.P02ClockBridgeMaterial.polynomialMajorant_poly",
    "file": "lean/MCore/Real/P02ClockBridgeMaterial.lean",
    "line": 13,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(c e : Nat) : PolynomialTimeBound (polynomialMajorant c e)"
   },
@@ -1932,31 +1932,37 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.G2_exactness_closed_by_refutation",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 54,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(R : G2RefutationWitness) : ¬ Nonempty TotalSemanticFailureProducer ∧ ¬ UniversalFailure CanonicalSAT"
   },
   {
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.mincut_exact_form",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 23,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": Nonempty TotalSemanticFailureProducer ↔ UniversalFailure CanonicalSAT"
   },
   {
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.realization_refutes_totalSemanticFailure",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 44,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(R : G2RefutationWitness) : ¬ Nonempty TotalSemanticFailureProducer"
   },
   {
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.realization_refutes_universalFailure",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 35,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(R : G2RefutationWitness) : ¬ UniversalFailure CanonicalSAT"
   },
@@ -1964,7 +1970,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.refutationWitness_iff_sat_in_p",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 63,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty G2RefutationWitness ↔ InP CanonicalSAT"
   },
@@ -1972,7 +1978,7 @@
    "name": "MCore.Real.P02ExactnessKernelFinalRefutation.semantic_negation_invariant_refuted",
    "file": "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean",
    "line": 17,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SEMANTIC_NEGATION_INVARIANT_OPEN_MATH"
   },
@@ -1980,7 +1986,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_accepting",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 42,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).accepting = M.accepting"
   },
@@ -1988,7 +1994,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_haltsWithin",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 73,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (k : Nat) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.HaltsWithin k cfg ↔ M.machine.HaltsWithin k cfg"
   },
@@ -1996,7 +2002,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_run",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 65,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (k : Nat) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.run k cfg = M.machine.run k cfg"
   },
@@ -2004,7 +2010,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_stateCount",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).stateCount = M.stateCount"
   },
@@ -2012,7 +2018,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_step",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 58,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (cfg : Configuration (Fin (M.stateCount + 1)) (Option Bool)) : (projectFiniteMachine M).toTM.step cfg = M.machine.step cfg"
   },
@@ -2020,7 +2026,7 @@
    "name": "MCore.Real.P02FiniteMachineDescription.projectFiniteMachine_toTM",
    "file": "lean/MCore/Real/P02FiniteMachineDescription.lean",
    "line": 47,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) : (projectFiniteMachine M).toTM = M.machine"
   },
@@ -2028,15 +2034,17 @@
    "name": "MCore.Real.P02G2TruncationBoundary.universalDisagreementForcado",
    "file": "probe/P02G2TruncationBoundary.lean",
    "line": 27,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (selfCodeForcado M)"
   },
   {
    "name": "MCore.Real.P02MachineSerialization.list_ofFn_getD",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 66,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{n : Nat} {α : Type} (f : Fin n → α) (i : Fin n) (d : α) : (List.ofFn f).getD i.val d = f i"
   },
@@ -2044,7 +2052,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_accepting_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 88,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) : (payloadToMachine (machinePayload enc)).accepting q = enc.accepting q"
   },
@@ -2052,7 +2060,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_halting_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 81,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) : (payloadToMachine (machinePayload enc)).halting q = enc.halting q"
   },
@@ -2060,7 +2068,7 @@
    "name": "MCore.Real.P02MachineSerialization.payload_initial_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 75,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) : (payloadToMachine (machinePayload enc)).initial = enc.initial"
   },
@@ -2068,23 +2076,27 @@
    "name": "MCore.Real.P02MachineSerialization.payload_toTM_run_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 111,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(enc : EncodedMachine) (k : Nat) (cfg : Configuration (Fin (enc.stateCount + 1)) (Option Bool)) : (payloadToMachine (machinePayload enc)).toTM.run k cfg = enc.toTM.run k cfg"
   },
   {
    "name": "MCore.Real.P02MachineSerialization.payload_transition_roundtrip",
    "file": "lean/MCore/Real/P02MachineSerialization.lean",
    "line": 95,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(enc : EncodedMachine) (q : Fin (enc.stateCount + 1)) (s : Option Bool) : (payloadToMachine (machinePayload enc)).transition q s = enc.transition q s"
   },
   {
    "name": "MCore.Real.P02SemanticInvariantCore.invariantPoint_gives_semantic_failure",
    "file": "lean/MCore/Real/P02SemanticInvariantCore.lean",
    "line": 41,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{M : PolyDTMCandidate} {hTotal : DeclaredClockTotal M} (R : ComplementSemanticReduction M hTotal) (W : InvariantPoint R) : let y"
   },
@@ -2092,15 +2104,17 @@
    "name": "MCore.Real.P02SemanticInvariantCore.totalInvariantPoint_closes_G2",
    "file": "lean/MCore/Real/P02SemanticInvariantCore.lean",
    "line": 89,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(H : TOTAL_INVARIANT_POINT_OPEN_MATH) : UniversalFailure CanonicalSAT"
   },
   {
    "name": "MCore.Real.P02SemanticNegationCounterexample.no_secondBit_semanticNegationInvariant",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 101,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SemanticNegationInvariantPoint secondBitCandidate secondBitCandidate_total"
   },
@@ -2108,7 +2122,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBitCandidate_total",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 38,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": DeclaredClockTotal secondBitCandidate"
   },
@@ -2116,7 +2130,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_accepts_constTrue",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 66,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": DeclaredAccepts secondBitCandidate (encodeCircuit (.const true))"
   },
@@ -2124,7 +2138,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_rejects_constFalse",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 59,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ DeclaredAccepts secondBitCandidate (encodeCircuit (.const false))"
   },
@@ -2132,7 +2146,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.secondBit_semanticNegation_flips",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 73,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(x : BitString) : ¬ (DeclaredAccepts secondBitCandidate (semanticNegationBits secondBitCandidate x) ↔ DeclaredAccepts secondBitCandidate x)"
   },
@@ -2140,7 +2154,7 @@
    "name": "MCore.Real.P02SemanticNegationCounterexample.semanticNegationInvariant_open_math_refuted",
    "file": "lean/MCore/Real/P02SemanticNegationCounterexample.lean",
    "line": 108,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SEMANTIC_NEGATION_INVARIANT_OPEN_MATH"
   },
@@ -2148,7 +2162,7 @@
    "name": "MCore.Real.P02SemanticNegationReduction.declaredAcceptBit_true_iff",
    "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
    "line": 25,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) : declaredAcceptBit M x = true ↔ DeclaredAccepts M x"
   },
@@ -2156,7 +2170,7 @@
    "name": "MCore.Real.P02SemanticNegationReduction.semanticNegationBits_flip",
    "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
    "line": 43,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) : CanonicalSAT (semanticNegationBits M x) ↔ ¬ DeclaredAccepts M x"
   },
@@ -2164,15 +2178,17 @@
    "name": "MCore.Real.P02SemanticNegationReduction.semanticNegationInvariant_closes_G2",
    "file": "lean/MCore/Real/P02SemanticNegationReduction.lean",
    "line": 81,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(H : SEMANTIC_NEGATION_INVARIANT_OPEN_MATH) : UniversalFailure CanonicalSAT"
   },
   {
    "name": "MCore.Real.P02TerminalForcingG2.failureLaw_iff_correctAt",
    "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(xM : CounterexampleSelector) : FailureLaw xM ↔ ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (xM M)"
   },
@@ -2180,7 +2196,7 @@
    "name": "MCore.Real.P02TerminalForcingG2.g2_terminal_iff_witness",
    "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
    "line": 52,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": G2_TERMINAL ↔ Nonempty UniversalFailureWitness"
   },
@@ -2188,7 +2204,7 @@
    "name": "MCore.Real.P02TerminalForcingG2.g2_terminal_implies_p_ne_np",
    "file": "lean/MCore/Real/P02TerminalForcingG2.lean",
    "line": 60,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(h : G2_TERMINAL) : PneqNP"
   },
@@ -2196,7 +2212,7 @@
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.exists_timeout_of_not_total",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 23,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (h : ¬ DeclaredClockTotal M) : ∃ x : BitString, ¬ M.machine.HaltsWithin (M.timeBound x.length) (initialTMConfig M.machine x)"
   },
@@ -2204,39 +2220,47 @@
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_closes_internal_endpoint",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 93,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(hNP : InNP CanonicalSAT) (P : TotalSemanticFailureProducer) : PneqNP"
   },
   {
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_iff_universalFailure",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 128,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": Nonempty TotalSemanticFailureProducer ↔ UniversalFailure CanonicalSAT"
   },
   {
    "name": "MCore.Real.P02TotalCandidateFailureMinCut.totalSemanticFailureProducer_implies_universalFailure",
    "file": "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean",
    "line": 88,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(P : TotalSemanticFailureProducer) : UniversalFailure CanonicalSAT"
   },
   {
    "name": "MCore.Real.P02TruncationFrontier.universalDisagreementForcado",
    "file": "probe/P02TruncationFrontier.lean",
    "line": 22,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ∀ M : PolyDTMCandidate, ¬ M.CorrectAt CanonicalSAT (selfCodeForcado M)"
   },
   {
    "name": "MCore.Real.P02TwoSidedExactnessAudit.canonicalSAT_inNP",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 17,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": InNP CanonicalSAT"
   },
@@ -2244,7 +2268,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.g2_proved_implies_p_ne_np",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 72,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(hG2 : UniversalFailure CanonicalSAT) : PneqNP"
   },
@@ -2252,7 +2276,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.g2_refutation_witness_iff_sat_in_p",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 66,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty G2RefutationWitness ↔ InP CanonicalSAT"
   },
@@ -2260,7 +2284,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.orient_from_canonicalSAT",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 58,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(T : CanonicalSATCompletenessTransfer) : Nonempty (FinalOrientation T)"
   },
@@ -2268,7 +2292,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.sat_in_p_implies_p_eq_np",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 30,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(T : CanonicalSATCompletenessTransfer) (hSAT : InP CanonicalSAT) : ∀ L : BitLanguage, InP L ↔ InNP L"
   },
@@ -2276,7 +2300,7 @@
    "name": "MCore.Real.P02TwoSidedExactnessAudit.sat_not_in_p_implies_p_ne_np",
    "file": "lean/MCore/Real/P02TwoSidedExactnessAudit.lean",
    "line": 41,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(hNotP : ¬ InP CanonicalSAT) : PneqNP"
   },
@@ -2284,7 +2308,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_iff_universalFailure",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 53,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": Nonempty UniversalFailureWitness ↔ UniversalFailure CanonicalSAT"
   },
@@ -2292,7 +2316,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_notInP",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 37,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(W : UniversalFailureWitness) : ¬ InP CanonicalSAT"
   },
@@ -2300,7 +2324,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_p_ne_np",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 43,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(W : UniversalFailureWitness) : PneqNP"
   },
@@ -2308,7 +2332,7 @@
    "name": "MCore.Real.P02UniversalFailureWitnessMaterial.witness_implies_universalFailure",
    "file": "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean",
    "line": 32,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(W : UniversalFailureWitness) : UniversalFailure CanonicalSAT"
   },
@@ -2316,7 +2340,7 @@
    "name": "MCore.Real.P02UniversalSimMaterial.universalSim_none_iff",
    "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
    "line": 63,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(enc : EncodedMachine) (x : BitString) (fuel : Nat) : UniversalSim enc x fuel = none ↔ ¬ enc.toTM.HaltsWithin fuel (encodedInitialConfig enc x)"
   },
@@ -2324,23 +2348,27 @@
    "name": "MCore.Real.P02UniversalSimMaterial.universalSim_projected_correct",
    "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
    "line": 85,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(M : PolyDTMCandidate) (x : BitString) (fuel : Nat) (b : Bool) (k : Nat) : UniversalSim (projectFiniteMachine M) x fuel = some (b, k) ↔ k = fuel ∧ M.machine.HaltsWithin fuel (initialTMConfig M.machine x) ∧ b = M.accepting (M.machine.run fuel (initialTMConfig M.machine x)).state"
   },
   {
    "name": "MCore.Real.P02UniversalSimMaterial.universalSim_some_iff",
    "file": "lean/MCore/Real/P02UniversalSimMaterial.lean",
    "line": 31,
-   "state": "nao_checado",
-   "axioms_beyond_standard": [],
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(enc : EncodedMachine) (x : BitString) (fuel : Nat) (b : Bool) (k : Nat) : UniversalSim enc x fuel = some (b, k) ↔ k = fuel ∧ enc.toTM.HaltsWithin fuel (encodedInitialConfig enc x) ∧ b = enc.accepting (enc.toTM.run fuel (encodedInitialConfig enc x)).state"
   },
   {
    "name": "MCore.Real.RigidLockNoReopen.detected_gain0_is_structural_evidence",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 55,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : InfiniteRouteAttempt P) (_h : isGain0Loop R = true) : R.Target ↔ P"
   },
@@ -2348,7 +2376,7 @@
    "name": "MCore.Real.RigidLockNoReopen.g2_pointwise_rigid_classification",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 108,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": rigidLock g2PointwiseRigidAttempt = .evidenceOfStructuralFixedPoint"
   },
@@ -2356,7 +2384,7 @@
    "name": "MCore.Real.RigidLockNoReopen.g2_pointwise_rigid_evidence",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 103,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": g2PointwiseRigidAttempt.Target ↔ P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2364,7 +2392,7 @@
    "name": "MCore.Real.RigidLockNoReopen.reject_equivalent_minimum",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 78,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P Pmin : Prop} (hEq : Pmin ↔ P) : (equivalent_subtarget_has_zero_terminal_gain hEq).Target ↔ P"
   },
@@ -2372,7 +2400,7 @@
    "name": "MCore.Real.RigidLockNoReopen.rigid_route_target_iff_terminal",
    "file": "lean/MCore/Real/RigidLockNoReopen.lean",
    "line": 43,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : InfiniteRouteAttempt P) : R.Target ↔ P"
   },
@@ -2380,7 +2408,7 @@
    "name": "MCore.Real.StructuralDiagonalObstruction.iterateCode_length_strict",
    "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
    "line": 32,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ (n : Nat) (x : BitString), x.length < (iterateCode D (n + 1) x).length"
   },
@@ -2388,7 +2416,7 @@
    "name": "MCore.Real.StructuralDiagonalObstruction.strict_length_no_literal_fixed_point",
    "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
    "line": 8,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ x : BitString, D x ≠ x"
   },
@@ -2396,7 +2424,7 @@
    "name": "MCore.Real.StructuralDiagonalObstruction.strict_length_no_positive_cycle",
    "file": "lean/MCore/Real/StructuralDiagonalObstruction.lean",
    "line": 56,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(D : BitString → BitString) (hGrow : ∀ x : BitString, x.length < (D x).length) : ∀ (n : Nat) (x : BitString), iterateCode D (n + 1) x ≠ x"
   },
@@ -2404,7 +2432,7 @@
    "name": "MCore.Real.StructuralFixedPoint.existential_auxiliary_zero_gain",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 45,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} {A : Type} {Q : A → Prop} (eliminate : (∃ a, Q a) → P) (introduce : P → ∃ a, Q a) : (∃ a, Q a) ↔ P"
   },
@@ -2412,7 +2440,7 @@
    "name": "MCore.Real.StructuralFixedPoint.g2_pointwise_iff_uniform",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 106,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": (∀ M : PolyDTMCandidate, ∃ x : BitString, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT x) ↔ (∃ F : PolyDTMCandidate → BitString, ∀ M : PolyDTMCandidate, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT (F M))"
   },
@@ -2420,7 +2448,7 @@
    "name": "MCore.Real.StructuralFixedPoint.g2_structural_fixed_point",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 122,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": (∀ M : PolyDTMCandidate, ∃ x : BitString, ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT x) ↔ P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2428,7 +2456,7 @@
    "name": "MCore.Real.StructuralFixedPoint.neg_and_iff_neg_or_neg",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 76,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{A B : Prop} : ¬ (A ∧ B) ↔ (¬ A ∨ ¬ B)"
   },
@@ -2436,7 +2464,7 @@
    "name": "MCore.Real.StructuralFixedPoint.no_escape_from_terminal",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 19,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : ConservativeRefinement P) : R.target ↔ P"
   },
@@ -2444,7 +2472,7 @@
    "name": "MCore.Real.StructuralFixedPoint.pointwise_iff_uniform_selector",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 58,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} {R : A → W → Prop} : (∀ a : A, ∃ w : W, R a w) ↔ ∃ F : A → W, ∀ a : A, R a (F a)"
   },
@@ -2452,7 +2480,7 @@
    "name": "MCore.Real.StructuralFixedPoint.stable_mincut",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 93,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} {I : Type} (refine : I → ConservativeRefinement P) : ∀ i : I, (refine i).target ↔ P"
   },
@@ -2460,7 +2488,7 @@
    "name": "MCore.Real.StructuralFixedPoint.zero_gain_chain",
    "file": "lean/MCore/Real/StructuralFixedPoint.lean",
    "line": 34,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (C : ZeroGainChain P) : ∀ n : Nat, C.stage n ↔ P"
   },
@@ -2468,7 +2496,7 @@
    "name": "MCore.Real.StructuralFixedPointBreak.hdiag_real_implies_not_correctAt",
    "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
    "line": 44,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) (M : PolyDTMCandidate) : ¬ M.CorrectAt P02TerminalForcingG2.CanonicalSAT (B.diagonalInput M)"
   },
@@ -2476,7 +2504,7 @@
    "name": "MCore.Real.StructuralFixedPointBreak.perelman_break_closes_g2_terminal",
    "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
    "line": 74,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) : P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2484,7 +2512,7 @@
    "name": "MCore.Real.StructuralFixedPointBreak.perelman_break_closes_p_ne_np",
    "file": "lean/MCore/Real/StructuralFixedPointBreak.lean",
    "line": 98,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{A W : Type} [LE W] (B : G2PerelmanBreak A W) : PneqNP"
   },
@@ -2492,7 +2520,7 @@
    "name": "MCore.Real.StructuralNoReopen.close_from_positive_break",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 38,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (B : PositiveBreak P) : P"
   },
@@ -2500,7 +2528,7 @@
    "name": "MCore.Real.StructuralNoReopen.g2_close_from_positive_break",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 116,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(B : PositiveBreak P02TerminalForcingG2.G2_TERMINAL) : P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2508,7 +2536,7 @@
    "name": "MCore.Real.StructuralNoReopen.g2_no_reopen",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 94,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": g2PointwiseGainZero.Target ↔ P02TerminalForcingG2.G2_TERMINAL"
   },
@@ -2516,7 +2544,7 @@
    "name": "MCore.Real.StructuralNoReopen.gainZero_fixed_point",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 22,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (R : GainZero P) : R.Target ↔ P"
   },
@@ -2524,12 +2552,12 @@
    "name": "MCore.Real.StructuralNoReopen.no_reopen_zero_gain_chain",
    "file": "lean/MCore/Real/StructuralNoReopen.lean",
    "line": 44,
-   "state": "nao_checado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{P : Prop} (E : Nat → Prop) (h0 : E 0 ↔ P) (step : ∀ n : Nat, E (n + 1) ↔ E n) : ∀ n : Nat, E n ↔ P"
   }
  ],
- "closed": 48,
+ "closed": 112,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
@@ -2695,10 +2723,27 @@
   "lean/MCore/Real/P01WitnessIndexedReadPreserving.lean": "8026e111464329111f197ba07ed4eab4a30e4d0d71fdb2a120334b2b3c3008b6",
   "lean/MCore/Real/P01WitnessPrepGlobal.lean": "fecdb82a710f59aeb20fd977734afbae6f2299222ea3c862f764a1fb3cd78913",
   "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
+  "lean/MCore/Real/P02ClockBridgeMaterial.lean": "436dc044e0cb711126281cedf18ed539e7239ec04d775007c4fa3b983f6f04b6",
+  "lean/MCore/Real/P02ExactnessKernelFinalRefutation.lean": "0658f8f4c708092a23432b3a1d48929acc315a37aeb3cad971e8217879b7630c",
+  "lean/MCore/Real/P02FiniteMachineDescription.lean": "8ceeee944e1ec204cd58158096a92511e4ea738e66ffad044e167c3fa56f3346",
+  "lean/MCore/Real/P02MachineSerialization.lean": "aa9cc7f86a9f56bd3fb0dca680fdaa8a0f4bcefde2576f6bd57d45d1e6ee8103",
+  "lean/MCore/Real/P02SemanticInvariantCore.lean": "1658d89ff304b353bc3741cf00031291dd2d94d3c86e8d5a2e12ab7634b9093f",
+  "lean/MCore/Real/P02SemanticNegationCounterexample.lean": "515f6c2dd86a55172a2dde79c7aa377fa94adc4e09af5d7d6639c082f9a01639",
+  "lean/MCore/Real/P02SemanticNegationReduction.lean": "1fb1514e1250d7f569c945e66ab51e7368397d0bc1ba65adcefd679d79512181",
+  "lean/MCore/Real/P02TerminalForcingG2.lean": "4363b3819301992960ac479a5668f864b98b6b2982f4e6aee4cdd2d79545335f",
+  "lean/MCore/Real/P02TotalCandidateFailureMinCut.lean": "bf108c3c4db8e7c8ac5f53ef91218f25bb8303514c78cf992f79a8d837a66923",
+  "lean/MCore/Real/P02TwoSidedExactnessAudit.lean": "2277e49ccdbdbdd6ebd2623f1f32de2807cf341b8238a4c8ba689dfe19747f42",
+  "lean/MCore/Real/P02UniversalFailureWitnessMaterial.lean": "abb96ac06c5abe1263c26d73ef899c950f169433633397523deca0e1db175562",
+  "lean/MCore/Real/P02UniversalSimMaterial.lean": "d569297e965b28365b6bbce7077f87a72b5ce1c7bcfde08c58d4a4bd1dee196b",
+  "lean/MCore/Real/RigidLockNoReopen.lean": "64f133afec483a1ea82252a6b63b48ba6a1d41d13206892024ba1b0faf7c45c7",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Real/StructuralDiagonalObstruction.lean": "21311cbb9c88c20f8d1e861e496dccaa7a80a5045c742c0e2474fa888b9c69df",
+  "lean/MCore/Real/StructuralFixedPoint.lean": "d61104d9d786c62f5685ee163012a085636f199e45a0783d7f8182ab74e87cbb",
+  "lean/MCore/Real/StructuralFixedPointBreak.lean": "b17904381c0852d7b8c72e5dcc208a9c5954532004af657e96187b5e678c175d",
+  "lean/MCore/Real/StructuralNoReopen.lean": "82a53dcea4894d704219488662728eb6037ae722eac4779f30a41aa997b1701b",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-02T20:55:38Z",
- "certificate_sha256": "c61eb99cba961f9c906137f14333745987dfe5516b3a4f7e7fc715abafa98f3c"
+ "published_at": "2026-11-03T11:28:05Z",
+ "certificate_sha256": "fedabd6e2c2c91aae3cda675e627d741d5edb4ead830ccdc0367e20c15b606c0"
 }

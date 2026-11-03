@@ -5,7 +5,7 @@ Lean sources from the branch `attack/g3-model-match-only-20260922` of the privat
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 149 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `453db355e53ca9178e0c9fab363bd2146d5010207794b05ae594e3671289746b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `5d3be063e01607fa7e669d3714ac23188e6aa498801f2f05064eb000f116daf2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_g3-model-match-only-20260922/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

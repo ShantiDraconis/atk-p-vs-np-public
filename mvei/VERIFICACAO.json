@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T16:50:26+00:00",
+ "generated_at": "2026-11-03T08:19:01+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": false,
-   "build_seconds": 35.5,
+   "build_seconds": 46.9,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": true,
@@ -17574,7 +17574,7 @@
     "aberto-sorry": 0,
     "condicional": 0
    },
-   "hora_commit_mvei": 1793349359
+   "hora_commit_mvei": 1793652851
   },
   {
    "repo": "m-core-p-vs-np",
@@ -17583,7 +17583,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 65.0,
+   "build_seconds": 70.0,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -17620,7 +17620,7 @@
     "aberto-sorry": 0,
     "condicional": 0
    },
-   "hora_commit_mvei": 1793349359
+   "hora_commit_mvei": 1793652851
   }
  ]
 }

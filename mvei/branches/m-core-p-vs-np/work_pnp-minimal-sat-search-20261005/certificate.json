@@ -1,0 +1,1015 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "work/pnp-minimal-sat-search-20261005",
+ "branch_state": "parada",
+ "head_commit": "31bc2ebbd03af77dfcf525755434d442ab0f0f29",
+ "head_commit_date": "2026-10-05T21:53:50+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "31bc2ebbd03af77dfcf525755434d442ab0f0f29",
+   "date": "2026-10-05T21:53:50+02:00",
+   "subject": "P01: reuse certified final scans and fix final-select fuel"
+  },
+  {
+   "commit": "e2dede433c17cc74921c56f97d70bcd1f5ec97e6",
+   "date": "2026-10-05T21:49:57+02:00",
+   "subject": "P01: bind rewind BitString to canonical Bool words"
+  },
+  {
+   "commit": "6591fa6f5ced7990cd4cad3c0dce1ce9a241f604",
+   "date": "2026-10-05T21:49:06+02:00",
+   "subject": "P01: bind physical-final BitString to canonical Bool words"
+  },
+  {
+   "commit": "8bd110ac529af17e63fdfc42540b2c44dc1d9f99",
+   "date": "2026-10-05T21:34:57+02:00",
+   "subject": "ci: build and audit physical preserving-reader rewind"
+  },
+  {
+   "commit": "ebef3b8976f2303ea86f908d27bd95373639fbf8",
+   "date": "2026-10-05T21:34:37+02:00",
+   "subject": "P01: materialize physical rewind and cleanup path"
+  },
+  {
+   "commit": "5b90f02c82fdf976182bcaf2e4869a7dd45575d5",
+   "date": "2026-10-05T20:24:46+02:00",
+   "subject": "P01: fix final selection passed-padding off-by-one"
+  },
+  {
+   "commit": "cc2c0311192f98225a98dcf7927bba5c81d9a04e",
+   "date": "2026-10-05T20:24:32+02:00",
+   "subject": "fix final seek blank-pad accounting"
+  },
+  {
+   "commit": "704d0e1d31e1a317a3eb2c02e4406f2e6a796f58",
+   "date": "2026-10-05T20:21:43+02:00",
+   "subject": "ci: build physical advance and final selection in P01 frontier"
+  },
+  {
+   "commit": "fdedc8b25a69572685b899c63bd13a5cdbb119b0",
+   "date": "2026-10-05T20:21:31+02:00",
+   "subject": "P01: materialize universal final selection run"
+  },
+  {
+   "commit": "e981d2e4bd322a978cde2486f51fb0134dcdf88d",
+   "date": "2026-10-05T20:21:25+02:00",
+   "subject": "prove final nonzero seek scans toward selected bit"
+  },
+  {
+   "commit": "b03c605a0cdf4a1a219d91dd45180670ad8b286f",
+   "date": "2026-10-05T20:16:28+02:00",
+   "subject": "close universal advance final tape normalization"
+  },
+  {
+   "commit": "ec08fbc6979f1d832b312dcd2a78ac5a11421063",
+   "date": "2026-10-05T20:13:18+02:00",
+   "subject": "P01: normalize universal cycle return parameters before composition"
+  },
+  {
+   "commit": "8c822b80adb00df7d57271989c7d80da2efd25fd",
+   "date": "2026-10-05T20:08:01+02:00",
+   "subject": "disambiguate universal cycle return suffix composition"
+  },
+  {
+   "commit": "892fe2d1388af0e92821354c8513ff44bc60a3c5",
+   "date": "2026-10-05T20:06:17+02:00",
+   "subject": "P01: align universal advance fuel by right-associated run chain"
+  },
+  {
+   "commit": "8bc61d6adca8f38476f5e8167071577e3acc336c",
+   "date": "2026-10-05T20:00:49+02:00",
+   "subject": "compose universal physical indexSome advance cycle"
+  },
+  {
+   "commit": "a04299b5c96ba7525e10f79fbec40de267374d82",
+   "date": "2026-10-05T19:42:42+02:00",
+   "subject": "P01: eliminate impossible empty unary encoding at return boundary"
+  },
+  {
+   "commit": "e73191be6e2ad587856d90bb756a684b0b270c64",
+   "date": "2026-10-05T19:39:57+02:00",
+   "subject": "close returnBits to returnBlanks boundary cases"
+  },
+  {
+   "commit": "9d8de3776e9b71f42de7694e59eee27147ae914f",
+   "date": "2026-10-05T19:35:42+02:00",
+   "subject": "fix return blank-pad accounting and replicated blank normalization"
+  },
+  {
+   "commit": "bbad20d4ef3901a721b4fc2366a713a8ee7d26b7",
+   "date": "2026-10-05T19:29:26+02:00",
+   "subject": "P01: enforce return blank padding and close returnBlanks normalization"
+  },
+  {
+   "commit": "f84b1bd546e5211af164bd553d32d94d38cf8ff3",
+   "date": "2026-10-05T19:01:07+02:00",
+   "subject": "prove returnBlanks physical scan back to indexSome"
+  },
+  {
+   "commit": "98c3daf71d1e3d6124026d6fdb0fc2825d4c1619",
+   "date": "2026-10-05T18:59:15+02:00",
+   "subject": "P01: materialize inductive physical returnBits scan"
+  },
+  {
+   "commit": "5a5322197ae93afedb03b6376542096fce626203",
+   "date": "2026-10-05T18:55:38+02:00",
+   "subject": "fix returnBits entry to include selected bit physically"
+  },
+  {
+   "commit": "3348391e473cf48b7d75f7bbcf32611d3d58e83d",
+   "date": "2026-10-05T18:52:55+02:00",
+   "subject": "prove shift/carry/return-marker physical segment"
+  },
+  {
+   "commit": "98b9bfcebcc8a6ab2a53e8fe31b70a2cd32dea6d",
+   "date": "2026-10-05T18:52:04+02:00",
+   "subject": "ci: switch P01 reader frontier to canonical physical advance module"
+  },
+  {
+   "commit": "80709e4dc7b13e557259ae0d4671931b9673b1a0",
+   "date": "2026-10-05T18:47:44+02:00",
+   "subject": "P01: close exact seekBlanks counter equality"
+  },
+  {
+   "commit": "78b87bb6993422a6a524b99dd0e78d95a73d5d54",
+   "date": "2026-10-05T18:38:56+02:00",
+   "subject": "close final seekBlanks associativity goal"
+  },
+  {
+   "commit": "6661ec13cc02dbd4ab0d68f95a3b1a7d0d9d0167",
+   "date": "2026-10-05T18:31:42+02:00",
+   "subject": "fix final seekBlanks arithmetic normalization"
+  },
+  {
+   "commit": "a2d56d5192eaf25e572a9302d65a49722ce83f50",
+   "date": "2026-10-05T18:29:27+02:00",
+   "subject": "fix physical marker layout and robust scan recursion"
+  },
+  {
+   "commit": "052e434b152cb5ae7a467b9d7807912f50177fa3",
+   "date": "2026-10-05T18:26:16+02:00",
+   "subject": "prove physical seekBits scan to shiftRead"
+  },
+  {
+   "commit": "64a6116892f8fefc88e824f9f90a94b80f8f283c",
+   "date": "2026-10-05T18:24:11+02:00",
+   "subject": "fix preserving blank-run recursion and seekBits padding"
+  },
+  {
+   "commit": "3c88094a63ed781471c1ab2a80e3219be2214e36",
+   "date": "2026-10-05T18:23:50+02:00",
+   "subject": "P01: close blank-scan replicate normalization materially"
+  },
+  {
+   "commit": "1439dd15fb8567ad7dbd394fab9a4b816e9df020",
+   "date": "2026-10-05T18:21:27+02:00",
+   "subject": "P01: factor seekBlanks into certified physical steps"
+  },
+  {
+   "commit": "ecc8f048016ad6c1c866da3aa0200de794ebec67",
+   "date": "2026-10-05T18:20:51+02:00",
+   "subject": "fix: represent preserving blank scan with remaining and passed counters"
+  },
+  {
+   "commit": "b79354bafe9ddc4801749f9324165e321da00bd1",
+   "date": "2026-10-05T18:17:51+02:00",
+   "subject": "fix physical seekBlanks off-by-one and canonical bit-entry state"
+  },
+  {
+   "commit": "1fd5dac6b98460d294d1084ad857b1932ecb99d8",
+   "date": "2026-10-05T18:11:57+02:00",
+   "subject": "P01: normalize seekBlanks induction step"
+  },
+  {
+   "commit": "4be3098e083f1c5d955d31c89afaced2c4395d35",
+   "date": "2026-10-05T17:36:04+02:00",
+   "subject": "ci: build preserving-reader physical advance scans"
+  },
+  {
+   "commit": "18e993867fddd67e9b5ffc870d444e2c969c2140",
+   "date": "2026-10-05T17:35:50+02:00",
+   "subject": "build reusable physical seekBlanks scan for preserving reader"
+  },
+  {
+   "commit": "faf9c31756998a8eb3a6e9015e390927c7dfe289",
+   "date": "2026-10-05T17:34:30+02:00",
+   "subject": "ci: build physical unary scan lemmas in P01 frontier"
+  },
+  {
+   "commit": "96530bf6d296f44279cd72462f7defc126bf3f6a",
+   "date": "2026-10-05T17:34:01+02:00",
+   "subject": "P01: add inductive physical seekBlanks scan"
+  },
+  {
+   "commit": "59ae85d2c90819678f402ec048f986dd6c44adc1",
+   "date": "2026-10-05T17:33:34+02:00",
+   "subject": "P01: keep verified physical cycles and remove unbuilt universal attempt"
+  },
+  {
+   "commit": "e85ec379dc2d7e73cd9d72c032a798f85f105537",
+   "date": "2026-10-05T17:29:38+02:00",
+   "subject": "fix: use supported reverse induction for universal physical cycle"
+  },
+  {
+   "commit": "71d6222d46c17a6746e735d631fdc544d0b80f58",
+   "date": "2026-10-05T17:14:54+02:00",
+   "subject": "ci: validate fourth physical marker cycle"
+  },
+  {
+   "commit": "f9e884f06e72c120aa32470dbd321f153e30025b",
+   "date": "2026-10-05T17:14:38+02:00",
+   "subject": "prove 20-step fourth physical marker cycle"
+  },
+  {
+   "commit": "50ebd0dbdf075445a6a51467b9d764760d679f36",
+   "date": "2026-10-05T17:14:06+02:00",
+   "subject": "P01: generalize exact physical indexSome marker cycle"
+  },
+  {
+   "commit": "62ba59ed79d53fc6cf1a03072213ae703536dd7e",
+   "date": "2026-10-05T17:14:01+02:00",
+   "subject": "fix: separate loop invariant data from validity proof"
+  },
+  {
+   "commit": "36e1f043c3524881578d59fd14de6a3dc770b397",
+   "date": "2026-10-05T17:04:42+02:00",
+   "subject": "ci: force concrete preserving-reader cycle rebuild"
+  },
+  {
+   "commit": "ff3cda50dd37f327e58dd2767924584b6e3961d8",
+   "date": "2026-10-05T17:04:23+02:00",
+   "subject": "prove 16-step physical third marker cycle"
+  },
+  {
+   "commit": "5546ab0591ad8511cbb41227d7bb5b21f801b3f4",
+   "date": "2026-10-05T16:44:03+02:00",
+   "subject": "ci: emit third preserving-reader cycle trace"
+  },
+  {
+   "commit": "7663571d95d61134676cccd942361b2cfa797f1a",
+   "date": "2026-10-05T16:43:46+02:00",
+   "subject": "diagnostic: trace third preserving-reader cycle"
+  },
+  {
+   "commit": "4abd7daacdfffe1059eea3702968919e20e420b7",
+   "date": "2026-10-05T16:43:25+02:00",
+   "subject": "fix: disambiguate truncation loop step indices"
+  },
+  {
+   "commit": "0827acb63165f0302f5974d65cf395323cc7f166",
+   "date": "2026-10-05T16:40:35+02:00",
+   "subject": "fix: simplify concrete loop invariant elaboration"
+  },
+  {
+   "commit": "476653dda718998f20121428e5f7978a3aee3a07",
+   "date": "2026-10-05T16:40:29+02:00",
+   "subject": "prove true 12-step physical second marker cycle"
+  },
+  {
+   "commit": "6b630da29cc5c9924d22a5423a29c1aa804ecc63",
+   "date": "2026-10-05T16:37:40+02:00",
+   "subject": "fix: prove second-cycle guess falsification by concrete state contradiction"
+  },
+  {
+   "commit": "d8e049715b938fabf33a3029f36f9ee4d1fbbb5e",
+   "date": "2026-10-05T16:32:53+02:00",
+   "subject": "ci: emit concrete preserving-reader execution trace"
+  },
+  {
+   "commit": "a11d3fdf26a7d20a5ebaa977aa18f48e80016e2a",
+   "date": "2026-10-05T16:32:35+02:00",
+   "subject": "diagnostic: print concrete preserving-reader second-cycle trace"
+  },
+  {
+   "commit": "2387dc592dab2271290366efeea2576042bc9fa3",
+   "date": "2026-10-05T16:32:27+02:00",
+   "subject": "P01: correct second preserving unary cycle fuel to twelve"
+  },
+  {
+   "commit": "bee28af1b494064fea5d99b7462c7c342cd9a77e",
+   "date": "2026-10-05T16:32:14+02:00",
+   "subject": "fix: use exact 12-step second preserving unary cycle"
+  },
+  {
+   "commit": "5aab94edb230e790d4293c566efa3e5be2341503",
+   "date": "2026-10-05T16:31:55+02:00",
+   "subject": "falsify incorrect guessed second preserving-reader cycle"
+  },
+  {
+   "commit": "7b3c1c664c91ff0fae6d8d8e551882a637efce2c",
+   "date": "2026-10-05T16:11:23+02:00",
+   "subject": "ci: expose exact physical preserving unary cycle"
+  },
+  {
+   "commit": "a74b9f344ed4079ca36ede297ef41df827a69440",
+   "date": "2026-10-05T16:11:08+02:00",
+   "subject": "probe exact physical indexSome cycle before universal material proof"
+  },
+  {
+   "commit": "9fffb442adfe35470532182f2c592c7b4bd86979",
+   "date": "2026-10-05T16:10:14+02:00",
+   "subject": "fix: make preserving unary truncation V2 elaborate against concrete residual types"
+  },
+  {
+   "commit": "8fd0a4c2e7779a053c0b82ba2a59ea23b971c13d",
+   "date": "2026-10-05T16:09:04+02:00",
+   "subject": "P01: materialize second preserving unary marker cycle"
+  },
+  {
+   "commit": "ce2b648769d5928922a0c8e243e4aab12accd6bb",
+   "date": "2026-10-05T16:04:50+02:00",
+   "subject": "ci: supersede legacy unary truncation law and build V2 only"
+  },
+  {
+   "commit": "7279ff08ef77690cae0ab467dbd6ea4853a93619",
+   "date": "2026-10-05T16:01:37+02:00",
+   "subject": "fix: bring canonical unary encoding into preserving reader scope"
+  },
+  {
+   "commit": "055ad8e8036113a50b421e3e7b313cddd51f46dd",
+   "date": "2026-10-05T16:01:25+02:00",
+   "subject": "fix: rename reserved prefix identifier in preserving marker iteration"
+  },
+  {
+   "commit": "e34d4ce77c14c41d3b11b09173f213ab2b05b881",
+   "date": "2026-10-05T15:56:44+02:00",
+   "subject": "fix: rename reserved prefix identifier in preserving unary machine"
+  },
+  {
+   "commit": "f98d2e66228e25c5d6f42f21e189d252cb5f3329",
+   "date": "2026-10-05T15:36:33+02:00",
+   "subject": "fix: rename Lean 4.19 reserved prefix identifier in input-node plan"
+  },
+  {
+   "commit": "fdcd2bc19f86b37fb5794044893f272c054f3e5b",
+   "date": "2026-10-05T15:35:11+02:00",
+   "subject": "fix: make preserving unary truncation law fail closed"
+  },
+  {
+   "commit": "750774b651a1671a1f3ddf6342fe4e81c3f13ba0",
+   "date": "2026-10-05T15:34:40+02:00",
+   "subject": "ci: build hardened truncation law v2"
+  },
+  {
+   "commit": "0f76b1642fe0586948175a48cf053716193f974d",
+   "date": "2026-10-05T15:34:27+02:00",
+   "subject": "add hardened truncation law v2 for preserving unary reader"
+  },
+  {
+   "commit": "a391096cc87b30c5e1b4370d1e3aaf428c8466ab",
+   "date": "2026-10-05T15:25:31+02:00",
+   "subject": "ci: kernel check preserving unary truncation law"
+  },
+  {
+   "commit": "a09f774e279beeb36afb4c71121dbd9e07c9f1fb",
+   "date": "2026-10-05T15:25:19+02:00",
+   "subject": "formalize fail closed truncation law for preserving unary reader"
+  },
+  {
+   "commit": "2e5ac163e1edd374f33b75079279ae28460a741d",
+   "date": "2026-10-05T15:12:12+02:00",
+   "subject": "ci: verify preserving unary reader residual reduction"
+  },
+  {
+   "commit": "f291f70b6e2e6d17c8b95f383d9549b39caffa89",
+   "date": "2026-10-05T15:12:00+02:00",
+   "subject": "forcing: reduce preserving unary reader to three material residuals"
+  },
+  {
+   "commit": "7012d46467483ae0bdda34993826ec3e34a8df1d",
+   "date": "2026-10-05T14:59:53+02:00",
+   "subject": "fix: make physical verifier residual closure a definition"
+  },
+  {
+   "commit": "82907af8755eed153c57098b0497156c0fa07fd7",
+   "date": "2026-10-05T14:53:59+02:00",
+   "subject": "fix: make physical verifier constructor a def"
+  },
+  {
+   "commit": "ae81cb54480a69ca6092599336dd3e14e664ae8a",
+   "date": "2026-10-05T14:52:24+02:00",
+   "subject": "ci: verify PNP residual reduction before expected material failure"
+  },
+  {
+   "commit": "7dee5276d7aaf6e2977bc10d4cb88385b6ab11da",
+   "date": "2026-10-05T14:35:38+02:00",
+   "subject": "ci: verify fixed physical verifier residual reduction"
+  },
+  {
+   "commit": "7904db8960948d8c6a4218e3cc3f40777322532c",
+   "date": "2026-10-05T14:35:09+02:00",
+   "subject": "forcing: reduce physical verifier to fixed-machine halting and correctness"
+  },
+  {
+   "commit": "3c6292719c04b8f585b368c1f4eb93e83b10d806",
+   "date": "2026-10-05T14:28:08+02:00",
+   "subject": "ci: probe physical verifier material atoms"
+  },
+  {
+   "commit": "cb6b09096dd26626258ea3751fc57b8267898971",
+   "date": "2026-10-05T14:27:53+02:00",
+   "subject": "forcing: expose physical verifier material atoms"
+  },
+  {
+   "commit": "76e907d3a1bfcedc9a9f13f62f055a8153d5fdf7",
+   "date": "2026-10-05T14:24:53+02:00",
+   "subject": "ci: probe material atoms"
+  },
+  {
+   "commit": "d314cc066e8a42be6e537d412ef9be6d31c50ded",
+   "date": "2026-10-05T14:24:34+02:00",
+   "subject": "forcing: expose minimal canonical SAT inhabitant atoms"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-03T08:19:01+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.carry_to_returnFromMarker",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 243,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(selected : Bool) (passedRev : BitString) (blankPad : Nat) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 1 (carryConfig selected passedRev blankPad tail n) = returnFromMarkerConfig selected passedRev blankPad tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBitsConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 572,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passedRev : BitString) (blankPad : Nat) (selected : Bool) (tail : BitString) : (finalSeekBitsConfig remaining passedRev blankPad selected tail).state = .finalSeekBits"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBits_entry_step",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 579,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (passed : Nat) (selected : Bool) (tail : BitString) : preservingUnaryReadMachine.run 1 (finalSeekBitsEntryConfig x xs passed selected tail) = finalSeekBitsConfig xs [x] (passed + 1) selected tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBits_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 600,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passedRev : BitString) (blankPad : Nat) (selected : Bool) (tail : BitString) : preservingUnaryReadMachine.run remaining.length (finalSeekBitsConfig remaining passedRev blankPad selected tail) = finalSeekBitsConfig [] (remaining.reverse ++ passedRev) blankPad selected tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBits_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 590,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(y : Bool) (ys passedRev : BitString) (blankPad : Nat) (selected : Bool) (tail : BitString) : preservingUnaryReadMachine.step (finalSeekBitsConfig (y :: ys) passedRev blankPad selected tail) = finalSeekBitsConfig ys (y :: passedRev) blankPad selected tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBlanksConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 488,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passed : Nat) (traversed : BitString) (selected : Bool) (tail : BitString) : (finalSeekBlanksConfig remaining passed traversed selected tail).state = .finalSeekBlanks"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBlanks_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 504,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passed : Nat) (traversed : BitString) (selected : Bool) (tail : BitString) : preservingUnaryReadMachine.run remaining (finalSeekBlanksConfig remaining passed traversed selected tail) = finalSeekBlanksConfig 0 (passed + remaining) traversed selected tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBlanks_step_succ",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 494,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passed : Nat) (traversed : BitString) (selected : Bool) (tail : BitString) : preservingUnaryReadMachine.step (finalSeekBlanksConfig (remaining + 1) passed traversed selected tail) = finalSeekBlanksConfig remaining (passed + 1) traversed selected tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.finalSeekBlanks_zero_step_to_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 542,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (passed : Nat) (selected : Bool) (tail : BitString) : preservingUnaryReadMachine.run 1 (finalSeekBlanksConfig 0 passed (x :: xs) selected tail) = finalSeekBitsEntryConfig x xs passed selected tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.indexSome_run_advance",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 633,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(traversed : BitString) (b : Bool) (tail : BitString) (n : Nat) (htrav : traversed ≠ []) : preservingUnaryReadMachine.run (4 * traversed.length + 8) (indexSomeConfig traversed (b :: tail) (n + 1)) = indexSomeConfig (traversed ++ [b]) tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.replicate_none_append_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 416,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (leftAcc : List (Option Bool)) : List.replicate k none ++ none :: leftAcc = none :: (List.replicate k none ++ leftAcc)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBitsConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 290,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining : BitString) (leftAcc : List (Option Bool)) (blankPad : Nat) (n : Nat) : (returnBitsConfig remaining leftAcc blankPad n).state = .returnBits"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBits_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 310,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining : BitString) (leftAcc : List (Option Bool)) (blankPad : Nat) (n : Nat) (hpad : 0 < blankPad) : preservingUnaryReadMachine.run remaining.length (returnBitsConfig remaining leftAcc blankPad n) = returnBitsConfig [] (remaining.reverse.map some ++ leftAcc) blankPad n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBits_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 296,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (leftAcc : List (Option Bool)) (blankPad : Nat) (n : Nat) (hpad : 0 < blankPad) : preservingUnaryReadMachine.step (returnBitsConfig (x :: xs) leftAcc blankPad n) = returnBitsConfig xs (some x :: leftAcc) blankPad n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBits_to_returnBlanks",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 376,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(leftAcc : List (Option Bool)) (blankPad : Nat) (n : Nat) (hpad : 0 < blankPad) : preservingUnaryReadMachine.run 1 (returnBitsConfig [] leftAcc blankPad n) = returnBlanksConfig (blankPad - 1) (none :: leftAcc) n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBlanksConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 366,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining : Nat) (leftAcc : List (Option Bool)) (n : Nat) : (returnBlanksConfig remaining leftAcc n).state = if remaining = 0 ∧ encodeNat n = [] then .reject else .returnBlanks"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBlanks_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 427,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining : Nat) (leftAcc : List (Option Bool)) (n : Nat) : preservingUnaryReadMachine.run remaining (returnBlanksConfig remaining leftAcc n) = returnBlanksConfig 0 (List.replicate remaining none ++ leftAcc) n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBlanks_step_succ",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 401,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (leftAcc : List (Option Bool)) (n : Nat) : preservingUnaryReadMachine.step (returnBlanksConfig (k + 1) leftAcc n) = returnBlanksConfig k (none :: leftAcc) n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnBlanks_zero_to_indexSome",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 457,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(leftAcc : List (Option Bool)) (n : Nat) : preservingUnaryReadMachine.run 1 (returnBlanksConfig 0 leftAcc n) = { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.returnFromMarker_to_returnBits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 276,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(selected : Bool) (passedRev : BitString) (blankPad : Nat) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 1 (returnFromMarkerConfig selected passedRev blankPad tail n) = returnBitsConfig (selected :: passedRev) (none :: tail.map some) blankPad n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBitsConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 137,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) (n : Nat) : (seekBitsConfig remaining passedRev blankPad b tail n).state = .seekBits"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBits_entry_step",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 127,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (passed : Nat) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 1 (seekBitsEntryConfig x xs passed b tail n) = seekBitsConfig xs [x] (passed + 1) b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBits_marker_to_shiftRead",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 194,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 1 (seekBitsConfig [] passedRev blankPad b tail n) = shiftReadConfig passedRev blankPad b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBits_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 155,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run remaining.length (seekBitsConfig remaining passedRev blankPad b tail n) = seekBitsConfig [] (remaining.reverse ++ passedRev) blankPad b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBits_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 144,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(y : Bool) (ys passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.step (seekBitsConfig (y :: ys) passedRev blankPad b tail n) = seekBitsConfig ys (y :: passedRev) blankPad b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBlanksConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 29,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passed : Nat) (traversed : BitString) (b : Bool) (tail : BitString) (n : Nat) : (seekBlanksConfig remaining passed traversed b tail n).state = .seekBlanks"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBlanks_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 46,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passed : Nat) (traversed : BitString) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run remaining (seekBlanksConfig remaining passed traversed b tail n) = seekBlanksConfig 0 (passed + remaining) traversed b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBlanks_step_succ",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 35,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(remaining passed : Nat) (traversed : BitString) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.step (seekBlanksConfig (remaining + 1) passed traversed b tail n) = seekBlanksConfig remaining (passed + 1) traversed b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.seekBlanks_zero_step_to_bits",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 91,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (passed : Nat) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 1 (seekBlanksConfig 0 passed (x :: xs) b tail n) = seekBitsEntryConfig x xs (passed + 1) b tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalAdvance.shiftRead_to_carry",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean",
+   "line": 218,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 1 (shiftReadConfig passedRev blankPad b tail n) = carryConfig b passedRev blankPad tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalFinal.finalRead_to_selected",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalFinal.lean",
+   "line": 55,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) : preservingUnaryReadMachine.run 1 (finalReadConfig passedRev blankPad b tail) = selectedConfig b passedRev blankPad tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalFinal.finalSeekBits_marker_to_finalRead",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalFinal.lean",
+   "line": 34,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(passedRev : BitString) (blankPad : Nat) (b : Bool) (tail : BitString) : preservingUnaryReadMachine.run 1 (finalSeekBitsConfig [] passedRev blankPad b tail) = finalReadConfig passedRev blankPad b tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalFinal.finalSelect_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalFinal.lean",
+   "line": 65,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(x : Bool) (xs : BitString) (b : Bool) (tail : BitString) : preservingUnaryReadMachine.run (2 * (x :: xs).length + 3) (indexSomeConfig (x :: xs) (b :: tail) 0) = selectedConfig b ((x :: xs).reverse) ((x :: xs).length) tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalFinal.indexSome_zero_to_finalSeekBlanks",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalFinal.lean",
+   "line": 11,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(x : Bool) (xs : BitString) (b : Bool) (tail : BitString) : preservingUnaryReadMachine.run 1 (indexSomeConfig (x :: xs) (b :: tail) 0) = finalSeekBlanksConfig xs.length 0 (x :: xs) b tail"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.cleanup_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 104,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(selected : Bool) (witness : BitString) (remaining : Nat) : preservingUnaryReadMachine.run remaining (cleanupConfig selected witness remaining) = cleanupConfig selected witness 0"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.cleanup_step_succ",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 94,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(selected : Bool) (witness : BitString) (k : Nat) : preservingUnaryReadMachine.step (cleanupConfig selected witness (k + 1)) = cleanupConfig selected witness k"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.cleanup_to_halt",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 133,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(selected : Bool) (witness : BitString) : preservingUnaryReadMachine.run 1 (cleanupConfig selected witness 0) = haltConfig selected witness"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.rewind_done_to_cleanup",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 82,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(restored : BitString) (selected : Bool) (tail : BitString) (blankPad : Nat) : preservingUnaryReadMachine.run 1 (rewindConfig [] restored selected tail blankPad) = cleanupConfig selected (restored.reverse ++ selected :: tail) blankPad"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.rewind_run",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 49,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(remaining restored : BitString) (selected : Bool) (tail : BitString) (blankPad : Nat) : preservingUnaryReadMachine.run (3 * remaining.length) (rewindConfig remaining restored selected tail blankPad) = rewindConfig [] (remaining.reverse ++ restored) selected tail blankPad"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.rewind_step_cons",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 39,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(x : Bool) (xs restored : BitString) (selected : Bool) (tail : BitString) (blankPad : Nat) : preservingUnaryReadMachine.run 3 (rewindConfig (x :: xs) restored selected tail blankPad) = rewindConfig xs (x :: restored) selected tail blankPad"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalRewind.selected_to_rewind",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalRewind.lean",
+   "line": 29,
+   "state": "nao_alcancado",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(selected : Bool) (passedRev : BitString) (blankPad : Nat) (tail : BitString) : preservingUnaryReadMachine.run 1 (selectedConfig selected passedRev blankPad tail) = rewindConfig passedRev [] selected tail blankPad"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalScans.preservingUnaryReadMachine_not_halt_seekBlanks",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalScans.lean",
+   "line": 27,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReadMachine.halting .seekBlanks = false"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalScans.seekBlanksConfig_state",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalScans.lean",
+   "line": 22,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(pad : Nat) (leftBits : List (Option Bool)) (bit : Bool) (right : List (Option Bool)) : (seekBlanksConfig pad leftBits bit right).state = .seekBlanks"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalScans.seekBlanks_run_replicate",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalScans.lean",
+   "line": 55,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(pad : Nat) (leftBits : List (Option Bool)) (bit : Bool) (right : List (Option Bool)) : preservingUnaryReadMachine.run (pad + 1) (seekBlanksConfig pad leftBits bit right) = { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalScans.seekBlanks_step_succ",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalScans.lean",
+   "line": 30,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(pad : Nat) (leftBits : List (Option Bool)) (bit : Bool) (right : List (Option Bool)) : preservingUnaryReadMachine.step (seekBlanksConfig (pad + 1) leftBits bit right) = seekBlanksConfig pad leftBits bit (none :: right)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryPhysicalScans.seekBlanks_step_zero",
+   "file": "lean/MCore/Real/P01PreservingUnaryPhysicalScans.lean",
+   "line": 40,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(leftBits : List (Option Bool)) (bit : Bool) (right : List (Option Bool)) : preservingUnaryReadMachine.step (seekBlanksConfig 0 leftBits bit right) = { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReaderCertificate.preservingUnaryTimeBound_poly",
+   "file": "lean/MCore/Real/P01PreservingUnaryReaderResiduals.lean",
+   "line": 14,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": PolynomialTimeBound preservingUnaryTimeBound"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLaw.exact_truncation_closure_producer_closes",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLaw.lean",
+   "line": 172,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(h : ExactTruncationClosureProducer) : PreservingUnaryReaderGap"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLaw.loopEdge_wellFounded",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLaw.lean",
+   "line": 47,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{LoopEdge : ReaderSearchState → ReaderSearchState → Prop} (M : LoopMeasure LoopEdge) : WellFounded (fun b a => LoopEdge a b)"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLaw.searchResult_closes_reader",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLaw.lean",
+   "line": 137,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{IsBlocking : ReaderSearchState → Prop} {LoopEdge : ReaderSearchState → ReaderSearchState → Prop} {M : LoopMeasure LoopEdge} (P : SearchClosureProducers (IsBlocking"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLaw.truncationLaw_closes_reader",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLaw.lean",
+   "line": 147,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{Reachable : ReaderSearchState → Prop} {IsBlocking : ReaderSearchState → Prop} {LoopEdge : ReaderSearchState → ReaderSearchState → Prop} (L : TruncationLaw Reachable IsBlocking LoopEdge) (P : SearchClosureProducers (IsBlocking"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLawV2.exhaustion_closes",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLawV2.lean",
+   "line": 104,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : TruncationLaw) (E : ExhaustionCertificate) : PreservingUnaryReaderGap"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLawV2.loop_closes",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLawV2.lean",
+   "line": 109,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : TruncationLaw) (I : LoopInvariant) (hI : I.Valid) : PreservingUnaryReaderGap"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryTruncationLawV2.open_does_not_close",
+   "file": "lean/MCore/Real/P01PreservingUnaryTruncationLawV2.lean",
+   "line": 100,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(L : TruncationLaw) : SearchResult.close? L SearchResult.open = none"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryWitnessMachine.preservingRead_fourth_true_cycle_twenty",
+   "file": "lean/MCore/Real/P01PreservingUnaryWitnessMachine.lean",
+   "line": 325,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 b1 b2 b3 : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 20 (indexSomeConfig [b0, b1, b2] (b3 :: tail) (n + 1)) = indexSomeConfig [b0, b1, b2, b3] tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryWitnessMachine.preservingRead_second_true_cycle_guess_false",
+   "file": "lean/MCore/Real/P01PreservingUnaryWitnessMachine.lean",
+   "line": 280,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReadMachine.run 10 (indexSomeConfig [false] (false :: []) (0 + 1)) ≠ indexSomeConfig [false, false] [] 0"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryWitnessMachine.preservingRead_second_true_cycle_twelve",
+   "file": "lean/MCore/Real/P01PreservingUnaryWitnessMachine.lean",
+   "line": 296,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 b1 : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 12 (indexSomeConfig [b0] (b1 :: tail) (n + 1)) = indexSomeConfig [b0, b1] tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryWitnessMachine.preservingRead_third_true_cycle_sixteen",
+   "file": "lean/MCore/Real/P01PreservingUnaryWitnessMachine.lean",
+   "line": 311,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b0 b1 b2 : Bool) (tail : BitString) (n : Nat) : preservingUnaryReadMachine.run 16 (indexSomeConfig [b0, b1] (b2 :: tail) (n + 1)) = indexSomeConfig [b0, b1, b2] tail n"
+  }
+ ],
+ "closed": 45,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean": "4458b9dbe909fb6c53d78d1fab16e8d27120e3c4c47ddc3ac5745e5c9f895daf",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
+  "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
+  "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
+  "lean/MCore/Real/P01EvalCursorConsume.lean": "eb9518da610a8f3093a7b01e0728f56da590ca7ed25dc9eebedf90da252523d3",
+  "lean/MCore/Real/P01EvalCursorFramePush.lean": "69290bc6aca72ac687b1ad6dfa6bc243c052476e4a9b6ac6e0b1ac51e3f5da54",
+  "lean/MCore/Real/P01EvalCursorMachine.lean": "334a8f85835424cc3df77c31b69bf9dbb9b9826de0c6d31859d201a5ac4cc5d6",
+  "lean/MCore/Real/P01EvalCursorRoundTrip.lean": "2aa05b2eef303b051699a663b40c9f0fa110c6afe7cdb60067b462c2cb552ac8",
+  "lean/MCore/Real/P01EvalFramePushMachine.lean": "262e46a1aa5c75dee155f976e5fb998aafd144c98aa5808ee6a46e448a748d5f",
+  "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean": "65f57eded7aa9085213da2975bb611899ae9381a4d101d25c1bf748d8e542649",
+  "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
+  "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
+  "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
+  "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "e9f86bee64d482007e3e2feded7b9980c6f6c28a4c8a50a0d48672403dfb0322",
+  "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
+  "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "a666eaae40420970c54e5cf8652991427c660b6e529cbbb14c4bb843be46add9",
+  "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
+  "lean/MCore/Real/P01FullVerifierTraversal.lean": "b792b4dffa2c7e346fcd36e635c6d867a8a0898cfc5ee543c63ecc09666cdd1d",
+  "lean/MCore/Real/P01InputNodePreservingPlan.lean": "c4be8f54923be5dc9d797ea6c8a55ded89ef9e92c6be9b247529bed29388beff",
+  "lean/MCore/Real/P01PreservingUnaryPhysicalAdvance.lean": "d1e08075354bda0e92f3fa2157f74c01a56993be3cb1fae761a0d5d3a5f30adb",
+  "lean/MCore/Real/P01PreservingUnaryPhysicalFinal.lean": "027048bbcb4196933fc32738d1b0d17d0d102594c779f8908bb4814f05c981d2",
+  "lean/MCore/Real/P01PreservingUnaryPhysicalScans.lean": "c31d357a49fdf71a2bf56ee11acbf5b5c10fce1a667785c6e51540cbcb3cd5ca",
+  "lean/MCore/Real/P01PreservingUnaryReaderCertificate.lean": "e9c954bdf5b6cc64e68d133db05db8e4d205863fc72565a381e3cc01e1647c65",
+  "lean/MCore/Real/P01PreservingUnaryReaderResiduals.lean": "ebf3eefb12ac6b5e7cb76e9a43999501dd52fdd7c3665d2bf075db4389650dd6",
+  "lean/MCore/Real/P01PreservingUnaryTruncationLawV2.lean": "aee6b923e17d77c922cf41754ae68a3da69970cc43cad86305b7a8636660ece5",
+  "lean/MCore/Real/P01PreservingUnaryWitnessMachine.lean": "6070c66d96a87f6d805e2b2a63c45e7a6faa3fb8f0c89498085ef2bda48393c7",
+  "lean/MCore/Real/P01PreservingUnaryWitnessMarker.lean": "ff594b5d2e17f62ceecb206d67300a901286d545f9d149835d2531b310e86d3e",
+  "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
+  "lean/MCore/Real/P01VerifierComposition.lean": "e98bd8fce28dda051ed418d25a82bc8e9c251ca1dcddde6bb6c092ea50ebbb3f",
+  "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
+  "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
+  "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-11-03T11:28:06Z",
+ "certificate_sha256": "490bd17cd883b51cb6ccc804f2592e2767a3888962a5ff867d5e900cc85ea215"
+}

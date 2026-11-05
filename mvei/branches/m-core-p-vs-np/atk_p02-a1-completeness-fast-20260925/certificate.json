@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -8170,10 +8170,8 @@
    "name": "MCore.Real.P02SharedVariableCoverageAudit.padded_has_progress",
    "file": "lean/MCore/Real/P02SharedVariableCoverageAudit.lean",
    "line": 37,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": RestrictionProgress fixPayloadOnly (cnfCircuit (payload ++ core))"
   },
   {
@@ -9053,7 +9051,7 @@
    "statement": "(a b : ResidualState) (ha : a.residualMagnitude = 0) (hb : b.residualMagnitude = 0) (hphase : a.residualPhase = b.residualPhase) : sameResidualOrientation a b"
   }
  ],
- "closed": 853,
+ "closed": 854,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "db486861aefca7da9a704a0d0863e617564f0e9cc20d300ec27c3fbd61e02763",
@@ -9258,6 +9256,7 @@
   "lean/MCore/Real/P02SemanticSelfEmbedding.lean": "418495d70dd09b15c87a1d31b5ab4b60c0be1c5f4fdd98be88882a83da7cc0f6",
   "lean/MCore/Real/P02SemanticSelfEmbeddingClose.lean": "fc270ad07b5e70d4faee8f68de97785c19700973751f2e2cb3d00a5634e3447f",
   "lean/MCore/Real/P02SemanticStabilityLane.lean": "135a8cbb4e9c32f2b678be25a5781f09dda45f75b855a0167af2acedb9b0dfc9",
+  "lean/MCore/Real/P02SharedVariableCoverageAudit.lean": "e46ca18bc98175c116e9b7b87eb9ae33e007519129139772837b463cdac8c27e",
   "lean/MCore/Real/P02TableauCompletenessActive.lean": "ab46e1183c19e74bf9e566da119dae6acd49d7a3473b8ae6c3049104490bfb20",
   "lean/MCore/Real/P02TableauCompletenessClose.lean": "e2ca1b7aa8ca38f8c9381e2867ee307bb3ef8998dfb11ed9e486d54aa8ad6f8c",
   "lean/MCore/Real/P02TerminalFrontier.lean": "0378ba007d2f7651fbcce19cef127353cb623bae737b843e0c5fea4b350a9c8f",
@@ -9275,6 +9274,6 @@
   "lean/MCore/Research/ResidualRotationAlgebra.lean": "9a65a5857493c85bc2becbfae9ce601b7afb37dca3e37f99d5df949784176b5b",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:04Z",
- "certificate_sha256": "8ded02a4ae4743a8b68e31102871517e965eab7458635edfd4fc3059bbabbbce"
+ "published_at": "2026-11-05T17:43:03Z",
+ "certificate_sha256": "40cf1d2ad9fd78dc831b895bd822d0e5c3be484924dced3f4e75a2fa9d49b4cf"
 }

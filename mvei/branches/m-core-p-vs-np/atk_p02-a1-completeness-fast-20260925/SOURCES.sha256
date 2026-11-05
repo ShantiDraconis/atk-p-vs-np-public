@@ -201,6 +201,7 @@ b9a1249718534ab584e9784fa114c6a30322300f0079403654608f217e745e22  branches/m-cor
 418495d70dd09b15c87a1d31b5ab4b60c0be1c5f4fdd98be88882a83da7cc0f6  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02SemanticSelfEmbedding.lean
 fc270ad07b5e70d4faee8f68de97785c19700973751f2e2cb3d00a5634e3447f  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02SemanticSelfEmbeddingClose.lean
 135a8cbb4e9c32f2b678be25a5781f09dda45f75b855a0167af2acedb9b0dfc9  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02SemanticStabilityLane.lean
+e46ca18bc98175c116e9b7b87eb9ae33e007519129139772837b463cdac8c27e  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02SharedVariableCoverageAudit.lean
 ab46e1183c19e74bf9e566da119dae6acd49d7a3473b8ae6c3049104490bfb20  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02TableauCompletenessActive.lean
 e2ca1b7aa8ca38f8c9381e2867ee307bb3ef8998dfb11ed9e486d54aa8ad6f8c  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02TableauCompletenessClose.lean
 0378ba007d2f7651fbcce19cef127353cb623bae737b843e0c5fea4b350a9c8f  branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/lean/MCore/Real/P02TerminalFrontier.lean

@@ -228,7 +228,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -358,12 +358,12 @@
    "name": "MCore.Research.return_to_primary",
    "file": "lean/MCore/Research/ParallelClosure.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{Goal : Prop} (a : ParallelAttack Goal) (h : a.Residual) : Goal"
   }
  ],
- "closed": 13,
+ "closed": 14,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
@@ -398,8 +398,9 @@
   "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
   "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
   "lean/MCore/Real/CNFStructure.lean": "51f036265643546c6e6d8ebc42dffebff179d5045febfacf3773c5d908b19b98",
+  "lean/MCore/Research/ParallelClosure.lean": "9bb0164cacb40fd6589f807277ecbe410b96fb1d4090cd6b4aa4c3413f60b91f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:15Z",
- "certificate_sha256": "d9fc852aaeebb9f9878be39d40c3c728c317232f1c3c71eec6d07f250259951e"
+ "published_at": "2026-11-05T17:43:12Z",
+ "certificate_sha256": "538cfbaf1594acf8480959f87da163eac98b74ebeb0f464bb74d2cedb93d50b7"
 }

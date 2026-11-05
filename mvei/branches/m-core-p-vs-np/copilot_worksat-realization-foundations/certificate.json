@@ -1,0 +1,253 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "copilot/worksat-realization-foundations",
+ "branch_state": "parada",
+ "head_commit": "a16918d8ff2a9b35a25bd963686155b81d8496f8",
+ "head_commit_date": "2026-09-19T16:48:47+00:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "a16918d8ff2a9b35a25bd963686155b81d8496f8",
+   "date": "2026-09-19T16:48:47+00:00",
+   "subject": "Add real SAT realization module over MCore.Real.Model"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.SATNPRealization",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 368,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": DecidesWithin satVerifier satInitialConfiguration SATLanguage satRuntime ∧ PolyBound satRuntime"
+  },
+  {
+   "name": "MCore.Real.encodeCNF_injective",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 177,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": Function.Injective encodeCNF"
+  },
+  {
+   "name": "MCore.Real.parseCNFList_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 162,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(cnf : CNF) (rest : List Char) : parseCNFList (encodeClauses cnf ++ '}' :: rest) = some (cnf, rest)"
+  },
+  {
+   "name": "MCore.Real.parseCNF_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 173,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(cnf : CNF) : parseCNF (encodeCNF cnf) = some cnf"
+  },
+  {
+   "name": "MCore.Real.parseCNF_negativeControl_badPrefix",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 192,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": parseCNF \" \" = none"
+  },
+  {
+   "name": "MCore.Real.parseCNF_negativeControl_empty",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 190,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": parseCNF \"\" = none"
+  },
+  {
+   "name": "MCore.Real.parseClause_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 158,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(clause : Clause) (rest : List Char) : parseClause (encodeClause clause ++ rest) = some (clause, rest)"
+  },
+  {
+   "name": "MCore.Real.parseLiteralList_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 147,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(lits : Clause) (rest : List Char) : parseLiteralList (encodeLiterals lits ++ ']' :: rest) = some (lits, rest)"
+  },
+  {
+   "name": "MCore.Real.parseLiteral_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 139,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(lit : Literal) (rest : List Char) : parseLiteral (encodeLiteral lit ++ rest) = some (lit, rest)"
+  },
+  {
+   "name": "MCore.Real.parseNatUnaryAux_replicate",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 127,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(acc n : Nat) (rest : List Char) : parseNatUnaryAux acc (List.replicate n '1' ++ '0' :: rest) = some (acc + n, rest)"
+  },
+  {
+   "name": "MCore.Real.parseNatUnary_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 134,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(n : Nat) (rest : List Char) : parseNatUnary (encodeNatUnary n ++ rest) = some (n, rest)"
+  },
+  {
+   "name": "MCore.Real.runBranches_two",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 271,
+   "state": "nao_checado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : String) : satVerifier.runBranches 2 [satInitialConfiguration s] = match parseCNF s with | none => [satInputRejectConfig s] | some cnf => (allAssignments (numVars cnf)).map fun a => if evalCNF a cnf then satAcceptConfig a.bits else satRejectConfig a.bits"
+  },
+  {
+   "name": "MCore.Real.satRuntime_matches_two",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 358,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(s : String) : satRuntime s.length = 2"
+  },
+  {
+   "name": "MCore.Real.satRuntime_poly",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 353,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": PolyBound satRuntime"
+  },
+  {
+   "name": "MCore.Real.sat_acceptsWithin_two_of_language",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 281,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{s : String} : SATLanguage s → satVerifier.AcceptsWithin 2 (satInitialConfiguration s)"
+  },
+  {
+   "name": "MCore.Real.sat_decidesWithin",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 360,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": DecidesWithin satVerifier satInitialConfiguration SATLanguage satRuntime"
+  },
+  {
+   "name": "MCore.Real.sat_language_of_acceptsWithin_two",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 290,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{s : String} : satVerifier.AcceptsWithin 2 (satInitialConfiguration s) → SATLanguage s"
+  },
+  {
+   "name": "MCore.Real.sat_sound_complete",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 309,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(s : String) : satVerifier.AcceptsWithin 2 (satInitialConfiguration s) ↔ SATLanguage s"
+  },
+  {
+   "name": "MCore.Real.sat_uniform_halting",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 315,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": ∀ s : String, satVerifier.HaltsWithin 2 (satInitialConfiguration s)"
+  },
+  {
+   "name": "MCore.Real.semanticallyRepresents_exact",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 187,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(s : String) (a : Assignment) (b : Bool) : SemanticallyRepresents s a b ↔ ∃ cnf, parseCNF s = some cnf ∧ evalCNF a cnf = b"
+  },
+  {
+   "name": "MCore.Real.wellFormed_exact",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 184,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(s : String) : WellFormedCNFString s ↔ ∃ cnf, parseCNF s = some cnf"
+  },
+  {
+   "name": "MCore.Real.wellFormed_of_encode",
+   "file": "lean/MCore/Real/SATRealization.lean",
+   "line": 194,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(cnf : CNF) : WellFormedCNFString (encodeCNF cnf)"
+  }
+ ],
+ "closed": 2,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/SATRealization.lean": "cd4845d214af0d2cb4ef9094db0168742732ec831b3904fb7d98b858fa54b2fb",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-11-05T17:43:11Z",
+ "certificate_sha256": "59fd60715d77b37f9ea632fb40e3c4382cf119b64f06dc535540afa8a2f8477e"
+}

@@ -1,0 +1,86 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/composition-holonomy-research-20261007",
+ "branch_state": "parada",
+ "head_commit": "f32220da1238d801f83925d9eeee8ce119b30dc7",
+ "head_commit_date": "2026-10-07T22:02:32+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "f32220da1238d801f83925d9eeee8ce119b30dc7",
+   "date": "2026-10-07T22:02:32+02:00",
+   "subject": "research: add PNP research aggregate"
+  },
+  {
+   "commit": "81cb40719843405e2a7286f1086ce3e125ef93ca",
+   "date": "2026-10-07T22:02:22+02:00",
+   "subject": "research: scaffold lean/MCore/Research/PNP/Targets.lean"
+  },
+  {
+   "commit": "85d3079cbaae146e2fd9d0d66418968a14238732",
+   "date": "2026-10-07T22:02:19+02:00",
+   "subject": "research: scaffold lean/MCore/Research/PNP/Counterprobes.lean"
+  },
+  {
+   "commit": "cd0cb5f07993faa35e5612526927beb2a64d40b6",
+   "date": "2026-10-07T22:02:16+02:00",
+   "subject": "research: scaffold lean/MCore/Research/PNP/SemanticHolonomy.lean"
+  },
+  {
+   "commit": "a547f3bb39f88ee6b0c651af84aa50d1ee4becb5",
+   "date": "2026-10-07T22:02:14+02:00",
+   "subject": "research: scaffold lean/MCore/Research/PNP/CompositionCurvature.lean"
+  },
+  {
+   "commit": "36c97b3abde7c88213f1cbc90402b86635a382eb",
+   "date": "2026-10-07T22:02:11+02:00",
+   "subject": "research: scaffold research/composition_curvature/RouteLedger.md"
+  },
+  {
+   "commit": "ea3627810686ac64baeb82edc2f38cf601ac5f34",
+   "date": "2026-10-07T22:02:09+02:00",
+   "subject": "research: scaffold research/composition_curvature/CHAIN.md"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Research.PNP.scalarCurvature_eq_zero",
+   "file": "lean/MCore/Research/PNP/CompositionCurvature.lean",
+   "line": 15,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "{α : Type} (g f : CostedArrow α) : scalarCurvature g f = 0"
+  },
+  {
+   "name": "MCore.Research.PNP.two_path_semantics",
+   "file": "lean/MCore/Research/PNP/SemanticHolonomy.lean",
+   "line": 10,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "∀ {A B C S : Type} (semA : A → S) (semB : B → S) (semC : C → S) (f01 : MCore.Research.PNP.Translation A B semA semB)   (f12 : MCore.Research.PNP.Translation B C semB semC) (f02 : MCore.Research.PNP.Translation A C semA semC) (x : A),   semC (f12.run (f01.run x)) = semC (f02.run x)"
+  }
+ ],
+ "closed": 1,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Research/PNP/SemanticHolonomy.lean": "322a7a0fea250041be5dee0ed40043c87c38bb6198f2a000cd1752bb02abbff2"
+ },
+ "published_at": "2026-11-05T17:43:20Z",
+ "certificate_sha256": "6028316768a6fd4d670995f970ebc08829735911de53921ee6d2019576f3041b"
+}

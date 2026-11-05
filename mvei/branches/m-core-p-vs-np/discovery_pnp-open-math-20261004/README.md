@@ -5,7 +5,7 @@ Lean sources from the branch `discovery/pnp-open-math-20261004` of the private r
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 385 — closed 78, conditional 0, open 76, proof error 1, not reached 230, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `311de41f4931c47b2d84456f0f52c1da0fcda865b0e97555f5ce840fa7bde368`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/discovery_pnp-open-math-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `e1e4630c5c49231f5416cfd63132d1a1d4a0fb6eda714339c345c98881829428`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/discovery_pnp-open-math-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

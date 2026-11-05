@@ -1,0 +1,453 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk-missing-material-types-20260930",
+ "branch_state": "parada",
+ "head_commit": "99390da678b9b67bf5e9f0f34caa0ba75399a623",
+ "head_commit_date": "2026-10-01T00:14:14+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "99390da678b9b67bf5e9f0f34caa0ba75399a623",
+   "date": "2026-10-01T00:14:14+02:00",
+   "subject": "ATK: compile frozen parser certificate in root graph"
+  },
+  {
+   "commit": "816f52f9ca207540aed53f36b95bb48643ac1638",
+   "date": "2026-10-01T00:14:02+02:00",
+   "subject": "ATK: reuse frozen global parser simulation"
+  },
+  {
+   "commit": "44d1701247d1fe91b7c2b146628f3aa036fa8be7",
+   "date": "2026-10-01T00:11:34+02:00",
+   "subject": "ATK: reject RED one-machine consumer from root graph"
+  },
+  {
+   "commit": "ec11dad27658e8a2ee5ecb7e1b41a05183c475d3",
+   "date": "2026-10-01T00:08:03+02:00",
+   "subject": "ATK: fix one-machine consumer record syntax"
+  },
+  {
+   "commit": "98ca7177aee3f3d387dc544e6038333758c9dd5d",
+   "date": "2026-10-01T00:04:13+02:00",
+   "subject": "ATK: include one-machine source consumer in root build"
+  },
+  {
+   "commit": "da2f82d20c9fc0b8bf343bcef4569b2a9066e650",
+   "date": "2026-10-01T00:04:01+02:00",
+   "subject": "ATK: reuse one-machine physical source consumer"
+  },
+  {
+   "commit": "0a465fddf3d14c1aa6a012fee6d40ce4160a94d2",
+   "date": "2026-10-01T00:02:56+02:00",
+   "subject": "ATK: link integrated P01 V2 assembly into root build"
+  },
+  {
+   "commit": "3ed906e2efa14957e74969df43d49686a1cc2fab",
+   "date": "2026-10-01T00:02:46+02:00",
+   "subject": "ATK: reuse integrated V2 P01WitnessPrepGlobal.lean"
+  },
+  {
+   "commit": "0d5be11c4cf877c9e4532ffc35722baef9e74dd8",
+   "date": "2026-10-01T00:02:40+02:00",
+   "subject": "ATK: reuse integrated V2 P01IntegratedAssembly.lean"
+  },
+  {
+   "commit": "49a638194a9d7285fe6996f745cf2b5ccedbaf15",
+   "date": "2026-10-01T00:02:36+02:00",
+   "subject": "ATK: reuse integrated V2 P01GuessedWitnessRelation.lean"
+  },
+  {
+   "commit": "59dc4052f95bf88c2e3df1113c214dd9aa0f2cdb",
+   "date": "2026-10-01T00:02:32+02:00",
+   "subject": "ATK: reuse integrated V2 P01NTMSeqRun.lean"
+  },
+  {
+   "commit": "a151482df88012e542c5be944e2ca9f72ad49f3c",
+   "date": "2026-10-01T00:02:29+02:00",
+   "subject": "ATK: reuse integrated V2 P01NTMRunLaws.lean"
+  },
+  {
+   "commit": "44ea782971e81d91c54f25ace49553c58e421471",
+   "date": "2026-09-30T23:57:06+02:00",
+   "subject": "ATK: normalize full-layout reader final configuration"
+  },
+  {
+   "commit": "505d2946148202f38054cf75bbcb3c4746a4b157",
+   "date": "2026-09-30T23:54:30+02:00",
+   "subject": "ATK: include full-layout input refinement in root build"
+  },
+  {
+   "commit": "de0896b5c6acf2b0d59fc071f123c7d106a47b1d",
+   "date": "2026-09-30T23:54:07+02:00",
+   "subject": "ATK: close full-layout input-node reader refinement"
+  },
+  {
+   "commit": "967b6ac54dff836b61de220d5aca8a3b91136542",
+   "date": "2026-09-30T20:42:39+02:00",
+   "subject": "ATK: audit preserving read inhabitant axioms"
+  },
+  {
+   "commit": "2dfb0d95d034aee283341e5a8deb1a6aef45907e",
+   "date": "2026-09-30T20:41:54+02:00",
+   "subject": "ATK: fix physical evalRun target namespace"
+  },
+  {
+   "commit": "9b8614de46dad16861f64a16cd6c3f660fab345e",
+   "date": "2026-09-30T20:40:29+02:00",
+   "subject": "ATK: build preserving read inhabitant in root graph"
+  },
+  {
+   "commit": "78a596b373df085087e17608366213b3ec89e1cb",
+   "date": "2026-09-30T20:39:41+02:00",
+   "subject": "ATK: restore GREEN physical shuttles dependency"
+  },
+  {
+   "commit": "83e3d72778b9ee419da26b81dbab05f4f373ad4f",
+   "date": "2026-09-30T20:39:11+02:00",
+   "subject": "ATK: close shuttle replicate normalization"
+  },
+  {
+   "commit": "0fdb35b577d39c52c3ae961a8b5478a1859d407e",
+   "date": "2026-09-30T20:38:45+02:00",
+   "subject": "ATK: close preserving unary witness read from GREEN gap reader"
+  },
+  {
+   "commit": "c1360e56c3314db7adce6a0cb9c04e1f81e893e9",
+   "date": "2026-09-30T20:36:44+02:00",
+   "subject": "ATK: port P01EvalInputNodePhysicalRefinement.lean from GREEN preserving-read branch"
+  },
+  {
+   "commit": "86f945270afb0da73af186eb38f8f38ca3aa6370",
+   "date": "2026-09-30T20:36:40+02:00",
+   "subject": "ATK: port P01GapPreservingRead.lean from GREEN preserving-read branch"
+  },
+  {
+   "commit": "2d0dd7cd6a962be5ce1eddacd09dd78c28745418",
+   "date": "2026-09-30T20:36:36+02:00",
+   "subject": "ATK: port P01WitnessIndexedReadPreserving.lean from GREEN preserving-read branch"
+  },
+  {
+   "commit": "00edac29a309307449d26302f6e109e4462c4b04",
+   "date": "2026-09-30T20:36:26+02:00",
+   "subject": "ATK: normalize shuttle replicate proofs"
+  },
+  {
+   "commit": "4c330025d3f5be200328ad545afc442e2519d458",
+   "date": "2026-09-30T20:35:17+02:00",
+   "subject": "ATK: fix preserving shuttle roundtrip induction"
+  },
+  {
+   "commit": "9942dcea6329bf41a21c9d9080595e80f9bbdc8c",
+   "date": "2026-09-30T20:32:14+02:00",
+   "subject": "ATK: prove exact preserving witness shuttle roundtrip"
+  },
+  {
+   "commit": "ac38965a13b40689a3c18d57a924ef4963df90aa",
+   "date": "2026-09-30T20:16:28+02:00",
+   "subject": "ATK: implement fixed-control preserving unary reader graph"
+  },
+  {
+   "commit": "f6f61518bc7b5e26bdcbd7898fe194aec95cced3",
+   "date": "2026-09-30T18:41:43+02:00",
+   "subject": "ATK: type exact remaining P01 material producers"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P01EvalInputNodePhysicalRefinement.evalStep_inputNode000_full_layout",
+   "file": "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean",
+   "line": 182,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) (consumed i : Nat) (rest : BitString) (frames : List EvalFrame) (padding : Nat) (hi : i < witness.length) : let sigma"
+  },
+  {
+   "name": "MCore.Real.P01EvalInputNodePhysicalRefinement.input_cursor_is_gapReadConfig",
+   "file": "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean",
+   "line": 154,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness : BitString) (consumed i : Nat) (rest : BitString) (frames : List EvalFrame) (padding : Nat) : let frameBits"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.advanceSep_over_blanks",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 531,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : gapReadMachine.run (k + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.finalSep_over_blanks",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 560,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (b : Bool) (left right : List (Option Bool)) : gapReadMachine.run (k + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapIdx_cycle",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 447,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(first b : Bool) (movedTail witnessTail tail : BitString) (n g : Nat) (suffix : List (Option Bool)) : preservingReadMachine.run (4 * movedTail.length + 2 * g + 10) (gapIdxConfig (first :: movedTail) (b :: witnessTail) (n + 1) tail g suffix) = gapIdxConfig ((first :: movedTail) ++ [b]) witnessTail n tail g suffix"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapMovedFuel_le",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 786,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(m g n : Nat) : gapMovedFuel m g n ≤ (4 * (m + n) + 2 * g + 6) * n + 5 * (m + n) + g + 6"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapMoved_cycle",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 124,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(first b next : Bool) (movedTail witnessTail sourceTail : BitString) (g : Nat) (suffix : List (Option Bool)) : preservingReadMachine.run (4 * movedTail.length + 2 * g + 10) (gapMovedConfig (first :: movedTail) (b :: witnessTail) true (next :: sourceTail) g suffix) = gapMovedConfig ((first :: movedTail) ++ [b]) witnessTail next sourceTail g suffix"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapMoved_false_finalize",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 296,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(first selected : Bool) (movedTail rest sourceTail : BitString) (g : Nat) (suffix : List (Option Bool)) : preservingReadMachine.run (5 * movedTail.length + g + 11) (gapMovedConfig (first :: movedTail) (selected :: rest) false sourceTail g suffix) = { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapMoved_forall",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 467,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(first : Bool) (movedTail rest tail : BitString) (g : Nat) (suffix : List (Option Bool)) (n : Nat) (h : n < rest.length) : preservingReadMachine.run (gapMovedFuel (first :: movedTail).length g n) (gapIdxConfig (first :: movedTail) rest n tail g suffix) = { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapReadFuel_le",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 803,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(k i : Nat) : gapReadFuel k i ≤ 6 * ((k + i + 2) * (k + i + 2))"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapRead_forall",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 744,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness tail : BitString) (k i : Nat) (suffix : List (Option Bool)) (hi : i < witness.length) : gapReadMachine.run (gapReadFuel k i) (gapReadConfig witness k i tail suffix) = { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapRead_forall_value",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 778,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(witness tail : BitString) (k i : Nat) (suffix : List (Option Bool)) (hi : i < witness.length) : (gapReadMachine.run (gapReadFuel k i) (gapReadConfig witness k i tail suffix)).state = .halt (witness.getD i false)"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapRead_start_successor",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 655,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) (witnessTail tail : BitString) (n k : Nat) (suffix : List (Option Bool)) : gapReadMachine.run (2 * k + 6) (gapReadConfig (b :: witnessTail) k (n + 1) tail suffix) = gapIdxConfig [b] witnessTail n tail k suffix"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gapRead_zero",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 619,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(b : Bool) (witnessTail tail : BitString) (k : Nat) (suffix : List (Option Bool)) : gapReadMachine.run (k + 4) (gapReadConfig (b :: witnessTail) k 0 tail suffix) = { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.gap_run_eq_preserving",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 87,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(n : Nat) (c : Configuration PreservingReadState (Option Bool)) (hc : movedPhase c.state = true) : gapReadMachine.run n c = preservingReadMachine.run n c"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.returnBlanks_stream",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 589,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(k : Nat) (x : Bool) (left right : List (Option Bool)) : preservingReadMachine.run (k + 1) { state"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.step_agree",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 74,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(c : Configuration PreservingReadState (Option Bool)) (hc : movedPhase c.state = true) : gapReadMachine.step c = preservingReadMachine.step c"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.step_stays",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 81,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(c : Configuration PreservingReadState (Option Bool)) (hc : movedPhase c.state = true) : movedPhase (preservingReadMachine.step c).state = true"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.transition_agree",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 63,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(q : PreservingReadState) (hq : movedPhase q = true) (s : Option Bool) : gapReadMachine.transition q s = preservingReadMachine.transition q s"
+  },
+  {
+   "name": "MCore.Real.P01GapPreservingRead.transition_stays",
+   "file": "lean/MCore/Real/P01GapPreservingRead.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(q : PreservingReadState) (hq : movedPhase q = true) (s : Option Bool) : movedPhase (preservingReadMachine.transition q s).1 = true"
+  },
+  {
+   "name": "MCore.Real.P01MissingMaterialTypes.preservingUnaryWitnessReadGap_closed",
+   "file": "lean/MCore/Real/P01MissingMaterialTypes.lean",
+   "line": 68,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": PreservingUnaryWitnessReadGap"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReader.preservingUnaryReadTimeBound_poly",
+   "file": "lean/MCore/Real/P01PreservingUnaryReader.lean",
+   "line": 150,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": PolynomialTimeBound preservingUnaryReadTimeBound"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReader.preservingUnaryReader_blank",
+   "file": "lean/MCore/Real/P01PreservingUnaryReader.lean",
+   "line": 136,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReader.blank = none"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReader.preservingUnaryReader_result_false",
+   "file": "lean/MCore/Real/P01PreservingUnaryReader.lean",
+   "line": 139,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": result .haltFalse = some false"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReader.preservingUnaryReader_result_true",
+   "file": "lean/MCore/Real/P01PreservingUnaryReader.lean",
+   "line": 142,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": result .haltTrue = some true"
+  }
+ ],
+ "closed": 25,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
+  "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
+  "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
+  "lean/MCore/C12/Families.lean": "e36067bf56c8bfbc7239ed087cd69bebcad0b7f0b619e170a402b903dfa8ad3d",
+  "lean/MCore/C9/Good.lean": "7f01a19af400fd6f3c44a4628e51c6c11706118f9fd9de1e7ffa6cb338d5848b",
+  "lean/MCore/C9/Mu.lean": "7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c",
+  "lean/MCore/C9/Reuse.lean": "42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491",
+  "lean/MCore/C9/Step.lean": "4af24191c3abe70de95ab9945182c6fe631866124b95761c57798975cbd059cf",
+  "lean/MCore/C9/Vars.lean": "d4192fb2e098f8f0f37ceaffeafaf17b799a4163fd56ed7505d712e802ded221",
+  "lean/MCore/CircuitC2.lean": "b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d",
+  "lean/MCore/CircuitC3.lean": "e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951",
+  "lean/MCore/CircuitC4.lean": "74f308c765b475b232b68d854aa58ad9b4cfe84477c9223eaeb0c9b519e631b5",
+  "lean/MCore/CircuitC5.lean": "ba3f2b6bb41766ecc705ecd8e5b6254367a93b3ee874225dfe6463c69515ca9e",
+  "lean/MCore/CircuitC6.lean": "93b0167af77303e742d1d47a27ddab6d1034fbf9a12b9efbb9a94e40b1d5ca8f",
+  "lean/MCore/CircuitC7.lean": "b2467c29fdbf51115d2f0c3f153b5aec7d98409f72e543740bc6064627e9652e",
+  "lean/MCore/CircuitC8.lean": "7fc9cbbec6089bce609f5503c5fe0369e84710befdcc2cd92bc80fd1036bfd62",
+  "lean/MCore/CircuitK1.lean": "af52f82a68eae2cca6b6a446354fb27d08e37be56394c0e227479483e0eeda06",
+  "lean/MCore/K0.lean": "487e36e32fd0b0838b64f3d491e32f369a094308eb3730d031019102ad1263b4",
+  "lean/MCore/K1.lean": "0451b70b0fb52619ba9a9c83a3b8c2ee5a8a264fb8ea44945ca3c9186a28b8fb",
+  "lean/MCore/K10.lean": "458587f2e3f6437b93693a18c70710c05e660f447860895f08e7123faab799bc",
+  "lean/MCore/K2.lean": "7d784b48898f430014636c4b38d9170ef79be121819950a848b466a6af3a053b",
+  "lean/MCore/K3.lean": "dfdcfbafe415cd62707f5eaff511aa18c1725d6374d433fc5696c20cb8c58b1f",
+  "lean/MCore/K4.lean": "c37128beda714ef4e9336461a9bde0a194f3b1b1557c97c030b3aba594190533",
+  "lean/MCore/K5.lean": "ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9",
+  "lean/MCore/K6.lean": "9c4512319152a050c3396d673e6d97baefda358fb71cf2c3138d0a9d4d1c3d0e",
+  "lean/MCore/K7.lean": "5338c3705c7b22f6cf62b447c8b31a2bb9aca0b5081725be920c02cbce0a6b25",
+  "lean/MCore/K8.lean": "4b20f24563de95d2c4075872e92d1caf8f6cd885dc651037dc7fca136a4d67e5",
+  "lean/MCore/K9.lean": "b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322",
+  "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
+  "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
+  "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
+  "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/CanonicalSATFrameAttack.lean": "cb03f831b17cfea0c6c833a0c9ca454d6f239d95cd679c59a2081073c13de46a",
+  "lean/MCore/Real/CanonicalSATFrameMachineV2.lean": "89dcd572f9fd1b61ff31d50e28e758c448f5bd3505b92b8d56e2c8263ca049f7",
+  "lean/MCore/Real/CanonicalSATNTMAttack.lean": "26431b77cca865ef7a94db4c2c359a219575612e1907da67fd62c5cf4f75148e",
+  "lean/MCore/Real/CanonicalSATNatParserAttack.lean": "341353afb07101750ccd76e49c9f81b466ac68f57cfc06c6a8e57a1705f18d47",
+  "lean/MCore/Real/CanonicalSATParserAttack.lean": "2b27aa77806b1393853a04175a39f9a7fa2cd3d7a08aa73be99eae594cd25115",
+  "lean/MCore/Real/CanonicalSATVerifier.lean": "b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca",
+  "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
+  "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean": "4458b9dbe909fb6c53d78d1fab16e8d27120e3c4c47ddc3ac5745e5c9f895daf",
+  "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
+  "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/P01EncodedEvaluator.lean": "12ff3fb46cb9c708cc8e09258e0b6b89b07b9232458c5ac4e2a178548f1f7f03",
+  "lean/MCore/Real/P01EncodedFrameTape.lean": "db3ee79c9104b2bea833fbf255106812453cb70f041349469fee29d9cf83089d",
+  "lean/MCore/Real/P01EncodedStackEvaluator.lean": "cc4e1234b9db6a839b63dc245b5580640f8a989224fcf03ee93483760d1df3de",
+  "lean/MCore/Real/P01EvalCursorConsume.lean": "eb9518da610a8f3093a7b01e0728f56da590ca7ed25dc9eebedf90da252523d3",
+  "lean/MCore/Real/P01EvalCursorFramePush.lean": "69290bc6aca72ac687b1ad6dfa6bc243c052476e4a9b6ac6e0b1ac51e3f5da54",
+  "lean/MCore/Real/P01EvalCursorMachine.lean": "334a8f85835424cc3df77c31b69bf9dbb9b9826de0c6d31859d201a5ac4cc5d6",
+  "lean/MCore/Real/P01EvalCursorRoundTrip.lean": "2aa05b2eef303b051699a663b40c9f0fa110c6afe7cdb60067b462c2cb552ac8",
+  "lean/MCore/Real/P01EvalFramePushMachine.lean": "262e46a1aa5c75dee155f976e5fb998aafd144c98aa5808ee6a46e448a748d5f",
+  "lean/MCore/Real/P01EvalInputNodePhysicalRefinement.lean": "8b07bcd42f082fa5f23704020484c5163fac5b2aec6786eb084e07dd3efab36e",
+  "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean": "65f57eded7aa9085213da2975bb611899ae9381a4d101d25c1bf748d8e542649",
+  "lean/MCore/Real/P01FinalCertificate.lean": "22e141679b28b1cb0b2ca6ec05516c2c9c8a8461e707a4e6c8e7b72f30626a3a",
+  "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean": "2dc0bc85bb3dbaab9bc6845f077824a418061fb1bec21f7a909d71c1836adec5",
+  "lean/MCore/Real/P01FullVerifierMachine.lean": "3131a5dcef61107689708e74385d3877b8fa8ecadad6546f8037682093e968bb",
+  "lean/MCore/Real/P01FullVerifierPhysical.lean": "e8578eaaa92f9c1f976710ad674d561b2031bb8741ed44b7ed62fc26783d90cb",
+  "lean/MCore/Real/P01FullVerifierPhysicalControl.lean": "a83cbb42f28f9970ae15d4f90f152c78d01c13b4a236ec966b1c69ef7d457dfa",
+  "lean/MCore/Real/P01FullVerifierPhysicalMoves.lean": "e9f86bee64d482007e3e2feded7b9980c6f6c28a4c8a50a0d48672403dfb0322",
+  "lean/MCore/Real/P01FullVerifierPhysicalShuttles.lean": "c81d73dab49edba5a9f0be258c7e2ab166ad84b9e7918f677022f6901b1026eb",
+  "lean/MCore/Real/P01FullVerifierPhysicalStackV2.lean": "a666eaae40420970c54e5cf8652991427c660b6e529cbbb14c4bb843be46add9",
+  "lean/MCore/Real/P01FullVerifierStackSemantics.lean": "6fb31e646d52e215a4165ace00f8bca0d1809265510459e14ebd3c619f0b4de3",
+  "lean/MCore/Real/P01FullVerifierTraversal.lean": "b792b4dffa2c7e346fcd36e635c6d867a8a0898cfc5ee543c63ecc09666cdd1d",
+  "lean/MCore/Real/P01GapPreservingRead.lean": "7d985edda5e78662340f69fcd7e187d3e610f941ae442b05362e34f395534487",
+  "lean/MCore/Real/P01MissingMaterialTypes.lean": "58ab19b584c942053c5dea721c1cf9503e44c80eeaa9704963a1dc2792392897",
+  "lean/MCore/Real/P01PreservingUnaryReader.lean": "dc3797b0fbc619fabe62654661a592c09c5ef72a6ffe16dbbd3505b4a7f31822",
+  "lean/MCore/Real/P01VerifiedRelation.lean": "0cf6824ff9f46ee875a54604e18f0352a80ddd4fc084c5a23266fe3cf00d0469",
+  "lean/MCore/Real/P01VerifierComposition.lean": "e98bd8fce28dda051ed418d25a82bc8e9c251ca1dcddde6bb6c092ea50ebbb3f",
+  "lean/MCore/Real/P01VerifierGateMachine.lean": "7eb5ff0abdae08836479f197710da27d6faaf6cf445646bd1e468244dfc40508",
+  "lean/MCore/Real/P01WitnessIndexedRead.lean": "67c64aeec803e21adefb319fffd386e957b0aef2688d264917d8fdbe7faf6a25",
+  "lean/MCore/Real/P01WitnessIndexedReadPreserving.lean": "66c97014891c56e88f326d7ad462a2065941de9c734a634e1aa1eb58735d16a2",
+  "lean/MCore/Real/P01WitnessPreservingPrep.lean": "8ee1709191fe5aee9ef8b9fa0c1a8ab030bb90807f0c572995c090ab660d167b",
+  "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
+  "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
+  "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
+ },
+ "published_at": "2026-11-05T17:43:11Z",
+ "certificate_sha256": "a24419e5649492855a422f0b7bb4d2b10283f898902572f1a716f360c3b71efc"
+}

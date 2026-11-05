@@ -1,0 +1,157 @@
+{
+ "type": "MVEI kernel certificate for a branch",
+ "source_repository": "ShantiDraconis/m-core-p-vs-np",
+ "branch": "atk/p01-preserving-reader-20260930",
+ "branch_state": "parada",
+ "head_commit": "6209671176769fdbf9a3920bd3a327f030cfee43",
+ "head_commit_date": "2026-10-01T01:24:54+02:00",
+ "history_not_on_default_branch": [
+  {
+   "commit": "6209671176769fdbf9a3920bd3a327f030cfee43",
+   "date": "2026-10-01T01:24:54+02:00",
+   "subject": "ci: compile and audit preserving unary reader machine"
+  },
+  {
+   "commit": "9fbaedaf8744ed968f8e9878e3c092cd30a77ef2",
+   "date": "2026-10-01T01:24:40+02:00",
+   "subject": "p01: construct reversible preserving unary witness reader TM"
+  },
+  {
+   "commit": "6d941579172e1ba6a91f69a0bf12933ea2b62d71",
+   "date": "2026-10-01T01:22:35+02:00",
+   "subject": "p01: add concrete counterexample to legacy witness preservation"
+  },
+  {
+   "commit": "44452e8d97428dfcf7557468676021836f76ed12",
+   "date": "2026-10-01T01:17:58+02:00",
+   "subject": "ci: gate preserving unary reader boundary"
+  },
+  {
+   "commit": "d264fca279981ac9094c37c66794eb12eab2f131",
+   "date": "2026-10-01T01:17:24+02:00",
+   "subject": "p01: formalize preserving unary read material boundary and destructive-reader evidence"
+  }
+ ],
+ "verification": {
+  "generated_at": "2026-11-05T15:19:16+00:00",
+  "lean": [
+   "leanprover/lean4:v4.19.0"
+  ],
+  "checker": "Lean 4 kernel; axioms read with Lean.collectAxioms (#print axioms)",
+  "standard_axioms": [
+   "Classical.choice",
+   "Quot.sound",
+   "propext"
+  ]
+ },
+ "theorems_only_on_branches": [
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadBoundary.certificate_preserves_global_layout",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadBoundary.lean",
+   "line": 132,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(C : PreservingUnaryReadCertificate) (witness : BitString) (consumed i : Nat) (rest frameStack : BitString) (padding : Nat) (hi : i < witness.length) : (C.machine.run (C.timeBound (witness.length + consumed + inputNodeWidth i + rest.length + frameStack.length + padding)) (inputStartConfig C.machine.initial witness consumed i rest frameStack padding)).tape = inputFinalTape witness consumed i rest f"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadBoundary.certificate_refines_input_value",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadBoundary.lean",
+   "line": 115,
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(C : PreservingUnaryReadCertificate) (witness : BitString) (consumed i : Nat) (rest frameStack : BitString) (padding : Nat) (hi : i < witness.length) : C.terminalValue (C.machine.run (C.timeBound (witness.length + consumed + inputNodeWidth i + rest.length + frameStack.length + padding)) (inputStartConfig C.machine.initial witness consumed i rest frameStack padding)).state = some (witness.getD i fa"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadBoundary.old_reader_consumes_witness_prefix",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadBoundary.lean",
+   "line": 16,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": "(pad n : Nat) (b : Bool) (tail : BitString) : witnessIndexedReadMachine.run (2 * pad + 3) (markerConfig pad (b :: tail) (n + 1)) = markerConfig (pad + 2) tail n"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadBoundary.old_reader_not_preserving_example",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadBoundary.lean",
+   "line": 26,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": ": (witnessIndexedReadMachine.run 3 (markerConfig 0 [false, true] 1)).tape ≠ (markerConfig 0 [false, true] 1).tape"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.haltFalse_value",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 197,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReadValue .haltFalse = some false"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.haltTrue_value",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 200,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReadValue .haltTrue = some true"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.preservingUnaryReadMachine_blank",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 157,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReadMachine.blank = none"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.preservingUnaryReadMachine_initial",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 160,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": preservingUnaryReadMachine.initial = PreserveReadState.start"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.preservingUnaryReadTimeBound_poly",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 167,
+   "state": "fechado",
+   "axioms_beyond_standard": [],
+   "statement": ": PolynomialTimeBound preservingUnaryReadTimeBound"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.succ_index_dispatch",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 184,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(witness : BitString) (i : Nat) : preservingUnaryReadMachine.step { state"
+  },
+  {
+   "name": "MCore.Real.P01PreservingUnaryReadMachine.zero_index_dispatch",
+   "file": "lean/MCore/Real/P01PreservingUnaryReadMachine.lean",
+   "line": 171,
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
+   "statement": "(witness : BitString) : preservingUnaryReadMachine.step { state"
+  }
+ ],
+ "closed": 6,
+ "files_sha256": {
+  "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
+  "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
+  "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/Real/P01PreservingUnaryReadBoundary.lean": "b4dc340add6a62ab7237210891ce69a9d363834d86f7b1b8830d7a1abad63d6c",
+  "lean/MCore/Real/P01PreservingUnaryReadMachine.lean": "08500cb5939cc0266948f8d672740da2a092121de03b4031ff49bc26c9116fe9"
+ },
+ "published_at": "2026-11-05T17:43:13Z",
+ "certificate_sha256": "5f1b0e7145a6e1f500998ff91588bea362a14abb6f42a156afcef35c96deb5cd"
+}

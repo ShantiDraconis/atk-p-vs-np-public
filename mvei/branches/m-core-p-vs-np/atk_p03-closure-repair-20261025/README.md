@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p03-closure-repair-20261025` of the private re
 * Branch state: em andamento (not in the default branch).
 * Theorems only on branches, in this branch: 2133 — closed 1847, conditional 3, open 111, proof error 6, not reached 131, no result 35.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `69c6a6f292a89c9896d812c6415237fa452b53fdd7ccf8854e726f62b3d7eca6`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `004c8cf70e851c5ec90af9d81e963e6dc0a843887ea86c627ce5e7bba73a5784`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

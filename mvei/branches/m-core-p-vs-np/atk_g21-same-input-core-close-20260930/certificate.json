@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1636,24 +1636,30 @@
    "name": "MCore.Real.P02ExtensionalCoreAfterCookLevin.core_gap_closes_G21",
    "file": "lean/MCore/Real/P02ExtensionalCoreAfterCookLevin.lean",
    "line": 76,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : UniformExtensionalRejectCompilerCoreGap) : G21Pointwise"
   },
   {
    "name": "MCore.Real.P02ExtensionalCoreAfterCookLevin.uniform_core_closes_G21",
    "file": "lean/MCore/Real/P02ExtensionalCoreAfterCookLevin.lean",
    "line": 62,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(U : UniformExtensionalRejectCompilerCore) : G21Pointwise"
   },
   {
    "name": "MCore.Real.P02ExtensionalCoreAfterCookLevin.uniform_core_closes_P02",
    "file": "lean/MCore/Real/P02ExtensionalCoreAfterCookLevin.lean",
    "line": 67,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(U : UniformExtensionalRejectCompilerCore) : P02TerminalFrontier.P02Target"
   },
   {
@@ -1661,15 +1667,19 @@
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 139,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(M : PolyDTMCandidate) (x : BitString) (t : Nat) : x.length < (boundedExecBits M x t).length"
   },
   {
    "name": "MCore.Real.P02SameInputLengthFirewall.cnfCircuit_encoding_length_ge",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 44,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(f : CNF) : 3 * (f.length + 1) <= (encodeCircuit (cnfCircuit f)).length"
   },
   {
@@ -1677,14 +1687,16 @@
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 37,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(phi : CircuitK1.Circuit) : 3 <= (encodeCircuit phi).length"
   },
   {
    "name": "MCore.Real.P02SameInputLengthFirewall.flatMap_length_three",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 74,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{α β : Type} (xs : List α) (f : α → List β) (h : ∀ x ∈ xs, (f x).length = 3) : (xs.flatMap f).length = 3 * xs.length"
   },
@@ -1700,7 +1712,7 @@
    "name": "MCore.Real.P02SameInputLengthFirewall.initialLeftPart_length",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 92,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(M : PolyDTMCandidate) (x : BitString) (t : Nat) : ((List.range (radius x t)).flatMap fun i => setLeftCell [] M x t 0 i ((inputTape x).left.getD i M.machine.blank)).length = 3 * radius x t"
   },
@@ -1708,16 +1720,20 @@
    "name": "MCore.Real.P02SameInputLengthFirewall.no_extensionalRejectCompilerCore",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 202,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(M : PolyDTMCandidate) : ¬ Nonempty (ExtensionalRejectCompilerCore M)"
   },
   {
    "name": "MCore.Real.P02SameInputLengthFirewall.no_sameInputTransport",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 178,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(M : PolyDTMCandidate) (K : EffectiveDiagonalCompiler M) : ¬ (Nonempty (SameInputTransport M K))"
   },
   {
@@ -1725,30 +1741,36 @@
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 110,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(M : PolyDTMCandidate) (x : BitString) (t : Nat) : radius x t <= (initialCNF M x t).length"
   },
   {
    "name": "MCore.Real.P02SameInputLengthFirewall.rejectCircuit_no_literal_same_input",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 159,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(M : PolyDTMCandidate) (x : BitString) : x ≠ encodeCircuit (rejectCircuit M x)"
   },
   {
    "name": "MCore.Real.P02SameInputLengthFirewall.sameInputCoreGap_false",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 192,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ¬ SameInputCoreGap"
   },
   {
    "name": "MCore.Real.P02SameInputLengthFirewall.setLeftCell_length",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 65,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(guard : Clause) (M : PolyDTMCandidate) (x : BitString) (t s i : Nat) (target : Option Bool) : (setLeftCell guard M x t s i target).length = 3"
   },
@@ -1756,7 +1778,7 @@
    "name": "MCore.Real.P02SameInputLengthFirewall.setSymbolClauses_length",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 58,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(guard : Clause) (varAt : Option Bool → Nat) (target : Option Bool) : (setSymbolClauses guard varAt target).length = 3"
   },
@@ -1764,40 +1786,50 @@
    "name": "MCore.Real.P02SameInputLengthFirewall.uniformExtensionalRejectCompilerCoreGap_false",
    "file": "lean/MCore/Real/P02SameInputLengthFirewall.lean",
    "line": 221,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ¬ UniformExtensionalRejectCompilerCoreGap"
   },
   {
    "name": "MCore.Real.P02SameInputOnlyFrontier.SameInputCore.toG21",
    "file": "lean/MCore/Real/P02SameInputOnlyFrontier.lean",
    "line": 47,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(S : SameInputCore) : G21Pointwise"
   },
   {
    "name": "MCore.Real.P02SameInputOnlyFrontier.SameInputCore.toP02Target",
    "file": "lean/MCore/Real/P02SameInputOnlyFrontier.lean",
    "line": 53,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(S : SameInputCore) : P02TerminalFrontier.P02Target"
   },
   {
    "name": "MCore.Real.P02SameInputOnlyFrontier.sameInputCoreGap_closes_G21",
    "file": "lean/MCore/Real/P02SameInputOnlyFrontier.lean",
    "line": 63,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(h : SameInputCoreGap) : G21Pointwise"
   }
  ],
- "closed": 4,
+ "closed": 8,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "db486861aefca7da9a704a0d0863e617564f0e9cc20d300ec27c3fbd61e02763",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
+  "lean/MCore/BackwardAudit/ClosedDiscriminant.lean": "94232dacfadb9f186ef9af1a1d45f88c6f448a43e272f4d3eb8e83d3945afb53",
+  "lean/MCore/BackwardAudit/OrientedWitnessBoundary.lean": "e16f099cb24af5274153e5ed78e913324d9e762be1ba14a38123d6704b30e9dd",
   "lean/MCore/Boundary.lean": "e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a",
   "lean/MCore/C10/RestrictionProgress.lean": "b71c72766c18f597b8002aaa1029a19fbf8f50fc7678f6b6e810c27ea47dc9e4",
   "lean/MCore/C11/BranchingCost.lean": "4c583bc4f84a0e9cad7f5dcdcdfdb254dd7d8afb1a6afc3d63d26b99445ec6df",
@@ -1829,11 +1861,16 @@
   "lean/MCore/PrizeK0.lean": "c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a",
   "lean/MCore/Real/CNFStructure.lean": "cdfdf4fda876732731a373992eebd5e260882aa89d322da2fdc9ebdce5d509d0",
   "lean/MCore/Real/CanonicalCircuitBits.lean": "b3ce1f0953a9b19a9bf4dad27657c8343ea63739ddcd5142a0220f95387f1c34",
+  "lean/MCore/Real/CanonicalCircuitBitsInverse.lean": "8d3cee0161c1da3c7021748fad676ebaa2c8827de6291d5f22283cb99ada3f64",
   "lean/MCore/Real/CanonicalFinalProof.lean": "79bbda45fdaf3ccd55962b05d5576ed77241acc47dc0c9454901089d11ed1065",
   "lean/MCore/Real/CanonicalSATBoundary.lean": "4e35e426d7abce5c8fe6c34aae901ba780b8362aeb02e574bea731a32ec6cfd0",
+  "lean/MCore/Real/EncodingNormalization.lean": "c30596c728d10ef19342827935d639c9ed5848642345edcaeba1194c7d081d2d",
   "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/FinalExternalCertificate.lean": "459f144ebc21654d4b6dbf2f39e4245622b964821723a1c19e8e36d2b18f4d32",
+  "lean/MCore/Real/G3ModelMatch.lean": "a03f9ca36d041e240081b8c4402b143b8a29751d0b2a78204021ca9643afee69",
   "lean/MCore/Real/MachineRunLemmas.lean": "388abd2af9bdcf32c4ba483e4e5a6be9a0836eb8f35fb6f5d3fc9d99efa4ea66",
   "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
+  "lean/MCore/Real/OfficialModel.lean": "0db6e4dd722b425ca95c62d68c2bb39184a7bbfd828c38deda6c9c931e914b3a",
   "lean/MCore/Real/P02BoundedComputationClose.lean": "75ca9f2d30df293ebb1f5591afccad0ff0be8eb79fe90940f085bd1ca40f9fdf",
   "lean/MCore/Real/P02BoundedComputationEncoding.lean": "e1e66e3145b09ce5864661b77f44de8db912170d36b6ba60727970a7c943c96b",
   "lean/MCore/Real/P02BoundedComputationLogic.lean": "52625a496b8a9ffd2b14146fde8df152650de5228343f4e89aa758d54b169aec",
@@ -1841,11 +1878,28 @@
   "lean/MCore/Real/P02BoundedComputationTape.lean": "41dd77597dfb4e03fad6208abe56df2bab26581728a76a63d879a296cd069ba3",
   "lean/MCore/Real/P02CanonicalClockReduction.lean": "465bb0735b931b6647ce1187495d378dae776849aec416f78a6c2ea3acb94011",
   "lean/MCore/Real/P02CanonicalNormalization.lean": "b8d4e79963dab8320c6ffb268e56903fc48fe0bea357a0705c1c0d43b81fe265",
+  "lean/MCore/Real/P02ClockedDiagonalCompiler.lean": "232a6f479d932397d08c92f92d7708a8947c27fcd6070d0a7fc1e05df18b8721",
+  "lean/MCore/Real/P02CookLevinFromBoundedExec.lean": "60ce73d75bcfd24d37a8eed26b7e72c61f1603082a88d1e28c89b689ebc23625",
+  "lean/MCore/Real/P02DiagonalFrontier.lean": "c24b0b629057d3fda224f8d89ca0800778e60225be7d388e53f776de0042e04c",
+  "lean/MCore/Real/P02ExtensionalCoreAfterCookLevin.lean": "26166f6d6eb70f81c99272576d3a9b4a84a86fa3c9f76ac27123caf1eed82b76",
+  "lean/MCore/Real/P02ExtensionalSameInputBridge.lean": "e0306e0e9e4344a3aefa526707fd5ae193dd82e1ad1b90966dc3efcd36a28d06",
+  "lean/MCore/Real/P02FinalAttack.lean": "22271748f2c9c8dd54427710bb074da534324eb79789cfe8e8727b0a53c3a878",
+  "lean/MCore/Real/P02FinalProofProducer.lean": "63c4da44cd5e749c354269a7c8d2e9c3424de929becdc571cdde0b338d899e15",
+  "lean/MCore/Real/P02G21G22Attack.lean": "64a90f8b42e2d9679c5f721c7b6d472bd89456f84a4b0c219457ef109d7767a7",
+  "lean/MCore/Real/P02KleeneBridge.lean": "bda56d9afba6aaa924f67ecde361ec18259549a0215400d331cf4b714c501727",
+  "lean/MCore/Real/P02KleeneCookLevinBridge.lean": "833c7a83e194756f98e685b6c170246bb5048a3aa2706e022a3393b70078f465",
+  "lean/MCore/Real/P02LiteralFixedPointCountermodel.lean": "ffb1406b2ce350e3d79245ef80777ba2d401cdd44cfdc0d182c8abaaa9450779",
+  "lean/MCore/Real/P02LiteralFixedPointFirewall.lean": "821fa6474cf6652f0876a12788b1ee78bb9bea9cde364c703e85a294e08fd727",
+  "lean/MCore/Real/P02SameInputLengthFirewall.lean": "2f6c97155fc9acfeb333b3ef6c5cc7a0e595b782e01e69a351423e5d617bb19b",
+  "lean/MCore/Real/P02SameInputOnlyFrontier.lean": "395046f9fbd0b00ee88bc3348c43bdb2ecb1645f2e714a23f9c630a860923630",
+  "lean/MCore/Real/P02TableauCompletenessActive.lean": "13be07c9badb8a9e56f9d92e619112d10444269ac57b440525760c8e54a8267a",
+  "lean/MCore/Real/P02TableauCompletenessClose.lean": "ad33d5e10caead03bef8d32d42e97a3871283cd3d221e590b2cbb4950dbc5222",
   "lean/MCore/Real/P02TerminalFrontier.lean": "0378ba007d2f7651fbcce19cef127353cb623bae737b843e0c5fea4b350a9c8f",
+  "lean/MCore/Real/P02UniversalWitnessChain.lean": "95570e3910bfdc40e5ae103bfcc53872fa189800ee14bdb8a5deb81d324ce884",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:14Z",
- "certificate_sha256": "ce150418f133c1272aa6222a972b44f5b4ed309c2d997bfee430fe3abea8d37d"
+ "published_at": "2026-11-05T17:43:11Z",
+ "certificate_sha256": "0082a2bfb8f446d7660d9168fcd1164f8df953b3c65eaacbea0c9f981e191855"
 }

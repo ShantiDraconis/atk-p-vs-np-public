@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1548,7 +1548,7 @@
    "name": "MCore.Real.P02LiveFrontierAfterFirewall.diagonalFamily_closes_liveTarget",
    "file": "lean/MCore/Real/P02LiveFrontierAfterFirewall.lean",
    "line": 26,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(D : DiagonalFamily) : LiveG21Target"
   },
@@ -1556,7 +1556,7 @@
    "name": "MCore.Real.P02LiveFrontierAfterFirewall.kleeneRealizer_closes_liveTarget",
    "file": "lean/MCore/Real/P02LiveFrontierAfterFirewall.lean",
    "line": 34,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(h : CanonicalSATKleeneRealizerGap) : LiveG21Target"
   },
@@ -1564,7 +1564,7 @@
    "name": "MCore.Real.P02LiveFrontierAfterFirewall.liveTarget_iff_p02",
    "file": "lean/MCore/Real/P02LiveFrontierAfterFirewall.lean",
    "line": 22,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": LiveG21Target ↔ P02Target"
   },
@@ -1612,31 +1612,37 @@
    "name": "MCore.Real.P02UniversalDiagonalFirewall.route_refuted",
    "file": "lean/MCore/Real/P02UniversalDiagonalFirewall.lean",
    "line": 63,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ∀ r : RefutedDiagonalRoute, match r with | .literalSemanticFixedPoint => ¬ ∀ M : PolyDTMCandidate, ∃ x : BitString, semanticDiagonalBits M x = x | .boundedSameInput => ¬ BoundedSameInputEquation | .strictSemanticCompiler => ¬ UniformCompilerValueComputable | .cookLevinSameInputCore => ¬ Nonempty SameInputCore | .reducedLiteralProducer => ¬ Nonempty ReducedProducer"
   },
   {
    "name": "MCore.Real.P02UniversalDiagonalFirewall.universal_refuted_route_conjunction",
    "file": "lean/MCore/Real/P02UniversalDiagonalFirewall.lean",
    "line": 92,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": (¬ ∀ M : PolyDTMCandidate, ∃ x : BitString, semanticDiagonalBits M x = x) ∧ (¬ BoundedSameInputEquation) ∧ (¬ UniformCompilerValueComputable) ∧ (¬ Nonempty SameInputCore) ∧ (¬ Nonempty ReducedProducer)"
   },
   {
    "name": "MCore.Real.P02UniversalTheoremAudit.existingNoGoFirewall_closed",
    "file": "lean/MCore/Real/P02UniversalTheoremAudit.lean",
    "line": 44,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": ExistingNoGoFirewall"
   },
   {
    "name": "MCore.Real.P02UniversalTheoremAudit.genuineUniversalProducer_closes",
    "file": "lean/MCore/Real/P02UniversalTheoremAudit.lean",
    "line": 29,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "{A : Type} (h : GenuineUniversalProducer A) : UniversalWitnessExists"
   },
@@ -1644,7 +1650,7 @@
    "name": "MCore.Real.P02UniversalTheoremAudit.universalWitness_is_exact_G21",
    "file": "lean/MCore/Real/P02UniversalTheoremAudit.lean",
    "line": 12,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": UniversalWitnessExists ↔ G21Pointwise"
   },
@@ -1652,12 +1658,12 @@
    "name": "MCore.Real.P02UniversalTheoremAudit.universalWitness_is_exact_P02",
    "file": "lean/MCore/Real/P02UniversalTheoremAudit.lean",
    "line": 19,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": UniversalWitnessExists ↔ P02Target"
   }
  ],
- "closed": 6,
+ "closed": 12,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "db486861aefca7da9a704a0d0863e617564f0e9cc20d300ec27c3fbd61e02763",
@@ -1734,27 +1740,36 @@
   "lean/MCore/Real/P02BoundedSemanticInput.lean": "ef166158d3eb5cb747af8708be295c4943114a8b390a509094f9655bef2848c7",
   "lean/MCore/Real/P02CanonicalNormalization.lean": "b8d4e79963dab8320c6ffb268e56903fc48fe0bea357a0705c1c0d43b81fe265",
   "lean/MCore/Real/P02ClockedDiagonalCompiler.lean": "232a6f479d932397d08c92f92d7708a8947c27fcd6070d0a7fc1e05df18b8721",
+  "lean/MCore/Real/P02CodeSemanticInput.lean": "270e56027fefbce43d2dec061f58f47e3f7d8f553c5780bc6ede2cf8a4ce03e3",
+  "lean/MCore/Real/P02CompilerHaltingCounterexample.lean": "574f7aea489ce35a8ec51d2e2a0396a91b01e6df0dc58a97316d820dd054be43",
   "lean/MCore/Real/P02CookLevinFromBoundedExec.lean": "60ce73d75bcfd24d37a8eed26b7e72c61f1603082a88d1e28c89b689ebc23625",
   "lean/MCore/Real/P02DiagonalFrontier.lean": "c24b0b629057d3fda224f8d89ca0800778e60225be7d388e53f776de0042e04c",
   "lean/MCore/Real/P02DirectExternalPromotion.lean": "01179452d0841cc6e729b3ab4a8035721e3895f2925f2be12242501c9b697fbe",
+  "lean/MCore/Real/P02EffectiveCompilerConstruction.lean": "c7197998bde94bfb33647227687791cbab89aaa155ef2a15ee6dab5c418c85f5",
+  "lean/MCore/Real/P02ExactCompilerSemantics.lean": "58ba07a53ce6d2dacd88405d9584466a5e6ea42808ca998d52038e834d077b60",
   "lean/MCore/Real/P02FinalAttack.lean": "22271748f2c9c8dd54427710bb074da534324eb79789cfe8e8727b0a53c3a878",
   "lean/MCore/Real/P02FinalProofProducer.lean": "020cf34dc58926b7af3cb27915f7748688762b7efa73ca18d4ce806365904a78",
   "lean/MCore/Real/P02G21G22Attack.lean": "64a90f8b42e2d9679c5f721c7b6d472bd89456f84a4b0c219457ef109d7767a7",
   "lean/MCore/Real/P02KleeneBridge.lean": "5e1f11701766fc929837c1b431ec0e3970bfaa8873010b4dcd071ee97ad39f5f",
   "lean/MCore/Real/P02KleeneCookLevinBridge.lean": "4357dcfd5aec6fec3f563e712942546883178644c08dcc5a7afd70debe435ecf",
+  "lean/MCore/Real/P02KleeneDefinednessFrontier.lean": "94fe7f816859d163af7eb6a3efd8f3d64d4f5870c2ba1e3b95f46f9b28438ee0",
   "lean/MCore/Real/P02LiteralFixedPointCountermodel.lean": "ffb1406b2ce350e3d79245ef80777ba2d401cdd44cfdc0d182c8abaaa9450779",
   "lean/MCore/Real/P02LiteralFixedPointFirewall.lean": "821fa6474cf6652f0876a12788b1ee78bb9bea9cde364c703e85a294e08fd727",
+  "lean/MCore/Real/P02LiveFrontierAfterFirewall.lean": "a2c5cc1ba937ef008b6c55dad3c8802eec29d870e3d0b440c375e090fcf57de6",
   "lean/MCore/Real/P02ReducedProducerFalsification.lean": "5a2256dfcb1da711415acadd9df3a955ddfc3a5abc46d6213c3cace73423b8b4",
   "lean/MCore/Real/P02SameInputCoreFalsification.lean": "928308719d1c2c13fbf62e7210b6c44bac143acc820afdae6bb8c571ef76b5e2",
   "lean/MCore/Real/P02SameInputOnlyFrontier.lean": "395046f9fbd0b00ee88bc3348c43bdb2ecb1645f2e714a23f9c630a860923630",
+  "lean/MCore/Real/P02SelfInputHaltingBarrier.lean": "4a8f2fca6138d63a8a1c42928eaa4891a3c66d88caf8899a1e6208f2177cbcbc",
   "lean/MCore/Real/P02TableauCompletenessActive.lean": "ab46e1183c19e74bf9e566da119dae6acd49d7a3473b8ae6c3049104490bfb20",
   "lean/MCore/Real/P02TableauCompletenessClose.lean": "e2ca1b7aa8ca38f8c9381e2867ee307bb3ef8998dfb11ed9e486d54aa8ad6f8c",
   "lean/MCore/Real/P02TerminalFrontier.lean": "0378ba007d2f7651fbcce19cef127353cb623bae737b843e0c5fea4b350a9c8f",
+  "lean/MCore/Real/P02UniversalDiagonalFirewall.lean": "d60bd0ef6a879de57b2cabff2b597c732ef02220d7604dd9bf4c11826d79273d",
+  "lean/MCore/Real/P02UniversalTheoremAudit.lean": "79e9598484765d722bd37e9a40c7cc14b79f232e063be967d433640ae5e655fb",
   "lean/MCore/Real/P02UniversalWitnessChain.lean": "95570e3910bfdc40e5ae103bfcc53872fa189800ee14bdb8a5deb81d324ce884",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:15Z",
- "certificate_sha256": "750ce8ae7aa42bf7786e1f77bb8073c2bbb24816ce8ee1da3ffbc470a3486835"
+ "published_at": "2026-11-05T17:43:11Z",
+ "certificate_sha256": "b4c07d08a0bd4bce67c16a8d8863efa0e91352d730d0eb521432657dfbd88d69"
 }

@@ -31,4 +31,5 @@ ec71bf2b5c20db2979c4b596a3210280a0dffa0f919e8ae47eb0c6285e85edf9  branches/m-cor
 b6a0311daf76bd8b83f7d04d6f927e185dba2abb11895ef18df56ad28c74e322  branches/m-core-p-vs-np/research_pure-math-final-proof-v1/lean/MCore/K9.lean
 c194c6e7894e3c97b06b35fc47b3852d70e8b5637f147dc5ecc7a835bda7163a  branches/m-core-p-vs-np/research_pure-math-final-proof-v1/lean/MCore/PrizeK0.lean
 51f036265643546c6e6d8ebc42dffebff179d5045febfacf3773c5d908b19b98  branches/m-core-p-vs-np/research_pure-math-final-proof-v1/lean/MCore/Real/CNFStructure.lean
+9bb0164cacb40fd6589f807277ecbe410b96fb1d4090cd6b4aa4c3413f60b91f  branches/m-core-p-vs-np/research_pure-math-final-proof-v1/lean/MCore/Research/ParallelClosure.lean
 8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9  branches/m-core-p-vs-np/research_pure-math-final-proof-v1/lean/MCore/Signature.lean

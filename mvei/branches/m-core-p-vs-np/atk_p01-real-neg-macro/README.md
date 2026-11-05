@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-real-neg-macro` of the private repository 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 134 — closed 112, conditional 0, open 17, proof error 1, not reached 4, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `d5dd14c9fcebef4d7095d0bef74204dd381b71c1a9cfc312d345f95816f0ccbd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-real-neg-macro/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `cd8e584829451ae74858d07230e70f11d408470e10baa03378804e7550f50c39`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-real-neg-macro/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1549,7 +1549,9 @@
    "file": "lean/MCore/Real/P01CheckedEvalRunBoundedBinary.lean",
    "line": 60,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (left right : CircuitK1.Circuit) (hleft : BoundedCheckedCircuitRunCertificate sigma witness .cnf left) (hright : BoundedCheckedCircuitRunCertificate sigma witness .cnf right) : BoundedCheckedCircuitRunCertificate sigma witness mode (.and left right)"
   },
   {
@@ -1564,8 +1566,10 @@
    "name": "MCore.Real.P01CheckedEvalRunBoundedBinary.circuit_bounded_certificate",
    "file": "lean/MCore/Real/P01CheckedEvalRunBoundedBinary.lean",
    "line": 711,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(sigma : Assignment) (witness : BitString) : ∀ (phi : CircuitK1.Circuit) (mode : SyntaxMode), BoundedCheckedCircuitRunCertificate sigma witness mode phi"
   },
   {
@@ -1573,7 +1577,9 @@
    "file": "lean/MCore/Real/P01CheckedEvalRunBoundedBinary.lean",
    "line": 389,
    "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(sigma : Assignment) (witness : BitString) (mode : SyntaxMode) (left right : CircuitK1.Circuit) (hleft : BoundedCheckedCircuitRunCertificate sigma witness .clause left) (hright : BoundedCheckedCircuitRunCertificate sigma witness .clause right) : BoundedCheckedCircuitRunCertificate sigma witness mode (.or left right)"
   },
   {
@@ -1704,6 +1710,6 @@
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:16Z",
- "certificate_sha256": "5e00e429e75f1aa2227597839d7ec7a27122330243974c4aa0e7e0eb8e261e94"
+ "published_at": "2026-11-05T17:43:13Z",
+ "certificate_sha256": "43765a630af45a89f4d86a2d88668b062e19bc954c03707c015d84c223676f46"
 }

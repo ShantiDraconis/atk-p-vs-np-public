@@ -43,7 +43,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -59,7 +59,7 @@
    "name": "MCore.SharedSignature.CrossProblemEvidence20260926.all_problem_descriptors_have_shared_three_phase_shape",
    "file": "audit/CrossProblemStructuralEvidence20260926.lean",
    "line": 67,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ p : ProblemKind, (descriptor p).problem = p ∧ (descriptor p).signatureObject.length > 0 ∧ (descriptor p).bridgeObject.length > 0 ∧ (descriptor p).endpointObject.length > 0"
   },
@@ -67,7 +67,7 @@
    "name": "MCore.SharedSignature.CrossProblemEvidence20260926.every_problem_realizes_all_structural_phases",
    "file": "audit/CrossProblemStructuralEvidence20260926.lean",
    "line": 91,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ∀ p : ProblemKind, ∀ ph : StructuralPhase, (phaseLabel p ph).length > 0"
   },
@@ -75,7 +75,7 @@
    "name": "MCore.SharedSignature.CrossProblemEvidence20260926.shared_shape_does_not_identify_problem_objects",
    "file": "audit/CrossProblemStructuralEvidence20260926.lean",
    "line": 78,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": (descriptor .pnp).signatureObject ≠ (descriptor .riemann).signatureObject ∧ (descriptor .riemann).signatureObject ≠ (descriptor .yangMills).signatureObject ∧ (descriptor .yangMills).signatureObject ≠ (descriptor .navierStokes).signatureObject"
   },
@@ -112,14 +112,15 @@
    "statement": "{Problem : Type} : UniversalSharedMultiStateSignature Problem ↔ ∃ shape : MultiStateSignatureShape, ∀ p : Problem, Nonempty (ProblemManifestation Problem shape p)"
   }
  ],
- "closed": 4,
+ "closed": 7,
  "files_sha256": {
+  "audit/CrossProblemStructuralEvidence20260926.lean": "f36869c98254806b4f0865f8d5282c77e96094739273e50818cfecf1dc680421",
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/MultiStateSignature.lean": "85cf843042f3053916d8f333f34916850be60fb03886d642dcaf7f09c0010291",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:16Z",
- "certificate_sha256": "6d8d7515526bef1d29f154e91901f9f6f36af68e15b5673c4e8e3dc4daf13f96"
+ "published_at": "2026-11-05T17:43:14Z",
+ "certificate_sha256": "ea1f7abdfc872cc60f560f33f5f6527ecd6a03054b8cd0dd5bef372aaf3459c1"
 }

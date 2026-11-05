@@ -39,8 +39,11 @@ b6e8e5064f61935f78f4d848c5fe1775da9488a6ef0663c9035d55f51e9317ca  branches/m-cor
 96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/CanonicalSATWitness.lean
 1f5a21dd55fdcfdd81a61a45f9f8a51745a099f6e7ddef0bcb077c80baebb744  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/EncodedFinalProof.lean
 5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/FailProofAllGaps.lean
+90afefaafdf6c415de6486d1553ba4fcdb02247d3074b98372668c3d85bebde9  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/FinalProof.lean
+32d62a0236f9b93e921cf0b6fee9ec88a8d57f0b3fc7c8c6987935fd02a7c554  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/FinalProofAttack.lean
 83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/Model.lean
 22e141679b28b1cb0b2ca6ec05516c2c9c8a8461e707a4e6c8e7b72f30626a3a  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/P01FinalCertificate.lean
+ce8ccbcffe470a82279d9c3138190128814914c549eb4218bb1d21d10cbe0b6e  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/RigorousP02ProducerSpec.lean
 bedc44ffbb9d31c2237b806f76a98412c95def8b1a607faabbecc79ef91c94b5  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/RigorousTerminalDecomposition.lean
 a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/SATMachine.lean
 16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f  branches/m-core-p-vs-np/atk_pnp-rigorous-terminal-decomposition-20261001/lean/MCore/Real/Semantics.lean

@@ -3,8 +3,12 @@ b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-cor
 55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean-toolchain
 e2a3396e0236c51b66163fb5bb7c21bc92a0dd629688082668d1089a8bfe591a  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/Boundary.lean
 9d26703b559f83ee8f37b81dc0680b41ffe10ce4e1283767cc374c52871b17c9  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/FreeVars.lean
+2db63b1bc02f895ebef40c3376b9b0a861511be99443688c9f13e2532e005809  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/Good0.lean
 7c3413c976dda1b9c079c3764b6f9ddf12b7bcbd31a0d5021082de7a1bfa306c  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/Mu.lean
+cfdcac146302f6b911bc3f71a84779470d8db9b0fd54ad446565aa58ec87913c  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/Progress.lean
+83aecfe5b561eae36bc53986991ac7ddb86ed12d9370d8050d20c2e1fccf405a  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/RestrictionMass.lean
 42f3405c68f32ee9dad7c7ec11057412e6950ee8541c3d05536095722d044491  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/Reuse.lean
+22f25b52dcf68daad2568ed867361a344f07131ec46c3a80b4e956b529939912  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/TwoChannelCertificate.lean
 58aa9b161a3ea09ba1b452e9207fa651ace08ba55eb5cf3aa197b352b43e7320  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/C9/Vars.lean
 b4f3c9c95222a23b34262526c76e19374415fa7222813cc2b0e7ec0590ffa18d  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/CircuitC2.lean
 e3a2986eba82f0876fc3b3a7b0014b6338b374ff09bd13efeb347b0e5f59f951  branches/m-core-p-vs-np/work_C9-two-channel-bridge/lean/MCore/CircuitC3.lean

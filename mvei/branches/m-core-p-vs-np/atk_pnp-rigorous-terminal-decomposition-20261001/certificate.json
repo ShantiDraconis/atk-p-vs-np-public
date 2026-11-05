@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-03T08:19:01+00:00",
+  "generated_at": "2026-11-05T15:19:16+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1524,15 +1524,17 @@
    "name": "MCore.Real.RigorousP02ProducerSpec.failure_family_iff_encoded_p02",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 38,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": CandidateFailureFamily ↔ EncodedP02Target"
   },
   {
    "name": "MCore.Real.RigorousP02ProducerSpec.legacy_arbitrary_encode_lower_bound_uninhabited",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 93,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": ": ¬ SATLowerBoundCertificate"
   },
@@ -1540,31 +1542,37 @@
    "name": "MCore.Real.RigorousP02ProducerSpec.live_p02_material_target_iff",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 108,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": LIVE_P02_MATERIAL_TARGET ↔ EncodedSATNotInP"
   },
   {
    "name": "MCore.Real.RigorousP02ProducerSpec.producer_nonempty_iff_encoded_p02",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 48,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": ": Nonempty CandidateFailureProducer ↔ EncodedP02Target"
   },
   {
    "name": "MCore.Real.RigorousP02ProducerSpec.producer_refutes_encoded_sat_in_p",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 72,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "aberto-sorry",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(P : CandidateFailureProducer) : EncodedSATNotInP"
   },
   {
    "name": "MCore.Real.RigorousP02ProducerSpec.rigorous_external_no_escape_p02",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 86,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(E : RigorousFinalExternal) : EncodedP02Target"
   },
@@ -1572,7 +1580,7 @@
    "name": "MCore.Real.RigorousP02ProducerSpec.rigorous_pair_no_escape_p02",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 80,
-   "state": "nao_alcancado",
+   "state": "fechado",
    "axioms_beyond_standard": [],
    "statement": "(C : RigorousPNPFinalPair) : EncodedP02Target"
   },
@@ -1580,8 +1588,10 @@
    "name": "MCore.Real.RigorousP02ProducerSpec.witness_refutes_realization",
    "file": "lean/MCore/Real/RigorousP02ProducerSpec.lean",
    "line": 64,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [],
+   "state": "erro",
+   "axioms_beyond_standard": [
+    "sorryAx"
+   ],
    "statement": "(R : EncodedPolyDTMRealization SATLanguage) (w : CandidateFailureWitness R.candidate) : False"
   },
   {
@@ -1590,7 +1600,7 @@
    "line": 40,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(candidate : EncodedPolyDTMCandidate) (language : Circuit → Prop) (phi : Circuit) : candidate.CorrectAt language phi ↔ let cfg"
+   "statement": "∀ (candidate : MCore.Real.EncodedFinalProof.EncodedPolyDTMCandidate) (language : MCore.CircuitK1.Circuit → Prop)   (phi : MCore.CircuitK1.Circuit),   candidate.CorrectAt language phi ↔     let cfg :=       MCore.Real.CanonicalFinalProof.initialTMConfig candidate.machine         (MCore.Real.CanonicalCircuitBits.encodeCircuit phi);     candidate.machine.HaltsWithin (candidate.timeBound (MCore.Real.E"
   },
   {
    "name": "MCore.Real.RigorousTerminalDecomposition.encoded_p02_target_iff_sat_not_in_p",
@@ -1598,7 +1608,7 @@
    "line": 34,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": ": EncodedP02Target ↔ EncodedSATNotInP"
+   "statement": "MCore.Real.RigorousTerminalDecomposition.EncodedP02Target ↔ MCore.Real.EncodedFinalProof.EncodedSATNotInP"
   },
   {
    "name": "MCore.Real.RigorousTerminalDecomposition.encoded_sat_not_in_p_implies_universal_failure",
@@ -1606,7 +1616,7 @@
    "line": 16,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(hNotP : EncodedSATNotInP) : EncodedUniversalSATFailure"
+   "statement": "MCore.Real.EncodedFinalProof.EncodedSATNotInP → MCore.Real.EncodedFinalProof.EncodedUniversalSATFailure"
   },
   {
    "name": "MCore.Real.RigorousTerminalDecomposition.rigorous_pair_to_root",
@@ -1614,7 +1624,7 @@
    "line": 69,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(C : RigorousPNPFinalPair) : RIGOROUS_FINAL_ROOT"
+   "statement": "MCore.Real.RigorousTerminalDecomposition.RigorousPNPFinalPair → MCore.Real.EncodedFinalProof.RIGOROUS_FINAL_ROOT"
   },
   {
    "name": "MCore.Real.RigorousTerminalDecomposition.rigorous_residual_to_root",
@@ -1622,7 +1632,7 @@
    "line": 76,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(h : RIGOROUS_SAT_RESIDUAL) : RIGOROUS_FINAL_ROOT"
+   "statement": "MCore.Real.RigorousTerminalDecomposition.RIGOROUS_SAT_RESIDUAL → MCore.Real.EncodedFinalProof.RIGOROUS_FINAL_ROOT"
   },
   {
    "name": "MCore.Real.RigorousTerminalDecomposition.root_of_fixed_p01",
@@ -1630,10 +1640,10 @@
    "line": 83,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(hP01 : P01ConstructionGap) (hP02 : EncodedP02Target) : RIGOROUS_FINAL_ROOT"
+   "statement": "MCore.Real.P01FinalCertificate.P01ConstructionGap →   MCore.Real.RigorousTerminalDecomposition.EncodedP02Target → MCore.Real.EncodedFinalProof.RIGOROUS_FINAL_ROOT"
   }
  ],
- "closed": 6,
+ "closed": 9,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270",
@@ -1676,13 +1686,16 @@
   "lean/MCore/Real/CanonicalSATWitness.lean": "96e2466208677cf2eb5e0ef15f39f09b139f9cbebe6d48916a4709514ab4a9e2",
   "lean/MCore/Real/EncodedFinalProof.lean": "1f5a21dd55fdcfdd81a61a45f9f8a51745a099f6e7ddef0bcb077c80baebb744",
   "lean/MCore/Real/FailProofAllGaps.lean": "5dbada985dfa79a824d42cfffe078fd360f4952e78def490ea56ec20135e28f6",
+  "lean/MCore/Real/FinalProof.lean": "90afefaafdf6c415de6486d1553ba4fcdb02247d3074b98372668c3d85bebde9",
+  "lean/MCore/Real/FinalProofAttack.lean": "32d62a0236f9b93e921cf0b6fee9ec88a8d57f0b3fc7c8c6987935fd02a7c554",
   "lean/MCore/Real/Model.lean": "83a968cb3587637c1c44593b53f35e697e33a2b7d44d43d2582d23a15b5381a9",
   "lean/MCore/Real/P01FinalCertificate.lean": "22e141679b28b1cb0b2ca6ec05516c2c9c8a8461e707a4e6c8e7b72f30626a3a",
+  "lean/MCore/Real/RigorousP02ProducerSpec.lean": "ce8ccbcffe470a82279d9c3138190128814914c549eb4218bb1d21d10cbe0b6e",
   "lean/MCore/Real/RigorousTerminalDecomposition.lean": "bedc44ffbb9d31c2237b806f76a98412c95def8b1a607faabbecc79ef91c94b5",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-03T11:28:16Z",
- "certificate_sha256": "7120543d280242be203d0ce99b4fd16b9799804395c040ec3f9417b8d3ec9fb3"
+ "published_at": "2026-11-05T17:43:12Z",
+ "certificate_sha256": "cd7494d3fc8d5b043fdd329455100ad81b90d75c8ee7801a18c0bd9a32880380"
 }

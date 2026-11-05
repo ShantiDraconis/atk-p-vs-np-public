@@ -1,0 +1,5 @@
+b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc  branches/m-core-p-vs-np/atk_p01-preserving-reader-20260930/lake-manifest.json
+558783aefda23f2ff77d4d0f1f396f0be690d91fd1a1d4b6ff9ff47633c76270  branches/m-core-p-vs-np/atk_p01-preserving-reader-20260930/lakefile.toml
+55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea  branches/m-core-p-vs-np/atk_p01-preserving-reader-20260930/lean-toolchain
+b4dc340add6a62ab7237210891ce69a9d363834d86f7b1b8830d7a1abad63d6c  branches/m-core-p-vs-np/atk_p01-preserving-reader-20260930/lean/MCore/Real/P01PreservingUnaryReadBoundary.lean
+08500cb5939cc0266948f8d672740da2a092121de03b4031ff49bc26c9116fe9  branches/m-core-p-vs-np/atk_p01-preserving-reader-20260930/lean/MCore/Real/P01PreservingUnaryReadMachine.lean

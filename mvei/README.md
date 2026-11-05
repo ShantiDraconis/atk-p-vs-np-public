@@ -11,16 +11,16 @@ This folder records what the Lean 4 kernel said about the Lean sources of the pr
 
 ## What the kernel said
 
-MVEI verification of 2026-11-03T08:19:01+00:00, on commit `328cb6726222af4ad93e7727737d477640f74f89`. Each theorem was read with `Lean.collectAxioms`, the function behind `#print axioms`.
+MVEI verification of 2026-11-05T15:19:16+00:00, on commit `328cb6726222af4ad93e7727737d477640f74f89`. Each theorem was read with `Lean.collectAxioms`, the function behind `#print axioms`.
 
 | Lean project | Lean version | Build | Closed | Conditional | Open (`sorry`) | Checked file by file: closed / conditional / open / proof error / not reached |
 |---|---|---|---:|---:|---:|---|
-| `.` | v4.19.0 | partial | 1 601 | 0 | 0 | 81 / 0 / 44 / 232 / 45 |
+| `.` | v4.19.0 | partial | 1 601 | 0 | 0 | 72 / 0 / 6 / 47 / 4 |
 | `atk-kernel` | v4.34.1 | OK | 2 | 0 | 0 | — |
 
 | Closed theorems in this repository | |
 |---|---:|
-| Counting each project | 1 684 |
+| Counting each project | 1 675 |
 | Unique (name + statement) | 1 649 |
 | Unique, without the lemmas Lean generates itself (`eq_1`, `mk.inj`, `sizeOf_spec`, `deriving`) | 922 |
 
@@ -34,44 +34,6 @@ MVEI verification of 2026-11-03T08:19:01+00:00, on commit `328cb6726222af4ad93e7
 | `MCore.FinalFail.boundaryAtom_nonempty` | `. (file by file)` | open | `sorryAx` |
 | `MCore.FinalFail.interpretedBoundary_nonempty` | `. (file by file)` | open | `sorryAx` |
 | `MCore.FinalFail.nonempty_boundaryInterpretation_iff_nonempty_target` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalFinalProof.universal_failure_implies_not_in_p` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalFinalProof.universal_failure_iff_not_in_p` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalFinalProof.target_failure_implies_p_ne_np` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalFinalProof.separation_certificate_closes` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATFrameAttack.exact_frame_tape_implies_semantic` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_halt4` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_not_halt0` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATFrameMachineV2.blank_normalized_frame_tape_operational_closed` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATNTMAttack.scanMachine_not_halted_at_zero` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATNTMAttack.scanMachine_halted_at_one` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATNatParserAttack.natScan_not_halted_zero` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATNatParserAttack.natScan_halted_one` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATNatParserAttack.natScan_halted_two` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_initial_not_halted` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_one` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_two` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_three` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_four` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_five` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.tagMachine_halted_at_twelve` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATParserAttack.canonical_recursive_parser_closes_legacy_gap` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuessMachine_initial` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.CanonicalSATWitnessGuessNTM.doneConfig_accepting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.universal_sat_failure_implies_sat_not_in_p` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.universal_sat_failure_iff_sat_not_in_p` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.sat_not_in_p_of_lower_bound_certificate` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.lower_bound_certificate_of_sat_not_in_p` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.sat_lower_bound_certificate_iff` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.sat_certificate_implies_machine_p_ne_np` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.final_proof_from_residual` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EncodedStackEvaluator.evalRun_add` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EvalCursorMachine.start_not_halting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EvalCursorMachine.scanStack_not_halting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EvalCursorMachine.scanUnread_not_halting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EvalCursorRoundTrip.erase_not_halting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EvalCursorRoundTrip.scanUnread_not_halting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01EvalCursorRoundTrip.scanFrames_not_halting` | `. (file by file)` | open | `sorryAx` |
-| `MCore.Real.P01FullVerifierInputShuttleV2.witnessOffsetV2_positive` | `. (file by file)` | open | `sorryAx` |
 
 ### Declared theorems
 

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T08:19:01+00:00",
+ "generated_at": "2026-11-05T15:19:16+00:00",
  "standard_axioms": [
   "Classical.choice",
   "Quot.sound",
@@ -15,7 +15,7 @@
    "toolchain_used": "leanprover/lean4:v4.19.0",
    "needs_mathlib": false,
    "build_ok": false,
-   "build_seconds": 46.9,
+   "build_seconds": 46.8,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": true,
@@ -12836,18 +12836,18 @@
       "propext"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -12859,18 +12859,18 @@
       "propext"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -12882,18 +12882,18 @@
       "propext"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -12905,18 +12905,18 @@
       "propext"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -12929,18 +12929,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -12953,18 +12953,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -12977,18 +12977,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13000,18 +13000,18 @@
       "propext"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13024,18 +13024,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13048,18 +13048,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13072,18 +13072,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13096,18 +13096,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13120,18 +13120,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13145,18 +13145,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13170,18 +13170,18 @@
       "Quot.sound"
      ],
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13198,18 +13198,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦g⟧21_pointwise_iff_p02_target :",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13225,18 +13225,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦g⟧22_contradiction_iff_not_in_p",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13253,18 +13253,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦g⟧21_implies_g22",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13281,18 +13281,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦g⟧22_implies_g21",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13309,18 +13309,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦g⟧21_iff_g22 :",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13337,18 +13337,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦p⟧01_g21_closes_internal",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13364,18 +13364,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦f⟧inal_external_certificate",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -13391,18 +13391,18 @@
      "coluna": 8,
      "trecho": "theorem ⟦f⟧inal_external_gap_closes",
      "ponte_de_modulo": {
-      "MCore.Real.CookNormalizedDTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Bridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedG3Contract": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedMachineModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.CookNormalizedNTMBridge": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.EncodingNormalization": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.CookNormalizedDTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Bridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedG3Contract": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedMachineModel": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.CookNormalizedNTMBridge": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.EncodingNormalization": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.FinalExternalCertificate": "outro repositório: M-Core",
-      "MCore.Real.G3ModelMatch": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialCookSource": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
-      "MCore.Real.OfficialModel": "branch do autor: m-core-p-vs-np@atk_g21-same-input-core-close-20260930",
+      "MCore.Real.G3ModelMatch": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialCookSource": "outro repositório: atk-p-vs-np-public",
+      "MCore.Real.OfficialModel": "outro repositório: atk-p-vs-np-public",
       "MCore.Real.P02G21G22Attack": "outro repositório: M-Core",
-      "MCore.Real.P02TerminalFrontier": "outro repositório: Elyon-Public-Proof"
+      "MCore.Real.P02TerminalFrontier": "outro repositório: atk-p-vs-np-public"
      }
     },
     {
@@ -14230,3132 +14230,6 @@
      "secao": "https://github.com/ShantiDraconis/M-Core/blob/01d8d7660ccfea0285628bd7c5de33a661c4b77c/lean/MCore/FinalFail/RPALatticeCube3.lean"
     },
     {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 52,
-     "nome": "MCore.Real.isLiteral_input",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 54: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.65",
-     "coluna": 15,
-     "trecho": "    IsLiteral (⟦.⟧input i) := trivial",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 55,
-     "nome": "MCore.Real.isLiteral_not_input",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 57: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.198",
-     "coluna": 15,
-     "trecho": "    IsLiteral (⟦.⟧not (.input i)) := trivial",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 58,
-     "nome": "MCore.Real.emptyClause_isClause",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 60: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.329",
-     "coluna": 14,
-     "trecho": "    IsClause (⟦.⟧const false) := trivial",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 61,
-     "nome": "MCore.Real.emptyCNF_isCNF",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 63: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.456",
-     "coluna": 11,
-     "trecho": "    IsCNF (⟦.⟧const true) := trivial",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 64,
-     "nome": "MCore.Real.emptyClause_isCNF",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 66: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.583",
-     "coluna": 11,
-     "trecho": "    IsCNF (⟦.⟧const false) := trivial",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 67,
-     "nome": "MCore.Real.IsClause_or",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 70: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.726",
-     "coluna": 14,
-     "trecho": "    IsClause (⟦.⟧or a b) :=",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 72,
-     "nome": "MCore.Real.IsCNF_and",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 75: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.766",
-     "coluna": 11,
-     "trecho": "    IsCNF (⟦.⟧and a b) :=",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 77,
-     "nome": "MCore.Real.isLiteral_isClause",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 80: tactic 'cases' failed, major premise type is not an inductive type Circuit Explanation: the 'cases' tactic is for constructor-based reasoning as well as for applying custom cases principles with a 'using' clause or a registered '@[cases_eli",
-     "coluna": 2,
-     "trecho": "  ⟦c⟧ases c with",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 92,
-     "nome": "MCore.Real.literalAt_isLiteral",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 96: unknown identifier 'C12.literalAt'",
-     "coluna": 15,
-     "trecho": "    IsLiteral (⟦C⟧12.literalAt nVars seed claus",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 106,
-     "nome": "MCore.Real.literalAt_isClause",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 110: unknown identifier 'C12.literalAt'",
-     "coluna": 14,
-     "trecho": "    IsClause (⟦C⟧12.literalAt nVars seed claus",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 112,
-     "nome": "MCore.Real.foldl_or_preserves_isClause",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 119: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant Circuit",
-     "coluna": 35,
-     "trecho": "sClause (xs.foldl (fun a c => ⟦.⟧or a c) acc) := by",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 130,
-     "nome": "MCore.Real.randomClause_isClause",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 135: unknown identifier 'C12.randomClause'",
-     "coluna": 14,
-     "trecho": "    IsClause (⟦C⟧12.randomClause nVars seed cl",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 256,
-     "nome": "MCore.Real.isClause_isCNF",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 260: tactic 'cases' failed, major premise type is not an inductive type Circuit Explanation: the 'cases' tactic is for constructor-based reasoning as well as for applying custom cases principles with a 'using' clause or a registered '@[cases_eli",
-     "coluna": 2,
-     "trecho": "  ⟦c⟧ases c with",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 278,
-     "nome": "MCore.Real.randomClause_isCNF",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 283: unknown identifier 'C12.randomClause'",
-     "coluna": 11,
-     "trecho": "    IsCNF (⟦C⟧12.randomClause nVars seed cl",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 286,
-     "nome": "MCore.Real.foldl_and_preserves_isCNF",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 292: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant Circuit",
-     "coluna": 32,
-     "trecho": "  IsCNF (xs.foldl (fun a c => ⟦.⟧and a c) acc) := by",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 303,
-     "nome": "MCore.Real.randomKCNF_isCNF",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 309: unknown identifier 'C12.randomKCNF'",
-     "coluna": 11,
-     "trecho": "    IsCNF (⟦C⟧12.randomKCNF nVars clauses w",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 454,
-     "nome": "MCore.Real.wellFormed_of_render",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 458: tactic 'induction' failed, major premise type is not an inductive type Circuit Explanation: the 'induction' tactic is for constructor-based reasoning as well as for applying custom induction principles with a 'using' clause or a registered ",
-     "coluna": 2,
-     "trecho": "  ⟦i⟧nduction φ with",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 547,
-     "nome": "MCore.Real.bool_and_eq_true_iff",
-     "status": "fechado",
-     "axioms": [],
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 563,
-     "nome": "MCore.Real.bool_and_decide_eq_true_iff",
-     "status": "fechado",
-     "axioms": [],
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 579,
-     "nome": "MCore.Real.isClauseBool_eq_true_iff",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 582: tactic 'induction' failed, major premise type is not an inductive type Circuit Explanation: the 'induction' tactic is for constructor-based reasoning as well as for applying custom induction principles with a 'using' clause or a registered ",
-     "coluna": 2,
-     "trecho": "  ⟦i⟧nduction c with",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 631,
-     "nome": "MCore.Real.isCNFBool_eq_true_iff",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 634: tactic 'induction' failed, major premise type is not an inductive type Circuit Explanation: the 'induction' tactic is for constructor-based reasoning as well as for applying custom induction principles with a 'using' clause or a registered ",
-     "coluna": 2,
-     "trecho": "  ⟦i⟧nduction c with",
-     "secao": "lean/MCore/Real/CNFStructure.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 714,
-     "nome": "MCore.Real.CanonicalCircuitBits.decodeNat_encodeNat_append",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 717: typeclass instance problem is stuck, it is often due to metavariables HAppend ?m.596 BitString BitString",
-     "coluna": 15,
-     "trecho": "    decodeNat (⟦e⟧ncodeNat n ++ tail) = some (n",
-     "secao": "lean/MCore/Real/CanonicalCircuitBits.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 766,
-     "nome": "MCore.Real.CanonicalCircuitBits.size_le_encodeCircuit_length",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 769: unknown identifier 'CircuitK1.size'",
-     "coluna": 4,
-     "trecho": "    ⟦C⟧ircuitK1.size c ≤ (encodeCirc",
-     "secao": "lean/MCore/Real/CanonicalCircuitBits.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 784,
-     "nome": "MCore.Real.CanonicalCircuitBits.decodeCircuitCore_encode_append",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 789: unknown identifier 'CircuitK1.size'",
-     "coluna": 13,
-     "trecho": "    (hFuel : ⟦C⟧ircuitK1.size c < fuel) :",
-     "secao": "lean/MCore/Real/CanonicalCircuitBits.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 841,
-     "nome": "MCore.Real.CanonicalCircuitBits.decodeCircuit_encode",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 844: don't know how to synthesize implicit argument 'BitString' @decodeCircuit (?m.1821 c) Circuit (encodeCircuit c) context: Circuit : Type ?u.1790 c : Circuit ⊢ Type ?u.1783 when the resulting type of a declaration is explicitly provided, all ",
-     "coluna": 4,
-     "trecho": "    ⟦d⟧ecodeCircuit (encodeCircuit c",
-     "secao": "lean/MCore/Real/CanonicalCircuitBits.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 861,
-     "nome": "MCore.Real.CanonicalCircuitBits.canonical_sat_encoding_closed",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 862: type of theorem 'MCore.Real.CanonicalCircuitBits.canonical_sat_encoding_closed' is not a proposition {SATEncodingGap : Sort u_1} → SATEncodingGap",
-     "coluna": 0,
-     "trecho": "⟦t⟧heorem canonical_sat_encoding",
-     "secao": "lean/MCore/Real/CanonicalCircuitBits.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 865,
-     "nome": "MCore.Real.CanonicalCircuitBits.encoded_sat_equivalence",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 868: function expected at SATBits term has type ?m.2063",
-     "coluna": 4,
-     "trecho": "    ⟦S⟧ATBits circuitBitEncoding (en",
-     "secao": "lean/MCore/Real/CanonicalCircuitBits.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 897,
-     "nome": "MCore.Real.CanonicalComplexityBridge.canonical_interface_p_match",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 900: function expected at InP term has type ?m.44",
-     "coluna": 31,
-     "trecho": "   canonicalInterface.inP L ↔ ⟦I⟧nP L :=",
-     "secao": "lean/MCore/Real/CanonicalComplexityBridge.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 902,
-     "nome": "MCore.Real.CanonicalComplexityBridge.canonical_interface_np_match",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 905: function expected at InNP term has type ?m.77",
-     "coluna": 32,
-     "trecho": "  canonicalInterface.inNP L ↔ ⟦I⟧nNP L :=",
-     "secao": "lean/MCore/Real/CanonicalComplexityBridge.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 912,
-     "nome": "MCore.Real.CanonicalComplexityBridge.canonical_failure_witness_separates_legacy_interface",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 916: function expected at UniversalFailure term has type ?m.142",
-     "coluna": 13,
-     "trecho": "    (hFail : ⟦U⟧niversalFailure L) :",
-     "secao": "lean/MCore/Real/CanonicalComplexityBridge.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1035,
-     "nome": "MCore.Real.CanonicalFinalProof.universal_failure_implies_not_in_p",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalFinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1044,
-     "nome": "MCore.Real.CanonicalFinalProof.not_in_p_implies_universal_failure",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Classical.choice",
-      "Quot.sound"
-     ],
-     "erro": "linha 1053: unknown constant 'MCore.Real.CanonicalFinalProof.PolyDTMRealization.mk._flat_ctor'",
-     "coluna": 10,
-     "trecho": "  refine ⟨⟦{⟧ candidate := candidate, deci",
-     "secao": "lean/MCore/Real/CanonicalFinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1058,
-     "nome": "MCore.Real.CanonicalFinalProof.universal_failure_iff_not_in_p",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Classical.choice",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/CanonicalFinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1065,
-     "nome": "MCore.Real.CanonicalFinalProof.target_failure_implies_p_ne_np",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalFinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1084,
-     "nome": "MCore.Real.CanonicalFinalProof.separation_certificate_closes",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalFinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1119,
-     "nome": "MCore.Real.CanonicalPSubsetNP.accept_or_reject_eq_halting",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1122: invalid field notation, type is not of the form (C ...) where C is a constant candidate has type PolyDTMCandidate",
-     "coluna": 14,
-     "trecho": "    (q : Fin (⟦c⟧andidate.stateCount + 1)) :",
-     "secao": "lean/MCore/Real/CanonicalPSubsetNP.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1128,
-     "nome": "MCore.Real.CanonicalPSubsetNP.successors_toNTM",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1132: function expected at Configuration term has type ?m.143",
-     "coluna": 6,
-     "trecho": "      ⟦C⟧onfiguration",
-     "secao": "lean/MCore/Real/CanonicalPSubsetNP.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1138,
-     "nome": "MCore.Real.CanonicalPSubsetNP.tm_run_of_halted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1142: function expected at Configuration term has type ?m.212",
-     "coluna": 6,
-     "trecho": "      ⟦C⟧onfiguration",
-     "secao": "lean/MCore/Real/CanonicalPSubsetNP.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1152,
-     "nome": "MCore.Real.CanonicalPSubsetNP.runBranches_to_tm_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1157: function expected at Configuration term has type ?m.260",
-     "coluna": 6,
-     "trecho": "      ⟦C⟧onfiguration",
-     "secao": "lean/MCore/Real/CanonicalPSubsetNP.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1249,
-     "nome": "MCore.Real.CanonicalPSubsetNP.correctAt_to_ntm",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1254: invalid field notation, type is not of the form (C ...) where C is a constant candidate has type PolyDTMCandidate",
-     "coluna": 16,
-     "trecho": "    (hCorrect : ⟦c⟧andidate.CorrectAt language x",
-     "secao": "lean/MCore/Real/CanonicalPSubsetNP.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1357,
-     "nome": "MCore.Real.CanonicalPSubsetNP.inP_subset_inNP",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1360: function expected at InP term has type ?m.1835",
-     "coluna": 4,
-     "trecho": "    ⟦I⟧nP language → InNP language :",
-     "secao": "lean/MCore/Real/CanonicalPSubsetNP.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1396,
-     "nome": "MCore.Real.CanonicalSATBoundary.encoded_sat_iff",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1400: function expected at SATBits E term has type ?m.370",
-     "coluna": 4,
-     "trecho": "    ⟦S⟧ATBits E (E.encode φ) ↔ SATLa",
-     "secao": "lean/MCore/Real/CanonicalSATBoundary.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1427,
-     "nome": "MCore.Real.CanonicalSATBoundary.sat_internal_closure_implies_p_ne_np",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1428: type of theorem 'MCore.Real.CanonicalSATBoundary.sat_internal_closure_implies_p_ne_np' is not a proposition {SATInternalClosure : Sort u_1} → {PneqNP : Sort u_2} → SATInternalClosure → PneqNP",
-     "coluna": 0,
-     "trecho": "⟦t⟧heorem sat_internal_closure_i",
-     "secao": "lean/MCore/Real/CanonicalSATBoundary.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1440,
-     "nome": "MCore.Real.CanonicalSATBoundary.sat_external_closure_implies_official_separation",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1443: function expected at SATExternalClosure term has type ?m.528",
-     "coluna": 9,
-     "trecho": "    (C : ⟦S⟧ATExternalClosure officialP o",
-     "secao": "lean/MCore/Real/CanonicalSATBoundary.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1492,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.decodeFrame_encodeFrame",
-     "status": "fechado",
-     "axioms": [],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1497,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.encodeFrame_length",
-     "status": "fechado",
-     "axioms": [],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1514,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.decodeFrames_encodeFrames",
-     "status": "fechado",
-     "axioms": [
-      "propext",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1523,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.encodeFrames_length",
-     "status": "fechado",
-     "axioms": [
-      "propext",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1532,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.encoded_stack_linear_space",
-     "status": "fechado",
-     "axioms": [
-      "propext",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1540,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.encodeFrames_push",
-     "status": "fechado",
-     "axioms": [],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1549,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.decodeFrames_push",
-     "status": "fechado",
-     "axioms": [
-      "propext",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1580,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.legacy_frame_gate_is_trivially_inhabited",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1585: unknown identifier 'TM'",
-     "coluna": 23,
-     "trecho": "  let trivialMachine : ⟦T⟧M (Fin 1) (Option Bool) :=",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1618,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.readTapeCells_map_some",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1621: invalid field notation, type is not of the form (C ...) where C is a constant bits has type BitString",
-     "coluna": 19,
-     "trecho": "    readTapeCells (⟦b⟧its.map some) = bits := by",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1626,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.tapeWord_inputTape",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1629: function expected at inputTape term has type ?m.4414",
-     "coluna": 14,
-     "trecho": "    tapeWord (⟦i⟧nputTape bits) = bits := by",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1631,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.inputTape_represents",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1634: function expected at inputTape term has type ?m.4467",
-     "coluna": 25,
-     "trecho": "    TapeRepresents bits (⟦i⟧nputTape bits) := by",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1643,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.trailingBlankTape_represents",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1645: don't know how to synthesize implicit argument 'Tape' @TapeRepresents (List Bool) ?m.4543 ?m.4544 [true] trailingBlankTape context: ⊢ ?m.4543 when the resulting type of a declaration is explicitly provided, all holes (e.g., `_`) in the head",
-     "coluna": 4,
-     "trecho": "    ⟦T⟧apeRepresents [true] trailing",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1647,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.trailingBlankTape_ne_inputTape",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1649: function expected at inputTape term has type ?m.4898",
-     "coluna": 24,
-     "trecho": "    trailingBlankTape ≠ ⟦i⟧nputTape [true] := by",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1749,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.exact_frame_tape_implies_semantic",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1770,
-     "nome": "MCore.Real.CanonicalSATFrameAttack.frame_tape_operational_closes_recursive_frame",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1773: unknown identifier 'CanonicalSATNatParserAttack.RecursiveFrameOperationalGap'",
-     "coluna": 4,
-     "trecho": "    ⟦C⟧anonicalSATNatParserAttack.Re",
-     "secao": "lean/MCore/Real/CanonicalSATFrameAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1819,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.paddedInputTape_represents",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1822: don't know how to synthesize implicit argument 'Tape' @TapeRepresentsModuloBlankPadding BitString (?m.389 k bits) (?m.390 k bits) bits (paddedInputTape k bits) context: BitString : Sort ?u.369 k : Nat bits : BitString ⊢ ?m.389 k bits when t",
-     "coluna": 4,
-     "trecho": "    ⟦T⟧apeRepresentsModuloBlankPaddi",
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1849,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_halt4",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1852,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_not_halt0",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1855,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_run_push",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1862: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := (4 : Fin 5)",
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1868,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.frameCommandMachine_run_pop",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1874: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := (4 : Fin 5)",
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1889,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.frameCommandTimeBound_poly",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1891: function expected at PolynomialTimeBound term has type ?m.740",
-     "coluna": 4,
-     "trecho": "    ⟦P⟧olynomialTimeBound frameComma",
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 1954,
-     "nome": "MCore.Real.CanonicalSATFrameMachineV2.blank_normalized_frame_tape_operational_closed",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATFrameMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2009,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scanConfig_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2014: tactic 'cases' failed, major premise type is not an inductive type BitString Explanation: the 'cases' tactic is for constructor-based reasoning as well as for applying custom cases principles with a 'using' clause or a registered '@[cases_e",
-     "coluna": 2,
-     "trecho": "  ⟦c⟧ases bits <;> rfl",
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2015,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scanMachine_not_halted_at_zero",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2019,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scanMachine_halted_at_one",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2023,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scan_step_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2029: don't know how to synthesize implicit argument 'Configuration' @scanConfig BitString (?m.385 left b bs) (?m.386 left b bs) (some b :: left) bs context: BitString : Sort ?u.361 left : List (Option Bool) b : Bool bs : BitString ⊢ ?m.385 left ",
-     "coluna": 6,
-     "trecho": "      ⟦s⟧canConfig (some b :: left) bs",
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2032,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scan_step_nil",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2036: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := (1 : Fin 2),",
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2039,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scan_run_reaches_halt",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2045: tactic 'induction' failed, major premise type is not an inductive type BitString Explanation: the 'induction' tactic is for constructor-based reasoning as well as for applying custom induction principles with a 'using' clause or a registere",
-     "coluna": 2,
-     "trecho": "  ⟦i⟧nduction bits generalizing le",
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2062,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.scan_halts_within_linear",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2066: unsolved goals BitString : Sort u_1 bits : BitString ⊢ sorry",
-     "coluna": 44,
-     "trecho": "TMConfig scanMachine bits) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2098,
-     "nome": "MCore.Real.CanonicalSATNTMAttack.canonical_sat_machine_closure_gives_bridge",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2099: type of theorem 'MCore.Real.CanonicalSATNTMAttack.canonical_sat_machine_closure_gives_bridge' is not a proposition {CanonicalSATOperationalGap : Sort u_1} → CanonicalSATMachineClosure → CanonicalSATOperationalGap",
-     "coluna": 0,
-     "trecho": "⟦t⟧heorem canonical_sat_machine_",
-     "secao": "lean/MCore/Real/CanonicalSATNTMAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2139,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.natScan_not_halted_zero",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2143,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.natScan_halted_one",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2147,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.natScan_halted_two",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2164,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.natConfig_state",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2170: tactic 'cases' failed, major premise type is not an inductive type BitString Explanation: the 'cases' tactic is for constructor-based reasoning as well as for applying custom cases principles with a 'using' clause or a registered '@[cases_e",
-     "coluna": 2,
-     "trecho": "  ⟦c⟧ases bits <;> rfl",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2171,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.nat_step_true",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2176: don't know how to synthesize implicit argument 'Configuration' @natConfig BitString (?m.440 left rest) (?m.441 left rest) 0 (some true :: left) rest context: BitString : Sort ?u.393 left : List (Option Bool) rest : BitString ⊢ ?m.440 left r",
-     "coluna": 6,
-     "trecho": "      ⟦n⟧atConfig 0 (some true :: left",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2179,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.nat_step_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2184: application type mismatch false :: rest argument rest has type BitString : Sort ?u.464 but is expected to have type List Bool : Type",
-     "coluna": 33,
-     "trecho": "   natConfig 1 left (false :: ⟦r⟧est) := by",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2186,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.nat_step_blank_rejects",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2190: don't know how to synthesize implicit argument 'Configuration' @natConfig (List (?m.872 left)) (?m.873 left) (?m.874 left) 2 left [] context: left : List (Option Bool) ⊢ ?m.873 left when the resulting type of a declaration is explicitly pro",
-     "coluna": 6,
-     "trecho": "      ⟦n⟧atConfig 2 left [] := by",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2192,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.nat_run_encodeNat_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2201: unknown identifier 'encodeNat'",
-     "coluna": 17,
-     "trecho": "      simp only [⟦e⟧ncodeNat, List.cons_append]",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2211,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.nat_scan_encodeNat_halts_linear",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2216: unsolved goals BitString : Sort u_1 n : Nat tail : BitString ⊢ sorry",
-     "coluna": 48,
-     "trecho": " [] (encodeNat n ++ tail)) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2221,
-     "nome": "MCore.Real.CanonicalSATNatParserAttack.nat_scan_blank_rejects",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2224: unsolved goals ⊢ sorry = 2",
-     "coluna": 70,
-     "trecho": "] [])).state = (2 : Fin 3) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATNatParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2298,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_initial_not_halted",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2318,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagConfig_state",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2324: tactic 'cases' failed, major premise type is not an inductive type BitString Explanation: the 'cases' tactic is for constructor-based reasoning as well as for applying custom cases principles with a 'using' clause or a registered '@[cases_e",
-     "coluna": 2,
-     "trecho": "  ⟦c⟧ases bits <;> rfl",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2325,
-     "nome": "MCore.Real.CanonicalSATParserAttack.initial_tagConfig",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2328: function expected at initialTMConfig term has type ?m.640",
-     "coluna": 4,
-     "trecho": "    ⟦i⟧nitialTMConfig tagMachine bit",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2330,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_one",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2333,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_two",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2335,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_three",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2337,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_four",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2339,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_not_halted_at_five",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2341,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tagMachine_halted_at_twelve",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2343,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_0_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2347: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.891 left rest) (?m.892 left rest) 1 (some false :: left) rest context: BitString : Sort ?u.845 left : List (Option Bool) rest : BitString ⊢ ?m.891 left ",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 1 (some false :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2350,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_0_true",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2354: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.961 left rest) (?m.962 left rest) 2 (some true :: left) rest context: BitString : Sort ?u.915 left : List (Option Bool) rest : BitString ⊢ ?m.961 left r",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 2 (some true :: left",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2357,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_1_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2361: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1031 left rest) (?m.1032 left rest) 3 (some false :: left) rest context: BitString : Sort ?u.985 left : List (Option Bool) rest : BitString ⊢ ?m.1031 le",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 3 (some false :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2364,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_1_true",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2368: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1101 left rest) (?m.1102 left rest) 4 (some true :: left) rest context: BitString : Sort ?u.1055 left : List (Option Bool) rest : BitString ⊢ ?m.1101 le",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 4 (some true :: left",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2371,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_2_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2375: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1171 left rest) (?m.1172 left rest) 5 (some false :: left) rest context: BitString : Sort ?u.1125 left : List (Option Bool) rest : BitString ⊢ ?m.1171 l",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 5 (some false :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2378,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_2_true_sink",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2382: application type mismatch true :: rest argument rest has type BitString : Sort ?u.1195 but is expected to have type List Bool : Type",
-     "coluna": 33,
-     "trecho": "   tagConfig 12 left (true :: ⟦r⟧est) := by",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2384,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_3_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2388: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1616 left rest) (?m.1617 left rest) 6 (some false :: left) rest context: BitString : Sort ?u.1570 left : List (Option Bool) rest : BitString ⊢ ?m.1616 l",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 6 (some false :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2391,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_3_true",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2395: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1686 left rest) (?m.1687 left rest) 7 (some true :: left) rest context: BitString : Sort ?u.1640 left : List (Option Bool) rest : BitString ⊢ ?m.1686 le",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 7 (some true :: left",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2398,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_4_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2402: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1756 left rest) (?m.1757 left rest) 8 (some false :: left) rest context: BitString : Sort ?u.1710 left : List (Option Bool) rest : BitString ⊢ ?m.1756 l",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 8 (some false :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2405,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_4_true",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2409: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1826 left rest) (?m.1827 left rest) 9 (some true :: left) rest context: BitString : Sort ?u.1780 left : List (Option Bool) rest : BitString ⊢ ?m.1826 le",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 9 (some true :: left",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2412,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_5_false",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2416: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1896 left rest) (?m.1897 left rest) 10 (some false :: left) rest context: BitString : Sort ?u.1850 left : List (Option Bool) rest : BitString ⊢ ?m.1896 ",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 10 (some false :: le",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2419,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_step_5_true",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2423: don't know how to synthesize implicit argument 'Configuration' @tagConfig BitString (?m.1966 left rest) (?m.1967 left rest) 11 (some true :: left) rest context: BitString : Sort ?u.1920 left : List (Option Bool) rest : BitString ⊢ ?m.1966 l",
-     "coluna": 6,
-     "trecho": "      ⟦t⟧agConfig 11 (some true :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2426,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_input_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2431: unsolved goals BitString : Sort u_1 tail : BitString ⊢ sorry = 6",
-     "coluna": 72,
-     "trecho": "il))).state = (6 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2440,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_false_const_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2445: unsolved goals BitString : Sort u_1 tail : BitString ⊢ sorry = 7",
-     "coluna": 71,
-     "trecho": "il))).state = (7 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2454,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_true_const_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2459: unsolved goals BitString : Sort u_1 tail : BitString ⊢ sorry = 8",
-     "coluna": 71,
-     "trecho": "il))).state = (8 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2468,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_not_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2473: unsolved goals BitString : Sort u_1 tail : BitString ⊢ sorry = 9",
-     "coluna": 70,
-     "trecho": "il))).state = (9 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2482,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_and_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2487: unsolved goals BitString : Sort u_1 tail : BitString ⊢ sorry = 10",
-     "coluna": 72,
-     "trecho": "l))).state = (10 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2496,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_or_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2501: unsolved goals BitString : Sort u_1 tail : BitString ⊢ sorry = 11",
-     "coluna": 71,
-     "trecho": "l))).state = (11 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2510,
-     "nome": "MCore.Real.CanonicalSATParserAttack.tag_invalid_11_rejects",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2516: unsolved goals BitString : Sort u_1 third : Bool tail : BitString ⊢ sorry = 12",
-     "coluna": 71,
-     "trecho": "l))).state = (12 : Fin 13) := ⟦b⟧y",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2534,
-     "nome": "MCore.Real.CanonicalSATParserAttack.legacy_recursive_parser_gate_is_trivially_inhabited",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2539: unknown identifier 'TM'",
-     "coluna": 23,
-     "trecho": "  let trivialMachine : ⟦T⟧M (Fin 1) (Option Bool) :=",
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2594,
-     "nome": "MCore.Real.CanonicalSATParserAttack.canonical_recursive_parser_closes_legacy_gap",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATParserAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2633,
-     "nome": "MCore.Real.CanonicalSATVerifier.verifyWitness_correct",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2636: function expected at SATWitness term has type ?m.49",
-     "coluna": 9,
-     "trecho": "    (w : ⟦S⟧ATWitness φ) :",
-     "secao": "lean/MCore/Real/CanonicalSATVerifier.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2646,
-     "nome": "MCore.Real.CanonicalSATVerifier.verificationCost_linear_encoding_bound",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2649: function expected at encodeCircuit term has type ?m.311",
-     "coluna": 30,
-     "trecho": "    verificationCost φ ≤ 2 * (⟦e⟧ncodeCircuit φ).length := by",
-     "secao": "lean/MCore/Real/CanonicalSATVerifier.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2654,
-     "nome": "MCore.Real.CanonicalSATVerifier.sat_has_short_verified_witness",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2657: function expected at SATLanguage term has type ?m.418",
-     "coluna": 4,
-     "trecho": "    ⟦S⟧ATLanguage φ ↔",
-     "secao": "lean/MCore/Real/CanonicalSATVerifier.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH03_20261009.lean",
-     "linha": 2677,
-     "nome": "MCore.Real.CanonicalSATVerifier.operational_bridge_closes_sat_in_np",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2680: unknown identifier 'CanonicalSATBoundary.SATInNPGap'",
-     "coluna": 4,
-     "trecho": "    ⟦C⟧anonicalSATBoundary.SATInNPGa",
-     "secao": "lean/MCore/Real/CanonicalSATVerifier.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 44,
-     "nome": "MCore.Real.CanonicalSATWitness.evalCircuit_eq_of_agree_below",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 48: function expected at σ term has type Assignment",
-     "coluna": 36,
-     "trecho": "Agree : ∀ i, i < varBound φ → ⟦σ⟧ i = τ i) :",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 76,
-     "nome": "MCore.Real.CanonicalSATWitness.witness_from_assignment_recovers_eval",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 80: function expected at evalCircuit term has type ?m.435",
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valCircuit",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 93,
-     "nome": "MCore.Real.CanonicalSATWitness.satLanguage_iff_exists_finite_witness",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 96: function expected at SATLanguage term has type ?m.786",
-     "coluna": 4,
-     "trecho": "    ⟦S⟧ATLanguage φ ↔",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 106,
-     "nome": "MCore.Real.CanonicalSATWitness.encodeNat_length",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 109: function expected at encodeNat term has type ?m.824",
-     "coluna": 5,
-     "trecho": "    (⟦e⟧ncodeNat n).length = n + 1 :=",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 114,
-     "nome": "MCore.Real.CanonicalSATWitness.varBound_le_encoded_length",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 117: function expected at encodeCircuit term has type ?m.932",
-     "coluna": 18,
-     "trecho": "    varBound φ ≤ (⟦e⟧ncodeCircuit φ).length := by",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 138,
-     "nome": "MCore.Real.CanonicalSATWitness.witnessBits_length",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 142: invalid field notation, type is not of the form (C ...) where C is a constant witnessBits w has type ?m.1223",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧witnessBits w).length = varBo",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 144,
-     "nome": "MCore.Real.CanonicalSATWitness.witness_bits_linear_bound",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 148: invalid field notation, type is not of the form (C ...) where C is a constant witnessBits w has type ?m.1385",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧witnessBits w).length ≤ (enco",
-     "secao": "lean/MCore/Real/CanonicalSATWitness.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 194,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuessMachine_blank_none",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 196: don't know how to synthesize implicit argument 'α' @none ?m.41 context: ⊢ Type ?u.40 when the resulting type of a declaration is explicitly provided, all holes (e.g., `_`) in the header are resolved before the declaration body is processed",
-     "coluna": 32,
-     "trecho": "  witnessGuessMachine.blank = ⟦n⟧one := rfl",
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 197,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuessMachine_initial",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 218,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.guessConfig_state",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 223: tactic 'cases' failed, major premise type is not an inductive type BitString Explanation: the 'cases' tactic is for constructor-based reasoning as well as for applying custom cases principles with a 'using' clause or a registered '@[cases_e",
-     "coluna": 2,
-     "trecho": "  ⟦c⟧ases bits <;> rfl",
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 224,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.doneConfig_accepting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 229,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuess_successors_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 235: don't know how to synthesize implicit argument 'Configuration' @guessConfig BitString (?m.584 left b bs) (?m.585 left b bs) (some false :: left) bs context: BitString : Sort ?u.540 left : List (Option Bool) b : Bool bs : BitString ⊢ ?m.584 ",
-     "coluna": 8,
-     "trecho": "      [ ⟦g⟧uessConfig (some false :: lef",
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 240,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuess_successors_nil",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 244: don't know how to synthesize implicit argument 'Configuration' @doneConfig (?m.626 left) (?m.627 left) left context: left : List (Option Bool) ⊢ ?m.626 left when the resulting type of a declaration is explicitly provided, all holes (e.g., `",
-     "coluna": 7,
-     "trecho": "      [⟦d⟧oneConfig left] := by",
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 250,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuessTimeBound_poly",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 252: function expected at PolynomialTimeBound term has type ?m.1178",
-     "coluna": 4,
-     "trecho": "    ⟦P⟧olynomialTimeBound witnessGue",
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 256,
-     "nome": "MCore.Real.CanonicalSATWitnessGuessNTM.witnessGuessMachine_canonical_type",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 260: function expected at NTM term has type ?m.1196",
-     "coluna": 14,
-     "trecho": "    Nonempty (⟦N⟧TM (Fin 2) (Option Bool)) :=",
-     "secao": "lean/MCore/Real/CanonicalSATWitnessGuessNTM.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 288,
-     "nome": "MCore.Real.FailProofAllGaps.failure_generator_implies_universal_failure",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 292: function expected at UniversalFailure term has type ?m.488",
-     "coluna": 4,
-     "trecho": "    ⟦U⟧niversalFailure language := b",
-     "secao": "lean/MCore/Real/FailProofAllGaps.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 308,
-     "nome": "MCore.Real.FailProofAllGaps.failure_generator_iff_universal_failure",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 311: function expected at UniversalFailure term has type ?m.604",
-     "coluna": 43,
-     "trecho": "(FailureGenerator language) ↔ ⟦U⟧niversalFailure language := b",
-     "secao": "lean/MCore/Real/FailProofAllGaps.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 328,
-     "nome": "MCore.Real.FailProofAllGaps.internal_separation_transfers",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 335: tactic 'apply' failed, failed to unify PneqNP with False BitLanguage : Sort u_1 PneqNP : Sort u_2 officialP officialNP : BitLanguage → Prop hMatch : ExternalModelMatch officialP officialNP hInternal : PneqNP hEq : ∀ (language : BitLanguage)",
-     "coluna": 2,
-     "trecho": "  ⟦a⟧pply hInternal",
-     "secao": "lean/MCore/Real/FailProofAllGaps.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 357,
-     "nome": "MCore.Real.FailProofAllGaps.final_gap_certificate_closes",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 361: unsolved goals BitLanguage : Sort u_1 officialP officialNP : BitLanguage → Prop cert : FinalGapCertificate officialP officialNP ⊢ OfficialPneqNP officialP officialNP",
-     "coluna": 43,
-     "trecho": "neqNP officialP officialNP := ⟦b⟧y",
-     "secao": "lean/MCore/Real/FailProofAllGaps.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 412,
-     "nome": "MCore.Real.FailProofFiniteAttack.alwaysRejectCandidate_correct",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 415: invalid field notation, type is not of the form (C ...) where C is a constant alwaysRejectCandidate has type ?m.228",
-     "coluna": 6,
-     "trecho": "      ⟦a⟧lwaysRejectCandidate.CorrectA",
-     "secao": "lean/MCore/Real/FailProofFiniteAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 424,
-     "nome": "MCore.Real.FailProofFiniteAttack.empty_language_in_p",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 425: function expected at InP term has type ?m.264",
-     "coluna": 30,
-     "trecho": "theorem empty_language_in_p : ⟦I⟧nP EmptyLanguage := by",
-     "secao": "lean/MCore/Real/FailProofFiniteAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 427,
-     "nome": "MCore.Real.FailProofFiniteAttack.empty_language_not_universal_failure",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 429: function expected at UniversalFailure term has type ?m.281",
-     "coluna": 6,
-     "trecho": "    ¬ ⟦U⟧niversalFailure EmptyLanguage",
-     "secao": "lean/MCore/Real/FailProofFiniteAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 439,
-     "nome": "MCore.Real.FailProofFiniteAttack.empty_sample_evidence",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 441: don't know how to synthesize implicit argument 'PolyDTMCandidate' @FiniteFailureEvidence ?m.374 ?m.376 EmptyLanguage [] context: ⊢ Type ?u.375 when the resulting type of a declaration is explicitly provided, all holes (e.g., `_`) in the hea",
-     "coluna": 4,
-     "trecho": "    ⟦F⟧initeFailureEvidence EmptyLan",
-     "secao": "lean/MCore/Real/FailProofFiniteAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 451,
-     "nome": "MCore.Real.FailProofFiniteAttack.finite_to_universal_principle_refuted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 455: unsolved goals h : FiniteToUniversalPrinciple hUniversal : sorry ⊢ False",
-     "coluna": 36,
-     "trecho": "FiniteToUniversalPrinciple := ⟦b⟧y",
-     "secao": "lean/MCore/Real/FailProofFiniteAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 574,
-     "nome": "MCore.Real.universal_sat_failure_implies_sat_not_in_p",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 583,
-     "nome": "MCore.Real.sat_not_in_p_implies_universal_sat_failure",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Classical.choice",
-      "Quot.sound"
-     ],
-     "erro": "linha 593: unknown constant 'MCore.Real.PolyDTMRealization.mk._flat_ctor'",
-     "coluna": 10,
-     "trecho": "  refine ⟨⟦{⟧ candidate := candidate, deci",
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 598,
-     "nome": "MCore.Real.universal_sat_failure_iff_sat_not_in_p",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Classical.choice",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 610,
-     "nome": "MCore.Real.sat_not_in_p_of_lower_bound_certificate",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 615,
-     "nome": "MCore.Real.lower_bound_certificate_of_sat_not_in_p",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Classical.choice",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 620,
-     "nome": "MCore.Real.sat_lower_bound_certificate_iff",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Classical.choice",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 626,
-     "nome": "MCore.Real.sat_boundary_implies_machine_p_ne_np",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 634: unknown identifier 'SATLanguage'",
-     "coluna": 20,
-     "trecho": "  exact hNotP ((hEq ⟦S⟧ATLanguage).mpr hNP)",
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 635,
-     "nome": "MCore.Real.sat_certificate_implies_machine_p_ne_np",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 651,
-     "nome": "MCore.Real.final_proof_from_residual",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/FinalProof.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 723,
-     "nome": "MCore.Real.FinalProofAttack.smuggledCandidate_correct",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 726: unknown identifier 'CircuitK1.Circuit'",
-     "coluna": 10,
-     "trecho": "    ∀ φ : ⟦C⟧ircuitK1.Circuit,",
-     "secao": "lean/MCore/Real/FinalProofAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 745,
-     "nome": "MCore.Real.FinalProofAttack.every_language_inP_under_arbitrary_encode",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 750: function expected at InP term has type ?m.322",
-     "coluna": 4,
-     "trecho": "    ⟦I⟧nP language := by",
-     "secao": "lean/MCore/Real/FinalProofAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 752,
-     "nome": "MCore.Real.FinalProofAttack.current_SATNotInP_refuted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 758: function expected at h term has type SATNotInP",
-     "coluna": 8,
-     "trecho": "  exact ⟦h⟧ (every_language_inP_under_ar",
-     "secao": "lean/MCore/Real/FinalProofAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 759,
-     "nome": "MCore.Real.FinalProofAttack.current_UniversalSATFailure_refuted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 762: unsolved goals UniversalSATFailure : Prop h : UniversalSATFailure ⊢ False",
-     "coluna": 29,
-     "trecho": "    ¬ UniversalSATFailure := ⟦b⟧y",
-     "secao": "lean/MCore/Real/FinalProofAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 766,
-     "nome": "MCore.Real.FinalProofAttack.current_SATLowerBoundCertificate_refuted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 769: unsolved goals SATLowerBoundCertificate : Prop cert : SATLowerBoundCertificate ⊢ False",
-     "coluna": 34,
-     "trecho": "¬ SATLowerBoundCertificate := ⟦b⟧y",
-     "secao": "lean/MCore/Real/FinalProofAttack.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 790,
-     "nome": "MCore.Real.MachineRunLemmas.run_halted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 793: function expected at TM term has type ?m.7",
-     "coluna": 15,
-     "trecho": "    (machine : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/MachineRunLemmas.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 803,
-     "nome": "MCore.Real.MachineRunLemmas.run_add",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 806: function expected at TM term has type ?m.77",
-     "coluna": 15,
-     "trecho": "    (machine : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/MachineRunLemmas.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 834,
-     "nome": "MCore.Real.MachineRunLemmas.haltsWithin_mono",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 837: function expected at TM term has type ?m.290",
-     "coluna": 15,
-     "trecho": "    (machine : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/MachineRunLemmas.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 848,
-     "nome": "MCore.Real.MachineRunLemmas.run_to_larger_fuel_of_halt",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 851: function expected at TM term has type ?m.360",
-     "coluna": 15,
-     "trecho": "    (machine : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/MachineRunLemmas.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1026,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_initial",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1029: function expected at TM term has type ?m.112",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1032,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_blank",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1035: function expected at TM term has type ?m.245",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1038,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_successors_of_not_halted",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1043: function expected at TM term has type ?m.378",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1049,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_terminal_of_halted",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 1053: function expected at TM term has type ?m.742",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1060,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_terminal_implies_halted",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 1064: function expected at TM term has type ?m.932",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1076,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.runBranches_singleton_of_not_halted",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1081: function expected at TM term has type ?m.1122",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1092,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.runBranches_singleton_of_halted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1096: function expected at TM term has type ?m.1509",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1105,
-     "nome": "MCore.Real.P01DeterministicNTMEmbedding.tmAsNTM_terminal_iff_halted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1109: function expected at TM term has type ?m.1658",
-     "coluna": 9,
-     "trecho": "    (M : ⟦T⟧M State Symbol)",
-     "secao": "lean/MCore/Real/P01DeterministicNTMEmbedding.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1173,
-     "nome": "MCore.Real.P01EncodedEvaluator.evalEncodedCore_encode_append",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 13,
-     "trecho": "    (hFuel : ⟦C⟧ircuitK1.size c < fuel) :",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EncodedEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1235,
-     "nome": "MCore.Real.P01EncodedEvaluator.evalEncoded_encode",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 23,
-     "trecho": "    evalEncoded sigma (⟦e⟧ncodeCircuit c) =",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EncodedEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1251,
-     "nome": "MCore.Real.P01EncodedEvaluator.evalEncoded_witness",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 9,
-     "trecho": "    (w : ⟦C⟧anonicalSATWitness.SATWitness",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EncodedEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1303,
-     "nome": "MCore.Real.P01EncodedFrameTape.decodeEvalFrame_encodeEvalFrame",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1306: don't know how to synthesize implicit argument 'BitString' @decodeEvalFrame (?m.272 f) EvalFrame (encodeEvalFrame f) context: EvalFrame : Type ?u.241 f : EvalFrame ⊢ Sort ?u.237 when the resulting type of a declaration is explicitly provide",
-     "coluna": 4,
-     "trecho": "    ⟦d⟧ecodeEvalFrame (encodeEvalFra",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1313,
-     "nome": "MCore.Real.P01EncodedFrameTape.encodeEvalFrame_length",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1316: invalid field notation, type is not of the form (C ...) where C is a constant encodeEvalFrame f has type ?m.352",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧encodeEvalFrame f).length = 3",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1323,
-     "nome": "MCore.Real.P01EncodedFrameTape.encodeEvalFrame_injective",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1326: don't know how to synthesize implicit argument 'α' @Eq ?m.395 (encodeEvalFrame a) (encodeEvalFrame b) context: EvalFrame : Sort ?u.375 a b : EvalFrame ⊢ Sort ?u.381 when the resulting type of a declaration is explicitly provided, all holes ",
-     "coluna": 6,
-     "trecho": "      ⟦e⟧ncodeEvalFrame a = encodeEval",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1335,
-     "nome": "MCore.Real.P01EncodedFrameTape.encodeEvalFrames_nil",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1337: don't know how to synthesize implicit argument 'α' @Eq (List ?m.815) (encodeEvalFrames []) [] context: ⊢ Type ?u.814 when the resulting type of a declaration is explicitly provided, all holes (e.g., `_`) in the header are resolved before th",
-     "coluna": 4,
-     "trecho": "    ⟦e⟧ncodeEvalFrames [] = [] := rf",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1338,
-     "nome": "MCore.Real.P01EncodedFrameTape.encodeEvalFrames_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1342: typeclass instance problem is stuck, it is often due to metavariables HAppend ?m.936 ?m.937 ?m.949",
-     "coluna": 6,
-     "trecho": "      ⟦e⟧ncodeEvalFrame f ++ encodeEva",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1343,
-     "nome": "MCore.Real.P01EncodedFrameTape.encodeEvalFrames_length",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1346: invalid field notation, type is not of the form (C ...) where C is a constant encodeEvalFrames fs has type ?m.1106",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧encodeEvalFrames fs).length =",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1362,
-     "nome": "MCore.Real.P01EncodedFrameTape.decodeEvalFrames_encodeEvalFrames",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1365: don't know how to synthesize implicit argument 'BitString' @decodeEvalFrames (?m.1330 fs) EvalFrame (encodeEvalFrames fs) context: EvalFrame : Type ?u.1282 fs : List EvalFrame ⊢ Type ?u.1290 when the resulting type of a declaration is expli",
-     "coluna": 4,
-     "trecho": "    ⟦d⟧ecodeEvalFrames (encodeEvalFr",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1387,
-     "nome": "MCore.Real.P01EncodedFrameTape.encodedFrames_linear_space",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1392: invalid field notation, type is not of the form (C ...) where C is a constant encodeEvalFrames fs has type ?m.1502",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧encodeEvalFrames fs).length ≤",
-     "secao": "lean/MCore/Real/P01EncodedFrameTape.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1485,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalRun_of_step_none",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1492: unsolved goals case succ Assignment : Sort u_1 sigma : Assignment s : EvalState h : evalStep sigma s = none n : Nat ih : evalRun n sigma s = s ⊢ (match evalStep sigma s with | none => s | some s' => evalRun n sigma s') = s",
-     "coluna": 14,
-     "trecho": "  | succ n ih ⟦=⟧>",
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1494,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalRun_add",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1513,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalRun_halted",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1520: unsolved goals case succ Assignment : Sort u_1 BitString : Sort u_2 sigma : Assignment v : Bool bits : BitString n : Nat ih : evalRun n sigma (haveValue v bits) = haveValue v bits ⊢ (match sorry sigma (sorry ()) with | none => sorry () | so",
-     "coluna": 14,
-     "trecho": "  | succ n ih ⟦=⟧>",
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1531,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalRun_encode_append",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1542: function expected at encodeCircuit term has type ?m.6267",
-     "coluna": 19,
-     "trecho": "        (needExpr (⟦e⟧ncodeCircuit c ++ tail) frame",
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1630,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalStepCount_le_three_mul_size",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1634: unknown identifier 'CircuitK1.size'",
-     "coluna": 26,
-     "trecho": "    evalStepCount c ≤ 3 * ⟦C⟧ircuitK1.size c := by",
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1649,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalStepCount_le_three_mul_encoding",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1652: function expected at encodeCircuit term has type ?m.6587",
-     "coluna": 27,
-     "trecho": "    evalStepCount c ≤ 3 * (⟦e⟧ncodeCircuit c).length := by",
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH04_20261009.lean",
-     "linha": 1656,
-     "nome": "MCore.Real.P01EncodedStackEvaluator.evalRun_encode_bounded",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1662: function expected at encodeCircuit term has type ?m.6717",
-     "coluna": 18,
-     "trecho": "    evalRun (3 * (⟦e⟧ncodeCircuit c).length) sigma",
-     "secao": "lean/MCore/Real/P01EncodedStackEvaluator.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 56,
-     "nome": "MCore.Real.P01EvalCursorConsume.consumeOneTape_correct",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 42,
-     "trecho": "neTape witness consumed (b :: ⟦b⟧s) frameStack padding =",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalCursorConsume.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 106,
-     "nome": "MCore.Real.P01EvalCursorConsume.consumeThreeTape_correct",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 27,
-     "trecho": "        (b0 :: b1 :: b2 :: ⟦r⟧est) frameStack padding =",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalCursorConsume.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 145,
-     "nome": "MCore.Real.P01EvalCursorFramePush.pushStep_evalCursorStackEndTape",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦p⟧ushStep b",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalCursorFramePush.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 163,
-     "nome": "MCore.Real.P01EvalCursorFramePush.framePush_run_three_cursor",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦f⟧ramePushMachine.run 3",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalCursorFramePush.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 256,
-     "nome": "MCore.Real.P01EvalCursorMachine.evalCursorStackEndTape_zero",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 262: function expected at physicalStackV2Tape term has type ?m.131",
-     "coluna": 6,
-     "trecho": "      ⟦p⟧hysicalStackV2Tape witness un",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 329,
-     "nome": "MCore.Real.P01EvalCursorMachine.cursorSeekMachine_blank",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 331: don't know how to synthesize implicit argument 'α' @none ?m.1213 context: ⊢ Type ?u.1212 when the resulting type of a declaration is explicitly provided, all holes (e.g., `_`) in the header are resolved before the declaration body is proces",
-     "coluna": 30,
-     "trecho": "    cursorSeekMachine.blank = ⟦n⟧one := rfl",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 332,
-     "nome": "MCore.Real.P01EvalCursorMachine.start_not_halting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 335,
-     "nome": "MCore.Real.P01EvalCursorMachine.scanStack_not_halting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 338,
-     "nome": "MCore.Real.P01EvalCursorMachine.scanUnread_not_halting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 371,
-     "nome": "MCore.Real.P01EvalCursorMachine.stackScanConfig_state",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 376: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.1618",
-     "coluna": 6,
-     "trecho": "      ⟦.⟧scanStack := by",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 378,
-     "nome": "MCore.Real.P01EvalCursorMachine.start_to_stackScan",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 389: don't know how to synthesize implicit argument 'Configuration' @stackScanConfig BitString (?m.1677 witness consumed unread frameStack padding) (?m.1678 witness consumed unread frameStack padding) witness consumed unread frameStack (none :: ",
-     "coluna": 6,
-     "trecho": "      ⟦s⟧tackScanConfig witness consum",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 394,
-     "nome": "MCore.Real.P01EvalCursorMachine.stackScan_step_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 403: don't know how to synthesize implicit argument 'Configuration' @stackScanConfig BitString (?m.1735 witness consumed unread b bs right) (?m.1736 witness consumed unread b bs right) witness consumed unread bs (some b :: right) context: BitStr",
-     "coluna": 6,
-     "trecho": "      ⟦s⟧tackScanConfig witness consum",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 407,
-     "nome": "MCore.Real.P01EvalCursorMachine.stackScan_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 415: application type mismatch stackScanConfig witness consumed unread [] argument [] has type List ?m.1787 : Type ?u.1786 but is expected to have type BitString : Sort ?u.1759",
-     "coluna": 46,
-     "trecho": "onfig witness consumed unread ⟦[⟧]",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 458,
-     "nome": "MCore.Real.P01EvalCursorMachine.unreadScanConfig_state",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 463: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.2217",
-     "coluna": 6,
-     "trecho": "      ⟦.⟧scanUnread := by",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 467,
-     "nome": "MCore.Real.P01EvalCursorMachine.stackSeparator_to_unreadScan",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 475: invalid field notation, type is not of the form (C ...) where C is a constant unread has type BitString",
-     "coluna": 40,
-     "trecho": "adScanConfig witness consumed ⟦u⟧nread.reverse (none :: right)",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 488,
-     "nome": "MCore.Real.P01EvalCursorMachine.unreadScan_step_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 496: don't know how to synthesize implicit argument 'Configuration' @unreadScanConfig BitString (?m.2351 witness consumed b bs right) (?m.2352 witness consumed b bs right) witness consumed bs (some b :: right) context: BitString : Sort ?u.2317 w",
-     "coluna": 6,
-     "trecho": "      ⟦u⟧nreadScanConfig witness consu",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 505,
-     "nome": "MCore.Real.P01EvalCursorMachine.unreadScan_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 513: application type mismatch unreadScanConfig witness consumed [] argument [] has type List ?m.2399 : Type ?u.2398 but is expected to have type BitString : Sort ?u.2373",
-     "coluna": 40,
-     "trecho": "adScanConfig witness consumed ⟦[⟧]",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 524,
-     "nome": "MCore.Real.P01EvalCursorMachine.unreadBoundary_to_cursor",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 535: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := .halt,",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 550,
-     "nome": "MCore.Real.P01EvalCursorMachine.cursorSeek_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 564: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := .halt,",
-     "secao": "lean/MCore/Real/P01EvalCursorMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 635,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.erase_not_halting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 638,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.scanUnread_not_halting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 641,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.scanFrames_not_halting",
-     "status": "aberto-sorry",
-     "axioms": [
-      "sorryAx"
-     ],
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 669,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.unreadReturnConfig_state",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 675: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.912",
-     "coluna": 6,
-     "trecho": "      ⟦.⟧scanUnread := by",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 677,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.erase_to_unread",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 691: invalid field notation, type is not of the form (C ...) where C is a constant witness has type BitString",
-     "coluna": 55,
-     "trecho": "consumed + 1) none ++ none :: ⟦w⟧itness.map some)",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 697,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.unreadReturn_step_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 704: don't know how to synthesize implicit argument 'Configuration' @unreadReturnConfig BitString (?m.1174 left b bs frameStack padding) (?m.1175 left b bs frameStack padding) (some b :: left) bs frameStack padding context: BitString : Sort ?u.1",
-     "coluna": 6,
-     "trecho": "      ⟦u⟧nreadReturnConfig (some b :: ",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 708,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.unreadReturn_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 718: invalid field notation, type is not of the form (C ...) where C is a constant remaining has type BitString",
-     "coluna": 9,
-     "trecho": "        (⟦r⟧emaining.reverse.map some ++ ",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 752,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.frameReturnConfig_state",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 757: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.1650",
-     "coluna": 58,
-     "trecho": "remainingRev padding).state = ⟦.⟧scanFrames := by",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 759,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.sourceSeparator_to_frames",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 767: invalid field notation, type is not of the form (C ...) where C is a constant frameStack has type BitString",
-     "coluna": 39,
-     "trecho": "meReturnConfig (none :: left) ⟦f⟧rameStack.reverse padding := ",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 771,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.frameReturn_step_cons",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 778: don't know how to synthesize implicit argument 'Configuration' @frameReturnConfig BitString (?m.1795 left b bs padding) (?m.1796 left b bs padding) (some b :: left) bs padding context: BitString : Sort ?u.1769 left : List (Option Bool) b : ",
-     "coluna": 6,
-     "trecho": "      ⟦f⟧rameReturnConfig (some b :: l",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 782,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.frameReturn_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 790: invalid field notation, type is not of the form (C ...) where C is a constant remainingRev has type BitString",
-     "coluna": 9,
-     "trecho": "        (⟦r⟧emainingRev.reverse.map some ",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 803,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.frameReturn_halt",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 809: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := .halt",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 816,
-     "nome": "MCore.Real.P01EvalCursorRoundTrip.cursorReturn_run",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 833: invalid {...} notation, expected type is not known",
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := .halt",
-     "secao": "lean/MCore/Real/P01EvalCursorRoundTrip.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 924,
-     "nome": "MCore.Real.P01EvalFramePopMachine.framePopMachine_blank",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 28,
-     "trecho": "    framePopMachine.blank = ⟦n⟧one := rfl",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 932,
-     "nome": "MCore.Real.P01EvalFramePopMachine.framePop_run_four",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦f⟧inal.state = .halt f ∧",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 982,
-     "nome": "MCore.Real.P01EvalFramePopMachine.framePop_run_four_rep",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦f⟧inal.state = .halt f ∧",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1000,
-     "nome": "MCore.Real.P01EvalFramePopMachine.framePop_rejects_111",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦f⟧inal.state = .reject := by",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1095,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePopMachine_blank",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 28,
-     "trecho": "    framePopMachine.blank = ⟦n⟧one := rfl",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1103,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.tape_write_none_of_head_none",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 9,
-     "trecho": "    (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1113,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_start_one",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 9,
-     "trecho": "    (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1123,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_read0_one",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 21,
-     "trecho": "    (b0 : Bool) (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1133,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_gap1_one",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 21,
-     "trecho": "    (b0 : Bool) (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1143,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_read1_one",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 24,
-     "trecho": "    (b0 b1 : Bool) (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1153,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_gap2_one",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 24,
-     "trecho": "    (b0 b1 : Bool) (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1163,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_read2_one",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 9,
-     "trecho": "    (t : ⟦T⟧ape (Option Bool))",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1175,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_first_two",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := FramePopState.gap1 ",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1192,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_second_two",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := FramePopState.gap2 ",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1208,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_third_two",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 15,
-     "trecho": "    (hdecode : ⟦d⟧ecodeEvalFrame [b0,b1,b2] = s",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1225,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_run_six",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦{⟧ state := FramePopState.halt ",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1254,
-     "nome": "MCore.Real.P01EvalFramePopMachineV2.framePop_empty_rejects",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦.⟧reject := by",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalFramePopMachineV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1300,
-     "nome": "MCore.Real.P01EvalFramePushMachine.encodeEvalFrame_eq_bits",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 1302: function expected at encodeEvalFrame term has type ?m.108",
-     "coluna": 4,
-     "trecho": "    ⟦e⟧ncodeEvalFrame f = [frameBit0",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1348,
-     "nome": "MCore.Real.P01EvalFramePushMachine.framePushMachine_blank",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1350: don't know how to synthesize implicit argument 'α' @none ?m.4085 context: ⊢ Type ?u.4084 when the resulting type of a declaration is explicitly provided, all holes (e.g., `_`) in the header are resolved before the declaration body is proces",
-     "coluna": 29,
-     "trecho": "    framePushMachine.blank = ⟦n⟧one := rfl",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1356,
-     "nome": "MCore.Real.P01EvalFramePushMachine.framePush_start_one",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1359: function expected at Tape term has type ?m.4269",
-     "coluna": 25,
-     "trecho": "    (f : EvalFrame) (t : ⟦T⟧ape (Option Bool))",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1368,
-     "nome": "MCore.Real.P01EvalFramePushMachine.framePush_after1_one",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1371: function expected at Tape term has type ?m.4341",
-     "coluna": 25,
-     "trecho": "    (f : EvalFrame) (t : ⟦T⟧ape (Option Bool))",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1380,
-     "nome": "MCore.Real.P01EvalFramePushMachine.framePush_after2_one",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1383: function expected at Tape term has type ?m.4413",
-     "coluna": 25,
-     "trecho": "    (f : EvalFrame) (t : ⟦T⟧ape (Option Bool))",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1392,
-     "nome": "MCore.Real.P01EvalFramePushMachine.framePush_run_three",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1405: invalid field notation, type is not of the form (C ...) where C is a constant final has type ?m.4542",
-     "coluna": 4,
-     "trecho": "    ⟦f⟧inal.state = .halt ∧",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1435,
-     "nome": "MCore.Real.P01EvalFramePushMachine.framePush_rejects_nonblank",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 1444: invalid dotted identifier notation, expected type is not of the form (... → C ...) where C is a constant ?m.4762",
-     "coluna": 6,
-     "trecho": "      ⟦.⟧reject := by",
-     "secao": "lean/MCore/Real/P01EvalFramePushMachine.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1467,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.push_refines_frame_cons",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦f⟧ramePushMachine.run 3",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1488,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.pop_refines_frame_tail",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦f⟧ramePopMachine.run 4",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1509,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_not_tag_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1534,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_and_tag_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1557,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_or_tag_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1580,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_return_frame_physically_decodable",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦f⟧ramePopMachine.run 4",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1609,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_neg_return_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1635,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_andLeft_return_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1679,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_orLeft_return_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1722,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_andRight_return_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1747,
-     "nome": "MCore.Real.P01EvalStepFrameRefinement.evalStep_orRight_return_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalStepFrameRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1795,
-     "nome": "MCore.Real.P01EvalTagPhysicalRefinement.consumeThree_then_push_frame",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 6,
-     "trecho": "      ⟦c⟧onsumeThreeTape witness consu",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1824,
-     "nome": "MCore.Real.P01EvalTagPhysicalRefinement.evalStep_const_false_cursor_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1847,
-     "nome": "MCore.Real.P01EvalTagPhysicalRefinement.evalStep_const_true_cursor_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1870,
-     "nome": "MCore.Real.P01EvalTagPhysicalRefinement.evalStep_not_tag_cursor_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1900,
-     "nome": "MCore.Real.P01EvalTagPhysicalRefinement.evalStep_and_tag_cursor_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 1930,
-     "nome": "MCore.Real.P01EvalTagPhysicalRefinement.evalStep_or_tag_cursor_refined",
-     "status": "nao_alcancado",
-     "axioms": [],
-     "coluna": 4,
-     "trecho": "    ⟦e⟧valStep sigma",
-     "motivo": "o Lean parou antes do fim do arquivo (código 1)",
-     "secao": "lean/MCore/Real/P01EvalTagPhysicalRefinement.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2012,
-     "nome": "MCore.Real.P01FinalCertificate.P01MachineConstruction.correctAt",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2016: invalid field notation, type is not of the form (C ...) where C is a constant C has type P01MachineConstruction",
-     "coluna": 4,
-     "trecho": "    ⟦C⟧.toCandidate.CorrectAt",
-     "secao": "lean/MCore/Real/P01FinalCertificate.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2030,
-     "nome": "MCore.Real.P01FinalCertificate.construction_closes_p01",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2031: type of theorem 'MCore.Real.P01FinalCertificate.construction_closes_p01' is not a proposition {CanonicalSATMachineClosure : Sort u_1} → P01ConstructionGap → CanonicalSATMachineClosure",
-     "coluna": 0,
-     "trecho": "⟦t⟧heorem construction_closes_p0",
-     "secao": "lean/MCore/Real/P01FinalCertificate.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2054,
-     "nome": "MCore.Real.P01FullVerifierEvalLocal.evalNeg_local_semantics",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2057: function expected at execInstr term has type ?m.15",
-     "coluna": 4,
-     "trecho": "    ⟦e⟧xecInstr sigma (v :: stack) .",
-     "secao": "lean/MCore/Real/P01FullVerifierEvalLocal.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2059,
-     "nome": "MCore.Real.P01FullVerifierEvalLocal.evalAnd_local_semantics",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2062: function expected at execInstr term has type ?m.63",
-     "coluna": 4,
-     "trecho": "    ⟦e⟧xecInstr sigma (r :: l :: sta",
-     "secao": "lean/MCore/Real/P01FullVerifierEvalLocal.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2065,
-     "nome": "MCore.Real.P01FullVerifierEvalLocal.evalOr_local_semantics",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2068: function expected at execInstr term has type ?m.113",
-     "coluna": 4,
-     "trecho": "    ⟦e⟧xecInstr sigma (r :: l :: sta",
-     "secao": "lean/MCore/Real/P01FullVerifierEvalLocal.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2071,
-     "nome": "MCore.Real.P01FullVerifierEvalLocal.gate_and_exact",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2073: function expected at gateResult term has type ?m.154",
-     "coluna": 4,
-     "trecho": "    ⟦g⟧ateResult false l r = Bool.an",
-     "secao": "lean/MCore/Real/P01FullVerifierEvalLocal.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2075,
-     "nome": "MCore.Real.P01FullVerifierEvalLocal.gate_or_exact",
-     "status": "erro",
-     "axioms": [
-      "sorryAx"
-     ],
-     "erro": "linha 2077: function expected at gateResult term has type ?m.184",
-     "coluna": 4,
-     "trecho": "    ⟦g⟧ateResult true l r = Bool.or ",
-     "secao": "lean/MCore/Real/P01FullVerifierEvalLocal.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2115,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.moveToWitnessSeqV2_length",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2118: don't know how to synthesize implicit argument 'α' @List.length (?m.256 stack source i) (moveToWitnessSeqV2 stack source i) context: BitString : Sort ?u.237 stack : List Bool source : BitString i : Nat ⊢ Type ?u.248 when the resulting type ",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧moveToWitnessSeqV2 stack sour",
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2121,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.witnessOffsetV2_positive",
-     "status": "aberto-sorry",
-     "axioms": [
-      "propext",
-      "sorryAx",
-      "Quot.sound"
-     ],
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2127,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.stackV2_left_as_prefix",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2132: function expected at physicalStackV2Tape term has type ?m.532",
-     "coluna": 5,
-     "trecho": "    (⟦p⟧hysicalStackV2Tape witness so",
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2136,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.moveToWitnessSeqV2_head_correct",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2141: invalid field notation, type is not of the form (C ...) where C is a constant witness has type BitString",
-     "coluna": 14,
-     "trecho": "    (hi : i < ⟦w⟧itness.length) :",
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2153,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.witness_roundTripV2_length",
-     "status": "erro",
-     "axioms": [
-      "propext",
-      "sorryAx"
-     ],
-     "erro": "linha 2156: don't know how to synthesize implicit argument 'α' @List.length (?m.1377 stack source i) (moveToWitnessSeqV2 stack source i ++ moveBackToStackSeqV2 stack source i) context: BitString : Sort ?u.937 stack : List Bool source : BitString i : Na",
-     "coluna": 4,
-     "trecho": "    ⟦(⟧moveToWitnessSeqV2 stack sour",
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2162,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.moveToWitnessSeqV2_legal",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2165: function expected at LegalMoveSeq term has type ?m.1730",
-     "coluna": 4,
-     "trecho": "    ⟦L⟧egalMoveSeq (moveToWitnessSeq",
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
-     "arquivo": "audit/ATK_UNIFIED_SOURCE_BATCH05_20261009.lean",
-     "linha": 2167,
-     "nome": "MCore.Real.P01FullVerifierInputShuttleV2.moveBackToStackSeqV2_legal",
-     "status": "erro",
-     "axioms": [],
-     "erro": "linha 2170: function expected at LegalMoveSeq term has type ?m.1768",
-     "coluna": 4,
-     "trecho": "    ⟦L⟧egalMoveSeq (moveBackToStackS",
-     "secao": "lean/MCore/Real/P01FullVerifierInputShuttleV2.lean"
-    },
-    {
      "arquivo": "audit/C12/SRepresentationCounterexample.lean",
      "linha": 17,
      "nome": "Audit.C12Calibration.paddedFalse_eval_false",
@@ -17574,7 +14448,7 @@
     "aberto-sorry": 0,
     "condicional": 0
    },
-   "hora_commit_mvei": 1793652851
+   "hora_commit_mvei": 1793883409
   },
   {
    "repo": "m-core-p-vs-np",
@@ -17583,7 +14457,7 @@
    "toolchain_used": "leanprover/lean4:v4.34.1",
    "needs_mathlib": true,
    "build_ok": true,
-   "build_seconds": 70.0,
+   "build_seconds": 63.8,
    "build_error": "",
    "sorry_warnings": 0,
    "reconstructed": false,
@@ -17620,7 +14494,7 @@
     "aberto-sorry": 0,
     "condicional": 0
    },
-   "hora_commit_mvei": 1793652851
+   "hora_commit_mvei": 1793883409
   }
  ]
 }

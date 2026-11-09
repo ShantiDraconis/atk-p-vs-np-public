@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -2286,36 +2286,30 @@
    "line": 57,
    "state": "fechado",
    "axioms_beyond_standard": [],
-   "statement": "(h : P01TerminalGap) : SATInNPGap circuitBitEncoding"
+   "statement": "MCore.Real.P01TerminalDelta.P01TerminalGap →   MCore.Real.CanonicalSATBoundary.SATInNPGap MCore.Real.CanonicalCircuitBits.circuitBitEncoding"
   },
   {
    "name": "MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_p02",
    "file": "lean/MCore/Real/P02KleeneBridgeFrontier.lean",
    "line": 63,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : CandidateCodingBridgeGap) : P02TerminalFrontier.P02Target"
   },
   {
    "name": "MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_semantic_self_embedding",
    "file": "lean/MCore/Real/P02KleeneBridgeFrontier.lean",
    "line": 57,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : CandidateCodingBridgeGap) : SemanticSelfEmbeddingGap"
   },
   {
    "name": "MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_gap_iff_semantic_self_embedding_gap",
    "file": "lean/MCore/Real/P02KleeneBridgeFrontier.lean",
    "line": 49,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": CandidateCodingBridgeGap ↔ SemanticSelfEmbeddingGap"
   },
   {
@@ -2418,100 +2412,80 @@
    "name": "MCore.Real.P02SupportBundle.support_bundle_closes_internal",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 26,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(hP01 : SATInNPGap circuitBitEncoding) (S : SupportBundle) : PneqNP"
   },
   {
    "name": "MCore.Real.P02SupportBundle.support_bundle_gap_closes_p02",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 44,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : SupportBundleGap) : P02Target"
   },
   {
    "name": "MCore.Real.P02SupportBundle.support_bundle_gap_enables_pneqnp",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 50,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(hP01 : SATInNPGap circuitBitEncoding) (h : SupportBundleGap) : PneqNP"
   },
   {
    "name": "MCore.Real.P02SupportBundle.support_bundle_gap_iff_candidate_coding_bridge_gap",
    "file": "lean/MCore/Real/P02SupportBundle.lean",
    "line": 36,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": SupportBundleGap ↔ CandidateCodingBridgeGap"
   },
   {
    "name": "MCore.Real.P02TheoremEnablement.p02_activation_iff_candidate_coding_bridge",
    "file": "lean/MCore/Real/P02TheoremEnablement.lean",
    "line": 45,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": SupportBundleGap ↔ CandidateCodingBridgeGap"
   },
   {
    "name": "MCore.Real.P02TheoremEnablement.theorem_enablement_closes_pneqnp",
    "file": "lean/MCore/Real/P02TheoremEnablement.lean",
    "line": 30,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(C : TheoremEnablementCertificate) : PneqNP"
   },
   {
    "name": "MCore.Real.P02TheoremEnablement.theorem_enablement_gap_closes",
    "file": "lean/MCore/Real/P02TheoremEnablement.lean",
    "line": 39,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : TheoremEnablementGap) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPCanonicalHabitantStatus.current_frontier_closes",
    "file": "lean/MCore/Real/PNPCanonicalHabitantStatus.lean",
    "line": 42,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : CanonicalSATCurrentFrontier) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPCanonicalHabitantStatus.p01_and_lower_bound_close_pneqnp",
    "file": "lean/MCore/Real/PNPCanonicalHabitantStatus.lean",
    "line": 26,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(p01 : IntegratedExecutionCertificate) (lb : UniversalFailure CanonicalSATLanguage) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPHabitant.canonical_sat_habitant_closes",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 93,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(H : CanonicalSATPNPHabitant) : PneqNP"
   },
   {
@@ -2526,50 +2500,40 @@
    "name": "MCore.Real.PNPHabitant.lower_bound_is_universal_failure",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 98,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(H : PNP_Habitant) : UniversalFailure H.L"
   },
   {
    "name": "MCore.Real.PNPHabitant.p_ne_np_of_habitant",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 37,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(H : PNP_Habitant) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPHabitant.pnp_habitant_gap_closes",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 48,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : PNP_HabitantGap) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPHabitant.pnp_habitant_gap_iff_separation_certificate",
    "file": "lean/MCore/Real/PNPHabitant.lean",
    "line": 54,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": PNP_HabitantGap ↔ Nonempty SeparationCertificate"
   },
   {
    "name": "MCore.Real.PNPNormativeRoot.material_producer_closes",
    "file": "lean/MCore/Real/PNPNormativeRoot.lean",
    "line": 32,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : MaterialProducerGap) : PneqNP"
   },
   {
@@ -2584,40 +2548,32 @@
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_certificate_closes_pneqnp",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 27,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(C : UnconditionalClaimCertificate) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_closes",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 38,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(h : UnconditionalClaimGap) : PneqNP"
   },
   {
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 44,
-   "state": "nao_alcancado",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": UnconditionalClaimGap ↔ P01TerminalGap ∧ CandidateCodingBridgeGap"
   },
   {
    "name": "MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff_minimal",
    "file": "lean/MCore/Real/PNPUnconditionalClaim.lean",
    "line": 54,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": UnconditionalClaimGap ↔ P01TerminalGap ∧ P02SemanticSelfEmbedding.SemanticSelfEmbeddingGap"
   },
   {
@@ -2637,7 +2593,7 @@
    "statement": "∀ {f : Nat.Partrec.Code → Nat.Partrec.Code}, Computable f → ∃ c, (f c).eval = c.eval"
   }
  ],
- "closed": 112,
+ "closed": 134,
  "files_sha256": {
   "external/p02-kleene-adapter/P02KleeneAdapter/Probe.lean": "3febae17c5f5bc400dc30e7cdc74f13cd620cba8b9d0052bcf4fb81dcd286a0e",
   "external/p02-kleene-adapter/lakefile.toml": "ee4fe2f8b68ee8b10033e4afcfeadc4c16e4212ca75adaa2082c58120da9416c",
@@ -2775,18 +2731,24 @@
   "lean/MCore/Real/P02CanonicalNormalization.lean": "b8d4e79963dab8320c6ffb268e56903fc48fe0bea357a0705c1c0d43b81fe265",
   "lean/MCore/Real/P02ClockedDiagonalCompiler.lean": "232a6f479d932397d08c92f92d7708a8947c27fcd6070d0a7fc1e05df18b8721",
   "lean/MCore/Real/P02DiagonalFrontier.lean": "c24b0b629057d3fda224f8d89ca0800778e60225be7d388e53f776de0042e04c",
+  "lean/MCore/Real/P02G21G22Attack.lean": "64a90f8b42e2d9679c5f721c7b6d472bd89456f84a4b0c219457ef109d7767a7",
+  "lean/MCore/Real/P02KleeneBridgeFrontier.lean": "a7f974e771a6417a78e82ab5f778a823b1dd695547f452a9fefbb8fb561787b9",
   "lean/MCore/Real/P02LiteralFixedPointCountermodel.lean": "ffb1406b2ce350e3d79245ef80777ba2d401cdd44cfdc0d182c8abaaa9450779",
   "lean/MCore/Real/P02LiteralFixedPointFirewall.lean": "821fa6474cf6652f0876a12788b1ee78bb9bea9cde364c703e85a294e08fd727",
   "lean/MCore/Real/P02LowerBoundProducer.lean": "2f69c3e7be6eb171016e1eb29166fc1577689a69d07535c4c7cfc6e8fbf75d84",
   "lean/MCore/Real/P02OpenMathClosure.lean": "b57944affa7ed76100400e41ac520f42b10b2339d65556af6e9035c21ca35a55",
   "lean/MCore/Real/P02SemanticSelfEmbedding.lean": "418495d70dd09b15c87a1d31b5ab4b60c0be1c5f4fdd98be88882a83da7cc0f6",
+  "lean/MCore/Real/P02SupportBundle.lean": "a098df56f14e594b160e7cfa4136bcbfb375916c9475a3a734ef0f13d1f4720e",
   "lean/MCore/Real/P02TerminalFrontier.lean": "0378ba007d2f7651fbcce19cef127353cb623bae737b843e0c5fea4b350a9c8f",
+  "lean/MCore/Real/P02TheoremEnablement.lean": "3e6c65c2a91df01b589f5e58172ba6e0fdab224cdf3e8c57ca717e60fdfaca21",
+  "lean/MCore/Real/PNPCanonicalHabitantStatus.lean": "76dc5c2adc8593985c254ecdedde323abe0483c1925db6ad4203fc11f2bda276",
   "lean/MCore/Real/PNPHabitant.lean": "83b82deb267b5fd7dc159020c0977bd427e8ad60316513f1496d3ede807a1683",
   "lean/MCore/Real/PNPNormativeRoot.lean": "1bf86697b4e7dd356c39761e1d2a26c9fa9c7b1b90690b05d07c961e02a95e04",
+  "lean/MCore/Real/PNPUnconditionalClaim.lean": "761017246e12f0c1e5a037a56e7ee5acf119970040f62a9fb4405d163b369528",
   "lean/MCore/Real/SATMachine.lean": "a1f14c3a19c2fdb9d856a8f529176b945c58991343bdb12e4b6192d65172fd7d",
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-05T17:43:03Z",
- "certificate_sha256": "cd8e584829451ae74858d07230e70f11d408470e10baa03378804e7550f50c39"
+ "published_at": "2026-11-09T23:12:59Z",
+ "certificate_sha256": "b10ec26acca4ad27d0775afab6246965185df87dede847a2b3afc3fc11001e6f"
 }

@@ -3,9 +3,9 @@
 Lean sources from the branch `atk/p02-a1-completeness-fast-20260925` of the private repository `ShantiDraconis/m-core-p-vs-np`, commit `0f4f92ec81889be20d318340327bf29ba8de8e54` (2026-09-25T22:30:00+01:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 927 — closed 854, conditional 0, open 24, proof error 23, not reached 17, no result 9.
+* Theorems only on branches, in this branch: 927 — closed 857, conditional 0, open 22, proof error 22, not reached 17, no result 9.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `40cf1d2ad9fd78dc831b895bd822d0e5c3be484924dced3f4e75a2fa9d49b4cf`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `e657c46835f7544ae73e73a26af4ae6fd52be39942047a0384429063abcc0dc4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

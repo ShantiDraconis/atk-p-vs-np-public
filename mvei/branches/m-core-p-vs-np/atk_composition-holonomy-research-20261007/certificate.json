@@ -43,7 +43,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -81,6 +81,6 @@
   "lean-toolchain": "55e97be96000b5e9e290c9e74482e5e317861499a5540353ce845471bded8cea",
   "lean/MCore/Research/PNP/SemanticHolonomy.lean": "322a7a0fea250041be5dee0ed40043c87c38bb6198f2a000cd1752bb02abbff2"
  },
- "published_at": "2026-11-05T17:43:20Z",
- "certificate_sha256": "6028316768a6fd4d670995f970ebc08829735911de53921ee6d2019576f3041b"
+ "published_at": "2026-11-09T23:13:18Z",
+ "certificate_sha256": "1d11d7ee8cee4023ba33263b4a9d36e1d77f5432c8e76d410f2909b894d56202"
 }

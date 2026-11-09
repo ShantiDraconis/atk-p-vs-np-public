@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -5096,20 +5096,16 @@
    "name": "MCore.Real.P01FullVerifierReverseDecoderGap.reverse_decoder_gap_closed_functionally",
    "file": "lean/MCore/Real/P01FullVerifierReverseDecoderGap.lean",
    "line": 57,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": ReverseDecoderGap"
   },
   {
    "name": "MCore.Real.P01FullVerifierReverseDecoderGap.reverse_decoder_length_from_correct",
    "file": "lean/MCore/Real/P01FullVerifierReverseDecoderGap.lean",
    "line": 27,
-   "state": "erro",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": "(R : ReverseDecoderCertificate) (phi : Circuit) : (R.scanReverse (encodeCircuit phi)).length <= (encodeCircuit phi).length"
   },
   {
@@ -5948,10 +5944,8 @@
    "name": "MCore.Real.P01T1DPhysicalAssembly.functional_decoder_available",
    "file": "lean/MCore/Real/P01T1DPhysicalAssembly.lean",
    "line": 29,
-   "state": "aberto-sorry",
-   "axioms_beyond_standard": [
-    "sorryAx"
-   ],
+   "state": "fechado",
+   "axioms_beyond_standard": [],
    "statement": ": ReverseDecoderGap"
   },
   {
@@ -9051,7 +9045,7 @@
    "statement": "(a b : ResidualState) (ha : a.residualMagnitude = 0) (hb : b.residualMagnitude = 0) (hphase : a.residualPhase = b.residualPhase) : sameResidualOrientation a b"
   }
  ],
- "closed": 854,
+ "closed": 857,
  "files_sha256": {
   "lake-manifest.json": "b32a0f59f0ac9408fa55d483e9c6c32ca4a6acdc41282f361044f79f51e56dfc",
   "lakefile.toml": "db486861aefca7da9a704a0d0863e617564f0e9cc20d300ec27c3fbd61e02763",
@@ -9274,6 +9268,6 @@
   "lean/MCore/Research/ResidualRotationAlgebra.lean": "9a65a5857493c85bc2becbfae9ce601b7afb37dca3e37f99d5df949784176b5b",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-05T17:43:03Z",
- "certificate_sha256": "40cf1d2ad9fd78dc831b895bd822d0e5c3be484924dced3f4e75a2fa9d49b4cf"
+ "published_at": "2026-11-09T23:12:59Z",
+ "certificate_sha256": "e657c46835f7544ae73e73a26af4ae6fd52be39942047a0384429063abcc0dc4"
 }

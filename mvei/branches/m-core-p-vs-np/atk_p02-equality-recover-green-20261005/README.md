@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-equality-recover-green-20261005` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e882c2ee3d02c56b213bf4a5edbe0272c5798e7e9c99aeaa01ce25f7e462f9f4`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-equality-recover-green-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `a30afdc873c28e6a0f813b680f2f18895798599a2c8e8a61e1b76d87ebd29dde`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-equality-recover-green-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

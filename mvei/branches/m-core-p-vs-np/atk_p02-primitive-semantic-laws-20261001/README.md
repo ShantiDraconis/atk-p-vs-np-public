@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-primitive-semantic-laws-20261001` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 16 — closed 10, conditional 0, open 2, proof error 4, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e03d190d744e46325b18b69d96ff8a1a2e7e57e3dd20e081baef460be32f1c91`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-primitive-semantic-laws-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `91570da7207538ad81cf157b8dc301d97f8fc8d72d5a42b4b88af1ae3f679c10`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-primitive-semantic-laws-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

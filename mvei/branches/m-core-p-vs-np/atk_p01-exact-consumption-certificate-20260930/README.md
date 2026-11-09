@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-exact-consumption-certificate-20260930` of
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 9 — closed 3, conditional 0, open 1, proof error 1, not reached 2, no result 2.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `43765a630af45a89f4d86a2d88668b062e19bc954c03707c015d84c223676f46`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-exact-consumption-certificate-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `2d46920990ea80030793d29f36cb8ddf5e8ae7179ac51ba5e946fb25519741fa`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-exact-consumption-certificate-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

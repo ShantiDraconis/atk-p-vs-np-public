@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-terminal-material-v2` of the private repos
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 17 — closed 13, conditional 0, open 3, proof error 1, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `5dea7df5f6ffd76319023af2f819a61436dd7075e95892daf43e8e3b0737e1b8`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-terminal-material-v2/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `b9c67a0b5357c52816a9cfa1ce9e07e32fb56fe7c3612079fabf7ff1fb3169d8`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-terminal-material-v2/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

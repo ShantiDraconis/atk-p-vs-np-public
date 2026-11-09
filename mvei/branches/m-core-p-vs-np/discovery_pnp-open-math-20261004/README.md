@@ -3,9 +3,9 @@
 Lean sources from the branch `discovery/pnp-open-math-20261004` of the private repository `ShantiDraconis/m-core-p-vs-np`, commit `28c6409811de8de219637e28082d5ba88387a098` (2026-10-04T23:45:53+02:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 385 — closed 78, conditional 0, open 76, proof error 1, not reached 230, no result 0.
+* Theorems only on branches, in this branch: 385 — closed 78, conditional 0, open 78, proof error 1, not reached 228, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e1e4630c5c49231f5416cfd63132d1a1d4a0fb6eda714339c345c98881829428`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/discovery_pnp-open-math-20261004/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `65368fcf35449882e0de38744e3e52704f19315405c1c713749f1b3398bee319`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/discovery_pnp-open-math-20261004/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -54,7 +54,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.Real.PNPDiscovery.canonicalClock_declaredAccepts_iff` | `lean/MCore/Real/PNPDiscovery/CanonicalClockNormalization.lean`:93 | aberto-sorry |
 | `MCore.Real.PNPDiscovery.canonicalClock_poly` | `lean/MCore/Real/PNPDiscovery/CanonicalClockNormalization.lean`:27 | aberto-sorry |
 | `MCore.Real.PNPDiscovery.canonicalClock_run_eq` | `lean/MCore/Real/PNPDiscovery/CanonicalClockNormalization.lean`:68 | aberto-sorry |
-| `MCore.Real.PNPDiscovery.canonicalSAT_orbit_succ` | `lean/MCore/Real/PNPDiscovery/OrbitArithmetic.lean`:57 | nao_alcancado |
+| `MCore.Real.PNPDiscovery.canonicalSAT_orbit_succ` | `lean/MCore/Real/PNPDiscovery/OrbitArithmetic.lean`:57 | aberto-sorry |
 | `MCore.Real.PNPDiscovery.classifyBit_cases` | `lean/MCore/Real/PNPDiscovery/BitRegionMap.lean`:166 | nao_alcancado |
 | `MCore.Real.PNPDiscovery.classifyClause_cases` | `lean/MCore/Real/PNPDiscovery/TableauRegionMap.lean`:169 | nao_alcancado |
 | `MCore.Real.PNPDiscovery.classify_sourceCellClause_right` | `lean/MCore/Real/PNPDiscovery/TableauRegionMap.lean`:109 | nao_alcancado |
@@ -270,7 +270,7 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.Real.PNPDiscovery.readCone_invisibility` | `lean/MCore/Real/PNPDiscovery/ReadCone.lean`:162 | aberto-sorry |
 | `MCore.Real.PNPDiscovery.readCone_plusOne_is_initialHead` | `lean/MCore/Real/PNPDiscovery/PlusOneSemanticsAudit.lean`:52 | aberto-sorry |
 | `MCore.Real.PNPDiscovery.reconstructor_closes_codec` | `lean/MCore/Real/PNPDiscovery/FiniteCandidateGodelWords.lean`:130 | fechado |
-| `MCore.Real.PNPDiscovery.reductionMap_eq_R_M` | `lean/MCore/Real/PNPDiscovery/OrbitArithmetic.lean`:17 | nao_alcancado |
+| `MCore.Real.PNPDiscovery.reductionMap_eq_R_M` | `lean/MCore/Real/PNPDiscovery/OrbitArithmetic.lean`:17 | aberto-sorry |
 | `MCore.Real.PNPDiscovery.reduction_has_initialStateEncodingPrefix` | `lean/MCore/Real/PNPDiscovery/EncodingSpine.lean`:83 | nao_alcancado |
 | `MCore.Real.PNPDiscovery.reduction_source_recoverable` | `lean/MCore/Real/PNPDiscovery/SourceBitOffsets.lean`:122 | nao_alcancado |
 | `MCore.Real.PNPDiscovery.reduction_stateHead_prefix_eq` | `lean/MCore/Real/PNPDiscovery/HeadBlockFrontier.lean`:81 | nao_alcancado |

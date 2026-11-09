@@ -5,7 +5,7 @@ Lean sources from the branch `copilot/worksat-realization-foundations` of the pr
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 22 — closed 2, conditional 0, open 11, proof error 4, not reached 0, no result 5.
 * History: 1 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `59fd60715d77b37f9ea632fb40e3c4382cf119b64f06dc535540afa8a2f8477e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/copilot_worksat-realization-foundations/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `d03dfad9bb042e65cac10e76dc065cea98a82750ea85b8ad23004aa692828d7f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/copilot_worksat-realization-foundations/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

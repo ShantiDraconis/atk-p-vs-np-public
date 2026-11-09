@@ -5,7 +5,7 @@ Lean sources from the branch `atk/g21-final-integration-clean-20260930` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 17 — closed 12, conditional 0, open 3, proof error 2, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `b4c07d08a0bd4bce67c16a8d8863efa0e91352d730d0eb521432657dfbd88d69`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_g21-final-integration-clean-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `79fb1ab3aa4227e74a8e650777bcfe50cdc7cc815e95659539fbcf90d6f84aa8`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_g21-final-integration-clean-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

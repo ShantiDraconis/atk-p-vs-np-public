@@ -5,7 +5,7 @@ Lean sources from the branch `atk/shared-multistate-signature-20260926` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 7 — closed 7, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 7 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `ea1f7abdfc872cc60f560f33f5f6527ecd6a03054b8cd0dd5bef372aaf3459c1`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_shared-multistate-signature-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `76e0f1610109312e8e19fd9815b8257666110cc593c45efe33d96f4fe74b6a8c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_shared-multistate-signature-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

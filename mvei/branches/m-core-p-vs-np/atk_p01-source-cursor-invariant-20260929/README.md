@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-source-cursor-invariant-20260929` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 5 — closed 5, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 12 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `d0f2b4984f419bc5e30b8855c3cedbaae33f75c1aad9111f77819879fe3a86fd`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-source-cursor-invariant-20260929/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `064a6ef6fad72831d42b93352526a6c93b59fbfd4ac6350940c18fc6748cd912`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-source-cursor-invariant-20260929/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -3,9 +3,9 @@
 Lean sources from the branch `atk/p01-real-neg-macro` of the private repository `ShantiDraconis/m-core-p-vs-np`, commit `167036b95b1cf424425ac90a2976a24160e8a4fb` (2026-09-26T23:01:55+01:00), that hold theorems found only on branches (no default branch of any repository has a theorem with the same name). Published here: the files with the theorems the kernel closed, the local files they import and the Lake files of their project.
 
 * Branch state: parada (not in the default branch).
-* Theorems only on branches, in this branch: 134 — closed 112, conditional 0, open 17, proof error 1, not reached 4, no result 0.
+* Theorems only on branches, in this branch: 134 — closed 134, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `cd8e584829451ae74858d07230e70f11d408470e10baa03378804e7550f50c39`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-real-neg-macro/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `b10ec26acca4ad27d0775afab6246965185df87dede847a2b3afc3fc11001e6f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-real-neg-macro/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
@@ -107,9 +107,9 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.Real.P01SourceCopyMachine.sourceCopy_first_false` | `lean/MCore/Real/P01SourceCopyMachine.lean`:114 | fechado |
 | `MCore.Real.P01SourceCopyMachine.sourceCopy_first_true` | `lean/MCore/Real/P01SourceCopyMachine.lean`:127 | fechado |
 | `MCore.Real.P01TerminalDelta.p01_terminal_gap_closes` | `lean/MCore/Real/P01TerminalDelta.lean`:57 | fechado |
-| `MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_p02` | `lean/MCore/Real/P02KleeneBridgeFrontier.lean`:63 | aberto-sorry |
-| `MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_semantic_self_embedding` | `lean/MCore/Real/P02KleeneBridgeFrontier.lean`:57 | aberto-sorry |
-| `MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_gap_iff_semantic_self_embedding_gap` | `lean/MCore/Real/P02KleeneBridgeFrontier.lean`:49 | aberto-sorry |
+| `MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_p02` | `lean/MCore/Real/P02KleeneBridgeFrontier.lean`:63 | fechado |
+| `MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_closes_semantic_self_embedding` | `lean/MCore/Real/P02KleeneBridgeFrontier.lean`:57 | fechado |
+| `MCore.Real.P02KleeneBridgeFrontier.candidate_coding_bridge_gap_iff_semantic_self_embedding_gap` | `lean/MCore/Real/P02KleeneBridgeFrontier.lean`:49 | fechado |
 | `MCore.Real.P02LowerBoundProducer.producer_gap_closes_internal_separation` | `lean/MCore/Real/P02LowerBoundProducer.lean`:65 | fechado |
 | `MCore.Real.P02LowerBoundProducer.producer_gap_closes_sat_fail` | `lean/MCore/Real/P02LowerBoundProducer.lean`:59 | fechado |
 | `MCore.Real.P02LowerBoundProducer.producer_gap_iff_sat_fail` | `lean/MCore/Real/P02LowerBoundProducer.lean`:74 | fechado |
@@ -122,26 +122,26 @@ Closed means the kernel accepted the proof and it depends only on `propext`, `Cl
 | `MCore.Real.P02OpenMathClosure.positiveLeft_produces_failure` | `lean/MCore/Real/P02OpenMathClosure.lean`:59 | fechado |
 | `MCore.Real.P02OpenMathClosure.positiveRight_produces_failure` | `lean/MCore/Real/P02OpenMathClosure.lean`:67 | fechado |
 | `MCore.Real.P02OpenMathClosure.true_true_impossible` | `lean/MCore/Real/P02OpenMathClosure.lean`:172 | fechado |
-| `MCore.Real.P02SupportBundle.support_bundle_closes_internal` | `lean/MCore/Real/P02SupportBundle.lean`:26 | aberto-sorry |
-| `MCore.Real.P02SupportBundle.support_bundle_gap_closes_p02` | `lean/MCore/Real/P02SupportBundle.lean`:44 | aberto-sorry |
-| `MCore.Real.P02SupportBundle.support_bundle_gap_enables_pneqnp` | `lean/MCore/Real/P02SupportBundle.lean`:50 | aberto-sorry |
-| `MCore.Real.P02SupportBundle.support_bundle_gap_iff_candidate_coding_bridge_gap` | `lean/MCore/Real/P02SupportBundle.lean`:36 | nao_alcancado |
-| `MCore.Real.P02TheoremEnablement.p02_activation_iff_candidate_coding_bridge` | `lean/MCore/Real/P02TheoremEnablement.lean`:45 | aberto-sorry |
-| `MCore.Real.P02TheoremEnablement.theorem_enablement_closes_pneqnp` | `lean/MCore/Real/P02TheoremEnablement.lean`:30 | nao_alcancado |
-| `MCore.Real.P02TheoremEnablement.theorem_enablement_gap_closes` | `lean/MCore/Real/P02TheoremEnablement.lean`:39 | aberto-sorry |
-| `MCore.Real.PNPCanonicalHabitantStatus.current_frontier_closes` | `lean/MCore/Real/PNPCanonicalHabitantStatus.lean`:42 | aberto-sorry |
-| `MCore.Real.PNPCanonicalHabitantStatus.p01_and_lower_bound_close_pneqnp` | `lean/MCore/Real/PNPCanonicalHabitantStatus.lean`:26 | aberto-sorry |
-| `MCore.Real.PNPHabitant.canonical_sat_habitant_closes` | `lean/MCore/Real/PNPHabitant.lean`:93 | erro |
+| `MCore.Real.P02SupportBundle.support_bundle_closes_internal` | `lean/MCore/Real/P02SupportBundle.lean`:26 | fechado |
+| `MCore.Real.P02SupportBundle.support_bundle_gap_closes_p02` | `lean/MCore/Real/P02SupportBundle.lean`:44 | fechado |
+| `MCore.Real.P02SupportBundle.support_bundle_gap_enables_pneqnp` | `lean/MCore/Real/P02SupportBundle.lean`:50 | fechado |
+| `MCore.Real.P02SupportBundle.support_bundle_gap_iff_candidate_coding_bridge_gap` | `lean/MCore/Real/P02SupportBundle.lean`:36 | fechado |
+| `MCore.Real.P02TheoremEnablement.p02_activation_iff_candidate_coding_bridge` | `lean/MCore/Real/P02TheoremEnablement.lean`:45 | fechado |
+| `MCore.Real.P02TheoremEnablement.theorem_enablement_closes_pneqnp` | `lean/MCore/Real/P02TheoremEnablement.lean`:30 | fechado |
+| `MCore.Real.P02TheoremEnablement.theorem_enablement_gap_closes` | `lean/MCore/Real/P02TheoremEnablement.lean`:39 | fechado |
+| `MCore.Real.PNPCanonicalHabitantStatus.current_frontier_closes` | `lean/MCore/Real/PNPCanonicalHabitantStatus.lean`:42 | fechado |
+| `MCore.Real.PNPCanonicalHabitantStatus.p01_and_lower_bound_close_pneqnp` | `lean/MCore/Real/PNPCanonicalHabitantStatus.lean`:26 | fechado |
+| `MCore.Real.PNPHabitant.canonical_sat_habitant_closes` | `lean/MCore/Real/PNPHabitant.lean`:93 | fechado |
 | `MCore.Real.PNPHabitant.canonical_sat_habitant_gap_iff` | `lean/MCore/Real/PNPHabitant.lean`:82 | fechado |
-| `MCore.Real.PNPHabitant.lower_bound_is_universal_failure` | `lean/MCore/Real/PNPHabitant.lean`:98 | aberto-sorry |
-| `MCore.Real.PNPHabitant.p_ne_np_of_habitant` | `lean/MCore/Real/PNPHabitant.lean`:37 | aberto-sorry |
-| `MCore.Real.PNPHabitant.pnp_habitant_gap_closes` | `lean/MCore/Real/PNPHabitant.lean`:48 | aberto-sorry |
-| `MCore.Real.PNPHabitant.pnp_habitant_gap_iff_separation_certificate` | `lean/MCore/Real/PNPHabitant.lean`:54 | aberto-sorry |
-| `MCore.Real.PNPNormativeRoot.material_producer_closes` | `lean/MCore/Real/PNPNormativeRoot.lean`:32 | aberto-sorry |
+| `MCore.Real.PNPHabitant.lower_bound_is_universal_failure` | `lean/MCore/Real/PNPHabitant.lean`:98 | fechado |
+| `MCore.Real.PNPHabitant.p_ne_np_of_habitant` | `lean/MCore/Real/PNPHabitant.lean`:37 | fechado |
+| `MCore.Real.PNPHabitant.pnp_habitant_gap_closes` | `lean/MCore/Real/PNPHabitant.lean`:48 | fechado |
+| `MCore.Real.PNPHabitant.pnp_habitant_gap_iff_separation_certificate` | `lean/MCore/Real/PNPHabitant.lean`:54 | fechado |
+| `MCore.Real.PNPNormativeRoot.material_producer_closes` | `lean/MCore/Real/PNPNormativeRoot.lean`:32 | fechado |
 | `MCore.Real.PNPNormativeRoot.material_producer_iff` | `lean/MCore/Real/PNPNormativeRoot.lean`:39 | fechado |
-| `MCore.Real.PNPUnconditionalClaim.unconditional_certificate_closes_pneqnp` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:27 | nao_alcancado |
-| `MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_closes` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:38 | aberto-sorry |
-| `MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:44 | nao_alcancado |
-| `MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff_minimal` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:54 | aberto-sorry |
+| `MCore.Real.PNPUnconditionalClaim.unconditional_certificate_closes_pneqnp` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:27 | fechado |
+| `MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_closes` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:38 | fechado |
+| `MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:44 | fechado |
+| `MCore.Real.PNPUnconditionalClaim.unconditional_claim_gap_iff_minimal` | `lean/MCore/Real/PNPUnconditionalClaim.lean`:54 | fechado |
 | `P02KleeneAdapter.kleene_second_recursion_probe` | `external/p02-kleene-adapter/P02KleeneAdapter/Probe.lean`:13 | fechado |
 | `P02KleeneAdapter.roger_fixed_point_probe` | `external/p02-kleene-adapter/P02KleeneAdapter/Probe.lean`:6 | fechado |

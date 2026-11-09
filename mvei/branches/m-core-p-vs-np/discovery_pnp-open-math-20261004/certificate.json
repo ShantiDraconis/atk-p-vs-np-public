@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1902,7 +1902,7 @@
    "name": "MCore.Real.PNPDiscovery.canonicalSAT_orbit_succ",
    "file": "lean/MCore/Real/PNPDiscovery/OrbitArithmetic.lean",
    "line": 57,
-   "state": "nao_alcancado",
+   "state": "aberto-sorry",
    "axioms_beyond_standard": [
     "sorryAx"
    ],
@@ -3886,7 +3886,7 @@
    "name": "MCore.Real.PNPDiscovery.reductionMap_eq_R_M",
    "file": "lean/MCore/Real/PNPDiscovery/OrbitArithmetic.lean",
    "line": 17,
-   "state": "nao_alcancado",
+   "state": "aberto-sorry",
    "axioms_beyond_standard": [
     "sorryAx"
    ],
@@ -5277,6 +5277,6 @@
   "lean/MCore/Real/TableauTemplate.lean": "896b6790a348549964e0592c45337ba188792241e8205787402896e75bf20c02",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-05T17:43:03Z",
- "certificate_sha256": "e1e4630c5c49231f5416cfd63132d1a1d4a0fb6eda714339c345c98881829428"
+ "published_at": "2026-11-09T23:12:59Z",
+ "certificate_sha256": "65368fcf35449882e0de38744e3e52704f19315405c1c713749f1b3398bee319"
 }

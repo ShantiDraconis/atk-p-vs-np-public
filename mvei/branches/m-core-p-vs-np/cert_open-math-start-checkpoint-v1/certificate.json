@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1719,6 +1719,6 @@
   "lean/MCore/Research/Prime2FractionalHorizon.lean": "a164a76f7660648cf07f817060e4e92da6d9cbdcaab5ab1d94398f91287a9ec1",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-05T17:43:14Z",
- "certificate_sha256": "18937e9541a14e0cb3a2b0f5891497f13867b62a860c072a0261c238975faf9d"
+ "published_at": "2026-11-09T23:13:11Z",
+ "certificate_sha256": "93cda1b6d8241d9ef526f29581f4f2ec3e7eab02a5d63f00547475a2427eb36b"
 }

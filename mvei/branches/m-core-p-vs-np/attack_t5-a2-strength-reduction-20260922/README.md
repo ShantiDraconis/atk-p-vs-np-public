@@ -5,7 +5,7 @@ Lean sources from the branch `attack/t5-a2-strength-reduction-20260922` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 289 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `32b8698b27c1b1e497e51049ccdf861868676370661d1787606dd3df56d4f890`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_t5-a2-strength-reduction-20260922/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `f92ab08546527b29842cb96e5b9aaaca340ad05bc3762f0f9e5822df4d98a207`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_t5-a2-strength-reduction-20260922/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

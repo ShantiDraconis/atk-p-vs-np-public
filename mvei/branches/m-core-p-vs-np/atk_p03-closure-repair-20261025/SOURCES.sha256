@@ -285,7 +285,9 @@ dcc3902183a4908c140f3d854f9f77e1273561637b4b1d4aff85701ff118e6f8  branches/m-cor
 573f6405a3721ae9eaac8cc8cab335efc171774fbbadcbb0d6920ace154da685  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03/OpenMath/RangeFailureLaw.lean
 df6ca3611b8738528a18d1e7d5929e163a102e3e56ef77757c06d0207459e3b6  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03/OpenMath/SATinP.lean
 82a28de397ff2a10ef81a0517fb2570d6b0c3873b0dc145eb7e101d32968c2d1  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03BoundedSourceUniqueAttack.lean
+2d68cd5729a7e4e064816325f405fff011eaf6bf8fa66644e757b4a5311420e3  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03ClosedMath.lean
 d299781b985562d76c4e726cea3c8ec3862aed4c645339e6eb5fada63276a041  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03ClosureClasses.lean
+6f5e407217ab35436d4d3458da10432f0f489833dba3dda53fce2467dd9ce603  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03ClosureKernel.lean
 1fb8b1af536e41c7390a7aef0ff6abe7b9f62f19b4c86cec572d159c32b6af76  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03ClosureLaws.lean
 85fd4f2fa348503c84237d17944aed1ff4dab4ee526c56d5f28adaef911eb25a  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03ClosureOperations.lean
 d166a4c9fa74ea2152f26962822f0bd5f5ffd4becda912e549dbebe5b2d89f4e  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03ClosureOperators.lean
@@ -301,6 +303,7 @@ c4850c3cc7ceaf5d45de07e12b93e1d17106466159deb34f7c070954e1a9fc36  branches/m-cor
 7241a64f63127fd5270a8fc6a9e92b8d3d9a82ea3afbc4bf542f04d09cbadaae  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03PolynomialWitness.lean
 f9c9933d5329b41c36a7710ea68eef16aa902644538fbe483e74d076986a1f49  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03RangeFailureFrontier.lean
 62b910ab09c434e3ef3cae6e0faa8ccabd043dcedf07ee890d4ca122156e5c34  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03TerminalSemanticBridge.lean
+29032d056afe37bf6d05d3abe850e0b02d4605ca11123cbe232ebdd36ef3a2a4  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03TransitionClosure.lean
 8e95ac3b086fd636cc3527b8682cbc67d827629f07db286a754d2b00657a61a2  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03TransitionSignature.lean
 48827577033b928598a912046bf6feef2031e036c1b0118a51d6e945382027a7  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P03UniformRangeDecoder.lean
 13290c3b4bc4132bc338db3427f3c4f176742a4ac76397fa67fa9b43f6e2ecc5  branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/lean/MCore/Real/P04_NavierStokes/Architecture.lean

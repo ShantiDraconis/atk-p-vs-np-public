@@ -1183,7 +1183,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-05T15:19:16+00:00",
+  "generated_at": "2026-11-06T00:22:08+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1264,6 +1264,6 @@
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-05T17:43:20Z",
- "certificate_sha256": "bd5dadfd98716136532a8cac5211fd267d37ea59e3a5f61eb83923c2a5e13132"
+ "published_at": "2026-11-09T23:13:17Z",
+ "certificate_sha256": "3a0d05272d17560567cdfd0d9016e0b9ef309680860e548056d063522a7b3a0b"
 }

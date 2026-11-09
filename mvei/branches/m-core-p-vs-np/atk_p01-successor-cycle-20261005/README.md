@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-successor-cycle-20261005` of the private r
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 67 — closed 65, conditional 0, open 0, proof error 2, not reached 0, no result 0.
 * History: 103 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `aade8b747eba7ceaf1e192e3f8398165e5e9ec0f0fe83381873a606f33871442`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-successor-cycle-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `9a2c0de2f6550f4d255f05011393222fab9f2e3ea5ad891609b6cb315757f9d2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-successor-cycle-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -4,10 +4,10 @@ Each row is a branch of a private repository of ShantiDraconis with theorems tha
 
 | Repository | Branch | Last commit | State | Closed / theorems only on branches | Files | Commits not in default | Certificate |
 |---|---|---|---|---:|---:|---:|---|
-| m-core-p-vs-np | `atk/p03-closure-repair-20261025` | 2026-10-25 | em andamento | 1847 / 2133 | 386 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/README.md) |
-| m-core-p-vs-np | `atk/p02-a1-completeness-fast-20260925` | 2026-09-25 | parada | 854 / 927 | 220 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/README.md) |
+| m-core-p-vs-np | `atk/p03-closure-repair-20261025` | 2026-10-25 | em andamento | 1896 / 2133 | 389 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p03-closure-repair-20261025/README.md) |
+| m-core-p-vs-np | `atk/p02-a1-completeness-fast-20260925` | 2026-09-25 | parada | 857 / 927 | 220 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p02-a1-completeness-fast-20260925/README.md) |
 | m-core-p-vs-np | `atk/p01-post-mincut-advance-20261001` | 2026-10-01 | parada | 169 / 169 | 183 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-post-mincut-advance-20261001/README.md) |
-| m-core-p-vs-np | `atk/p01-real-neg-macro` | 2026-09-26 | parada | 112 / 134 | 147 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-real-neg-macro/README.md) |
+| m-core-p-vs-np | `atk/p01-real-neg-macro` | 2026-09-26 | parada | 134 / 134 | 153 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_p01-real-neg-macro/README.md) |
 | m-core-p-vs-np | `atk/structural-fixed-point-20261006` | 2026-10-06 | parada | 112 / 126 | 184 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/atk_structural-fixed-point-20261006/README.md) |
 | m-core-p-vs-np | `cert/p012-full-lemma-suite-54b42c0e-run35841388703` | 2026-09-23 | parada | 84 / 112 | 98 | 106 | [certificate](../mvei/branches/m-core-p-vs-np/cert_p012-full-lemma-suite-54b42c0e-run35841388703/README.md) |
 | m-core-p-vs-np | `discovery/pnp-open-math-20261004` | 2026-10-04 | parada | 78 / 385 | 255 | 300 | [certificate](../mvei/branches/m-core-p-vs-np/discovery_pnp-open-math-20261004/README.md) |

@@ -5,7 +5,7 @@ Lean sources from the branch `atk-missing-material-types-20260930` of the privat
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 25 — closed 25, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 29 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `a24419e5649492855a422f0b7bb4d2b10283f898902572f1a716f360c3b71efc`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk-missing-material-types-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `952b08f16fceb35c6c27ce0c51802b798b258df201271d68e3fbb841eedd27ba`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk-missing-material-types-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-g2-counterexample-attack-20261006` of the 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 16 — closed 16, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `627492cbf8fd8f0b6dfd8186a7c5c4208c9fd72f2a7ee6bb6e857da6387bdc1e`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-g2-counterexample-attack-20261006/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `0574e3905d341e92310b7d5f22631f295ddcffee7bd749f897c8043fe7529ce0`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-g2-counterexample-attack-20261006/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

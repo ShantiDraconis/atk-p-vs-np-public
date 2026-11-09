@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-effective-bridge-bidirectional-20261001` o
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `dbae969e933871e9d90df2776ecbae8df56f6d2575f69353e1ad11b5c0f587da`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-effective-bridge-bidirectional-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `931e226a6b1e648239511b0e450984304584f21e807614c199d50df16df66fd5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-effective-bridge-bidirectional-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

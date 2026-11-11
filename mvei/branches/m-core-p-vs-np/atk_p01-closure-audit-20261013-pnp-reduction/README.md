@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-closure-audit-20261013-pnp-reduction` of t
 * Branch state: em andamento (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `423044f7c52f526a0317030e6ecc1bb6d48f4b51ce74bbd5aa7d1e4604e798a0`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-closure-audit-20261013-pnp-reduction/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `3fe78c5c1ac654a9206c6700ac6684607dac1b1ef9a5974e609efd74d3d57a00`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-closure-audit-20261013-pnp-reduction/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

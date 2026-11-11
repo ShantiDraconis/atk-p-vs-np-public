@@ -5,7 +5,7 @@ Lean sources from the branch `brain/ainum-indeterminacy-constant-v1` of the priv
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 4, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 5 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `3f2352334b01c56c17db8582617a8c884bf1aa384b72d6726eb638e3968f7baa`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/brain_ainum-indeterminacy-constant-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `b3675b13e66d03abe831d082d632beb47baa22613cee649510cffd2a8e966fa2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/brain_ainum-indeterminacy-constant-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

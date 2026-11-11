@@ -5,7 +5,7 @@ Lean sources from the branch `attack/elyon-v12-failclosed-criticism-20260922` of
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 11 — closed 11, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 154 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e79a6a75bf9273f33cff7553b16b6653b390494539413ed5db393b048a607fc0`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_elyon-v12-failclosed-criticism-20260922/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `65f12a5ddcf1fc7e09422265e5a25f86111109cf8a7538a2b207299891998812`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_elyon-v12-failclosed-criticism-20260922/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

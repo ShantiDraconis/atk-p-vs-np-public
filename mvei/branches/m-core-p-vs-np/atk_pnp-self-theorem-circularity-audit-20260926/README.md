@@ -5,7 +5,7 @@ Lean sources from the branch `atk/pnp-self-theorem-circularity-audit-20260926` o
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 5 — closed 1, conditional 0, open 0, proof error 4, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `0e2be8394be7e559d0e1a6e2c54c4fc9f5e2d98df3b1fc297983f593f65e49ed`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-self-theorem-circularity-audit-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `02e27ea0330a8947f815425754811f4ca4b58c5d6fa3f4ded28b12eefcf2a0ef`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-self-theorem-circularity-audit-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

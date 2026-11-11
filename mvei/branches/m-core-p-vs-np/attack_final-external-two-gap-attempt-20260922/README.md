@@ -5,7 +5,7 @@ Lean sources from the branch `attack/final-external-two-gap-attempt-20260922` of
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 3 — closed 3, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 268 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `c1105bbb170dbf0b6e13e36ae41112b9d5f1210dd3fe32ba04b6acb917ee4ea5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_final-external-two-gap-attempt-20260922/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `0c246dde294b5e148f970059ee7792eec925f371179002ab8f04727f8e2f6bb5`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_final-external-two-gap-attempt-20260922/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

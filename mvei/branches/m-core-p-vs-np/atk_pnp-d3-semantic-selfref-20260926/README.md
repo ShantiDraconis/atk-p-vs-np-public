@@ -5,7 +5,7 @@ Lean sources from the branch `atk/pnp-d3-semantic-selfref-20260926` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `01190b59dd444a043d6d293713669e78d6d6c01bf1bd06a89529d57a67a3e08c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-d3-semantic-selfref-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `adb4e75c2e22a1e8814988bd236347a4ed8abbeb876025c7b59385284bc20708`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-d3-semantic-selfref-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

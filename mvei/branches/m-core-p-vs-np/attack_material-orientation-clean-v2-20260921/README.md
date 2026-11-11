@@ -5,7 +5,7 @@ Lean sources from the branch `attack/material-orientation-clean-v2-20260921` of 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 78 — closed 78, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 168 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `73fae6bf03b6442e881d78fc4dfc342a754b3eeecfd083ce2b2a221efa276b59`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_material-orientation-clean-v2-20260921/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `c146abb74d926055ecbfed6720b35d6db8579f7aee2024a4b2450faaec4d18de`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/attack_material-orientation-clean-v2-20260921/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

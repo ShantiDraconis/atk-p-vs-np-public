@@ -33,7 +33,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -152,6 +152,6 @@
   "lean/MCore/Real/P01PreservingUnaryReadBoundary.lean": "b4dc340add6a62ab7237210891ce69a9d363834d86f7b1b8830d7a1abad63d6c",
   "lean/MCore/Real/P01PreservingUnaryReadMachine.lean": "08500cb5939cc0266948f8d672740da2a092121de03b4031ff49bc26c9116fe9"
  },
- "published_at": "2026-11-09T23:13:10Z",
- "certificate_sha256": "c44bf224c0bd74f1480b3c97f00ce5680140ed845f7655547a4df4126eab34e5"
+ "published_at": "2026-11-11T15:17:20Z",
+ "certificate_sha256": "79eec0b7699554c3d205d14bfd7cfa897c217560ec542683d53e5b3c870b5089"
 }

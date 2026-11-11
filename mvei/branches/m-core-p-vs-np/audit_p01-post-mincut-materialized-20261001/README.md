@@ -5,7 +5,7 @@ Lean sources from the branch `audit/p01-post-mincut-materialized-20261001` of th
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 8 — closed 4, conditional 0, open 0, proof error 2, not reached 2, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `4adc2646d0b0512c52cfdbcfbec85e93ec6afea78faed3d5056b6b2fb5cd8c79`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/audit_p01-post-mincut-materialized-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `57319aad50dd9a4aca69a480469de02b46569a840d667984681d87af77642fab`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/audit_p01-post-mincut-materialized-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-raw-mincut-20260930` of the private reposi
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 4 — closed 1, conditional 0, open 2, proof error 1, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `ce9cf3fb2561d045b44ec5d1d61344fa6a280e1b637d28986dd013e068ce1994`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-raw-mincut-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `dac432efdada34ccdd644b673af2bf93f3970f0e266bbe59b9ad74ad9130bd5b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-raw-mincut-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

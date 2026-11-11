@@ -5,7 +5,7 @@ Lean sources from the branch `cert/final-fail-external-815dfb08-run35722796449` 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 1 — closed 1, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 238 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `e9848b00405da5f502f306a04f5a596d406cebc9ce27f097f64e1220bf243e81`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/cert_final-fail-external-815dfb08-run35722796449/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `83736260c708a3fcec4607627dbe04e845e473653ca376fa4f2864d4a82d8c4b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/cert_final-fail-external-815dfb08-run35722796449/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

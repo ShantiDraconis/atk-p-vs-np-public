@@ -5,7 +5,7 @@ Lean sources from the branch `cert/p012-full-lemma-suite-54b42c0e-run35841388703
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 112 — closed 84, conditional 0, open 14, proof error 9, not reached 5, no result 0.
 * History: 106 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `295f4dbea6c7ac744c4869fc8e97ff74bbfd4d6471aa34839f89825d8d88d16d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/cert_p012-full-lemma-suite-54b42c0e-run35841388703/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `fe77324a5e6e52aa7785517889c1d49414e414cc710eefd81a8f24021115138c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/cert_p012-full-lemma-suite-54b42c0e-run35841388703/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

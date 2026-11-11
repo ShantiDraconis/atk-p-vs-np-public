@@ -1508,7 +1508,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -19341,6 +19341,6 @@
   "lean/P02/LANE4/StructuralClosure.lean": "1253b5af17004aadc624bce8a54f2e52fce7e7c1c153d714a91fe2a0c4141f40",
   "lean/P02/LANE4/StructureBundle.lean": "dae0d48dcb303d77139fe100bb459a3c18b96548ea57eb0bcb59970a3aa2503d"
  },
- "published_at": "2026-11-09T23:12:59Z",
- "certificate_sha256": "4dd355714b0592ce3fe7d5e7e17c633ddb12cf94112d5811ff95646cbd129598"
+ "published_at": "2026-11-11T15:17:10Z",
+ "certificate_sha256": "8dfe5ac8445310245bdec9a6a7ed3eaf852cf2791300ad30f254a8288f9da519"
 }

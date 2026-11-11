@@ -5,7 +5,7 @@ Lean sources from the branch `atk/pnp-kleene-sat-bridge-20260926` of the private
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `a718fe38511e61850d78b3965e64cd93b42b896569b0abb9dd21d61dafd85bfc`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-kleene-sat-bridge-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `1c24d9d8671abbc42c5cd10d1ef5e80c04b4868b324524bf55964ace964cc137`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_pnp-kleene-sat-bridge-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

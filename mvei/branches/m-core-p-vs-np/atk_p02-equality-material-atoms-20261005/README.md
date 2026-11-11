@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-equality-material-atoms-20261005` of the p
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 7 — closed 5, conditional 0, open 0, proof error 0, not reached 2, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `44523ae047e4bdc25b0f7a7ea4f8f8c46f30aeea256482a1e238d9c770070650`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-equality-material-atoms-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `6b35e19d30a4efa4f1eba2fb354cffa556150d49d5a07b676c9480f804b89d9a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-equality-material-atoms-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

@@ -423,7 +423,7 @@
   }
  ],
  "verification": {
-  "generated_at": "2026-11-06T00:22:08+00:00",
+  "generated_at": "2026-11-10T04:38:10+00:00",
   "lean": [
    "leanprover/lean4:v4.19.0"
   ],
@@ -1010,6 +1010,6 @@
   "lean/MCore/Real/Semantics.lean": "16a611cda0d8052d76aaf722a1f0fa48c980aa9f8f7ae688d00494c0794cbf2f",
   "lean/MCore/Signature.lean": "8bc546e078ebe4a1e95d478645f3e75bf82a2d972cb82fe96ac71ccfa7aecde9"
  },
- "published_at": "2026-11-09T23:13:00Z",
- "certificate_sha256": "17a89637d188f4e64b68eb8ff96eb2d6e93c08ce265a83064a98f7a8bf313599"
+ "published_at": "2026-11-11T15:17:12Z",
+ "certificate_sha256": "0e25889fe5cf8eb70c7e3f136379e1bc500e6ef42ad24a789502d9d7d719ae4a"
 }

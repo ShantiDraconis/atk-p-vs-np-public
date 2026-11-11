@@ -5,7 +5,7 @@ Lean sources from the branch `work/C9-two-channel-bridge` of the private reposit
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 29 — closed 6, conditional 0, open 6, proof error 6, not reached 11, no result 0.
 * History: 9 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `68693a55971ae7a10f30572e61a32885ca4130ef1ab61b0b7ec83ebc58fb6d95`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/work_C9-two-channel-bridge/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `319b3cbbcc24a10436895b6bca09f95221d626c5e8e8f45fb63efe2ec3b3de53`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/work_C9-two-channel-bridge/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

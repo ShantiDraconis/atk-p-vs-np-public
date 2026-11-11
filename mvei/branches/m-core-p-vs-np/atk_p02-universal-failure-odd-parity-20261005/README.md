@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-universal-failure-odd-parity-20261005` of 
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `96b2d754992d5ef01ac846d1646fc6d8f08cae4b7a0e7a51a2f1c83e84f33c68`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-universal-failure-odd-parity-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `f55a6e0e0b21d3e0490bfc2801d2d1efb315fa5bd38517bf798762ca8764640f`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-universal-failure-odd-parity-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

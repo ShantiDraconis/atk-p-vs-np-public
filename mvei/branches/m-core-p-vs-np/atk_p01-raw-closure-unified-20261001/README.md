@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-raw-closure-unified-20261001` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 13 — closed 5, conditional 0, open 2, proof error 0, not reached 6, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `701bf250e57ae6470e38cc56013d7ba30df30a1f41bd8b1934a33f2ec155e71a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-raw-closure-unified-20261001/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `87e1ef57f6a05d7ffb6884892479e9d45e12161813e2f2ede100a5bae13da09d`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-raw-closure-unified-20261001/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

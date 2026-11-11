@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p02-g2-universal-failure-material-20261005` of
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 15 — closed 15, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `62f48734c73d38aa5597466131a40fb6a9c68eda7078f057f2fb5804efea777b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-g2-universal-failure-material-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `b928ceb00e081bd460a4944feca7b5a7f5316409d4bc7d8506b2a295a31f0a1c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p02-g2-universal-failure-material-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

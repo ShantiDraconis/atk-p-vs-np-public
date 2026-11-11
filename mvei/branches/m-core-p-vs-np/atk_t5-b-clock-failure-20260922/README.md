@@ -5,7 +5,7 @@ Lean sources from the branch `atk/t5-b-clock-failure-20260922` of the private re
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 291 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `bddb4643e3b62bd65245b349c38cb86210f79777e3c295259f52382290c73f04`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_t5-b-clock-failure-20260922/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `095f56f8c4951159466f4f4dbc451226d42d64bf7c159430814e27d853634f20`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_t5-b-clock-failure-20260922/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

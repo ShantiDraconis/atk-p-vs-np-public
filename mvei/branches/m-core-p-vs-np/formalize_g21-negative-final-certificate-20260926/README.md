@@ -5,7 +5,7 @@ Lean sources from the branch `formalize/g21-negative-final-certificate-20260926`
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 2 — closed 2, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 235 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `3a0d05272d17560567cdfd0d9016e0b9ef309680860e548056d063522a7b3a0b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/formalize_g21-negative-final-certificate-20260926/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `793ef73ed00672d69da8ca668f43c360c051e869a964cffd56f90e587d052916`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/formalize_g21-negative-final-certificate-20260926/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

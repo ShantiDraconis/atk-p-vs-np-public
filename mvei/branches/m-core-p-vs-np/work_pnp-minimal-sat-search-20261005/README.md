@@ -5,7 +5,7 @@ Lean sources from the branch `work/pnp-minimal-sat-search-20261005` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 58 — closed 45, conditional 0, open 4, proof error 3, not reached 6, no result 0.
 * History: 83 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `17a89637d188f4e64b68eb8ff96eb2d6e93c08ce265a83064a98f7a8bf313599`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/work_pnp-minimal-sat-search-20261005/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `0e25889fe5cf8eb70c7e3f136379e1bc500e6ef42ad24a789502d9d7d719ae4a`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/work_pnp-minimal-sat-search-20261005/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

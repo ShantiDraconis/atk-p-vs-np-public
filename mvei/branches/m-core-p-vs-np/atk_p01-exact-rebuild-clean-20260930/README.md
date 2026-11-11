@@ -5,7 +5,7 @@ Lean sources from the branch `atk/p01-exact-rebuild-clean-20260930` of the priva
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 39 — closed 19, conditional 0, open 2, proof error 1, not reached 17, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `d656ca002e4c7d48e3aa9bc466fb74a32ae1ff7e424734ad0732c20e37b38e2c`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-exact-rebuild-clean-20260930/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `56577a5e69cf44fcf3a3d00f5ad2ad6ab351652eaf950ff516ae44b7298de1f2`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/atk_p01-exact-rebuild-clean-20260930/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 

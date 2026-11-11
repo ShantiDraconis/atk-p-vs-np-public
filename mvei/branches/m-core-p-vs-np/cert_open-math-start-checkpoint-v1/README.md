@@ -5,7 +5,7 @@ Lean sources from the branch `cert/open-math-start-checkpoint-v1` of the private
 * Branch state: parada (not in the default branch).
 * Theorems only on branches, in this branch: 7 — closed 7, conditional 0, open 0, proof error 0, not reached 0, no result 0.
 * History: 300 commit(s) of this branch that are not in the default branch, with date and subject, in `certificate.json`.
-* `certificate.json` (SHA-256 of its content: `93cda1b6d8241d9ef526f29581f4f2ec3e7eab02a5d63f00547475a2427eb36b`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/cert_open-math-start-checkpoint-v1/SOURCES.sha256`.
+* `certificate.json` (SHA-256 of its content: `dbadffb8c9bb1dc6bb6fcd9dfb2a73b6527f50ece023ffcd1767ac1dd70b6988`) lists every theorem with its state and the axioms beyond the standard three, and the SHA-256 of every published file. From the repository root: `sha256sum -c mvei/branches/m-core-p-vs-np/cert_open-math-start-checkpoint-v1/SOURCES.sha256`.
 
 Closed means the kernel accepted the proof and it depends only on `propext`, `Classical.choice` and `Quot.sound`; it proves the statement written in the file and is not a claim that an open problem is solved.
 
